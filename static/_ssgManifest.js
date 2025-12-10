@@ -1,0 +1,22 @@
+self.__SSG_MANIFEST = new Set([
+  "\u002F",
+  "\u002F404",
+  "\u002Faccount",
+  "\u002Faccount\u002Frewards",
+  "\u002Faccount\u002Fsettings",
+  "\u002Faccount\u002Fsurveys",
+  "\u002Faccount\u002Fsurveys\u002F[survey]",
+  "\u002Fchallenge-tomb",
+  "\u002Fdata-deletion",
+  "\u002Fforgot-password",
+  "\u002Flara-croft",
+  "\u002Flegal\u002Fcookies",
+  "\u002Flogin",
+  "\u002Fnews\u002F[category]",
+  "\u002Fnews\u002F[category]\u002F[article]",
+  "\u002Fproducts\u002F[category]",
+  "\u002Fproducts\u002F[category]\u002F[title]",
+  "\u002Fregistration",
+  "\u002Freset-password",
+]);
+self.__SSG_MANIFEST_CB && self.__SSG_MANIFEST_CB();
