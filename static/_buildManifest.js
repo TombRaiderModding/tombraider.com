@@ -15,7 +15,7 @@
   l,
   k,
   h,
-  b,
+  j,
 ) {
   return {
     __rewrites: { afterFiles: [], beforeFiles: [], fallback: [] },
@@ -168,7 +168,7 @@
       t,
       r,
       g,
-      b,
+      j,
       e,
       n,
       i,
@@ -194,11 +194,11 @@
       r,
       g,
       l,
-      b,
+      j,
       e,
       n,
       i,
-      "static/chunks/pages/products/[category]/[title]-bc20272afa6a0858.js",
+      "static/chunks/pages/products/[category]/[title]-365d7dd3db6072e4.js",
     ],
     "/registration": [
       c,

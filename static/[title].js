@@ -772,11 +772,9 @@
                               (0, s.jsx)(m.Z, {
                                 ref: d,
                                 url: null == e ? void 0 : e.fields.videoUrl,
-                                loop: !0,
+                                controls: !0,
                                 width: "100%",
                                 height: "100%",
-                                controls: !1,
-                                volume: 0,
                                 playing: x && n && p,
                                 style: { display: p ? "block" : "none" },
                               })
