@@ -90,7 +90,7 @@
       f,
       e,
       n,
-      "static/chunks/pages/challenge-tomb-090ffe73bbc5997b.js",
+      "static/chunks/pages/challenge-tomb-8e12c854b268f524.js",
     ],
     "/data-deletion": [
       c,
@@ -99,7 +99,7 @@
       t,
       e,
       n,
-      "static/chunks/pages/data-deletion-5ecb0652232dd909.js",
+      "static/chunks/pages/data-deletion-1a3478d8659c79ea.js",
     ],
     "/external/legal/privacy": [
       "static/chunks/pages/external/legal/privacy-15369319ef82eb1f.js",
@@ -126,7 +126,7 @@
       l,
       e,
       n,
-      "static/chunks/pages/lara-croft-3b77efa16c4d69b7.js",
+      "static/chunks/pages/lara-croft-7de24281702e3fe9.js",
     ],
     "/legal/cookies": [
       c,
@@ -135,7 +135,7 @@
       t,
       e,
       n,
-      "static/chunks/pages/legal/cookies-719f3e0b565cb62d.js",
+      "static/chunks/pages/legal/cookies-533b4fb38088990f.js",
     ],
     "/login": [
       c,
@@ -184,7 +184,7 @@
       "static/chunks/703-0a074dbf1a00a26c.js",
       e,
       n,
-      "static/chunks/pages/products/[category]-9101de61361024ea.js",
+      "static/chunks/pages/products/[category]-db27a61092e57da7.js",
     ],
     "/products/[category]/[title]": [
       c,
@@ -256,7 +256,7 @@
   "static/chunks/34-4c2b7cfc9c01960a.js",
   "static/chunks/806-775f68f4c91d7f04.js",
   "static/chunks/658-a9453ae348cc5c01.js",
-  "static/chunks/702-8aa49f0bf8086f44.js",
+  "static/chunks/702-f072d0fad7463c8e.js",
   "static/chunks/542-f8ed44a391429795.js",
   "static/chunks/696-537edb808a921847.js",
   "static/chunks/61b25d16-36725dc4100f080d.js",

@@ -156,15 +156,15 @@
         i(r(43406), t),
         i(r(54076), t),
         i(r(44611), t));
-      var h = r(62949);
+      var u = r(62949);
       Object.defineProperty(t, "EMPTY_DOCUMENT", {
         enumerable: !0,
         get: function () {
-          return a(h).default;
+          return a(u).default;
         },
       });
-      var u = n(r(31834));
-      t.helpers = u;
+      var h = n(r(31834));
+      t.helpers = h;
     },
     81173: function (e, t) {
       "use strict";
@@ -375,11 +375,11 @@
             c = r.n(a),
             l = r(2300),
             d = r(7365),
-            h = r(91806),
-            u = e([l, h]);
+            u = r(91806),
+            h = e([l, u]);
           function Footer(e) {
             var t, r, o;
-            let { websiteSingleton: i, navItems: a, footerSocialLinks: u } = e,
+            let { websiteSingleton: i, navItems: a, footerSocialLinks: h } = e,
               { isLoggedIn: f, shopifyUrl: p } = (0, l.S)(),
               g = a.filter(
                 (e) => e.showInFooter && !(f && e.hideForLoggedInUsers),
@@ -395,7 +395,7 @@
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
                     (0, s.jsx)(n(), {
-                      src: (0, h.Wx)(
+                      src: (0, u.Wx)(
                         null === (r = i.footerLogo) || void 0 === r
                           ? void 0
                           : null === (t = r.fields.file) || void 0 === t
@@ -404,7 +404,7 @@
                       ),
                       width: 248,
                       height: 248,
-                      alt: (0, h.Wx)(
+                      alt: (0, u.Wx)(
                         null === (o = i.footerLogo) || void 0 === o
                           ? void 0
                           : o.fields.description,
@@ -433,6 +433,18 @@
                           className: "cursor-pointer",
                           children: "Accessibility",
                         }),
+                        (0, s.jsx)("span", {
+                          className: "cursor-pointer",
+                          onClick: () => {
+                            var e;
+                            return null === (e = window.OneTrust) ||
+                              void 0 === e
+                              ? void 0
+                              : e.ToggleInfoDisplay();
+                          },
+                          children:
+                            "Do Not Sell or Share My Personal Information",
+                        }),
                       ],
                     }),
                   ],
@@ -447,14 +459,14 @@
                     }),
                     (0, s.jsx)("div", {
                       className: "flex items-center space-x-4 text-white",
-                      children: u.map((e) => {
+                      children: h.map((e) => {
                         var t, r, o, i;
                         return (0, s.jsx)(
                           d.Z,
                           {
                             href: e.link,
                             children: (0, s.jsx)(n(), {
-                              src: (0, h.Wx)(
+                              src: (0, u.Wx)(
                                 null === (r = e.icon) || void 0 === r
                                   ? void 0
                                   : null === (t = r.fields.file) || void 0 === t
@@ -505,7 +517,7 @@
               ],
             });
           }
-          (([l, h] = u.then ? (await u)() : u), o());
+          (([l, u] = h.then ? (await h)() : h), o());
         } catch (e) {
           o(e);
         }
@@ -969,16 +981,16 @@
                             : 0 === d && (l = 0));
                       break;
                     }
-                    var h = e.charCodeAt(o + d);
-                    if (h !== r.charCodeAt(n + d)) break;
-                    47 === h && (l = d);
+                    var u = e.charCodeAt(o + d);
+                    if (u !== r.charCodeAt(n + d)) break;
+                    47 === u && (l = d);
                   }
-                  var u = "";
+                  var h = "";
                   for (d = o + l + 1; d <= s; ++d)
                     (d === s || 47 === e.charCodeAt(d)) &&
-                      (0 === u.length ? (u += "..") : (u += "/.."));
-                  return u.length > 0
-                    ? u + r.slice(n + l)
+                      (0 === h.length ? (h += "..") : (h += "/.."));
+                  return h.length > 0
+                    ? h + r.slice(n + l)
                     : ((n += l), 47 === r.charCodeAt(n) && ++n, r.slice(n));
                 },
                 _makeLong: function (e) {

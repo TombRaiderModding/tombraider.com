@@ -3,38 +3,38 @@
   [702],
   {
     7365: function (e, t, l) {
-      var i = l(97458),
-        r = l(10821),
-        o = l.n(r);
+      var r = l(97458),
+        i = l(10821),
+        o = l.n(i);
       t.Z = (e) => {
-        let { href: t, children: l, className: r, ...a } = e,
+        let { href: t, children: l, className: i, ...a } = e,
           n = "string" == typeof t && t.startsWith("http");
         return n
-          ? (0, i.jsx)("a", {
+          ? (0, r.jsx)("a", {
               href: t,
               target: "_blank",
               rel: "noopener noreferrer",
-              className: r,
+              className: i,
               ...a,
               children: l,
             })
-          : (0, i.jsx)(o(), {
+          : (0, r.jsx)(o(), {
               legacyBehavior: !0,
               href: t,
               ...a,
-              children: (0, i.jsx)("a", { className: r, children: l }),
+              children: (0, r.jsx)("a", { className: i, children: l }),
             });
       };
     },
     99915: function (e, t, l) {
-      l.a(e, async function (e, i) {
+      l.a(e, async function (e, r) {
         try {
           l.d(t, {
             Z: function () {
               return Footer;
             },
           });
-          var r = l(97458),
+          var i = l(97458),
             o = l(47681),
             a = l.n(o),
             n = l(10821),
@@ -44,7 +44,7 @@
             u = l(91806),
             h = e([c, u]);
           function Footer(e) {
-            var t, l, i;
+            var t, l, r;
             let { websiteSingleton: o, navItems: n, footerSocialLinks: h } = e,
               { isLoggedIn: f, shopifyUrl: p } = (0, c.S)(),
               g = n.filter(
@@ -53,14 +53,14 @@
               x = n.filter(
                 (e) => e.showInSubFooter && !(f && e.hideForLoggedInUsers),
               );
-            return (0, r.jsxs)("div", {
+            return (0, i.jsxs)("div", {
               className: "relative w-full bg-black px-8 text-white lg:px-32",
               children: [
-                (0, r.jsxs)("div", {
+                (0, i.jsxs)("div", {
                   className:
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
-                    (0, r.jsx)(a(), {
+                    (0, i.jsx)(a(), {
                       src: (0, u.Wx)(
                         null === (l = o.footerLogo) || void 0 === l
                           ? void 0
@@ -71,13 +71,13 @@
                       width: 248,
                       height: 248,
                       alt: (0, u.Wx)(
-                        null === (i = o.footerLogo) || void 0 === i
+                        null === (r = o.footerLogo) || void 0 === r
                           ? void 0
-                          : i.fields.description,
+                          : r.fields.description,
                       ),
                       className: "h-auto w-40",
                     }),
-                    (0, r.jsxs)("div", {
+                    (0, i.jsxs)("div", {
                       className:
                         "flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg text-darkgray-500 ",
                       children: [
@@ -87,39 +87,51 @@
                             e.shouldReplaceWithGeneratedShopLink &&
                               p &&
                               (t = p),
-                            (0, r.jsx)(
+                            (0, i.jsx)(
                               s(),
                               { href: t, children: e.name },
                               e.link + e.name,
                             )
                           );
                         }),
-                        (0, r.jsx)("span", {
+                        (0, i.jsx)("span", {
                           id: "accessibilityWidget",
                           className: "cursor-pointer",
                           children: "Accessibility",
+                        }),
+                        (0, i.jsx)("span", {
+                          className: "cursor-pointer",
+                          onClick: () => {
+                            var e;
+                            return null === (e = window.OneTrust) ||
+                              void 0 === e
+                              ? void 0
+                              : e.ToggleInfoDisplay();
+                          },
+                          children:
+                            "Do Not Sell or Share My Personal Information",
                         }),
                       ],
                     }),
                   ],
                 }),
-                (0, r.jsxs)("div", {
+                (0, i.jsxs)("div", {
                   className:
                     "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
                   children: [
-                    (0, r.jsx)("div", {
+                    (0, i.jsx)("div", {
                       className: "text-center text-darkgray-500",
                       children: o.footerCopyright,
                     }),
-                    (0, r.jsx)("div", {
+                    (0, i.jsx)("div", {
                       className: "flex items-center space-x-4 text-white",
                       children: h.map((e) => {
-                        var t, l, i, o;
-                        return (0, r.jsx)(
+                        var t, l, r, o;
+                        return (0, i.jsx)(
                           d.Z,
                           {
                             href: e.link,
-                            children: (0, r.jsx)(a(), {
+                            children: (0, i.jsx)(a(), {
                               src: (0, u.Wx)(
                                 null === (l = e.icon) || void 0 === l
                                   ? void 0
@@ -130,9 +142,9 @@
                               alt:
                                 null !==
                                   (o =
-                                    null === (i = e.icon) || void 0 === i
+                                    null === (r = e.icon) || void 0 === r
                                       ? void 0
-                                      : i.fields.description) && void 0 !== o
+                                      : r.fields.description) && void 0 !== o
                                   ? o
                                   : "",
                               width: 20,
@@ -145,21 +157,21 @@
                     }),
                   ],
                 }),
-                (0, r.jsx)("div", { className: "h-[1px] bg-gray-500" }),
-                (0, r.jsxs)("div", {
+                (0, i.jsx)("div", { className: "h-[1px] bg-gray-500" }),
+                (0, i.jsxs)("div", {
                   className:
                     "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row ",
                   children: [
-                    (0, r.jsx)("p", {
+                    (0, i.jsx)("p", {
                       className:
                         "max-w-[1000px] text-center text-sm text-darkgray-300 lg:text-left",
                       children: o.footerLegalNotice,
                     }),
-                    (0, r.jsx)("div", {
+                    (0, i.jsx)("div", {
                       className:
                         "flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 text-darkgray-500 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
                       children: x.map((e) =>
-                        (0, r.jsx)(
+                        (0, i.jsx)(
                           "a",
                           { href: e.link, children: e.name },
                           e.link + e.name,
@@ -171,9 +183,9 @@
               ],
             });
           }
-          (([c, u] = h.then ? (await h)() : h), i());
+          (([c, u] = h.then ? (await h)() : h), r());
         } catch (e) {
-          i(e);
+          r(e);
         }
       });
     },
@@ -183,14 +195,14 @@
           return HeroTransition;
         },
       });
-      var i = l(97458),
-        r = l(47681),
-        o = l.n(r);
+      var r = l(97458),
+        i = l(47681),
+        o = l.n(i);
       function HeroTransition() {
-        return (0, i.jsx)("div", {
+        return (0, r.jsx)("div", {
           className:
             "pointer-events-none absolute bottom-0 left-0 w-full translate-y-1/4",
-          children: (0, i.jsx)(o(), {
+          children: (0, r.jsx)(o(), {
             width: 1920,
             height: 483,
             className: "w-full object-cover object-top",
@@ -201,14 +213,14 @@
       }
     },
     17789: function (e, t, l) {
-      l.a(e, async function (e, i) {
+      l.a(e, async function (e, r) {
         try {
           l.d(t, {
             Z: function () {
               return NewsItem;
             },
           });
-          var r = l(97458),
+          var i = l(97458),
             o = l(47681),
             a = l.n(o),
             n = l(10821),
@@ -217,9 +229,9 @@
             d = l(91806),
             u = e([d]);
           function NewsItem(e) {
-            var t, l, i, o, n, u, h, f, p;
+            var t, l, r, o, n, u, h, f, p;
             let { item: g, onClick: x = () => {} } = e;
-            return (0, r.jsx)(s(), {
+            return (0, i.jsx)(s(), {
               onClick: x,
               href: "/news/"
                 .concat(
@@ -231,20 +243,20 @@
                   "/",
                 )
                 .concat(g.slug),
-              children: (0, r.jsxs)("div", {
+              children: (0, i.jsxs)("div", {
                 className:
                   "group flex h-full grow flex-col bg-white shadow-lg duration-[0.3s] lg:bg-transparent lg:shadow-none lg:hover:bg-white lg:hover:shadow-lg",
                 children: [
-                  (0, r.jsxs)("div", {
+                  (0, i.jsxs)("div", {
                     className: "relative w-full overflow-hidden",
                     children: [
-                      (0, r.jsx)(a(), {
+                      (0, i.jsx)(a(), {
                         alt: "".concat(
                           (null === (o = g.headerImage) || void 0 === o
                             ? void 0
-                            : null === (i = o.fields) || void 0 === i
+                            : null === (r = o.fields) || void 0 === r
                               ? void 0
-                              : i.description) || "",
+                              : r.description) || "",
                         ),
                         className:
                           "aspect-[3/2] w-full object-cover transition-all duration-500 group-hover:scale-105",
@@ -260,14 +272,14 @@
                         width: 500,
                         height: 500,
                       }),
-                      (0, r.jsx)(a(), {
+                      (0, i.jsx)(a(), {
                         alt: "blog card image gradient",
                         fill: !0,
                         className:
                           "absolute left-0 top-0 h-full w-full object-cover",
                         src: "/images/blog-card-image-gradient.svg",
                       }),
-                      (0, r.jsx)(a(), {
+                      (0, i.jsx)(a(), {
                         alt: "top left bracket",
                         width: 48,
                         height: 48,
@@ -275,7 +287,7 @@
                           "absolute -left-4 -top-4 duration-200 group-hover:left-2 group-hover:top-2",
                         src: "/images/top-left-bracket.svg",
                       }),
-                      (0, r.jsx)(a(), {
+                      (0, i.jsx)(a(), {
                         alt: "bottom right bracket",
                         width: 48,
                         height: 48,
@@ -283,7 +295,7 @@
                           "absolute -bottom-4 -right-4 duration-200 group-hover:bottom-2 group-hover:right-2",
                         src: "/images/bottom-right-bracket.svg",
                       }),
-                      (0, r.jsx)("div", {
+                      (0, i.jsx)("div", {
                         className:
                           "absolute bottom-0 left-0 bg-teal-500 px-5 pb-1.5 pt-2 text-center text-sm font-bold uppercase tracking-widest text-white",
                         children:
@@ -295,19 +307,19 @@
                       }),
                     ],
                   }),
-                  (0, r.jsxs)("div", {
+                  (0, i.jsxs)("div", {
                     className:
                       "relative flex min-h-[10rem] grow flex-col justify-between overflow-hidden py-5 pl-5 pr-12 duration-200 ",
                     children: [
-                      (0, r.jsx)("p", {
+                      (0, i.jsx)("p", {
                         className: "text-2xl font-bold",
                         children: g.title.toString(),
                       }),
-                      (0, r.jsx)("p", {
+                      (0, i.jsx)("p", {
                         className: "mt-4 font-normal text-gray-500",
                         children: (0, c.p6)(g.publishDate),
                       }),
-                      (0, r.jsx)(a(), {
+                      (0, i.jsx)(a(), {
                         alt: "desktop compass",
                         width: 232,
                         height: 232,
@@ -315,7 +327,7 @@
                           "absolute -bottom-24 -right-16 hidden opacity-0 duration-200 group-hover:-bottom-20 group-hover:-right-12 group-hover:opacity-50 lg:block",
                         src: "/images/compass.webp",
                       }),
-                      (0, r.jsx)(a(), {
+                      (0, i.jsx)(a(), {
                         alt: "mobile compass",
                         width: 232,
                         height: 232,
@@ -329,9 +341,9 @@
               }),
             });
           }
-          ((d = (u.then ? (await u)() : u)[0]), i());
+          ((d = (u.then ? (await u)() : u)[0]), r());
         } catch (e) {
-          i(e);
+          r(e);
         }
       });
     },
@@ -341,8 +353,8 @@
           return PaperContainer;
         },
       });
-      var i = l(97458),
-        r = l(57865),
+      var r = l(97458),
+        i = l(57865),
         o = l(47681),
         a = l.n(o),
         n = l(52983);
@@ -373,21 +385,21 @@
               );
             }
           }, [s]),
-          (0, i.jsxs)("div", {
+          (0, r.jsxs)("div", {
             ref: s,
-            className: (0, r.cn)("relative w-full pb-24", t),
+            className: (0, i.cn)("relative w-full pb-24", t),
             ...o,
             children: [
               l,
-              (0, i.jsx)("div", {
+              (0, r.jsx)("div", {
                 className:
                   "absolute left-0 top-0 -z-20 h-full w-full bg-[url('/images/paper-texture_main_tile(tinyfied).jpg')] bg-repeat",
               }),
-              (0, i.jsx)("div", {
+              (0, r.jsx)("div", {
                 style: { height: c },
                 className:
                   "pointer-events-none absolute left-0 top-0 w-full overflow-hidden",
-                children: (0, i.jsx)(a(), {
+                children: (0, r.jsx)(a(), {
                   src: "/images/paper-graphics_TOP_1(tinyfied).webp",
                   alt: "Paper Top Overlay",
                   width: "0",
@@ -399,7 +411,7 @@
                 }),
               }),
               c > 1600 &&
-                (0, i.jsx)(a(), {
+                (0, r.jsx)(a(), {
                   src: "/images/paper-graphics_BOTTOM_1(tinyfied).webp",
                   alt: "Paper Bottom Overlay",
                   width: "0",
@@ -409,12 +421,12 @@
                     "absolute bottom-0 left-0 -z-20 h-auto w-full object-cover",
                   unoptimized: !0,
                 }),
-              (0, i.jsx)("div", {
+              (0, r.jsx)("div", {
                 style: { backgroundSize: "100% auto" },
                 className:
                   "absolute left-0 top-0 -z-20 hidden h-full w-[8vw] max-w-[104px] bg-[url('/images/paper-edge_long(tinyfied).webp')] bg-repeat-y md:block",
               }),
-              (0, i.jsx)(a(), {
+              (0, r.jsx)(a(), {
                 src: "/images/footer-transition(tinyfied).webp",
                 width: "1920",
                 height: "305",
@@ -435,22 +447,22 @@
           return SignUpCallToAction;
         },
       });
-      var i = l(97458),
-        r = l(7355),
+      var r = l(97458),
+        i = l(7355),
         o = l(47681),
         a = l.n(o);
       function SignUpCallToAction(e) {
         var t, l, o, n;
         let { websiteSingleton: s } = e;
-        return (0, i.jsxs)("div", {
+        return (0, r.jsxs)("div", {
           className:
             "relative flex aspect-video w-screen flex-col justify-center bg-black pb-8 lg:px-24 lg:py-16",
           children: [
-            (0, i.jsxs)("div", {
+            (0, r.jsxs)("div", {
               className:
                 "relative left-0 top-0 aspect-video w-full lg:absolute lg:aspect-auto lg:h-full",
               children: [
-                (0, i.jsx)(a(), {
+                (0, r.jsx)(a(), {
                   fill: !0,
                   alt:
                     null !==
@@ -468,14 +480,14 @@
                         : l.url,
                   ),
                 }),
-                (0, i.jsx)("div", {
+                (0, r.jsx)("div", {
                   className: "absolute left-0 top-0 h-full w-full bg-black/15",
                 }),
               ],
             }),
-            (0, i.jsx)("div", {
+            (0, r.jsx)("div", {
               className: "relative z-10 max-w-3xl px-8 py-2",
-              children: (0, i.jsx)(r.Z, {
+              children: (0, r.jsx)(i.Z, {
                 largerFont: !0,
                 textAlign: "text-left",
                 showSignUp: !0,
@@ -493,11 +505,11 @@
           return WelcomeSection;
         },
       });
-      var i = l(97458),
-        r = l(47681),
-        o = l.n(r);
+      var r = l(97458),
+        i = l(47681),
+        o = l.n(i);
       function Divider() {
-        return (0, i.jsx)(o(), {
+        return (0, r.jsx)(o(), {
           src: "/images/divider.svg",
           className: "my-12 w-full",
           width: "0",
@@ -514,33 +526,33 @@
         let {
             title: t,
             children: l,
-            showSignUp: r,
+            showSignUp: i,
             textAlign: a,
             largerFont: d,
           } = e,
           u = (0, s.useRouter)();
-        return (0, i.jsxs)("div", {
+        return (0, r.jsxs)("div", {
           className: "".concat(
             a || "text-center",
             " align-center min-w-0 flex-1 justify-center text-white",
           ),
           children: [
-            (0, i.jsx)("h2", {
+            (0, r.jsx)("h2", {
               className: "".concat(
                 d ? "text-5xl leading-[110%] lg:text-7xl" : "text-5xl",
                 " font-normal tracking-normal drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
               ),
               children: t,
             }),
-            (0, i.jsx)("p", {
+            (0, r.jsx)("p", {
               className: "".concat(
                 d && "text-lg leading-[150%] lg:text-xl",
                 " pt-8 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
               ),
               children: l,
             }),
-            r
-              ? (0, i.jsxs)(n(), {
+            i
+              ? (0, r.jsxs)(n(), {
                   className:
                     "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:border-opacity-90 canhover:hover:text-black",
                   onClick: () => {
@@ -551,10 +563,10 @@
                   },
                   href: "/registration",
                   children: [
-                    (0, i.jsx)("div", {
+                    (0, r.jsx)("div", {
                       className:
                         "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden border-transparent opacity-0 shadow-[0_0px_15px_0px_#F1C662] transition duration-300 canhover:group-hover:opacity-100",
-                      children: (0, i.jsx)(o(), {
+                      children: (0, r.jsx)(o(), {
                         src: "/images/gold-button-texture-1.jpg",
                         fill: !0,
                         className: "object-cover",
@@ -562,14 +574,14 @@
                         sizes: "256px",
                       }),
                     }),
-                    (0, i.jsx)("span", {
+                    (0, r.jsx)("span", {
                       className:
                         "relative z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
                       children: "Sign Up",
                     }),
                   ],
                 })
-              : (0, i.jsx)(Divider, {}),
+              : (0, r.jsx)(Divider, {}),
           ],
         });
       }
@@ -602,12 +614,12 @@
           return cn;
         },
       });
-      var i = l(28934),
-        r = l(44361);
+      var r = l(28934),
+        i = l(44361);
       function cn() {
         for (var e = arguments.length, t = Array(e), l = 0; l < e; l++)
           t[l] = arguments[l];
-        return (0, r.m)((0, i.W)(t));
+        return (0, i.m)((0, r.W)(t));
       }
     },
   },

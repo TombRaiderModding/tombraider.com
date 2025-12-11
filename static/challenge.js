@@ -18,20 +18,20 @@
        * Subject to the terms at https://gsap.com/standard-license or for
        * Club GSAP members, the agreement issued with that membership.
        * @author: Jack Doyle, jack@greensock.com
-       */ let s =
+       */ let o =
           "undefined" != typeof window ? n.useLayoutEffect : n.useEffect,
         isConfig = (e) => e && !Array.isArray(e) && "object" == typeof e,
-        o = [],
+        s = [],
         i = {},
         a = r.ZP,
-        useGSAP = (e, t = o) => {
+        useGSAP = (e, t = s) => {
           let l = i;
           (isConfig(e)
             ? ((l = e),
               (e = null),
-              (t = "dependencies" in l ? l.dependencies : o))
+              (t = "dependencies" in l ? l.dependencies : s))
             : isConfig(t) &&
-              (t = "dependencies" in (l = t) ? l.dependencies : o),
+              (t = "dependencies" in (l = t) ? l.dependencies : s),
             e &&
               "function" != typeof e &&
               console.warn(
@@ -43,11 +43,11 @@
             f = (0, n.useRef)((e) => u.current.add(null, e)),
             m = t && t.length && !c;
           return (
-            s(() => {
+            o(() => {
               if ((e && u.current.add(e, r), !m || !d.current))
                 return () => u.current.revert();
             }, t),
-            m && s(() => ((d.current = !0), () => u.current.revert()), o),
+            m && o(() => ((d.current = !0), () => u.current.revert()), s),
             { context: u.current, contextSafe: f.current }
           );
         };
@@ -77,8 +77,8 @@
         let {
             unlockDateTime: t,
             isUnlocked: l,
-            message: s,
-            unlockPuzzle: o,
+            message: o,
+            unlockPuzzle: s,
           } = e,
           [i, a] = (0, r.useState)({
             days: 0,
@@ -99,7 +99,7 @@
                   minutes: Math.floor((n % 36e5) / 6e4),
                   seconds: Math.floor((n % 6e4) / 1e3),
                 })
-              : (a({ days: 0, hours: 0, minutes: 0, seconds: 0 }), o());
+              : (a({ days: 0, hours: 0, minutes: 0, seconds: 0 }), s());
           };
           calculateTimeLeft();
           let e = setInterval(calculateTimeLeft, 1e3);
@@ -183,7 +183,7 @@
                   }),
                   (0, n.jsx)("p", {
                     className: "text-gold text-sm",
-                    children: s,
+                    children: o,
                   }),
                 ],
               }),
@@ -194,9 +194,9 @@
       "use strict";
       var n = l(97458),
         r = l(10821),
-        s = l.n(r);
+        o = l.n(r);
       t.Z = (e) => {
-        let { href: t, children: l, className: r, ...o } = e,
+        let { href: t, children: l, className: r, ...s } = e,
           i = "string" == typeof t && t.startsWith("http");
         return i
           ? (0, n.jsx)("a", {
@@ -204,13 +204,13 @@
               target: "_blank",
               rel: "noopener noreferrer",
               className: r,
-              ...o,
+              ...s,
               children: l,
             })
-          : (0, n.jsx)(s(), {
+          : (0, n.jsx)(o(), {
               legacyBehavior: !0,
               href: t,
-              ...o,
+              ...s,
               children: (0, n.jsx)("a", { className: r, children: l }),
             });
       };
@@ -225,8 +225,8 @@
             },
           });
           var r = l(97458),
-            s = l(47681),
-            o = l.n(s),
+            o = l(47681),
+            s = l.n(o),
             i = l(10821),
             a = l.n(i),
             c = l(2300),
@@ -235,7 +235,7 @@
             f = e([c, u]);
           function Footer(e) {
             var t, l, n;
-            let { websiteSingleton: s, navItems: i, footerSocialLinks: f } = e,
+            let { websiteSingleton: o, navItems: i, footerSocialLinks: f } = e,
               { isLoggedIn: m, shopifyUrl: x } = (0, c.S)(),
               p = i.filter(
                 (e) => e.showInFooter && !(m && e.hideForLoggedInUsers),
@@ -250,9 +250,9 @@
                   className:
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
-                    (0, r.jsx)(o(), {
+                    (0, r.jsx)(s(), {
                       src: (0, u.Wx)(
-                        null === (l = s.footerLogo) || void 0 === l
+                        null === (l = o.footerLogo) || void 0 === l
                           ? void 0
                           : null === (t = l.fields.file) || void 0 === t
                             ? void 0
@@ -261,7 +261,7 @@
                       width: 248,
                       height: 248,
                       alt: (0, u.Wx)(
-                        null === (n = s.footerLogo) || void 0 === n
+                        null === (n = o.footerLogo) || void 0 === n
                           ? void 0
                           : n.fields.description,
                       ),
@@ -289,6 +289,18 @@
                           className: "cursor-pointer",
                           children: "Accessibility",
                         }),
+                        (0, r.jsx)("span", {
+                          className: "cursor-pointer",
+                          onClick: () => {
+                            var e;
+                            return null === (e = window.OneTrust) ||
+                              void 0 === e
+                              ? void 0
+                              : e.ToggleInfoDisplay();
+                          },
+                          children:
+                            "Do Not Sell or Share My Personal Information",
+                        }),
                       ],
                     }),
                   ],
@@ -299,17 +311,17 @@
                   children: [
                     (0, r.jsx)("div", {
                       className: "text-center text-darkgray-500",
-                      children: s.footerCopyright,
+                      children: o.footerCopyright,
                     }),
                     (0, r.jsx)("div", {
                       className: "flex items-center space-x-4 text-white",
                       children: f.map((e) => {
-                        var t, l, n, s;
+                        var t, l, n, o;
                         return (0, r.jsx)(
                           d.Z,
                           {
                             href: e.link,
-                            children: (0, r.jsx)(o(), {
+                            children: (0, r.jsx)(s(), {
                               src: (0, u.Wx)(
                                 null === (l = e.icon) || void 0 === l
                                   ? void 0
@@ -319,11 +331,11 @@
                               ),
                               alt:
                                 null !==
-                                  (s =
+                                  (o =
                                     null === (n = e.icon) || void 0 === n
                                       ? void 0
-                                      : n.fields.description) && void 0 !== s
-                                  ? s
+                                      : n.fields.description) && void 0 !== o
+                                  ? o
                                   : "",
                               width: 20,
                               height: 20,
@@ -343,7 +355,7 @@
                     (0, r.jsx)("p", {
                       className:
                         "max-w-[1000px] text-center text-sm text-darkgray-300 lg:text-left",
-                      children: s.footerLegalNotice,
+                      children: o.footerLegalNotice,
                     }),
                     (0, r.jsx)("div", {
                       className:
@@ -380,8 +392,8 @@
         let {
             onUnlock: t,
             overlayText: l,
-            label: s = "Open Vault Door",
-            id: o = "unlockSwitch",
+            label: o = "Open Vault Door",
+            id: s = "unlockSwitch",
           } = e,
           [i, a] = (0, r.useState)(0);
         return (
@@ -393,10 +405,10 @@
               "unlock-switch relative z-50 mx-auto w-64 cursor-pointer rounded-full border border-white/60 bg-black/90 p-2",
             children: [
               (0, n.jsx)("label", {
-                htmlFor: o,
+                htmlFor: s,
                 className: "sr-only",
-                "aria-label": s,
-                children: s,
+                "aria-label": o,
+                children: o,
               }),
               (0, n.jsx)("input", {
                 className:
@@ -404,8 +416,8 @@
                 type: "range",
                 value: i,
                 max: 100,
-                id: o,
-                name: o,
+                id: s,
+                name: s,
                 onChange: (e) => a(Number(e.target.value)),
               }),
               (0, n.jsx)("span", {
@@ -427,13 +439,13 @@
       });
       var n = l(97458),
         r = l(52983),
-        s = l(47681),
-        o = l.n(s);
+        o = l(47681),
+        s = l.n(o);
       function ChallengeTombNavigation(e) {
         let {
             rooms: t,
             activeRoomIndex: l,
-            onRoomClick: s,
+            onRoomClick: o,
             firstLockedIndex: i,
             completedRoomIds: a,
             roomIds: c,
@@ -549,8 +561,8 @@
                                 ? "cursor-not-allowed"
                                 : "cursor-pointer hover:scale-110",
                             ),
-                        onClick: () => s(t),
-                        children: (0, n.jsx)(o(), {
+                        onClick: () => o(t),
+                        children: (0, n.jsx)(s(), {
                           src: "/images/challenge-tomb/room-unlocked.png",
                           alt: "Room ".concat(t + 1),
                           className: ""
@@ -575,31 +587,31 @@
       l.a(e, async function (e, n) {
         try {
           var r = l(97458),
-            s = l(52983),
-            o = l(47681),
-            i = l.n(o),
+            o = l(52983),
+            s = l(47681),
+            i = l.n(s),
             a = l(97013),
             c = l(91806),
             d = e([c]);
           c = (d.then ? (await d)() : d)[0];
-          let u = (0, s.forwardRef)((e, t) => {
+          let u = (0, o.forwardRef)((e, t) => {
             let {
                 selectedGlyph: l,
                 glyphOptions: n,
-                updatePuzzleAnswer: o,
+                updatePuzzleAnswer: s,
               } = e,
-              [d, u] = (0, s.useState)("up"),
-              [f, m] = (0, s.useState)(() => {
+              [d, u] = (0, o.useState)("up"),
+              [f, m] = (0, o.useState)(() => {
                 let e = n.findIndex((e) => e.sys.id === l);
                 return e >= 0 ? e : 0;
               }),
-              x = (0, s.useRef)(null);
+              x = (0, o.useRef)(null);
             return (
-              (0, s.useEffect)(() => {
+              (0, o.useEffect)(() => {
                 let e = n.findIndex((e) => e.sys.id === l);
                 e >= 0 && m(e);
               }, [l, n]),
-              (0, s.useEffect)(() => {
+              (0, o.useEffect)(() => {
                 let e = a.Z.context(() => {
                   a.Z.fromTo(
                     ".glyph-" + f,
@@ -617,8 +629,8 @@
                     onMouseDown: function () {
                       (u("up"),
                         f === n.length - 1
-                          ? (m(0), o(n[0].sys.id))
-                          : (m(f + 1), o(n[f + 1].sys.id)));
+                          ? (m(0), s(n[0].sys.id))
+                          : (m(f + 1), s(n[f + 1].sys.id)));
                     },
                     ref: t,
                     type: "button",
@@ -681,8 +693,8 @@
                     onMouseDown: function () {
                       (u("down"),
                         0 === f
-                          ? (m(n.length - 1), o(n[n.length - 1].sys.id))
-                          : (m(f - 1), o(n[f - 1].sys.id)));
+                          ? (m(n.length - 1), s(n[n.length - 1].sys.id))
+                          : (m(f - 1), s(n[f - 1].sys.id)));
                     },
                     type: "button",
                     className:
@@ -708,9 +720,9 @@
             },
           });
           var r = l(97458),
-            s = l(52983),
-            o = l(47681),
-            i = l.n(o),
+            o = l(52983),
+            s = l(47681),
+            i = l.n(s),
             a = l(75443),
             c = l(84720),
             d = l(97013),
@@ -721,7 +733,7 @@
           function Puzzle(e) {
             var t, l, n;
             let {
-                open: o,
+                open: s,
                 glyphOptions: x,
                 roomId: p,
                 puzzleHeadline: h,
@@ -732,20 +744,20 @@
                 isLoggedIn: j,
                 close: w,
                 solvePuzzle: N,
-                isRoomCompleted: z,
-                viewReward: k,
+                isRoomCompleted: k,
+                viewReward: z,
               } = e,
               { userData: S } = (0, m.S)(),
-              [I, R] = (0, s.useState)(() =>
+              [I, R] = (0, o.useState)(() =>
                 x.length > 0
                   ? [x[0].sys.id, x[0].sys.id, x[0].sys.id, x[0].sys.id]
                   : ["", "", "", ""],
               ),
-              [C, T] = (0, s.useState)(!1),
-              [L, D] = (0, s.useState)(!1),
-              P = (0, s.useRef)(null);
+              [T, C] = (0, o.useState)(!1),
+              [D, L] = (0, o.useState)(!1),
+              P = (0, o.useRef)(null);
             async function checkForSuccess() {
-              (D(!0), T(!1));
+              (L(!0), C(!1));
               try {
                 var e, t, l;
                 let n = await fetch("/api/puzzle/validate-solution", {
@@ -758,7 +770,7 @@
                 if (
                   null === (e = r.data) || void 0 === e ? void 0 : e.isCorrect
                 )
-                  (T(!1),
+                  (C(!1),
                     j ||
                       sessionStorage.setItem(
                         "pendingPuzzleSolved",
@@ -778,7 +790,7 @@
                       puzzleId: p,
                     }));
                 else {
-                  (T(!0),
+                  (C(!0),
                     (0, f.sendGTMEvent)({
                       event: "challenge_incorrect_answer",
                       playFabId:
@@ -799,14 +811,14 @@
                   e.play();
                 }
               } catch (e) {
-                (console.error("Error validating puzzle solution:", e), T(!0));
+                (console.error("Error validating puzzle solution:", e), C(!0));
               } finally {
-                D(!1);
+                L(!1);
               }
             }
             return (
-              (0, s.useEffect)(() => {
-                if (o) {
+              (0, o.useEffect)(() => {
+                if (s) {
                   var e;
                   (document.body.classList.add("overflow-hidden"),
                     P.current && P.current.focus(),
@@ -822,12 +834,12 @@
                       puzzleId: p,
                     }));
                 } else
-                  (T(!1), document.body.classList.remove("overflow-hidden"));
+                  (C(!1), document.body.classList.remove("overflow-hidden"));
                 return () => {
                   document.body.classList.remove("overflow-hidden");
                 };
               }, [
-                o,
+                s,
                 p,
                 null == S
                   ? void 0
@@ -836,7 +848,7 @@
                     : t.playFabId,
               ]),
               (0, r.jsxs)("div", {
-                className: o ? "block" : "hidden",
+                className: s ? "block" : "hidden",
                 children: [
                   (0, r.jsx)("button", {
                     onClick: () => {
@@ -944,7 +956,7 @@
                         (0, r.jsx)("div", {
                           className:
                             "mt-12 flex flex-col items-center justify-center md:mt-20",
-                          children: z
+                          children: k
                             ? (0, r.jsxs)("div", {
                                 className:
                                   "mb-4 flex flex-col items-center gap-6",
@@ -957,7 +969,7 @@
                                   }),
                                   (0, r.jsx)(a.Z, {
                                     onClick: () => {
-                                      (w(), k());
+                                      (w(), z());
                                     },
                                     children: "View Reward",
                                   }),
@@ -976,8 +988,8 @@
                                     children: [
                                       (0, r.jsx)(a.Z, {
                                         onClick: () => checkForSuccess(),
-                                        disabled: L,
-                                        children: L ? "Checking..." : b,
+                                        disabled: D,
+                                        children: D ? "Checking..." : b,
                                       }),
                                       (0, r.jsx)("span", {
                                         className: "cursor-pointer underline",
@@ -988,7 +1000,7 @@
                                   }),
                                   (0, r.jsx)("p", {
                                     className: "".concat(
-                                      C ? "" : "invisible ",
+                                      T ? "" : "invisible ",
                                       " error-message text-center",
                                     ),
                                     children:
@@ -1020,9 +1032,9 @@
             },
           });
           var r = l(97458),
-            s = l(52983),
-            o = l(47681),
-            i = l.n(o),
+            o = l(52983),
+            s = l(47681),
+            i = l.n(s),
             a = l(93656),
             c = l(91806),
             d = l(20092),
@@ -1037,12 +1049,12 @@
             b = l(13782),
             y = e([c, u, h]);
           function PuzzleRoom(e) {
-            var t, l, n, o, y, j, w, N, z, k, S, I, R, C, T, L, D;
+            var t, l, n, s, y, j, w, N, k, z, S, I, R, T, C, D, L;
             let {
               room: P,
               roomId: Z,
-              activeRoomIndex: E,
-              moveToNextRoom: O,
+              activeRoomIndex: O,
+              moveToNextRoom: E,
               onRoomCompleted: _,
             } = e;
             if (!P || !P.tombDoor || !P.laraCroft || !P.puzzleBackground)
@@ -1068,25 +1080,25 @@
                   : n.fields,
               K = P.showCountdown,
               Q = P.unlockDateTime,
-              $ = null !== (C = P.countdownMessage) && void 0 !== C ? C : "",
+              $ = null !== (T = P.countdownMessage) && void 0 !== T ? T : "",
               ee = P.glyphOptions.filter((e) => null != e),
-              [et, el] = (0, s.useState)(!1),
-              [en, er] = (0, s.useState)(!1),
-              [es, eo] = (0, s.useState)(),
-              [ei, ea] = (0, s.useState)(!1),
-              [ec, ed] = (0, s.useState)(new Date(Q) < new Date()),
-              [eu, ef] = (0, s.useState)(!1),
-              em = (0, s.useRef)(null),
-              ex = (0, s.useRef)(null),
-              ep = (0, s.useRef)(null),
-              eh = (0, s.useRef)(null),
-              eg = (0, s.useRef)(null),
-              ev = (0, s.useRef)(null),
-              eb = (0, s.useRef)(null),
-              ey = (0, s.useRef)(null),
-              ej = (0, s.useRef)(null),
-              ew = (0, s.useRef)(null),
-              eN = (0, s.useRef)(null);
+              [et, el] = (0, o.useState)(!1),
+              [en, er] = (0, o.useState)(!1),
+              [eo, es] = (0, o.useState)(),
+              [ei, ea] = (0, o.useState)(!1),
+              [ec, ed] = (0, o.useState)(new Date(Q) < new Date()),
+              [eu, ef] = (0, o.useState)(!1),
+              em = (0, o.useRef)(null),
+              ex = (0, o.useRef)(null),
+              ep = (0, o.useRef)(null),
+              eh = (0, o.useRef)(null),
+              eg = (0, o.useRef)(null),
+              ev = (0, o.useRef)(null),
+              eb = (0, o.useRef)(null),
+              ey = (0, o.useRef)(null),
+              ej = (0, o.useRef)(null),
+              ew = (0, o.useRef)(null),
+              eN = (0, o.useRef)(null);
             return (
               (0, x.V)(
                 () => {
@@ -1098,7 +1110,7 @@
                       { opacity: 1, stagger: 0.5, delay: 0.8, overwrite: !0 },
                     );
                 },
-                { scope: em, dependencies: [E] },
+                { scope: em, dependencies: [O] },
               ),
               (0, x.V)(
                 () => {
@@ -1115,7 +1127,7 @@
                     { opacity: 1, duration: 2 },
                   );
                 },
-                { scope: em, dependencies: [E] },
+                { scope: em, dependencies: [O] },
               ),
               (0, x.V)(
                 () => {
@@ -1158,7 +1170,7 @@
                 },
                 { dependencies: [en, ep, eg, ev, eb] },
               ),
-              (0, s.useEffect)(() => {
+              (0, o.useEffect)(() => {
                 (async function () {
                   if (B)
                     try {
@@ -1176,11 +1188,11 @@
                       }
                       let n = await fetch("/api/puzzle/completed-rooms"),
                         r = await n.json(),
-                        s =
+                        o =
                           (null === (e = r.data) || void 0 === e
                             ? void 0
                             : e.completedRoomIds) || [],
-                        o = s.includes(Z);
+                        s = o.includes(Z);
                       if (l) {
                         (sessionStorage.removeItem("pendingPuzzleSolved"),
                           console.log(
@@ -1196,7 +1208,7 @@
                           ? (console.log(
                               "[PuzzleRoom] Reward granted successfully, showing popup",
                             ),
-                            eo(t.data.rewardImageUrl),
+                            es(t.data.rewardImageUrl),
                             er(!0),
                             ef(!0),
                             _(Z))
@@ -1204,14 +1216,14 @@
                               "[PuzzleRoom] Failed to grant reward - no data in response",
                               t,
                             );
-                      } else if (o) {
+                      } else if (s) {
                         let e = await fetch("/api/puzzle/grant-reward", {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({ roomId: Z }),
                           }),
                           t = await e.json();
-                        t.data && (eo(t.data.rewardImageUrl), ef(!0));
+                        t.data && (es(t.data.rewardImageUrl), ef(!0));
                       } else ef(!1);
                     } catch (e) {
                       console.error(
@@ -1221,7 +1233,7 @@
                     }
                 })();
               }, [B, Z, _]),
-              (0, s.useEffect)(() => {
+              (0, o.useEffect)(() => {
                 if (!ec && K) {
                   var e;
                   (0, b.sendGTMEvent)({
@@ -1242,9 +1254,9 @@
                 Z,
                 null == M
                   ? void 0
-                  : null === (o = M.accountInfo) || void 0 === o
+                  : null === (s = M.accountInfo) || void 0 === s
                     ? void 0
-                    : o.playFabId,
+                    : s.playFabId,
               ]),
               (0, r.jsxs)(r.Fragment, {
                 children: [
@@ -1348,8 +1360,8 @@
                           children: (0, r.jsx)(m.Z, {
                             onUnlock: () => el(!0),
                             overlayText:
-                              null !== (T = P.puzzleSliderText) && void 0 !== T
-                                ? T
+                              null !== (C = P.puzzleSliderText) && void 0 !== C
+                                ? C
                                 : "Start the Puzzle",
                             id: "vaultDoorSlider",
                           }),
@@ -1411,15 +1423,15 @@
                           },
                         }),
                       G &&
-                        (null === (z = G.fields.file) || void 0 === z
+                        (null === (k = G.fields.file) || void 0 === k
                           ? void 0
-                          : z.url) &&
+                          : k.url) &&
                         (0, r.jsx)(i(), {
                           ref: eg,
                           src: (0, c.Wx)(
-                            null === (k = G.fields.file) || void 0 === k
+                            null === (z = G.fields.file) || void 0 === z
                               ? void 0
-                              : k.url,
+                              : z.url,
                           ),
                           alt: V,
                           className: "relative z-[5]",
@@ -1459,16 +1471,16 @@
                     },
                     glyphOptions: ee,
                     puzzleHeadline:
-                      null !== (L = P.puzzleHeadline) && void 0 !== L ? L : "",
+                      null !== (D = P.puzzleHeadline) && void 0 !== D ? D : "",
                     puzzleDescription:
-                      null !== (D = P.puzzleDescription) && void 0 !== D
-                        ? D
+                      null !== (L = P.puzzleDescription) && void 0 !== L
+                        ? L
                         : "",
                     puzzleBackground: null == Y ? void 0 : Y.image,
                     roomId: Z,
                     isLoggedIn: B,
                     solvePuzzle: (e) => {
-                      (er(!0), eo(e), B && _(Z));
+                      (er(!0), es(e), B && _(Z));
                     },
                     puzzleSolveButtonText: P.puzzleSolveButtonText,
                     puzzleBackButtonText: P.puzzleBackButtonText,
@@ -1495,9 +1507,9 @@
                           ref: ey,
                           className:
                             "relative mb-6 size-48 flex-none scale-0 overflow-hidden rounded-full bg-trueblack shadow-[0_0_32px_16px_rgba(234,179,8,0.4)]",
-                          children: es
+                          children: eo
                             ? (0, r.jsx)(i(), {
-                                src: es,
+                                src: eo,
                                 alt: "Reward",
                                 fill: !0,
                                 className: "object-cover",
@@ -1533,7 +1545,7 @@
                                   }),
                                   (0, r.jsx)("button", {
                                     className: "cursor-pointer underline",
-                                    onClick: O,
+                                    onClick: E,
                                     children:
                                       P.congratsContinuePlayingButtonText,
                                   }),
@@ -1601,8 +1613,8 @@
               },
             }));
           var r = l(97458),
-            s = l(52983),
-            o = l(51923),
+            o = l(52983),
+            s = l(51923),
             i = l(97013),
             a = l(87249),
             c = l(99915),
@@ -1621,12 +1633,12 @@
                 footerSocialLinks: f,
                 signUpBanner: x,
               } = e,
-              p = (0, s.useRef)(null),
-              [h, g] = (0, s.useState)(0),
-              v = (0, s.useRef)(0),
-              [b, y] = (0, s.useState)([]),
-              j = (0, s.useRef)(!1);
-            ((0, s.useEffect)(() => {
+              p = (0, o.useRef)(null),
+              [h, g] = (0, o.useState)(0),
+              v = (0, o.useRef)(0),
+              [b, y] = (0, o.useState)([]),
+              j = (0, o.useRef)(!1);
+            ((0, o.useEffect)(() => {
               let e = sessionStorage.getItem("pendingPuzzleSolved");
               if (e && (null == t ? void 0 : t.rooms))
                 try {
@@ -1639,7 +1651,7 @@
                   console.error("Error parsing pending puzzle data:", e);
                 }
             }, [t]),
-              (0, s.useEffect)(() => {
+              (0, o.useEffect)(() => {
                 async function fetchCompletedRoomsAndSetInitialRoom() {
                   if (null == t ? void 0 : t.rooms)
                     try {
@@ -1651,15 +1663,15 @@
                             ? void 0
                             : e.completedRoomIds) || [];
                       if ((y(r), j.current || 0 === r.length)) return;
-                      let s = -1;
+                      let o = -1;
                       for (let e = 0; e < t.rooms.length; e++) {
                         let l = t.rooms[e];
                         if (l && !r.includes(l.sys.id)) {
-                          s = e;
+                          o = e;
                           break;
                         }
                       }
-                      if (-1 !== s) g(s);
+                      if (-1 !== o) g(o);
                       else {
                         let e = t.rooms.length - 1;
                         g(e);
@@ -1682,7 +1694,7 @@
               });
             };
             return (
-              (0, o.V)(
+              (0, s.V)(
                 () => {
                   i.Z.set(".room-container-".concat(h), {
                     display: "flex",
@@ -1691,7 +1703,7 @@
                 },
                 { scope: p },
               ),
-              (0, o.V)(
+              (0, s.V)(
                 () => {
                   if (v.current !== h) {
                     let e = i.Z.timeline()
@@ -1757,8 +1769,8 @@
                                     l = e;
                                     break;
                                   }
-                                  let s = b.includes(n.sys.id);
-                                  if (!s) {
+                                  let o = b.includes(n.sys.id);
+                                  if (!o) {
                                     l = e;
                                     break;
                                   }
@@ -1837,14 +1849,14 @@
       "use strict";
       var n = l(6616),
         r = l(67392),
-        s = l(63982),
-        o = l(29333),
+        o = l(63982),
+        s = l(29333),
         i = l(63686),
         a = l(38725);
       (n.p8.registerPlugin(
         r.Flip,
-        s.ScrollTrigger,
-        o.ScrollToPlugin,
+        o.ScrollTrigger,
+        s.ScrollToPlugin,
         i.ScrollSmoother,
         a.SplitText,
       ),

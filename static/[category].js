@@ -228,6 +228,18 @@
                           className: "cursor-pointer",
                           children: "Accessibility",
                         }),
+                        (0, s.jsx)("span", {
+                          className: "cursor-pointer",
+                          onClick: () => {
+                            var e;
+                            return null === (e = window.OneTrust) ||
+                              void 0 === e
+                              ? void 0
+                              : e.ToggleInfoDisplay();
+                          },
+                          children:
+                            "Do Not Sell or Share My Personal Information",
+                        }),
                       ],
                     }),
                   ],
