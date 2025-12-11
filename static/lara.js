@@ -2638,12 +2638,17 @@
                   l = getUniqueEraNames(t),
                   r = [...e].sort((e, t) => {
                     if (v.startsWith("release")) {
-                      let l = "release asc" === v ? 1 : -1;
-                      return (
-                        l *
-                        (new Date(e.releaseDate).getTime() -
-                          new Date(t.releaseDate).getTime())
-                      );
+                      let l = "release asc" === v ? 1 : -1,
+                        r = e.releaseDate,
+                        a = t.releaseDate;
+                      return r || a
+                        ? r
+                          ? a
+                            ? l *
+                              (new Date(r).getTime() - new Date(a).getTime())
+                            : -1
+                          : 1
+                        : 0;
                     }
                     if (v.startsWith("fiction")) {
                       let r = "fiction asc" === v ? 1 : -1,
@@ -2659,18 +2664,15 @@
                   }),
                   a = r.reduce((e, t) => {
                     let l;
-                    return (
-                      v.startsWith("fiction")
-                        ? (l = t.timelineEra
-                            ? t.timelineEra + " Era"
-                            : "Unknown Era")
-                        : v.startsWith("release") &&
-                          (l = new Date(t.releaseDate)
-                            .getFullYear()
-                            .toString()),
-                      l && (e[l] || (e[l] = []), e[l].push(t)),
-                      e
-                    );
+                    if (v.startsWith("fiction"))
+                      l = t.timelineEra
+                        ? t.timelineEra + " Era"
+                        : "Unknown Era";
+                    else if (v.startsWith("release")) {
+                      let e = t.releaseDate;
+                      l = e ? new Date(e).getFullYear().toString() : "Unknown";
+                    }
+                    return (l && (e[l] || (e[l] = []), e[l].push(t)), e);
                   }, {});
                 return {
                   grouped: a,
@@ -3070,9 +3072,10 @@
                       className: "flex-grow overflow-auto px-4 pb-4",
                       children: (0, r.jsx)("ul", {
                         children: t.map((e) => {
-                          let t = new Date(e.releaseDate)
-                            .getFullYear()
-                            .toString();
+                          let t = e.releaseDate,
+                            a = t
+                              ? new Date(t).getFullYear().toString()
+                              : "Unknown";
                           return (0, r.jsxs)(
                             "li",
                             {
@@ -3087,7 +3090,7 @@
                                 e.title,
                                 (0, r.jsx)("span", {
                                   className: "text-white/50",
-                                  children: t,
+                                  children: a,
                                 }),
                               ],
                             },
@@ -3215,13 +3218,15 @@
                 ease: "power2.inOut",
               });
           },
-          s = l
-            ? a.startsWith("fiction")
-              ? l.timelineEra + " Era"
-              : a.startsWith("release")
-                ? new Date(l.releaseDate).getFullYear().toString()
-                : null
-            : null;
+          s = (() => {
+            if (!l) return null;
+            if (a.startsWith("fiction")) return l.timelineEra + " Era";
+            if (a.startsWith("release")) {
+              let e = l.releaseDate;
+              return e ? new Date(e).getFullYear().toString() : "Unknown";
+            }
+            return null;
+          })();
         return (0, r.jsxs)("div", {
           className:
             "fixed right-4 top-1/2 z-40 hidden w-40 -translate-y-1/2 transform gap-3 rounded-lg p-4 text-right font-spline-sans-mono font-medium uppercase tracking-wide text-black/50 xl:flex xl:flex-col xl:items-end",
@@ -3261,58 +3266,62 @@
         });
       }
       function TimelineControls(e) {
+        var t;
         let {
-            products: t,
-            uniqueCategories: l,
-            currentCategory: o,
-            currentSortOrder: c,
-            onCategoryChange: d,
-            onSortOrderChange: u,
-            sortedGroupKeys: m,
+            products: l,
+            uniqueCategories: o,
+            currentCategory: c,
+            currentSortOrder: d,
+            onCategoryChange: u,
+            onSortOrderChange: m,
+            sortedGroupKeys: p,
           } = e,
-          [p, h] = (0, a.useState)(
-            new Date(t[0].releaseDate).getFullYear().toString(),
+          [h, g] = (0, a.useState)(
+            (null === (t = l[0]) || void 0 === t ? void 0 : t.releaseDate)
+              ? new Date(l[0].releaseDate).getFullYear().toString()
+              : "Unknown",
           ),
-          [g, f] = (0, a.useState)(null),
-          x = (0, a.useRef)([]);
+          [f, x] = (0, a.useState)(null),
+          v = (0, a.useRef)([]);
         return (
           (0, a.useEffect)(() => {
-            g &&
+            f &&
               (function (e) {
-                if (c.startsWith("release")) {
-                  let t = new Date(e.releaseDate).getFullYear();
-                  h(t.toString());
+                if (d.startsWith("release")) {
+                  let t = e.releaseDate,
+                    l = t ? new Date(t).getFullYear() : "Unknown";
+                  g(l.toString());
                 } else
-                  c.startsWith("fiction") && h(e.timelineEra || "Unknown Era");
-              })(g);
-          }, [g, c]),
+                  d.startsWith("fiction") && g(e.timelineEra || "Unknown Era");
+              })(f);
+          }, [f, d]),
           (0, a.useEffect)(() => {
-            (f(null), n().refresh());
-          }, [t, o, c]),
+            (x(null), n().refresh());
+          }, [l, c, d]),
           (0, s.V)(
             () => {
-              (x.current.forEach((e) => e.kill()), (x.current = []));
-              let e = t.map((e) =>
+              (v.current.forEach((e) => e.kill()), (v.current = []));
+              let e = l.map((e) =>
                 n().create({
                   trigger: "#timeline-entry-".concat(e.slug),
                   start: "top center",
                   end: "bottom center",
                   onEnter: () => {
-                    f(e);
+                    x(e);
                   },
                   onEnterBack: () => {
-                    f(e);
+                    x(e);
                   },
                 }),
               );
               return (
-                (x.current = e),
+                (v.current = e),
                 () => {
                   e.forEach((e) => e.kill());
                 }
               );
             },
-            { dependencies: [t, o, c] },
+            { dependencies: [l, c, d] },
           ),
           (0, r.jsxs)("div", {
             className: "timeline-controls pointer-events-none opacity-0",
@@ -3328,12 +3337,12 @@
                 }),
               }),
               (0, r.jsx)(TimelineMenu, {
-                products: t,
-                activeProduct: g,
-                currentText: p,
-                uniqueCategories: l,
-                currentCategory: o,
-                currentSortOrder: c,
+                products: l,
+                activeProduct: f,
+                currentText: h,
+                uniqueCategories: o,
+                currentCategory: c,
+                currentSortOrder: d,
                 handleProductClick: (e) => {
                   let t = document.getElementById("timeline-entry-".concat(e));
                   t &&
@@ -3343,13 +3352,13 @@
                       ease: "power2.inOut",
                     });
                 },
-                onCategoryChange: d,
-                onSortOrderChange: u,
+                onCategoryChange: u,
+                onSortOrderChange: m,
               }),
               (0, r.jsx)(TimelineSidebar, {
-                sortedGroupKeys: m,
-                activeProduct: g,
-                currentSortOrder: c,
+                sortedGroupKeys: p,
+                activeProduct: f,
+                currentSortOrder: d,
               }),
             ],
           })
@@ -3372,6 +3381,7 @@
             p = e([u]);
           u = (p.then ? (await p)() : p)[0];
           let formatDate = (e) => {
+            if (!e) return "Unknown";
             let t = new Date(e);
             return t.toLocaleDateString("en-US", {
               year: "numeric",

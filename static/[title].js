@@ -544,62 +544,62 @@
             });
           }
           function MainContent(e) {
-            var t, l, i;
-            let { product: n, websiteSingleton: u } = e,
-              [h, m] = (0, r.useState)(!1),
-              [g, f] = (0, r.useState)(!1),
-              b = (0, r.useRef)(null);
+            var t, l, i, n;
+            let { product: u, websiteSingleton: h } = e,
+              [m, g] = (0, r.useState)(!1),
+              [f, b] = (0, r.useState)(!1),
+              j = (0, r.useRef)(null);
             return (
               (0, r.useEffect)(() => {
                 let checkTextVisibility = () => {
-                    !g &&
-                      b.current &&
-                      m(b.current.scrollHeight <= b.current.clientHeight);
+                    !f &&
+                      j.current &&
+                      g(j.current.scrollHeight <= j.current.clientHeight);
                   },
                   e = new ResizeObserver(checkTextVisibility);
                 return (
-                  b.current && (e.observe(b.current), checkTextVisibility()),
+                  j.current && (e.observe(j.current), checkTextVisibility()),
                   () => {
-                    b.current && e.unobserve(b.current);
+                    j.current && e.unobserve(j.current);
                   }
                 );
-              }, [n.description, g]),
+              }, [u.description, f]),
               (0, s.jsxs)("div", {
                 className: "mx-auto lg:mx-0 lg:max-w-xl",
                 children: [
-                  n.titleLogo &&
+                  u.titleLogo &&
                     (0, s.jsx)("div", {
                       className: "relative h-40 w-full",
                       children: (0, s.jsx)(a(), {
                         fill: !0,
                         className: "object-contain object-center",
                         alt:
-                          null !== (l = n.titleLogo.fields.description) &&
+                          null !== (l = u.titleLogo.fields.description) &&
                           void 0 !== l
                             ? l
                             : "",
                         src: "https:".concat(
-                          null === (t = n.titleLogo.fields.file) || void 0 === t
+                          null === (t = u.titleLogo.fields.file) || void 0 === t
                             ? void 0
                             : t.url,
                         ),
                       }),
                     }),
-                  n.title &&
+                  u.title &&
                     (0, s.jsx)("h1", {
                       className:
                         "hidden text-3xl font-medium leading-[1.1] tracking-[-0.8px] lg:text-5xl",
-                      children: n.title,
+                      children: u.title,
                     }),
                   (0, s.jsx)("div", { className: "pt-8" }),
-                  n.hideSocialSharingButtons
+                  u.hideSocialSharingButtons
                     ? null
-                    : (0, s.jsx)(w.Z, { white: !0, title: n.title }),
+                    : (0, s.jsx)(w.Z, { white: !0, title: u.title }),
                   (0, s.jsx)("div", { className: "pb-4" }),
                   (0, s.jsx)("div", {
-                    ref: b,
+                    ref: j,
                     style:
-                      h || g
+                      m || f
                         ? void 0
                         : {
                             maskImage:
@@ -609,9 +609,9 @@
                           },
                     className: (0, o.cn)(
                       "max-h-60 overflow-hidden",
-                      g && "max-h-full",
+                      f && "max-h-full",
                     ),
-                    children: (0, c.h)(n.description, {
+                    children: (0, c.h)(u.description, {
                       renderNode: {
                         [v.BLOCKS.PARAGRAPH]: (e, t) =>
                           (0, s.jsx)("p", {
@@ -621,12 +621,12 @@
                       },
                     }),
                   }),
-                  !h &&
+                  !m &&
                     (0, s.jsx)("button", {
                       className:
                         "pt-2 font-bold text-yellow-500 hover:underline",
                       onClick: () => {
-                        f((e) => {
+                        b((e) => {
                           let t = !e;
                           if (!t) {
                             var l, i;
@@ -634,7 +634,7 @@
                               top:
                                 (null !==
                                   (i =
-                                    null === (l = b.current) || void 0 === l
+                                    null === (l = j.current) || void 0 === l
                                       ? void 0
                                       : l.offsetTop) && void 0 !== i
                                   ? i
@@ -644,41 +644,52 @@
                           return t;
                         });
                       },
-                      children: g ? "Show less" : "Show more",
+                      children: f ? "Show less" : "Show more",
                     }),
-                  (0, s.jsx)("div", { className: "pt-10" }),
-                  (0, s.jsx)("p", {
-                    children: n.ctaSectionLabel
-                      ? "".concat(n.ctaSectionLabel, ":")
-                      : "Where to Purchase:",
-                  }),
-                  (0, s.jsx)("div", { className: "pt-3" }),
-                  (0, s.jsx)("div", {
-                    className: "flex flex-row flex-wrap gap-2",
-                    children: x()
-                      .compact(
-                        null !== (i = n.ctaButtons) && void 0 !== i ? i : [],
-                      )
-                      .map((e) => (0, s.jsx)(d.Z, { ...e.fields }, e.sys.id)),
-                  }),
-                  n.esrbRating &&
+                  x().compact(
+                    null !== (i = u.ctaButtons) && void 0 !== i ? i : [],
+                  ).length > 0 &&
+                    (0, s.jsxs)(s.Fragment, {
+                      children: [
+                        (0, s.jsx)("div", { className: "pt-10" }),
+                        (0, s.jsx)("p", {
+                          children: u.ctaSectionLabel
+                            ? "".concat(u.ctaSectionLabel, ":")
+                            : "Where to Purchase:",
+                        }),
+                        (0, s.jsx)("div", { className: "pt-3" }),
+                        (0, s.jsx)("div", {
+                          className: "flex flex-row flex-wrap gap-2",
+                          children: x()
+                            .compact(
+                              null !== (n = u.ctaButtons) && void 0 !== n
+                                ? n
+                                : [],
+                            )
+                            .map((e) =>
+                              (0, s.jsx)(d.Z, { ...e.fields }, e.sys.id),
+                            ),
+                        }),
+                      ],
+                    }),
+                  u.esrbRating &&
                     (0, s.jsxs)("div", {
                       className: "flex items-center gap-6 pt-10",
                       children: [
                         (0, s.jsx)("div", {
                           className: "flex-shrink-0",
                           children: (0, s.jsx)(a(), {
-                            src: "/images/esrb/".concat(n.esrbRating, ".svg"),
-                            alt: "ESRB Rating: ".concat(n.esrbRating),
+                            src: "/images/esrb/".concat(u.esrbRating, ".svg"),
+                            alt: "ESRB Rating: ".concat(u.esrbRating),
                             width: 80,
                             height: 120,
                           }),
                         }),
-                        n.esrbContentDescriptors &&
-                          n.esrbContentDescriptors.length > 0 &&
+                        u.esrbContentDescriptors &&
+                          u.esrbContentDescriptors.length > 0 &&
                           (0, s.jsx)("div", {
                             className: "flex flex-col gap-1",
-                            children: n.esrbContentDescriptors.map((e) =>
+                            children: u.esrbContentDescriptors.map((e) =>
                               (0, s.jsx)("p", { children: e }, e),
                             ),
                           }),
@@ -688,24 +699,24 @@
                     className: "grid max-w-xs grid-cols-2 gap-y-2 pt-10",
                     children: [
                       {
-                        label: "".concat(u.productReleaseDateLabel, ":"),
-                        value: (0, p.p6)(n.releaseDate),
+                        label: "".concat(h.productReleaseDateLabel, ":"),
+                        value: (0, p.p6)(u.releaseDate),
                       },
                       {
-                        label: "".concat(u.productManufacturerLabel, ":"),
-                        value: n.manufacturer,
+                        label: "".concat(h.productManufacturerLabel, ":"),
+                        value: u.manufacturer,
                       },
                       {
-                        label: "".concat(u.productPublisherLabel, ":"),
-                        value: n.publisher,
+                        label: "".concat(h.productPublisherLabel, ":"),
+                        value: u.publisher,
                       },
                       {
-                        label: "".concat(u.productPartnerLabel, ":"),
-                        value: n.partner,
+                        label: "".concat(h.productPartnerLabel, ":"),
+                        value: u.partner,
                       },
                       {
-                        label: "".concat(u.productCallOutLabel, ":"),
-                        value: n.callOut,
+                        label: "".concat(h.productCallOutLabel, ":"),
+                        value: u.callOut,
                       },
                     ].map((e) => {
                       let { label: t, value: l } = e;

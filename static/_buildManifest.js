@@ -14,8 +14,8 @@
   g,
   l,
   k,
-  b,
   h,
+  b,
 ) {
   return {
     __rewrites: { afterFiles: [], beforeFiles: [], fallback: [] },
@@ -49,7 +49,7 @@
       s,
       a,
       e,
-      "static/chunks/pages/account/rewards-f0e582bf10ffedcc.js",
+      "static/chunks/pages/account/rewards-da22179adc2fc8e6.js",
     ],
     "/account/settings": [
       c,
@@ -126,7 +126,7 @@
       l,
       e,
       n,
-      "static/chunks/pages/lara-croft-59f93925b4012277.js",
+      "static/chunks/pages/lara-croft-3b77efa16c4d69b7.js",
     ],
     "/legal/cookies": [
       c,
@@ -145,7 +145,7 @@
       u,
       e,
       k,
-      b,
+      h,
       "static/chunks/pages/login-8284f6221d822c2f.js",
     ],
     "/news/[category]": [
@@ -168,7 +168,7 @@
       t,
       r,
       g,
-      h,
+      b,
       e,
       n,
       i,
@@ -194,11 +194,11 @@
       r,
       g,
       l,
-      h,
+      b,
       e,
       n,
       i,
-      "static/chunks/pages/products/[category]/[title]-04ef9d519b608aaf.js",
+      "static/chunks/pages/products/[category]/[title]-bc20272afa6a0858.js",
     ],
     "/registration": [
       c,
@@ -210,8 +210,8 @@
       o,
       e,
       k,
-      b,
-      "static/chunks/pages/registration-a122b51a84aab93a.js",
+      h,
+      "static/chunks/pages/registration-1a28e019abfb86ca.js",
     ],
     "/reset-password": [
       c,

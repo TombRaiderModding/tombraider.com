@@ -64,13 +64,13 @@
         d = a(95927),
         u = a(57865),
         m = a(10821),
-        g = a.n(m);
+        f = a.n(m);
       function Dropdown(e) {
         var r;
         let {
             items: a,
             selected: m,
-            onSelect: f = () => {},
+            onSelect: g = () => {},
             placeholder: h = "Options",
             error: v,
             variant: p,
@@ -79,7 +79,7 @@
           getValue = (e) => ("string" == typeof e ? e : e.value),
           getName = (e) => (e ? ("string" == typeof e ? e : e.name) : ""),
           handleClick = (e) => {
-            f(getValue(e));
+            g(getValue(e));
           };
         return (0, l.jsxs)(s.v, {
           as: "div",
@@ -137,7 +137,7 @@
                       {
                         children: (r) => {
                           let { active: a } = r;
-                          return (0, l.jsx)(g(), {
+                          return (0, l.jsx)(f(), {
                             scroll: !1,
                             href:
                               "string" != typeof e && e.href
@@ -270,8 +270,8 @@
             d = a(86848),
             u = a(81581),
             m = a(21748),
-            g = a(44346),
-            f = a(2300),
+            f = a(44346),
+            g = a(2300),
             h = a(82262),
             v = a(13782),
             p = a(73203),
@@ -282,8 +282,8 @@
             N = a(34045),
             k = a(2123),
             C = a(4701),
-            S = e([c, m, f, h, b]);
-          [c, m, f, h, b] = S.then ? (await S)() : S;
+            S = e([c, m, g, h, b]);
+          [c, m, g, h, b] = S.then ? (await S)() : S;
           let I = {
               UNKNOWN: "An unknown error has occurred.",
               FORM_VALIDATION:
@@ -293,7 +293,7 @@
               PROFANE_DISPLAY_NAME:
                 "That display name isn't allowed. Please try another.",
             },
-            A = "Account already exists. Please try logging in";
+            E = "Account already exists. Please try logging in";
           function omitKeys(e) {
             for (
               var r = arguments.length, a = Array(r > 1 ? r - 1 : 0), l = 1;
@@ -305,7 +305,7 @@
             for (let e of a) delete n[e];
             return n;
           }
-          let E = { 1: 2, 2: 3, 3: 4, 4: 5, 5: 5 },
+          let A = { 1: 2, 2: 3, 3: 4, 4: 5, 5: 5 },
             P = { 1: 1, 2: 1, 3: 2, 4: 3, 5: 4 },
             R = (0, u.F)(c.CPb),
             M = (0, u.F)(c.RHA),
@@ -349,19 +349,19 @@
                     };
             };
           ((r.Z = (e) => {
-            var r, a, l, c, u, S, R, M;
-            let { navItems: D, registrationPage: T } = e,
-              _ = (0, x.useRouter)(),
-              [F, L] = (0, s.useState)(1),
+            var r, a, l, c, u, S, R, M, D, T, _, F;
+            let { navItems: L, registrationPage: V } = e,
+              U = (0, x.useRouter)(),
+              [G, Z] = (0, s.useState)(1),
               {
-                control: V,
-                setValue: U,
-                formState: { errors: G },
-                setError: Z,
-                trigger: B,
-                clearErrors: z,
-                getValues: Y,
-                watch: W,
+                control: B,
+                setValue: z,
+                formState: { errors: Y },
+                setError: W,
+                trigger: H,
+                clearErrors: q,
+                getValues: Q,
+                watch: K,
               } = (0, d.cI)({
                 resolver: dynamicResolver,
                 defaultValues: {
@@ -379,104 +379,158 @@
                   agreeToReceiveExtraEmails: !1,
                 },
               }),
-              H = (0, d.qo)({ control: V, name: "registrationMethod" }),
-              q = (0, d.qo)({ control: V, name: "facebookAccessToken" }),
-              Q = (0, d.qo)({ control: V, name: "googleServerAuthCode" }),
+              J = (0, d.qo)({ control: B, name: "registrationMethod" }),
+              $ = (0, d.qo)({ control: B, name: "facebookAccessToken" }),
+              X = (0, d.qo)({ control: B, name: "googleServerAuthCode" }),
               {
-                setUserData: K,
-                setMailingListStatus: J,
-                userData: $,
-                requiresIdentitySetup: X,
-                fetchUserInfo: ee,
-              } = (0, f.S)(),
-              [et, er] = (0, s.useState)(!1),
-              [ea, el] = (0, s.useState)(!1),
-              [eo, en] = (0, s.useState)(null),
+                setUserData: ee,
+                setMailingListStatus: et,
+                userData: er,
+                requiresIdentitySetup: ea,
+                fetchUserInfo: el,
+              } = (0, g.S)(),
+              [eo, en] = (0, s.useState)(!1),
               [ei, es] = (0, s.useState)(!1),
-              [ec, ed] = (0, s.useState)(!1),
+              [ec, ed] = (0, s.useState)(null),
               [eu, em] = (0, s.useState)(!1),
-              [eg, ef] = (0, s.useState)(!1),
+              [ef, eg] = (0, s.useState)(!1),
               [eh, ev] = (0, s.useState)(!1),
-              ep = ((R = "1881486789441765"), void 0 !== R) ? R : "",
-              ex = ((M =
-                "913283481016-rge7l6npr5tpnce5gd5fb28kmf2v33tu.apps.googleusercontent.com"),
-              void 0 !== M)
-                ? M
-                : "",
-              eb = (0, s.useRef)(null),
-              ey = (0, s.useRef)(null),
+              [ep, ex] = (0, s.useState)(!1),
+              [eb, ey] = (0, s.useState)(!1),
               ew = (0, s.useRef)(!1),
-              ej = (0, s.useRef)(null),
-              eN = (0, s.useRef)(!1),
+              ej = ((_ = "1881486789441765"), void 0 !== _) ? _ : "",
+              eN = ((F =
+                "913283481016-rge7l6npr5tpnce5gd5fb28kmf2v33tu.apps.googleusercontent.com"),
+              void 0 !== F)
+                ? F
+                : "",
               ek = (0, s.useRef)(null),
               eC = (0, s.useRef)(null),
-              eS =
-                !!$ &&
-                !(null === (r = $.publisherData) || void 0 === r
+              eS = (0, s.useRef)(!1),
+              eI = (0, s.useRef)(null),
+              eE = (0, s.useRef)(!1),
+              eA = (0, s.useRef)(null),
+              eP = (0, s.useRef)(null),
+              eR =
+                !!er &&
+                !(null === (r = er.publisherData) || void 0 === r
                   ? void 0
                   : r.dateOfBirth),
-              eI =
-                !!$ &&
-                !(null === (a = $.publisherData) || void 0 === a
+              eM =
+                !!er &&
+                !(null === (a = er.publisherData) || void 0 === a
                   ? void 0
                   : a.countryAlpha2Code),
-              eA =
-                !!$ &&
-                !!(null === (l = $.publisherData) || void 0 === l
+              eD =
+                !!er &&
+                !!(null === (l = er.publisherData) || void 0 === l
                   ? void 0
                   : l.countryAlpha2Code) &&
-                ["US", "CA"].includes($.publisherData.countryAlpha2Code) &&
-                !$.publisherData.stateOrProvinceName,
-              eE = eI || eA || eS ? 2 : 3,
-              [eP, eR] = (0, s.useState)(null),
-              eM = (0, s.useRef)(!1),
-              eD = X && !!$,
-              eT = eD || "identity" === _.query.resume,
-              e_ = (0, s.useCallback)(() => {
-                ej.current &&
-                  (window.removeEventListener("focus", ej.current),
-                  (ej.current = null));
+                ["US", "CA"].includes(er.publisherData.countryAlpha2Code) &&
+                !er.publisherData.stateOrProvinceName,
+              eT = eM || eD || eR ? 2 : 3,
+              [e_, eF] = (0, s.useState)(null),
+              eO = (0, s.useRef)(!1),
+              eL = ea && !!er,
+              eV = eL || "identity" === U.query.resume,
+              eU = (0, s.useCallback)(() => {
+                var e, r, a, l, n;
+                return (
+                  (null == er
+                    ? void 0
+                    : null === (r = er.accountInfo) || void 0 === r
+                      ? void 0
+                      : null === (e = r.email) || void 0 === e
+                        ? void 0
+                        : e.trim()) ||
+                  (null == ec
+                    ? void 0
+                    : null === (l = ec.accountInfo) || void 0 === l
+                      ? void 0
+                      : null === (a = l.email) || void 0 === a
+                        ? void 0
+                        : a.trim()) ||
+                  (null === (n = Q("email")) || void 0 === n
+                    ? void 0
+                    : n.trim()) ||
+                  ""
+                );
+              }, [
+                Q,
+                null == ec
+                  ? void 0
+                  : null === (c = ec.accountInfo) || void 0 === c
+                    ? void 0
+                    : c.email,
+                null == er
+                  ? void 0
+                  : null === (u = er.accountInfo) || void 0 === u
+                    ? void 0
+                    : u.email,
+              ]),
+              eG = (0, s.useCallback)(() => {
+                var e;
+                return (
+                  (null === (e = Q("newsletterContactEmail")) || void 0 === e
+                    ? void 0
+                    : e.trim()) || eU()
+                );
+              }, [eU, Q]),
+              eZ = (0, s.useCallback)(async () => {
+                if (ew.current || "email" === J) return;
+                let e = eU();
+                if (e)
+                  try {
+                    (await h.NO({ email: e }), (ew.current = !0));
+                  } catch (e) {
+                    console.error("Failed to ensure contact email on exit", e);
+                  }
+              }, [eU, J]),
+              eB = (0, s.useCallback)(() => {
+                eI.current &&
+                  (window.removeEventListener("focus", eI.current),
+                  (eI.current = null));
               }, []),
-              eF = (0, s.useCallback)(() => {
-                e_();
+              ez = (0, s.useCallback)(() => {
+                eB();
                 let handler = () => {
-                  ew.current &&
-                    ((ew.current = !1),
-                    em(!1),
-                    Z("root", {
+                  eS.current &&
+                    ((eS.current = !1),
+                    ev(!1),
+                    W("root", {
                       message:
                         "Google sign-in was cancelled. Please try again.",
                     }));
                 };
-                ((ej.current = handler),
+                ((eI.current = handler),
                   window.addEventListener("focus", handler, { once: !0 }));
-              }, [e_, Z]),
-              eO = (0, s.useCallback)(() => {
-                ek.current &&
-                  (window.removeEventListener("focus", ek.current),
-                  (ek.current = null));
+              }, [eB, W]),
+              eY = (0, s.useCallback)(() => {
+                eA.current &&
+                  (window.removeEventListener("focus", eA.current),
+                  (eA.current = null));
               }, []),
-              eL = (0, s.useCallback)(() => {
-                eO();
+              eW = (0, s.useCallback)(() => {
+                eY();
                 let handler = () => {
-                  eN.current &&
-                    ((eN.current = !1),
-                    es(!1),
-                    Z("root", {
+                  eE.current &&
+                    ((eE.current = !1),
+                    em(!1),
+                    W("root", {
                       message:
                         "Facebook sign-in was cancelled. Please try again.",
                     }));
                 };
-                ((ek.current = handler),
+                ((eA.current = handler),
                   window.addEventListener("focus", handler, { once: !0 }));
-              }, [eO, Z]),
+              }, [eY, W]),
               setIsSigningUpWithEmail = (e) => {
-                (el(e),
+                (es(e),
                   e &&
-                    (U("registrationMethod", "email"),
-                    U("facebookAccessToken", "", { shouldValidate: !0 })));
+                    (z("registrationMethod", "email"),
+                    z("facebookAccessToken", "", { shouldValidate: !0 })));
               },
-              eV = (0, s.useCallback)(
+              eH = (0, s.useCallback)(
                 async (e) => {
                   try {
                     var r;
@@ -486,11 +540,11 @@
                     });
                     if (a.error)
                       return (
-                        Z("root", {
+                        W("root", {
                           message: a.error.errorMessage || I.UNKNOWN,
                         }),
-                        U("googleServerAuthCode", "", { shouldValidate: !0 }),
-                        ev(!1),
+                        z("googleServerAuthCode", "", { shouldValidate: !0 }),
+                        ey(!1),
                         !1
                       );
                     if (
@@ -499,109 +553,105 @@
                         : r.newlyCreated) === !1
                     )
                       return (
-                        Z("root", { message: A }),
-                        U("googleServerAuthCode", "", { shouldValidate: !0 }),
-                        ev(!1),
+                        W("root", { message: E }),
+                        z("googleServerAuthCode", "", { shouldValidate: !0 }),
+                        ey(!1),
                         !1
                       );
                     return (
-                      U("registrationMethod", "google", {
+                      z("registrationMethod", "google", {
                         shouldValidate: !0,
                         shouldDirty: !0,
                       }),
-                      U("googleServerAuthCode", "__PROVISIONED__", {
+                      z("googleServerAuthCode", "__PROVISIONED__", {
                         shouldValidate: !0,
                         shouldDirty: !0,
                       }),
-                      z(["googleServerAuthCode", "root"]),
+                      q(["googleServerAuthCode", "root"]),
                       setIsSigningUpWithEmail(!1),
-                      ev(!0),
-                      1 === F && L(2),
+                      ey(!0),
+                      1 === G && Z(2),
                       !0
                     );
                   } catch (e) {
                     return (
                       console.error("Google sign-in failed:", e),
-                      Z("root", {
+                      W("root", {
                         message: "Google sign-in failed. Please try again.",
                       }),
-                      U("googleServerAuthCode", "", { shouldValidate: !0 }),
-                      ev(!1),
+                      z("googleServerAuthCode", "", { shouldValidate: !0 }),
+                      ey(!1),
                       !1
                     );
                   } finally {
-                    em(!1);
+                    ev(!1);
                   }
                 },
-                [z, F, L, Z, ev, em, setIsSigningUpWithEmail, U],
+                [q, G, Z, W, ey, ev, setIsSigningUpWithEmail, z],
               );
             ((0, s.useEffect)(() => {
-              if (!_.isReady) return;
-              let e = _.query.reason,
+              if (!U.isReady) return;
+              let e = U.query.reason,
                 r =
                   "string" == typeof e
                     ? e === k._
                     : Array.isArray(e) && e.includes(k._);
               if (r) {
-                let e = { ..._.query };
+                let e = { ...U.query };
                 (delete e.reason,
-                  _.replace({ pathname: "/registration", query: e }, void 0, {
+                  U.replace({ pathname: "/registration", query: e }, void 0, {
                     shallow: !0,
                   }));
               }
-              let a = _.query.method,
+              let a = U.query.method,
                 l = Array.isArray(a) ? a[0] : a,
                 initializeFromQuery = async () => {
-                  if ("facebook" === l && !q) {
+                  if ("facebook" === l && !$) {
                     let e = (0, N.P2)();
                     if (!e) {
-                      Z("root", {
+                      W("root", {
                         message:
                           "Your Facebook session expired. Please try connecting Facebook again.",
                       });
                       return;
                     }
-                    (U("registrationMethod", "facebook"),
-                      U("facebookAccessToken", e.accessToken, {
+                    (z("registrationMethod", "facebook"),
+                      z("facebookAccessToken", e.accessToken, {
                         shouldValidate: !0,
                       }),
-                      U("email", e.email, {
-                        shouldDirty: !0,
-                        shouldValidate: !0,
-                      }),
-                      U("newsletterContactEmail", e.email, {
+                      z("email", e.email, {
                         shouldDirty: !0,
                         shouldValidate: !0,
                       }),
                       e.name &&
-                        U("displayName", e.name, {
+                        z("displayName", e.name, {
                           shouldDirty: !0,
                           shouldValidate: !0,
                         }),
-                      el(!1),
-                      z("root"),
-                      L((e) => (1 === e ? 2 : e)));
+                      es(!1),
+                      q("root"),
+                      Z((e) => (1 === e ? 2 : e)));
                   }
-                  if ("google" === l && !Q) {
+                  if ("google" === l && !X) {
                     let e = (0, C.cE)();
                     if (!e) {
-                      Z("root", {
+                      W("root", {
                         message:
                           "We couldn't complete Google registration. Please connect your Google account again.",
                       });
                       return;
                     }
-                    em(!0);
-                    let r = await eV(e.serverAuthCode);
+                    ev(!0);
+                    let r = await eH(e.serverAuthCode);
                     if (!r) return;
                     (e.email &&
-                      U("email", e.email, {
+                      z("email", e.email, {
                         shouldDirty: !0,
                         shouldValidate: !0,
                       }),
                       e.name &&
-                        !Y("displayName") &&
-                        U("displayName", e.name, {
+                        !Q("displayName") &&
+                        z("displayName", e.name, {
                           shouldDirty: !0,
                           shouldValidate: !0,
                         }));
@@ -609,93 +659,93 @@
                 };
               initializeFromQuery();
             }, [
-              z,
               q,
-              Y,
+              $,
               Q,
-              eV,
-              _,
-              _.isReady,
-              _.query.method,
-              _.query.reason,
-              Z,
-              em,
+              X,
+              eH,
               U,
+              U.isReady,
+              U.query.method,
+              U.query.reason,
+              W,
+              ev,
+              z,
             ]),
               (0, s.useEffect)(() => {
                 var e, r, a;
-                if (!eT) {
-                  (eR(null), (eM.current = !1));
+                if (!eV) {
+                  (eF(null), (eO.current = !1));
                   return;
                 }
-                let l = null !== eP ? eP : eE;
-                (null === eP && eR(l),
-                  eM.current ||
-                    (L(l),
+                let l = null !== e_ ? e_ : eT;
+                (null === e_ && eF(l),
+                  eO.current ||
+                    (Z(l),
                     setIsSigningUpWithEmail(!1),
-                    U("registrationMethod", "email"),
-                    (null == $
+                    z("registrationMethod", "email"),
+                    (null == er
                       ? void 0
-                      : null === (e = $.accountInfo) || void 0 === e
+                      : null === (e = er.accountInfo) || void 0 === e
                         ? void 0
                         : e.email) &&
-                      U("email", $.accountInfo.email, {
+                      z("email", er.accountInfo.email, {
                         shouldDirty: !1,
                         shouldValidate: !1,
                       }),
-                    (null == $
+                    (null == er
                       ? void 0
-                      : null === (a = $.accountInfo) || void 0 === a
+                      : null === (a = er.accountInfo) || void 0 === a
                         ? void 0
                         : null === (r = a.titleInfo) || void 0 === r
                           ? void 0
                           : r.displayName) &&
-                      U("displayName", $.accountInfo.titleInfo.displayName, {
+                      z("displayName", er.accountInfo.titleInfo.displayName, {
                         shouldDirty: !1,
                         shouldValidate: !1,
                       }),
-                    U("acceptTermsOfService", !1, {
+                    z("acceptTermsOfService", !1, {
                       shouldDirty: !1,
                       shouldValidate: !1,
                     }),
-                    (eM.current = !0)));
+                    (eO.current = !0)));
               }, [
+                eV,
                 eT,
-                eE,
-                eP,
-                eR,
-                U,
+                e_,
+                eF,
+                z,
                 setIsSigningUpWithEmail,
-                null == $
+                null == er
                   ? void 0
-                  : null === (c = $.accountInfo) || void 0 === c
+                  : null === (S = er.accountInfo) || void 0 === S
                     ? void 0
-                    : c.email,
-                null == $
+                    : S.email,
+                null == er
                   ? void 0
-                  : null === (S = $.accountInfo) || void 0 === S
+                  : null === (M = er.accountInfo) || void 0 === M
                     ? void 0
-                    : null === (u = S.titleInfo) || void 0 === u
+                    : null === (R = M.titleInfo) || void 0 === R
                       ? void 0
-                      : u.displayName,
+                      : R.displayName,
               ]),
               (0, s.useEffect)(() => {
-                if (!ep) return;
+                if (!ej) return;
                 let e = !1;
                 return (
-                  (0, N.kD)(ep)
+                  (0, N.kD)(ej)
                     .then((r) => {
-                      !e && r && ed(!0);
+                      !e && r && eg(!0);
                     })
                     .catch((r) => {
-                      e || (console.error(r), ed(!1));
+                      e || (console.error(r), eg(!1));
                     }),
                   () => {
                     e = !0;
                   }
                 );
-              }, [ep]));
-            let eU = (0, s.useCallback)(async () => {
+              }, [ej]));
+            let eq = (0, s.useCallback)(async () => {
                 if (window.FB)
                   return await new Promise((e) => {
                     try {
@@ -708,75 +758,107 @@
                     }
                   });
               }, []),
-              eG = (0, s.useCallback)(
+              eQ = (0, s.useCallback)(
                 async (e) => {
                   if (
-                    ((ew.current = !1),
-                    e_(),
+                    ((eS.current = !1),
+                    eB(),
                     console.info("[Google Sign-In] code client response", e),
                     e.error || !e.code)
                   ) {
-                    (Z("root", {
+                    (W("root", {
                       message:
                         e.error_description ||
                         e.error ||
                         "Google sign-in failed. Please try again.",
                     }),
-                      em(!1));
+                      ev(!1));
                     return;
                   }
-                  await eV(e.code);
+                  await eH(e.code);
                 },
-                [z, e_, F, L, Z, em, setIsSigningUpWithEmail, U],
+                [q, eB, G, Z, W, ev, setIsSigningUpWithEmail, z],
               );
             ((0, s.useEffect)(() => {
-              if (!ex) return;
-              if (eb.current) {
-                ef(!0);
+              if (!eN) return;
+              if (ek.current) {
+                ex(!0);
                 return;
               }
               let e = !1;
               return (
-                ef(!1),
+                ex(!1),
                 (0, C.$6)()
                   .then((r) => {
                     r &&
                       !e &&
-                      ((eb.current = r),
-                      (ey.current = (0, C.a6)(r, {
-                        client_id: ex,
+                      ((ek.current = r),
+                      (eC.current = (0, C.a6)(r, {
+                        client_id: eN,
                         scope: "openid email profile",
                         ux_mode: "popup",
                         callback: (e) => {
-                          eG(e);
+                          eQ(e);
                         },
                       })),
-                      ef(!0));
+                      ex(!0));
                   })
                   .catch((r) => {
-                    e || (console.error(r), ef(!1));
+                    e || (console.error(r), ex(!1));
                   }),
                 () => {
                   e = !0;
                 }
               );
-            }, [ex, eG, U]),
+            }, [eN, eQ, z]),
               (0, s.useEffect)(
                 () => () => {
-                  (e_(), eO());
+                  (eB(), eY());
                 },
-                [eO, e_],
+                [eY, eB],
               ),
               (0, s.useEffect)(() => {
-                eC.current &&
-                  eC.current.scrollTo({ top: 0, behavior: "smooth" });
-              }, [F]));
+                if ("email" === J) return;
+                let e = eU(),
+                  r = Q("newsletterContactEmail");
+                e &&
+                  !r &&
+                  z("newsletterContactEmail", e, {
+                    shouldDirty: !1,
+                    shouldValidate: !0,
+                  });
+              }, [
+                eU,
+                Q,
+                J,
+                z,
+                null == er
+                  ? void 0
+                  : null === (D = er.accountInfo) || void 0 === D
+                    ? void 0
+                    : D.email,
+                null == ec
+                  ? void 0
+                  : null === (T = ec.accountInfo) || void 0 === T
+                    ? void 0
+                    : T.email,
+              ]),
+              (0, s.useEffect)(
+                () => () => {
+                  eZ();
+                },
+                [eZ],
+              ),
+              (0, s.useEffect)(() => {
+                eP.current &&
+                  eP.current.scrollTo({ top: 0, behavior: "smooth" });
+              }, [G]));
             let updateProvisionedGoogleProfile = async (e) => {
                 var r, a, l, n;
                 let s = await h.hC({ displayName: e.displayName });
                 if (s.error)
                   throw (
-                    Z("displayName", { message: s.error.errorMessage }),
+                    W("displayName", { message: s.error.errorMessage }),
                     Error("Display name update failed")
                   );
                 let c = await h.p2({
@@ -785,15 +867,15 @@
                       (n =
                         null !==
                           (l =
-                            null == eo
+                            null == ec
                               ? void 0
-                              : null === (r = eo.accountInfo) || void 0 === r
+                              : null === (r = ec.accountInfo) || void 0 === r
                                 ? void 0
                                 : r.playFabId) && void 0 !== l
                           ? l
-                          : null == $
+                          : null == er
                             ? void 0
-                            : null === (a = $.accountInfo) || void 0 === a
+                            : null === (a = er.accountInfo) || void 0 === a
                               ? void 0
                               : a.playFabId) && void 0 !== n
                       ? n
@@ -812,41 +894,42 @@
                 });
                 if (c.error)
                   throw (
-                    Z("root", { message: c.error.errorMessage || I.UNKNOWN }),
+                    W("root", { message: c.error.errorMessage || I.UNKNOWN }),
                     Error("Publisher data update failed")
                   );
-                let d = e.email.trim();
+                let d = eU();
                 if (d) {
                   let e = await h.NO({ email: d });
                   if (e.error)
                     throw (
-                      Z("root", {
+                      W("root", {
                         message:
                           e.error.errorMessage ||
-                          "We couldn't save your contact email. Please try again.",
+                          "We couldn't save your newsletter email. Please try again.",
                       }),
-                      Error("Contact email update failed")
+                      Error("Newsletter email update failed")
                     );
+                  ew.current = !0;
                 }
               },
               handleRegistration = async (e) => {
-                var r, a, l, n, s, c, d, u, m, g, f, p, x;
-                let b;
-                let y = Y();
-                if (eD) {
-                  let s = await h.hC({ displayName: y.displayName });
+                var r, a, l, n, s, c, d, u, m, f, g, p, x, b, y;
+                let j;
+                let N = Q();
+                if (eL) {
+                  let s = await h.hC({ displayName: N.displayName });
                   if (s.error)
                     throw (
-                      Z("displayName", { message: s.error.errorMessage }),
+                      W("displayName", { message: s.error.errorMessage }),
                       Error("Display name update failed")
                     );
-                  if ((await updateProvisionedGoogleProfile(y), e))
+                  if ((await updateProvisionedGoogleProfile(N), e))
                     try {
                       await h.J3({ itemId: e });
                     } catch (e) {
                       console.error("Failed to set avatar:", e);
                     }
-                  await ee();
+                  await el();
                   let [c, d] = await Promise.all([h.fn(), h.Yu()]),
                     u = c.data
                       ? {
@@ -866,7 +949,7 @@
                                 : void 0,
                         }
                       : null;
-                  (en(u || null),
+                  (ed(u || null),
                     (0, v.sendGTMEvent)({
                       event: "registration_form_conversion",
                       value:
@@ -878,80 +961,80 @@
                     }));
                   return;
                 }
-                let j = null,
-                  N = !1;
-                if ("email" === y.registrationMethod) {
+                let k = null,
+                  C = !1;
+                if ("email" === N.registrationMethod) {
                   let e = omitKeys(
-                    y,
+                    N,
                     "registrationMethod",
                     "facebookAccessToken",
                     "googleServerAuthCode",
                   );
-                  N = !(b = (j = await h.z2(e)).error);
-                } else if ("facebook" === y.registrationMethod) {
-                  let { facebookAccessToken: e } = y;
+                  C = !(j = (k = await h.z2(e)).error);
+                } else if ("facebook" === N.registrationMethod) {
+                  let { facebookAccessToken: e } = N;
                   if (!e)
                     throw (
-                      Z("root", {
+                      W("root", {
                         message:
                           "Please connect your Facebook account before continuing registration.",
                       }),
                       Error("Missing Facebook token")
                     );
                   let r = omitKeys(
-                    y,
+                    N,
                     "registrationMethod",
                     "facebookAccessToken",
                     "password",
                     "googleServerAuthCode",
                   );
-                  N = !(b = (j = await h._l({ ...r, AccessToken: e })).error);
+                  C = !(j = (k = await h._l({ ...r, AccessToken: e })).error);
                 } else {
-                  let { googleServerAuthCode: e } = y;
-                  if (!e && !eh)
+                  let { googleServerAuthCode: e } = N;
+                  if (!e && !eb)
                     throw (
-                      Z("root", {
+                      W("root", {
                         message:
                           "Please connect your Google account before continuing registration.",
                       }),
                       Error("Missing Google token")
                     );
-                  if (eh)
-                    (await updateProvisionedGoogleProfile(y),
-                      (j = null),
-                      (N = !0),
-                      Y("googleServerAuthCode") ||
-                        U("googleServerAuthCode", "__PROVISIONED__", {
+                  if (eb)
+                    (await updateProvisionedGoogleProfile(N),
+                      (k = null),
+                      (C = !0),
+                      Q("googleServerAuthCode") ||
+                        z("googleServerAuthCode", "__PROVISIONED__", {
                           shouldValidate: !0,
                         }));
                   else {
                     let r = omitKeys(
-                      y,
+                      N,
                       "registrationMethod",
                       "googleServerAuthCode",
                       "password",
                       "facebookAccessToken",
                     );
                     if (
-                      (null == (j = await h.Mf({ ...r, ServerAuthCode: e }))
+                      (null == (k = await h.Mf({ ...r, ServerAuthCode: e }))
                         ? void 0
-                        : null === (s = j.data) || void 0 === s
+                        : null === (s = k.data) || void 0 === s
                           ? void 0
                           : s.newlyCreated) === !1
                     )
                       throw (
-                        Z("root", { message: A }),
+                        W("root", { message: E }),
                         Error("Account already exists for that Google login")
                       );
-                    N = !(b = null == j ? void 0 : j.error);
+                    C = !(j = null == k ? void 0 : k.error);
                   }
                 }
-                if (N) {
+                if (C) {
                   if (
-                    ("google" !== y.registrationMethod ||
-                      (eh || ev(!0),
-                      Y("googleServerAuthCode") ||
-                        U("googleServerAuthCode", "__PROVISIONED__", {
+                    ("google" !== N.registrationMethod ||
+                      (eb || ey(!0),
+                      Q("googleServerAuthCode") ||
+                        z("googleServerAuthCode", "__PROVISIONED__", {
                           shouldValidate: !0,
                         })),
                     e)
@@ -971,7 +1054,18 @@
                               : c.publisherData,
                         }
                       : null;
-                  (en(l || null),
+                  if ("email" === J) {
+                    let e =
+                      null == l
+                        ? void 0
+                        : null === (m = l.accountInfo) || void 0 === m
+                          ? void 0
+                          : null === (u = m.email) || void 0 === u
+                            ? void 0
+                            : u.trim();
+                    e && (await h.NO({ email: e }), (ew.current = !0));
+                  }
+                  (ed(l || null),
                     (0, v.sendGTMEvent)({
                       event: "registration_form_conversion",
                       value:
@@ -984,94 +1078,94 @@
                 } else {
                   let e =
                       null !==
-                        (g =
-                          null == b
+                        (p =
+                          null == j
                             ? void 0
-                            : null === (u = b.errorMessage) || void 0 === u
+                            : null === (f = j.errorMessage) || void 0 === f
                               ? void 0
-                              : u.toLowerCase()) && void 0 !== g
-                        ? g
+                              : f.toLowerCase()) && void 0 !== p
+                        ? p
                         : "",
-                    r = null == b ? void 0 : b.error,
+                    r = null == j ? void 0 : j.error,
                     a =
-                      "google" === y.registrationMethod &&
+                      "google" === N.registrationMethod &&
                       (e.includes("invalid_grant") ||
                         e.includes("invalid token") ||
                         e.includes("expired") ||
                         "InvalidOAuthToken" === r ||
                         "InvalidOAuthProvider" === r);
-                  switch (null == b ? void 0 : b.error) {
+                  switch (null == j ? void 0 : j.error) {
                     case "EmailAddressNotAvailable":
-                      Z("email", { message: b.errorMessage });
+                      W("email", { message: j.errorMessage });
                       break;
                     case "NameNotAvailable":
-                      Z("displayName", { message: I.DISPLAY_NAME_UNAVAILABLE });
+                      W("displayName", { message: I.DISPLAY_NAME_UNAVAILABLE });
                       break;
                     case "ProfaneDisplayName":
-                      Z("displayName", { message: I.PROFANE_DISPLAY_NAME });
+                      W("displayName", { message: I.PROFANE_DISPLAY_NAME });
                       break;
                     case "InvalidOAuthToken":
                     case "InvalidOAuthProvider":
-                      (null == b
+                      (null == j
                         ? void 0
-                        : null === (f = b.errorMessage) || void 0 === f
+                        : null === (x = j.errorMessage) || void 0 === x
                           ? void 0
-                          : f.toLowerCase().includes("already")) ||
-                      (null == b
+                          : x.toLowerCase().includes("already")) ||
+                      (null == j
                         ? void 0
-                        : null === (p = b.errorMessage) || void 0 === p
+                        : null === (b = j.errorMessage) || void 0 === b
                           ? void 0
-                          : p.toLowerCase().includes("exists"))
-                        ? Z("root", { message: A })
-                        : (Z("root", {
+                          : b.toLowerCase().includes("exists"))
+                        ? W("root", { message: E })
+                        : (W("root", {
                             message:
-                              (null == b ? void 0 : b.errorMessage) ||
+                              (null == j ? void 0 : j.errorMessage) ||
                               "Google account connection failed. Please try connecting again.",
                           }),
-                          U("googleServerAuthCode", "", { shouldValidate: !0 }),
-                          ev(!1));
+                          z("googleServerAuthCode", "", { shouldValidate: !0 }),
+                          ey(!1));
                       break;
                     default:
-                      ("google" === y.registrationMethod &&
+                      ("google" === N.registrationMethod &&
                         e.includes("invalid_grant")) ||
-                        Z("root", {
+                        W("root", {
                           message:
                             null !==
-                              (x = null == b ? void 0 : b.errorMessage) &&
-                            void 0 !== x
-                              ? x
+                              (y = null == j ? void 0 : j.errorMessage) &&
+                            void 0 !== y
+                              ? y
                               : I.UNKNOWN,
                         });
                   }
                   (a &&
-                    (U("googleServerAuthCode", "", { shouldValidate: !0 }),
-                    Z("googleServerAuthCode", {
+                    (z("googleServerAuthCode", "", { shouldValidate: !0 }),
+                    W("googleServerAuthCode", {
                       type: "manual",
                       message:
                         'Your Google connection has expired or become invalid. Please click "Continue with Google" above to reconnect your account.',
                     }),
-                    Z("root", {
+                    W("root", {
                       message:
                         'Your Google connection has expired or become invalid. Please click "Continue with Google" above to reconnect.',
                     }),
-                    ev(!1)),
-                    (null === (m = G.root) || void 0 === m
+                    ey(!1)),
+                    (null === (g = Y.root) || void 0 === g
                       ? void 0
-                      : m.message) ||
+                      : g.message) ||
                       a ||
-                      Z("root", { message: I.FORM_VALIDATION }));
+                      W("root", { message: I.FORM_VALIDATION }));
                   let l = new Set([
                     "EmailAddressNotAvailable",
                     "NameNotAvailable",
                     "ProfaneDisplayName",
                   ]);
                   throw (
-                    "google" === y.registrationMethod &&
-                      b &&
-                      l.has(b.error) &&
-                      (ev(!0),
-                      Y("googleServerAuthCode") ||
-                        U("googleServerAuthCode", "__PROVISIONED__", {
+                    "google" === N.registrationMethod &&
+                      j &&
+                      l.has(j.error) &&
+                      (ey(!0),
+                      Q("googleServerAuthCode") ||
+                        z("googleServerAuthCode", "__PROVISIONED__", {
                           shouldValidate: !0,
                         })),
                     Error("Registration failed")
@@ -1079,43 +1173,42 @@
                 }
               },
               handleNewsletterUpdate = async () => {
-                let e = Y();
+                let e = Q();
                 try {
-                  if (!ea) {
-                    var r;
-                    let a =
-                      (null === (r = e.newsletterContactEmail) || void 0 === r
-                        ? void 0
-                        : r.trim()) || e.email;
-                    a && (await h.NO({ email: a }));
+                  if (!ei) {
+                    let e = eG();
+                    e && (await h.NO({ email: e }), (ew.current = !0));
                   }
                   (await h.US({
                     isUserOnMailingList: e.agreeToReceiveExtraEmails,
                   }),
-                    J(e.agreeToReceiveExtraEmails));
+                    et(e.agreeToReceiveExtraEmails));
                 } catch (e) {
                   console.error("Error updating newsletter preferences:", e);
                 }
               },
+              handleNewsletterSkip = async () => {
+                (await eZ(), goToNextStep());
+              },
               goToNextStep = () => {
-                L((e) => {
-                  let r = E[e];
-                  return (eD && 2 === eE && eP !== r && 2 === e && eR(r), r);
+                Z((e) => {
+                  let r = A[e];
+                  return (eL && 2 === eT && e_ !== r && 2 === e && eF(r), r);
                 });
               },
               handleEmailSignUp = async () => {
-                (U("registrationMethod", "email"),
-                  U("facebookAccessToken", "", { shouldValidate: !0 }),
-                  U("googleServerAuthCode", "", { shouldValidate: !0 }),
-                  ev(!1));
-                let e = await B(["email", "password"]);
+                (z("registrationMethod", "email"),
+                  z("facebookAccessToken", "", { shouldValidate: !0 }),
+                  z("googleServerAuthCode", "", { shouldValidate: !0 }),
+                  ey(!1));
+                let e = await H(["email", "password"]);
                 if (!e) return;
-                er(!0);
-                let r = Y("email"),
+                en(!0);
+                let r = Q("email"),
                   a = await h.dU({ email: r });
-                if ((er(!1), a.error)) {
+                if ((en(!1), a.error)) {
                   (console.error("Error checking email availability:", a.error),
-                    Z("email", {
+                    W("email", {
                       type: "manual",
                       message:
                         "An error occurred while checking email availability. Please try again later.",
@@ -1123,7 +1216,7 @@
                   return;
                 }
                 if (a.data.emailExists) {
-                  Z("email", {
+                  W("email", {
                     type: "manual",
                     message:
                       "This email is already registered. Please sign in instead or use a different email.",
@@ -1133,23 +1226,23 @@
                 ((0, v.sendGTMEvent)({ event: "registration_email_start" }),
                   goToNextStep());
               },
-              eZ = (0, s.useCallback)(() => {
+              eK = (0, s.useCallback)(() => {
                 if (
                   (setIsSigningUpWithEmail(!1),
-                  U("registrationMethod", "google"),
-                  U("facebookAccessToken", "", { shouldValidate: !0 }),
-                  ev(!1),
-                  !ex)
+                  z("registrationMethod", "google"),
+                  z("facebookAccessToken", "", { shouldValidate: !0 }),
+                  ey(!1),
+                  !eN)
                 ) {
-                  Z("root", {
+                  W("root", {
                     message:
                       "Google login is unavailable. Please try again later or continue with email.",
                   });
                   return;
                 }
-                let e = ey.current;
+                let e = eC.current;
                 if (!e) {
-                  Z("root", {
+                  W("root", {
                     message:
                       "Google login is still initializing. Please try again in a moment.",
                   });
@@ -1158,48 +1251,48 @@
                 ((0, v.sendGTMEvent)({
                   event: "registration_sso_google_start",
                 }),
-                  z(["root", "googleServerAuthCode"]),
-                  em(!0),
-                  (ew.current = !0),
-                  eF());
+                  q(["root", "googleServerAuthCode"]),
+                  ev(!0),
+                  (eS.current = !0),
+                  ez());
                 try {
                   (0, C.p0)(e);
                 } catch (e) {
                   (console.error("Google code request failed", e),
-                    (ew.current = !1),
-                    e_(),
-                    em(!1),
-                    Z("root", {
+                    (eS.current = !1),
+                    eB(),
+                    ev(!1),
+                    W("root", {
                       message: "Google sign-in failed. Please try again.",
                     }));
                 }
-              }, [ex, z, eG, eF, e_, Z, em, setIsSigningUpWithEmail, U]);
+              }, [eN, q, eQ, ez, eB, W, ev, setIsSigningUpWithEmail, z]);
             return (0, n.jsx)(m.Z, {
-              ref: eC,
-              navItems: D,
+              ref: eP,
+              navItems: L,
               children: (0, n.jsxs)("form", {
                 className: "account_form",
                 onSubmit: (e) => e.preventDefault(),
                 autoComplete: "on",
                 children: [
-                  1 === F &&
-                    !eD &&
+                  1 === G &&
+                    !eL &&
                     (0, n.jsx)(p.K, {
                       onNext: goToNextStep,
                       onEmailSignUp: handleEmailSignUp,
                       onGoogleSignUp: () => {
-                        eZ();
+                        eK();
                       },
                       onFacebookSignUp: () => {
-                        if (!ep) {
-                          Z("root", {
+                        if (!ej) {
+                          W("root", {
                             message:
                               "Facebook login is unavailable. Please try again later or continue with email.",
                           });
                           return;
                         }
                         if (!window.FB) {
-                          Z("root", {
+                          W("root", {
                             message:
                               "Facebook login is still initializing. Please try again in a moment.",
                           });
@@ -1208,18 +1301,18 @@
                         ((0, v.sendGTMEvent)({
                           event: "registration_sso_facebook_start",
                         }),
-                          z("root"),
-                          es(!0),
-                          U("registrationMethod", "facebook"),
-                          U("googleServerAuthCode", "", { shouldValidate: !0 }),
-                          ev(!1));
+                          q("root"),
+                          em(!0),
+                          z("registrationMethod", "facebook"),
+                          z("googleServerAuthCode", "", { shouldValidate: !0 }),
+                          ey(!1));
                         try {
-                          ((eN.current = !0),
-                            eL(),
+                          ((eE.current = !0),
+                            eW(),
                             window.FB.login(
                               (e) => {
-                                ((eN.current = !1),
-                                  eO(),
+                                ((eE.current = !1),
+                                  eY(),
                                   (async () => {
                                     try {
                                       var r;
@@ -1229,21 +1322,21 @@
                                           ? void 0
                                           : r.accessToken;
                                       if (!a) {
-                                        (U("facebookAccessToken", "", {
+                                        (z("facebookAccessToken", "", {
                                           shouldValidate: !0,
                                         }),
-                                          Z("root", {
+                                          W("root", {
                                             message:
                                               "Facebook login was cancelled. Please try again.",
                                           }));
                                         return;
                                       }
-                                      (U("registrationMethod", "facebook"),
+                                      (z("registrationMethod", "facebook"),
                                         setIsSigningUpWithEmail(!1));
                                       let l = await h.DY({ AccessToken: a });
                                       if (l.data) {
-                                        (Z("root", { message: A }),
-                                          U("facebookAccessToken", "", {
+                                        (W("root", { message: E }),
+                                          z("facebookAccessToken", "", {
                                             shouldValidate: !0,
                                           }));
                                         return;
@@ -1252,53 +1345,53 @@
                                         l.error &&
                                         "AccountNotFound" !== l.error.error
                                       ) {
-                                        (Z("root", {
+                                        (W("root", {
                                           message:
                                             l.error.errorMessage ||
                                             "Facebook login failed. Please try again.",
                                         }),
-                                          U("facebookAccessToken", "", {
+                                          z("facebookAccessToken", "", {
                                             shouldValidate: !0,
                                           }));
                                         return;
                                       }
-                                      let n = await eU();
+                                      let n = await eq();
                                       if (!(null == n ? void 0 : n.email)) {
-                                        (U("facebookAccessToken", "", {
+                                        (z("facebookAccessToken", "", {
                                           shouldValidate: !0,
                                         }),
-                                          Z("root", { message: A }));
+                                          W("root", { message: E }));
                                         return;
                                       }
-                                      (U("facebookAccessToken", a, {
+                                      (z("facebookAccessToken", a, {
                                         shouldValidate: !0,
                                       }),
-                                        U("email", n.email, {
+                                        z("email", n.email, {
                                           shouldDirty: !0,
                                           shouldValidate: !0,
                                         }),
-                                        U("newsletterContactEmail", n.email, {
+                                        z("newsletterContactEmail", n.email, {
                                           shouldDirty: !0,
                                           shouldValidate: !0,
                                         }),
                                         n.name &&
-                                          U("displayName", n.name, {
+                                          z("displayName", n.name, {
                                             shouldDirty: !0,
                                             shouldValidate: !0,
                                           }),
-                                        z("root"),
-                                        1 === F && goToNextStep());
+                                        q("root"),
+                                        1 === G && goToNextStep());
                                     } catch (e) {
                                       (console.error(e),
-                                        U("facebookAccessToken", "", {
+                                        z("facebookAccessToken", "", {
                                           shouldValidate: !0,
                                         }),
-                                        Z("root", {
+                                        W("root", {
                                           message:
                                             "Facebook login failed. Please try again.",
                                         }));
                                     } finally {
-                                      es(!1);
+                                      em(!1);
                                     }
                                   })());
                               },
@@ -1306,35 +1399,35 @@
                             ));
                         } catch (e) {
                           (console.error(e),
-                            (eN.current = !1),
-                            eO(),
-                            es(!1),
-                            Z("root", {
+                            (eE.current = !1),
+                            eY(),
+                            em(!1),
+                            W("root", {
                               message:
                                 "Facebook login failed. Please try again.",
                             }));
                         }
                       },
                       onLogin: () => {
-                        _.push("/login");
+                        U.push("/login");
                       },
-                      control: V,
-                      errors: G,
-                      emailCheckLoading: et,
-                      isSigningUpWithEmail: ea,
+                      control: B,
+                      errors: Y,
+                      emailCheckLoading: eo,
+                      isSigningUpWithEmail: ei,
                       setIsSigningUpWithEmail: setIsSigningUpWithEmail,
-                      facebookLoginLoading: ei,
-                      facebookSdkReady: ec,
-                      googleLoginLoading: eu,
-                      googleSdkReady: eg,
-                      raiderFeatureSlides: T.raiderFeatureSlides
+                      facebookLoginLoading: eu,
+                      facebookSdkReady: ef,
+                      googleLoginLoading: eh,
+                      googleSdkReady: ep,
+                      raiderFeatureSlides: V.raiderFeatureSlides
                         .filter((e) => void 0 !== e)
                         .map((e) => e.fields),
                     }),
-                  "google" === H &&
-                    F >= 2 &&
-                    !eh &&
-                    !Q &&
+                  "google" === J &&
+                    G >= 2 &&
+                    !eb &&
+                    !X &&
                     (0, n.jsxs)("div", {
                       className:
                         "mb-6 rounded-lg border border-white/20 bg-black/30 p-4",
@@ -1349,11 +1442,11 @@
                             "flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between",
                           children: [
                             (0, n.jsx)(j.Z, {
-                              onClick: eZ,
-                              loading: eu,
-                              disabled: eu || !eg,
+                              onClick: eK,
+                              loading: eh,
+                              disabled: eh || !ep,
                               fullWidth: !0,
-                              children: Q
+                              children: X
                                 ? "Use a different Google account"
                                 : "Continue with Google",
                             }),
@@ -1367,43 +1460,44 @@
                             }),
                           ],
                         }),
-                        (0, n.jsx)(g.Z, { error: G.googleServerAuthCode }),
-                        !ex &&
-                          (0, n.jsx)(g.Z, {
+                        (0, n.jsx)(f.Z, { error: Y.googleServerAuthCode }),
+                        !eN &&
+                          (0, n.jsx)(f.Z, {
                             error: "Google Client ID is not configured.",
                           }),
                       ],
                     }),
-                  F >= 2 &&
-                    F <= 4 &&
+                  G >= 2 &&
+                    G <= 4 &&
                     (0, n.jsx)(b.k, {
-                      currentStep: F,
+                      currentStep: G,
                       onNext: goToNextStep,
                       onBack: () => {
-                        let e = eD && eP ? eP : eD ? eE : 1;
-                        L((r) => {
+                        let e = eL && e_ ? e_ : eL ? eT : 1;
+                        Z((r) => {
                           let a = P[r];
                           return a < e ? e : a;
                         });
                       },
-                      control: V,
-                      errors: G,
-                      setValue: U,
-                      trigger: B,
-                      setError: Z,
-                      watch: W,
-                      isSigningUpWithEmail: ea,
+                      control: B,
+                      errors: Y,
+                      setValue: z,
+                      trigger: H,
+                      setError: W,
+                      watch: K,
+                      isSigningUpWithEmail: ei,
                       onRegistrationSuccess: handleRegistration,
                       onNewsletterUpdate: handleNewsletterUpdate,
-                      registrationPage: T,
+                      onSkip: handleNewsletterSkip,
+                      registrationPage: V,
                     }),
-                  5 === F &&
+                  5 === G &&
                     (0, n.jsx)(y.d, {
                       onUnlockDashboard: () => {
-                        eo && K(eo);
+                        ec && ee(ec);
                       },
-                      celebrationDescription: T.celebrationDescription,
-                      celebrationImage: T.celebrationImage,
+                      celebrationDescription: V.celebrationDescription,
+                      celebrationImage: V.celebrationImage,
                     }),
                 ],
               }),
@@ -1566,19 +1660,19 @@
         let {
             onUnlockDashboard: s,
             celebrationDescription: m,
-            celebrationImage: g,
+            celebrationImage: f,
           } = e,
-          [f, h] = (0, n.useState)(!1),
+          [g, h] = (0, n.useState)(!1),
           v = (
-            null == g
+            null == f
               ? void 0
-              : null === (a = g.fields) || void 0 === a
+              : null === (a = f.fields) || void 0 === a
                 ? void 0
                 : null === (r = a.file) || void 0 === r
                   ? void 0
                   : r.url
           )
-            ? "https:".concat(g.fields.file.url)
+            ? "https:".concat(f.fields.file.url)
             : "/images/welcome/Lara-Croft-Hero.png";
         return (
           (0, n.useEffect)(() => {
@@ -1598,7 +1692,7 @@
                       className: "absolute inset-0 scale-125",
                       children: (0, l.jsx)(d.R, {
                         responsive: !1,
-                        playAnimation: f,
+                        playAnimation: g,
                       }),
                     }),
                     (0, l.jsx)("div", {
@@ -1681,8 +1775,8 @@
         d = a(13057),
         u = a(86848),
         m = a(43976),
-        g = a(47681),
-        f = a.n(g),
+        f = a(47681),
+        g = a.n(f),
         h = a(13782);
       let v = {
         LeftContent: function (e) {
@@ -1704,7 +1798,7 @@
               "relative mx-auto aspect-square w-full max-w-[500px] overflow-hidden rounded-lg",
             children:
               s &&
-              (0, l.jsx)(f(), {
+              (0, l.jsx)(g(), {
                 src: s,
                 alt: "Raider Crew",
                 fill: !0,
@@ -1715,24 +1809,25 @@
         RightContent: function (e) {
           let {
               onNext: r,
-              control: a,
+              onSkip: a,
+              control: f,
               errors: g,
-              isSigningUpWithEmail: f,
-              trigger: v,
-              setError: p,
-              onNewsletterUpdate: x,
-              headline: b,
-              description: y,
-              features: j,
+              isSigningUpWithEmail: v,
+              trigger: p,
+              setError: x,
+              onNewsletterUpdate: b,
+              headline: y,
+              description: j,
+              features: N,
             } = e,
-            [N, k] = (0, n.useState)(!1),
-            [C, S] = (0, n.useState)(!1),
-            I = (0, u.qo)({ control: a, name: "newsletterContactEmail" }),
+            [k, C] = (0, n.useState)(!1),
+            [S, I] = (0, n.useState)(!1),
+            E = (0, u.qo)({ control: f, name: "newsletterContactEmail" }),
             handleJoin = async () => {
-              if (!f) {
-                let e = null == I ? void 0 : I.trim();
+              if (!v) {
+                let e = null == E ? void 0 : E.trim();
                 if (!e) {
-                  p("newsletterContactEmail", {
+                  x("newsletterContactEmail", {
                     type: "manual",
                     message:
                       "Please provide an email address for newsletter updates",
@@ -1740,22 +1835,22 @@
                   return;
                 }
               }
-              let e = f ? await v() : await v("newsletterContactEmail");
+              let e = v ? await p() : await p("newsletterContactEmail");
               if (e) {
-                k(!0);
+                C(!0);
                 try {
-                  (await x(),
+                  (await b(),
                     (0, h.sendGTMEvent)({
                       event: "registration_newsletter_subscribe",
                     }),
                     r());
                 } catch (e) {
-                  k(!1);
+                  C(!1);
                 }
               }
             },
             handleOptInCheckboxChange = (e) => {
-              S(e);
+              I(e);
             };
           return (0, l.jsxs)("div", {
             className: "flex flex-col gap-6",
@@ -1765,12 +1860,12 @@
                 children: [
                   (0, l.jsx)("h2", {
                     className: "mb-2 text-3xl font-bold leading-tight",
-                    children: b,
+                    children: y,
                   }),
-                  (0, l.jsx)("p", { className: "mb-2", children: y }),
+                  (0, l.jsx)("p", { className: "mb-2", children: j }),
                   (0, l.jsx)("div", {
                     className: "flex flex-col items-center gap-1 text-white",
-                    children: j.map((e, r) =>
+                    children: N.map((e, r) =>
                       (0, l.jsxs)(
                         "div",
                         {
@@ -1801,14 +1896,14 @@
                   }),
                 ],
               }),
-              !f &&
+              !v &&
                 (0, l.jsx)(u.Qr, {
                   name: "newsletterContactEmail",
-                  control: a,
+                  control: f,
                   render: (e) => {
                     let { field: r } = e;
                     return (0, l.jsx)(d.Z, {
-                      label: "Contact Email",
+                      label: "Newsletter Email",
                       placeholder: "Email for newsletters and updates",
                       type: "email",
                       autoComplete: "email",
@@ -1824,7 +1919,7 @@
                 children: [
                   (0, l.jsx)(u.Qr, {
                     name: "agreeToReceiveExtraEmails",
-                    control: a,
+                    control: f,
                     render: (e) => {
                       let {
                         field: { onChange: r, value: a },
@@ -1852,20 +1947,20 @@
                     id: "raider-crew-join-button",
                     className:
                       "rounded-lg border border-yellow-500 bg-yellow-500 py-2 text-black hover:bg-yellow-300 disabled:opacity-50",
-                    disabled: N || !C,
-                    children: N ? (0, l.jsx)(m.Z, {}) : "Subscribe",
+                    disabled: k || !S,
+                    children: k ? (0, l.jsx)(m.Z, {}) : "Subscribe",
                   }),
                   (0, l.jsx)("button", {
                     onClick: () => {
                       ((0, h.sendGTMEvent)({
                         event: "registration_newsletter_skip",
                       }),
-                        r());
+                        a());
                     },
                     type: "button",
                     id: "raider-crew-skip-button",
                     className: "py-2 text-white hover:text-yellow-500",
-                    disabled: N,
+                    disabled: k,
                     children: "Skip",
                   }),
                 ],
@@ -1889,7 +1984,7 @@
         d = a(86848),
         u = a(65516),
         m = a(76174);
-      let g = [
+      let f = [
           { name: "United States of America", value: "US" },
           ...u
             .all()
@@ -1910,7 +2005,7 @@
           m
             .filter((r) => r.country === e)
             .map((e) => ({ name: e.name, value: e.name }));
-      var f = a(75443),
+      var g = a(75443),
         h = a(47681),
         v = a.n(h),
         p = a(13782);
@@ -2015,7 +2110,7 @@
                               onSelect: (e) => {
                                 (r(e), h("stateOrProvinceName", ""));
                               },
-                              items: g,
+                              items: f,
                               error: m.countryAlpha2Code,
                             });
                           },
@@ -2171,7 +2266,7 @@
                             "rounded-lg border border-yellow-500 bg-yellow-500 py-2 text-black hover:bg-yellow-300",
                           children: "Choose your Raider Identity",
                         }),
-                        (0, l.jsx)(f.Z, {
+                        (0, l.jsx)(g.Z, {
                           onClick: a,
                           full: !0,
                           id: "raider-details-back-button",
@@ -2200,8 +2295,8 @@
         d = a(13057),
         u = a(13788),
         m = a(44346),
-        g = a(57314),
-        f = a(86848),
+        f = a(57314),
+        g = a(86848),
         h = a(99288),
         v = a(4290);
       function RaiderAvatarSelectSlider(e) {
@@ -2412,7 +2507,7 @@
               description: S,
               selectedAvatar: I,
             } = e,
-            [A, E] = (0, n.useState)(!1),
+            [E, A] = (0, n.useState)(!1),
             [P, R] = (0, n.useState)(!1),
             M = N("acceptTermsOfService"),
             handleSaveProfile = async () => {
@@ -2425,7 +2520,7 @@
               }
               let e = await y(["displayName", "acceptTermsOfService"]);
               if (e) {
-                E(!0);
+                A(!0);
                 try {
                   (await k(null == I ? void 0 : I.id),
                     (0, b.sendGTMEvent)({
@@ -2433,10 +2528,10 @@
                     }),
                     R(!0),
                     setTimeout(() => {
-                      (R(!1), E(!1), s());
+                      (R(!1), A(!1), s());
                     }, 1500));
                 } catch (e) {
-                  (E(!1), R(!1));
+                  (A(!1), R(!1));
                 }
               }
             };
@@ -2455,7 +2550,7 @@
               (0, l.jsxs)("div", {
                 className: "flex flex-col gap-2",
                 children: [
-                  (0, l.jsx)(f.Qr, {
+                  (0, l.jsx)(g.Qr, {
                     name: "displayName",
                     control: h,
                     render: (e) => {
@@ -2473,7 +2568,7 @@
                   (0, l.jsxs)("div", {
                     className: "mb-4",
                     children: [
-                      (0, l.jsx)(f.Qr, {
+                      (0, l.jsx)(g.Qr, {
                         name: "acceptTermsOfService",
                         control: h,
                         render: (e) => {
@@ -2487,7 +2582,7 @@
                             children: [
                               "I agree to the",
                               " ",
-                              (0, l.jsx)(g.Z, {
+                              (0, l.jsx)(f.Z, {
                                 defaultUnderlined: !0,
                                 target: "_blank",
                                 href: "/legal/terms",
@@ -2496,7 +2591,7 @@
                               " ",
                               "and",
                               " ",
-                              (0, l.jsx)(g.Z, {
+                              (0, l.jsx)(f.Z, {
                                 defaultUnderlined: !0,
                                 target: "_blank",
                                 href: "/legal/privacy",
@@ -2530,8 +2625,8 @@
                       "rounded-lg border border-yellow-500 bg-yellow-500 py-2 text-black hover:bg-yellow-300 ".concat(
                         P ? "" : "disabled:opacity-50",
                       ),
-                    disabled: !M || A || P,
-                    children: A
+                    disabled: !M || E || P,
+                    children: E
                       ? P
                         ? (0, l.jsx)("span", {
                             className: "font-bold",
@@ -2544,7 +2639,7 @@
                     onClick: c,
                     full: !0,
                     id: "raider-identity-back-button",
-                    disabled: A || P,
+                    disabled: E || P,
                     children: "Go Back",
                   }),
                 ],
@@ -2569,37 +2664,38 @@
             d = a(39438),
             u = a(62997),
             m = a(53420),
-            g = a(82262),
-            f = e([g]);
+            f = a(82262),
+            g = e([f]);
           function RegistrationMultiStep(e) {
             let {
                 currentStep: r,
                 onNext: a,
-                onBack: l,
-                control: f,
-                errors: h,
-                setValue: v,
-                trigger: p,
-                setError: x,
-                watch: b,
-                isSigningUpWithEmail: y,
-                onRegistrationSuccess: j,
-                onNewsletterUpdate: N,
-                registrationPage: k,
+                onSkip: l,
+                onBack: g,
+                control: h,
+                errors: v,
+                setValue: p,
+                trigger: x,
+                setError: b,
+                watch: y,
+                isSigningUpWithEmail: j,
+                onRegistrationSuccess: N,
+                onNewsletterUpdate: k,
+                registrationPage: C,
               } = e,
-              [C, S] = (0, s.useState)(null),
-              [I, A] = (0, s.useState)([]),
-              [E, P] = (0, s.useState)(!1);
+              [S, I] = (0, s.useState)(null),
+              [E, A] = (0, s.useState)([]),
+              [P, R] = (0, s.useState)(!1);
             return ((0, s.useEffect)(() => {
               let fetchAvatars = async () => {
-                let e = k.raiderIdentityAvatarOptions;
+                let e = C.raiderIdentityAvatarOptions;
                 if (!e || 0 === e.length) {
                   A([]);
                   return;
                 }
-                P(!0);
+                R(!0);
                 try {
-                  let r = await (0, g.dl)(e);
+                  let r = await (0, f.dl)(e);
                   if ("data" in r && r.data) {
                     let e = r.data.avatars;
                     (A(e),
@@ -2616,11 +2712,11 @@
                   (console.error("Error fetching registration avatars:", e),
                     A([]));
                 } finally {
-                  P(!1);
+                  R(!1);
                 }
               };
               fetchAvatars();
-            }, [k.raiderIdentityAvatarOptions]),
+            }, [C.raiderIdentityAvatarOptions]),
             r < 2 || r > 4)
               ? null
               : (0, n.jsxs)("div", {
@@ -2633,20 +2729,20 @@
                       children: [
                         2 === r &&
                           (0, n.jsx)(u.k.LeftContent, {
-                            image: k.raiderDetailsImage,
+                            image: C.raiderDetailsImage,
                           }),
                         3 === r &&
                           (0, n.jsx)(d.g.LeftContent, {
-                            selectedAvatar: C,
+                            selectedAvatar: S,
                             onAvatarSelect: (e) => {
-                              S(e);
+                              I(e);
                             },
-                            avatars: I,
-                            isLoadingAvatars: E,
+                            avatars: E,
+                            isLoadingAvatars: P,
                           }),
                         4 === r &&
                           (0, n.jsx)(m.P.LeftContent, {
-                            image: k.raiderCrewImage,
+                            image: C.raiderCrewImage,
                           }),
                       ],
                     }),
@@ -2662,40 +2758,41 @@
                             2 === r &&
                               (0, n.jsx)(u.k.RightContent, {
                                 onNext: a,
-                                onBack: l,
-                                control: f,
-                                errors: h,
-                                setValue: v,
-                                trigger: p,
-                                headline: k.raiderDetailsHeadline,
-                                description: k.raiderDetailsDescription,
+                                onBack: g,
+                                control: h,
+                                errors: v,
+                                setValue: p,
+                                trigger: x,
+                                headline: C.raiderDetailsHeadline,
+                                description: C.raiderDetailsDescription,
                               }),
                             3 === r &&
                               (0, n.jsx)(d.g.RightContent, {
                                 onNext: a,
-                                onBack: l,
-                                control: f,
-                                errors: h,
-                                trigger: p,
-                                setError: x,
-                                watch: b,
-                                onRegistrationSuccess: j,
-                                headline: k.raiderIdentityHeadline,
-                                description: k.raiderIdentityDescription,
-                                selectedAvatar: C,
+                                onBack: g,
+                                control: h,
+                                errors: v,
+                                trigger: x,
+                                setError: b,
+                                watch: y,
+                                onRegistrationSuccess: N,
+                                headline: C.raiderIdentityHeadline,
+                                description: C.raiderIdentityDescription,
+                                selectedAvatar: S,
                               }),
                             4 === r &&
                               (0, n.jsx)(m.P.RightContent, {
                                 onNext: a,
-                                control: f,
-                                errors: h,
-                                isSigningUpWithEmail: y,
-                                trigger: p,
-                                setError: x,
-                                onNewsletterUpdate: N,
-                                headline: k.raiderCrewHeadline,
-                                description: k.raiderCrewDescription,
-                                features: k.raiderCrewFeatures,
+                                onSkip: null != l ? l : a,
+                                control: h,
+                                errors: v,
+                                isSigningUpWithEmail: j,
+                                trigger: x,
+                                setError: b,
+                                onNewsletterUpdate: k,
+                                headline: C.raiderCrewHeadline,
+                                description: C.raiderCrewDescription,
+                                features: C.raiderCrewFeatures,
                               }),
                           ],
                         }),
@@ -2704,7 +2801,7 @@
                   ],
                 });
           }
-          ((g = (f.then ? (await f)() : f)[0]), l());
+          ((f = (g.then ? (await g)() : g)[0]), l());
         } catch (e) {
           l(e);
         }
@@ -2724,8 +2821,8 @@
         d = a(13057),
         u = a(86848),
         m = a(40340),
-        g = a(43976),
-        f = a(44346),
+        f = a(43976),
+        g = a(44346),
         h = a(75443);
       function SignUpOptions(e) {
         var r;
@@ -2742,8 +2839,8 @@
             setIsSigningUpWithEmail: C,
             facebookLoginLoading: S,
             facebookSdkReady: I,
-            googleLoginLoading: A,
-            googleSdkReady: E,
+            googleLoginLoading: E,
+            googleSdkReady: A,
           } = e,
           [P, R] = (0, n.useState)(0),
           [M, D] = (0, n.useState)(null),
@@ -2829,7 +2926,7 @@
                           className:
                             "mt-2 flex items-center justify-center gap-2 rounded-lg border border-yellow-500 bg-yellow-500 py-2 text-black hover:bg-yellow-300 disabled:cursor-not-allowed disabled:opacity-50",
                           children: [
-                            N && (0, l.jsx)(g.Z, {}),
+                            N && (0, l.jsx)(f.Z, {}),
                             N ? "Checking..." : "Continue with Email",
                           ],
                         }),
@@ -2852,19 +2949,19 @@
                           }),
                         }),
                         j.googleServerAuthCode &&
-                          (0, l.jsx)(f.Z, { error: j.googleServerAuthCode }),
+                          (0, l.jsx)(g.Z, { error: j.googleServerAuthCode }),
                         (0, l.jsxs)("div", {
                           className: "flex gap-3",
                           children: [
                             (0, l.jsxs)("button", {
                               onClick: p,
                               type: "button",
-                              disabled: !E || A,
+                              disabled: !A || E,
                               className:
                                 "flex flex-1 justify-center rounded-lg border border-gray-600 p-2 hover:border-yellow-300 disabled:cursor-not-allowed disabled:opacity-50",
                               children: [
-                                A
-                                  ? (0, l.jsx)(g.Z, {})
+                                E
+                                  ? (0, l.jsx)(f.Z, {})
                                   : (0, l.jsxs)("svg", {
                                       xmlns: "http://www.w3.org/2000/svg",
                                       width: "20",
@@ -2906,7 +3003,7 @@
                                 "hidden flex-1 justify-center rounded-lg border border-gray-600 p-2 hover:border-yellow-300 disabled:cursor-not-allowed disabled:opacity-50",
                               children: [
                                 S
-                                  ? (0, l.jsx)(g.Z, {})
+                                  ? (0, l.jsx)(f.Z, {})
                                   : (0, l.jsxs)("svg", {
                                       xmlns: "http://www.w3.org/2000/svg",
                                       width: "20",
@@ -3067,8 +3164,8 @@
         d = a(52983),
         u = a(59438),
         m = a(23285),
-        g = a(20140),
-        f = a(14940),
+        f = a(20140),
+        g = a(14940),
         h = a(31083),
         v = a(85682),
         p = a(14305),
@@ -3098,7 +3195,7 @@
       function t(e) {
         return [e.screenX, e.screenY];
       }
-      let A =
+      let E =
         /([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g;
       function o(e) {
         var r, a;
@@ -3109,10 +3206,10 @@
         for (let e of n.querySelectorAll('[hidden],[aria-hidden],[role="img"]'))
           (e.remove(), (s = !0));
         let c = s ? (null != (a = n.innerText) ? a : "") : l;
-        return (A.test(c) && (c = c.replace(A, "")), c);
+        return (E.test(c) && (c = c.replace(E, "")), c);
       }
-      var E =
-          (((n = E || {})[(n.Open = 0)] = "Open"),
+      var A =
+          (((n = A || {})[(n.Open = 0)] = "Open"),
           (n[(n.Closed = 1)] = "Closed"),
           n),
         P =
@@ -3275,20 +3372,20 @@
                 activeItemIndex: null,
                 activationTrigger: 1,
               }),
-              [{ menuState: s, itemsRef: c, buttonRef: g }, f] = n,
+              [{ menuState: s, itemsRef: c, buttonRef: f }, g] = n,
               h = (0, v.T)(r);
             (0, N.O)(
-              [g, c],
+              [f, c],
               (e, r) => {
                 var a;
-                (f({ type: 1 }),
+                (g({ type: 1 }),
                   (0, j.sP)(r, j.tJ.Loose) ||
-                    (e.preventDefault(), null == (a = g.current) || a.focus()));
+                    (e.preventDefault(), null == (a = f.current) || a.focus()));
               },
               0 === s,
             );
             let p = (0, I.z)(() => {
-                f({ type: 1 });
+                g({ type: 1 });
               }),
               x = (0, d.useMemo)(() => ({ open: 0 === s, close: p }), [s, p]);
             return d.createElement(
@@ -3313,8 +3410,8 @@
               let l = (0, p.M)(),
                 { id: n = `headlessui-menu-button-${l}`, ...s } = e,
                 [c, u] = O("Menu.Button"),
-                g = (0, v.T)(c.buttonRef, r),
-                j = (0, f.G)(),
+                f = (0, v.T)(c.buttonRef, r),
+                j = (0, g.G)(),
                 N = (0, I.z)((e) => {
                   switch (e.key) {
                     case x.R.Space:
@@ -3349,8 +3446,8 @@
                       : (r.preventDefault(), u({ type: 0 })));
                 }),
                 S = (0, d.useMemo)(() => ({ open: 0 === c.menuState }), [c]),
-                A = {
-                  ref: g,
+                E = {
+                  ref: f,
                   id: n,
                   type: (function (e, r) {
                     let [a, l] = (0, d.useState)(() => i(e));
@@ -3377,7 +3474,7 @@
                   onClick: C,
                 };
               return (0, m.sY)({
-                ourProps: A,
+                ourProps: E,
                 theirProps: s,
                 slot: S,
                 defaultTag: "button",
@@ -3390,8 +3487,8 @@
                 { id: s = `headlessui-menu-items-${n}`, ...c } = e,
                 [u, y] = O("Menu.Items"),
                 N = (0, v.T)(u.itemsRef, r),
-                A = (0, S.i)(u.itemsRef),
-                E = (0, f.G)(),
+                E = (0, S.i)(u.itemsRef),
+                A = (0, g.G)(),
                 P = (0, C.oJ)(),
                 R =
                   null !== P
@@ -3401,9 +3498,9 @@
                 let e = u.itemsRef.current;
                 e &&
                   0 === u.menuState &&
-                  e !== (null == A ? void 0 : A.activeElement) &&
+                  e !== (null == E ? void 0 : E.activeElement) &&
                   e.focus({ preventScroll: !0 });
-              }, [u.menuState, u.itemsRef, A]),
+              }, [u.menuState, u.itemsRef, E]),
                 (function ({
                   container: e,
                   accept: r,
@@ -3445,7 +3542,7 @@
                 }));
               let M = (0, I.z)((e) => {
                   var r, a;
-                  switch ((E.dispose(), e.key)) {
+                  switch ((A.dispose(), e.key)) {
                     case x.R.Space:
                       if ("" !== u.searchQuery)
                         return (
@@ -3499,7 +3596,7 @@
                       (e.preventDefault(),
                         e.stopPropagation(),
                         y({ type: 1 }),
-                        (0, g.k)().nextFrame(() => {
+                        (0, f.k)().nextFrame(() => {
                           var e;
                           return null == (e = u.buttonRef.current)
                             ? void 0
@@ -3510,7 +3607,7 @@
                       (e.preventDefault(),
                         e.stopPropagation(),
                         y({ type: 1 }),
-                        (0, g.k)().nextFrame(() => {
+                        (0, f.k)().nextFrame(() => {
                           (0, j.EO)(
                             u.buttonRef.current,
                             e.shiftKey ? j.TO.Previous : j.TO.Next,
@@ -3520,7 +3617,7 @@
                     default:
                       1 === e.key.length &&
                         (y({ type: 3, value: e.key }),
-                        E.setTimeout(() => y({ type: 4 }), 350));
+                        A.setTimeout(() => y({ type: 4 }), 350));
                   }
                 }),
                 D = (0, I.z)((e) => {
@@ -3560,7 +3657,7 @@
                 {
                   id: c = `headlessui-menu-item-${s}`,
                   disabled: u = !1,
-                  ...f
+                  ...g
                 } = e,
                 [x, y] = O("Menu.Item"),
                 N =
@@ -3576,7 +3673,7 @@
                   0 === x.activationTrigger
                 )
                   return;
-                let e = (0, g.k)();
+                let e = (0, f.k)();
                 return (
                   e.requestAnimationFrame(() => {
                     var e, r;
@@ -3629,7 +3726,7 @@
                       .toLowerCase();
                     return ((a.current = r), (l.current = n), n);
                   })),
-                A = (0, d.useRef)({
+                E = (0, d.useRef)({
                   disabled: u,
                   domRef: k,
                   get textValue() {
@@ -3637,16 +3734,16 @@
                   },
                 });
               ((0, h.e)(() => {
-                A.current.disabled = u;
-              }, [A, u]),
+                E.current.disabled = u;
+              }, [E, u]),
                 (0, h.e)(
                   () => (
-                    y({ type: 5, id: c, dataRef: A }),
+                    y({ type: 5, id: c, dataRef: E }),
                     () => y({ type: 6, id: c })
                   ),
-                  [A, c],
+                  [E, c],
                 ));
-              let E = (0, I.z)(() => {
+              let A = (0, I.z)(() => {
                   y({ type: 1 });
                 }),
                 P = (0, I.z)((e) => {
@@ -3683,8 +3780,8 @@
                     (u || (N && y({ type: 2, focus: b.Nothing })));
                 }),
                 L = (0, d.useMemo)(
-                  () => ({ active: N, disabled: u, close: E }),
-                  [N, u, E],
+                  () => ({ active: N, disabled: u, close: A }),
+                  [N, u, A],
                 );
               return (0, m.sY)({
                 ourProps: {
@@ -3703,7 +3800,7 @@
                   onPointerLeave: _,
                   onMouseLeave: _,
                 },
-                theirProps: f,
+                theirProps: g,
                 slot: L,
                 defaultTag: F,
                 name: "Menu.Item",
