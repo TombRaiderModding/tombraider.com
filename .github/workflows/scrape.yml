@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - run: rm static || true
+    - run: rm -r static || true
 
     - name: Run
       run: node scrape.ts
