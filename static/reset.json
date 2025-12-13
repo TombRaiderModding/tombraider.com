@@ -1,0 +1,401 @@
+{
+  "pageProps": {
+    "websiteSingleton": {
+      "footerLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "Hif8SJHYegYDAjiZv3CF8",
+          "type": "Asset",
+          "createdAt": "2023-12-08T20:27:49.904Z",
+          "updatedAt": "2023-12-08T20:27:49.904Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 6,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "tombraider-logo-color",
+          "description": "Tomb Raider",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/Hif8SJHYegYDAjiZv3CF8/b576c1ac7233f0e7f5665884b2d37113/tombraider-logo.webp",
+            "details": {
+              "size": 8852,
+              "image": { "width": 169, "height": 80 }
+            },
+            "fileName": "tombraider-logo.webp",
+            "contentType": "image/webp"
+          }
+        }
+      },
+      "footerCopyright": "© Crystal Dynamics group of companies. All rights reserved.",
+      "footerLegalNotice": "CRYSTAL DYNAMICS and the Crystal Dynamics logo, CRYSTAL NORTHWEST and the Crystal Northwest logo, CRYSTAL SOUTHWEST and the Crystal Southwest logo, TOMB RAIDER and the Tomb Raider logo, and LARA CROFT are trademarks of the Crystal Dynamics group of companies.",
+      "footerCtaTitle": "Join the new Society of Raiders",
+      "footerCtaDescription": "Sign up to join our Society of Raiders and receive monthly newsletters & exclusive rewards. Adventure is calling!",
+      "footerCtaBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "5oHvbd6MyBZEEz49j3W2MJ",
+          "type": "Asset",
+          "createdAt": "2023-11-28T17:59:14.600Z",
+          "updatedAt": "2025-12-08T21:22:33.843Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 8,
+          "revision": 2,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Tomb Raider Unified Wallpaper",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/5oHvbd6MyBZEEz49j3W2MJ/29e5a6d08ddac046b1c79dd5b94d6dde/TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1__1_.png",
+            "details": {
+              "size": 12644148,
+              "image": { "width": 3840, "height": 2441 }
+            },
+            "fileName": "TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1 (1).png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "nonFooterCtaTitle": "Join the Society of Raiders",
+      "nonFooterCtaDescription": "Are you ready to join the Society of Raiders? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, merchandise, and more!",
+      "pageNotFound404Background": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "homepageHeroSubtitle": "Adventure Awaits",
+      "homepageHeroLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "2aCqoEkpsF6OnLO0cBznp5",
+          "type": "Asset",
+          "createdAt": "2024-01-12T17:52:18.793Z",
+          "updatedAt": "2024-01-12T17:52:18.793Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 3,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Homepage herocard-logo",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/2aCqoEkpsF6OnLO0cBznp5/f43209ee179b1a9b580d6fd594926fcf/Homepage_herocard-logo.png",
+            "details": {
+              "size": 660592,
+              "image": { "width": 976, "height": 500 }
+            },
+            "fileName": "Homepage_herocard-logo.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "homepageHeroSliderSubtitle": "Scroll to Explore",
+      "homepageHeroBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "minigameSliderText": "Slide to unlock the Vault",
+      "minigamePuzzleTitle": "Decrypt the cipher and your curiosity will be rewarded.",
+      "minigamePuzzleMissingRelicsSubtitle": "Your path to discovery is still incomplete - Collect all five relics and return to the vault.",
+      "minigameRelicTrayPuzzleOpenClickPrompt": "Click each relic to take a closer look",
+      "minigamePuzzleCloseButtonText": "Back to Tomb",
+      "minigamePuzzleSolveButton": "Solve",
+      "minigamePuzzleIncorrectText": "Try again. The runes must be in order and the relics hold the clues...",
+      "minigameCorrectSolutionTitle": "Congratulations, Raider!",
+      "minigameCorrectSolutionSubtitle": "You've solved an ancient puzzle and unlocked the vault. Your avatar awaits!",
+      "minigameSolvedLoggedInContinueButtonText": "Collect",
+      "minigameSolvedLoggedOutRegisterButtonText": "Register to Collect",
+      "minigameSolvedLoggedOutLoginButtonText": "Log in to Collect",
+      "minigameSolvedLoggedOutCta": "Become a Raider! Sign up for breaking news, rewards, exclusives, merch, releases, and more!",
+      "minigameFirePrompt": "A Raider's path to discovery starts with a spark.",
+      "minigameFireHint": "Seek out the relics to unlock the vault.",
+      "minigamePuzzleSkipButtonText": "Skip Puzzle",
+      "minigamePuzzleSkipExplanationText": "You are about to auto-complete the puzzle. Are you sure you want to do this?",
+      "registrationDisplayNameHelperText": "Become a Tomb Raider today by signing up with a Display Name! Your Display Name will be used for future site features & engagement opportunities. Adventure awaits – will you answer the call?",
+      "registrationLegalQuestion": {
+        "data": {},
+        "content": [
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "I accept Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/terms/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Terms of Service",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              {
+                "data": {},
+                "marks": [],
+                "value": " and I acknowledge that I have read and understand Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/privacy/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Privacy Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": " and ", "nodeType": "text" },
+              {
+                "data": { "uri": "https://www.crystald.com/legal/cookies/" },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Cookie Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+            ],
+            "nodeType": "paragraph"
+          }
+        ],
+        "nodeType": "document"
+      },
+      "resetPasswordTitle": "Reset Password",
+      "resetPasswordDescription": "Are you ready to become a Tomb Raider? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, exclusives, merch, releases, and more!",
+      "loginFormWelcomeTitle": "Welcome to Tomb Raider!",
+      "loginFormWelcomeDescription": "Log in to access and update your account information.",
+      "featuredGamesTitle": "Featured Products",
+      "latestProductsTitle": "Latest Products",
+      "productReleaseDateLabel": "Release Date",
+      "productManufacturerLabel": "Developer",
+      "productPublisherLabel": "Publisher",
+      "productPartnerLabel": "Partner",
+      "productCallOutLabel": "Call Out",
+      "globalSliderAutoplayDelay": 6000,
+      "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+    },
+    "navItems": [
+      {
+        "name": "Welcome",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": true,
+        "showInFooter": false,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 100,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Home",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 200,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "News",
+        "link": "/news/all",
+        "rootLink": "/news",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 300,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Explore",
+        "link": "/challenge-tomb",
+        "rootLink": "/challenge-tomb",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 325,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Lara Croft",
+        "link": "/lara-croft",
+        "rootLink": "/lara-croft",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 350,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Products",
+        "link": "/products/featured",
+        "rootLink": "/products",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 400,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Shop",
+        "link": "https://gear.tombraider.com/",
+        "rootLink": "https://gear.tombraider.com/",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 500,
+        "shouldReplaceWithGeneratedShopLink": true
+      },
+      {
+        "name": "Login",
+        "link": "/login",
+        "rootLink": "/login",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 600,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Register",
+        "link": "/registration",
+        "rootLink": "/registration",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 700,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Terms",
+        "link": "https://www.crystaldynamics.com/legal/terms/",
+        "rootLink": "https://www.crystaldynamics.com/legal/terms/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 800,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Privacy",
+        "link": "https://www.crystaldynamics.com/legal/privacy/",
+        "rootLink": "https://www.crystaldynamics.com/legal/privacy/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 900,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Cookies",
+        "link": "/legal/cookies",
+        "rootLink": "/legal/cookies",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 1000,
+        "shouldReplaceWithGeneratedShopLink": false
+      }
+    ]
+  },
+  "__N_SSG": true
+}

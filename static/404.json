@@ -1,0 +1,1581 @@
+{
+  "pageProps": {
+    "websiteSingleton": {
+      "footerLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "Hif8SJHYegYDAjiZv3CF8",
+          "type": "Asset",
+          "createdAt": "2023-12-08T20:27:49.904Z",
+          "updatedAt": "2023-12-08T20:27:49.904Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 6,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "tombraider-logo-color",
+          "description": "Tomb Raider",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/Hif8SJHYegYDAjiZv3CF8/b576c1ac7233f0e7f5665884b2d37113/tombraider-logo.webp",
+            "details": {
+              "size": 8852,
+              "image": { "width": 169, "height": 80 }
+            },
+            "fileName": "tombraider-logo.webp",
+            "contentType": "image/webp"
+          }
+        }
+      },
+      "footerCopyright": "© Crystal Dynamics group of companies. All rights reserved.",
+      "footerLegalNotice": "CRYSTAL DYNAMICS and the Crystal Dynamics logo, CRYSTAL NORTHWEST and the Crystal Northwest logo, CRYSTAL SOUTHWEST and the Crystal Southwest logo, TOMB RAIDER and the Tomb Raider logo, and LARA CROFT are trademarks of the Crystal Dynamics group of companies.",
+      "footerCtaTitle": "Join the new Society of Raiders",
+      "footerCtaDescription": "Sign up to join our Society of Raiders and receive monthly newsletters & exclusive rewards. Adventure is calling!",
+      "footerCtaBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "5oHvbd6MyBZEEz49j3W2MJ",
+          "type": "Asset",
+          "createdAt": "2023-11-28T17:59:14.600Z",
+          "updatedAt": "2025-12-08T21:22:33.843Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 8,
+          "revision": 2,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Tomb Raider Unified Wallpaper",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/5oHvbd6MyBZEEz49j3W2MJ/29e5a6d08ddac046b1c79dd5b94d6dde/TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1__1_.png",
+            "details": {
+              "size": 12644148,
+              "image": { "width": 3840, "height": 2441 }
+            },
+            "fileName": "TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1 (1).png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "nonFooterCtaTitle": "Join the Society of Raiders",
+      "nonFooterCtaDescription": "Are you ready to join the Society of Raiders? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, merchandise, and more!",
+      "pageNotFound404Background": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "homepageHeroSubtitle": "Adventure Awaits",
+      "homepageHeroLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "2aCqoEkpsF6OnLO0cBznp5",
+          "type": "Asset",
+          "createdAt": "2024-01-12T17:52:18.793Z",
+          "updatedAt": "2024-01-12T17:52:18.793Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 3,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Homepage herocard-logo",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/2aCqoEkpsF6OnLO0cBznp5/f43209ee179b1a9b580d6fd594926fcf/Homepage_herocard-logo.png",
+            "details": {
+              "size": 660592,
+              "image": { "width": 976, "height": 500 }
+            },
+            "fileName": "Homepage_herocard-logo.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "homepageHeroSliderSubtitle": "Scroll to Explore",
+      "homepageHeroBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "minigameSliderText": "Slide to unlock the Vault",
+      "minigamePuzzleTitle": "Decrypt the cipher and your curiosity will be rewarded.",
+      "minigamePuzzleMissingRelicsSubtitle": "Your path to discovery is still incomplete - Collect all five relics and return to the vault.",
+      "minigameRelicTrayPuzzleOpenClickPrompt": "Click each relic to take a closer look",
+      "minigamePuzzleCloseButtonText": "Back to Tomb",
+      "minigamePuzzleSolveButton": "Solve",
+      "minigamePuzzleIncorrectText": "Try again. The runes must be in order and the relics hold the clues...",
+      "minigameCorrectSolutionTitle": "Congratulations, Raider!",
+      "minigameCorrectSolutionSubtitle": "You've solved an ancient puzzle and unlocked the vault. Your avatar awaits!",
+      "minigameSolvedLoggedInContinueButtonText": "Collect",
+      "minigameSolvedLoggedOutRegisterButtonText": "Register to Collect",
+      "minigameSolvedLoggedOutLoginButtonText": "Log in to Collect",
+      "minigameSolvedLoggedOutCta": "Become a Raider! Sign up for breaking news, rewards, exclusives, merch, releases, and more!",
+      "minigameFirePrompt": "A Raider's path to discovery starts with a spark.",
+      "minigameFireHint": "Seek out the relics to unlock the vault.",
+      "minigamePuzzleSkipButtonText": "Skip Puzzle",
+      "minigamePuzzleSkipExplanationText": "You are about to auto-complete the puzzle. Are you sure you want to do this?",
+      "registrationDisplayNameHelperText": "Become a Tomb Raider today by signing up with a Display Name! Your Display Name will be used for future site features & engagement opportunities. Adventure awaits – will you answer the call?",
+      "registrationLegalQuestion": {
+        "data": {},
+        "content": [
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "I accept Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/terms/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Terms of Service",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              {
+                "data": {},
+                "marks": [],
+                "value": " and I acknowledge that I have read and understand Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/privacy/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Privacy Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": " and ", "nodeType": "text" },
+              {
+                "data": { "uri": "https://www.crystald.com/legal/cookies/" },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Cookie Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+            ],
+            "nodeType": "paragraph"
+          }
+        ],
+        "nodeType": "document"
+      },
+      "resetPasswordTitle": "Reset Password",
+      "resetPasswordDescription": "Are you ready to become a Tomb Raider? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, exclusives, merch, releases, and more!",
+      "loginFormWelcomeTitle": "Welcome to Tomb Raider!",
+      "loginFormWelcomeDescription": "Log in to access and update your account information.",
+      "featuredGamesTitle": "Featured Products",
+      "latestProductsTitle": "Latest Products",
+      "productReleaseDateLabel": "Release Date",
+      "productManufacturerLabel": "Developer",
+      "productPublisherLabel": "Publisher",
+      "productPartnerLabel": "Partner",
+      "productCallOutLabel": "Call Out",
+      "globalSliderAutoplayDelay": 6000,
+      "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+    },
+    "navItems": [
+      {
+        "name": "Welcome",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": true,
+        "showInFooter": false,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 100,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Home",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 200,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "News",
+        "link": "/news/all",
+        "rootLink": "/news",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 300,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Explore",
+        "link": "/challenge-tomb",
+        "rootLink": "/challenge-tomb",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 325,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Lara Croft",
+        "link": "/lara-croft",
+        "rootLink": "/lara-croft",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 350,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Products",
+        "link": "/products/featured",
+        "rootLink": "/products",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 400,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Shop",
+        "link": "https://gear.tombraider.com/",
+        "rootLink": "https://gear.tombraider.com/",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 500,
+        "shouldReplaceWithGeneratedShopLink": true
+      },
+      {
+        "name": "Login",
+        "link": "/login",
+        "rootLink": "/login",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 600,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Register",
+        "link": "/registration",
+        "rootLink": "/registration",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 700,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Terms",
+        "link": "https://www.crystaldynamics.com/legal/terms/",
+        "rootLink": "https://www.crystaldynamics.com/legal/terms/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 800,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Privacy",
+        "link": "https://www.crystaldynamics.com/legal/privacy/",
+        "rootLink": "https://www.crystaldynamics.com/legal/privacy/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 900,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Cookies",
+        "link": "/legal/cookies",
+        "rootLink": "/legal/cookies",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 1000,
+        "shouldReplaceWithGeneratedShopLink": false
+      }
+    ],
+    "surveys": [
+      {
+        "title": "Tomb Raider Survey",
+        "telemetryId": "First Survey",
+        "description": "Please answer a few questions so we can get to know you better. \n\nFor completing this survey you will be rewards with a new profile Avatar.",
+        "submitButtonText": "Submit",
+        "availabilityStartDate": "2024-02-01T00:00-08:00",
+        "availabilityLastDate": "2069-02-01T00:00-08:00",
+        "questions": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "6l6HjT7TVYIYM4hOirTOES",
+              "type": "Entry",
+              "createdAt": "2024-01-25T17:35:32.458Z",
+              "updatedAt": "2024-01-26T19:44:07.609Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 10,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "surveyQuestion"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "telemetryId": "Playtest",
+              "questionText": "Would you like to sign up to potentially playtest future product?",
+              "answers": [
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "37Op217SN8mddvOLDIdyaj",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:35:04.203Z",
+                    "updatedAt": "2024-01-25T17:35:04.203Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "Yes", "text": "Yes" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1hsMjYwRSpvCDkaitxX8IL",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:35:24.026Z",
+                    "updatedAt": "2024-01-25T17:35:24.026Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "No", "text": "No" }
+                }
+              ]
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "01bHbOSBJqNoJP0sWEdV3H",
+              "type": "Entry",
+              "createdAt": "2024-01-25T17:39:45.821Z",
+              "updatedAt": "2024-01-26T19:44:16.313Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 13,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "surveyQuestion"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "telemetryId": "Education",
+              "questionText": "What is the highest level of education you have completed?",
+              "answers": [
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "716dDI3N952yyJweGUFyMO",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:37:07.032Z",
+                    "updatedAt": "2024-01-25T17:37:07.032Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 6,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "PartialHS",
+                    "text": "Some High School"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3m4NjFs9IInDNHhVu2wuk9",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:37:39.446Z",
+                    "updatedAt": "2024-01-25T17:37:39.446Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "HighSchool",
+                    "text": "High School Graduate"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4NP7LMkGqb2abfrobURNf2",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:38:00.455Z",
+                    "updatedAt": "2024-01-25T17:38:00.455Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "PartialCollege",
+                    "text": "Some College"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6Yw1VAiuWerFsQxWp7snTd",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:38:26.682Z",
+                    "updatedAt": "2024-01-25T17:38:26.682Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "CollegeGraduate",
+                    "text": "College Graduate"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "24ArR70yND8cvEK2gzBG5a",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:38:52.360Z",
+                    "updatedAt": "2024-01-25T17:38:52.360Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "AdvancedDegree",
+                    "text": "Advanced Degree"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6B2RZcksDiAEzd3pdQ1sYY",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:39:36.344Z",
+                    "updatedAt": "2024-01-25T17:39:36.344Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "PreferNotToAnswer",
+                    "text": "Prefer Not to Answer"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "4hCNDlZQ4xtNqKpUfBPYbF",
+              "type": "Entry",
+              "createdAt": "2024-01-25T17:41:52.332Z",
+              "updatedAt": "2024-01-26T19:44:23.845Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 13,
+              "revision": 3,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "surveyQuestion"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "telemetryId": "Gender",
+              "questionText": "Gender",
+              "answers": [
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "7GjWLSy4iJr1OgxzDJ9r12",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:40:29.279Z",
+                    "updatedAt": "2024-01-25T17:40:29.279Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "Male", "text": "Male" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4nT4YCGA2ltdqfw054NBIt",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:40:40.866Z",
+                    "updatedAt": "2024-01-25T17:40:40.866Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "Female", "text": "Female" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1acY4n6d5Ltl34AfowRT1L",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:41:03.625Z",
+                    "updatedAt": "2024-01-25T17:41:03.625Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "NonBinary", "text": "Non-Binary" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1selfXrNzD0eB5ZSbGmy17",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:41:24.456Z",
+                    "updatedAt": "2024-01-25T17:41:24.456Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "GenderFluid",
+                    "text": "Gender Fluid"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6nhUM6mk9I7PoQuCnoCEnl",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:41:41.242Z",
+                    "updatedAt": "2024-01-25T17:41:41.242Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "Other", "text": "Other" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6B2RZcksDiAEzd3pdQ1sYY",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:39:36.344Z",
+                    "updatedAt": "2024-01-25T17:39:36.344Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "PreferNotToAnswer",
+                    "text": "Prefer Not to Answer"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5ozdEiTWrMIozM9BTbr5Hc",
+              "type": "Entry",
+              "createdAt": "2024-01-25T17:47:15.722Z",
+              "updatedAt": "2024-01-26T19:44:33.975Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 16,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "surveyQuestion"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "telemetryId": "Income",
+              "questionText": "What is your annual income?",
+              "answers": [
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "rEVKZ0hSEZWWsmrTRs87F",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:43:36.952Z",
+                    "updatedAt": "2024-01-25T17:43:36.952Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "10k", "text": "$0 - $9,999" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3EzO1SSwb7lE0YOjV16o81",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:44:03.179Z",
+                    "updatedAt": "2024-01-25T17:44:03.179Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "25k",
+                    "text": "$10,000 - $24,999"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5D54USv99NOtszOAESPSBF",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:44:38.948Z",
+                    "updatedAt": "2024-01-25T17:44:38.948Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "50k",
+                    "text": "$25,000 - $49,999"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "YrcDHfEOyuCZTUDCoTHUT",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:45:15.856Z",
+                    "updatedAt": "2024-01-25T17:45:15.856Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "75k",
+                    "text": "$50,000 - $74,999"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "35JJr5bFHCTUXwElhI26j4",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:45:51.593Z",
+                    "updatedAt": "2024-01-25T17:45:51.593Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "100k",
+                    "text": "$75,000 - $99,999"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4lNkwSllcwws5guRp3KJ0E",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:46:30.722Z",
+                    "updatedAt": "2024-01-25T17:46:30.722Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "150k",
+                    "text": "$100,000 - $149,999 "
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "59bhG3AKUwi8QOU0CBHtCh",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:46:59.220Z",
+                    "updatedAt": "2024-01-25T17:46:59.220Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "MoreThan150k",
+                    "text": "$150,000+"
+                  }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6B2RZcksDiAEzd3pdQ1sYY",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:39:36.344Z",
+                    "updatedAt": "2024-01-25T17:39:36.344Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "PreferNotToAnswer",
+                    "text": "Prefer Not to Answer"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "krq2jC9RzjrTe48a20ug8",
+              "type": "Entry",
+              "createdAt": "2024-01-25T17:49:23.914Z",
+              "updatedAt": "2024-02-08T20:47:36.023Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 10,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "surveyQuestion"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "telemetryId": "GameQty",
+              "questionText": "How many games a year do you purchase?",
+              "answers": [
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5lCNYXoSHSQwvkOL7TJqG",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:48:20.349Z",
+                    "updatedAt": "2024-01-26T18:56:07.301Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 2,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "0", "text": "0" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4M0sIGtZiueGoUPhJIxTC0",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:48:39.422Z",
+                    "updatedAt": "2024-01-25T17:48:39.422Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "Four", "text": "1 - 4" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4m7WKJta59YrDwk9SfwtTT",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:48:57.452Z",
+                    "updatedAt": "2024-01-25T17:48:57.452Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "Ten", "text": "5 - 10" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3K4aZcsvHUdoA2cZofXTe3",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:49:13.483Z",
+                    "updatedAt": "2024-01-25T17:49:13.483Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": { "telemetryId": "TenPlus", "text": "10+" }
+                },
+                {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6B2RZcksDiAEzd3pdQ1sYY",
+                    "type": "Entry",
+                    "createdAt": "2024-01-25T17:39:36.344Z",
+                    "updatedAt": "2024-01-25T17:39:36.344Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "surveyQuestionAnswer"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "telemetryId": "PreferNotToAnswer",
+                    "text": "Prefer Not to Answer"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "unlockAvatarFriendlyId": "Survey-Avatar",
+        "requiresVerifiedAccount": true
+      }
+    ],
+    "signUpBanner": {
+      "message": "Join the Society of Raiders to stay up to date with the latest Tomb Raider news",
+      "initialDelayInHours": 48,
+      "dismissDelayInHours": 168
+    }
+  },
+  "__N_SSG": true
+}

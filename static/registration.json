@@ -1,0 +1,715 @@
+{
+  "pageProps": {
+    "websiteSingleton": {
+      "footerLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "Hif8SJHYegYDAjiZv3CF8",
+          "type": "Asset",
+          "createdAt": "2023-12-08T20:27:49.904Z",
+          "updatedAt": "2023-12-08T20:27:49.904Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 6,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "tombraider-logo-color",
+          "description": "Tomb Raider",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/Hif8SJHYegYDAjiZv3CF8/b576c1ac7233f0e7f5665884b2d37113/tombraider-logo.webp",
+            "details": {
+              "size": 8852,
+              "image": { "width": 169, "height": 80 }
+            },
+            "fileName": "tombraider-logo.webp",
+            "contentType": "image/webp"
+          }
+        }
+      },
+      "footerCopyright": "© Crystal Dynamics group of companies. All rights reserved.",
+      "footerLegalNotice": "CRYSTAL DYNAMICS and the Crystal Dynamics logo, CRYSTAL NORTHWEST and the Crystal Northwest logo, CRYSTAL SOUTHWEST and the Crystal Southwest logo, TOMB RAIDER and the Tomb Raider logo, and LARA CROFT are trademarks of the Crystal Dynamics group of companies.",
+      "footerCtaTitle": "Join the new Society of Raiders",
+      "footerCtaDescription": "Sign up to join our Society of Raiders and receive monthly newsletters & exclusive rewards. Adventure is calling!",
+      "footerCtaBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "5oHvbd6MyBZEEz49j3W2MJ",
+          "type": "Asset",
+          "createdAt": "2023-11-28T17:59:14.600Z",
+          "updatedAt": "2025-12-08T21:22:33.843Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 8,
+          "revision": 2,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Tomb Raider Unified Wallpaper",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/5oHvbd6MyBZEEz49j3W2MJ/29e5a6d08ddac046b1c79dd5b94d6dde/TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1__1_.png",
+            "details": {
+              "size": 12644148,
+              "image": { "width": 3840, "height": 2441 }
+            },
+            "fileName": "TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1 (1).png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "nonFooterCtaTitle": "Join the Society of Raiders",
+      "nonFooterCtaDescription": "Are you ready to join the Society of Raiders? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, merchandise, and more!",
+      "pageNotFound404Background": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "homepageHeroSubtitle": "Adventure Awaits",
+      "homepageHeroLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "2aCqoEkpsF6OnLO0cBznp5",
+          "type": "Asset",
+          "createdAt": "2024-01-12T17:52:18.793Z",
+          "updatedAt": "2024-01-12T17:52:18.793Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 3,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Homepage herocard-logo",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/2aCqoEkpsF6OnLO0cBznp5/f43209ee179b1a9b580d6fd594926fcf/Homepage_herocard-logo.png",
+            "details": {
+              "size": 660592,
+              "image": { "width": 976, "height": 500 }
+            },
+            "fileName": "Homepage_herocard-logo.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "homepageHeroSliderSubtitle": "Scroll to Explore",
+      "homepageHeroBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "minigameSliderText": "Slide to unlock the Vault",
+      "minigamePuzzleTitle": "Decrypt the cipher and your curiosity will be rewarded.",
+      "minigamePuzzleMissingRelicsSubtitle": "Your path to discovery is still incomplete - Collect all five relics and return to the vault.",
+      "minigameRelicTrayPuzzleOpenClickPrompt": "Click each relic to take a closer look",
+      "minigamePuzzleCloseButtonText": "Back to Tomb",
+      "minigamePuzzleSolveButton": "Solve",
+      "minigamePuzzleIncorrectText": "Try again. The runes must be in order and the relics hold the clues...",
+      "minigameCorrectSolutionTitle": "Congratulations, Raider!",
+      "minigameCorrectSolutionSubtitle": "You've solved an ancient puzzle and unlocked the vault. Your avatar awaits!",
+      "minigameSolvedLoggedInContinueButtonText": "Collect",
+      "minigameSolvedLoggedOutRegisterButtonText": "Register to Collect",
+      "minigameSolvedLoggedOutLoginButtonText": "Log in to Collect",
+      "minigameSolvedLoggedOutCta": "Become a Raider! Sign up for breaking news, rewards, exclusives, merch, releases, and more!",
+      "minigameFirePrompt": "A Raider's path to discovery starts with a spark.",
+      "minigameFireHint": "Seek out the relics to unlock the vault.",
+      "minigamePuzzleSkipButtonText": "Skip Puzzle",
+      "minigamePuzzleSkipExplanationText": "You are about to auto-complete the puzzle. Are you sure you want to do this?",
+      "registrationDisplayNameHelperText": "Become a Tomb Raider today by signing up with a Display Name! Your Display Name will be used for future site features & engagement opportunities. Adventure awaits – will you answer the call?",
+      "registrationLegalQuestion": {
+        "data": {},
+        "content": [
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "I accept Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/terms/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Terms of Service",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              {
+                "data": {},
+                "marks": [],
+                "value": " and I acknowledge that I have read and understand Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/privacy/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Privacy Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": " and ", "nodeType": "text" },
+              {
+                "data": { "uri": "https://www.crystald.com/legal/cookies/" },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Cookie Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+            ],
+            "nodeType": "paragraph"
+          }
+        ],
+        "nodeType": "document"
+      },
+      "resetPasswordTitle": "Reset Password",
+      "resetPasswordDescription": "Are you ready to become a Tomb Raider? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, exclusives, merch, releases, and more!",
+      "loginFormWelcomeTitle": "Welcome to Tomb Raider!",
+      "loginFormWelcomeDescription": "Log in to access and update your account information.",
+      "featuredGamesTitle": "Featured Products",
+      "latestProductsTitle": "Latest Products",
+      "productReleaseDateLabel": "Release Date",
+      "productManufacturerLabel": "Developer",
+      "productPublisherLabel": "Publisher",
+      "productPartnerLabel": "Partner",
+      "productCallOutLabel": "Call Out",
+      "globalSliderAutoplayDelay": 6000,
+      "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+    },
+    "navItems": [
+      {
+        "name": "Welcome",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": true,
+        "showInFooter": false,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 100,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Home",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 200,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "News",
+        "link": "/news/all",
+        "rootLink": "/news",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 300,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Explore",
+        "link": "/challenge-tomb",
+        "rootLink": "/challenge-tomb",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 325,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Lara Croft",
+        "link": "/lara-croft",
+        "rootLink": "/lara-croft",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 350,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Products",
+        "link": "/products/featured",
+        "rootLink": "/products",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 400,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Shop",
+        "link": "https://gear.tombraider.com/",
+        "rootLink": "https://gear.tombraider.com/",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 500,
+        "shouldReplaceWithGeneratedShopLink": true
+      },
+      {
+        "name": "Login",
+        "link": "/login",
+        "rootLink": "/login",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 600,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Register",
+        "link": "/registration",
+        "rootLink": "/registration",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 700,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Terms",
+        "link": "https://www.crystaldynamics.com/legal/terms/",
+        "rootLink": "https://www.crystaldynamics.com/legal/terms/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 800,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Privacy",
+        "link": "https://www.crystaldynamics.com/legal/privacy/",
+        "rootLink": "https://www.crystaldynamics.com/legal/privacy/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 900,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Cookies",
+        "link": "/legal/cookies",
+        "rootLink": "/legal/cookies",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 1000,
+        "shouldReplaceWithGeneratedShopLink": false
+      }
+    ],
+    "registrationPage": {
+      "raiderFeatureSlides": [
+        {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "4x4nPV0VTxbJsfTRUamy4e",
+            "type": "Entry",
+            "createdAt": "2025-10-30T20:36:11.445Z",
+            "updatedAt": "2025-12-02T21:47:56.033Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "revision": 2,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "raiderFeature"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "image": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "1XQY3aaGK6tOwqBKZhOl91",
+                "type": "Asset",
+                "createdAt": "2025-10-30T20:35:46.858Z",
+                "updatedAt": "2025-10-30T20:35:46.858Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Raiders Feature 1",
+                "description": "",
+                "file": {
+                  "url": "//images.ctfassets.net/x77ixfmkpoiv/1XQY3aaGK6tOwqBKZhOl91/7a747a0f44e0f5dd5ff20e4e9d4a6c40/RaidersFeature1.png",
+                  "details": {
+                    "size": 395851,
+                    "image": { "width": 439, "height": 440 }
+                  },
+                  "fileName": "RaidersFeature1.png",
+                  "contentType": "image/png"
+                }
+              }
+            },
+            "headline": "Join the Society of Raiders",
+            "description": "Create your account to uncover hidden relics and unlock exclusive rewards."
+          }
+        },
+        {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5nqFMExHQYG57ZPQTJk98M",
+            "type": "Entry",
+            "createdAt": "2025-10-30T20:43:16.167Z",
+            "updatedAt": "2025-12-02T21:47:43.398Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 10,
+            "revision": 2,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "raiderFeature"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "image": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "Z0nYRqp23sY94nYoD3SqF",
+                "type": "Asset",
+                "createdAt": "2024-09-16T20:44:05.435Z",
+                "updatedAt": "2024-09-16T20:44:05.435Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 9,
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Croft Manor",
+                "description": "A four-story manor cast in shadows and partially covered in ivy",
+                "file": {
+                  "url": "//images.ctfassets.net/x77ixfmkpoiv/Z0nYRqp23sY94nYoD3SqF/ecc6100dfde5a48af824a7844d761682/Croft_Manor.jpg",
+                  "details": {
+                    "size": 645784,
+                    "image": { "width": 2160, "height": 2160 }
+                  },
+                  "fileName": "Croft_Manor.jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            },
+            "headline": "Join the Society of Raiders",
+            "description": "Redeem Raider Codes for additional rewards."
+          }
+        },
+        {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5q5rLSDWOLZfUsptRzlkg1",
+            "type": "Entry",
+            "createdAt": "2025-10-30T20:43:45.357Z",
+            "updatedAt": "2025-12-02T21:54:18.624Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 9,
+            "revision": 3,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "raiderFeature"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "image": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "5QbhzVHV8JWpzsmdlZtdVQ",
+                "type": "Asset",
+                "createdAt": "2025-12-02T21:50:25.621Z",
+                "updatedAt": "2025-12-02T21:53:58.639Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 14,
+                "revision": 2,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Raider Feature Tomb Door",
+                "description": "An ancient tomb door awaits an adventurer clever enough to unlock it.",
+                "file": {
+                  "url": "//images.ctfassets.net/x77ixfmkpoiv/5QbhzVHV8JWpzsmdlZtdVQ/ce2114e336248d454b3559d4d70aa529/Raider_Feature_Tomb_Door.webp",
+                  "details": {
+                    "size": 1157876,
+                    "image": { "width": 1920, "height": 1920 }
+                  },
+                  "fileName": "Raider_Feature_Tomb_Door.webp",
+                  "contentType": "image/webp"
+                }
+              }
+            },
+            "headline": "Join the Society of Raiders",
+            "description": "Be the first to learn about upcoming Tomb Raider Projects."
+          }
+        }
+      ],
+      "raiderDetailsHeadline": "Complete your Raider Details",
+      "raiderDetailsImage": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "1HAomsObvehvxjIDLmQZDc",
+          "type": "Asset",
+          "createdAt": "2025-12-02T22:01:33.361Z",
+          "updatedAt": "2025-12-02T22:01:33.361Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 10,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "TR-Map",
+          "description": "An antique globe with points marked on several countries.",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/1HAomsObvehvxjIDLmQZDc/c118fa1846337cba9a7fd46da1cd086c/TR-Map.png",
+            "details": {
+              "size": 855692,
+              "image": { "width": 696, "height": 701 }
+            },
+            "fileName": "TR-Map.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "raiderDetailsDescription": "Before setting off, tell us more about yourself and mark your home base.",
+      "raiderIdentityHeadline": "Gear Up for Adventure",
+      "raiderIdentityDescription": "Personalize your profile and select an avatar worthy of your journey.",
+      "raiderIdentityAvatarOptions": [
+        "DefaultAvatar1",
+        "DefaultAvatar2",
+        "registration-avatar",
+        "Survey-Avatar",
+        "minigame-completion-avatar",
+        "LAUDOPPIE"
+      ],
+      "raiderCrewHeadline": "Join the Society",
+      "raiderCrewImage": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "1kpYSyZ5HLgxkXseEnxWvu",
+          "type": "Asset",
+          "createdAt": "2025-12-02T21:57:36.473Z",
+          "updatedAt": "2025-12-02T21:57:36.473Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 5,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "SoR Featured Image",
+          "description": "The seal for the Society of Raiders.",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/1kpYSyZ5HLgxkXseEnxWvu/5914c37d070c65c23630410a796eebfe/SoR_Featured_Image.jpg",
+            "details": {
+              "size": 410555,
+              "image": { "width": 960, "height": 960 }
+            },
+            "fileName": "SoR_Featured_Image.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "raiderCrewDescription": "Society of Raiders members earn rewards and perks. Be the first to receive news about Tomb Raider games and projects.",
+      "raiderCrewFeatures": [
+        "Exclusive codes and rewards",
+        "Latest Tomb Raider news",
+        "Tomb Raider monthly newsletter"
+      ],
+      "celebrationDescription": "Your journey has just begun. Visit your dashboard to explore exclusive content and prepare for the discoveries that lie ahead."
+    }
+  },
+  "__N_SSG": true
+}

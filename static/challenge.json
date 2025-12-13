@@ -1,0 +1,2312 @@
+{
+  "pageProps": {
+    "websiteSingleton": {
+      "footerLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "Hif8SJHYegYDAjiZv3CF8",
+          "type": "Asset",
+          "createdAt": "2023-12-08T20:27:49.904Z",
+          "updatedAt": "2023-12-08T20:27:49.904Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 6,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "tombraider-logo-color",
+          "description": "Tomb Raider",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/Hif8SJHYegYDAjiZv3CF8/b576c1ac7233f0e7f5665884b2d37113/tombraider-logo.webp",
+            "details": {
+              "size": 8852,
+              "image": { "width": 169, "height": 80 }
+            },
+            "fileName": "tombraider-logo.webp",
+            "contentType": "image/webp"
+          }
+        }
+      },
+      "footerCopyright": "© Crystal Dynamics group of companies. All rights reserved.",
+      "footerLegalNotice": "CRYSTAL DYNAMICS and the Crystal Dynamics logo, CRYSTAL NORTHWEST and the Crystal Northwest logo, CRYSTAL SOUTHWEST and the Crystal Southwest logo, TOMB RAIDER and the Tomb Raider logo, and LARA CROFT are trademarks of the Crystal Dynamics group of companies.",
+      "footerCtaTitle": "Join the new Society of Raiders",
+      "footerCtaDescription": "Sign up to join our Society of Raiders and receive monthly newsletters & exclusive rewards. Adventure is calling!",
+      "footerCtaBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "5oHvbd6MyBZEEz49j3W2MJ",
+          "type": "Asset",
+          "createdAt": "2023-11-28T17:59:14.600Z",
+          "updatedAt": "2025-12-08T21:22:33.843Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 8,
+          "revision": 2,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Tomb Raider Unified Wallpaper",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/5oHvbd6MyBZEEz49j3W2MJ/29e5a6d08ddac046b1c79dd5b94d6dde/TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1__1_.png",
+            "details": {
+              "size": 12644148,
+              "image": { "width": 3840, "height": 2441 }
+            },
+            "fileName": "TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1 (1).png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "nonFooterCtaTitle": "Join the Society of Raiders",
+      "nonFooterCtaDescription": "Are you ready to join the Society of Raiders? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, merchandise, and more!",
+      "pageNotFound404Background": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "homepageHeroSubtitle": "Adventure Awaits",
+      "homepageHeroLogo": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "2aCqoEkpsF6OnLO0cBznp5",
+          "type": "Asset",
+          "createdAt": "2024-01-12T17:52:18.793Z",
+          "updatedAt": "2024-01-12T17:52:18.793Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 3,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Homepage herocard-logo",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/2aCqoEkpsF6OnLO0cBznp5/f43209ee179b1a9b580d6fd594926fcf/Homepage_herocard-logo.png",
+            "details": {
+              "size": 660592,
+              "image": { "width": 976, "height": 500 }
+            },
+            "fileName": "Homepage_herocard-logo.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      "homepageHeroSliderSubtitle": "Scroll to Explore",
+      "homepageHeroBackground": {
+        "metadata": { "tags": [], "concepts": [] },
+        "sys": {
+          "space": {
+            "sys": { "type": "Link", "linkType": "Space", "id": "x77ixfmkpoiv" }
+          },
+          "id": "19abDwC7pnq3WMlue8RbfO",
+          "type": "Asset",
+          "createdAt": "2024-01-30T18:33:48.444Z",
+          "updatedAt": "2024-01-30T18:33:48.444Z",
+          "environment": {
+            "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+          },
+          "publishedVersion": 4,
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "home-without-lara",
+          "description": "Jungle background",
+          "file": {
+            "url": "//images.ctfassets.net/x77ixfmkpoiv/19abDwC7pnq3WMlue8RbfO/965cdca6a7b52420156d35c546551098/home-without-lara.jpg",
+            "details": {
+              "size": 1117492,
+              "image": { "width": 2400, "height": 1350 }
+            },
+            "fileName": "home-without-lara.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      "minigameSliderText": "Slide to unlock the Vault",
+      "minigamePuzzleTitle": "Decrypt the cipher and your curiosity will be rewarded.",
+      "minigamePuzzleMissingRelicsSubtitle": "Your path to discovery is still incomplete - Collect all five relics and return to the vault.",
+      "minigameRelicTrayPuzzleOpenClickPrompt": "Click each relic to take a closer look",
+      "minigamePuzzleCloseButtonText": "Back to Tomb",
+      "minigamePuzzleSolveButton": "Solve",
+      "minigamePuzzleIncorrectText": "Try again. The runes must be in order and the relics hold the clues...",
+      "minigameCorrectSolutionTitle": "Congratulations, Raider!",
+      "minigameCorrectSolutionSubtitle": "You've solved an ancient puzzle and unlocked the vault. Your avatar awaits!",
+      "minigameSolvedLoggedInContinueButtonText": "Collect",
+      "minigameSolvedLoggedOutRegisterButtonText": "Register to Collect",
+      "minigameSolvedLoggedOutLoginButtonText": "Log in to Collect",
+      "minigameSolvedLoggedOutCta": "Become a Raider! Sign up for breaking news, rewards, exclusives, merch, releases, and more!",
+      "minigameFirePrompt": "A Raider's path to discovery starts with a spark.",
+      "minigameFireHint": "Seek out the relics to unlock the vault.",
+      "minigamePuzzleSkipButtonText": "Skip Puzzle",
+      "minigamePuzzleSkipExplanationText": "You are about to auto-complete the puzzle. Are you sure you want to do this?",
+      "registrationDisplayNameHelperText": "Become a Tomb Raider today by signing up with a Display Name! Your Display Name will be used for future site features & engagement opportunities. Adventure awaits – will you answer the call?",
+      "registrationLegalQuestion": {
+        "data": {},
+        "content": [
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "I accept Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/terms/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Terms of Service",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              {
+                "data": {},
+                "marks": [],
+                "value": " and I acknowledge that I have read and understand Crystal Dynamic's ",
+                "nodeType": "text"
+              },
+              {
+                "data": {
+                  "uri": "https://www.crystaldynamics.com/legal/privacy/"
+                },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Privacy Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": " and ", "nodeType": "text" },
+              {
+                "data": { "uri": "https://www.crystald.com/legal/cookies/" },
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Cookie Notice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "hyperlink"
+              },
+              { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+            ],
+            "nodeType": "paragraph"
+          }
+        ],
+        "nodeType": "document"
+      },
+      "resetPasswordTitle": "Reset Password",
+      "resetPasswordDescription": "Are you ready to become a Tomb Raider? Sign-up to be the first to hear breaking news regarding the Tomb Raider franchise — including rewards, exclusives, merch, releases, and more!",
+      "loginFormWelcomeTitle": "Welcome to Tomb Raider!",
+      "loginFormWelcomeDescription": "Log in to access and update your account information.",
+      "featuredGamesTitle": "Featured Products",
+      "latestProductsTitle": "Latest Products",
+      "productReleaseDateLabel": "Release Date",
+      "productManufacturerLabel": "Developer",
+      "productPublisherLabel": "Publisher",
+      "productPartnerLabel": "Partner",
+      "productCallOutLabel": "Call Out",
+      "globalSliderAutoplayDelay": 6000,
+      "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+    },
+    "navItems": [
+      {
+        "name": "Welcome",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": true,
+        "showInFooter": false,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 100,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Home",
+        "link": "/",
+        "rootLink": "/",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 200,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "News",
+        "link": "/news/all",
+        "rootLink": "/news",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 300,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Explore",
+        "link": "/challenge-tomb",
+        "rootLink": "/challenge-tomb",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 325,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Lara Croft",
+        "link": "/lara-croft",
+        "rootLink": "/lara-croft",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 350,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Products",
+        "link": "/products/featured",
+        "rootLink": "/products",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 400,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Shop",
+        "link": "https://gear.tombraider.com/",
+        "rootLink": "https://gear.tombraider.com/",
+        "showInHeader": true,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": false,
+        "order": 500,
+        "shouldReplaceWithGeneratedShopLink": true
+      },
+      {
+        "name": "Login",
+        "link": "/login",
+        "rootLink": "/login",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 600,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Register",
+        "link": "/registration",
+        "rootLink": "/registration",
+        "showInHeader": false,
+        "showInFooter": true,
+        "showInSubFooter": false,
+        "hideForLoggedInUsers": true,
+        "order": 700,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Terms",
+        "link": "https://www.crystaldynamics.com/legal/terms/",
+        "rootLink": "https://www.crystaldynamics.com/legal/terms/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 800,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Privacy",
+        "link": "https://www.crystaldynamics.com/legal/privacy/",
+        "rootLink": "https://www.crystaldynamics.com/legal/privacy/",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 900,
+        "shouldReplaceWithGeneratedShopLink": false
+      },
+      {
+        "name": "Cookies",
+        "link": "/legal/cookies",
+        "rootLink": "/legal/cookies",
+        "showInHeader": false,
+        "showInFooter": false,
+        "showInSubFooter": true,
+        "hideForLoggedInUsers": false,
+        "order": 1000,
+        "shouldReplaceWithGeneratedShopLink": false
+      }
+    ],
+    "footerSocialLinks": [
+      {
+        "link": "https://twitter.com/tombraider",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "3lPJF8VFMoDHkFOb8qv05t",
+            "type": "Asset",
+            "createdAt": "2023-12-08T19:53:23.382Z",
+            "updatedAt": "2023-12-08T19:53:23.382Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "logo-x",
+            "description": "X",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/3lPJF8VFMoDHkFOb8qv05t/0653ab4c61bcb426cd28c8eb8cfd6c35/logo-x.svg",
+              "details": {
+                "size": 450,
+                "image": { "width": 20, "height": 21 }
+              },
+              "fileName": "logo-x.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        },
+        "order": 100
+      },
+      {
+        "link": "https://www.instagram.com/tombraider/",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "2s3SFBP6NceoBesIx5Uae7",
+            "type": "Asset",
+            "createdAt": "2023-12-08T19:54:29.310Z",
+            "updatedAt": "2023-12-08T19:54:29.310Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "logo-instagram",
+            "description": "Instragram",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/2s3SFBP6NceoBesIx5Uae7/15e1eb682e064577f727d041508358bf/logo-instagram.svg",
+              "details": {
+                "size": 3552,
+                "image": { "width": 20, "height": 21 }
+              },
+              "fileName": "logo-instagram.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        },
+        "order": 200
+      },
+      {
+        "link": "https://www.facebook.com/TombRaider",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "4Grr9sKUeulvyHUB1A4Ax5",
+            "type": "Asset",
+            "createdAt": "2023-12-08T19:55:04.804Z",
+            "updatedAt": "2023-12-08T19:55:04.804Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "logo-fb-simple",
+            "description": "Facebook",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/4Grr9sKUeulvyHUB1A4Ax5/5c15ccea0a01621580a8cc854daa8e92/logo-fb-simple.svg",
+              "details": {
+                "size": 369,
+                "image": { "width": 20, "height": 21 }
+              },
+              "fileName": "logo-fb-simple.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        },
+        "order": 300
+      },
+      {
+        "link": "https://www.youtube.com/tombraider",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "1wIVzPPBL0ZrvsF435bB9f",
+            "type": "Asset",
+            "createdAt": "2023-12-08T19:56:14.864Z",
+            "updatedAt": "2023-12-08T19:56:14.864Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "logo-youtube",
+            "description": "YouTube",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wIVzPPBL0ZrvsF435bB9f/b0706ceea6be595c7b3440d0f5c21d11/logo-youtube.svg",
+              "details": {
+                "size": 746,
+                "image": { "width": 20, "height": 21 }
+              },
+              "fileName": "logo-youtube.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        },
+        "order": 400
+      },
+      {
+        "link": "https://discord.com/invite/tomb-raider",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6xbPx75PMr80CsWPcxR00K",
+            "type": "Asset",
+            "createdAt": "2023-12-08T19:56:45.071Z",
+            "updatedAt": "2023-12-08T19:56:45.071Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "logo-discord",
+            "description": "Discord",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/6xbPx75PMr80CsWPcxR00K/4f2dbd4e2cb627b8a2edf47e31a23fe2/logo-discord.svg",
+              "details": {
+                "size": 1308,
+                "image": { "width": 20, "height": 20 }
+              },
+              "fileName": "logo-discord.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        },
+        "order": 500
+      },
+      {
+        "link": "https://www.tiktok.com/@tombraider",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "1nW8MWcvd6FGNQIKslJVuk",
+            "type": "Asset",
+            "createdAt": "2025-01-30T19:53:24.828Z",
+            "updatedAt": "2025-01-30T19:53:24.828Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "tiktok-white-icon",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/1nW8MWcvd6FGNQIKslJVuk/56bc93955e46aafef83c0b5379bb9ba9/tiktok-white-icon.webp",
+              "details": {
+                "size": 2488,
+                "image": { "width": 512, "height": 512 }
+              },
+              "fileName": "tiktok-white-icon.webp",
+              "contentType": "image/webp"
+            }
+          }
+        },
+        "order": 600
+      },
+      {
+        "link": "https://www.threads.net/@tombraider",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "01Myr4Uw5B3LiZiwhkIDOo",
+            "type": "Asset",
+            "createdAt": "2025-01-30T20:00:27.508Z",
+            "updatedAt": "2025-01-30T20:00:27.508Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 6,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "threads-instagram-app-white-background-social-network-black-color-vector-illustration-new-287425602",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/01Myr4Uw5B3LiZiwhkIDOo/dcb80a0536a5336f9c3bdcdfe5499bb7/download.png",
+              "details": {
+                "size": 3714,
+                "image": { "width": 225, "height": 225 }
+              },
+              "fileName": "download.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "order": 700
+      },
+      {
+        "link": "https://bsky.app/profile/tombraider.com",
+        "icon": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5zLrHeUr4dRx5HV0jpG2nM",
+            "type": "Asset",
+            "createdAt": "2025-01-30T20:03:38.455Z",
+            "updatedAt": "2025-01-30T20:03:38.455Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "bluesky-logo",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/5zLrHeUr4dRx5HV0jpG2nM/96a83eab127de86aad931005878c084a/bluesky-logo.jpg",
+              "details": {
+                "size": 4257,
+                "image": { "width": 400, "height": 400 }
+              },
+              "fileName": "bluesky-logo.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "order": 800
+      }
+    ],
+    "signUpBanner": {
+      "message": "Join the Society of Raiders to stay up to date with the latest Tomb Raider news",
+      "initialDelayInHours": 48,
+      "dismissDelayInHours": 168
+    },
+    "challengeTomb": {
+      "name": "Society of Secrets Atlantis Edition",
+      "rooms": [
+        {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "3tWseRx0jUlu4cP3VM3KOL",
+            "type": "Entry",
+            "createdAt": "2025-12-09T21:37:43.087Z",
+            "updatedAt": "2025-12-12T03:29:29.724Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 44,
+            "revision": 9,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "puzzleRoom"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Dec 2025",
+            "tombDoor": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "1X1j6TmWBSyeIPpZO5TrTk",
+                "type": "Entry",
+                "createdAt": "2025-12-09T21:18:30.869Z",
+                "updatedAt": "2025-12-09T21:18:30.869Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tombDoor"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Xian Temple Door",
+                "closedImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "yFh8LXsqWcCUYwl3wnlYq",
+                    "type": "Asset",
+                    "createdAt": "2025-12-09T21:17:55.523Z",
+                    "updatedAt": "2025-12-09T21:17:55.523Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Xian Door Closed",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/yFh8LXsqWcCUYwl3wnlYq/edeb6d2c795e06a55b0c1ed38e3f083d/Xian_Door_Closed.webp",
+                      "details": {
+                        "size": 1425546,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Xian Door Closed.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                },
+                "openImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "7u1xjLeyAsyGlXx1XJ61JH",
+                    "type": "Asset",
+                    "createdAt": "2025-12-09T21:18:20.642Z",
+                    "updatedAt": "2025-12-09T21:18:20.642Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Xian Door Open",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/7u1xjLeyAsyGlXx1XJ61JH/9fbf2073dba3194e13e1db23ea4b1aef/Xian_Door_Open.webp",
+                      "details": {
+                        "size": 1310422,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Xian Door Open.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "laraCroft": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "ofIEoe8atHOFYeqqIpkbD",
+                "type": "Entry",
+                "createdAt": "2025-12-09T21:19:50.632Z",
+                "updatedAt": "2025-12-09T21:19:50.632Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleLaraCroft"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": " Anniversary Lara",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3KDtK5uHgGUw5Nvi6xC92N",
+                    "type": "Asset",
+                    "createdAt": "2025-12-09T21:19:43.030Z",
+                    "updatedAt": "2025-12-09T21:19:43.030Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TR Anniversary LaraBack",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3KDtK5uHgGUw5Nvi6xC92N/4dfb921f2347264173300486779a72d2/TR_Anniversary_LaraBack.webp",
+                      "details": {
+                        "size": 230414,
+                        "image": { "width": 1018, "height": 1960 }
+                      },
+                      "fileName": "TR_Anniversary_LaraBack.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "loreHeadlineLocked": "Until we have enough symbols the door remains locked.",
+            "loreHeadlineUnlocked": "One Step Closer",
+            "loreDescriptionLocked": "There have been reports of mysterious symbols.  With enough of them,  I believe I could open this door.",
+            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door.",
+            "showCountdown": true,
+            "unlockDateTime": "2025-12-12T10:00-08:00",
+            "countdownMessage": "Until we have enough symbols the door remains locked",
+            "allowNotify": false,
+            "notifySuccessHeadline": "You've done it!  ",
+            "notifySuccessDescription": "Collect your rewards and make your way deeper into this Challenge Tomb.",
+            "notifyButtonText": "Get Notified",
+            "puzzleSliderText": "Start the Puzzle",
+            "puzzleHeadline": "Solve the puzzle and your curiosity will be rewarded",
+            "puzzleDescription": "Arrange the symbols in the correct order to open the door.",
+            "puzzleBackground": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "4oXBu5L8jWirzS2KLMYm69",
+                "type": "Entry",
+                "createdAt": "2025-12-09T21:24:48.132Z",
+                "updatedAt": "2025-12-09T21:24:48.132Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 2,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleBackground"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Xian Puzzle Box",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "2mNzQt6jywslwfQ6JbT41B",
+                    "type": "Asset",
+                    "createdAt": "2025-12-09T21:24:40.334Z",
+                    "updatedAt": "2025-12-09T21:24:40.334Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Xian Puzzle Box",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2mNzQt6jywslwfQ6JbT41B/a82320e67a9adb59674368f9a6554d62/SoS_PuzzleDoor01_v03.webp",
+                      "details": {
+                        "size": 512856,
+                        "image": { "width": 1440, "height": 720 }
+                      },
+                      "fileName": "SoS_PuzzleDoor01_v03.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "puzzleSolveButtonText": "Solve Puzzle",
+            "puzzleBackButtonText": "Back to Tomb",
+            "glyphOptions": [
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "5PzX8hmlfl3KVGpvoa8vcP",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:51:14.071Z",
+                  "updatedAt": "2025-12-08T19:51:14.071Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 15",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "4JntZ9AjEM1fXhuZd7spI",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:50:58.575Z",
+                      "updatedAt": "2025-12-08T19:50:58.575Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph15",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/4JntZ9AjEM1fXhuZd7spI/c5c9dd0d3a89f0897e7da300d9118f3f/SoS_Puzzle01_Glyph15.webp",
+                        "details": {
+                          "size": 125274,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph15.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4ID2wy4cZyvuTTeiVlqPaF",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:39:13.044Z",
+                  "updatedAt": "2025-12-08T19:39:13.044Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 05",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "Cpf9FN7vwBhZwThSOAYRV",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:39:03.871Z",
+                      "updatedAt": "2025-12-08T19:39:03.871Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph05",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/Cpf9FN7vwBhZwThSOAYRV/ae53d8ef3d24b0785181fdc0fec34e50/SoS_Puzzle01_Glyph05.webp",
+                        "details": {
+                          "size": 123450,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph05.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6Pn76dIDtq3qIfOOSDitDk",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:38:17.318Z",
+                  "updatedAt": "2025-12-08T19:38:17.318Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 03",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "6RC4E4FhYieMNBeLyDfkuT",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:38:04.472Z",
+                      "updatedAt": "2025-12-08T19:38:04.472Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph03",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/6RC4E4FhYieMNBeLyDfkuT/57667786aef239057f973488a41a175d/SoS_Puzzle01_Glyph03.webp",
+                        "details": {
+                          "size": 190596,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph03.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4Jf4ilpgnI9eS8UuiBFPOB",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:49:15.412Z",
+                  "updatedAt": "2025-12-08T19:49:15.412Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 14",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "4ZnFF8KNf1npqrM66LlIFm",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:49:03.030Z",
+                      "updatedAt": "2025-12-08T19:49:03.030Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph14",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/4ZnFF8KNf1npqrM66LlIFm/ba0f22bbf02554ae340285bc03a3cee6/SoS_Puzzle01_Glyph14.webp",
+                        "details": {
+                          "size": 173246,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph14.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "My4HPkMkjWoqxM1uc1fjA",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:44:50.920Z",
+                  "updatedAt": "2025-12-08T19:44:50.920Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 10",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "4PT1anFQLVkXE9tmOxkhWF",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:44:39.967Z",
+                      "updatedAt": "2025-12-08T19:44:39.967Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph10",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/4PT1anFQLVkXE9tmOxkhWF/d48db46954ade48786c24683d3e6cc95/SoS_Puzzle01_Glyph10.webp",
+                        "details": {
+                          "size": 162740,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph10.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "7MDJECqb4rN1FbkNj3QO4n",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:54:16.493Z",
+                  "updatedAt": "2025-12-08T19:54:16.493Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 18",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "4ZLRMkeZuDuiChFAxRgCSi",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:54:11.460Z",
+                      "updatedAt": "2025-12-08T19:54:11.460Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph18",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/4ZLRMkeZuDuiChFAxRgCSi/0e45b5304e0d83c0a64b257cbb7cf45c/SoS_Puzzle01_Glyph18.webp",
+                        "details": {
+                          "size": 132256,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph18.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "rewardItemFriendlyIds": ["ATLLARA"],
+            "congratsHeadlineLoggedIn": "Congrats Raider!",
+            "congratsDescriptionLoggedIn": "Along with your treasures,  further mysteries await you in the depths of the Challenge Tomb",
+            "congratsHeadlineLoggedOut": "Congrats Raider!",
+            "congratsDescriptionLoggedOut": "Join the Society of Raiders,  to claim your treasure and explore deeper into the Challenge Tomb.",
+            "congratsRegisterButtonText": "Register",
+            "congratsBeforeLoginText": "Already a Raider?",
+            "congratsLoginText": "Login",
+            "congratsViewRewardButtonText": "View Reward",
+            "congratsContinuePlayingButtonText": "Continue Playing"
+          }
+        },
+        {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6fQA8cpiiiblIj4qtV6YV",
+            "type": "Entry",
+            "createdAt": "2025-12-11T17:55:09.410Z",
+            "updatedAt": "2025-12-12T18:52:37.655Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 21,
+            "revision": 2,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "puzzleRoom"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Jan 2026",
+            "tombDoor": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "27GFy2a2uyVfpGktRZq9t7",
+                "type": "Entry",
+                "createdAt": "2025-12-06T00:04:08.752Z",
+                "updatedAt": "2025-12-06T00:04:08.752Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tombDoor"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "TR Legend Door",
+                "closedImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "2qCoCvckk4a3XIbxQ7uGnP",
+                    "type": "Asset",
+                    "createdAt": "2025-12-05T23:58:15.918Z",
+                    "updatedAt": "2025-12-05T23:58:15.918Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Legend Door Closed",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2qCoCvckk4a3XIbxQ7uGnP/45c7298d4778bcc6fa4c3f0cdea2930b/Legend_Door_Closed.webp",
+                      "details": {
+                        "size": 705038,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Legend Door Closed.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                },
+                "openImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4D4HZA7kIYhjRh2Nq9QBeZ",
+                    "type": "Asset",
+                    "createdAt": "2025-12-06T00:03:53.572Z",
+                    "updatedAt": "2025-12-06T00:03:53.572Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Legend Door Open",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/4D4HZA7kIYhjRh2Nq9QBeZ/098537ec814246e7c94d432f070ff5aa/Legend_Door_Open.webp",
+                      "details": {
+                        "size": 639248,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Legend Door Open.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "laraCroft": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "2YKIWI4LLT9brTB6u9otK6",
+                "type": "Entry",
+                "createdAt": "2025-12-05T23:30:37.001Z",
+                "updatedAt": "2025-12-05T23:30:37.001Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleLaraCroft"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Rise - Lara",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5XAoqFz8RC1zuXh9Z6cFQp",
+                    "type": "Asset",
+                    "createdAt": "2025-12-05T23:30:17.189Z",
+                    "updatedAt": "2025-12-05T23:30:17.189Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 6,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "SoS RiseLara Backfacing",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5XAoqFz8RC1zuXh9Z6cFQp/fae96871cc5a23c7eb293dc7fcbd065e/SoS_RiseLara_Backfacing.webp",
+                      "details": {
+                        "size": 263696,
+                        "image": { "width": 888, "height": 1814 }
+                      },
+                      "fileName": "SoS_RiseLara_Backfacing.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "laraShift": "Left",
+            "loreHeadlineLocked": "Looking for mysterious symbols",
+            "loreHeadlineUnlocked": "One Step Closer",
+            "loreDescriptionLocked": "There have been reports of mysterious symbols.  With enough of them,  I believe I could open this door.",
+            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door.",
+            "showCountdown": false,
+            "unlockDateTime": "2026-01-30T10:00-08:00",
+            "allowNotify": false,
+            "notifySuccessHeadline": "You've done it!  ",
+            "notifySuccessDescription": "Collect your rewards and make your way deeper into this Challenge Tomb.",
+            "notifyButtonText": "Get Notified",
+            "puzzleSliderText": "Start the Puzzle",
+            "puzzleHeadline": "Solve the puzzle and your curiosity will be rewarded",
+            "puzzleDescription": "Arrange the symbols in the correct order to open the door.",
+            "puzzleBackground": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "m9ctmwTWnTb9aFCIvVwiu",
+                "type": "Entry",
+                "createdAt": "2025-12-06T00:08:48.722Z",
+                "updatedAt": "2025-12-06T00:08:48.722Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 3,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleBackground"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Brown Stone Puzzle",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3FqPEOJTaH5lRmAXDeYqYy",
+                    "type": "Asset",
+                    "createdAt": "2025-12-06T00:08:36.178Z",
+                    "updatedAt": "2025-12-06T00:08:36.178Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "SoS PuzzleDoor02 v04",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3FqPEOJTaH5lRmAXDeYqYy/530e3135e2ca7dc12bb244bc18f6760f/SoS_PuzzleDoor02_v04.webp",
+                      "details": {
+                        "size": 749558,
+                        "image": { "width": 1440, "height": 720 }
+                      },
+                      "fileName": "SoS_PuzzleDoor02_v04.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "puzzleSolveButtonText": "Solve Puzzle",
+            "puzzleBackButtonText": "Back to Tomb",
+            "glyphOptions": [
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "3KLNl3OyuHaqztZi14CXpq",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:28:57.544Z",
+                  "updatedAt": "2025-12-09T22:28:57.544Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 03",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "15TTF45YFcaL7p6ox5v6AE",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:28:47.352Z",
+                      "updatedAt": "2025-12-09T22:28:47.352Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph03",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/15TTF45YFcaL7p6ox5v6AE/e44bb1569ead54d664b1f983de9350a5/SoS_Puzzle03_Glyph03.png",
+                        "details": {
+                          "size": 489560,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph03.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "1SzmgbhYEkHGfDixkNbGga",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:13:53.424Z",
+                  "updatedAt": "2025-12-09T22:13:53.424Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 01",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "isYEDK3WbCn1jpnBXs6G0",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:13:45.862Z",
+                      "updatedAt": "2025-12-09T22:13:45.862Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph01",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/isYEDK3WbCn1jpnBXs6G0/320757ca59ec4e3b3bc863a5af002a62/SoS_Puzzle03_Glyph01.png",
+                        "details": {
+                          "size": 321817,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph01.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "36rvplzxZrE0W6oZWfoxFZ",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:41:39.862Z",
+                  "updatedAt": "2025-12-09T22:41:39.862Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 11",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "56P6U6zKmewP9YpGojyOV7",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:41:32.271Z",
+                      "updatedAt": "2025-12-09T22:41:32.271Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph11",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/56P6U6zKmewP9YpGojyOV7/e5dd874a9dd6508cb92d4951c83179f5/SoS_Puzzle03_Glyph11.png",
+                        "details": {
+                          "size": 385306,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph11.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4ksI5UQRQ1z1NzuOJNshTa",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:32:35.638Z",
+                  "updatedAt": "2025-12-09T22:32:35.638Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 2,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 07",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "1CKQt0VRhoEyrPlom6Amce",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:32:22.578Z",
+                      "updatedAt": "2025-12-09T22:32:22.578Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph07",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/1CKQt0VRhoEyrPlom6Amce/60f919f1f6aeea698604271e73aa7ee6/SoS_Puzzle03_Glyph07.png",
+                        "details": {
+                          "size": 436241,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph07.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6dOgkZ14SxYMgn8AjXeXgX",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:29:54.898Z",
+                  "updatedAt": "2025-12-09T22:29:54.898Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 2,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 05",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "1qSiD3UDa1FQ9ZUIjc40ga",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:29:51.837Z",
+                      "updatedAt": "2025-12-09T22:29:51.837Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph05",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/1qSiD3UDa1FQ9ZUIjc40ga/698ce6415bd8b5afd8f6a9634a770a18/SoS_Puzzle03_Glyph05.png",
+                        "details": {
+                          "size": 323264,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph05.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "5NsRQRtiuj1WXiywil4HnG",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:43:41.970Z",
+                  "updatedAt": "2025-12-09T22:43:41.970Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 13",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "7ufrDvbxcgZzbKWcGTh2BM",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:43:33.596Z",
+                      "updatedAt": "2025-12-09T22:43:33.596Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph13",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/7ufrDvbxcgZzbKWcGTh2BM/2ebe3630dd19ca8c217f555caee273c5/SoS_Puzzle03_Glyph13.png",
+                        "details": {
+                          "size": 345867,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph13.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "congratsHeadlineLoggedIn": "Congrats Raider!",
+            "congratsDescriptionLoggedIn": "Along with your treasures,  further mysteries await you in the depths of the Challenge Tomb",
+            "congratsHeadlineLoggedOut": "Congrats Raider!",
+            "congratsDescriptionLoggedOut": "Join the Society of Raiders,  to claim your treasure and explore deeper into the Challenge Tomb.",
+            "congratsRegisterButtonText": "Register",
+            "congratsBeforeLoginText": "Already a Raider?",
+            "congratsLoginText": "Login",
+            "congratsViewRewardButtonText": "View Reward",
+            "congratsContinuePlayingButtonText": "Continue Playing"
+          }
+        }
+      ]
+    }
+  },
+  "__N_SSG": true
+}
