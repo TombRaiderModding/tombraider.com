@@ -428,12 +428,14 @@
                   : l.countryAlpha2Code) &&
                 ["US", "CA"].includes(er.publisherData.countryAlpha2Code) &&
                 !er.publisherData.stateOrProvinceName,
-              eT = eM || eD || eR ? 2 : 3,
-              [e_, eF] = (0, s.useState)(null),
-              eO = (0, s.useRef)(!1),
-              eL = ea && !!er,
-              eV = eL || "identity" === U.query.resume,
-              eU = (0, s.useCallback)(() => {
+              eT = U.query.step,
+              e_ = "publisher" === eT ? 2 : "display-name" === eT ? 3 : null,
+              eF = null != e_ ? e_ : eM || eD || eR ? 2 : 3,
+              [eO, eL] = (0, s.useState)(null),
+              eV = (0, s.useRef)(!1),
+              eU = ea && !!er,
+              eG = eU || "identity" === U.query.resume,
+              eZ = (0, s.useCallback)(() => {
                 var e, r, a, l, n;
                 return (
                   (null == er
@@ -468,31 +470,31 @@
                     ? void 0
                     : u.email,
               ]),
-              eG = (0, s.useCallback)(() => {
+              eB = (0, s.useCallback)(() => {
                 var e;
                 return (
                   (null === (e = Q("newsletterContactEmail")) || void 0 === e
                     ? void 0
-                    : e.trim()) || eU()
+                    : e.trim()) || eZ()
                 );
-              }, [eU, Q]),
-              eZ = (0, s.useCallback)(async () => {
+              }, [eZ, Q]),
+              ez = (0, s.useCallback)(async () => {
                 if (ew.current || "email" === J) return;
-                let e = eU();
+                let e = eZ();
                 if (e)
                   try {
                     (await h.NO({ email: e }), (ew.current = !0));
                   } catch (e) {
                     console.error("Failed to ensure contact email on exit", e);
                   }
-              }, [eU, J]),
-              eB = (0, s.useCallback)(() => {
+              }, [eZ, J]),
+              eY = (0, s.useCallback)(() => {
                 eI.current &&
                   (window.removeEventListener("focus", eI.current),
                   (eI.current = null));
               }, []),
-              ez = (0, s.useCallback)(() => {
-                eB();
+              eW = (0, s.useCallback)(() => {
+                eY();
                 let handler = () => {
                   eS.current &&
                     ((eS.current = !1),
@@ -504,14 +506,14 @@
                 };
                 ((eI.current = handler),
                   window.addEventListener("focus", handler, { once: !0 }));
-              }, [eB, W]),
-              eY = (0, s.useCallback)(() => {
+              }, [eY, W]),
+              eH = (0, s.useCallback)(() => {
                 eA.current &&
                   (window.removeEventListener("focus", eA.current),
                   (eA.current = null));
               }, []),
-              eW = (0, s.useCallback)(() => {
-                eY();
+              eq = (0, s.useCallback)(() => {
+                eH();
                 let handler = () => {
                   eE.current &&
                     ((eE.current = !1),
@@ -523,14 +525,14 @@
                 };
                 ((eA.current = handler),
                   window.addEventListener("focus", handler, { once: !0 }));
-              }, [eY, W]),
+              }, [eH, W]),
               setIsSigningUpWithEmail = (e) => {
                 (es(e),
                   e &&
                     (z("registrationMethod", "email"),
                     z("facebookAccessToken", "", { shouldValidate: !0 })));
               },
-              eH = (0, s.useCallback)(
+              eQ = (0, s.useCallback)(
                 async (e) => {
                   try {
                     var r;
@@ -642,7 +644,7 @@
                       return;
                     }
                     ev(!0);
-                    let r = await eH(e.serverAuthCode);
+                    let r = await eQ(e.serverAuthCode);
                     if (!r) return;
                     (e.email &&
                       z("email", e.email, {
@@ -663,7 +665,7 @@
               $,
               Q,
               X,
-              eH,
+              eQ,
               U,
               U.isReady,
               U.query.method,
@@ -674,13 +676,13 @@
             ]),
               (0, s.useEffect)(() => {
                 var e, r, a;
-                if (!eV) {
-                  (eF(null), (eO.current = !1));
+                if (!eG) {
+                  (eL(null), (eV.current = !1));
                   return;
                 }
-                let l = null !== e_ ? e_ : eT;
-                (null === e_ && eF(l),
-                  eO.current ||
+                let l = null !== eO ? eO : eF;
+                (null === eO && eL(l),
+                  eV.current ||
                     (Z(l),
                     setIsSigningUpWithEmail(!1),
                     z("registrationMethod", "email"),
@@ -708,12 +710,12 @@
                       shouldDirty: !1,
                       shouldValidate: !1,
                     }),
-                    (eO.current = !0)));
+                    (eV.current = !0)));
               }, [
-                eV,
-                eT,
-                e_,
+                eG,
                 eF,
+                eO,
+                eL,
                 z,
                 setIsSigningUpWithEmail,
                 null == er
@@ -745,7 +747,7 @@
                   }
                 );
               }, [ej]));
-            let eq = (0, s.useCallback)(async () => {
+            let eK = (0, s.useCallback)(async () => {
                 if (window.FB)
                   return await new Promise((e) => {
                     try {
@@ -758,11 +760,11 @@
                     }
                   });
               }, []),
-              eQ = (0, s.useCallback)(
+              eJ = (0, s.useCallback)(
                 async (e) => {
                   if (
                     ((eS.current = !1),
-                    eB(),
+                    eY(),
                     console.info("[Google Sign-In] code client response", e),
                     e.error || !e.code)
                   ) {
@@ -775,9 +777,9 @@
                       ev(!1));
                     return;
                   }
-                  await eH(e.code);
+                  await eQ(e.code);
                 },
-                [q, eB, G, Z, W, ev, setIsSigningUpWithEmail, z],
+                [q, eY, G, Z, W, ev, setIsSigningUpWithEmail, z],
               );
             ((0, s.useEffect)(() => {
               if (!eN) return;
@@ -798,7 +800,7 @@
                         scope: "openid email profile",
                         ux_mode: "popup",
                         callback: (e) => {
-                          eQ(e);
+                          eJ(e);
                         },
                       })),
                       ex(!0));
@@ -810,16 +812,16 @@
                   e = !0;
                 }
               );
-            }, [eN, eQ, z]),
+            }, [eN, eJ, z]),
               (0, s.useEffect)(
                 () => () => {
-                  (eB(), eY());
+                  (eY(), eH());
                 },
-                [eY, eB],
+                [eH, eY],
               ),
               (0, s.useEffect)(() => {
                 if ("email" === J) return;
-                let e = eU(),
+                let e = eZ(),
                   r = Q("newsletterContactEmail");
                 e &&
                   !r &&
@@ -828,7 +830,7 @@
                     shouldValidate: !0,
                   });
               }, [
-                eU,
+                eZ,
                 Q,
                 J,
                 z,
@@ -845,9 +847,9 @@
               ]),
               (0, s.useEffect)(
                 () => () => {
-                  eZ();
+                  ez();
                 },
-                [eZ],
+                [ez],
               ),
               (0, s.useEffect)(() => {
                 eP.current &&
@@ -897,7 +899,7 @@
                     W("root", { message: c.error.errorMessage || I.UNKNOWN }),
                     Error("Publisher data update failed")
                   );
-                let d = eU();
+                let d = eZ();
                 if (d) {
                   let e = await h.NO({ email: d });
                   if (e.error)
@@ -916,7 +918,7 @@
                 var r, a, l, n, s, c, d, u, m, f, g, p, x, b, y;
                 let j;
                 let N = Q();
-                if (eL) {
+                if (eU) {
                   let s = await h.hC({ displayName: N.displayName });
                   if (s.error)
                     throw (
@@ -1176,7 +1178,7 @@
                 let e = Q();
                 try {
                   if (!ei) {
-                    let e = eG();
+                    let e = eB();
                     e && (await h.NO({ email: e }), (ew.current = !0));
                   }
                   (await h.US({
@@ -1188,12 +1190,12 @@
                 }
               },
               handleNewsletterSkip = async () => {
-                (await eZ(), goToNextStep());
+                (await ez(), goToNextStep());
               },
               goToNextStep = () => {
                 Z((e) => {
                   let r = A[e];
-                  return (eL && 2 === eT && e_ !== r && 2 === e && eF(r), r);
+                  return (eU && 2 === eF && eO !== r && 2 === e && eL(r), r);
                 });
               },
               handleEmailSignUp = async () => {
@@ -1226,7 +1228,7 @@
                 ((0, v.sendGTMEvent)({ event: "registration_email_start" }),
                   goToNextStep());
               },
-              eK = (0, s.useCallback)(() => {
+              e$ = (0, s.useCallback)(() => {
                 if (
                   (setIsSigningUpWithEmail(!1),
                   z("registrationMethod", "google"),
@@ -1254,19 +1256,19 @@
                   q(["root", "googleServerAuthCode"]),
                   ev(!0),
                   (eS.current = !0),
-                  ez());
+                  eW());
                 try {
                   (0, C.p0)(e);
                 } catch (e) {
                   (console.error("Google code request failed", e),
                     (eS.current = !1),
-                    eB(),
+                    eY(),
                     ev(!1),
                     W("root", {
                       message: "Google sign-in failed. Please try again.",
                     }));
                 }
-              }, [eN, q, eQ, ez, eB, W, ev, setIsSigningUpWithEmail, z]);
+              }, [eN, q, eJ, eW, eY, W, ev, setIsSigningUpWithEmail, z]);
             return (0, n.jsx)(m.Z, {
               ref: eP,
               navItems: L,
@@ -1276,12 +1278,12 @@
                 autoComplete: "on",
                 children: [
                   1 === G &&
-                    !eL &&
+                    !eU &&
                     (0, n.jsx)(p.K, {
                       onNext: goToNextStep,
                       onEmailSignUp: handleEmailSignUp,
                       onGoogleSignUp: () => {
-                        eK();
+                        e$();
                       },
                       onFacebookSignUp: () => {
                         if (!ej) {
@@ -1308,11 +1310,11 @@
                           ey(!1));
                         try {
                           ((eE.current = !0),
-                            eW(),
+                            eq(),
                             window.FB.login(
                               (e) => {
                                 ((eE.current = !1),
-                                  eY(),
+                                  eH(),
                                   (async () => {
                                     try {
                                       var r;
@@ -1355,7 +1357,7 @@
                                           }));
                                         return;
                                       }
-                                      let n = await eq();
+                                      let n = await eK();
                                       if (!(null == n ? void 0 : n.email)) {
                                         (z("facebookAccessToken", "", {
                                           shouldValidate: !0,
@@ -1400,7 +1402,7 @@
                         } catch (e) {
                           (console.error(e),
                             (eE.current = !1),
-                            eY(),
+                            eH(),
                             em(!1),
                             W("root", {
                               message:
@@ -1442,7 +1444,7 @@
                             "flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between",
                           children: [
                             (0, n.jsx)(j.Z, {
-                              onClick: eK,
+                              onClick: e$,
                               loading: eh,
                               disabled: eh || !ep,
                               fullWidth: !0,
@@ -1473,7 +1475,7 @@
                       currentStep: G,
                       onNext: goToNextStep,
                       onBack: () => {
-                        let e = eL && e_ ? e_ : eL ? eT : 1;
+                        let e = eU && eO ? eO : eU ? eF : 1;
                         Z((r) => {
                           let a = P[r];
                           return a < e ? e : a;

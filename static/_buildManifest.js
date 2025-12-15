@@ -211,7 +211,7 @@
       e,
       k,
       h,
-      "static/chunks/pages/registration-1a28e019abfb86ca.js",
+      "static/chunks/pages/registration-70b927f9066f6051.js",
     ],
     "/reset-password": [
       c,

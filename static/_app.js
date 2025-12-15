@@ -37169,13 +37169,16 @@ ${toHex(eu)}`;
                 try {
                   let en = await ef.fn(),
                     eu = await ef.Yu(),
-                    ec = eu.error
-                      ? null
-                      : null !== (ei = eu.data.publisherData) && void 0 !== ei
-                        ? ei
-                        : null;
-                  if (!en.error && en.data && en.data.accountInfo) {
-                    let ei = { ...en.data, publisherData: ec };
+                    ed = null == ec ? void 0 : ec.publisherData;
+                  if (
+                    (eu.error ||
+                      (ed =
+                        null !== (ei = eu.data.publisherData) && void 0 !== ei
+                          ? ei
+                          : null),
+                    !en.error && en.data && en.data.accountInfo)
+                  ) {
+                    let ei = { ...en.data, publisherData: ed };
                     setUserData(ei);
                     let ea = JSON.stringify(ei);
                     (localStorage.setItem("userData", ea),
@@ -37284,19 +37287,22 @@ ${toHex(eu)}`;
                   : ey.countryAlpha2Code) &&
                 ["US", "CA"].includes(ev.publisherData.countryAlpha2Code) &&
                 !ev.publisherData.stateOrProvinceName,
-              eX = eV ? !!(ev && (eZ || eJ || eY || eQ)) : null;
+              eX = eJ || eY || eQ,
+              e0 = eV ? !!(ev && (eZ || eX)) : null,
+              e1 = eV ? (eX ? "publisher" : eZ ? "display-name" : null) : null;
             return (
               (0, eu.useEffect)(() => {
                 !eA &&
                   eP &&
                   eV &&
-                  !0 === eX &&
+                  !0 === e0 &&
+                  e1 &&
                   "/registration" !== eb.pathname &&
                   eb.replace({
                     pathname: "/registration",
-                    query: { resume: "identity" },
+                    query: { resume: "identity", step: e1 },
                   });
-              }, [eP, eV, eA, eX, eb]),
+              }, [eP, eV, e1, eA, e0, eb]),
               (0, es.jsx)(em.Provider, {
                 value: {
                   userData: ev,
@@ -37323,7 +37329,7 @@ ${toHex(eu)}`;
                   addCompletedSurvey,
                   resendVerification,
                   shopifyUrl: eI,
-                  requiresIdentitySetup: eX,
+                  requiresIdentitySetup: e0,
                 },
                 children: eg,
               })
