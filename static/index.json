@@ -5,7 +5,7 @@
         "title": "Two Thrilling Tomb Raider Adventures Unveiled at The Game Awards",
         "slug": "two-thrilling-tomb-raider-adventures-unveiled-at-the-game-awards",
         "isLatestNews": true,
-        "isFeatured": false,
+        "isFeatured": true,
         "shouldOnlyDisplayInAccount": false,
         "category": {
           "metadata": { "tags": [], "concepts": [] },
@@ -122,47 +122,45 @@
         },
         "socialMediaShareDescription": "Legendary heroine Lara Croft returns in Tomb Raider: Catalyst, the all-new major entry in the Tomb Raider series, and Tomb Raider: Legacy of Atlantis, a reimagined version of her iconic debut—both games coming to PlayStation 5, Xbox Series X|S and Steam",
         "body": {
-          "nodeType": "document",
           "data": {},
           "content": [
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": "At The Game Awards earlier this evening, two new entries in the Tomb Raider franchise were announced. Audiences were introduced to the long-awaited next chapter of Lara Croft's story, ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
                   "value": "Tomb Raider: Catalyst",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": ", as well as the surprise announcement of ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "data": {},
                   "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": ", a fully reimagined version of Lara Croft's iconic debut adventure. Watch the trailers now!",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": ", a fully reimagined version of Lara Croft's iconic debut adventure. Watch the trailers now!",
+                  "nodeType": "text"
                 }
-              ]
+              ],
+              "nodeType": "paragraph"
             },
             {
-              "nodeType": "embedded-entry-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -202,11 +200,11 @@
                   }
                 }
               },
-              "content": []
+              "content": [],
+              "nodeType": "embedded-entry-block"
             },
-            { "nodeType": "hr", "data": {}, "content": [] },
+            { "data": {}, "content": [], "nodeType": "hr" },
             {
-              "nodeType": "embedded-entry-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -246,88 +244,88 @@
                   }
                 }
               },
-              "content": []
+              "content": [],
+              "nodeType": "embedded-entry-block"
             },
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
                   "value": "",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "nodeType": "text"
                 }
-              ]
+              ],
+              "nodeType": "paragraph"
             },
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: Catalyst",
+                  "data": {},
                   "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "value": "Tomb Raider: Catalyst",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": ", developed by Crystal Dynamics, marks a bold new direction for the series as Lara Croft embarks on a new adventure across Northern India. ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: Catalyst",
+                  "data": {},
                   "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "value": "Tomb Raider: Catalyst",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": " is set in the wake of a mythical cataclysm that has unleashed ancient secrets and awakened the mysterious forces that guard them. When the most notorious treasure hunters from around the world descend on the region, Lara races to uncover the truth buried beneath the fractured landscape and stop those who would use its power for their own gain. As the ancient world collides with the present, Lara must decide who to trust among rivals and allies to prevent a catastrophe and protect a secret that could reshape the future. ",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": " is set in the wake of a mythical cataclysm that has unleashed ancient secrets and awakened the mysterious forces that guard them. When the most notorious treasure hunters from around the world descend on the region, Lara races to uncover the truth buried beneath the fractured landscape and stop those who would use its power for their own gain. As the ancient world collides with the present, Lara must decide who to trust among rivals and allies to prevent a catastrophe and protect a secret that could reshape the future. ",
+                  "nodeType": "text"
                 }
-              ]
+              ],
+              "nodeType": "paragraph"
             },
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": "Powered by Unreal Engine 5, ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: Catalyst",
+                  "data": {},
                   "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "value": "Tomb Raider: Catalyst",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": " delivers the largest Tomb Raider world yet where Lara will traverse a landscape full of secrets, delve into lost tombs packed with intricate puzzles, and solve ancient mysteries using her unmatched brilliance and richly customized adventure tech. Perfect for longtime fans and newcomers alike, players will experience an exhilarating story of trust and betrayal that tests Lara Croft in new ways. ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: Catalyst",
+                  "data": {},
                   "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "value": "Tomb Raider: Catalyst",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": " is set to launch in 2027 for PlayStation 5, Xbox Series X|S and Steam. ",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": " is set to launch in 2027 for PlayStation 5, Xbox Series X|S and Steam. ",
+                  "nodeType": "text"
                 }
-              ]
+              ],
+              "nodeType": "paragraph"
             },
             {
-              "nodeType": "embedded-asset-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -369,216 +367,218 @@
                   }
                 }
               },
-              "content": []
+              "content": [],
+              "nodeType": "embedded-asset-block"
             },
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": "In addition to the next chapter of Lara's story, some legends are destined to be retold. ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
                   "value": "Tomb Raider: Legacy of Atlantis ",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": "captures the wonder and excitement of Lara's debut adventure, re-envisioned with modern gameplay, visuals, and storytelling. Developed in partnership between Crystal Dynamics and Flying Wild Hog, the game features stunning visuals powered by Unreal Engine 5, modern game design, and new surprises that honor the spirit and atmosphere of the original game. As Lara Croft, players will harness their wits and athleticism to explore exotic locations lost to time, traverse treacherous landscapes, solve deadly contraptions, and face lethal predators in their quest for the scattered pieces of the Scion—an artifact of immeasurable power. The game arrives in 2026 for PlayStation 5, Xbox Series X|S and Steam. ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 }
-              ]
+              ],
+              "nodeType": "paragraph"
             },
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": "Both ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
                   "value": "Tomb Raider: Catalyst",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": " and ",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": " and ",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
                   "value": "Tomb Raider: Legacy of Atlantis",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": " games will feature acclaimed voice actress Alix Wilton Regan as Lara Croft. Known for her performances in ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
                   "value": "Dragon Age: Inquisition",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "nodeType": "text"
                 },
-                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
+                { "data": {}, "marks": [], "value": ", ", "nodeType": "text" },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
                   "value": "Cyberpunk 2077",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
+                  "data": {},
+                  "marks": [],
                   "value": " and ",
-                  "marks": [],
-                  "data": {}
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": "Mass Effect 3",
+                  "data": {},
                   "marks": [{ "type": "italic" }],
-                  "data": {}
+                  "value": "Mass Effect 3",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "text",
-                  "value": ", Wilton Regan's dynamic portrayal of Lara energizes gaming's most iconic heroine with fresh spirit and depth, marking a new era in the Tomb Raider franchise.",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": ", Wilton Regan's dynamic portrayal of Lara energizes gaming's most iconic heroine with fresh spirit and depth, marking a new era in the Tomb Raider franchise.",
+                  "nodeType": "text"
                 }
-              ]
+              ],
+              "nodeType": "paragraph"
             },
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
-                  "value": "For more information on both titles, including trailers and the opportunity to wishlist, visit ",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": "For more information on both titles, including trailers and the opportunity to wishlist, visit ",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "hyperlink",
                   "data": { "uri": "http://www.playtombraider.com/" },
                   "content": [
                     {
-                      "nodeType": "text",
-                      "value": "www.playtombraider.com",
+                      "data": {},
                       "marks": [{ "type": "underline" }],
-                      "data": {}
+                      "value": "www.playtombraider.com",
+                      "nodeType": "text"
                     }
-                  ]
+                  ],
+                  "nodeType": "hyperlink"
                 },
                 {
-                  "nodeType": "text",
-                  "value": ", and follow the games on ",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": ", and follow the games on ",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "hyperlink",
                   "data": { "uri": "https://www.facebook.com/PlayTombRaider" },
                   "content": [
                     {
-                      "nodeType": "text",
-                      "value": "Facebook",
+                      "data": {},
                       "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "data": {}
+                      "value": "Facebook",
+                      "nodeType": "text"
                     }
-                  ]
+                  ],
+                  "nodeType": "hyperlink"
                 },
-                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
+                { "data": {}, "marks": [], "value": ", ", "nodeType": "text" },
                 {
-                  "nodeType": "hyperlink",
                   "data": {
                     "uri": "file:///C:/Users/roidoyle/Documents/awaitinglink"
                   },
                   "content": [
                     {
-                      "nodeType": "text",
-                      "value": "X",
+                      "data": {},
                       "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "data": {}
+                      "value": "X",
+                      "nodeType": "text"
                     }
-                  ]
+                  ],
+                  "nodeType": "hyperlink"
                 },
-                { "nodeType": "text", "value": ",", "marks": [], "data": {} },
+                { "data": {}, "marks": [], "value": ",", "nodeType": "text" },
                 {
-                  "nodeType": "hyperlink",
                   "data": {
                     "uri": "https://www.instagram.com/playtombraider/?hl=en"
                   },
                   "content": [
                     {
-                      "nodeType": "text",
-                      "value": " ",
+                      "data": {},
                       "marks": [{ "type": "underline" }],
-                      "data": {}
+                      "value": " ",
+                      "nodeType": "text"
                     },
                     {
-                      "nodeType": "text",
-                      "value": "Instagram",
+                      "data": {},
                       "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "data": {}
+                      "value": "Instagram",
+                      "nodeType": "text"
                     }
-                  ]
+                  ],
+                  "nodeType": "hyperlink"
                 },
                 {
-                  "nodeType": "text",
-                  "value": " ",
+                  "data": {},
                   "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                { "nodeType": "text", "value": "and", "marks": [], "data": {} },
-                {
-                  "nodeType": "text",
                   "value": " ",
+                  "nodeType": "text"
+                },
+                { "data": {}, "marks": [], "value": "and", "nodeType": "text" },
+                {
+                  "data": {},
                   "marks": [{ "type": "bold" }],
-                  "data": {}
+                  "value": " ",
+                  "nodeType": "text"
                 },
                 {
-                  "nodeType": "hyperlink",
                   "data": { "uri": "https://www.tiktok.com/@playtombraider" },
                   "content": [
                     {
-                      "nodeType": "text",
-                      "value": "TikTok",
+                      "data": {},
                       "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "data": {}
+                      "value": "TikTok",
+                      "nodeType": "text"
                     }
-                  ]
+                  ],
+                  "nodeType": "hyperlink"
                 },
-                { "nodeType": "text", "value": ". ", "marks": [], "data": {} }
-              ]
+                { "data": {}, "marks": [], "value": ". ", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
             },
             {
-              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "nodeType": "text",
-                  "value": "We are incredibly excited to share more information with you about these upcoming titles as we celebrate thirty years of Tomb Raider - stay tuned to our socials and tombraider.com for even more in the coming months!",
+                  "data": {},
                   "marks": [],
-                  "data": {}
+                  "value": "We are incredibly excited to share more information with you about these upcoming titles as we celebrate thirty years of Tomb Raider - stay tuned to our socials and tombraider.com for even more in the coming months!",
+                  "nodeType": "text"
                 }
-              ]
+              ],
+              "nodeType": "paragraph"
             }
-          ]
+          ],
+          "nodeType": "document"
         },
         "publishDate": "2025-12-11",
         "hideSocialSharingButtons": false
@@ -6276,1799 +6276,6 @@
     ],
     "products": [
       {
-        "title": "Tomb Raider I-VI Remastered",
-        "slug": "tomb-raider-i-vi-remastered",
-        "titleLogo": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "Ztvlm7m1PxQ6JX5LYhhYL",
-            "type": "Asset",
-            "createdAt": "2025-04-07T19:45:22.462Z",
-            "updatedAt": "2025-04-07T19:45:22.462Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 3,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "TR-I-VI-Remastered-Logo cropped",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/Ztvlm7m1PxQ6JX5LYhhYL/2d61bbb643e9a3a68f7723b0ac0e9b4f/TR-I-VI-Remastered-Logo_cropped.png",
-              "details": {
-                "size": 1416074,
-                "image": { "width": 1312, "height": 985 }
-              },
-              "fileName": "TR-I-VI-Remastered-Logo_cropped.png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "7xC6dIGh722z2egxeOu0DA",
-            "type": "Entry",
-            "createdAt": "2023-09-26T20:05:23.315Z",
-            "updatedAt": "2023-09-26T20:05:23.315Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 4,
-            "revision": 1,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "productCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": { "name": "Games", "slug": "games", "order": 1 }
-        },
-        "subcategories": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "15YhnO6XtqNV43gIscPkxf",
-              "type": "Entry",
-              "createdAt": "2023-09-26T20:15:09.122Z",
-              "updatedAt": "2023-12-13T19:04:29.257Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 19,
-              "revision": 6,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "productSubcategories"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "PC & Console Games",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "7xC6dIGh722z2egxeOu0DA",
-                  "type": "Entry",
-                  "createdAt": "2023-09-26T20:05:23.315Z",
-                  "updatedAt": "2023-09-26T20:05:23.315Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 4,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "productCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": { "name": "Games", "slug": "games", "order": 1 }
-              },
-              "description": "Experience Lara Croft's adventures as the Tomb Raider",
-              "order": 3
-            }
-          }
-        ],
-        "isFeatured": true,
-        "featuredProductButtonText": "Learn More",
-        "description": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Lara Croft is back!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Discover Lara Croft's Original Adventures, Lovingly Restored",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }, { "type": "underline" }],
-                  "value": "Key Features",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "See the Classic & Remastered Visuals: Play with the original polygonal models or swap to the remastered graphics at any time.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Globe-trotting Adventure: Follow Lara Croft around the world and face off against deadly foes and dangerous myths.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Experience Lara's Darkest Adventures: Uncover the secrets to Lara Croft's past and shed light on the mystery of her disappearance.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }, { "type": "underline" }],
-                  "value": "Included Game Titles",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Tomb Raider I + The Unfinished Business Expansion",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Tomb Raider II + The Gold Mask Expansion",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Tomb Raider III + The Lost Artifact Expansion",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Tomb Raider IV: The Last Revelation",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Tomb Raider V: Chronicles",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Tomb Raider VI: The Angel of Darkness",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                }
-              ],
-              "nodeType": "unordered-list"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "shortDescription": "Lara Croft is back! Discover Lara Croft's Original Adventures, Lovingly Restored",
-        "galleryEntries": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "3AHznysXZDUcxWAlzYNmZM",
-              "type": "Entry",
-              "createdAt": "2025-08-21T18:07:21.825Z",
-              "updatedAt": "2025-08-21T18:07:21.825Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "2PX3RmViCEbwLmpMCeDtfT",
-                  "type": "Asset",
-                  "createdAt": "2025-08-21T18:07:17.868Z",
-                  "updatedAt": "2025-08-21T18:07:17.868Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TR1-6Remastered NoLogo Centred",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/2PX3RmViCEbwLmpMCeDtfT/185ba557e86c9eedd90d89c74d629172/TR1-6Remastered_NoLogo_Centred.png",
-                    "details": {
-                      "size": 3363442,
-                      "image": { "width": 1920, "height": 1080 }
-                    },
-                    "fileName": "TR1-6Remastered_NoLogo_Centred.png",
-                    "contentType": "image/png"
-                  }
-                }
-              },
-              "showInFeaturedSection": true
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "1uh520aMVzpXAdJma5ES93",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:19:24.837Z",
-              "updatedAt": "2025-08-21T18:08:57.491Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 6,
-              "revision": 3,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "2ICknJ0KDdscOpRlUrReWh",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T16:19:11.124Z",
-                  "updatedAt": "2025-04-07T16:19:11.124Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 4,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TR-I-VI-Remastered-Bundle-Key-Art ",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/2ICknJ0KDdscOpRlUrReWh/c4a1289a49861cd9c9615b66f94213e2/TR-I-VI-Remastered-Bundle-Key-Art__1_.png",
-                    "details": {
-                      "size": 10757505,
-                      "image": { "width": 3840, "height": 2160 }
-                    },
-                    "fileName": "TR-I-VI-Remastered-Bundle-Key-Art (1).png",
-                    "contentType": "image/png"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2hso4RJ7ctsoDf2UDbo1wq",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:20:36.796Z",
-              "updatedAt": "2025-04-07T16:20:36.796Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "55SOHR7ZXpsGKylAut7eoj",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T16:20:32.073Z",
-                  "updatedAt": "2025-04-07T16:20:32.073Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TombRaider 1-3 Remastered 03",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/55SOHR7ZXpsGKylAut7eoj/c6713b93d8a085343cefca0e1a5bb12c/TombRaider_1-3_Remastered_03.jpg",
-                    "details": {
-                      "size": 709943,
-                      "image": { "width": 1920, "height": 1080 }
-                    },
-                    "fileName": "TombRaider_1-3_Remastered_03.jpg",
-                    "contentType": "image/jpeg"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2F0f7UIQxXpQ8lRQ2QdPvB",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:21:08.052Z",
-              "updatedAt": "2025-04-07T16:21:08.052Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "1fyseN7YB4yvzJaOfMBqtW",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T16:21:04.979Z",
-                  "updatedAt": "2025-04-07T16:21:04.979Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TombRaider 1-3 Remastered 04",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/1fyseN7YB4yvzJaOfMBqtW/27a6659f06af8cc7e45de39ecaefdc8a/TombRaider_1-3_Remastered_04.jpg",
-                    "details": {
-                      "size": 1042439,
-                      "image": { "width": 1920, "height": 1080 }
-                    },
-                    "fileName": "TombRaider_1-3_Remastered_04.jpg",
-                    "contentType": "image/jpeg"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "kqOcIAP58Rr9GRlPRujHy",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:21:35.259Z",
-              "updatedAt": "2025-04-07T16:21:35.259Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "3IvFo9cbhSrbxP9f3h84DK",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T16:21:32.009Z",
-                  "updatedAt": "2025-04-07T16:21:32.009Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TombRaider 1-3 Remastered 06",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/3IvFo9cbhSrbxP9f3h84DK/e0edb07ca05f2b6cec81de5759f5329c/TombRaider_1-3_Remastered_06.jpg",
-                    "details": {
-                      "size": 807773,
-                      "image": { "width": 1920, "height": 1080 }
-                    },
-                    "fileName": "TombRaider_1-3_Remastered_06.jpg",
-                    "contentType": "image/jpeg"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "1oeQkAskIWO8rbaZCLCJXT",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:25:02.697Z",
-              "updatedAt": "2025-04-07T16:25:02.697Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "5aQigJiQLTN3iMbJlTbesz",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T16:24:59.323Z",
-                  "updatedAt": "2025-04-07T16:24:59.323Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TR5 Announce EscapeWithTheIris 3 3840x2160 Final",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/5aQigJiQLTN3iMbJlTbesz/5910ab60b03de585c9f4a7f4992e90f3/TR5_Announce_EscapeWithTheIris_3_3840x2160_Final.png",
-                    "details": {
-                      "size": 9599235,
-                      "image": { "width": 3840, "height": 2160 }
-                    },
-                    "fileName": "TR5_Announce_EscapeWithTheIris_3_3840x2160_Final.png",
-                    "contentType": "image/png"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "FIH63LOzAY3GWVitLCkqy",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:23:48.057Z",
-              "updatedAt": "2025-04-07T16:23:48.057Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "7pVejBCI0g76Clun3UmGtP",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T16:23:41.270Z",
-                  "updatedAt": "2025-04-07T16:23:41.270Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TR4 Announce TempleOfHorus 3840 x 2160 Final",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/7pVejBCI0g76Clun3UmGtP/233d87cbb1d22c1f459a7e80e978f423/TR4_Announce_TempleOfHorus_3840_x_2160_Final.png",
-                    "details": {
-                      "size": 10161495,
-                      "image": { "width": 3840, "height": 2160 }
-                    },
-                    "fileName": "TR4_Announce_TempleOfHorus_3840 x 2160_Final.png",
-                    "contentType": "image/png"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "Qk9EbxwwUwOXoGIOrcFZ0",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:24:34.124Z",
-              "updatedAt": "2025-04-07T16:24:34.124Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "4Ddg7m58ZnzWwzwW529Ks6",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T16:24:30.025Z",
-                  "updatedAt": "2025-04-07T16:24:30.025Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TR5 Announce Colosseum 3840 x 2160 Final",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/4Ddg7m58ZnzWwzwW529Ks6/872ff900390d2cd603828fae0b8b9468/TR5_Announce_Colosseum_3840_x_2160_Final.png",
-                    "details": {
-                      "size": 11939874,
-                      "image": { "width": 3840, "height": 2160 }
-                    },
-                    "fileName": "TR5_Announce_Colosseum_3840 x 2160_Final.png",
-                    "contentType": "image/png"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "3pTgfUDtL79iMTQiJn4VXT",
-              "type": "Entry",
-              "createdAt": "2025-04-07T17:27:09.127Z",
-              "updatedAt": "2025-04-07T17:27:09.127Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "galleryEntry"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "image": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "2RIfx3sOnZv8ZnP7A2XGAR",
-                  "type": "Asset",
-                  "createdAt": "2025-04-07T17:27:05.580Z",
-                  "updatedAt": "2025-04-07T17:27:05.580Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "title": "TR6 Announce LouvreGalleries 3840 x 2160 Final",
-                  "description": "",
-                  "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/2RIfx3sOnZv8ZnP7A2XGAR/fc8eda21d028421722aa5aaf72657e0b/TR6_Announce_LouvreGalleries_3840_x_2160_Final.png",
-                    "details": {
-                      "size": 8560031,
-                      "image": { "width": 3840, "height": 2160 }
-                    },
-                    "fileName": "TR6_Announce_LouvreGalleries_3840 x 2160_Final.png",
-                    "contentType": "image/png"
-                  }
-                }
-              },
-              "showInFeaturedSection": false
-            }
-          }
-        ],
-        "releaseDate": "2025-02-14",
-        "ctaSectionLabel": "Buy Now",
-        "ctaButtons": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "3hOyX2iSCdBqHfPzf8aPnS",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:28:22.386Z",
-              "updatedAt": "2025-04-07T16:28:22.386Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "ctaButtonWithLink"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "url": "https://store.playstation.com/en-us/product/UP1032-PPSA16901_00-0661375719375092",
-              "ctaButton": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "38pIC5spZo4MTEqk4jN6aW",
-                  "type": "Entry",
-                  "createdAt": "2023-12-08T23:40:21.676Z",
-                  "updatedAt": "2023-12-08T23:40:21.676Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "ctaButton"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "label": "Playstation",
-                  "icon": {
-                    "metadata": { "tags": [], "concepts": [] },
-                    "sys": {
-                      "space": {
-                        "sys": {
-                          "type": "Link",
-                          "linkType": "Space",
-                          "id": "x77ixfmkpoiv"
-                        }
-                      },
-                      "id": "3pyQUCaClqdYIZiJ0BIl6r",
-                      "type": "Asset",
-                      "createdAt": "2023-09-27T15:33:36.418Z",
-                      "updatedAt": "2023-12-07T21:44:21.206Z",
-                      "environment": {
-                        "sys": {
-                          "id": "master",
-                          "type": "Link",
-                          "linkType": "Environment"
-                        }
-                      },
-                      "publishedVersion": 6,
-                      "revision": 2,
-                      "locale": "en-US"
-                    },
-                    "fields": {
-                      "title": "Playstation",
-                      "description": "Playstation icon",
-                      "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/3pyQUCaClqdYIZiJ0BIl6r/ebc6a287ed3f28f357e1b4caf8166145/ic_playstation.svg",
-                        "details": {
-                          "size": 1215,
-                          "image": { "width": 20, "height": 20 }
-                        },
-                        "fileName": "ic_playstation.svg",
-                        "contentType": "image/svg+xml"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2yhQCXGUAUkcxx7fw8ygfL",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:29:02.090Z",
-              "updatedAt": "2025-04-07T16:29:02.090Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "ctaButtonWithLink"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "url": "https://www.xbox.com/en-US/games/store/tomb-raider-i-vi-remastered/9nwt8zhz3t0m",
-              "ctaButton": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "4WCKx3vKDCSzAjvrb5ImPC",
-                  "type": "Entry",
-                  "createdAt": "2023-09-27T15:58:29.798Z",
-                  "updatedAt": "2023-09-27T15:58:29.798Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "ctaButton"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "label": "Xbox",
-                  "icon": {
-                    "metadata": { "tags": [], "concepts": [] },
-                    "sys": {
-                      "space": {
-                        "sys": {
-                          "type": "Link",
-                          "linkType": "Space",
-                          "id": "x77ixfmkpoiv"
-                        }
-                      },
-                      "id": "6IpU61nKtNDIU4LQ4STnI3",
-                      "type": "Asset",
-                      "createdAt": "2023-09-27T15:25:19.683Z",
-                      "updatedAt": "2023-12-07T21:45:03.340Z",
-                      "environment": {
-                        "sys": {
-                          "id": "master",
-                          "type": "Link",
-                          "linkType": "Environment"
-                        }
-                      },
-                      "publishedVersion": 6,
-                      "revision": 2,
-                      "locale": "en-US"
-                    },
-                    "fields": {
-                      "title": "Xbox 360",
-                      "description": "Xbox 360 icon",
-                      "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/6IpU61nKtNDIU4LQ4STnI3/3e9abeb4174a9c6dda89f46ca0d3999a/ic_xbox.svg",
-                        "details": {
-                          "size": 1947,
-                          "image": { "width": 20, "height": 20 }
-                        },
-                        "fileName": "ic_xbox.svg",
-                        "contentType": "image/svg+xml"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "73sJ62XbZNYNeXXcyqwgi4",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:33:11.460Z",
-              "updatedAt": "2025-04-07T16:33:11.460Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "ctaButtonWithLink"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "url": "https://www.nintendo.com/us/store/products/tomb-raider-i-vi-remastered-switch/?srsltid=AfmBOoo-xaAQIO1p57Zo3zbigOBFH8yWtBJ4orll9RTFMiJNyrLJC7K1",
-              "ctaButton": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "13kvGA53CLfQkgtyoEytQU",
-                  "type": "Entry",
-                  "createdAt": "2023-09-27T15:24:31.017Z",
-                  "updatedAt": "2023-09-27T15:24:31.017Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 4,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "ctaButton"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "label": "Nintendo Switch",
-                  "icon": {
-                    "metadata": { "tags": [], "concepts": [] },
-                    "sys": {
-                      "space": {
-                        "sys": {
-                          "type": "Link",
-                          "linkType": "Space",
-                          "id": "x77ixfmkpoiv"
-                        }
-                      },
-                      "id": "2MTxk08vhHnkgMofO5KTv6",
-                      "type": "Asset",
-                      "createdAt": "2023-09-27T15:24:24.673Z",
-                      "updatedAt": "2023-12-07T21:45:10.153Z",
-                      "environment": {
-                        "sys": {
-                          "id": "master",
-                          "type": "Link",
-                          "linkType": "Environment"
-                        }
-                      },
-                      "publishedVersion": 6,
-                      "revision": 2,
-                      "locale": "en-US"
-                    },
-                    "fields": {
-                      "title": "Nintendo Switch",
-                      "description": "Nintendo Switch icon",
-                      "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2MTxk08vhHnkgMofO5KTv6/c1c9e088686a5f9b6843ae651acded73/ic_nintendo-switch.svg",
-                        "details": {
-                          "size": 2290,
-                          "image": { "width": 20, "height": 20 }
-                        },
-                        "fileName": "ic_nintendo-switch.svg",
-                        "contentType": "image/svg+xml"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "4FLXiIXHAmH5dtiF3EK9dL",
-              "type": "Entry",
-              "createdAt": "2025-04-07T16:34:24.010Z",
-              "updatedAt": "2025-04-07T16:34:24.010Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "ctaButtonWithLink"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "url": "https://store.steampowered.com/bundle/50061/Tomb_Raider_IVI_Remastered/",
-              "ctaButton": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "5JPshKMW1gdMyH0GAVR95U",
-                  "type": "Entry",
-                  "createdAt": "2023-09-26T21:11:34.152Z",
-                  "updatedAt": "2023-09-26T21:11:34.152Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "ctaButton"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "label": "Steam",
-                  "icon": {
-                    "metadata": { "tags": [], "concepts": [] },
-                    "sys": {
-                      "space": {
-                        "sys": {
-                          "type": "Link",
-                          "linkType": "Space",
-                          "id": "x77ixfmkpoiv"
-                        }
-                      },
-                      "id": "5YnHzSDbHfPiO4aIxXc9Wd",
-                      "type": "Asset",
-                      "createdAt": "2023-09-26T21:11:20.308Z",
-                      "updatedAt": "2023-12-07T21:45:14.653Z",
-                      "environment": {
-                        "sys": {
-                          "id": "master",
-                          "type": "Link",
-                          "linkType": "Environment"
-                        }
-                      },
-                      "publishedVersion": 9,
-                      "revision": 2,
-                      "locale": "en-US"
-                    },
-                    "fields": {
-                      "title": "Steam",
-                      "description": "Steam icon",
-                      "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/5YnHzSDbHfPiO4aIxXc9Wd/1ce9c90a6e94912bfa5b0fa5592e63bb/ic_steam.svg",
-                        "details": {
-                          "size": 1673,
-                          "image": { "width": 20, "height": 20 }
-                        },
-                        "fileName": "ic_steam.svg",
-                        "contentType": "image/svg+xml"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "socialMediaShareDescription": "Buy Now",
-        "publisher": "Aspyr Media",
-        "esrbRating": "T",
-        "esrbContentDescriptors": [
-          "Blood",
-          "Mild Language",
-          "Mild Suggestive Themes",
-          "Violence"
-        ],
-        "relatedNewsArticleTags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2M02ScJAiqlJ2o3VXM2wPr",
-              "type": "Entry",
-              "createdAt": "2024-11-19T14:29:12.945Z",
-              "updatedAt": "2024-11-19T14:29:12.945Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider IV-VI Remastered",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "5E9d7LIjoixSXKPZzJs3NU",
-              "type": "Entry",
-              "createdAt": "2024-02-07T17:29:24.920Z",
-              "updatedAt": "2024-02-07T17:29:24.920Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 5,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider I-III Remastered",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "7ytOVVBd3qLxPN7Lw1fPeG",
-              "type": "Entry",
-              "createdAt": "2023-09-15T16:14:55.044Z",
-              "updatedAt": "2024-02-07T17:12:38.277Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 8,
-              "revision": 3,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider: The Angel of Darkness",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "j6VCBTOUjvFU7LBfw2DOb",
-              "type": "Entry",
-              "createdAt": "2024-01-12T20:54:19.870Z",
-              "updatedAt": "2024-01-12T20:54:19.870Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": { "name": "Video Games Angel of Darkness" }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "5MKaKnwkyPFVCUHqCtQuSi",
-              "type": "Entry",
-              "createdAt": "2024-01-12T20:40:47.690Z",
-              "updatedAt": "2024-01-12T20:40:47.690Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": { "name": "Video Games" }
-          }
-        ],
-        "appearsOnTimeline": false,
-        "hideSocialSharingButtons": false
-      },
-      {
         "title": "Tomb Raider IV-VI Remastered",
         "slug": "tomb-raider-iv-vi-remastered",
         "titleLogo": {
@@ -10073,6 +8280,1799 @@
           }
         ],
         "appearsOnTimeline": false
+      },
+      {
+        "title": "Tomb Raider I-VI Remastered",
+        "slug": "tomb-raider-i-vi-remastered",
+        "titleLogo": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "Ztvlm7m1PxQ6JX5LYhhYL",
+            "type": "Asset",
+            "createdAt": "2025-04-07T19:45:22.462Z",
+            "updatedAt": "2025-04-07T19:45:22.462Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "TR-I-VI-Remastered-Logo cropped",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/Ztvlm7m1PxQ6JX5LYhhYL/2d61bbb643e9a3a68f7723b0ac0e9b4f/TR-I-VI-Remastered-Logo_cropped.png",
+              "details": {
+                "size": 1416074,
+                "image": { "width": 1312, "height": 985 }
+              },
+              "fileName": "TR-I-VI-Remastered-Logo_cropped.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "7xC6dIGh722z2egxeOu0DA",
+            "type": "Entry",
+            "createdAt": "2023-09-26T20:05:23.315Z",
+            "updatedAt": "2023-09-26T20:05:23.315Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "productCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Games", "slug": "games", "order": 1 }
+        },
+        "subcategories": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "15YhnO6XtqNV43gIscPkxf",
+              "type": "Entry",
+              "createdAt": "2023-09-26T20:15:09.122Z",
+              "updatedAt": "2023-12-13T19:04:29.257Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 19,
+              "revision": 6,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "productSubcategories"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "PC & Console Games",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "7xC6dIGh722z2egxeOu0DA",
+                  "type": "Entry",
+                  "createdAt": "2023-09-26T20:05:23.315Z",
+                  "updatedAt": "2023-09-26T20:05:23.315Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "productCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": { "name": "Games", "slug": "games", "order": 1 }
+              },
+              "description": "Experience Lara Croft's adventures as the Tomb Raider",
+              "order": 3
+            }
+          }
+        ],
+        "isFeatured": true,
+        "featuredProductButtonText": "Learn More",
+        "description": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Lara Croft is back!",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Discover Lara Croft's Original Adventures, Lovingly Restored",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }, { "type": "underline" }],
+                  "value": "Key Features",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "See the Classic & Remastered Visuals: Play with the original polygonal models or swap to the remastered graphics at any time.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Globe-trotting Adventure: Follow Lara Croft around the world and face off against deadly foes and dangerous myths.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Experience Lara's Darkest Adventures: Uncover the secrets to Lara Croft's past and shed light on the mystery of her disappearance.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }, { "type": "underline" }],
+                  "value": "Included Game Titles",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Tomb Raider I + The Unfinished Business Expansion",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Tomb Raider II + The Gold Mask Expansion",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Tomb Raider III + The Lost Artifact Expansion",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Tomb Raider IV: The Last Revelation",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Tomb Raider V: Chronicles",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Tomb Raider VI: The Angel of Darkness",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "unordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "shortDescription": "Lara Croft is back! Discover Lara Croft's Original Adventures, Lovingly Restored",
+        "galleryEntries": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "3AHznysXZDUcxWAlzYNmZM",
+              "type": "Entry",
+              "createdAt": "2025-08-21T18:07:21.825Z",
+              "updatedAt": "2025-08-21T18:07:21.825Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "2PX3RmViCEbwLmpMCeDtfT",
+                  "type": "Asset",
+                  "createdAt": "2025-08-21T18:07:17.868Z",
+                  "updatedAt": "2025-08-21T18:07:17.868Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TR1-6Remastered NoLogo Centred",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/2PX3RmViCEbwLmpMCeDtfT/185ba557e86c9eedd90d89c74d629172/TR1-6Remastered_NoLogo_Centred.png",
+                    "details": {
+                      "size": 3363442,
+                      "image": { "width": 1920, "height": 1080 }
+                    },
+                    "fileName": "TR1-6Remastered_NoLogo_Centred.png",
+                    "contentType": "image/png"
+                  }
+                }
+              },
+              "showInFeaturedSection": true
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "1uh520aMVzpXAdJma5ES93",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:19:24.837Z",
+              "updatedAt": "2025-08-21T18:08:57.491Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 6,
+              "revision": 3,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "2ICknJ0KDdscOpRlUrReWh",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T16:19:11.124Z",
+                  "updatedAt": "2025-04-07T16:19:11.124Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TR-I-VI-Remastered-Bundle-Key-Art ",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/2ICknJ0KDdscOpRlUrReWh/c4a1289a49861cd9c9615b66f94213e2/TR-I-VI-Remastered-Bundle-Key-Art__1_.png",
+                    "details": {
+                      "size": 10757505,
+                      "image": { "width": 3840, "height": 2160 }
+                    },
+                    "fileName": "TR-I-VI-Remastered-Bundle-Key-Art (1).png",
+                    "contentType": "image/png"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2hso4RJ7ctsoDf2UDbo1wq",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:20:36.796Z",
+              "updatedAt": "2025-04-07T16:20:36.796Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "55SOHR7ZXpsGKylAut7eoj",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T16:20:32.073Z",
+                  "updatedAt": "2025-04-07T16:20:32.073Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TombRaider 1-3 Remastered 03",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/55SOHR7ZXpsGKylAut7eoj/c6713b93d8a085343cefca0e1a5bb12c/TombRaider_1-3_Remastered_03.jpg",
+                    "details": {
+                      "size": 709943,
+                      "image": { "width": 1920, "height": 1080 }
+                    },
+                    "fileName": "TombRaider_1-3_Remastered_03.jpg",
+                    "contentType": "image/jpeg"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2F0f7UIQxXpQ8lRQ2QdPvB",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:21:08.052Z",
+              "updatedAt": "2025-04-07T16:21:08.052Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "1fyseN7YB4yvzJaOfMBqtW",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T16:21:04.979Z",
+                  "updatedAt": "2025-04-07T16:21:04.979Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TombRaider 1-3 Remastered 04",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/1fyseN7YB4yvzJaOfMBqtW/27a6659f06af8cc7e45de39ecaefdc8a/TombRaider_1-3_Remastered_04.jpg",
+                    "details": {
+                      "size": 1042439,
+                      "image": { "width": 1920, "height": 1080 }
+                    },
+                    "fileName": "TombRaider_1-3_Remastered_04.jpg",
+                    "contentType": "image/jpeg"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "kqOcIAP58Rr9GRlPRujHy",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:21:35.259Z",
+              "updatedAt": "2025-04-07T16:21:35.259Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "3IvFo9cbhSrbxP9f3h84DK",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T16:21:32.009Z",
+                  "updatedAt": "2025-04-07T16:21:32.009Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TombRaider 1-3 Remastered 06",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/3IvFo9cbhSrbxP9f3h84DK/e0edb07ca05f2b6cec81de5759f5329c/TombRaider_1-3_Remastered_06.jpg",
+                    "details": {
+                      "size": 807773,
+                      "image": { "width": 1920, "height": 1080 }
+                    },
+                    "fileName": "TombRaider_1-3_Remastered_06.jpg",
+                    "contentType": "image/jpeg"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "1oeQkAskIWO8rbaZCLCJXT",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:25:02.697Z",
+              "updatedAt": "2025-04-07T16:25:02.697Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "5aQigJiQLTN3iMbJlTbesz",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T16:24:59.323Z",
+                  "updatedAt": "2025-04-07T16:24:59.323Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TR5 Announce EscapeWithTheIris 3 3840x2160 Final",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/5aQigJiQLTN3iMbJlTbesz/5910ab60b03de585c9f4a7f4992e90f3/TR5_Announce_EscapeWithTheIris_3_3840x2160_Final.png",
+                    "details": {
+                      "size": 9599235,
+                      "image": { "width": 3840, "height": 2160 }
+                    },
+                    "fileName": "TR5_Announce_EscapeWithTheIris_3_3840x2160_Final.png",
+                    "contentType": "image/png"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "FIH63LOzAY3GWVitLCkqy",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:23:48.057Z",
+              "updatedAt": "2025-04-07T16:23:48.057Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "7pVejBCI0g76Clun3UmGtP",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T16:23:41.270Z",
+                  "updatedAt": "2025-04-07T16:23:41.270Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TR4 Announce TempleOfHorus 3840 x 2160 Final",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/7pVejBCI0g76Clun3UmGtP/233d87cbb1d22c1f459a7e80e978f423/TR4_Announce_TempleOfHorus_3840_x_2160_Final.png",
+                    "details": {
+                      "size": 10161495,
+                      "image": { "width": 3840, "height": 2160 }
+                    },
+                    "fileName": "TR4_Announce_TempleOfHorus_3840 x 2160_Final.png",
+                    "contentType": "image/png"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "Qk9EbxwwUwOXoGIOrcFZ0",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:24:34.124Z",
+              "updatedAt": "2025-04-07T16:24:34.124Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4Ddg7m58ZnzWwzwW529Ks6",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T16:24:30.025Z",
+                  "updatedAt": "2025-04-07T16:24:30.025Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TR5 Announce Colosseum 3840 x 2160 Final",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/4Ddg7m58ZnzWwzwW529Ks6/872ff900390d2cd603828fae0b8b9468/TR5_Announce_Colosseum_3840_x_2160_Final.png",
+                    "details": {
+                      "size": 11939874,
+                      "image": { "width": 3840, "height": 2160 }
+                    },
+                    "fileName": "TR5_Announce_Colosseum_3840 x 2160_Final.png",
+                    "contentType": "image/png"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "3pTgfUDtL79iMTQiJn4VXT",
+              "type": "Entry",
+              "createdAt": "2025-04-07T17:27:09.127Z",
+              "updatedAt": "2025-04-07T17:27:09.127Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "galleryEntry"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "image": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "2RIfx3sOnZv8ZnP7A2XGAR",
+                  "type": "Asset",
+                  "createdAt": "2025-04-07T17:27:05.580Z",
+                  "updatedAt": "2025-04-07T17:27:05.580Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "TR6 Announce LouvreGalleries 3840 x 2160 Final",
+                  "description": "",
+                  "file": {
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/2RIfx3sOnZv8ZnP7A2XGAR/fc8eda21d028421722aa5aaf72657e0b/TR6_Announce_LouvreGalleries_3840_x_2160_Final.png",
+                    "details": {
+                      "size": 8560031,
+                      "image": { "width": 3840, "height": 2160 }
+                    },
+                    "fileName": "TR6_Announce_LouvreGalleries_3840 x 2160_Final.png",
+                    "contentType": "image/png"
+                  }
+                }
+              },
+              "showInFeaturedSection": false
+            }
+          }
+        ],
+        "releaseDate": "2025-02-14",
+        "ctaSectionLabel": "Buy Now",
+        "ctaButtons": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "3hOyX2iSCdBqHfPzf8aPnS",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:28:22.386Z",
+              "updatedAt": "2025-04-07T16:28:22.386Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "ctaButtonWithLink"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "url": "https://store.playstation.com/en-us/product/UP1032-PPSA16901_00-0661375719375092",
+              "ctaButton": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "38pIC5spZo4MTEqk4jN6aW",
+                  "type": "Entry",
+                  "createdAt": "2023-12-08T23:40:21.676Z",
+                  "updatedAt": "2023-12-08T23:40:21.676Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "ctaButton"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "label": "Playstation",
+                  "icon": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "3pyQUCaClqdYIZiJ0BIl6r",
+                      "type": "Asset",
+                      "createdAt": "2023-09-27T15:33:36.418Z",
+                      "updatedAt": "2023-12-07T21:44:21.206Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 6,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "Playstation",
+                      "description": "Playstation icon",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/3pyQUCaClqdYIZiJ0BIl6r/ebc6a287ed3f28f357e1b4caf8166145/ic_playstation.svg",
+                        "details": {
+                          "size": 1215,
+                          "image": { "width": 20, "height": 20 }
+                        },
+                        "fileName": "ic_playstation.svg",
+                        "contentType": "image/svg+xml"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2yhQCXGUAUkcxx7fw8ygfL",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:29:02.090Z",
+              "updatedAt": "2025-04-07T16:29:02.090Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "ctaButtonWithLink"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "url": "https://www.xbox.com/en-US/games/store/tomb-raider-i-vi-remastered/9nwt8zhz3t0m",
+              "ctaButton": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4WCKx3vKDCSzAjvrb5ImPC",
+                  "type": "Entry",
+                  "createdAt": "2023-09-27T15:58:29.798Z",
+                  "updatedAt": "2023-09-27T15:58:29.798Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "ctaButton"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "label": "Xbox",
+                  "icon": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "6IpU61nKtNDIU4LQ4STnI3",
+                      "type": "Asset",
+                      "createdAt": "2023-09-27T15:25:19.683Z",
+                      "updatedAt": "2023-12-07T21:45:03.340Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 6,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "Xbox 360",
+                      "description": "Xbox 360 icon",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/6IpU61nKtNDIU4LQ4STnI3/3e9abeb4174a9c6dda89f46ca0d3999a/ic_xbox.svg",
+                        "details": {
+                          "size": 1947,
+                          "image": { "width": 20, "height": 20 }
+                        },
+                        "fileName": "ic_xbox.svg",
+                        "contentType": "image/svg+xml"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "73sJ62XbZNYNeXXcyqwgi4",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:33:11.460Z",
+              "updatedAt": "2025-04-07T16:33:11.460Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "ctaButtonWithLink"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "url": "https://www.nintendo.com/us/store/products/tomb-raider-i-vi-remastered-switch/?srsltid=AfmBOoo-xaAQIO1p57Zo3zbigOBFH8yWtBJ4orll9RTFMiJNyrLJC7K1",
+              "ctaButton": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "13kvGA53CLfQkgtyoEytQU",
+                  "type": "Entry",
+                  "createdAt": "2023-09-27T15:24:31.017Z",
+                  "updatedAt": "2023-09-27T15:24:31.017Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "ctaButton"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "label": "Nintendo Switch",
+                  "icon": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "2MTxk08vhHnkgMofO5KTv6",
+                      "type": "Asset",
+                      "createdAt": "2023-09-27T15:24:24.673Z",
+                      "updatedAt": "2023-12-07T21:45:10.153Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 6,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "Nintendo Switch",
+                      "description": "Nintendo Switch icon",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2MTxk08vhHnkgMofO5KTv6/c1c9e088686a5f9b6843ae651acded73/ic_nintendo-switch.svg",
+                        "details": {
+                          "size": 2290,
+                          "image": { "width": 20, "height": 20 }
+                        },
+                        "fileName": "ic_nintendo-switch.svg",
+                        "contentType": "image/svg+xml"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "4FLXiIXHAmH5dtiF3EK9dL",
+              "type": "Entry",
+              "createdAt": "2025-04-07T16:34:24.010Z",
+              "updatedAt": "2025-04-07T16:34:24.010Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "ctaButtonWithLink"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "url": "https://store.steampowered.com/bundle/50061/Tomb_Raider_IVI_Remastered/",
+              "ctaButton": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "5JPshKMW1gdMyH0GAVR95U",
+                  "type": "Entry",
+                  "createdAt": "2023-09-26T21:11:34.152Z",
+                  "updatedAt": "2023-09-26T21:11:34.152Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "ctaButton"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "label": "Steam",
+                  "icon": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "5YnHzSDbHfPiO4aIxXc9Wd",
+                      "type": "Asset",
+                      "createdAt": "2023-09-26T21:11:20.308Z",
+                      "updatedAt": "2023-12-07T21:45:14.653Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 9,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "Steam",
+                      "description": "Steam icon",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/5YnHzSDbHfPiO4aIxXc9Wd/1ce9c90a6e94912bfa5b0fa5592e63bb/ic_steam.svg",
+                        "details": {
+                          "size": 1673,
+                          "image": { "width": 20, "height": 20 }
+                        },
+                        "fileName": "ic_steam.svg",
+                        "contentType": "image/svg+xml"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "socialMediaShareDescription": "Buy Now",
+        "publisher": "Aspyr Media",
+        "esrbRating": "T",
+        "esrbContentDescriptors": [
+          "Blood",
+          "Mild Language",
+          "Mild Suggestive Themes",
+          "Violence"
+        ],
+        "relatedNewsArticleTags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2M02ScJAiqlJ2o3VXM2wPr",
+              "type": "Entry",
+              "createdAt": "2024-11-19T14:29:12.945Z",
+              "updatedAt": "2024-11-19T14:29:12.945Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider IV-VI Remastered",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5E9d7LIjoixSXKPZzJs3NU",
+              "type": "Entry",
+              "createdAt": "2024-02-07T17:29:24.920Z",
+              "updatedAt": "2024-02-07T17:29:24.920Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider I-III Remastered",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "7ytOVVBd3qLxPN7Lw1fPeG",
+              "type": "Entry",
+              "createdAt": "2023-09-15T16:14:55.044Z",
+              "updatedAt": "2024-02-07T17:12:38.277Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 8,
+              "revision": 3,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider: The Angel of Darkness",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "j6VCBTOUjvFU7LBfw2DOb",
+              "type": "Entry",
+              "createdAt": "2024-01-12T20:54:19.870Z",
+              "updatedAt": "2024-01-12T20:54:19.870Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Video Games Angel of Darkness" }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5MKaKnwkyPFVCUHqCtQuSi",
+              "type": "Entry",
+              "createdAt": "2024-01-12T20:40:47.690Z",
+              "updatedAt": "2024-01-12T20:40:47.690Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Video Games" }
+          }
+        ],
+        "appearsOnTimeline": false,
+        "hideSocialSharingButtons": false
       },
       {
         "title": "Tomb Raider: The Legend of Lara Croft",
