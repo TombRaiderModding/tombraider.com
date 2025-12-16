@@ -15,7 +15,7 @@
   l,
   k,
   h,
-  j,
+  b,
 ) {
   return {
     __rewrites: { afterFiles: [], beforeFiles: [], fallback: [] },
@@ -90,7 +90,7 @@
       f,
       e,
       n,
-      "static/chunks/pages/challenge-tomb-8e12c854b268f524.js",
+      "static/chunks/pages/challenge-tomb-a079f21f7bc51525.js",
     ],
     "/data-deletion": [
       c,
@@ -168,7 +168,7 @@
       t,
       r,
       g,
-      j,
+      b,
       e,
       n,
       i,
@@ -194,7 +194,7 @@
       r,
       g,
       l,
-      j,
+      b,
       e,
       n,
       i,

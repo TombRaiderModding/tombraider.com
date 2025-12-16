@@ -744,8 +744,8 @@
                 isLoggedIn: j,
                 close: w,
                 solvePuzzle: N,
-                isRoomCompleted: k,
-                viewReward: z,
+                isRoomCompleted: z,
+                viewReward: k,
               } = e,
               { userData: S } = (0, m.S)(),
               [I, R] = (0, o.useState)(() =>
@@ -816,205 +816,206 @@
                 L(!1);
               }
             }
-            return (
-              (0, o.useEffect)(() => {
-                if (s) {
-                  var e;
-                  (document.body.classList.add("overflow-hidden"),
-                    P.current && P.current.focus(),
-                    (0, f.sendGTMEvent)({
-                      event: "challenge_start",
-                      playFabId:
-                        (null == S
+            return ((0, o.useEffect)(() => {
+              if (s) {
+                var e;
+                (document.body.classList.add("overflow-hidden"),
+                  P.current && P.current.focus(),
+                  (0, f.sendGTMEvent)({
+                    event: "challenge_start",
+                    playFabId:
+                      (null == S
+                        ? void 0
+                        : null === (e = S.accountInfo) || void 0 === e
                           ? void 0
-                          : null === (e = S.accountInfo) || void 0 === e
-                            ? void 0
-                            : e.playFabId) || null,
-                      roomId: p,
-                      puzzleId: p,
-                    }));
-                } else
-                  (C(!1), document.body.classList.remove("overflow-hidden"));
-                return () => {
-                  document.body.classList.remove("overflow-hidden");
-                };
-              }, [
-                s,
-                p,
-                null == S
+                          : e.playFabId) || null,
+                    roomId: p,
+                    puzzleId: p,
+                  }));
+              } else (C(!1), document.body.classList.remove("overflow-hidden"));
+              return () => {
+                document.body.classList.remove("overflow-hidden");
+              };
+            }, [
+              s,
+              p,
+              null == S
+                ? void 0
+                : null === (t = S.accountInfo) || void 0 === t
                   ? void 0
-                  : null === (t = S.accountInfo) || void 0 === t
-                    ? void 0
-                    : t.playFabId,
-              ]),
-              (0, r.jsxs)("div", {
-                className: s ? "block" : "hidden",
-                children: [
-                  (0, r.jsx)("button", {
-                    onClick: () => {
-                      var e;
-                      ((0, f.sendGTMEvent)({
-                        event: "challenge_close",
-                        playFabId:
-                          (null == S
-                            ? void 0
-                            : null === (e = S.accountInfo) || void 0 === e
+                  : t.playFabId,
+            ]),
+            s)
+              ? (0, r.jsxs)("div", {
+                  children: [
+                    (0, r.jsx)("button", {
+                      onClick: () => {
+                        var e;
+                        ((0, f.sendGTMEvent)({
+                          event: "challenge_close",
+                          playFabId:
+                            (null == S
                               ? void 0
-                              : e.playFabId) || null,
-                        roomId: p,
-                        puzzleId: p,
-                      }),
-                        w());
-                    },
-                    className:
-                      "fixed right-4 top-4 z-[102] flex size-16 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 lg:right-12 lg:top-12",
-                    "aria-label": "Close",
-                    children: (0, r.jsx)("svg", {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      className: "size-8",
-                      fill: "none",
-                      viewBox: "0 0 24 24",
-                      stroke: "currentColor",
-                      strokeWidth: 2,
-                      children: (0, r.jsx)("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M6 18L18 6M6 6l12 12",
+                              : null === (e = S.accountInfo) || void 0 === e
+                                ? void 0
+                                : e.playFabId) || null,
+                          roomId: p,
+                          puzzleId: p,
+                        }),
+                          w());
+                      },
+                      className:
+                        "fixed right-4 top-4 z-[102] flex size-16 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 lg:right-12 lg:top-12",
+                      "aria-label": "Close",
+                      children: (0, r.jsx)("svg", {
+                        xmlns: "http://www.w3.org/2000/svg",
+                        className: "size-8",
+                        fill: "none",
+                        viewBox: "0 0 24 24",
+                        stroke: "currentColor",
+                        strokeWidth: 2,
+                        children: (0, r.jsx)("path", {
+                          strokeLinecap: "round",
+                          strokeLinejoin: "round",
+                          d: "M6 18L18 6M6 6l12 12",
+                        }),
                       }),
                     }),
-                  }),
-                  (0, r.jsx)("div", {
-                    className:
-                      "fixed inset-0 z-[101] h-screen w-screen overflow-x-hidden bg-black/40 backdrop-blur-md",
-                    children: (0, r.jsxs)("div", {
+                    (0, r.jsx)("div", {
                       className:
-                        "relative mx-auto flex h-full flex-col items-center justify-center overflow-y-auto overflow-x-hidden p-4",
-                      children: [
-                        (0, r.jsxs)("div", {
-                          className:
-                            "flex w-full max-w-4xl flex-col items-center justify-center",
-                          children: [
-                            (0, r.jsx)("h4", {
-                              className: "mb-3 text-center text-2xl font-bold",
-                              children: h,
-                            }),
-                            (0, r.jsx)("p", {
-                              className: "mb-12 text-center text-sm md:mb-20",
-                              children: g,
-                            }),
-                            (0, r.jsxs)("div", {
-                              className: "relative w-full",
-                              children: [
-                                (null == v
-                                  ? void 0
-                                  : null === (l = v.fields.file) || void 0 === l
-                                    ? void 0
-                                    : l.url) &&
-                                  (0, r.jsx)(i(), {
-                                    width: "1440",
-                                    height: "720",
-                                    alt:
-                                      "string" == typeof v.fields.description
-                                        ? v.fields.description
-                                        : "A puzzle background",
-                                    src: (0, u.Wx)(
-                                      "string" ==
-                                        typeof (null === (n = v.fields.file) ||
-                                        void 0 === n
-                                          ? void 0
-                                          : n.url)
-                                        ? v.fields.file.url
-                                        : void 0,
-                                    ),
-                                    className:
-                                      "absolute left-1/2 top-1/2 -z-10 w-full -translate-x-1/2 -translate-y-1/2 object-contain",
-                                    priority: !0,
-                                  }),
-                                (0, r.jsx)("div", {
-                                  className: "flex w-full pl-[3.5%] pr-[4.15%]",
-                                  children: I.map(function (e, t) {
-                                    return (0, r.jsx)(
-                                      c.Z,
-                                      {
-                                        ref: 0 === t ? P : null,
-                                        selectedGlyph: I[t],
-                                        updatePuzzleAnswer: (e) =>
-                                          R((l) => {
-                                            let n = [...l];
-                                            return ((n[t] = e), n);
-                                          }),
-                                        glyphOptions: x,
-                                      },
-                                      t,
-                                    );
-                                  }),
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                        (0, r.jsx)("div", {
-                          className:
-                            "mt-12 flex flex-col items-center justify-center md:mt-20",
-                          children: k
-                            ? (0, r.jsxs)("div", {
+                        "fixed inset-0 z-[101] h-screen w-screen overflow-x-hidden bg-black/40 backdrop-blur-md",
+                      children: (0, r.jsxs)("div", {
+                        className:
+                          "relative mx-auto flex h-full flex-col items-center justify-center overflow-y-auto overflow-x-hidden p-4",
+                        children: [
+                          (0, r.jsxs)("div", {
+                            className:
+                              "flex w-full max-w-4xl flex-col items-center justify-center",
+                            children: [
+                              (0, r.jsx)("h4", {
                                 className:
-                                  "mb-4 flex flex-col items-center gap-6",
+                                  "mb-3 text-center text-2xl font-bold",
+                                children: h,
+                              }),
+                              (0, r.jsx)("p", {
+                                className: "mb-12 text-center text-sm md:mb-20",
+                                children: g,
+                              }),
+                              (0, r.jsxs)("div", {
+                                className: "relative w-full",
                                 children: [
-                                  (0, r.jsx)("p", {
+                                  (null == v
+                                    ? void 0
+                                    : null === (l = v.fields.file) ||
+                                        void 0 === l
+                                      ? void 0
+                                      : l.url) &&
+                                    (0, r.jsx)(i(), {
+                                      width: "1440",
+                                      height: "720",
+                                      alt:
+                                        "string" == typeof v.fields.description
+                                          ? v.fields.description
+                                          : "A puzzle background",
+                                      src: (0, u.Wx)(
+                                        "string" ==
+                                          typeof (null ===
+                                            (n = v.fields.file) || void 0 === n
+                                            ? void 0
+                                            : n.url)
+                                          ? v.fields.file.url
+                                          : void 0,
+                                      ),
+                                      className:
+                                        "absolute left-1/2 top-1/2 -z-10 w-full -translate-x-1/2 -translate-y-1/2 object-contain",
+                                      priority: !0,
+                                    }),
+                                  (0, r.jsx)("div", {
                                     className:
-                                      "text-center text-lg font-semibold",
-                                    children:
-                                      "You have already solved this puzzle.",
-                                  }),
-                                  (0, r.jsx)(a.Z, {
-                                    onClick: () => {
-                                      (w(), z());
-                                    },
-                                    children: "View Reward",
-                                  }),
-                                  (0, r.jsx)("span", {
-                                    className: "cursor-pointer underline",
-                                    onClick: () => w(),
-                                    children: y,
-                                  }),
-                                ],
-                              })
-                            : (0, r.jsxs)(r.Fragment, {
-                                children: [
-                                  (0, r.jsxs)("div", {
-                                    className:
-                                      "mb-4 flex flex-col items-center gap-6",
-                                    children: [
-                                      (0, r.jsx)(a.Z, {
-                                        onClick: () => checkForSuccess(),
-                                        disabled: D,
-                                        children: D ? "Checking..." : b,
-                                      }),
-                                      (0, r.jsx)("span", {
-                                        className: "cursor-pointer underline",
-                                        onClick: () => w(),
-                                        children: y,
-                                      }),
-                                    ],
-                                  }),
-                                  (0, r.jsx)("p", {
-                                    className: "".concat(
-                                      T ? "" : "invisible ",
-                                      " error-message text-center",
-                                    ),
-                                    children:
-                                      "Your answer is incorrect. Try again.",
+                                      "flex w-full pl-[3.5%] pr-[4.15%]",
+                                    children: I.map(function (e, t) {
+                                      return (0, r.jsx)(
+                                        c.Z,
+                                        {
+                                          ref: 0 === t ? P : null,
+                                          selectedGlyph: I[t],
+                                          updatePuzzleAnswer: (e) =>
+                                            R((l) => {
+                                              let n = [...l];
+                                              return ((n[t] = e), n);
+                                            }),
+                                          glyphOptions: x,
+                                        },
+                                        t,
+                                      );
+                                    }),
                                   }),
                                 ],
                               }),
-                        }),
-                      ],
+                            ],
+                          }),
+                          (0, r.jsx)("div", {
+                            className:
+                              "mt-12 flex flex-col items-center justify-center md:mt-20",
+                            children: z
+                              ? (0, r.jsxs)("div", {
+                                  className:
+                                    "mb-4 flex flex-col items-center gap-6",
+                                  children: [
+                                    (0, r.jsx)("p", {
+                                      className:
+                                        "text-center text-lg font-semibold",
+                                      children:
+                                        "You have already solved this puzzle.",
+                                    }),
+                                    (0, r.jsx)(a.Z, {
+                                      onClick: () => {
+                                        (w(), k());
+                                      },
+                                      children: "View Reward",
+                                    }),
+                                    (0, r.jsx)("span", {
+                                      className: "cursor-pointer underline",
+                                      onClick: () => w(),
+                                      children: y,
+                                    }),
+                                  ],
+                                })
+                              : (0, r.jsxs)(r.Fragment, {
+                                  children: [
+                                    (0, r.jsxs)("div", {
+                                      className:
+                                        "mb-4 flex flex-col items-center gap-6",
+                                      children: [
+                                        (0, r.jsx)(a.Z, {
+                                          onClick: () => checkForSuccess(),
+                                          disabled: D,
+                                          children: D ? "Checking..." : b,
+                                        }),
+                                        (0, r.jsx)("span", {
+                                          className: "cursor-pointer underline",
+                                          onClick: () => w(),
+                                          children: y,
+                                        }),
+                                      ],
+                                    }),
+                                    (0, r.jsx)("p", {
+                                      className: "".concat(
+                                        T ? "" : "invisible ",
+                                        " error-message text-center",
+                                      ),
+                                      children:
+                                        "Your answer is incorrect. Try again.",
+                                    }),
+                                  ],
+                                }),
+                          }),
+                        ],
+                      }),
                     }),
-                  }),
-                ],
-              })
-            );
+                  ],
+                })
+              : null;
           }
           (([c, u, m] = x.then ? (await x)() : x), n());
         } catch (e) {
@@ -1049,7 +1050,7 @@
             b = l(13782),
             y = e([c, u, h]);
           function PuzzleRoom(e) {
-            var t, l, n, s, y, j, w, N, k, z, S, I, R, T, C, D, L;
+            var t, l, n, s, y, j, w, N, z, k, S, I, R, T, C, D, L;
             let {
               room: P,
               roomId: Z,
@@ -1081,13 +1082,16 @@
               K = P.showCountdown,
               Q = P.unlockDateTime,
               $ = null !== (T = P.countdownMessage) && void 0 !== T ? T : "",
-              ee = P.glyphOptions.filter((e) => null != e),
-              [et, el] = (0, o.useState)(!1),
-              [en, er] = (0, o.useState)(!1),
-              [eo, es] = (0, o.useState)(),
-              [ei, ea] = (0, o.useState)(!1),
-              [ec, ed] = (0, o.useState)(new Date(Q) < new Date()),
-              [eu, ef] = (0, o.useState)(!1),
+              [ee, et] = (0, o.useState)(!1),
+              [el, en] = (0, o.useState)(!1),
+              [er, eo] = (0, o.useState)(),
+              [es, ei] = (0, o.useState)(!1),
+              [ea, ec] = (0, o.useState)(new Date(Q) < new Date()),
+              [ed, eu] = (0, o.useState)(!1),
+              ef = (0, o.useMemo)(
+                () => (ea ? P.glyphOptions.filter((e) => null != e) : []),
+                [ea, P.glyphOptions],
+              ),
               em = (0, o.useRef)(null),
               ex = (0, o.useRef)(null),
               ep = (0, o.useRef)(null),
@@ -1131,7 +1135,7 @@
               ),
               (0, x.V)(
                 () => {
-                  if (en && ep.current && eg.current) {
+                  if (el && ep.current && eg.current) {
                     let e = p.Z.timeline()
                       .to(ep.current, {
                         opacity: 0,
@@ -1160,7 +1164,7 @@
                           duration: 1,
                           ease: "power2.inOut",
                           onStart: () => {
-                            ea(!0);
+                            ei(!0);
                           },
                         },
                         "<+=0.3",
@@ -1168,7 +1172,7 @@
                     eN.current = e;
                   }
                 },
-                { dependencies: [en, ep, eg, ev, eb] },
+                { dependencies: [el, ep, eg, ev, eb] },
               ),
               (0, o.useEffect)(() => {
                 (async function () {
@@ -1208,9 +1212,9 @@
                           ? (console.log(
                               "[PuzzleRoom] Reward granted successfully, showing popup",
                             ),
-                            es(t.data.rewardImageUrl),
-                            er(!0),
-                            ef(!0),
+                            eo(t.data.rewardImageUrl),
+                            en(!0),
+                            eu(!0),
                             _(Z))
                           : console.error(
                               "[PuzzleRoom] Failed to grant reward - no data in response",
@@ -1223,8 +1227,8 @@
                             body: JSON.stringify({ roomId: Z }),
                           }),
                           t = await e.json();
-                        t.data && (es(t.data.rewardImageUrl), ef(!0));
-                      } else ef(!1);
+                        t.data && (eo(t.data.rewardImageUrl), eu(!0));
+                      } else eu(!1);
                     } catch (e) {
                       console.error(
                         "[PuzzleRoom] Error initializing room state:",
@@ -1234,7 +1238,7 @@
                 })();
               }, [B, Z, _]),
               (0, o.useEffect)(() => {
-                if (!ec && K) {
+                if (!ea && K) {
                   var e;
                   (0, b.sendGTMEvent)({
                     event: "challenge_locked_view",
@@ -1249,7 +1253,7 @@
                   });
                 }
               }, [
-                ec,
+                ea,
                 K,
                 Z,
                 null == M
@@ -1277,8 +1281,8 @@
                             className:
                               "absolute left-1/2 top-1/2 hidden h-[200%] w-[200%] -translate-x-1/2 -translate-y-1/2 bg-gradient-radial from-trueblack to-60% md:block",
                           }),
-                          !en &&
-                            (ec
+                          !el &&
+                            (ea
                               ? (0, r.jsxs)("div", {
                                   className: "relative z-10",
                                   children: [
@@ -1315,7 +1319,7 @@
                                 })),
                         ],
                       }),
-                      !ec &&
+                      !ea &&
                         K &&
                         (0, r.jsxs)("div", {
                           ref: ex,
@@ -1331,9 +1335,9 @@
                               children: [
                                 (0, r.jsx)(d.Z, {
                                   unlockDateTime: Q,
-                                  isUnlocked: ec,
+                                  isUnlocked: ea,
                                   message: $,
-                                  unlockPuzzle: () => ed(!0),
+                                  unlockPuzzle: () => ec(!0),
                                 }),
                                 P.allowNotify &&
                                   !B &&
@@ -1353,12 +1357,12 @@
                             }),
                           ],
                         }),
-                      ec &&
-                        !en &&
+                      ea &&
+                        !el &&
                         (0, r.jsx)("div", {
                           className: "my-12",
                           children: (0, r.jsx)(m.Z, {
-                            onUnlock: () => el(!0),
+                            onUnlock: () => et(!0),
                             overlayText:
                               null !== (C = P.puzzleSliderText) && void 0 !== C
                                 ? C
@@ -1423,15 +1427,15 @@
                           },
                         }),
                       G &&
-                        (null === (k = G.fields.file) || void 0 === k
+                        (null === (z = G.fields.file) || void 0 === z
                           ? void 0
-                          : k.url) &&
+                          : z.url) &&
                         (0, r.jsx)(i(), {
                           ref: eg,
                           src: (0, c.Wx)(
-                            null === (z = G.fields.file) || void 0 === z
+                            null === (k = G.fields.file) || void 0 === k
                               ? void 0
-                              : z.url,
+                              : k.url,
                           ),
                           alt: V,
                           className: "relative z-[5]",
@@ -1464,32 +1468,35 @@
                       }),
                     ],
                   }),
-                  (0, r.jsx)(u.Z, {
-                    open: et,
-                    close: () => {
-                      el(!1);
-                    },
-                    glyphOptions: ee,
-                    puzzleHeadline:
-                      null !== (D = P.puzzleHeadline) && void 0 !== D ? D : "",
-                    puzzleDescription:
-                      null !== (L = P.puzzleDescription) && void 0 !== L
-                        ? L
-                        : "",
-                    puzzleBackground: null == Y ? void 0 : Y.image,
-                    roomId: Z,
-                    isLoggedIn: B,
-                    solvePuzzle: (e) => {
-                      (er(!0), es(e), B && _(Z));
-                    },
-                    puzzleSolveButtonText: P.puzzleSolveButtonText,
-                    puzzleBackButtonText: P.puzzleBackButtonText,
-                    isRoomCompleted: eu,
-                    viewReward: () => {
-                      er(!0);
-                    },
-                  }),
-                  en &&
+                  ea &&
+                    (0, r.jsx)(u.Z, {
+                      open: ee,
+                      close: () => {
+                        et(!1);
+                      },
+                      glyphOptions: ef,
+                      puzzleHeadline:
+                        null !== (D = P.puzzleHeadline) && void 0 !== D
+                          ? D
+                          : "",
+                      puzzleDescription:
+                        null !== (L = P.puzzleDescription) && void 0 !== L
+                          ? L
+                          : "",
+                      puzzleBackground: null == Y ? void 0 : Y.image,
+                      roomId: Z,
+                      isLoggedIn: B,
+                      solvePuzzle: (e) => {
+                        (en(!0), eo(e), B && _(Z));
+                      },
+                      puzzleSolveButtonText: P.puzzleSolveButtonText,
+                      puzzleBackButtonText: P.puzzleBackButtonText,
+                      isRoomCompleted: ed,
+                      viewReward: () => {
+                        en(!0);
+                      },
+                    }),
+                  el &&
                     (0, r.jsxs)("div", {
                       ref: eb,
                       className:
@@ -1500,16 +1507,16 @@
                             "absolute aspect-[9/16] h-full md:aspect-video",
                           children: (0, r.jsx)(v.R, {
                             responsive: !0,
-                            playAnimation: ei,
+                            playAnimation: es,
                           }),
                         }),
                         (0, r.jsx)("div", {
                           ref: ey,
                           className:
                             "relative mb-6 size-48 flex-none scale-0 overflow-hidden rounded-full bg-trueblack shadow-[0_0_32px_16px_rgba(234,179,8,0.4)]",
-                          children: eo
+                          children: er
                             ? (0, r.jsx)(i(), {
-                                src: eo,
+                                src: er,
                                 alt: "Reward",
                                 fill: !0,
                                 className: "object-cover",
