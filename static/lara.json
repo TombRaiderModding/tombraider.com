@@ -117,7 +117,7 @@
                   "id": "5NZGdA2BNteAMooirBG7i5",
                   "type": "Asset",
                   "createdAt": "2025-12-12T18:04:26.151Z",
-                  "updatedAt": "2025-12-12T18:04:26.151Z",
+                  "updatedAt": "2025-12-17T17:50:24.004Z",
                   "environment": {
                     "sys": {
                       "id": "master",
@@ -125,8 +125,8 @@
                       "linkType": "Environment"
                     }
                   },
-                  "publishedVersion": 4,
-                  "revision": 1,
+                  "publishedVersion": 5,
+                  "revision": 2,
                   "locale": "en-US"
                 },
                 "fields": {
