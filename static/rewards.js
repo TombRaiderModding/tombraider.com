@@ -1,15 +1,15 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [581],
   {
-    56184: function (e, t, a) {
+    67106: function (e, t, a) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/account/rewards",
         function () {
-          return a(35639);
+          return a(14689);
         },
       ]);
     },
-    27233: function (e, t, a) {
+    43733: function (e, t, a) {
       "use strict";
       a.a(e, async function (e, s) {
         try {
@@ -20,13 +20,13 @@
           });
           var l = a(97458),
             i = a(52983),
-            n = a(58738),
-            r = a(87249),
-            c = a(47681),
+            n = a(21925),
+            r = a(14647),
+            c = a(68956),
             o = a.n(c),
-            d = a(10821),
+            d = a(66426),
             u = a.n(d),
-            x = a(2300),
+            x = a(20102),
             h = e([n, r, x]);
           function AccountHeader(e) {
             let { navItems: t, surveys: a } = e,
@@ -105,7 +105,7 @@
         }
       });
     },
-    6728: function (e, t, a) {
+    78486: function (e, t, a) {
       "use strict";
       a.d(t, {
         Z: function () {
@@ -113,11 +113,11 @@
         },
       });
       var s = a(97458),
-        l = a(47681),
+        l = a(68956),
         i = a.n(l),
-        n = a(10821),
+        n = a(66426),
         r = a.n(n),
-        c = a(93656),
+        c = a(14322),
         o = a(52983);
       function AccountMobileTray() {
         let e = (0, c.useRouter)(),
@@ -174,7 +174,7 @@
         });
       }
     },
-    95611: function (e, t, a) {
+    12305: function (e, t, a) {
       "use strict";
       a.a(e, async function (e, s) {
         try {
@@ -183,9 +183,9 @@
               return AuthenticatedWrapper;
             },
           });
-          var l = a(93656),
+          var l = a(14322),
             i = a(52983),
-            n = a(2300),
+            n = a(20102),
             r = e([n]);
           function AuthenticatedWrapper(e) {
             let { children: t } = e,
@@ -204,7 +204,7 @@
         }
       });
     },
-    92800: function (e, t, a) {
+    22524: function (e, t, a) {
       "use strict";
       a.a(e, async function (e, s) {
         try {
@@ -214,9 +214,9 @@
             },
           });
           var l = a(97458),
-            i = a(47681),
+            i = a(68956),
             n = a.n(i),
-            r = a(2300),
+            r = a(20102),
             c = a(52983),
             o = e([r]);
           function AvatarOption(e) {
@@ -300,7 +300,7 @@
         }
       });
     },
-    33043: function (e, t, a) {
+    10055: function (e, t, a) {
       "use strict";
       a.d(t, {
         Z: function () {
@@ -308,11 +308,11 @@
         },
       });
       var s = a(97458),
-        l = a(47681),
+        l = a(68956),
         i = a.n(l),
-        n = a(10821),
+        n = a(66426),
         r = a.n(n),
-        c = a(93656),
+        c = a(14322),
         o = a(52983);
       function Sidebar() {
         let e = (0, c.useRouter)(),
@@ -391,7 +391,7 @@
         });
       }
     },
-    35639: function (e, t, a) {
+    14689: function (e, t, a) {
       "use strict";
       a.a(e, async function (e, s) {
         try {
@@ -405,18 +405,18 @@
               },
             }));
           var l = a(97458),
-            i = a(27233),
-            n = a(6728),
-            r = a(95611),
-            c = a(33043),
-            o = a(43976),
-            d = a(14948),
-            u = a(92800),
-            x = a(84531),
-            h = a(2300),
-            m = a(77765),
-            v = a(82262),
-            f = a(47681),
+            i = a(43733),
+            n = a(78486),
+            r = a(12305),
+            c = a(10055),
+            o = a(61373),
+            d = a(85780),
+            u = a(22524),
+            x = a(30328),
+            h = a(20102),
+            m = a(16424),
+            v = a(24148),
+            f = a(68956),
             g = a.n(f),
             p = a(52983),
             j = e([i, r, d, u, x, h, v]);
@@ -1016,8 +1016,8 @@
     },
   },
   function (e) {
-    (e.O(0, [46, 681, 882, 249, 774, 888, 179], function () {
-      return e((e.s = 56184));
+    (e.O(0, [46, 956, 672, 647, 774, 888, 179], function () {
+      return e((e.s = 67106));
     }),
       (_N_E = e.O()));
   },

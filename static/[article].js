@@ -1,15 +1,15 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [152],
   {
-    90245: function (e, t, l) {
+    60367: function (e, t, l) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/news/[category]/[article]",
         function () {
-          return l(86355);
+          return l(14285);
         },
       ]);
     },
-    77890: function (e, t, l) {
+    40687: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -18,10 +18,10 @@
       });
       var i = l(97458),
         s = l(52983),
-        n = l(47681),
+        n = l(68956),
         o = l.n(n),
-        a = l(69049),
-        r = l(10821),
+        a = l(92115),
+        r = l(66426),
         c = l.n(r);
       function FeaturedItemPopup(e) {
         let {
@@ -224,7 +224,7 @@
           : null;
       }
     },
-    71368: function (e, t, l) {
+    91459: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -232,9 +232,9 @@
         },
       });
       var i = l(97458),
-        s = l(61666),
-        n = l(57865),
-        o = l(47681),
+        s = l(91359),
+        n = l(81039),
+        o = l(68956),
         a = l.n(o);
       function HardwoodContainer(e) {
         let { className: t, children: l, containerClasses: o, ...r } = e;
@@ -261,7 +261,7 @@
         });
       }
     },
-    57187: function (e, t, l) {
+    27343: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, i) {
         try {
@@ -271,12 +271,12 @@
             },
           });
           var s = l(97458),
-            n = l(47681),
+            n = l(68956),
             o = l.n(n),
-            a = l(17789),
+            a = l(4496),
             r = l(52983),
-            c = l(75443),
-            d = l(10821),
+            c = l(42897),
+            d = l(66426),
             u = l.n(d),
             m = l(99288),
             x = e([a]);
@@ -382,7 +382,7 @@
         }
       });
     },
-    24673: function (e, t, l) {
+    75343: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -391,10 +391,10 @@
       });
       var i = l(97458);
       l(52983);
-      var s = l(47681),
+      var s = l(68956),
         n = l.n(s),
         o = l(92497),
-        a = l(77765);
+        a = l(16424);
       function SocialShareIcons(e) {
         let { title: t, white: l } = e,
           { addAlert: s } = (0, a.Z)();
@@ -463,7 +463,7 @@
         });
       }
     },
-    48981: function (e, t, l) {
+    96091: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -482,7 +482,7 @@
         });
       }
     },
-    86355: function (e, t, l) {
+    14285: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, i) {
         try {
@@ -496,24 +496,24 @@
               },
             }));
           var s = l(97458),
-            n = l(47681),
+            n = l(68956),
             o = l.n(n),
             a = l(15491),
-            r = l(12984),
-            c = l(99915),
-            d = l(48981),
-            u = l(69049),
-            m = l(57187),
-            x = l(87249),
+            r = l(69593),
+            c = l(96854),
+            d = l(96091),
+            u = l(92115),
+            m = l(27343),
+            x = l(14647),
             h = l(52983),
-            v = l(71368),
-            p = l(20213),
-            f = l(91806),
-            g = l(47680),
+            v = l(91459),
+            p = l(78291),
+            f = l(14790),
+            g = l(4030),
             w = l.n(g),
-            b = l(2300),
-            j = l(24673),
-            N = l(77890),
+            b = l(20102),
+            j = l(75343),
+            N = l(40687),
             y = e([c, m, x, f, b]);
           [c, m, x, f, b] = y.then ? (await y)() : y;
           var k = !0;
@@ -958,9 +958,9 @@
   function (e) {
     (e.O(
       0,
-      [46, 681, 882, 34, 658, 120, 497, 249, 806, 702, 774, 888, 179],
+      [46, 956, 672, 34, 658, 838, 497, 647, 790, 825, 774, 888, 179],
       function () {
-        return e((e.s = 90245));
+        return e((e.s = 60367));
       },
     ),
       (_N_E = e.O()));

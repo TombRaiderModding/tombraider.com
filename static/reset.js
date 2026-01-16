@@ -1,15 +1,15 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [6],
   {
-    69506: function (e, t, r) {
+    25482: function (e, t, r) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/reset-password",
         function () {
-          return r(28832);
+          return r(81205);
         },
       ]);
     },
-    1518: function (e, t) {
+    72404: function (e, t) {
       "use strict";
       (Object.defineProperty(t, "__esModule", { value: !0 }),
         Object.defineProperty(t, "createAsyncLocalStorage", {
@@ -47,7 +47,7 @@
         Object.assign(t.default, t),
         (e.exports = t.default));
     },
-    94734: function (e, t, r) {
+    97091: function (e, t, r) {
       "use strict";
       function clientHookInServerComponentError(e) {}
       (Object.defineProperty(t, "__esModule", { value: !0 }),
@@ -66,7 +66,7 @@
           Object.assign(t.default, t),
           (e.exports = t.default)));
     },
-    1279: function (e, t, r) {
+    56298: function (e, t, r) {
       "use strict";
       (Object.defineProperty(t, "__esModule", { value: !0 }),
         (function (e, t) {
@@ -114,13 +114,13 @@
           },
         }));
       let o = r(52983),
-        n = r(1706),
-        a = r(7019),
-        s = r(94734),
-        i = r(56251),
-        u = r(88840),
-        l = r(72952),
-        c = r(38194),
+        n = r(76608),
+        a = r(92053),
+        s = r(97091),
+        i = r(46520),
+        u = r(85304),
+        l = r(20982),
+        c = r(19125),
         d = Symbol("internal for urlsearchparams readonly");
       function readonlyURLSearchParamsError() {
         return Error("ReadonlyURLSearchParams cannot be modified");
@@ -235,7 +235,7 @@
         Object.assign(t.default, t),
         (e.exports = t.default));
     },
-    38194: function (e, t) {
+    19125: function (e, t) {
       "use strict";
       (Object.defineProperty(t, "__esModule", { value: !0 }),
         (function (e, t) {
@@ -264,7 +264,7 @@
         Object.assign(t.default, t),
         (e.exports = t.default));
     },
-    72952: function (e, t, r) {
+    20982: function (e, t, r) {
       "use strict";
       var o, n;
       (Object.defineProperty(t, "__esModule", { value: !0 }),
@@ -294,7 +294,7 @@
             return getRedirectTypeFromError;
           },
         }));
-      let a = r(5244),
+      let a = r(76501),
         s = "NEXT_REDIRECT";
       function getRedirectError(e, t, r) {
         void 0 === r && (r = !1);
@@ -335,7 +335,7 @@
           Object.assign(t.default, t),
           (e.exports = t.default)));
     },
-    5244: function (e, t, r) {
+    76501: function (e, t, r) {
       "use strict";
       (Object.defineProperty(t, "__esModule", { value: !0 }),
         Object.defineProperty(t, "requestAsyncStorage", {
@@ -344,7 +344,7 @@
             return n;
           },
         }));
-      let o = r(1518),
+      let o = r(72404),
         n = (0, o.createAsyncLocalStorage)();
       ("function" == typeof t.default ||
         ("object" == typeof t.default && null !== t.default)) &&
@@ -353,7 +353,7 @@
         Object.assign(t.default, t),
         (e.exports = t.default));
     },
-    56251: function (e, t) {
+    46520: function (e, t) {
       "use strict";
       function getSegmentValue(e) {
         return Array.isArray(e) ? e[1] : e;
@@ -372,7 +372,7 @@
           Object.assign(t.default, t),
           (e.exports = t.default)));
     },
-    88840: function (e, t, r) {
+    85304: function (e, t, r) {
       "use strict";
       (Object.defineProperty(t, "__esModule", { value: !0 }),
         (function (e, t) {
@@ -394,7 +394,7 @@
         t && t(e);
       }
     },
-    44346: function (e, t, r) {
+    94225: function (e, t, r) {
       "use strict";
       r.d(t, {
         Z: function () {
@@ -418,14 +418,14 @@
         });
       }
     },
-    21748: function (e, t, r) {
+    80879: function (e, t, r) {
       "use strict";
       r.a(e, async function (e, o) {
         try {
           var n = r(97458),
             a = r(52983),
-            s = r(87249),
-            i = r(7355),
+            s = r(14647),
+            i = r(23010),
             u = e([s]);
           s = (u.then ? (await u)() : u)[0];
           let l = (0, a.forwardRef)((e, t) => {
@@ -455,12 +455,12 @@
         }
       });
     },
-    13057: function (e, t, r) {
+    32583: function (e, t, r) {
       "use strict";
       var o = r(97458),
         n = r(52983),
-        a = r(44346),
-        s = r(47681),
+        a = r(94225),
+        s = r(68956),
         i = r.n(s);
       let u = (0, n.forwardRef)((e, t) => {
         let {
@@ -541,7 +541,7 @@
       });
       t.Z = u;
     },
-    7355: function (e, t, r) {
+    23010: function (e, t, r) {
       "use strict";
       r.d(t, {
         Z: function () {
@@ -549,7 +549,7 @@
         },
       });
       var o = r(97458),
-        n = r(47681),
+        n = r(68956),
         a = r.n(n);
       function Divider() {
         return (0, o.jsx)(a(), {
@@ -561,10 +561,10 @@
           priority: !0,
         });
       }
-      var s = r(10821),
+      var s = r(66426),
         i = r.n(s),
-        u = r(93656),
-        l = r(5198);
+        u = r(14322),
+        l = r(22668);
       function WelcomeSection(e) {
         let {
             title: t,
@@ -629,7 +629,7 @@
         });
       }
     },
-    28832: function (e, t, r) {
+    81205: function (e, t, r) {
       "use strict";
       r.a(e, async function (e, o) {
         try {
@@ -643,18 +643,18 @@
               },
             }));
           var n = r(97458),
-            a = r(75443),
-            s = r(21748),
-            i = r(13057),
+            a = r(42897),
+            s = r(80879),
+            i = r(32583),
             u = r(81581),
             l = r(86848),
-            c = r(69584),
-            d = r(8999),
+            c = r(63935),
+            d = r(96133),
             f = r(52983),
-            p = r(93656),
-            m = r(77765),
-            h = r(82262),
-            y = r(44346),
+            p = r(14322),
+            m = r(16424),
+            h = r(24148),
+            y = r(94225),
             g = e([s, h]);
           [s, h] = g.then ? (await g)() : g;
           var b = !0;
@@ -766,7 +766,7 @@
         }
       });
     },
-    69584: function (e, t, r) {
+    63935: function (e, t, r) {
       "use strict";
       r.d(t, {
         S: function () {
@@ -790,13 +790,13 @@
           path: ["confirmPassword"],
         });
     },
-    8999: function (e, t, r) {
-      e.exports = r(1279);
+    96133: function (e, t, r) {
+      e.exports = r(56298);
     },
   },
   function (e) {
-    (e.O(0, [46, 681, 882, 696, 249, 774, 888, 179], function () {
-      return e((e.s = 69506));
+    (e.O(0, [46, 956, 672, 696, 647, 774, 888, 179], function () {
+      return e((e.s = 25482));
     }),
       (_N_E = e.O()));
   },

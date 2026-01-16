@@ -1,15 +1,15 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [966],
   {
-    57747: function (e, t, s) {
+    89830: function (e, t, s) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/account",
         function () {
-          return s(78136);
+          return s(34783);
         },
       ]);
     },
-    27233: function (e, t, s) {
+    43733: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -20,13 +20,13 @@
           });
           var n = s(97458),
             l = s(52983),
-            i = s(58738),
-            r = s(87249),
-            c = s(47681),
+            i = s(21925),
+            r = s(14647),
+            c = s(68956),
             o = s.n(c),
-            d = s(10821),
+            d = s(66426),
             u = s.n(d),
-            h = s(2300),
+            h = s(20102),
             x = e([i, r, h]);
           function AccountHeader(e) {
             let { navItems: t, surveys: s } = e,
@@ -105,7 +105,7 @@
         }
       });
     },
-    6728: function (e, t, s) {
+    78486: function (e, t, s) {
       "use strict";
       s.d(t, {
         Z: function () {
@@ -113,11 +113,11 @@
         },
       });
       var a = s(97458),
-        n = s(47681),
+        n = s(68956),
         l = s.n(n),
-        i = s(10821),
+        i = s(66426),
         r = s.n(i),
-        c = s(93656),
+        c = s(14322),
         o = s(52983);
       function AccountMobileTray() {
         let e = (0, c.useRouter)(),
@@ -174,7 +174,7 @@
         });
       }
     },
-    96162: function (e, t, s) {
+    29085: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -184,10 +184,10 @@
             },
           });
           var n = s(97458),
-            l = s(47681),
+            l = s(68956),
             i = s.n(l),
-            r = s(57314),
-            c = s(2300),
+            r = s(77113),
+            c = s(20102),
             o = s(52983),
             d = e([c]);
           function AccountWelcome(e) {
@@ -292,7 +292,7 @@
         }
       });
     },
-    95611: function (e, t, s) {
+    12305: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -301,9 +301,9 @@
               return AuthenticatedWrapper;
             },
           });
-          var n = s(93656),
+          var n = s(14322),
             l = s(52983),
-            i = s(2300),
+            i = s(20102),
             r = e([i]);
           function AuthenticatedWrapper(e) {
             let { children: t } = e,
@@ -322,7 +322,7 @@
         }
       });
     },
-    92800: function (e, t, s) {
+    22524: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -332,9 +332,9 @@
             },
           });
           var n = s(97458),
-            l = s(47681),
+            l = s(68956),
             i = s.n(l),
-            r = s(2300),
+            r = s(20102),
             c = s(52983),
             o = e([r]);
           function AvatarOption(e) {
@@ -418,7 +418,7 @@
         }
       });
     },
-    21484: function (e, t, s) {
+    72724: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -429,10 +429,10 @@
           });
           var n = s(97458),
             l = s(52983),
-            i = s(92800),
-            r = s(82262),
-            c = s(43976),
-            o = s(2300),
+            i = s(22524),
+            r = s(24148),
+            c = s(61373),
+            o = s(20102),
             d = s(39378),
             u = s.n(d),
             h = e([i, r, o]);
@@ -499,7 +499,7 @@
         }
       });
     },
-    31261: function (e, t, s) {
+    3176: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -509,13 +509,13 @@
             },
           });
           var n = s(97458),
-            l = s(47681),
+            l = s(68956),
             i = s.n(l),
             r = s(52983),
-            c = s(43976),
-            o = s(10821),
+            c = s(61373),
+            o = s(66426),
             d = s.n(o),
-            u = s(2300),
+            u = s(20102),
             h = e([u]);
           function DownloadList() {
             let { rewards: e, rewardsLoading: t } = (0, u.S)(),
@@ -576,7 +576,7 @@
         }
       });
     },
-    27709: function (e, t, s) {
+    9222: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -586,12 +586,12 @@
             },
           });
           var n = s(97458),
-            l = s(75443),
+            l = s(42897),
             i = s(15491),
-            r = s(10821),
+            r = s(66426),
             c = s.n(r),
-            o = s(91806),
-            d = s(2300),
+            o = s(14790),
+            d = s(20102),
             u = e([o, d]);
           function RecentNewsList(e) {
             let { articles: t } = e;
@@ -647,7 +647,7 @@
         }
       });
     },
-    33043: function (e, t, s) {
+    10055: function (e, t, s) {
       "use strict";
       s.d(t, {
         Z: function () {
@@ -655,11 +655,11 @@
         },
       });
       var a = s(97458),
-        n = s(47681),
+        n = s(68956),
         l = s.n(n),
-        i = s(10821),
+        i = s(66426),
         r = s.n(i),
-        c = s(93656),
+        c = s(14322),
         o = s(52983);
       function Sidebar() {
         let e = (0, c.useRouter)(),
@@ -738,7 +738,7 @@
         });
       }
     },
-    54343: function (e, t, s) {
+    31982: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -748,11 +748,11 @@
             },
           });
           var n = s(97458),
-            l = s(52023),
-            i = s(48100),
+            l = s(38724),
+            i = s(50321),
             r = s(52983),
-            c = s(43976),
-            o = s(2300),
+            c = s(61373),
+            o = s(20102),
             d = e([o]);
           function VideoList() {
             let { rewards: e, rewardsLoading: t } = (0, o.S)(),
@@ -807,7 +807,7 @@
         }
       });
     },
-    78136: function (e, t, s) {
+    34783: function (e, t, s) {
       "use strict";
       s.a(e, async function (e, a) {
         try {
@@ -821,18 +821,18 @@
               },
             }));
           var n = s(97458),
-            l = s(95611),
-            i = s(33043),
-            r = s(27233),
-            c = s(96162),
-            o = s(21484),
-            d = s(27709),
-            u = s(31261),
-            h = s(54343),
-            x = s(6728),
+            l = s(12305),
+            i = s(10055),
+            r = s(43733),
+            c = s(29085),
+            o = s(72724),
+            d = s(9222),
+            u = s(3176),
+            h = s(31982),
+            x = s(78486),
             v = s(52983),
-            f = s(82262),
-            m = s(2300),
+            f = s(24148),
+            m = s(20102),
             g = e([l, r, c, o, d, u, h, f, m]);
           [l, r, c, o, d, u, h, f, m] = g.then ? (await g)() : g;
           var p = !0;
@@ -919,8 +919,8 @@
     },
   },
   function (e) {
-    (e.O(0, [46, 681, 882, 34, 120, 249, 806, 774, 888, 179], function () {
-      return e((e.s = 57747));
+    (e.O(0, [46, 956, 672, 34, 838, 647, 790, 774, 888, 179], function () {
+      return e((e.s = 89830));
     }),
       (_N_E = e.O()));
   },

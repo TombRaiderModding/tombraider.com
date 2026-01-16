@@ -326,18 +326,18 @@
       "use strict";
       Object.defineProperty(t, "__esModule", { value: !0 });
     },
-    97618: function (e, t, r) {
+    64527: function (e, t, r) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/data-deletion",
         function () {
-          return r(85657);
+          return r(11621);
         },
       ]);
     },
-    7365: function (e, t, r) {
+    64005: function (e, t, r) {
       "use strict";
       var n = r(97458),
-        i = r(10821),
+        i = r(66426),
         a = r.n(i);
       t.Z = (e) => {
         let { href: t, children: r, className: i, ...l } = e,
@@ -359,7 +359,7 @@
             });
       };
     },
-    99915: function (e, t, r) {
+    96854: function (e, t, r) {
       "use strict";
       r.a(e, async function (e, n) {
         try {
@@ -369,13 +369,13 @@
             },
           });
           var i = r(97458),
-            a = r(47681),
+            a = r(68956),
             l = r.n(a),
-            s = r(10821),
+            s = r(66426),
             o = r.n(s),
-            c = r(2300),
-            d = r(7365),
-            u = r(91806),
+            c = r(20102),
+            d = r(64005),
+            u = r(14790),
             f = e([c, u]);
           function Footer(e) {
             var t, r, n;
@@ -394,22 +394,24 @@
                   className:
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
-                    (0, i.jsx)(l(), {
-                      src: (0, u.Wx)(
-                        null === (r = a.footerLogo) || void 0 === r
-                          ? void 0
-                          : null === (t = r.fields.file) || void 0 === t
+                    (0, i.jsx)("div", {
+                      children: (0, i.jsx)(l(), {
+                        src: (0, u.Wx)(
+                          null === (r = a.footerLogo) || void 0 === r
                             ? void 0
-                            : t.url,
-                      ),
-                      width: 248,
-                      height: 248,
-                      alt: (0, u.Wx)(
-                        null === (n = a.footerLogo) || void 0 === n
-                          ? void 0
-                          : n.fields.description,
-                      ),
-                      className: "h-auto w-40",
+                            : null === (t = r.fields.file) || void 0 === t
+                              ? void 0
+                              : t.url,
+                        ),
+                        width: 248,
+                        height: 248,
+                        alt: (0, u.Wx)(
+                          null === (n = a.footerLogo) || void 0 === n
+                            ? void 0
+                            : n.fields.description,
+                        ),
+                        className: "w-40",
+                      }),
                     }),
                     (0, i.jsxs)("div", {
                       className:
@@ -523,7 +525,7 @@
         }
       });
     },
-    85657: function (e, t, r) {
+    11621: function (e, t, r) {
       "use strict";
       r.a(e, async function (e, n) {
         try {
@@ -537,9 +539,9 @@
               },
             }));
           var i = r(97458),
-            a = r(99915),
-            l = r(87249),
-            s = r(10821),
+            a = r(96854),
+            l = r(14647),
+            s = r(66426),
             o = r.n(s),
             c = e([a, l]);
           [a, l] = c.then ? (await c)() : c;
@@ -702,7 +704,7 @@
         }
       });
     },
-    96907: function (e) {
+    47025: function (e) {
       !(function () {
         "use strict";
         var t = {
@@ -1034,8 +1036,8 @@
     },
   },
   function (e) {
-    (e.O(0, [46, 681, 882, 34, 249, 806, 774, 888, 179], function () {
-      return e((e.s = 97618));
+    (e.O(0, [46, 956, 672, 34, 647, 790, 774, 888, 179], function () {
+      return e((e.s = 64527));
     }),
       (_N_E = e.O()));
   },

@@ -1,15 +1,15 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [742],
   {
-    20522: function (e, r, t) {
+    7166: function (e, r, t) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/forgot-password",
         function () {
-          return t(97492);
+          return t(10725);
         },
       ]);
     },
-    44346: function (e, r, t) {
+    94225: function (e, r, t) {
       "use strict";
       t.d(r, {
         Z: function () {
@@ -33,14 +33,14 @@
         });
       }
     },
-    21748: function (e, r, t) {
+    80879: function (e, r, t) {
       "use strict";
       t.a(e, async function (e, o) {
         try {
           var a = t(97458),
             s = t(52983),
-            i = t(87249),
-            n = t(7355),
+            i = t(14647),
+            n = t(23010),
             l = e([i]);
           i = (l.then ? (await l)() : l)[0];
           let c = (0, s.forwardRef)((e, r) => {
@@ -70,12 +70,12 @@
         }
       });
     },
-    13057: function (e, r, t) {
+    32583: function (e, r, t) {
       "use strict";
       var o = t(97458),
         a = t(52983),
-        s = t(44346),
-        i = t(47681),
+        s = t(94225),
+        i = t(68956),
         n = t.n(i);
       let l = (0, a.forwardRef)((e, r) => {
         let {
@@ -156,7 +156,7 @@
       });
       r.Z = l;
     },
-    7355: function (e, r, t) {
+    23010: function (e, r, t) {
       "use strict";
       t.d(r, {
         Z: function () {
@@ -164,7 +164,7 @@
         },
       });
       var o = t(97458),
-        a = t(47681),
+        a = t(68956),
         s = t.n(a);
       function Divider() {
         return (0, o.jsx)(s(), {
@@ -176,10 +176,10 @@
           priority: !0,
         });
       }
-      var i = t(10821),
+      var i = t(66426),
         n = t.n(i),
-        l = t(93656),
-        c = t(5198);
+        l = t(14322),
+        c = t(22668);
       function WelcomeSection(e) {
         let {
             title: r,
@@ -244,7 +244,7 @@
         });
       }
     },
-    97492: function (e, r, t) {
+    10725: function (e, r, t) {
       "use strict";
       t.a(e, async function (e, o) {
         try {
@@ -258,15 +258,15 @@
               },
             }));
           var a = t(97458),
-            s = t(75443),
-            i = t(21748),
-            n = t(13057),
+            s = t(42897),
+            i = t(80879),
+            n = t(32583),
             l = t(81581),
             c = t(96061),
             d = t(86848),
             u = t(52983),
-            p = t(77765),
-            h = t(82262),
+            p = t(16424),
+            h = t(24148),
             m = e([i, c, h]);
           [i, c, h] = m.then ? (await m)() : m;
           var x = !0;
@@ -348,8 +348,8 @@
     },
   },
   function (e) {
-    (e.O(0, [46, 681, 882, 696, 249, 774, 888, 179], function () {
-      return e((e.s = 20522));
+    (e.O(0, [46, 956, 672, 696, 647, 774, 888, 179], function () {
+      return e((e.s = 7166));
     }),
       (_N_E = e.O()));
   },

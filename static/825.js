@@ -1,10 +1,10 @@
 "use strict";
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [702],
+  [825],
   {
-    7365: function (e, t, l) {
+    64005: function (e, t, l) {
       var r = l(97458),
-        i = l(10821),
+        i = l(66426),
         o = l.n(i);
       t.Z = (e) => {
         let { href: t, children: l, className: i, ...a } = e,
@@ -26,7 +26,7 @@
             });
       };
     },
-    99915: function (e, t, l) {
+    96854: function (e, t, l) {
       l.a(e, async function (e, r) {
         try {
           l.d(t, {
@@ -35,13 +35,13 @@
             },
           });
           var i = l(97458),
-            o = l(47681),
+            o = l(68956),
             a = l.n(o),
-            n = l(10821),
+            n = l(66426),
             s = l.n(n),
-            c = l(2300),
-            d = l(7365),
-            u = l(91806),
+            c = l(20102),
+            d = l(64005),
+            u = l(14790),
             h = e([c, u]);
           function Footer(e) {
             var t, l, r;
@@ -60,22 +60,24 @@
                   className:
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
-                    (0, i.jsx)(a(), {
-                      src: (0, u.Wx)(
-                        null === (l = o.footerLogo) || void 0 === l
-                          ? void 0
-                          : null === (t = l.fields.file) || void 0 === t
+                    (0, i.jsx)("div", {
+                      children: (0, i.jsx)(a(), {
+                        src: (0, u.Wx)(
+                          null === (l = o.footerLogo) || void 0 === l
                             ? void 0
-                            : t.url,
-                      ),
-                      width: 248,
-                      height: 248,
-                      alt: (0, u.Wx)(
-                        null === (r = o.footerLogo) || void 0 === r
-                          ? void 0
-                          : r.fields.description,
-                      ),
-                      className: "h-auto w-40",
+                            : null === (t = l.fields.file) || void 0 === t
+                              ? void 0
+                              : t.url,
+                        ),
+                        width: 248,
+                        height: 248,
+                        alt: (0, u.Wx)(
+                          null === (r = o.footerLogo) || void 0 === r
+                            ? void 0
+                            : r.fields.description,
+                        ),
+                        className: "w-40",
+                      }),
                     }),
                     (0, i.jsxs)("div", {
                       className:
@@ -189,14 +191,14 @@
         }
       });
     },
-    61666: function (e, t, l) {
+    91359: function (e, t, l) {
       l.d(t, {
         Z: function () {
           return HeroTransition;
         },
       });
       var r = l(97458),
-        i = l(47681),
+        i = l(68956),
         o = l.n(i);
       function HeroTransition() {
         return (0, r.jsx)("div", {
@@ -212,7 +214,7 @@
         });
       }
     },
-    17789: function (e, t, l) {
+    4496: function (e, t, l) {
       l.a(e, async function (e, r) {
         try {
           l.d(t, {
@@ -221,12 +223,12 @@
             },
           });
           var i = l(97458),
-            o = l(47681),
+            o = l(68956),
             a = l.n(o),
-            n = l(10821),
+            n = l(66426),
             s = l.n(n),
-            c = l(69049),
-            d = l(91806),
+            c = l(92115),
+            d = l(14790),
             u = e([d]);
           function NewsItem(e) {
             var t, l, r, o, n, u, h, f, p;
@@ -347,15 +349,15 @@
         }
       });
     },
-    20213: function (e, t, l) {
+    78291: function (e, t, l) {
       l.d(t, {
         Z: function () {
           return PaperContainer;
         },
       });
       var r = l(97458),
-        i = l(57865),
-        o = l(47681),
+        i = l(81039),
+        o = l(68956),
         a = l.n(o),
         n = l(52983);
       function PaperContainer(e) {
@@ -441,15 +443,15 @@
         );
       }
     },
-    12984: function (e, t, l) {
+    69593: function (e, t, l) {
       l.d(t, {
         Z: function () {
           return SignUpCallToAction;
         },
       });
       var r = l(97458),
-        i = l(7355),
-        o = l(47681),
+        i = l(23010),
+        o = l(68956),
         a = l.n(o);
       function SignUpCallToAction(e) {
         var t, l, o, n;
@@ -499,14 +501,14 @@
         });
       }
     },
-    7355: function (e, t, l) {
+    23010: function (e, t, l) {
       l.d(t, {
         Z: function () {
           return WelcomeSection;
         },
       });
       var r = l(97458),
-        i = l(47681),
+        i = l(68956),
         o = l.n(i);
       function Divider() {
         return (0, r.jsx)(o(), {
@@ -518,10 +520,10 @@
           priority: !0,
         });
       }
-      var a = l(10821),
+      var a = l(66426),
         n = l.n(a),
-        s = l(93656),
-        c = l(5198);
+        s = l(14322),
+        c = l(22668);
       function WelcomeSection(e) {
         let {
             title: t,
@@ -586,7 +588,7 @@
         });
       }
     },
-    69049: function (e, t, l) {
+    92115: function (e, t, l) {
       l.d(t, {
         So: function () {
           return getYear;
@@ -608,7 +610,7 @@
         getYear = (e) =>
           e ? new Date(e).toLocaleString("en-US", { year: "numeric" }) : "";
     },
-    57865: function (e, t, l) {
+    81039: function (e, t, l) {
       l.d(t, {
         cn: function () {
           return cn;

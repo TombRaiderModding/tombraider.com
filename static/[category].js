@@ -1,18 +1,18 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [708],
   {
-    39943: function (e, t, l) {
+    97770: function (e, t, l) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/products/[category]",
         function () {
-          return l(7717);
+          return l(26481);
         },
       ]);
     },
-    7365: function (e, t, l) {
+    64005: function (e, t, l) {
       "use strict";
       var r = l(97458),
-        s = l(10821),
+        s = l(66426),
         i = l.n(s);
       t.Z = (e) => {
         let { href: t, children: l, className: s, ...a } = e,
@@ -34,7 +34,7 @@
             });
       };
     },
-    52110: function (e, t, l) {
+    38825: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -46,8 +46,8 @@
         i = l(30721),
         a = l(16719),
         o = l(95927),
-        n = l(57865),
-        c = l(10821),
+        n = l(81039),
+        c = l(66426),
         d = l.n(c);
       function Dropdown(e) {
         var t;
@@ -154,7 +154,7 @@
         });
       }
     },
-    99915: function (e, t, l) {
+    96854: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, r) {
         try {
@@ -164,13 +164,13 @@
             },
           });
           var s = l(97458),
-            i = l(47681),
+            i = l(68956),
             a = l.n(i),
-            o = l(10821),
+            o = l(66426),
             n = l.n(o),
-            c = l(2300),
-            d = l(7365),
-            u = l(91806),
+            c = l(20102),
+            d = l(64005),
+            u = l(14790),
             h = e([c, u]);
           function Footer(e) {
             var t, l, r;
@@ -189,22 +189,24 @@
                   className:
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
-                    (0, s.jsx)(a(), {
-                      src: (0, u.Wx)(
-                        null === (l = i.footerLogo) || void 0 === l
-                          ? void 0
-                          : null === (t = l.fields.file) || void 0 === t
+                    (0, s.jsx)("div", {
+                      children: (0, s.jsx)(a(), {
+                        src: (0, u.Wx)(
+                          null === (l = i.footerLogo) || void 0 === l
                             ? void 0
-                            : t.url,
-                      ),
-                      width: 248,
-                      height: 248,
-                      alt: (0, u.Wx)(
-                        null === (r = i.footerLogo) || void 0 === r
-                          ? void 0
-                          : r.fields.description,
-                      ),
-                      className: "h-auto w-40",
+                            : null === (t = l.fields.file) || void 0 === t
+                              ? void 0
+                              : t.url,
+                        ),
+                        width: 248,
+                        height: 248,
+                        alt: (0, u.Wx)(
+                          null === (r = i.footerLogo) || void 0 === r
+                            ? void 0
+                            : r.fields.description,
+                        ),
+                        className: "w-40",
+                      }),
                     }),
                     (0, s.jsxs)("div", {
                       className:
@@ -318,7 +320,7 @@
         }
       });
     },
-    46917: function (e, t, l) {
+    59909: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -326,7 +328,7 @@
         },
       });
       var r = l(97458),
-        s = l(47681),
+        s = l(68956),
         i = l.n(s),
         a = l(99288),
         o = l(52983);
@@ -550,7 +552,7 @@
         });
       }
     },
-    61666: function (e, t, l) {
+    91359: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -558,7 +560,7 @@
         },
       });
       var r = l(97458),
-        s = l(47681),
+        s = l(68956),
         i = l.n(s);
       function HeroTransition() {
         return (0, r.jsx)("div", {
@@ -574,7 +576,7 @@
         });
       }
     },
-    19024: function (e, t, l) {
+    96931: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, r) {
         try {
@@ -586,13 +588,13 @@
           var s = l(97458),
             i = l(96061),
             a = l(52983),
-            o = l(47681),
+            o = l(68956),
             n = l.n(o),
-            c = l(69049),
-            d = l(10821),
+            c = l(92115),
+            d = l(66426),
             u = l.n(d),
-            h = l(75443),
-            x = l(91806),
+            h = l(42897),
+            x = l(14790),
             f = l(99288),
             p = e([i, x]);
           function HorizontalProductList(e) {
@@ -864,7 +866,7 @@
         }
       });
     },
-    20213: function (e, t, l) {
+    78291: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -872,8 +874,8 @@
         },
       });
       var r = l(97458),
-        s = l(57865),
-        i = l(47681),
+        s = l(81039),
+        i = l(68956),
         a = l.n(i),
         o = l(52983);
       function PaperContainer(e) {
@@ -959,7 +961,7 @@
         );
       }
     },
-    36201: function (e, t, l) {
+    6185: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, r) {
         try {
@@ -970,20 +972,20 @@
           });
           var s = l(97458),
             i = l(96061),
-            a = l(47681),
+            a = l(68956),
             o = l.n(a),
-            n = l(75443),
-            c = l(10821),
+            n = l(42897),
+            c = l(66426),
             d = l.n(c),
             u = l(52983),
-            h = l(93656),
-            x = l(57865),
-            f = l(52110),
-            p = l(46917),
-            g = l(91806),
+            h = l(14322),
+            x = l(81039),
+            f = l(38825),
+            p = l(59909),
+            g = l(14790),
             m = l(39378),
             v = l.n(m),
-            w = l(61666),
+            w = l(91359),
             b = e([i, g]);
           function ProductsCategoryHero(e) {
             let { categories: t, products: l } = e,
@@ -1346,7 +1348,7 @@
         }
       });
     },
-    29189: function (e, t, l) {
+    180: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, r) {
         try {
@@ -1356,12 +1358,12 @@
             },
           });
           var s = l(97458),
-            i = l(87249),
-            a = l(36201),
-            o = l(19024),
-            n = l(12984),
-            c = l(99915),
-            d = l(20213);
+            i = l(14647),
+            a = l(6185),
+            o = l(96931),
+            n = l(69593),
+            c = l(96854),
+            d = l(78291);
           l(52983);
           var u = e([i, a, o, c]);
           function ProductsCategoryPage(e) {
@@ -1411,7 +1413,7 @@
         }
       });
     },
-    12984: function (e, t, l) {
+    69593: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -1419,8 +1421,8 @@
         },
       });
       var r = l(97458),
-        s = l(7355),
-        i = l(47681),
+        s = l(23010),
+        i = l(68956),
         a = l.n(i);
       function SignUpCallToAction(e) {
         var t, l, i, o;
@@ -1470,7 +1472,7 @@
         });
       }
     },
-    7355: function (e, t, l) {
+    23010: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -1478,7 +1480,7 @@
         },
       });
       var r = l(97458),
-        s = l(47681),
+        s = l(68956),
         i = l.n(s);
       function Divider() {
         return (0, r.jsx)(i(), {
@@ -1490,10 +1492,10 @@
           priority: !0,
         });
       }
-      var a = l(10821),
+      var a = l(66426),
         o = l.n(a),
-        n = l(93656),
-        c = l(5198);
+        n = l(14322),
+        c = l(22668);
       function WelcomeSection(e) {
         let {
             title: t,
@@ -1558,7 +1560,7 @@
         });
       }
     },
-    7717: function (e, t, l) {
+    26481: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, r) {
         try {
@@ -1572,7 +1574,7 @@
               },
             }));
           var s = l(97458),
-            i = l(29189),
+            i = l(180),
             a = e([i]);
           i = (a.then ? (await a)() : a)[0];
           var o = !0;
@@ -1604,7 +1606,7 @@
         }
       });
     },
-    69049: function (e, t, l) {
+    92115: function (e, t, l) {
       "use strict";
       l.d(t, {
         So: function () {
@@ -1627,7 +1629,7 @@
         getYear = (e) =>
           e ? new Date(e).toLocaleString("en-US", { year: "numeric" }) : "";
     },
-    57865: function (e, t, l) {
+    81039: function (e, t, l) {
       "use strict";
       l.d(t, {
         cn: function () {
@@ -1646,9 +1648,9 @@
   function (e) {
     (e.O(
       0,
-      [46, 681, 882, 34, 658, 542, 703, 249, 806, 774, 888, 179],
+      [46, 956, 672, 34, 658, 542, 972, 647, 790, 774, 888, 179],
       function () {
-        return e((e.s = 39943));
+        return e((e.s = 97770));
       },
     ),
       (_N_E = e.O()));

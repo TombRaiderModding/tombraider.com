@@ -326,18 +326,18 @@
       "use strict";
       Object.defineProperty(t, "__esModule", { value: !0 });
     },
-    45566: function (e, t, r) {
+    4205: function (e, t, r) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/legal/cookies",
         function () {
-          return r(2075);
+          return r(25413);
         },
       ]);
     },
-    7365: function (e, t, r) {
+    64005: function (e, t, r) {
       "use strict";
       var o = r(97458),
-        s = r(10821),
+        s = r(66426),
         i = r.n(s);
       t.Z = (e) => {
         let { href: t, children: r, className: s, ...n } = e,
@@ -359,7 +359,7 @@
             });
       };
     },
-    99915: function (e, t, r) {
+    96854: function (e, t, r) {
       "use strict";
       r.a(e, async function (e, o) {
         try {
@@ -369,13 +369,13 @@
             },
           });
           var s = r(97458),
-            i = r(47681),
+            i = r(68956),
             n = r.n(i),
-            a = r(10821),
+            a = r(66426),
             c = r.n(a),
-            l = r(2300),
-            d = r(7365),
-            u = r(91806),
+            l = r(20102),
+            d = r(64005),
+            u = r(14790),
             h = e([l, u]);
           function Footer(e) {
             var t, r, o;
@@ -394,22 +394,24 @@
                   className:
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
-                    (0, s.jsx)(n(), {
-                      src: (0, u.Wx)(
-                        null === (r = i.footerLogo) || void 0 === r
-                          ? void 0
-                          : null === (t = r.fields.file) || void 0 === t
+                    (0, s.jsx)("div", {
+                      children: (0, s.jsx)(n(), {
+                        src: (0, u.Wx)(
+                          null === (r = i.footerLogo) || void 0 === r
                             ? void 0
-                            : t.url,
-                      ),
-                      width: 248,
-                      height: 248,
-                      alt: (0, u.Wx)(
-                        null === (o = i.footerLogo) || void 0 === o
-                          ? void 0
-                          : o.fields.description,
-                      ),
-                      className: "h-auto w-40",
+                            : null === (t = r.fields.file) || void 0 === t
+                              ? void 0
+                              : t.url,
+                        ),
+                        width: 248,
+                        height: 248,
+                        alt: (0, u.Wx)(
+                          null === (o = i.footerLogo) || void 0 === o
+                            ? void 0
+                            : o.fields.description,
+                        ),
+                        className: "w-40",
+                      }),
                     }),
                     (0, s.jsxs)("div", {
                       className:
@@ -523,7 +525,7 @@
         }
       });
     },
-    2075: function (e, t, r) {
+    25413: function (e, t, r) {
       "use strict";
       r.a(e, async function (e, o) {
         try {
@@ -537,8 +539,8 @@
               },
             }));
           var s = r(97458),
-            i = r(99915),
-            n = r(87249),
+            i = r(96854),
+            n = r(14647),
             a = e([i, n]);
           [i, n] = a.then ? (await a)() : a;
           var c = !0;
@@ -844,7 +846,7 @@
         }
       });
     },
-    96907: function (e) {
+    47025: function (e) {
       !(function () {
         "use strict";
         var t = {
@@ -1176,8 +1178,8 @@
     },
   },
   function (e) {
-    (e.O(0, [46, 681, 882, 34, 249, 806, 774, 888, 179], function () {
-      return e((e.s = 45566));
+    (e.O(0, [46, 956, 672, 34, 647, 790, 774, 888, 179], function () {
+      return e((e.s = 4205));
     }),
       (_N_E = e.O()));
   },

@@ -1,15 +1,15 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [405],
   {
-    10638: function (e, t, l) {
+    41604: function (e, t, l) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/",
         function () {
-          return l(68786);
+          return l(62475);
         },
       ]);
     },
-    40712: function (e, t, l) {
+    31018: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -18,13 +18,13 @@
       });
       var s = l(97458),
         i = l(52983),
-        n = l(47681),
+        n = l(68956),
         r = l.n(n),
-        a = l(97013),
+        a = l(77176),
         o = l(63982),
         c = l.n(o),
         u = l(38725),
-        d = l(41855),
+        d = l(64976),
         m = l(76057);
       let RiveCampfireCircleComponent = (e) => {
           let { hovered: t } = e,
@@ -303,7 +303,7 @@
         );
       }
     },
-    34827: function (e, t, l) {
+    92140: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, s) {
         try {
@@ -313,24 +313,24 @@
             },
           });
           var i = l(97458),
-            n = l(54156),
-            r = l(13743),
-            a = l(40712),
-            o = l(62760),
-            c = l(28690),
-            u = l(99915),
-            d = l(12984),
-            m = l(37889),
-            h = l(34191),
-            f = l(54834),
-            x = l(83913),
+            n = l(10646),
+            r = l(40936),
+            a = l(31018),
+            o = l(90997),
+            c = l(59796),
+            u = l(96854),
+            d = l(69593),
+            m = l(52550),
+            h = l(28966),
+            f = l(67546),
+            x = l(52525),
             g = l(52983),
             p = l(67392),
-            v = l(2300),
-            w = l(97013),
-            b = l(93656),
-            j = l(77765),
-            y = l(13782),
+            v = l(20102),
+            w = l(77176),
+            b = l(14322),
+            j = l(16424),
+            y = l(58594),
             N = e([n, r, u, m, v]);
           function HomeComponent(e) {
             let {
@@ -378,19 +378,19 @@
                   }));
               },
               [O, F] = (0, g.useState)(!1),
-              D = (0, g.useRef)(null);
+              V = (0, g.useRef)(null);
             ((0, g.useEffect)(() => {
               let e = w.Z.matchMedia();
               return (
                 e.add("(max-width: 768px)", () => {
-                  D &&
-                    D.current &&
+                  V &&
+                    V.current &&
                     w.Z.to(".torch-container", {
                       opacity: 1,
                       duration: 0.3,
                       ease: "power2.inOut",
                       scrollTrigger: {
-                        trigger: D.current,
+                        trigger: V.current,
                         start: "top center",
                         end: "bottom center",
                         onToggle: (e) => {
@@ -405,14 +405,14 @@
                 }),
                 () => e.revert()
               );
-            }, [D]),
+            }, [V]),
               (0, g.useEffect)(() => {
                 if (P) {
                   let e = w.Z.matchMedia();
                   return (
                     e.add("(max-width: 768px)", () => {
-                      D &&
-                        D.current &&
+                      V &&
+                        V.current &&
                         w.Z.to(".torch-container", {
                           opacity: 0,
                           duration: 0.3,
@@ -423,7 +423,7 @@
                   );
                 }
               }, [P]));
-            let [V, W] = (0, g.useState)(!1),
+            let [D, W] = (0, g.useState)(!1),
               openMinigame = () => {
                 W(!0);
               };
@@ -456,7 +456,7 @@
                           websiteSingleton: k,
                         })
                       : (0, i.jsxs)("div", {
-                          ref: D,
+                          ref: V,
                           children: [
                             (0, i.jsx)(r.Z, {
                               handleRelicClick: addRelicToTray,
@@ -506,7 +506,7 @@
                   (0, i.jsxs)(i.Fragment, {
                     children: [
                       (0, i.jsx)(h.Z, {
-                        open: V,
+                        open: D,
                         close: () => {
                           W(!1);
                         },
@@ -516,13 +516,13 @@
                       }),
                       (0, i.jsx)(f.Z, { enabled: O }),
                       (0, i.jsx)(x.Z, {
-                        gameArea: D,
+                        gameArea: V,
                         collection: R,
                         activated: M && O && !P && !A,
                         setActivated: L,
                         open: E,
                         setOpen: (e) => I(e),
-                        puzzleOpen: V,
+                        puzzleOpen: D,
                         puzzleSolved: P || A,
                         websiteSingleton: k,
                       }),
@@ -537,7 +537,7 @@
         }
       });
     },
-    62760: function (e, t, l) {
+    90997: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -546,12 +546,12 @@
       });
       var s = l(97458),
         i = l(52983),
-        n = l(47681),
+        n = l(68956),
         r = l.n(n),
-        a = l(97013),
+        a = l(77176),
         o = l(63982),
         c = l.n(o),
-        u = l(41855),
+        u = l(64976),
         d = l(76057);
       let RiveDarknessComponent = (e) => {
         let {
@@ -756,7 +756,7 @@
         );
       }
     },
-    54156: function (e, t, l) {
+    10646: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, s) {
         try {
@@ -766,15 +766,15 @@
             },
           });
           var i = l(97458),
-            n = l(47681),
+            n = l(68956),
             r = l.n(n),
-            a = l(87249),
+            a = l(14647),
             o = l(52983),
-            c = l(75443),
+            c = l(42897),
             u = l(99288),
-            d = l(72790),
-            m = l(91806),
-            h = l(7365),
+            d = l(64626),
+            m = l(14790),
+            h = l(64005),
             f = e([a, m]);
           function HomeIntro(e) {
             var t, l, s, n;
@@ -1248,7 +1248,7 @@
         }
       });
     },
-    37889: function (e, t, l) {
+    52550: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, s) {
         try {
@@ -1258,11 +1258,11 @@
             },
           });
           var i = l(97458),
-            n = l(20213),
-            r = l(57187),
-            a = l(19024),
-            o = l(2300),
-            c = l(47681),
+            n = l(78291),
+            r = l(27343),
+            a = l(96931),
+            o = l(20102),
+            c = l(68956),
             u = l.n(c),
             d = e([r, a, o]);
           function HomeNewsAndGames(e) {
@@ -1325,7 +1325,7 @@
         }
       });
     },
-    28690: function (e, t, l) {
+    59796: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -1333,12 +1333,12 @@
         },
       });
       var s = l(97458),
-        i = l(7355),
+        i = l(23010),
         n = l(52983),
-        r = l(47681),
+        r = l(68956),
         a = l.n(r),
-        o = l(61666),
-        c = l(97013);
+        o = l(91359),
+        c = l(77176);
       function HomeSignUp(e) {
         let { rewards: t, websiteSingleton: l } = e,
           r = (0, n.useRef)(null),
@@ -1469,7 +1469,7 @@
         );
       }
     },
-    13743: function (e, t, l) {
+    40936: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, s) {
         try {
@@ -1480,21 +1480,21 @@
           });
           var i = l(97458),
             n = l(52983),
-            r = l(47681),
+            r = l(68956),
             a = l.n(r),
-            o = l(41855),
-            c = l(61666),
-            u = l(26439),
-            d = l(70257),
-            m = l(97013),
+            o = l(64976),
+            c = l(91359),
+            u = l(79964),
+            d = l(47638),
+            m = l(77176),
             h = l(63982),
             f = l.n(h),
-            x = l(10821),
+            x = l(66426),
             g = l.n(x),
-            p = l(75443),
-            v = l(26049),
-            w = l(2300),
-            b = l(82262),
+            p = l(42897),
+            v = l(83357),
+            w = l(20102),
+            b = l(24148),
             j = e([w, b]);
           function HomeTomb(e) {
             let {
@@ -1810,7 +1810,7 @@
         }
       });
     },
-    57187: function (e, t, l) {
+    27343: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, s) {
         try {
@@ -1820,12 +1820,12 @@
             },
           });
           var i = l(97458),
-            n = l(47681),
+            n = l(68956),
             r = l.n(n),
-            a = l(17789),
+            a = l(4496),
             o = l(52983),
-            c = l(75443),
-            u = l(10821),
+            c = l(42897),
+            u = l(66426),
             d = l.n(u),
             m = l(99288),
             h = e([a]);
@@ -1931,7 +1931,7 @@
         }
       });
     },
-    19024: function (e, t, l) {
+    96931: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, s) {
         try {
@@ -1943,13 +1943,13 @@
           var i = l(97458),
             n = l(96061),
             r = l(52983),
-            a = l(47681),
+            a = l(68956),
             o = l.n(a),
-            c = l(69049),
-            u = l(10821),
+            c = l(92115),
+            u = l(66426),
             d = l.n(u),
-            m = l(75443),
-            h = l(91806),
+            m = l(42897),
+            h = l(14790),
             f = l(99288),
             x = e([n, h]);
           function HorizontalProductList(e) {
@@ -2221,7 +2221,7 @@
         }
       });
     },
-    34191: function (e, t, l) {
+    28966: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -2230,10 +2230,10 @@
       });
       var s = l(97458),
         i = l(52983),
-        n = l(47681),
+        n = l(68956),
         r = l.n(n),
-        a = l(75443),
-        o = l(97013);
+        a = l(42897),
+        o = l(77176);
       let c = (0, i.forwardRef)((e, t) => {
         let { runeVal: l, setRuneVal: n } = e,
           a = [
@@ -2346,7 +2346,7 @@
           })
         );
       });
-      var u = l(13782);
+      var u = l(58594);
       function Minigame(e) {
         let {
             open: t,
@@ -2623,7 +2623,7 @@
         );
       }
     },
-    41855: function (e, t, l) {
+    64976: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -2631,7 +2631,7 @@
         },
       });
       var s = l(97458),
-        i = l(47681),
+        i = l(68956),
         n = l.n(i);
       function Relic(e) {
         let t,
@@ -2658,12 +2658,12 @@
         });
       }
     },
-    83913: function (e, t, l) {
+    52525: function (e, t, l) {
       "use strict";
       var s = l(97458),
         i = l(52983),
-        n = l(41855),
-        r = l(97013);
+        n = l(64976),
+        r = l(77176);
       t.Z = (e) => {
         let {
             gameArea: t,
@@ -2811,7 +2811,7 @@
         );
       };
     },
-    70257: function (e, t, l) {
+    47638: function (e, t, l) {
       "use strict";
       l.d(t, {
         l: function () {
@@ -2842,7 +2842,7 @@
         );
       };
     },
-    26439: function (e, t, l) {
+    79964: function (e, t, l) {
       "use strict";
       l.d(t, {
         W: function () {
@@ -2908,7 +2908,7 @@
         );
       };
     },
-    54834: function (e, t, l) {
+    67546: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -3026,7 +3026,7 @@
         );
       }
     },
-    26049: function (e, t, l) {
+    83357: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -3077,7 +3077,7 @@
         );
       }
     },
-    68786: function (e, t, l) {
+    62475: function (e, t, l) {
       "use strict";
       l.a(e, async function (e, s) {
         try {
@@ -3091,7 +3091,7 @@
               },
             }));
           var i = l(97458),
-            n = l(34827),
+            n = l(92140),
             r = e([n]);
           n = (r.then ? (await r)() : r)[0];
           var a = !0;
@@ -3125,24 +3125,26 @@
         }
       });
     },
-    97013: function (e, t, l) {
+    77176: function (e, t, l) {
       "use strict";
       var s = l(6616),
-        i = l(67392),
-        n = l(63982),
-        r = l(29333),
-        a = l(63686),
-        o = l(38725);
+        i = l(36049),
+        n = l(67392),
+        r = l(63982),
+        a = l(29333),
+        o = l(63686),
+        c = l(38725);
       (s.p8.registerPlugin(
-        i.Flip,
-        n.ScrollTrigger,
-        r.ScrollToPlugin,
-        a.ScrollSmoother,
-        o.SplitText,
+        i.V,
+        n.Flip,
+        r.ScrollTrigger,
+        a.ScrollToPlugin,
+        o.ScrollSmoother,
+        c.SplitText,
       ),
         (t.Z = s.p8));
     },
-    72790: function (e, t, l) {
+    64626: function (e, t, l) {
       "use strict";
       l.d(t, {
         Z: function () {
@@ -3173,9 +3175,9 @@
   function (e) {
     (e.O(
       0,
-      [46, 369, 681, 882, 34, 658, 778, 249, 806, 702, 774, 888, 179],
+      [46, 369, 956, 672, 34, 658, 26, 647, 790, 825, 774, 888, 179],
       function () {
-        return e((e.s = 10638));
+        return e((e.s = 41604));
       },
     ),
       (_N_E = e.O()));

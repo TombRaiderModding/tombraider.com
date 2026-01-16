@@ -1,15 +1,15 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [511],
   {
-    71052: function (e, s, t) {
+    90867: function (e, s, t) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/account/surveys",
         function () {
-          return t(19920);
+          return t(48113);
         },
       ]);
     },
-    27233: function (e, s, t) {
+    43733: function (e, s, t) {
       "use strict";
       t.a(e, async function (e, r) {
         try {
@@ -20,13 +20,13 @@
           });
           var a = t(97458),
             n = t(52983),
-            i = t(58738),
-            c = t(87249),
-            l = t(47681),
+            i = t(21925),
+            c = t(14647),
+            l = t(68956),
             d = t.n(l),
-            u = t(10821),
+            u = t(66426),
             o = t.n(u),
-            h = t(2300),
+            h = t(20102),
             m = e([i, c, h]);
           function AccountHeader(e) {
             let { navItems: s, surveys: t } = e,
@@ -105,7 +105,7 @@
         }
       });
     },
-    6728: function (e, s, t) {
+    78486: function (e, s, t) {
       "use strict";
       t.d(s, {
         Z: function () {
@@ -113,11 +113,11 @@
         },
       });
       var r = t(97458),
-        a = t(47681),
+        a = t(68956),
         n = t.n(a),
-        i = t(10821),
+        i = t(66426),
         c = t.n(i),
-        l = t(93656),
+        l = t(14322),
         d = t(52983);
       function AccountMobileTray() {
         let e = (0, l.useRouter)(),
@@ -174,7 +174,7 @@
         });
       }
     },
-    95611: function (e, s, t) {
+    12305: function (e, s, t) {
       "use strict";
       t.a(e, async function (e, r) {
         try {
@@ -183,9 +183,9 @@
               return AuthenticatedWrapper;
             },
           });
-          var a = t(93656),
+          var a = t(14322),
             n = t(52983),
-            i = t(2300),
+            i = t(20102),
             c = e([i]);
           function AuthenticatedWrapper(e) {
             let { children: s } = e,
@@ -204,7 +204,7 @@
         }
       });
     },
-    33043: function (e, s, t) {
+    10055: function (e, s, t) {
       "use strict";
       t.d(s, {
         Z: function () {
@@ -212,11 +212,11 @@
         },
       });
       var r = t(97458),
-        a = t(47681),
+        a = t(68956),
         n = t.n(a),
-        i = t(10821),
+        i = t(66426),
         c = t.n(i),
-        l = t(93656),
+        l = t(14322),
         d = t(52983);
       function Sidebar() {
         let e = (0, l.useRouter)(),
@@ -295,7 +295,7 @@
         });
       }
     },
-    58094: function (e, s, t) {
+    83771: function (e, s, t) {
       "use strict";
       t.a(e, async function (e, r) {
         try {
@@ -305,16 +305,16 @@
             },
           });
           var a = t(97458),
-            n = t(47681),
+            n = t(68956),
             i = t.n(n),
-            c = t(75443),
-            l = t(10821),
+            c = t(42897),
+            l = t(66426),
             d = t.n(l),
-            u = t(2300),
+            u = t(20102),
             o = t(52983),
             h = t(39378),
             m = t.n(h),
-            x = t(43976),
+            x = t(61373),
             f = e([u]);
           function SurveyList(e) {
             let { surveys: s } = e,
@@ -468,7 +468,7 @@
         }
       });
     },
-    19920: function (e, s, t) {
+    48113: function (e, s, t) {
       "use strict";
       t.a(e, async function (e, r) {
         try {
@@ -482,11 +482,11 @@
               },
             }));
           var a = t(97458),
-            n = t(27233),
-            i = t(6728),
-            c = t(95611),
-            l = t(33043),
-            d = t(58094),
+            n = t(43733),
+            i = t(78486),
+            c = t(12305),
+            l = t(10055),
+            d = t(83771),
             u = e([n, c, d]);
           [n, c, d] = u.then ? (await u)() : u;
           var o = !0;
@@ -518,8 +518,8 @@
     },
   },
   function (e) {
-    (e.O(0, [46, 681, 882, 249, 774, 888, 179], function () {
-      return e((e.s = 71052));
+    (e.O(0, [46, 956, 672, 647, 774, 888, 179], function () {
+      return e((e.s = 90867));
     }),
       (_N_E = e.O()));
   },
