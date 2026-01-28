@@ -2,6 +2,936 @@
   "pageProps": {
     "articles": [
       {
+        "title": "The 30th Anniversary of Tomb Raider is Here!",
+        "slug": "the-30th-anniversary-of-tomb-raider-is-here",
+        "isLatestNews": true,
+        "isFeatured": true,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5Ln250eKRYvH3B8tqH479H",
+            "type": "Entry",
+            "createdAt": "2024-02-05T18:00:30.240Z",
+            "updatedAt": "2024-02-07T19:18:10.540Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 12,
+            "revision": 2,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Collaborations",
+            "slug": "collaborations",
+            "order": 15
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5MKaKnwkyPFVCUHqCtQuSi",
+              "type": "Entry",
+              "createdAt": "2024-01-12T20:40:47.690Z",
+              "updatedAt": "2024-01-12T20:40:47.690Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Video Games" }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "3wyLfQe5oFxvOb3iFUra60",
+            "type": "Asset",
+            "createdAt": "2026-01-27T23:26:33.226Z",
+            "updatedAt": "2026-01-27T23:26:33.226Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "TR 30th KEY ART 1440x960",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/3wyLfQe5oFxvOb3iFUra60/2bc9d7ae8b3f7c6d9dba4bba675ed32f/TR_30th_KEY_ART_1440x960.png",
+              "details": {
+                "size": 2695084,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "TR_30th_KEY_ART_1440x960.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Tomb Raider is celebrating 30 years of adventure with a treasure trove of exciting partnerships, plus special art and wallpapers celebrating Lara Croft's legacy.",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "It's been 30 years since Lara Croft climbed, jumped, and swan-dived onto the scene, and every moment since has been an adventure. From her sharply-polygonal origins in 1996, to the recently announced ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", our favorite British archaeologist and adventurer has established herself as gaming's most iconic heroine, and we plan to celebrate that legacy all year long!",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "To kick off the festivities, we're collaborating with an incredible array of partners who will all be releasing special 30th Anniversary products this year:",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://www.8bitdo.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "8BitDo",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the premier third-party video game hardware company known for their retro-inspired gaming peripherals",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://www.aspyr.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Aspyr",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the next-level developer and publisher whose recent work includes ",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [{ "type": "italic" }],
+                          "value": "Tomb Raider I-VI Remastered ",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "(available now on all platforms) and the release of ",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [{ "type": "italic" }],
+                          "value": "Tomb Raider: Definitive Edition",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": " on Nintendo Switch and Nintendo Switch 2",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://blendcotastudios.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Blend Cota Studios",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", prolific fine artist Blend Cota will be partnering with Tomb Raider for original works based on Tomb Raider: Legacy of Atlantis",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://www.darkhorse.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Dark Horse",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the world-renowned comic publisher whose works include ",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [{ "type": "italic" }],
+                          "value": "Hellboy",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", ",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [{ "type": "italic" }],
+                          "value": "Star Wars",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", ",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [{ "type": "italic" }],
+                          "value": "Avatar: The Last Airbender,",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": " and recently, ",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [{ "type": "italic" }],
+                          "value": "Tomb Raider: The Sacred Artifacts",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://figgyz.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "FiGGYZ",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", magnetic pixel-art collectibles with interchangeable backdrops",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://full.life/en" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Fulllife",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the premium French streetwear and gaming apparel brand",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://funko.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Funko",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the lifestyle brand known for its iconic Pop! figures",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://gunnar.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "GUNNAR Optiks",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", pioneers of clinically proven, cutting-edge eyewear that enhances the digital screen experience and protects the human visual system",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://iconiqstudios.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Iconiq Studios",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [{ "type": "bold" }],
+                          "value": ",",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": " creators of premium collectibles, board games, and more",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://loungefly.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Loungefly",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", a high-quality, innovative brand that blends fandom with fashion",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://sharkrobot.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Shark Robot",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the apparel and collectibles merchandise site that hosts beloved brands and featured artists",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://syntilay.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Syntilay",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", futuristic footwear brand Syntilay will be releasing a collaboration with Tomb Raider to celebrate the 30th anniversary",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://gear.tombraider.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Tomb Raider Gear Store",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the official Tomb Raider Gear Store with new products all year long celebrating the anniversary",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://tubbz.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Tubbz",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the era of the duck continues with a new 30th Anniversary Lara Croft duck ",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        },
+                        {
+                          "data": { "uri": "https://upperdeck.com/" },
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Upper Deck",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "hyperlink"
+                        },
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": ", the leading sports and entertainment trading card company",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "unordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "These partnerships will contribute to an exciting 2026 for Tomb Raider, with ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", the reimagining of Lara Croft’s original genre-defining adventure created in collaboration with Amazon Game Studios and Flying Wild Hog, slated to launch on PC, PlayStation 5 and Xbox Series X|S later this year. Stay tuned for more information on Tomb Raider projects and collaborations throughout 2026!",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            { "data": {}, "content": [], "nodeType": "hr" },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "To celebrate 30 years of raiding, we've put together wallpaper versions of the 30th Anniversary art featured above!",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/2WB1sDrW6vQMC8hp1FJb8o/9d423ff5c4c79333fdb030670b59a153/Tomb_Raider_30th_Anniversary_Mobile_Wallpaper.png"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Mobile",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/chyHGwCzRqx7nR6srFxZ6/374599e05c57469fa34afabaa706b033/Tomb_Raider_30th_Anniversary_Tablet_Wallpaper.png"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Tablet",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/rr7mVtH3FEiqh8rXUtEeA/255f98ea62abc1af4195badfcc72d60d/Tomb_Raider_30th_Anniversary_Desktop_Wallpaper.png"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Desktop",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Thank you for adventuring with Lara over the years, and look forward to many more adventures to come!",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "publishDate": "2026-01-28",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Two Thrilling Tomb Raider Adventures Unveiled at The Game Awards",
         "slug": "two-thrilling-tomb-raider-adventures-unveiled-at-the-game-awards",
         "isLatestNews": true,
@@ -935,6 +1865,370 @@
         "hideSocialSharingButtons": false
       },
       {
+        "title": "Tomb Raider: Anniversary Now Available on PlayStation Store",
+        "slug": "tomb-raider-anniversary-now-available-on-playstation-store",
+        "isLatestNews": true,
+        "isFeatured": true,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6KPfjWiWrWki8YH0wFTKoZ",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:14:47.775Z",
+            "updatedAt": "2024-02-05T18:36:21.395Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 8,
+            "revision": 4,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Video Games",
+            "slug": "video-games",
+            "order": 10
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2hiccY1WDxgmeb3ttGf6ik",
+              "type": "Entry",
+              "createdAt": "2023-09-15T19:32:38.378Z",
+              "updatedAt": "2023-09-15T19:32:38.378Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider:  Anniversary",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "1wZVSwdcWvNCEclvchCcXh",
+            "type": "Asset",
+            "createdAt": "2025-11-14T20:15:05.165Z",
+            "updatedAt": "2025-11-14T20:15:05.165Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "TR:A on PSN header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wZVSwdcWvNCEclvchCcXh/005933c33073f7fedd1a70e098822f45/image__9_.png",
+              "details": {
+                "size": 6400416,
+                "image": { "width": 3000, "height": 2000 }
+              },
+              "fileName": "image (9).png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Tomb Raider: Anniversary Now Available on PlayStation Store",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Relive the classic adventure today with Tomb Raider: Anniversary, ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://store.playstation.com/en-us/concept/10013616"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "now available on PlayStation 4 & 5",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": "!", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "If you're a ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "PlayStation Plus Premium",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " subscriber, Tomb Raider: Anniversary is included with your subscription.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Game Overview",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Tomb Raider: Anniversary retraces Lara Croft’s original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced ‘Tomb Raider: Legend’ game engine, the graphics, technology and physics bring Lara’s adventure and pursuit of a mystical artifact known only as the Scion right up to today’s technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "This is an emulation of the classic PS2 action-adventure title, Tomb Raider: Anniversary, playable on PS4 and PS5 for the first time. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1N1rCWme4TBWjeNIc1nodB",
+                    "type": "Asset",
+                    "createdAt": "2025-10-15T21:33:23.558Z",
+                    "updatedAt": "2025-10-15T21:33:23.558Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TRA ps5",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1N1rCWme4TBWjeNIc1nodB/c02b133f0355703126300ef0ae6f862d/TRA_ps5.jpg",
+                      "details": {
+                        "size": 1468252,
+                        "image": { "width": 3840, "height": 2160 }
+                      },
+                      "fileName": "TRA ps5.jpg",
+                      "contentType": "image/jpeg"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Release Date: ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "October 18, 2025",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Price:",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " $19.99/€19.99 SRP",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Be sure to check out the Tomb Raider series on the PlayStation Store, including the PS2 classic ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://store.playstation.com/en-us/concept/10010747/"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Tomb Raider: Legend",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "publishDate": "2025-11-18",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Tomb Raider: Definitive Edition Available NOW on Nintendo Switch™ and Nintendo Switch™ 2!",
         "slug": "tomb-raider-definitive-edition-available-now-on-nintendo-switch-tm-and",
         "isLatestNews": true,
@@ -1596,370 +2890,6 @@
               ]
             }
           ]
-        },
-        "publishDate": "2025-11-18",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "slug": "tomb-raider-anniversary-now-available-on-playstation-store",
-        "isLatestNews": true,
-        "isFeatured": true,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "6KPfjWiWrWki8YH0wFTKoZ",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:14:47.775Z",
-            "updatedAt": "2024-02-05T18:36:21.395Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Video Games",
-            "slug": "video-games",
-            "order": 10
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2hiccY1WDxgmeb3ttGf6ik",
-              "type": "Entry",
-              "createdAt": "2023-09-15T19:32:38.378Z",
-              "updatedAt": "2023-09-15T19:32:38.378Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider:  Anniversary",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "1wZVSwdcWvNCEclvchCcXh",
-            "type": "Asset",
-            "createdAt": "2025-11-14T20:15:05.165Z",
-            "updatedAt": "2025-11-14T20:15:05.165Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "TR:A on PSN header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wZVSwdcWvNCEclvchCcXh/005933c33073f7fedd1a70e098822f45/image__9_.png",
-              "details": {
-                "size": 6400416,
-                "image": { "width": 3000, "height": 2000 }
-              },
-              "fileName": "image (9).png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Relive the classic adventure today with Tomb Raider: Anniversary, ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10013616"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "now available on PlayStation 4 & 5",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": "!", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "If you're a ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "PlayStation Plus Premium",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " subscriber, Tomb Raider: Anniversary is included with your subscription.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Game Overview",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Tomb Raider: Anniversary retraces Lara Croft’s original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced ‘Tomb Raider: Legend’ game engine, the graphics, technology and physics bring Lara’s adventure and pursuit of a mystical artifact known only as the Scion right up to today’s technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "This is an emulation of the classic PS2 action-adventure title, Tomb Raider: Anniversary, playable on PS4 and PS5 for the first time. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "1N1rCWme4TBWjeNIc1nodB",
-                    "type": "Asset",
-                    "createdAt": "2025-10-15T21:33:23.558Z",
-                    "updatedAt": "2025-10-15T21:33:23.558Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "TRA ps5",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1N1rCWme4TBWjeNIc1nodB/c02b133f0355703126300ef0ae6f862d/TRA_ps5.jpg",
-                      "details": {
-                        "size": 1468252,
-                        "image": { "width": 3840, "height": 2160 }
-                      },
-                      "fileName": "TRA ps5.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Release Date: ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "October 18, 2025",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Price:",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " $19.99/€19.99 SRP",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Be sure to check out the Tomb Raider series on the PlayStation Store, including the PS2 classic ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10010747/"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Tomb Raider: Legend",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
         },
         "publishDate": "2025-11-18",
         "hideSocialSharingButtons": false
@@ -5975,302 +6905,6 @@
           "nodeType": "document"
         },
         "publishDate": "2025-08-13",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Head Back into The Fog with Two New Outfits for Lara Croft in Dead by Daylight",
-        "slug": "head-back-into-the-fog-with-two-new-outfits-for-lara-croft-in-dead-by",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "5Ln250eKRYvH3B8tqH479H",
-            "type": "Entry",
-            "createdAt": "2024-02-05T18:00:30.240Z",
-            "updatedAt": "2024-02-07T19:18:10.540Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 12,
-            "revision": 2,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Collaborations",
-            "slug": "collaborations",
-            "order": 15
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "5MKaKnwkyPFVCUHqCtQuSi",
-              "type": "Entry",
-              "createdAt": "2024-01-12T20:40:47.690Z",
-              "updatedAt": "2024-01-12T20:40:47.690Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": { "name": "Video Games" }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "1MsdNINPGduI2r2uZo6gir",
-            "type": "Asset",
-            "createdAt": "2025-08-06T20:18:41.893Z",
-            "updatedAt": "2025-08-06T20:18:41.893Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 3,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "dbd blog header image",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/1MsdNINPGduI2r2uZo6gir/7da61b522bdadd5a47a5215af6e033ee/dbd_blog_header_image.jpg",
-              "details": {
-                "size": 312868,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "dbd blog header image.jpg",
-              "contentType": "image/jpeg"
-            }
-          }
-        },
-        "socialMediaShareDescription": "New Outfits for Lara Croft in Dead by Daylight",
-        "body": {
-          "data": {},
-          "content": [
-            { "data": {}, "content": [], "nodeType": "hr" },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "A", "nodeType": "text" },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "fter a year of surviving The Fog, Lara Croft has added two new looks to her collection!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "From perilous expeditions to adrenaline-filled Trials, Lara Croft is ready for every situation. The Tomb Raider Collection returns with two new looks: the Iconic Lara Outfit and the Shadow Runner Outfit. Now available in the in-game Store.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "1KS32CqnCUKjPjj6F640l1",
-                    "type": "Asset",
-                    "createdAt": "2025-08-05T17:19:04.903Z",
-                    "updatedAt": "2025-08-05T17:19:04.903Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Dead by Daylight",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1KS32CqnCUKjPjj6F640l1/e7371cec7693382be99993e8b02a3e80/Dead_by_Daylight.png",
-                      "details": {
-                        "size": 3596021,
-                        "image": { "width": 1920, "height": 1080 }
-                      },
-                      "fileName": "Dead by Daylight.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "65kGUX38qTv7ir9hcpISBj",
-                    "type": "Asset",
-                    "createdAt": "2025-08-05T22:57:30.167Z",
-                    "updatedAt": "2025-08-05T22:57:30.167Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 4,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "dead by daylight shadowrunner",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/65kGUX38qTv7ir9hcpISBj/4e8f44e8e09ac61eb47c01df3ef1b37f/DbD_LASAGNA_03-STORE_01-CCS_Tomb-Raider-Collection_S43-011_VF.png",
-                      "details": {
-                        "size": 3675448,
-                        "image": { "width": 1920, "height": 1080 }
-                      },
-                      "fileName": "DbD_LASAGNA_03-STORE_01-CCS_Tomb-Raider-Collection_S43-011_VF.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "For more information on Lara's playstyle and abilities, check out ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://www.tombraider.com/news/collaborations/venture-into-the-unknown-with-lara-croft-in-dead-by-daylight"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "this deep dive",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " from her release last year. Learn more about Dead by Daylight at their ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": { "uri": "https://deadbydaylight.com/" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "official site",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "publishDate": "2025-08-05",
         "hideSocialSharingButtons": false
       }
     ],
