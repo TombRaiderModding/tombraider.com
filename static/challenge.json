@@ -1538,10 +1538,10 @@
                 "id": "x77ixfmkpoiv"
               }
             },
-            "id": "6fQA8cpiiiblIj4qtV6YV",
+            "id": "92QcVJZaqQcKdrT3tVA7C",
             "type": "Entry",
-            "createdAt": "2025-12-11T17:55:09.410Z",
-            "updatedAt": "2025-12-12T18:52:37.655Z",
+            "createdAt": "2026-02-02T22:51:32.719Z",
+            "updatedAt": "2026-02-02T22:57:44.368Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -1549,7 +1549,7 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 21,
+            "publishedVersion": 18,
             "revision": 2,
             "contentType": {
               "sys": {
@@ -1561,7 +1561,7 @@
             "locale": "en-US"
           },
           "fields": {
-            "name": "Jan 2026",
+            "name": "Feb 2026",
             "tombDoor": {
               "metadata": { "tags": [], "concepts": [] },
               "sys": {
@@ -1757,7 +1757,7 @@
             "loreDescriptionLocked": "There have been reports of mysterious symbols.  With enough of them,  I believe I could open this door.",
             "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door.",
             "showCountdown": false,
-            "unlockDateTime": "2026-01-30T10:00-08:00",
+            "unlockDateTime": "2026-02-27T10:00-08:00",
             "allowNotify": false,
             "notifySuccessHeadline": "You've done it!  ",
             "notifySuccessDescription": "Collect your rewards and make your way deeper into this Challenge Tomb.",
@@ -1853,235 +1853,10 @@
                       "id": "x77ixfmkpoiv"
                     }
                   },
-                  "id": "3KLNl3OyuHaqztZi14CXpq",
+                  "id": "XekSQqNe8uEXpeSxkr5GL",
                   "type": "Entry",
-                  "createdAt": "2025-12-09T22:28:57.544Z",
-                  "updatedAt": "2025-12-09T22:28:57.544Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "glyph"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Brown Symbol 03",
-                  "image": {
-                    "metadata": { "tags": [], "concepts": [] },
-                    "sys": {
-                      "space": {
-                        "sys": {
-                          "type": "Link",
-                          "linkType": "Space",
-                          "id": "x77ixfmkpoiv"
-                        }
-                      },
-                      "id": "15TTF45YFcaL7p6ox5v6AE",
-                      "type": "Asset",
-                      "createdAt": "2025-12-09T22:28:47.352Z",
-                      "updatedAt": "2025-12-09T22:28:47.352Z",
-                      "environment": {
-                        "sys": {
-                          "id": "master",
-                          "type": "Link",
-                          "linkType": "Environment"
-                        }
-                      },
-                      "publishedVersion": 3,
-                      "revision": 1,
-                      "locale": "en-US"
-                    },
-                    "fields": {
-                      "title": "SoS Puzzle03 Glyph03",
-                      "description": "",
-                      "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/15TTF45YFcaL7p6ox5v6AE/e44bb1569ead54d664b1f983de9350a5/SoS_Puzzle03_Glyph03.png",
-                        "details": {
-                          "size": 489560,
-                          "image": { "width": 1000, "height": 1000 }
-                        },
-                        "fileName": "SoS_Puzzle03_Glyph03.png",
-                        "contentType": "image/png"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "1SzmgbhYEkHGfDixkNbGga",
-                  "type": "Entry",
-                  "createdAt": "2025-12-09T22:13:53.424Z",
-                  "updatedAt": "2025-12-09T22:13:53.424Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "glyph"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Brown Symbol 01",
-                  "image": {
-                    "metadata": { "tags": [], "concepts": [] },
-                    "sys": {
-                      "space": {
-                        "sys": {
-                          "type": "Link",
-                          "linkType": "Space",
-                          "id": "x77ixfmkpoiv"
-                        }
-                      },
-                      "id": "isYEDK3WbCn1jpnBXs6G0",
-                      "type": "Asset",
-                      "createdAt": "2025-12-09T22:13:45.862Z",
-                      "updatedAt": "2025-12-09T22:13:45.862Z",
-                      "environment": {
-                        "sys": {
-                          "id": "master",
-                          "type": "Link",
-                          "linkType": "Environment"
-                        }
-                      },
-                      "publishedVersion": 3,
-                      "revision": 1,
-                      "locale": "en-US"
-                    },
-                    "fields": {
-                      "title": "SoS Puzzle03 Glyph01",
-                      "description": "",
-                      "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/isYEDK3WbCn1jpnBXs6G0/320757ca59ec4e3b3bc863a5af002a62/SoS_Puzzle03_Glyph01.png",
-                        "details": {
-                          "size": 321817,
-                          "image": { "width": 1000, "height": 1000 }
-                        },
-                        "fileName": "SoS_Puzzle03_Glyph01.png",
-                        "contentType": "image/png"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "36rvplzxZrE0W6oZWfoxFZ",
-                  "type": "Entry",
-                  "createdAt": "2025-12-09T22:41:39.862Z",
-                  "updatedAt": "2025-12-09T22:41:39.862Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 3,
-                  "revision": 1,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "glyph"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Brown Symbol 11",
-                  "image": {
-                    "metadata": { "tags": [], "concepts": [] },
-                    "sys": {
-                      "space": {
-                        "sys": {
-                          "type": "Link",
-                          "linkType": "Space",
-                          "id": "x77ixfmkpoiv"
-                        }
-                      },
-                      "id": "56P6U6zKmewP9YpGojyOV7",
-                      "type": "Asset",
-                      "createdAt": "2025-12-09T22:41:32.271Z",
-                      "updatedAt": "2025-12-09T22:41:32.271Z",
-                      "environment": {
-                        "sys": {
-                          "id": "master",
-                          "type": "Link",
-                          "linkType": "Environment"
-                        }
-                      },
-                      "publishedVersion": 3,
-                      "revision": 1,
-                      "locale": "en-US"
-                    },
-                    "fields": {
-                      "title": "SoS Puzzle03 Glyph11",
-                      "description": "",
-                      "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/56P6U6zKmewP9YpGojyOV7/e5dd874a9dd6508cb92d4951c83179f5/SoS_Puzzle03_Glyph11.png",
-                        "details": {
-                          "size": 385306,
-                          "image": { "width": 1000, "height": 1000 }
-                        },
-                        "fileName": "SoS_Puzzle03_Glyph11.png",
-                        "contentType": "image/png"
-                      }
-                    }
-                  }
-                }
-              },
-              {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "4ksI5UQRQ1z1NzuOJNshTa",
-                  "type": "Entry",
-                  "createdAt": "2025-12-09T22:32:35.638Z",
-                  "updatedAt": "2025-12-09T22:32:35.638Z",
+                  "createdAt": "2025-12-09T22:43:07.116Z",
+                  "updatedAt": "2025-12-09T22:43:07.116Z",
                   "environment": {
                     "sys": {
                       "id": "master",
@@ -2101,7 +1876,7 @@
                   "locale": "en-US"
                 },
                 "fields": {
-                  "name": "Brown Symbol 07",
+                  "name": "Brown Symbol 12",
                   "image": {
                     "metadata": { "tags": [], "concepts": [] },
                     "sys": {
@@ -2112,10 +1887,10 @@
                           "id": "x77ixfmkpoiv"
                         }
                       },
-                      "id": "1CKQt0VRhoEyrPlom6Amce",
+                      "id": "2OR3mXD0fB8QRxY6N6RdvH",
                       "type": "Asset",
-                      "createdAt": "2025-12-09T22:32:22.578Z",
-                      "updatedAt": "2025-12-09T22:32:22.578Z",
+                      "createdAt": "2025-12-09T22:43:02.933Z",
+                      "updatedAt": "2025-12-09T22:43:02.933Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2128,15 +1903,15 @@
                       "locale": "en-US"
                     },
                     "fields": {
-                      "title": "SoS Puzzle03 Glyph07",
+                      "title": "SoS Puzzle03 Glyph12",
                       "description": "",
                       "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/1CKQt0VRhoEyrPlom6Amce/60f919f1f6aeea698604271e73aa7ee6/SoS_Puzzle03_Glyph07.png",
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2OR3mXD0fB8QRxY6N6RdvH/7b46436b4698d49f8abeb128260bce41/SoS_Puzzle03_Glyph12.png",
                         "details": {
-                          "size": 436241,
+                          "size": 319351,
                           "image": { "width": 1000, "height": 1000 }
                         },
-                        "fileName": "SoS_Puzzle03_Glyph07.png",
+                        "fileName": "SoS_Puzzle03_Glyph12.png",
                         "contentType": "image/png"
                       }
                     }
@@ -2153,10 +1928,85 @@
                       "id": "x77ixfmkpoiv"
                     }
                   },
-                  "id": "6dOgkZ14SxYMgn8AjXeXgX",
+                  "id": "1F44vLhwqr9BQ75cVwzhTi",
                   "type": "Entry",
-                  "createdAt": "2025-12-09T22:29:54.898Z",
-                  "updatedAt": "2025-12-09T22:29:54.898Z",
+                  "createdAt": "2025-12-09T22:14:36.500Z",
+                  "updatedAt": "2025-12-09T22:14:36.500Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 02",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "7sI9eVgjQvry6ocLd0qDNJ",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:14:28.964Z",
+                      "updatedAt": "2025-12-09T22:14:28.964Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph02",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/7sI9eVgjQvry6ocLd0qDNJ/a14d828b7e8f3189dcd7e6a01c6b958d/SoS_Puzzle03_Glyph02.png",
+                        "details": {
+                          "size": 427861,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph02.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "3nMzjxGlMBVcISoAOkvmxU",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:34:30.076Z",
+                  "updatedAt": "2025-12-09T22:34:30.076Z",
                   "environment": {
                     "sys": {
                       "id": "master",
@@ -2176,7 +2026,7 @@
                   "locale": "en-US"
                 },
                 "fields": {
-                  "name": "Brown Symbol 05",
+                  "name": "Brown Symbol 10",
                   "image": {
                     "metadata": { "tags": [], "concepts": [] },
                     "sys": {
@@ -2187,10 +2037,10 @@
                           "id": "x77ixfmkpoiv"
                         }
                       },
-                      "id": "1qSiD3UDa1FQ9ZUIjc40ga",
+                      "id": "42JqNquSJ4Xz9Z6nQ7EUnY",
                       "type": "Asset",
-                      "createdAt": "2025-12-09T22:29:51.837Z",
-                      "updatedAt": "2025-12-09T22:29:51.837Z",
+                      "createdAt": "2025-12-09T22:34:24.732Z",
+                      "updatedAt": "2025-12-09T22:34:24.732Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2203,15 +2053,15 @@
                       "locale": "en-US"
                     },
                     "fields": {
-                      "title": "SoS Puzzle03 Glyph05",
+                      "title": "SoS Puzzle03 Glyph10",
                       "description": "",
                       "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/1qSiD3UDa1FQ9ZUIjc40ga/698ce6415bd8b5afd8f6a9634a770a18/SoS_Puzzle03_Glyph05.png",
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/42JqNquSJ4Xz9Z6nQ7EUnY/48c3189258e523d5a89aef1fb88eeee7/SoS_Puzzle03_Glyph10.png",
                         "details": {
-                          "size": 323264,
+                          "size": 395232,
                           "image": { "width": 1000, "height": 1000 }
                         },
-                        "fileName": "SoS_Puzzle03_Glyph05.png",
+                        "fileName": "SoS_Puzzle03_Glyph10.png",
                         "contentType": "image/png"
                       }
                     }
@@ -2228,10 +2078,160 @@
                       "id": "x77ixfmkpoiv"
                     }
                   },
-                  "id": "5NsRQRtiuj1WXiywil4HnG",
+                  "id": "4sGG8CpezgA9ZOzzIWOswh",
                   "type": "Entry",
-                  "createdAt": "2025-12-09T22:43:41.970Z",
-                  "updatedAt": "2025-12-09T22:43:41.970Z",
+                  "createdAt": "2025-12-09T22:33:06.933Z",
+                  "updatedAt": "2025-12-09T22:33:06.933Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 2,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 08",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "2286SwScUhVgYqgHmQ2PJq",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:32:55.005Z",
+                      "updatedAt": "2025-12-09T22:32:55.005Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph08",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2286SwScUhVgYqgHmQ2PJq/efb9afcb52d1e4772049c3d665828533/SoS_Puzzle03_Glyph08.png",
+                        "details": {
+                          "size": 464844,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph08.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "357IIGkEco0Z0ImewNPNxv",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:29:34.501Z",
+                  "updatedAt": "2025-12-09T22:29:34.501Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 2,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 04",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "4HfHcFGemIQtSpisr5XOro",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:29:21.140Z",
+                      "updatedAt": "2025-12-09T22:29:21.140Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph04",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/4HfHcFGemIQtSpisr5XOro/df4514db1a65be62d177020544736697/SoS_Puzzle03_Glyph04.png",
+                        "details": {
+                          "size": 329067,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph04.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "1HOjLLuGReqg4IwNbKqoxH",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:32:01.384Z",
+                  "updatedAt": "2025-12-09T22:32:01.384Z",
                   "environment": {
                     "sys": {
                       "id": "master",
@@ -2251,7 +2251,7 @@
                   "locale": "en-US"
                 },
                 "fields": {
-                  "name": "Brown Symbol 13",
+                  "name": "Brown Symbol 06",
                   "image": {
                     "metadata": { "tags": [], "concepts": [] },
                     "sys": {
@@ -2262,10 +2262,10 @@
                           "id": "x77ixfmkpoiv"
                         }
                       },
-                      "id": "7ufrDvbxcgZzbKWcGTh2BM",
+                      "id": "jw1AsUXZD2eUYVPZZdJNs",
                       "type": "Asset",
-                      "createdAt": "2025-12-09T22:43:33.596Z",
-                      "updatedAt": "2025-12-09T22:43:33.596Z",
+                      "createdAt": "2025-12-09T22:31:54.164Z",
+                      "updatedAt": "2025-12-09T22:31:54.164Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2278,15 +2278,15 @@
                       "locale": "en-US"
                     },
                     "fields": {
-                      "title": "SoS Puzzle03 Glyph13",
+                      "title": "SoS Puzzle03 Glyph06",
                       "description": "",
                       "file": {
-                        "url": "//images.ctfassets.net/x77ixfmkpoiv/7ufrDvbxcgZzbKWcGTh2BM/2ebe3630dd19ca8c217f555caee273c5/SoS_Puzzle03_Glyph13.png",
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/jw1AsUXZD2eUYVPZZdJNs/c6e4264e487b578aff8f4995470a69dc/SoS_Puzzle03_Glyph06.png",
                         "details": {
-                          "size": 345867,
+                          "size": 368963,
                           "image": { "width": 1000, "height": 1000 }
                         },
-                        "fileName": "SoS_Puzzle03_Glyph13.png",
+                        "fileName": "SoS_Puzzle03_Glyph06.png",
                         "contentType": "image/png"
                       }
                     }
