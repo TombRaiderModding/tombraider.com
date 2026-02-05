@@ -172,7 +172,7 @@
       e,
       n,
       i,
-      "static/chunks/pages/news/[category]/[article]-f306bec3c3a94c8f.js",
+      "static/chunks/pages/news/[category]/[article]-9de123595677441d.js",
     ],
     "/products/[category]": [
       c,

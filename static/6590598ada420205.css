@@ -3478,6 +3478,10 @@ input[type="checkbox"] {
   -webkit-mask-image: linear-gradient(180deg, #fff 70%, transparent);
   mask-image: linear-gradient(180deg, #fff 70%, transparent);
 }
+.news-content {
+  background-color: #fcfce185;
+  box-shadow: 0 0 34px #fcfce185;
+}
 .article-media-gallery .swiper-pagination {
   position: static;
 }

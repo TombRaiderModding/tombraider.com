@@ -832,62 +832,69 @@
                                 width: 1920,
                                 height: 1920,
                               }),
-                              (0, s.jsx)("div", { className: "h-8" }),
-                              (null == W ? void 0 : W.body) &&
-                                (0, a.h)(
-                                  null == W ? void 0 : W.body,
-                                  (0, f.m0)(!1, Q),
-                                ),
                               (0, s.jsxs)("div", {
-                                className:
-                                  "mt-20 flex flex-wrap items-center justify-between gap-y-8",
+                                className: "news-content",
                                 children: [
-                                  (0, s.jsx)("div", {
-                                    className:
-                                      "flex flex-wrap items-center gap-x-2",
-                                    children: (
-                                      null == W
-                                        ? void 0
-                                        : W.hideSocialSharingButtons
-                                    )
-                                      ? null
-                                      : (0, s.jsx)(j.Z, {
-                                          title: null == W ? void 0 : W.title,
-                                        }),
-                                  }),
+                                  (0, s.jsx)("div", { className: "h-8" }),
+                                  (null == W ? void 0 : W.body) &&
+                                    (0, a.h)(
+                                      null == W ? void 0 : W.body,
+                                      (0, f.m0)(!1, Q),
+                                    ),
                                   (0, s.jsxs)("div", {
                                     className:
-                                      "flex flex-wrap items-center gap-x-2 gap-y-2",
+                                      "mt-20 flex flex-wrap items-center justify-between gap-y-8",
                                     children: [
-                                      (0, s.jsx)(d.Z, {
-                                        light: !0,
-                                        children:
+                                      (0, s.jsx)("div", {
+                                        className:
+                                          "flex flex-wrap items-center gap-x-2",
+                                        children: (
                                           null == W
                                             ? void 0
-                                            : null === (C = W.category) ||
-                                                void 0 === C
-                                              ? void 0
-                                              : C.fields.name,
+                                            : W.hideSocialSharingButtons
+                                        )
+                                          ? null
+                                          : (0, s.jsx)(j.Z, {
+                                              title:
+                                                null == W ? void 0 : W.title,
+                                            }),
                                       }),
-                                      null == W
-                                        ? void 0
-                                        : null === (H = W.tags) || void 0 === H
-                                          ? void 0
-                                          : H.map((e, t) =>
-                                              (0, s.jsx)(
-                                                d.Z,
-                                                {
-                                                  light: !0,
-                                                  children:
-                                                    null == e
-                                                      ? void 0
-                                                      : e.fields.name,
-                                                },
-                                                (null == e
+                                      (0, s.jsxs)("div", {
+                                        className:
+                                          "flex flex-wrap items-center gap-x-2 gap-y-2",
+                                        children: [
+                                          (0, s.jsx)(d.Z, {
+                                            light: !0,
+                                            children:
+                                              null == W
+                                                ? void 0
+                                                : null === (C = W.category) ||
+                                                    void 0 === C
                                                   ? void 0
-                                                  : e.fields.name) || t,
-                                              ),
-                                            ),
+                                                  : C.fields.name,
+                                          }),
+                                          null == W
+                                            ? void 0
+                                            : null === (H = W.tags) ||
+                                                void 0 === H
+                                              ? void 0
+                                              : H.map((e, t) =>
+                                                  (0, s.jsx)(
+                                                    d.Z,
+                                                    {
+                                                      light: !0,
+                                                      children:
+                                                        null == e
+                                                          ? void 0
+                                                          : e.fields.name,
+                                                    },
+                                                    (null == e
+                                                      ? void 0
+                                                      : e.fields.name) || t,
+                                                  ),
+                                                ),
+                                        ],
+                                      }),
                                     ],
                                   }),
                                 ],
