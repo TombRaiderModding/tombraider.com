@@ -1541,7 +1541,7 @@
             "id": "92QcVJZaqQcKdrT3tVA7C",
             "type": "Entry",
             "createdAt": "2026-02-02T22:51:32.719Z",
-            "updatedAt": "2026-02-02T22:57:44.368Z",
+            "updatedAt": "2026-02-13T22:12:20.080Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -1549,8 +1549,8 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 18,
-            "revision": 2,
+            "publishedVersion": 20,
+            "revision": 3,
             "contentType": {
               "sys": {
                 "type": "Link",
@@ -2294,6 +2294,7 @@
                 }
               }
             ],
+            "rewardItemFriendlyIds": ["SorAvatar2"],
             "congratsHeadlineLoggedIn": "Congrats Raider!",
             "congratsDescriptionLoggedIn": "Along with your treasures,  further mysteries await you in the depths of the Challenge Tomb",
             "congratsHeadlineLoggedOut": "Congrats Raider!",
