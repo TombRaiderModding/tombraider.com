@@ -2,6 +2,1548 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Happy Birthday, Lara Croft",
+        "slug": "happy-birthday-lara-croft",
+        "isLatestNews": true,
+        "isFeatured": true,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5FFz5iSwgZAtZhUE219Cz1",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:12:37.537Z",
+            "updatedAt": "2024-02-05T17:59:57.282Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 16,
+            "revision": 7,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Community", "slug": "community", "order": 45 }
+        },
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "7u9CDY20s8VjPFOOWUZjsC",
+            "type": "Asset",
+            "createdAt": "2026-02-13T18:03:07.647Z",
+            "updatedAt": "2026-02-13T18:03:07.647Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Lara Birthday FWH blog header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/7u9CDY20s8VjPFOOWUZjsC/8c878613a2a0e67a6957b48180fd1cf3/Lara_Birthday_FWH_blog_header.jpg",
+              "details": {
+                "size": 287060,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "Lara Birthday FWH blog header.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Happy Birthday, Lara Croft!",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "It's February 14th, our favorite holiday: Lara Croft's birthday! It's been a busy year for our intrepid adventurer. Since last February, she's",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://www.tombraider.com/news/video-games/tomb-raider-iv-vi-remastered-available-now"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": " starred in an epic remaster",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": " of her second trilogy of adventures, ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://www.tombraider.com/news/collaborations/the-30th-anniversary-of-tomb-raider-is-here"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "celebrated 30 years",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": " since the first Tomb Raider game hit shelves, and announced not one, but ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://www.tombraider.com/news/video-games/two-thrilling-tomb-raider-adventures-unveiled-at-the-game-awards"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "two upcoming new games!",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Where does she find the time?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "While work on the next installments in Lara's adventures continues, we have some announcements, merch, and artwork to help celebrate her birthday in style. Check them out below!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Birthday Art from Flying Wild Hog",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Some legends are destined to be retold, and our partners at Flying Wild Hog are eager to tell it. While the studio is hard at work on ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ", they managed to put together a little something to mark Ms. Croft's birthday.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "2yV0rModdk9kZw5ZmcwQR3",
+                    "type": "Asset",
+                    "createdAt": "2026-02-11T00:08:08.186Z",
+                    "updatedAt": "2026-02-11T00:08:08.186Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "FWH Happy Birthday Lara text",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2yV0rModdk9kZw5ZmcwQR3/6b900acfdc0d4d4d6fa85f022246a1e6/FWH_Happy_Birthday_Lara_text.png",
+                      "details": {
+                        "size": 2561074,
+                        "image": { "width": 1246, "height": 968 }
+                      },
+                      "fileName": "FWH Happy Birthday Lara text.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Here's to many more! You can keep up with the latest from Flying Wild Hog on ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": { "uri": "https://x.com/Flying_Wild_Hog" },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "X",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": " and ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://www.instagram.com/flying_wild_hog/?hl=en"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Instagram",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Raider (2013) Comes to Mobile",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "kKzuKBO82zrdnNkbRc8By",
+                    "type": "Entry",
+                    "createdAt": "2026-02-10T23:45:40.294Z",
+                    "updatedAt": "2026-02-10T23:45:40.294Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 2,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "embeddedHtml"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "contentfulName": "Tomb Raider 2013 Mobile Announce Trailer",
+                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/5ZLieoknwww?si=Hb0rhokpYceIdS0z\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The wizards at Feral Interactive have done it again - the debut of the Survivor trilogy has arrived on both iOS and Android with all single-player DLC. Experience Lara Croft's origin story and her ascent from a young woman to a hardened survivor on phone or tablet, with all-new touch controls or full controller and mouse + keyboard support!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Raider",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " is available now for $19.99 / £12.99 / €15,99 on ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://apps.apple.com/app/tomb-raider/id6742988247"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "iOS ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": "and ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://play.google.com/store/apps/details?id=com.feralinteractive.tombraider_android"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Android",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Updated 30th Anniversary Wallpapers",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "In January, we shared this amazing art celebrating 30 years of adventure with Lara Croft.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "uD9JmUp2MYV2XoDSDdqey",
+                    "type": "Asset",
+                    "createdAt": "2026-01-26T21:12:44.288Z",
+                    "updatedAt": "2026-01-26T21:12:44.288Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 6,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Tomb Raider 30th Anniversary Key Art",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/uD9JmUp2MYV2XoDSDdqey/06248f25eed0336769d188c0e872890d/Tomb_Raider_30th_Anniversary_Key_Art_4k.png",
+                      "details": {
+                        "size": 12985522,
+                        "image": { "width": 3840, "height": 2160 }
+                      },
+                      "fileName": "Tomb Raider 30th Anniversary Key Art 4k.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We also included wallpaper versions for various devices. We've since made a few tweaks for the mobile versions to more cleanly fit your lock screen - check them out below!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/44MTePt5wm2MawRO7LO2M1/b94667a898f062229f985ff9003beb98/TR_30th_KEY_ART_9x16_2796x1290_v2.png"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "9:16 (vertical) phone wallpaper",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "4:3 tablet wallpaper - ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/3gVfAJnq6aUDUqnMaWodfK/ceab9045b51a4de37837288045e8081d/TR_30th_KEY_ART_4x3_3364x2524_iPadLandscape_alt.png"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "horizontal ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": "& ", "marks": [], "data": {} },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/4sFvTeUJAPHx2vZ8xK6FQV/94379322901f89071a11e6ecd7c7b6a7/TR_30th_KEY_ART_3x4_2524x3364_iPadPortrait.png"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "vertical",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/rr7mVtH3FEiqh8rXUtEeA/255f98ea62abc1af4195badfcc72d60d/Tomb_Raider_30th_Anniversary_Desktop_Wallpaper.png"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "16:9 (horizontal) desktop wallpaper",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "30th Anniversary Streaming Kits",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Eagle-eyed fans may have seen the beautiful custom streaming kits we released this past week - make sure to check them out for all your stream, overlay, and video background needs!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1Or87UeJTietBnNHYqKFmK",
+                    "type": "Asset",
+                    "createdAt": "2026-02-11T16:56:00.515Z",
+                    "updatedAt": "2026-02-11T16:56:00.515Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TR30 stream kit blog image",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1Or87UeJTietBnNHYqKFmK/ea4c9d937f2a5c7b449f08035d67ef21/TR30_stream_kit_blog_image.png",
+                      "details": {
+                        "size": 1023973,
+                        "image": { "width": 1191, "height": 680 }
+                      },
+                      "fileName": "TR30 stream kit blog image.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Download the kit and video backgrounds ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://www.tombraider.com/news/community/tomb-raider-30th-anniversary-streaming-kit-and-backgrounds-available-for"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "here",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": "!", "marks": [], "data": {} }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "New Merch from Shark Robot",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Our partners at Shark Robot have been hard at work creating new designs celebrating Lara Croft's legacy, and the newest set of items is ready for purchase! Check out the gallery below for some highlights, and find all their Tomb Raider merch at the ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://sharkrobot.com/collections/tomb-raider-all?srsltid=AfmBOopbzrCtV_dWikk1QiQxXv4osEIf8Vdt9GxseqWGl8vGIXCSww5K"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Shark Robot store",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6YPK873cp2Lz4hXdRL96TQ",
+                    "type": "Entry",
+                    "createdAt": "2026-02-12T20:49:40.153Z",
+                    "updatedAt": "2026-02-12T20:51:13.283Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 10,
+                    "revision": 2,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "articleGallery"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "name": "TR30 Birthday Shark Robot Gallery - Metal",
+                    "items": [
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "5bRTO8npCNSeJg6z5TM0BY",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:48:02.978Z",
+                          "updatedAt": "2026-02-12T20:48:02.978Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "FF0cWCiu6uCU6DPILk575",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:47:45.222Z",
+                              "updatedAt": "2026-02-12T20:47:45.222Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "Tombraider30thPoster",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/FF0cWCiu6uCU6DPILk575/c05a64f5a01a26380ecd5ab835644487/Tombraider30thPoster.png",
+                                "details": {
+                                  "size": 2896591,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "Tombraider30thPoster.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "6gzbOROJFil8uCYfYc83JY",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:49:03.187Z",
+                          "updatedAt": "2026-02-12T20:49:03.187Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "2XFHQXutwLTVbBHHqK4xgs",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:48:58.141Z",
+                              "updatedAt": "2026-02-12T20:48:58.141Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 4,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "TombRaiderLegendMetalCard",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/2XFHQXutwLTVbBHHqK4xgs/737df5abf847a108e1d2fef60941f99b/TOmbRaiderLegendMetalCard.png",
+                                "details": {
+                                  "size": 4641454,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "TOmbRaiderLegendMetalCard.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "5KyzNrfAwp6ldNs9D32m9O",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:49:35.051Z",
+                          "updatedAt": "2026-02-12T20:49:35.051Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "7ek6uUZGCEFg2PIzXtYe30",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:49:30.736Z",
+                              "updatedAt": "2026-02-12T20:49:30.736Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "TombRaiderSurvivorMetalCard",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/7ek6uUZGCEFg2PIzXtYe30/cdebf13cb512eb636209b80db06a9e25/TombRaiderSurvivorMetalCard.png",
+                                "details": {
+                                  "size": 4636820,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "TombRaiderSurvivorMetalCard.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "25p2hENrfpAxCnwBUgYtDP",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:51:07.658Z",
+                          "updatedAt": "2026-02-12T20:51:07.658Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "1xGwBdbFuvwrNTLU2JgKFj",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:51:03.721Z",
+                              "updatedAt": "2026-02-12T20:51:03.721Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "TombRaiderClassicMetalCard",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/1xGwBdbFuvwrNTLU2JgKFj/117c4f8c7dd85eff538188f22b62c0f7/TombRaiderClassicMetalCard.png",
+                                "details": {
+                                  "size": 4490392,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "TombRaiderClassicMetalCard.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "showCaptions": true
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5iuKBaEojaNB0uPPQswdRd",
+                    "type": "Entry",
+                    "createdAt": "2026-02-12T20:55:44.384Z",
+                    "updatedAt": "2026-02-12T20:55:44.384Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 8,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "articleGallery"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "name": "TR30 Birthday Shark Robot Gallery Shirts",
+                    "items": [
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "16vtY3R873gf0UxGEvLVQ8",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:52:26.784Z",
+                          "updatedAt": "2026-02-12T20:52:26.784Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "4dE5mV0e5NI6vJm28jVsxH",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:52:10.049Z",
+                              "updatedAt": "2026-02-12T20:52:10.049Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "LaraT-ShirtB",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/4dE5mV0e5NI6vJm28jVsxH/dea5827c7fe2a7287d28ebe5c87992e1/LaraT-ShirtB.png",
+                                "details": {
+                                  "size": 1668491,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "LaraT-ShirtB.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "4epF3hFGx3bc79HO6wyAS6",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:54:03.676Z",
+                          "updatedAt": "2026-02-12T20:54:03.676Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "5NOpAXy6Tb8oinLUMZkRwu",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:53:59.261Z",
+                              "updatedAt": "2026-02-12T20:53:59.261Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "TRCAVEDESIGN",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/5NOpAXy6Tb8oinLUMZkRwu/d3802e678dc739bbc5c918e06d0db853/TRCAVEDESIGN.png",
+                                "details": {
+                                  "size": 1678331,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "TRCAVEDESIGN.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "5xrgfNYrAa0la3rN2u7TQX",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:54:40.523Z",
+                          "updatedAt": "2026-02-12T20:54:40.523Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "2jDlrtc3QSUxG1NI3FvHBJ",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:54:33.004Z",
+                              "updatedAt": "2026-02-12T20:54:33.004Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "LaraSplatterT-Shirt",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/2jDlrtc3QSUxG1NI3FvHBJ/c8fbf5d5c094a552eaa9b4f0a4c0dd17/LaraSplatterT-Shirt.png",
+                                "details": {
+                                  "size": 1700510,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "LaraSplatterT-Shirt.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "7tbXOi7xvsd9YCWlRLluOm",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:55:12.497Z",
+                          "updatedAt": "2026-02-12T20:55:12.497Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "1zHA7E775ejLC22yeOISYC",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:55:04.521Z",
+                              "updatedAt": "2026-02-12T20:55:04.521Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "LaraT-shirtD",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/1zHA7E775ejLC22yeOISYC/359792ae3dc69ee84cd80719374fac7e/LaraT-shirtD.png",
+                                "details": {
+                                  "size": 1860764,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "LaraT-shirtD.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "7tC6Dw2aOUtbC7AULeErdU",
+                          "type": "Entry",
+                          "createdAt": "2026-02-12T20:55:40.928Z",
+                          "updatedAt": "2026-02-12T20:55:40.928Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "58OwsypkhucmFqXJEeHLCV",
+                              "type": "Asset",
+                              "createdAt": "2026-02-12T20:55:35.406Z",
+                              "updatedAt": "2026-02-12T20:55:35.406Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "TRClimbDesignShirt",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/58OwsypkhucmFqXJEeHLCV/ad9c97d782bdbf1edc3de4326e99c237/TRClimbDesignShirt.png",
+                                "details": {
+                                  "size": 1772264,
+                                  "image": { "width": 1500, "height": 1500 }
+                                },
+                                "fileName": "TRClimbDesignShirt.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "showCaptions": true
+                  }
+                }
+              },
+              "content": []
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Thank you so much for being with us on this journey, and we look forward to many more years of tombs, traps, and celebrations. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Happy birthday, Lara!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "publishDate": "2026-02-14",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Tomb Raider 30th Anniversary Streaming Kit and Backgrounds Available for Download",
         "slug": "tomb-raider-30th-anniversary-streaming-kit-and-backgrounds-available-for",
         "isLatestNews": true,
@@ -5675,553 +7217,6 @@
           "nodeType": "document"
         },
         "publishDate": "2025-09-03",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Crafting Lara Croft: Wētā Workshop’s Creative Journey with Quest for Avalon",
-        "slug": "crafting-lara-croft-weta-workshops-creative-journey-with-quest-for-avalon",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "5Ln250eKRYvH3B8tqH479H",
-            "type": "Entry",
-            "createdAt": "2024-02-05T18:00:30.240Z",
-            "updatedAt": "2024-02-07T19:18:10.540Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 12,
-            "revision": 2,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Collaborations",
-            "slug": "collaborations",
-            "order": 15
-          }
-        },
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "40GVFtyT5Tvpo0a1poQMoF",
-            "type": "Asset",
-            "createdAt": "2025-08-20T18:28:48.910Z",
-            "updatedAt": "2025-08-20T18:28:48.910Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "WETA BTS blog header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/40GVFtyT5Tvpo0a1poQMoF/33fa0ed75829570e92b82811073e6498/Untitled_design.png",
-              "details": {
-                "size": 12981769,
-                "image": { "width": 4500, "height": 2813 }
-              },
-              "fileName": "Untitled design.png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Crafting Lara Croft: Wētā Workshop’s Creative Journey with Quest for Avalon",
-        "body": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Wētā Workshop is a world-renowned creative studio of passionate artists dedicated to creating, learning, solving, and inspiring across various mediums - including collectible figures, limited edition statues, environments, and realistic prop replicas. ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Among their recent works, the 1:4 scale statue ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Lara Croft Quest for Avalon",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " stands as a testament to both artistry and process. For the team, the goal was not simply to capture Lara Croft in a dynamic pose but to find an expression of her essence and bring that into the physical world. Hours were poured into refining subtle details: the angle of a limb, the fall of hair, the tension of a muscle. Every decision was made in service of Lara’s character and story.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-entry-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "5IphqvhVGrG5hOFqfV5JT4",
-                    "type": "Entry",
-                    "createdAt": "2025-08-20T18:17:50.490Z",
-                    "updatedAt": "2025-08-27T17:54:16.020Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 7,
-                    "revision": 2,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "embeddedHtml"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "contentfulName": "WETA - Quest for Avalon Youtube video",
-                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/8CpEsONo6yk?si=_3rYHTXbpcj5XYgY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-                  }
-                }
-              },
-              "content": []
-            },
-            { "nodeType": "hr", "data": {}, "content": [] },
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "From Simple Beginnings",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Every project begins with concept art. At this stage, artists explore pose, posture, expression, and environment, searching for the “guiding star” that will anchor the entire production. The aim isn’t to finalise details, but to discover the character’s truth in context. This work is done closely with art directors and with feedback from the creators of the original material. For Tomb Raider, that collaboration came through Crystal Dynamics.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Once the concepts are set, the sculpting begins. Wētā Workshop’s sculptors bring different strengths. Some specialise in digital, others in clay. Some focus on environments while others concentrate on characters. For ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Quest for Avalon",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ", the work was shared between two sculptors.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Jorgelina Yeme focused on Lara Croft herself. She connected deeply with Lara’s strength, finesse, and presence, and translated that into form. “There’s a poetry to this pose,” she explained. “As if Lara is dancing with the sharks, weightless and fearless. Sculpting her underwater meant letting go of gravity, which goes against the usual instinct of a sculptor. But that challenge was part of the thrill. I especially loved capturing her form, that perfect balance of strength, elegance, beauty, and danger that defines Lara Croft.”",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "The environment was sculpted by Mauro Santini, whose passion for the natural world informed every detail of the circling blue sharks. To him, they were more than simple antagonists. They were primal, instinctual presences with their own beauty. The result is a scene where Lara and her adversaries stand as equals, two forces defined by their own history and instinct for survival.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "23cM3Sy1NuyMlHyygtb6BU",
-                    "type": "Asset",
-                    "createdAt": "2025-08-20T18:22:06.697Z",
-                    "updatedAt": "2025-08-20T18:22:06.697Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 4,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "WETA BTS 2T2A5620 120225",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/23cM3Sy1NuyMlHyygtb6BU/fcd241c4131886ebe980da1fa56daecf/2T2A5620_120225.jpg",
-                      "details": {
-                        "size": 10624434,
-                        "image": { "width": 6000, "height": 4000 }
-                      },
-                      "fileName": "2T2A5620_120225.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "From Digital Model to Physical Form",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Quest for Avalon",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " was sculpted digitally, but eventually it had to become something tangible. The digital model was divided into 70 separate parts for printing, casting, molding and assembly. Each part was 3D printed, inspected, and cleaned before being handed to the modelling team, who refined textures and details by hand. Sometimes this meant etching into the surface. Other times it meant layering on clay or plasticine.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Once approved, silicone and fibreglass molds were created for each part. Into these molds, polystone was poured, chosen for its ability to capture fine detail and provide weight and resilience. For elements requiring a different quality, such as translucency for jellyfish or flexibility for delicate areas, other materials like resin and polyurethane were used.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "18iGrJrTYvHRoiSNLXthLt",
-                    "type": "Asset",
-                    "createdAt": "2025-08-20T18:23:41.398Z",
-                    "updatedAt": "2025-08-20T18:23:41.398Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 4,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "WETA BTS 2T2A4212 280125",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/18iGrJrTYvHRoiSNLXthLt/24da0e7a7dcbdddfe4f953cf546314c8/2T2A4212_280125.jpg",
-                      "details": {
-                        "size": 5480735,
-                        "image": { "width": 5316, "height": 3544 }
-                      },
-                      "fileName": "2T2A4212_280125.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Bringing the Statue to Life",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "The raw casts then returned to the modelling team for final detailing before reaching the paint department. Here, painters applied multiple techniques including airbrushing, washes, dry-brushing, and foils to create surfaces that felt authentic. Skin needed to carry the warmth of life, coral needed its organic irregularities, and fabric needed to read as cloth rather than stone. Although most of the statue was cast in polystone, the final paintwork ensured each surface looked like its real-world counterpart.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "15ugD9qtGLbeKZA1mTdkaL",
-                    "type": "Asset",
-                    "createdAt": "2025-08-20T18:31:23.881Z",
-                    "updatedAt": "2025-08-20T18:31:23.881Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 4,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "WETA BTS 2T2A7345 240225",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/15ugD9qtGLbeKZA1mTdkaL/f0992e9c4ab2bddd7756b2d51319c513/2T2A7345_240225.jpg",
-                      "details": {
-                        "size": 12989921,
-                        "image": { "width": 6000, "height": 4000 }
-                      },
-                      "fileName": "2T2A7345_240225.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Finally, all 70 pieces were reassembled into a single statue: ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Lara Croft Quest for Avalon",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ". What began as sketches and concepts became a fully realised collectible through months of planning, hundreds of hours of labour, and the combined expertise of dozens of artists.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "A Tribute to Legacy",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Wētā Workshop’s collaboration on Tomb Raider collectibles has always been about respect for character and story. Whether creating a miniature, a commanding 1:4 scale centrepiece, or a faithful prop replica, the team approaches each project with the same goal; to honour Lara Croft’s legacy through craft. For the artists, the finished piece is just as much a reward as the connection it forges with fans who share their passion.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Lara Croft Quest for Avalon",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " is ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.wetanz.com/us/lara-croft-quest-for-avalon-limited"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "available for preorder now",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": ". See ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.wetanz.com/us/brands/tomb-raider"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "all of Wētā Workshop’s Tomb Raider collectibles here",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
-              ]
-            }
-          ]
-        },
-        "publishDate": "2025-08-26",
         "hideSocialSharingButtons": false
       }
     ],
