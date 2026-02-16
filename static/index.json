@@ -4056,370 +4056,6 @@
         "hideSocialSharingButtons": false
       },
       {
-        "title": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "slug": "tomb-raider-anniversary-now-available-on-playstation-store",
-        "isLatestNews": true,
-        "isFeatured": true,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "6KPfjWiWrWki8YH0wFTKoZ",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:14:47.775Z",
-            "updatedAt": "2024-02-05T18:36:21.395Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Video Games",
-            "slug": "video-games",
-            "order": 10
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2hiccY1WDxgmeb3ttGf6ik",
-              "type": "Entry",
-              "createdAt": "2023-09-15T19:32:38.378Z",
-              "updatedAt": "2023-09-15T19:32:38.378Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider:  Anniversary",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "1wZVSwdcWvNCEclvchCcXh",
-            "type": "Asset",
-            "createdAt": "2025-11-14T20:15:05.165Z",
-            "updatedAt": "2025-11-14T20:15:05.165Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "TR:A on PSN header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wZVSwdcWvNCEclvchCcXh/005933c33073f7fedd1a70e098822f45/image__9_.png",
-              "details": {
-                "size": 6400416,
-                "image": { "width": 3000, "height": 2000 }
-              },
-              "fileName": "image (9).png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Relive the classic adventure today with Tomb Raider: Anniversary, ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10013616"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "now available on PlayStation 4 & 5",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": "!", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "If you're a ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "PlayStation Plus Premium",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " subscriber, Tomb Raider: Anniversary is included with your subscription.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Game Overview",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Tomb Raider: Anniversary retraces Lara Croft’s original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced ‘Tomb Raider: Legend’ game engine, the graphics, technology and physics bring Lara’s adventure and pursuit of a mystical artifact known only as the Scion right up to today’s technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "This is an emulation of the classic PS2 action-adventure title, Tomb Raider: Anniversary, playable on PS4 and PS5 for the first time. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "1N1rCWme4TBWjeNIc1nodB",
-                    "type": "Asset",
-                    "createdAt": "2025-10-15T21:33:23.558Z",
-                    "updatedAt": "2025-10-15T21:33:23.558Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "TRA ps5",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1N1rCWme4TBWjeNIc1nodB/c02b133f0355703126300ef0ae6f862d/TRA_ps5.jpg",
-                      "details": {
-                        "size": 1468252,
-                        "image": { "width": 3840, "height": 2160 }
-                      },
-                      "fileName": "TRA ps5.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Release Date: ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "October 18, 2025",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Price:",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " $19.99/€19.99 SRP",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Be sure to check out the Tomb Raider series on the PlayStation Store, including the PS2 classic ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10010747/"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Tomb Raider: Legend",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "publishDate": "2025-11-18",
-        "hideSocialSharingButtons": false
-      },
-      {
         "title": "Tomb Raider: Definitive Edition Available NOW on Nintendo Switch™ and Nintendo Switch™ 2!",
         "slug": "tomb-raider-definitive-edition-available-now-on-nintendo-switch-tm-and",
         "isLatestNews": true,
@@ -5081,6 +4717,370 @@
               ]
             }
           ]
+        },
+        "publishDate": "2025-11-18",
+        "hideSocialSharingButtons": false
+      },
+      {
+        "title": "Tomb Raider: Anniversary Now Available on PlayStation Store",
+        "slug": "tomb-raider-anniversary-now-available-on-playstation-store",
+        "isLatestNews": true,
+        "isFeatured": true,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6KPfjWiWrWki8YH0wFTKoZ",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:14:47.775Z",
+            "updatedAt": "2024-02-05T18:36:21.395Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 8,
+            "revision": 4,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Video Games",
+            "slug": "video-games",
+            "order": 10
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2hiccY1WDxgmeb3ttGf6ik",
+              "type": "Entry",
+              "createdAt": "2023-09-15T19:32:38.378Z",
+              "updatedAt": "2023-09-15T19:32:38.378Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider:  Anniversary",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "1wZVSwdcWvNCEclvchCcXh",
+            "type": "Asset",
+            "createdAt": "2025-11-14T20:15:05.165Z",
+            "updatedAt": "2025-11-14T20:15:05.165Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "TR:A on PSN header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wZVSwdcWvNCEclvchCcXh/005933c33073f7fedd1a70e098822f45/image__9_.png",
+              "details": {
+                "size": 6400416,
+                "image": { "width": 3000, "height": 2000 }
+              },
+              "fileName": "image (9).png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Tomb Raider: Anniversary Now Available on PlayStation Store",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Relive the classic adventure today with Tomb Raider: Anniversary, ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://store.playstation.com/en-us/concept/10013616"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "now available on PlayStation 4 & 5",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": "!", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "If you're a ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "PlayStation Plus Premium",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " subscriber, Tomb Raider: Anniversary is included with your subscription.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Game Overview",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Tomb Raider: Anniversary retraces Lara Croft’s original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced ‘Tomb Raider: Legend’ game engine, the graphics, technology and physics bring Lara’s adventure and pursuit of a mystical artifact known only as the Scion right up to today’s technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "This is an emulation of the classic PS2 action-adventure title, Tomb Raider: Anniversary, playable on PS4 and PS5 for the first time. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1N1rCWme4TBWjeNIc1nodB",
+                    "type": "Asset",
+                    "createdAt": "2025-10-15T21:33:23.558Z",
+                    "updatedAt": "2025-10-15T21:33:23.558Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TRA ps5",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1N1rCWme4TBWjeNIc1nodB/c02b133f0355703126300ef0ae6f862d/TRA_ps5.jpg",
+                      "details": {
+                        "size": 1468252,
+                        "image": { "width": 3840, "height": 2160 }
+                      },
+                      "fileName": "TRA ps5.jpg",
+                      "contentType": "image/jpeg"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Release Date: ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "October 18, 2025",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Price:",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " $19.99/€19.99 SRP",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Be sure to check out the Tomb Raider series on the PlayStation Store, including the PS2 classic ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://store.playstation.com/en-us/concept/10010747/"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Tomb Raider: Legend",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
         },
         "publishDate": "2025-11-18",
         "hideSocialSharingButtons": false
