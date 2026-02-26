@@ -81,7 +81,7 @@
             "id": "gR1rxLJg6EK0dViapcNfX",
             "type": "Entry",
             "createdAt": "2024-09-16T20:37:20.915Z",
-            "updatedAt": "2025-12-12T18:00:10.099Z",
+            "updatedAt": "2026-02-25T23:38:13.833Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -89,8 +89,8 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 10,
-            "revision": 2,
+            "publishedVersion": 12,
+            "revision": 3,
             "contentType": {
               "sys": {
                 "type": "Link",
@@ -114,10 +114,10 @@
                       "id": "x77ixfmkpoiv"
                     }
                   },
-                  "id": "5NZGdA2BNteAMooirBG7i5",
+                  "id": "MZxudsHjmtnimr5w36kKy",
                   "type": "Asset",
-                  "createdAt": "2025-12-12T18:04:26.151Z",
-                  "updatedAt": "2025-12-17T17:50:24.004Z",
+                  "createdAt": "2026-02-25T23:38:01.960Z",
+                  "updatedAt": "2026-02-25T23:38:01.960Z",
                   "environment": {
                     "sys": {
                       "id": "master",
@@ -125,19 +125,20 @@
                       "linkType": "Environment"
                     }
                   },
-                  "publishedVersion": 5,
-                  "revision": 2,
+                  "publishedVersion": 3,
+                  "revision": 1,
                   "locale": "en-US"
                 },
                 "fields": {
-                  "title": "Roth Pistols",
+                  "title": "30th Anni Roth Pistols",
+                  "description": "",
                   "file": {
-                    "url": "//images.ctfassets.net/x77ixfmkpoiv/5NZGdA2BNteAMooirBG7i5/a1cbe3d86d36e6bb92dce257e779386a/SoS_30th_Anni_Roth_Pistols_v01_trans.png",
+                    "url": "//images.ctfassets.net/x77ixfmkpoiv/MZxudsHjmtnimr5w36kKy/60a15e830d4b8c9b633d364f514b77d4/30th_Anni_Roth_Pistols.png",
                     "details": {
-                      "size": 982151,
-                      "image": { "width": 1289, "height": 1295 }
+                      "size": 922938,
+                      "image": { "width": 1070, "height": 885 }
                     },
-                    "fileName": "SoS_30th_Anni_Roth_Pistols_v01_trans.png",
+                    "fileName": "30th_Anni_Roth_Pistols.png",
                     "contentType": "image/png"
                   }
                 }
