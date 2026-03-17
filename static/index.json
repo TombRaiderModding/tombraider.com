@@ -2,6 +2,689 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Lara Croft and the Temple of Osiris Arrives on GameNight",
+        "slug": "lara-croft-and-the-temple-of-osiris-arrives-on-gamenight",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6KPfjWiWrWki8YH0wFTKoZ",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:14:47.775Z",
+            "updatedAt": "2024-02-05T18:36:21.395Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 8,
+            "revision": 4,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Video Games",
+            "slug": "video-games",
+            "order": 10
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "7LJ2ImkyXRF1UvXSWji98X",
+              "type": "Entry",
+              "createdAt": "2023-09-15T18:17:37.424Z",
+              "updatedAt": "2023-09-15T18:17:37.424Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Lara Croft and Temple of Osiris",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "2AV8uswVWXjlBmtnpo2RAR",
+            "type": "Asset",
+            "createdAt": "2026-03-13T16:51:03.699Z",
+            "updatedAt": "2026-03-13T16:51:03.699Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Temple of osiris blog header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/2AV8uswVWXjlBmtnpo2RAR/7228974f834d87dba2c2b7661ff55006/Temple_of_osiris_blog_header.jpg",
+              "details": {
+                "size": 932829,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "Temple of osiris blog header.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Lara Croft and the Temple of Osiris is available now on GameNight!",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Lara Croft has starred in many adventures over the decades, from ancient tombs to shipwrecked islands. While Lara can handle most of her exploits solo, she still needs the occasional helping hand – most notably in ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Lara Croft and the Temple of Osiris",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", where Lara joins with up to three companions for fast-paced top-down action and puzzle solving. With ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Temple of Osiris",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " coming to Game Night, we talked with Ryan Meyer, development lead for the Game Night version, about adapting Lara Croft’s cooperative adventure.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Game Night allows players to instantly jump into a game without dedicated hardware, using their phone as the controller. What makes ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }, { "type": "bold" }],
+                  "value": "Lara Croft and the Temple of Osiris",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": " a good fit for the platform?",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " I've been having a lot of fun with ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Lara Croft and the Temple of Osiris",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " because of its co-op/competitive gameplay. It's a great fit for people to sit down on a couch together and play through it. You work together to beat the game, but you can also compete on things like gem count and score charts at the end of each level. It's super quick to get in and out of, and it offers a lot of moment-to-moment gameplay that makes everyone laugh, groan or cheer together.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "2oUPSQIhGRKxQ2DKtVb2zA",
+                    "type": "Asset",
+                    "createdAt": "2026-03-13T16:54:39.122Z",
+                    "updatedAt": "2026-03-13T16:54:39.122Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "LC2 Screenshot Ball Cage",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2oUPSQIhGRKxQ2DKtVb2zA/921433f9b6c0d2e3d746fa1b3af8f314/LC2_Screenshot_Ball_Cage.jpg",
+                      "details": {
+                        "size": 1660823,
+                        "image": { "width": 1920, "height": 1080 }
+                      },
+                      "fileName": "LC2 Screenshot_Ball_Cage.jpg",
+                      "contentType": "image/jpeg"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }, { "type": "bold" }],
+                  "value": "Temple of Osiris",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": " was not originally designed for touch screen controls; how did you approach designing the controller interface for Game Night?",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " This was an interesting challenge because this isn't typical mobile game development. Sure, you're still playing on a mobile device, but you have to consider that the player is not looking at their phone most of the time. So, we needed to make sure the player could easily access every game action intuitively and ergonomically. The first step was mapping every action to a button on the touchscreen, then deciding on the control style and ensuring the buttons were large enough to hit accurately and reliably. Then it came down to playtesting and iteration.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "What were the biggest hurdles you faced in designing and implementing the touch controls",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " When moving to touch control, you really only want to have up to two touch inputs needed at a time. There are several inputs that work well with a gamepad that don't easily translate to touch. For example, to engage the grappling hook you need to move, aim and then hit the trigger. Then you need to hold down the trigger to keep the grappling hook connected. Then when you need to jump with the grappling hook out, that's three inputs at a time. So, we needed to figure out a solution. Do we replace the mobile controller when the grappling hook is out? Do we auto fire the grappling hook? In this case we changed the grappling hook to toggle to release. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "2tUwnB8w4Gf6BFpV6X6Eni",
+                    "type": "Asset",
+                    "createdAt": "2026-03-13T16:56:31.552Z",
+                    "updatedAt": "2026-03-13T16:56:31.552Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "LC2 Screenshot Puzzle",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2tUwnB8w4Gf6BFpV6X6Eni/824b687ed18b26e42e14f95c85cc3f4a/LC2_Screenshot_Puzzle.jpg",
+                      "details": {
+                        "size": 1691733,
+                        "image": { "width": 1920, "height": 1080 }
+                      },
+                      "fileName": "LC2 Screenshot_Puzzle.jpg",
+                      "contentType": "image/jpeg"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Then there was the inventory. For the original design, players were all meant to share the screen when changing their inventory selections. That meant if one player wanted to swap a weapon or ring it would pause the game for everyone. With the Game Night version, we can take advantage of each player having their own device. We were able to implement a new game flow that allows players to individually adjust their inventory on their mobile device without pausing gameplay. With this change the gameplay continues smoothly and keeps the action going.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Which character is your favorite to play?",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " Personally I like characters that have the grappling hook, so Lara and Carter. I have to confess that when the whole team is walking across the grappling hook to get to the next platform I've given in to the temptation to pull the grappling hook back. \"Whoops! I slipped! I guess somebody should pick up all these gems, don't worry I'll take care of it.\"",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5oqfWU4QT8jYACUDt43E9r",
+                    "type": "Asset",
+                    "createdAt": "2026-03-13T16:55:24.393Z",
+                    "updatedAt": "2026-03-13T16:55:24.393Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "LC2 Screenshot Flood Tomb",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5oqfWU4QT8jYACUDt43E9r/2c8ff051f399016a614af0909490ee5c/LC2_Screenshot_Flood_Tomb.jpg",
+                      "details": {
+                        "size": 1729366,
+                        "image": { "width": 1920, "height": 1080 }
+                      },
+                      "fileName": "LC2 Screenshot_Flood_Tomb.jpg",
+                      "contentType": "image/jpeg"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Any other stories or thoughts on the development that players would enjoy hearing about?",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " The web controller went through a lot of iteration. First, we had three buttons on each side of the web controller, each near a virtual thumbstick. We started with an “expedition” theme to the background design. Through playtesting we changed the theme to be “Mystical Egyptian,” which was a better fit for all the characters. We also moved the mine button with every iteration of layout design. Here are some of the work in progress images we went through when approaching the final design:",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5FyWZ4qhqs7hnh4GIktPgI",
+                    "type": "Asset",
+                    "createdAt": "2026-03-13T16:57:15.742Z",
+                    "updatedAt": "2026-03-13T17:15:07.571Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 7,
+                    "revision": 2,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Picture1-740",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5FyWZ4qhqs7hnh4GIktPgI/c26844072d36a296a6b6cde55f5bf1f0/ToO_mobile_controller_concept_1.png",
+                      "details": {
+                        "size": 458863,
+                        "image": { "width": 740, "height": 417 }
+                      },
+                      "fileName": "ToO mobile controller concept 1.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3yC2dI3wZ9LXIEgZZIuuvU",
+                    "type": "Asset",
+                    "createdAt": "2026-03-13T16:57:42.712Z",
+                    "updatedAt": "2026-03-13T16:57:42.712Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Picture3",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3yC2dI3wZ9LXIEgZZIuuvU/c466760f20d5758fbf2f586354d4f348/Picture3.png",
+                      "details": {
+                        "size": 1067766,
+                        "image": { "width": 1082, "height": 486 }
+                      },
+                      "fileName": "Picture3.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Grab some companions and experience",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://luna.amazon.com/game/lara-croft-and-the-temple-of-osiris/B0GFVRPZZN"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " Lara Croft's co-op adventure on GameNight ",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "today!",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "publishDate": "2026-03-17",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Tomb Raider I-III Remastered Challenge Mode Patch Is Live",
         "slug": "tomb-raider-i-iii-remastered-challenge-mode-patch-is-live",
         "isLatestNews": true,
@@ -5941,6 +6624,370 @@
         "hideSocialSharingButtons": false
       },
       {
+        "title": "Tomb Raider: Anniversary Now Available on PlayStation Store",
+        "slug": "tomb-raider-anniversary-now-available-on-playstation-store",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6KPfjWiWrWki8YH0wFTKoZ",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:14:47.775Z",
+            "updatedAt": "2024-02-05T18:36:21.395Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 8,
+            "revision": 4,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Video Games",
+            "slug": "video-games",
+            "order": 10
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2hiccY1WDxgmeb3ttGf6ik",
+              "type": "Entry",
+              "createdAt": "2023-09-15T19:32:38.378Z",
+              "updatedAt": "2023-09-15T19:32:38.378Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider:  Anniversary",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "1wZVSwdcWvNCEclvchCcXh",
+            "type": "Asset",
+            "createdAt": "2025-11-14T20:15:05.165Z",
+            "updatedAt": "2025-11-14T20:15:05.165Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "TR:A on PSN header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wZVSwdcWvNCEclvchCcXh/005933c33073f7fedd1a70e098822f45/image__9_.png",
+              "details": {
+                "size": 6400416,
+                "image": { "width": 3000, "height": 2000 }
+              },
+              "fileName": "image (9).png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Tomb Raider: Anniversary Now Available on PlayStation Store",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Relive the classic adventure today with Tomb Raider: Anniversary, ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://store.playstation.com/en-us/concept/10013616"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "now available on PlayStation 4 & 5",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": "!", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "If you're a ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "PlayStation Plus Premium",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " subscriber, Tomb Raider: Anniversary is included with your subscription.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Game Overview",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Tomb Raider: Anniversary retraces Lara Croft’s original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced ‘Tomb Raider: Legend’ game engine, the graphics, technology and physics bring Lara’s adventure and pursuit of a mystical artifact known only as the Scion right up to today’s technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "This is an emulation of the classic PS2 action-adventure title, Tomb Raider: Anniversary, playable on PS4 and PS5 for the first time. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1N1rCWme4TBWjeNIc1nodB",
+                    "type": "Asset",
+                    "createdAt": "2025-10-15T21:33:23.558Z",
+                    "updatedAt": "2025-10-15T21:33:23.558Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TRA ps5",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1N1rCWme4TBWjeNIc1nodB/c02b133f0355703126300ef0ae6f862d/TRA_ps5.jpg",
+                      "details": {
+                        "size": 1468252,
+                        "image": { "width": 3840, "height": 2160 }
+                      },
+                      "fileName": "TRA ps5.jpg",
+                      "contentType": "image/jpeg"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Release Date: ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "October 18, 2025",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Price:",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " $19.99/€19.99 SRP",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Be sure to check out the Tomb Raider series on the PlayStation Store, including the PS2 classic ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://store.playstation.com/en-us/concept/10010747/"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Tomb Raider: Legend",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "publishDate": "2025-11-18",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Tomb Raider: Definitive Edition Available NOW on Nintendo Switch™ and Nintendo Switch™ 2!",
         "slug": "tomb-raider-definitive-edition-available-now-on-nintendo-switch-tm-and",
         "isLatestNews": true,
@@ -6602,370 +7649,6 @@
               ]
             }
           ]
-        },
-        "publishDate": "2025-11-18",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "slug": "tomb-raider-anniversary-now-available-on-playstation-store",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "6KPfjWiWrWki8YH0wFTKoZ",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:14:47.775Z",
-            "updatedAt": "2024-02-05T18:36:21.395Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Video Games",
-            "slug": "video-games",
-            "order": 10
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2hiccY1WDxgmeb3ttGf6ik",
-              "type": "Entry",
-              "createdAt": "2023-09-15T19:32:38.378Z",
-              "updatedAt": "2023-09-15T19:32:38.378Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider:  Anniversary",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "1wZVSwdcWvNCEclvchCcXh",
-            "type": "Asset",
-            "createdAt": "2025-11-14T20:15:05.165Z",
-            "updatedAt": "2025-11-14T20:15:05.165Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "TR:A on PSN header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wZVSwdcWvNCEclvchCcXh/005933c33073f7fedd1a70e098822f45/image__9_.png",
-              "details": {
-                "size": 6400416,
-                "image": { "width": 3000, "height": 2000 }
-              },
-              "fileName": "image (9).png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Relive the classic adventure today with Tomb Raider: Anniversary, ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10013616"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "now available on PlayStation 4 & 5",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": "!", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "If you're a ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "PlayStation Plus Premium",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " subscriber, Tomb Raider: Anniversary is included with your subscription.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Game Overview",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Tomb Raider: Anniversary retraces Lara Croft’s original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced ‘Tomb Raider: Legend’ game engine, the graphics, technology and physics bring Lara’s adventure and pursuit of a mystical artifact known only as the Scion right up to today’s technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "This is an emulation of the classic PS2 action-adventure title, Tomb Raider: Anniversary, playable on PS4 and PS5 for the first time. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "1N1rCWme4TBWjeNIc1nodB",
-                    "type": "Asset",
-                    "createdAt": "2025-10-15T21:33:23.558Z",
-                    "updatedAt": "2025-10-15T21:33:23.558Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "TRA ps5",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1N1rCWme4TBWjeNIc1nodB/c02b133f0355703126300ef0ae6f862d/TRA_ps5.jpg",
-                      "details": {
-                        "size": 1468252,
-                        "image": { "width": 3840, "height": 2160 }
-                      },
-                      "fileName": "TRA ps5.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Release Date: ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "October 18, 2025",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Price:",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " $19.99/€19.99 SRP",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Be sure to check out the Tomb Raider series on the PlayStation Store, including the PS2 classic ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10010747/"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Tomb Raider: Legend",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
         },
         "publishDate": "2025-11-18",
         "hideSocialSharingButtons": false
@@ -8170,562 +8853,6 @@
           "nodeType": "document"
         },
         "publishDate": "2025-10-24",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Tomb Raider: The Legend of Lara Croft Season 2 Premiere Date",
-        "slug": "tomb-raider-the-legend-of-lara-croft-season-2-premiere-date",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "M4GGPy6hYIqyQMSf3ELtA",
-            "type": "Entry",
-            "createdAt": "2023-09-20T21:32:36.091Z",
-            "updatedAt": "2024-02-05T17:58:38.130Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 6,
-            "revision": 3,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Movies & TV",
-            "slug": "movies-and-tv",
-            "order": 20
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "3RgcxLzPKg1NVlbjnGs2VL",
-              "type": "Entry",
-              "createdAt": "2023-09-20T21:33:23.362Z",
-              "updatedAt": "2023-09-20T21:33:23.362Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Netflix",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "M4GGPy6hYIqyQMSf3ELtA",
-                  "type": "Entry",
-                  "createdAt": "2023-09-20T21:32:36.091Z",
-                  "updatedAt": "2024-02-05T17:58:38.130Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 6,
-                  "revision": 3,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Movies & TV",
-                  "slug": "movies-and-tv",
-                  "order": 20
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "f1XA36yaqm6gQnyvw92AY",
-            "type": "Asset",
-            "createdAt": "2025-09-02T21:00:37.825Z",
-            "updatedAt": "2025-09-02T21:00:37.825Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 3,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "Netflix S2 Header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/f1XA36yaqm6gQnyvw92AY/b35c4c31e09e1d5c6d4a6e3c53d60370/Netflix_S2_Header.jpg",
-              "details": {
-                "size": 492835,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "Netflix_S2_Header.jpg",
-              "contentType": "image/jpeg"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider: The Legend of Lara Croft Season 2 Premiere Date",
-        "body": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Netflix has set a December 11, 2025 premiere date for the second and final season of the animated series ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.tombraider.com/products/tv-and-film/tomb-raider-the-legend-of-lara-croft"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Tomb Raider: The Legend of Lara Croft ",
-                      "marks": [{ "type": "italic" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": "from Legendary Television.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "When adventurer Lara Croft discovers a trail of stolen African Orisha masks, she joins forces with her best friend Sam to retrieve the precious artifacts. Lara’s thrilling new adventure takes her around the globe as she delves deeper into the hidden secrets of Orisha history, dodging the machinations of a dangerous and enigmatic billionaire who wants the masks for herself, while discovering these relics contain dark secrets and a power that defies logic. Power that may, in fact, be divine.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "The cast includes: ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Hayley Atwell (",
-                          "marks": [],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": "Mission: Impossible – The Final Reckoning, Captain America: The First Avenger",
-                          "marks": [{ "type": "italic" }],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": ") as the voice of Lara Croft ",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Karen Fukuhara (",
-                          "marks": [],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": "The Boys,",
-                          "marks": [{ "type": "italic" }],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": " ",
-                          "marks": [],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": "Suicide Squad, Bullet Train)",
-                          "marks": [{ "type": "italic" }],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": " as Sam Nishimura ",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "O-T Fagbenle ",
-                          "marks": [],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": "(The Handmaid’s Tale, Presumed Innocent) ",
-                          "marks": [{ "type": "italic" }],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": "as Eshu ",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Allen Maldonado ",
-                          "marks": [],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": "(Black-ish, The Last O.G.)",
-                          "marks": [{ "type": "italic" }],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": " as Zip ",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Earl Baylon ",
-                          "marks": [],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": "(Tomb Raider: Definitive Survivor Trilogy, Arcane, Batman: Arkham Shadow)",
-                          "marks": [{ "type": "italic" }],
-                          "data": {}
-                        },
-                        {
-                          "nodeType": "text",
-                          "value": " as Jonah Maiava.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Watch the trailer below:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-entry-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "4BybvkCUy5aMQnRComNOca",
-                    "type": "Entry",
-                    "createdAt": "2025-11-18T16:12:14.323Z",
-                    "updatedAt": "2025-11-18T16:12:14.323Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "embeddedHtml"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "contentfulName": "Legend of Lara Croft Season 2 Trailer",
-                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/HrVK__Mo9pk?si=G0Gek4bsaYX0Hz9d\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "From Legendary Television, ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: The Legend of Lara Croft",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " is executive produced and written by Tasha Huo (",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "The Mighty Nein",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
-                {
-                  "nodeType": "text",
-                  "value": "The Witcher: Blood Origin, Red Sonja",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "). Executive producers include Story Kitchen ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "(Sonic the Hedgehog, Life Is Strange)",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " co-founders Dmitri M. Johnson and Mike Goldberg, Timothy I. Stevenson, Jacob Robinson (",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Skull Island",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ") under his company Tractor Pants, Dallas Dickinson and Noah Hughes for Crystal Dynamics, and Jen Chambers. Powerhouse Animation is the animation studio, with Brad Graeber serving as executive producer.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "You can watch Season 1 of ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: The Legend of Lara Croft",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                { "nodeType": "text", "value": " ", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.netflix.com/title/81361105#:~:text=Thrust%20into%20a%20high%2Dstakes,while%20unraveling%20an%20ancient%20mystery."
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "on Netflix now.",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            }
-          ]
-        },
-        "publishDate": "2025-09-04",
         "hideSocialSharingButtons": false
       }
     ],
