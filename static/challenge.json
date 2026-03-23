@@ -974,11 +974,8 @@
               }
             },
             "loreHeadlineLocked": "Until we have enough symbols the door remains locked.",
-            "loreHeadlineUnlocked": "One Step Closer",
             "loreDescriptionLocked": "There have been reports of mysterious symbols.  With enough of them,  I believe I could open this door.",
-            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door.",
             "showCountdown": true,
-            "unlockDateTime": "2025-12-12T10:00-08:00",
             "countdownMessage": "Until we have enough symbols the door remains locked",
             "allowNotify": false,
             "notifySuccessHeadline": "You've done it!  ",
@@ -1525,7 +1522,11 @@
             "congratsBeforeLoginText": "Already a Raider?",
             "congratsLoginText": "Login",
             "congratsViewRewardButtonText": "View Reward",
-            "congratsContinuePlayingButtonText": "Continue Playing"
+            "congratsContinuePlayingButtonText": "Continue Playing",
+            "isUnlocked": true,
+            "msUntilUnlock": 0,
+            "loreHeadlineUnlocked": "One Step Closer",
+            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door."
           }
         },
         {
@@ -1753,11 +1754,8 @@
             },
             "laraShift": "Left",
             "loreHeadlineLocked": "Looking for mysterious symbols",
-            "loreHeadlineUnlocked": "One Step Closer",
             "loreDescriptionLocked": "There have been reports of mysterious symbols.  With enough of them,  I believe I could open this door.",
-            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door.",
             "showCountdown": false,
-            "unlockDateTime": "2026-02-27T10:00-08:00",
             "allowNotify": false,
             "notifySuccessHeadline": "You've done it!  ",
             "notifySuccessDescription": "Collect your rewards and make your way deeper into this Challenge Tomb.",
@@ -2303,7 +2301,11 @@
             "congratsBeforeLoginText": "Already a Raider?",
             "congratsLoginText": "Login",
             "congratsViewRewardButtonText": "View Reward",
-            "congratsContinuePlayingButtonText": "Continue Playing"
+            "congratsContinuePlayingButtonText": "Continue Playing",
+            "isUnlocked": true,
+            "msUntilUnlock": 0,
+            "loreHeadlineUnlocked": "One Step Closer",
+            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door."
           }
         }
       ]
