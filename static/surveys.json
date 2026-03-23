@@ -627,7 +627,7 @@
             "id": "1nW8MWcvd6FGNQIKslJVuk",
             "type": "Asset",
             "createdAt": "2025-01-30T19:53:24.828Z",
-            "updatedAt": "2025-01-30T19:53:24.828Z",
+            "updatedAt": "2026-03-23T20:38:56.317Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -635,13 +635,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "tiktok-white-icon",
-            "description": "",
+            "description": "TikTok",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/1nW8MWcvd6FGNQIKslJVuk/56bc93955e46aafef83c0b5379bb9ba9/tiktok-white-icon.webp",
               "details": {
@@ -670,7 +670,7 @@
             "id": "01Myr4Uw5B3LiZiwhkIDOo",
             "type": "Asset",
             "createdAt": "2025-01-30T20:00:27.508Z",
-            "updatedAt": "2025-01-30T20:00:27.508Z",
+            "updatedAt": "2026-03-23T20:39:08.144Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -678,13 +678,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 6,
-            "revision": 1,
+            "publishedVersion": 8,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "threads-instagram-app-white-background-social-network-black-color-vector-illustration-new-287425602",
-            "description": "",
+            "description": "Threads",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/01Myr4Uw5B3LiZiwhkIDOo/dcb80a0536a5336f9c3bdcdfe5499bb7/download.png",
               "details": {
@@ -713,7 +713,7 @@
             "id": "5zLrHeUr4dRx5HV0jpG2nM",
             "type": "Asset",
             "createdAt": "2025-01-30T20:03:38.455Z",
-            "updatedAt": "2025-01-30T20:03:38.455Z",
+            "updatedAt": "2026-03-23T20:39:42.295Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -721,13 +721,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "bluesky-logo",
-            "description": "",
+            "description": "Bluesky",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/5zLrHeUr4dRx5HV0jpG2nM/96a83eab127de86aad931005878c084a/bluesky-logo.jpg",
               "details": {
