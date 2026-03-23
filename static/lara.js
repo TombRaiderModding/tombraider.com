@@ -15,21 +15,21 @@
         a = l(66426),
         i = l.n(a);
       t.Z = (e) => {
-        let { href: t, children: l, className: a, ...o } = e,
-          s = "string" == typeof t && t.startsWith("http");
-        return s
+        let { href: t, children: l, className: a, ...s } = e,
+          o = "string" == typeof t && t.startsWith("http");
+        return o
           ? (0, r.jsx)("a", {
               href: t,
               target: "_blank",
               rel: "noopener noreferrer",
               className: a,
-              ...o,
+              ...s,
               children: l,
             })
           : (0, r.jsx)(i(), {
               legacyBehavior: !0,
               href: t,
-              ...o,
+              ...s,
               children: (0, r.jsx)("a", { className: a, children: l }),
             });
       };
@@ -45,21 +45,21 @@
           });
           var a = l(97458),
             i = l(68956),
-            o = l.n(i),
-            s = l(66426),
-            n = l.n(s),
+            s = l.n(i),
+            o = l(66426),
+            n = l.n(o),
             c = l(20102),
             d = l(64005),
             u = l(14790),
             m = e([c, u]);
           function Footer(e) {
             var t, l, r;
-            let { websiteSingleton: i, navItems: s, footerSocialLinks: m } = e,
+            let { websiteSingleton: i, navItems: o, footerSocialLinks: m } = e,
               { isLoggedIn: p, shopifyUrl: h } = (0, c.S)(),
-              g = s.filter(
+              g = o.filter(
                 (e) => e.showInFooter && !(p && e.hideForLoggedInUsers),
               ),
-              f = s.filter(
+              f = o.filter(
                 (e) => e.showInSubFooter && !(p && e.hideForLoggedInUsers),
               );
             return (0, a.jsxs)("div", {
@@ -70,7 +70,7 @@
                     "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
                     (0, a.jsx)("div", {
-                      children: (0, a.jsx)(o(), {
+                      children: (0, a.jsx)(s(), {
                         src: (0, u.Wx)(
                           null === (l = i.footerLogo) || void 0 === l
                             ? void 0
@@ -142,7 +142,7 @@
                           d.Z,
                           {
                             href: e.link,
-                            children: (0, a.jsx)(o(), {
+                            children: (0, a.jsx)(s(), {
                               src: (0, u.Wx)(
                                 null === (l = e.icon) || void 0 === l
                                   ? void 0
@@ -211,9 +211,9 @@
           });
           var a = l(97458),
             i = l(96061),
-            o = l(52983),
-            s = l(68956),
-            n = l.n(s),
+            s = l(52983),
+            o = l(68956),
+            n = l.n(o),
             c = l(92115),
             d = l(66426),
             u = l.n(d),
@@ -223,7 +223,7 @@
             g = e([i, p]);
           function HorizontalProductList(e) {
             let { products: t, title: l, description: r, isHome: i } = e,
-              [s, c] = (0, o.useState)(null);
+              [o, c] = (0, s.useState)(null);
             return (0, a.jsxs)("div", {
               className:
                 "flex w-full flex-col items-stretch overflow-x-hidden py-10",
@@ -277,13 +277,13 @@
                             alt: "Left arrow",
                             src: "/images/arrow-button-left.svg",
                             className: "mr-2 cursor-pointer",
-                            onClick: () => (null == s ? void 0 : s.slidePrev()),
+                            onClick: () => (null == o ? void 0 : o.slidePrev()),
                           }),
                           (0, a.jsx)(n(), {
                             width: 48,
                             height: 48,
                             alt: "Right arrow",
-                            onClick: () => (null == s ? void 0 : s.slideNext()),
+                            onClick: () => (null == o ? void 0 : o.slideNext()),
                             src: "/images/arrow-button-right.svg",
                             className: "cursor-pointer",
                           }),
@@ -321,7 +321,7 @@
             });
           }
           function ProductItem(e) {
-            var t, l, r, o, s, d, m, h;
+            var t, l, r, s, o, d, m, h;
             let { product: g } = e;
             return (0, a.jsx)("div", {
               className:
@@ -352,11 +352,11 @@
                       (0, p.Wx)(
                         null === (d = (0, i.U7_)(g)) || void 0 === d
                           ? void 0
-                          : null === (s = d.fields.image) || void 0 === s
+                          : null === (o = d.fields.image) || void 0 === o
                             ? void 0
-                            : null === (o = s.fields.file) || void 0 === o
+                            : null === (s = o.fields.file) || void 0 === s
                               ? void 0
-                              : o.url,
+                              : s.url,
                       ),
                       "?fit=fill&w=300&h=450",
                     ),
@@ -500,14 +500,14 @@
       var r = l(97458),
         a = l(81039),
         i = l(68956),
-        o = l.n(i),
-        s = l(52983);
+        s = l.n(i),
+        o = l(52983);
       function PaperContainer(e) {
         let { className: t, children: l, ...i } = e,
-          n = (0, s.useRef)(null),
-          [c, d] = (0, s.useState)(0);
+          n = (0, o.useRef)(null),
+          [c, d] = (0, o.useState)(0);
         return (
-          (0, s.useEffect)(() => {
+          (0, o.useEffect)(() => {
             if (n) {
               let e = new ResizeObserver(() => {
                 var e, t;
@@ -543,7 +543,7 @@
                 style: { height: c },
                 className:
                   "pointer-events-none absolute left-0 top-0 w-full overflow-hidden",
-                children: (0, r.jsx)(o(), {
+                children: (0, r.jsx)(s(), {
                   src: "/images/paper-graphics_TOP_1(tinyfied).webp",
                   alt: "Paper Top Overlay",
                   width: "0",
@@ -555,7 +555,7 @@
                 }),
               }),
               c > 1600 &&
-                (0, r.jsx)(o(), {
+                (0, r.jsx)(s(), {
                   src: "/images/paper-graphics_BOTTOM_1(tinyfied).webp",
                   alt: "Paper Bottom Overlay",
                   width: "0",
@@ -570,7 +570,7 @@
                 className:
                   "absolute left-0 top-0 -z-20 hidden h-full w-[8vw] max-w-[104px] bg-[url('/images/paper-edge_long(tinyfied).webp')] bg-repeat-y md:block",
               }),
-              (0, r.jsx)(o(), {
+              (0, r.jsx)(s(), {
                 src: "/images/footer-transition(tinyfied).webp",
                 width: "1920",
                 height: "305",
@@ -601,8 +601,8 @@
             src: t,
             alt: l,
             width: a,
-            height: o,
-            priority: s = !1,
+            height: s,
+            priority: o = !1,
             rotateClass: n = "",
             className: c = "",
             objectFitClass: d = "object-contain",
@@ -611,8 +611,8 @@
           m = "square",
           p = "aspect-square",
           h = "scale-100";
-        if (a && o) {
-          let e = a / o;
+        if (a && s) {
+          let e = a / s;
           0.1 > Math.abs(e - 1)
             ? ((m = "square"),
               (p = "aspect-square w-full"),
@@ -635,7 +635,7 @@
                 src: t,
                 alt: l,
                 fill: !0,
-                priority: s,
+                priority: o,
                 sizes: "(max-width: 1024px) 100vw, 50vw",
                 className: "relative z-20 ".concat(d, " p-2.5"),
               }),
@@ -645,7 +645,7 @@
                 "pointer-events-none absolute inset-0 z-30 object-contain",
               src: "/images/welcome/paper/".concat(m, "-paper-frame.png"),
               alt: "A paper frame around the image",
-              priority: s,
+              priority: o,
               fill: !0,
               sizes: "(max-width: 1024px) 100vw, 50vw",
             }),
@@ -670,9 +670,9 @@
       var r = l(97458),
         a = l(23010),
         i = l(68956),
-        o = l.n(i);
+        s = l.n(i);
       function SignUpCallToAction(e) {
-        var t, l, i, s;
+        var t, l, i, o;
         let { websiteSingleton: n } = e;
         return (0, r.jsxs)("div", {
           className:
@@ -682,15 +682,15 @@
               className:
                 "relative left-0 top-0 aspect-video w-full lg:absolute lg:aspect-auto lg:h-full",
               children: [
-                (0, r.jsx)(o(), {
+                (0, r.jsx)(s(), {
                   fill: !0,
                   alt:
                     null !==
-                      (s =
+                      (o =
                         null === (t = n.footerCtaBackground) || void 0 === t
                           ? void 0
-                          : t.fields.description) && void 0 !== s
-                      ? s
+                          : t.fields.description) && void 0 !== o
+                      ? o
                       : "",
                   src: "https:".concat(
                     null === (i = n.footerCtaBackground) || void 0 === i
@@ -739,8 +739,8 @@
           priority: !0,
         });
       }
-      var o = l(66426),
-        s = l.n(o),
+      var s = l(66426),
+        o = l.n(s),
         n = l(14322),
         c = l(22668);
       function WelcomeSection(e) {
@@ -748,13 +748,13 @@
             title: t,
             children: l,
             showSignUp: a,
-            textAlign: o,
+            textAlign: s,
             largerFont: d,
           } = e,
           u = (0, n.useRouter)();
         return (0, r.jsxs)("div", {
           className: "".concat(
-            o || "text-center",
+            s || "text-center",
             " align-center min-w-0 flex-1 justify-center text-white",
           ),
           children: [
@@ -773,7 +773,7 @@
               children: l,
             }),
             a
-              ? (0, r.jsxs)(s(), {
+              ? (0, r.jsxs)(o(), {
                   className:
                     "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:border-opacity-90 canhover:hover:text-black",
                   onClick: () => {
@@ -818,8 +818,8 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(68956),
-            s = l.n(o),
+            s = l(68956),
+            o = l.n(s),
             n = l(14790),
             c = l(36049),
             d = l(77176),
@@ -827,7 +827,7 @@
             m = e([n]);
           function CharacterModal(e) {
             var t, l, r;
-            let { isOpen: o, onClose: m, slide: p } = e,
+            let { isOpen: s, onClose: m, slide: p } = e,
               h = (0, i.useRef)(null),
               [g, f] = (0, i.useState)(1),
               x = (0, i.useRef)(null),
@@ -853,7 +853,7 @@
               () => {
                 if (
                   (x.current && (x.current.kill(), (x.current = null), f(1)),
-                  o && (null == p ? void 0 : p.images) && p.images.length > 2)
+                  s && (null == p ? void 0 : p.images) && p.images.length > 2)
                 ) {
                   x.current = d.Z.timeline({ repeat: -1 });
                   let e = p.images.length - 1;
@@ -867,13 +867,13 @@
                   x.current && (x.current.kill(), (x.current = null));
                 };
               },
-              { dependencies: [o, p] },
+              { dependencies: [s, p] },
             ),
             (0, c.V)(
               () => {
                 if (h.current) {
                   let e = d.Z.timeline();
-                  o
+                  s
                     ? ((document.body.style.overflow = "hidden"),
                       d.Z.set(h.current, { display: "flex" }),
                       e
@@ -904,7 +904,7 @@
                         .set(h.current, { display: "none" }));
                 }
               },
-              { scope: h, dependencies: [o] },
+              { scope: h, dependencies: [s] },
             ),
             p)
               ? (0, a.jsxs)("div", {
@@ -1051,7 +1051,7 @@
                                   className: "text-lg",
                                   children: v,
                                 }),
-                                (0, a.jsx)(s(), {
+                                (0, a.jsx)(o(), {
                                   width: 369,
                                   height: 3,
                                   src: "/images/welcome/lines/modal-line.svg",
@@ -1067,7 +1067,7 @@
                                         children: "Appears in:",
                                       }),
                                       p.appearsIn.map((e, t) => {
-                                        var l, r, o;
+                                        var l, r, s;
                                         return (0, a.jsxs)(
                                           i.Fragment,
                                           {
@@ -1101,14 +1101,14 @@
                                               }),
                                               t <
                                                 (null !==
-                                                  (o =
+                                                  (s =
                                                     null ===
                                                       (r = p.appearsIn) ||
                                                     void 0 === r
                                                       ? void 0
                                                       : r.length) &&
-                                                void 0 !== o
-                                                  ? o
+                                                void 0 !== s
+                                                  ? s
                                                   : 0) -
                                                   1 && ", ",
                                             ],
@@ -1149,9 +1149,9 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(99288),
-            s = l(68956),
-            n = l.n(s),
+            s = l(99288),
+            o = l(68956),
+            n = l.n(o),
             c = l(14790),
             d = l(4290),
             u = l(43636),
@@ -1161,7 +1161,7 @@
           function CharacterSlider(e) {
             let { slides: t } = e,
               [l, r] = (0, i.useState)(!1),
-              [s, n] = (0, i.useState)(t[0]),
+              [o, n] = (0, i.useState)(t[0]),
               c = (0, i.useRef)(null),
               h = (0, i.useRef)(null),
               g = (0, i.useRef)(null),
@@ -1191,7 +1191,7 @@
               );
             }, [l]);
             let handleSlideClick = (e) => {
-              if ((null == s ? void 0 : s.name) === t[e].name) r(!0);
+              if ((null == o ? void 0 : o.name) === t[e].name) r(!0);
               else {
                 var l, a;
                 (null === (a = h.current) ||
@@ -1250,7 +1250,7 @@
                         }),
                       }),
                       t.length > 0 &&
-                        (0, a.jsx)(o.tq, {
+                        (0, a.jsx)(s.tq, {
                           ref: h,
                           initialSlide: t.length >= 3 ? 2 : 0,
                           rewind: !0,
@@ -1271,12 +1271,12 @@
                           },
                           children: t.map((e, t) =>
                             (0, a.jsx)(
-                              o.o5,
+                              s.o5,
                               {
                                 className: "p-1",
                                 children: (0, a.jsx)(CharacterCard, {
                                   slide: e,
-                                  selectedSlide: s,
+                                  selectedSlide: o,
                                   onClick: () => handleSlideClick(t),
                                 }),
                               },
@@ -1308,7 +1308,7 @@
                   (0, a.jsx)(u.J, {
                     isOpen: l,
                     onClose: () => r(!1),
-                    slide: s,
+                    slide: o,
                   }),
                 ],
               })
@@ -1316,8 +1316,8 @@
           }
           function CharacterCard(e) {
             var t, l;
-            let { slide: r, selectedSlide: i, onClick: o } = e,
-              s =
+            let { slide: r, selectedSlide: i, onClick: s } = e,
+              o =
                 r.images && r.images[0]
                   ? (0, c.Wx)(
                       null === (t = r.images[0].fields.file) || void 0 === t
@@ -1334,7 +1334,7 @@
             return (0, a.jsxs)("div", {
               className:
                 "character-slide group relative cursor-pointer p-1 will-change-transform",
-              onClick: o,
+              onClick: s,
               children: [
                 (0, a.jsxs)("div", {
                   className:
@@ -1346,7 +1346,7 @@
                     ),
                   children: [
                     (0, a.jsx)(n(), {
-                      src: s,
+                      src: o,
                       alt: null != d ? d : "",
                       fill: !0,
                       className:
@@ -1453,8 +1453,8 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(68956),
-            s = l.n(o),
+            s = l(68956),
+            o = l.n(s),
             n = l(77176),
             c = l(36049),
             d = l(67386),
@@ -1464,7 +1464,7 @@
           function Characters(e) {
             var t, l;
             let { welcomePage: r } = e,
-              o = (0, i.useRef)(null),
+              s = (0, i.useRef)(null),
               u = (0, i.useRef)(null),
               p = m().compact(
                 null !==
@@ -1490,10 +1490,10 @@
                     },
                   });
                 },
-                { scope: o },
+                { scope: s },
               ),
               (0, a.jsxs)("div", {
-                ref: o,
+                ref: s,
                 className:
                   "relative bg-[url('/images/hero-texture_dark-wood(tinyfied).jpg')] bg-cover py-32 lg:pb-80 lg:pt-96",
                 children: [
@@ -1501,7 +1501,7 @@
                     ref: u,
                     className:
                       "pointer-events-none absolute left-0 top-0 z-50 w-full -translate-y-1/3 will-change-transform",
-                    children: (0, a.jsx)(s(), {
+                    children: (0, a.jsx)(o(), {
                       width: 1920,
                       height: 1403,
                       alt: "Verdant jungle foliage teems with life, from broad leaves to delicate fronds, highlighted by a cluster of vibrant orange flowers.",
@@ -1520,7 +1520,7 @@
                   (0, a.jsx)("div", {
                     className:
                       "pointer-events-none absolute bottom-0 left-0 z-40 w-full translate-y-1/4",
-                    children: (0, a.jsx)(s(), {
+                    children: (0, a.jsx)(o(), {
                       width: 1920,
                       height: 483,
                       className: "w-full object-cover",
@@ -1549,8 +1549,8 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(68956),
-            s = l.n(o),
+            s = l(68956),
+            o = l.n(s),
             n = l(14790),
             c = l(56313),
             d = l(36049),
@@ -1559,7 +1559,7 @@
           function EquipmentModal(e) {
             var t, l, r;
             let {
-                isOpen: o,
+                isOpen: s,
                 onClose: m,
                 slide: p,
                 onPrevSlide: h,
@@ -1572,7 +1572,7 @@
               () => {
                 if (
                   (w.current && (w.current.kill(), (w.current = null), v(0)),
-                  o && (null == p ? void 0 : p.images) && p.images.length > 1)
+                  s && (null == p ? void 0 : p.images) && p.images.length > 1)
                 ) {
                   w.current = u.Z.timeline({ repeat: -1 });
                   let e = p.images.length;
@@ -1585,13 +1585,13 @@
                   w.current && (w.current.kill(), (w.current = null));
                 };
               },
-              { dependencies: [o, p] },
+              { dependencies: [s, p] },
             ),
             (0, d.V)(
               () => {
                 if (f.current) {
                   let e = u.Z.timeline();
-                  o
+                  s
                     ? ((document.body.style.overflow = "hidden"),
                       u.Z.set(f.current, { display: "flex" }),
                       e
@@ -1622,7 +1622,7 @@
                         .set(f.current, { display: "none" }));
                 }
               },
-              { scope: f, dependencies: [o] },
+              { scope: f, dependencies: [s] },
             ),
             p)
               ? (0, a.jsxs)("div", {
@@ -1773,7 +1773,7 @@
                                   className: "text-lg",
                                   children: p.description,
                                 }),
-                                (0, a.jsx)(s(), {
+                                (0, a.jsx)(o(), {
                                   width: 369,
                                   height: 3,
                                   src: "/images/welcome/lines/modal-line.svg",
@@ -1789,7 +1789,7 @@
                                         children: "Appears in:",
                                       }),
                                       p.appearsIn.map((e, t) => {
-                                        var l, r, o;
+                                        var l, r, s;
                                         return (0, a.jsxs)(
                                           i.Fragment,
                                           {
@@ -1823,14 +1823,14 @@
                                               }),
                                               t <
                                                 (null !==
-                                                  (o =
+                                                  (s =
                                                     null ===
                                                       (r = p.appearsIn) ||
                                                     void 0 === r
                                                       ? void 0
                                                       : r.length) &&
-                                                void 0 !== o
-                                                  ? o
+                                                void 0 !== s
+                                                  ? s
                                                   : 0) -
                                                   1 && ", ",
                                             ],
@@ -1871,8 +1871,8 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(68956),
-            s = l.n(o),
+            s = l(68956),
+            o = l.n(s),
             n = l(77176),
             c = l(36049),
             d = l(14790),
@@ -1884,13 +1884,13 @@
           function EquipmentSlider(e) {
             let { slides: t } = e,
               [l, r] = (0, i.useState)(!1),
-              [o, s] = (0, i.useState)(0),
+              [s, o] = (0, i.useState)(0),
               d = (0, i.useRef)(null),
               h = (0, i.useRef)(null),
               g = (0, i.useRef)(null),
               f = (0, i.useRef)(null),
               handleSlideClick = (e) => {
-                (s(e), r(!0));
+                (o(e), r(!0));
               };
             return (
               (0, i.useEffect)(() => {
@@ -1978,7 +1978,7 @@
                             nextEl: "#equipment-next",
                           },
                           onSlideChange: (e) => {
-                            s(e.realIndex);
+                            o(e.realIndex);
                           },
                           breakpoints: {
                             768: { slidesPerView: 3 },
@@ -1993,9 +1993,9 @@
                                 children: (0, a.jsx)(EquipmentCard, {
                                   slide: e,
                                   index: t,
-                                  selectedIndex: o,
+                                  selectedIndex: s,
                                   onMouseEnter: () => {
-                                    s(t);
+                                    o(t);
                                   },
                                 }),
                               },
@@ -2027,12 +2027,12 @@
                   (0, a.jsx)(p.e, {
                     isOpen: l,
                     onClose: () => r(!1),
-                    slide: t[o],
+                    slide: t[s],
                     onPrevSlide: () => {
-                      0 === o ? s(t.length - 1) : s(o - 1);
+                      0 === s ? o(t.length - 1) : o(s - 1);
                     },
                     onNextSlide: () => {
-                      o === t.length - 1 ? s(0) : s(o + 1);
+                      s === t.length - 1 ? o(0) : o(s + 1);
                     },
                   }),
                 ],
@@ -2041,7 +2041,7 @@
           }
           function EquipmentCard(e) {
             var t, l;
-            let { slide: r, index: i, selectedIndex: o, onMouseEnter: n } = e,
+            let { slide: r, index: i, selectedIndex: s, onMouseEnter: n } = e,
               c =
                 r.images && r.images[0]
                   ? (0, d.Wx)(
@@ -2063,7 +2063,7 @@
                 (0, a.jsxs)("div", {
                   className:
                     "relative aspect-square w-full cursor-pointer transition will-change-transform group-hover:rotate-0 ".concat(
-                      i !== o
+                      i !== s
                         ? i % 2 == 0
                           ? "rotate-2"
                           : i % 2 == 1
@@ -2075,12 +2075,12 @@
                     (0, a.jsx)(h.G, {
                       src: c,
                       alt: null != u ? u : "",
-                      isActive: i === o,
+                      isActive: i === s,
                     }),
                     (0, a.jsx)("div", {
                       className:
                         "pointer-events-none absolute left-0 top-0 z-30 h-full w-full bg-black transition\n          ".concat(
-                          i !== o
+                          i !== s
                             ? "opacity-50 group-hover:opacity-0"
                             : "opacity-0",
                           "\n          ",
@@ -2090,7 +2090,7 @@
                 }),
                 (0, a.jsxs)("div", {
                   className: "".concat(
-                    i !== o ? "opacity-0" : "opacity-100",
+                    i !== s ? "opacity-0" : "opacity-100",
                     "\n      mt-6 flex flex-col items-center opacity-0 transition-opacity duration-300 lg:group-hover:opacity-100",
                   ),
                   children: [
@@ -2112,7 +2112,7 @@
                         (0, a.jsx)("div", {
                           className:
                             "relative h-1 overflow-hidden transition-all delay-100 duration-300 lg:w-0 lg:group-hover:w-full",
-                          children: (0, a.jsx)(s(), {
+                          children: (0, a.jsx)(o(), {
                             width: 80,
                             height: 4,
                             src: "/images/welcome/lines/learn-more-line.png",
@@ -2144,8 +2144,8 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(77176),
-            s = l(38725),
+            s = l(77176),
+            o = l(38725),
             n = l(36049),
             c = l(68956),
             d = l.n(c),
@@ -2201,7 +2201,7 @@
                   l = j.current,
                   r = N.current,
                   a = null == r ? void 0 : r.clientWidth;
-                (o.Z.timeline({
+                (s.Z.timeline({
                   scrollTrigger: {
                     trigger: t,
                     start: "center bottom",
@@ -2221,7 +2221,7 @@
                     { xPercent: 100, y: 100, rotate: -45 },
                     0,
                   ),
-                  o.Z.to(".transition-leaves", {
+                  s.Z.to(".transition-leaves", {
                     scrollTrigger: {
                       trigger: e,
                       start: "top bottom",
@@ -2230,8 +2230,8 @@
                     },
                     yPercent: -35,
                   }));
-                let i = new s.SplitText(".heading-text", { type: "words" });
-                o.Z.timeline({
+                let i = new o.SplitText(".heading-text", { type: "words" });
+                s.Z.timeline({
                   scrollTrigger: { trigger: l, start: "center bottom" },
                 })
                   .set(".heading-underline .streak", { width: a })
@@ -2252,7 +2252,7 @@
                     { y: 0, opacity: 1, duration: 0.8 },
                     "<+=0.2",
                   );
-                let n = o.Z.timeline({
+                let n = s.Z.timeline({
                   scrollTrigger: {
                     trigger: ".lara-main-image",
                     start: "top bottom",
@@ -2267,7 +2267,7 @@
                     scale: 1,
                     opacity: 1,
                     onComplete: () => {
-                      o.Z.to(".topographic-lines", { opacity: 1, duration: 4 });
+                      s.Z.to(".topographic-lines", { opacity: 1, duration: 4 });
                     },
                   },
                 ).fromTo(
@@ -2431,7 +2431,7 @@
       var a = l(68956),
         i = l.n(a);
       function PaperImage(e) {
-        let { src: t, alt: l, isActive: a = !1, isModal: o = !1 } = e;
+        let { src: t, alt: l, isActive: a = !1, isModal: s = !1 } = e;
         return (0, r.jsxs)("div", {
           className: "group relative aspect-square w-full",
           children: [
@@ -2470,7 +2470,7 @@
                     "\n            absolute -left-1.5 -top-1 transition-opacity duration-300\n            "
                       .concat(a ? "opacity-100" : "opacity-0", "\n            ")
                       .concat(
-                        o ? "" : "group-hover:opacity-100",
+                        s ? "" : "group-hover:opacity-100",
                         "\n          ",
                       ),
                   width: 24,
@@ -2483,7 +2483,7 @@
                     "\n            absolute -right-1 -top-1 transition-opacity duration-300\n            "
                       .concat(a ? "opacity-100" : "opacity-0", "\n            ")
                       .concat(
-                        o ? "" : "group-hover:opacity-100",
+                        s ? "" : "group-hover:opacity-100",
                         "\n          ",
                       ),
                   width: 24,
@@ -2496,7 +2496,7 @@
                     "\n            absolute -bottom-1 -left-1 transition-opacity duration-300\n            "
                       .concat(a ? "opacity-100" : "opacity-0", "\n            ")
                       .concat(
-                        o ? "" : "group-hover:opacity-100",
+                        s ? "" : "group-hover:opacity-100",
                         "\n          ",
                       ),
                   width: 24,
@@ -2509,7 +2509,7 @@
                     "\n            absolute -bottom-1 -right-1.5 transition-opacity duration-300\n            "
                       .concat(a ? "opacity-100" : "opacity-0", "\n            ")
                       .concat(
-                        o ? "" : "group-hover:opacity-100",
+                        s ? "" : "group-hover:opacity-100",
                         "\n          ",
                       ),
                   width: 24,
@@ -2534,8 +2534,8 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(77176),
-            s = l(36049),
+            s = l(77176),
+            o = l(36049),
             n = l(63982),
             c = l.n(n),
             d = l(68956),
@@ -2573,16 +2573,17 @@
                   ),
                 [t],
               ),
+              N = ["Survivor", "Classic", "Legend"],
               getUniqueEraNames = (e) => {
                 let t = new Set();
                 return (
                   e.forEach((e) => {
                     e.timelineEra && t.add(e.timelineEra);
                   }),
-                  Array.from(t).sort()
+                  Array.from(t).sort((e, t) => N.indexOf(e) - N.indexOf(t))
                 );
               },
-              N = (0, i.useMemo)(() => {
+              k = (0, i.useMemo)(() => {
                 let e = t.filter((e) => {
                     var t, l;
                     return (
@@ -2639,26 +2640,26 @@
                   filteredAndSortedProducts: r,
                 };
               }, [t, f, v]),
-              k = (0, i.useMemo)(
+              C = (0, i.useMemo)(
                 () =>
-                  Object.keys(N.grouped).sort((e, t) => {
+                  Object.keys(k.grouped).sort((e, t) => {
                     if (v.startsWith("release"))
                       return "release asc" === v
                         ? e.localeCompare(t)
                         : t.localeCompare(e);
                     if (v.startsWith("fiction")) {
-                      let l = N.eraOrder.indexOf(e),
-                        r = N.eraOrder.indexOf(t);
+                      let l = k.eraOrder.indexOf(e),
+                        r = k.eraOrder.indexOf(t);
                       return "fiction asc" === v ? r - l : l - r;
                     }
                     return 0;
                   }),
-                [N, v],
+                [k, v],
               ),
               scrollToTopOfTimeline = () => {
                 l.current &&
                   (b(!0),
-                  o.Z.to(window, {
+                  s.Z.to(window, {
                     duration: 1.5,
                     scrollTo: { y: l.current, offsetY: 0 },
                     ease: "power2.inOut",
@@ -2667,27 +2668,27 @@
                     },
                   }));
               };
-            ((0, s.V)(
+            ((0, o.V)(
               () => {
                 h.current.length &&
                   h.current.forEach((e) => {
                     e.kill();
                   });
-                let e = o.Z.utils.toArray(".timeline-entry");
+                let e = s.Z.utils.toArray(".timeline-entry");
                 (e.forEach((e, t) => {
                   let l = c().create({
                     trigger: e,
                     start: "top center",
                     end: "center center",
                     onEnter: () => {
-                      o.Z.to(n.current, {
+                      s.Z.to(n.current, {
                         rotation: 36 * (t + 1),
                         duration: 4,
                         ease: "elastic.out(1, 0.5)",
                       });
                     },
                     onEnterBack: () => {
-                      o.Z.to(n.current, {
+                      s.Z.to(n.current, {
                         rotation: 36 * t,
                         duration: 4,
                         ease: "elastic.out(1, 0.5)",
@@ -2696,7 +2697,7 @@
                   });
                   h.current.push(l);
                 }),
-                  o.Z.fromTo(
+                  s.Z.fromTo(
                     d.current,
                     { height: 0 },
                     {
@@ -2713,20 +2714,20 @@
               },
               { scope: r, dependencies: [v, f] },
             ),
-              (0, s.V)(
+              (0, o.V)(
                 () => {
                   let e = document.querySelector(".timeline-controls"),
                     showControls = () => {
-                      (o.Z.set(e, { pointerEvents: "auto" }),
-                        o.Z.fromTo(
+                      (s.Z.set(e, { pointerEvents: "auto" }),
+                        s.Z.fromTo(
                           e,
                           { opacity: 0 },
                           { opacity: 1, duration: 0.4, ease: "power2.inOut" },
                         ));
                     },
                     hideControls = () => {
-                      (o.Z.set(e, { pointerEvents: "none" }),
-                        o.Z.fromTo(
+                      (s.Z.set(e, { pointerEvents: "none" }),
+                        s.Z.fromTo(
                           e,
                           { opacity: 1 },
                           { opacity: 0, duration: 0.4, ease: "power2.inOut" },
@@ -2752,7 +2753,7 @@
                 },
                 { scope: l },
               ));
-            let C = 0;
+            let S = 0;
             return (0, a.jsxs)("div", {
               ref: l,
               className:
@@ -2810,7 +2811,7 @@
                     },
                   }),
                 }),
-                k.map((e) =>
+                C.map((e) =>
                   (0, a.jsxs)(
                     "div",
                     {
@@ -2827,9 +2828,9 @@
                           className: "overflow-hidden py-4",
                           children: (0, a.jsx)("div", {
                             className: "relative z-30 mx-auto max-w-6xl",
-                            children: N.grouped[e].map((e) => {
-                              C += 1;
-                              let t = C % 2 == 0;
+                            children: k.grouped[e].map((e) => {
+                              S += 1;
+                              let t = S % 2 == 0;
                               return (0, a.jsxs)(
                                 i.Fragment,
                                 {
@@ -2842,7 +2843,7 @@
                                         height: 1088,
                                         className:
                                           "pointer-events-none absolute ".concat(
-                                            C % 4 == 0
+                                            S % 4 == 0
                                               ? "left-0 -translate-x-1/2 scale-125"
                                               : "right-0 translate-x-1/2 -scale-125",
                                             " opacity-20 lg:w-3/4",
@@ -2850,7 +2851,7 @@
                                       }),
                                     (0, a.jsx)(m.Z, {
                                       product: e,
-                                      index: C - 1,
+                                      index: S - 1,
                                       scrollingToTop: y,
                                     }),
                                   ],
@@ -2866,7 +2867,7 @@
                   ),
                 ),
                 (0, a.jsx)(p.Z, {
-                  products: N.filteredAndSortedProducts,
+                  products: k.filteredAndSortedProducts,
                   uniqueCategories: j,
                   currentCategory: f,
                   currentSortOrder: v,
@@ -2876,7 +2877,7 @@
                   onSortOrderChange: (e) => {
                     (w(e), scrollToTopOfTimeline());
                   },
-                  sortedGroupKeys: k,
+                  sortedGroupKeys: C,
                 }),
                 (0, a.jsx)("div", {
                   className: "sticky bottom-0 left-0",
@@ -2908,15 +2909,15 @@
       var r = l(97458),
         a = l(52983),
         i = l(77176),
-        o = l(36049),
-        s = l(63982),
-        n = l.n(s);
+        s = l(36049),
+        o = l(63982),
+        n = l.n(o);
       function TimelineMenu(e) {
         let {
             products: t,
             activeProduct: l,
-            currentText: o,
-            uniqueCategories: s,
+            currentText: s,
+            uniqueCategories: o,
             currentCategory: n,
             currentSortOrder: c,
             handleProductClick: d,
@@ -2934,7 +2935,7 @@
               g.current &&
               f.current &&
               (g.current.style.width = "".concat(f.current.clientWidth, "px"));
-          }, [o]),
+          }, [s]),
           (0, r.jsx)("div", {
             ref: g,
             className:
@@ -2969,7 +2970,7 @@
                                   value: "all",
                                   children: "All Categories",
                                 }),
-                                s.map((e) =>
+                                o.map((e) =>
                                   (0, r.jsx)(
                                     "option",
                                     {
@@ -3085,24 +3086,24 @@
                     (0, r.jsx)("span", {
                       className:
                         "whitespace-nowrap px-4 font-spline-sans-mono uppercase text-white",
-                      children: o,
+                      children: s,
                     }),
                     (0, r.jsx)("button", {
                       type: "button",
                       onClick: () => {
                         var e, t, l, r, a;
-                        let o =
+                        let s =
                           null === (e = g.current) || void 0 === e
                             ? void 0
                             : e.querySelector(".menu-content");
-                        if (o) {
+                        if (s) {
                           if (p)
                             (null === (t = v.current) ||
                               void 0 === t ||
                               t.classList.remove("pointer-events-none"),
                               i.Z.timeline()
-                                .to(o, { opacity: 0, y: 20, duration: 0.3 })
-                                .set(o, { display: "none" })
+                                .to(s, { opacity: 0, y: 20, duration: 0.3 })
+                                .set(s, { display: "none" })
                                 .to(
                                   g.current,
                                   {
@@ -3135,8 +3136,8 @@
                                 duration: 0.5,
                                 ease: "power2.inOut",
                               })
-                              .set(o, { display: "flex" })
-                              .to(o, { opacity: 1, y: 0, duration: 0.3 });
+                              .set(s, { display: "flex" })
+                              .to(s, { opacity: 1, y: 0, duration: 0.3 });
                           }
                           h(!p);
                         }
@@ -3177,7 +3178,7 @@
                 ease: "power2.inOut",
               });
           },
-          o = (() => {
+          s = (() => {
             if (!l) return null;
             if (a.startsWith("fiction")) return l.timelineEra + " Era";
             if (a.startsWith("release")) {
@@ -3196,7 +3197,7 @@
                   "li",
                   {
                     className: "mb-2 cursor-pointer hover:text-black ".concat(
-                      o === e ? "text-black" : "",
+                      s === e ? "text-black" : "",
                     ),
                     onClick: () => handleGroupClick(e),
                     children: e,
@@ -3228,7 +3229,7 @@
         var t;
         let {
             products: l,
-            uniqueCategories: s,
+            uniqueCategories: o,
             currentCategory: c,
             currentSortOrder: d,
             onCategoryChange: u,
@@ -3257,7 +3258,7 @@
           (0, a.useEffect)(() => {
             (x(null), n().refresh());
           }, [l, c, d]),
-          (0, o.V)(
+          (0, s.V)(
             () => {
               (v.current.forEach((e) => e.kill()), (v.current = []));
               let e = l.map((e) =>
@@ -3299,7 +3300,7 @@
                 products: l,
                 activeProduct: f,
                 currentText: h,
-                uniqueCategories: s,
+                uniqueCategories: o,
                 currentCategory: c,
                 currentSortOrder: d,
                 handleProductClick: (e) => {
@@ -3330,8 +3331,8 @@
         try {
           var a = l(97458),
             i = l(52983),
-            o = l(77176),
-            s = l(38725),
+            s = l(77176),
+            o = l(38725),
             n = l(36049),
             c = l(68956),
             d = l.n(c),
@@ -3374,7 +3375,7 @@
                   d = C.current.querySelector(".button"),
                   u = C.current.querySelector(".content-line");
                 if (
-                  ((S.current = o.Z.timeline({
+                  ((S.current = s.Z.timeline({
                     scrollTrigger: { trigger: l, start: "25% 80%" },
                   })),
                   l &&
@@ -3383,13 +3384,13 @@
                       { opacity: 0 },
                       { opacity: 1, duration: 0.5 },
                     ),
-                  (T.current = o.Z.timeline({
+                  (T.current = s.Z.timeline({
                     scrollTrigger: { trigger: r, start: "top 80%" },
                   })),
                   e)
                 ) {
-                  let l = new s.SplitText(e, { type: "chars, words" });
-                  o.Z.fromTo(
+                  let l = new o.SplitText(e, { type: "chars, words" });
+                  s.Z.fromTo(
                     l.chars,
                     { opacity: 0 },
                     {
@@ -3399,7 +3400,7 @@
                       scrollTrigger: { trigger: e, start: "top 80%" },
                       onComplete: () => {
                         t &&
-                          o.Z.fromTo(
+                          s.Z.fromTo(
                             t,
                             { opacity: 0, x: -10 },
                             {
@@ -3650,8 +3651,8 @@
           });
           var a = l(97458),
             i = l(52983),
-            o = l(77176),
-            s = l(38725),
+            s = l(77176),
+            o = l(38725),
             n = l(36049),
             c = l(68956),
             d = l.n(c),
@@ -3697,9 +3698,9 @@
               }, []),
               (0, n.V)(
                 () => {
-                  let e = o.Z.timeline(),
-                    t = new s.SplitText(".hero-text", { type: "chars, words" });
-                  (o.Z.set(t.chars, {
+                  let e = s.Z.timeline(),
+                    t = new o.SplitText(".hero-text", { type: "chars, words" });
+                  (s.Z.set(t.chars, {
                     scale: 1.3,
                     x: (e) => 16 * e - 8 * t.chars.length,
                   }),
@@ -3721,7 +3722,7 @@
                         { opacity: 1, duration: 0.5 },
                       )
                       .to(".hero-underline", { width: 260, duration: 3 }));
-                  let l = o.Z.timeline({ repeat: -1, repeatDelay: 2 });
+                  let l = s.Z.timeline({ repeat: -1, repeatDelay: 2 });
                   l.to(".down-arrow", {
                     y: 8,
                     duration: 0.6,
@@ -3736,7 +3737,7 @@
               ),
               (0, i.useEffect)(() => {
                 w &&
-                  o.Z.to(".hero-video", {
+                  s.Z.to(".hero-video", {
                     opacity: 1,
                     duration: 1,
                     ease: "power2.inOut",
@@ -3839,7 +3840,7 @@
                                 "#meet-lara-scroll-target",
                               );
                               e &&
-                                o.Z.to(window, {
+                                s.Z.to(window, {
                                   duration: 1.5,
                                   scrollTo: { y: e, offsetY: 85 },
                                   ease: "power2.inOut",
@@ -3913,8 +3914,8 @@
             }));
           var a = l(97458),
             i = l(96931),
-            o = l(69593),
-            s = l(14647),
+            s = l(69593),
+            o = l(14647),
             n = l(96854),
             c = l(78291),
             d = l(4030),
@@ -3923,8 +3924,8 @@
             p = l(40396),
             h = l(9384),
             g = l(48642),
-            f = e([i, s, n, m, p, h, g]);
-          [i, s, n, m, p, h, g] = f.then ? (await f)() : f;
+            f = e([i, o, n, m, p, h, g]);
+          [i, o, n, m, p, h, g] = f.then ? (await f)() : f;
           var x = !0;
           function Welcome(e) {
             var t;
@@ -4037,7 +4038,7 @@
                     ),
                   ],
                 }),
-                (0, a.jsx)(s.ZP, { surveys: [], navItems: d, signUpBanner: w }),
+                (0, a.jsx)(o.ZP, { surveys: [], navItems: d, signUpBanner: w }),
                 (0, a.jsxs)("div", {
                   className: "relative z-10 overflow-x-clip",
                   children: [
@@ -4057,7 +4058,7 @@
                               : "Featured Games",
                         }),
                       }),
-                    (0, a.jsx)(o.Z, { websiteSingleton: f }),
+                    (0, a.jsx)(s.Z, { websiteSingleton: f }),
                   ],
                 }),
                 (0, a.jsx)(n.Z, {
@@ -4102,15 +4103,15 @@
       var r = l(6616),
         a = l(36049),
         i = l(67392),
-        o = l(63982),
-        s = l(29333),
+        s = l(63982),
+        o = l(29333),
         n = l(63686),
         c = l(38725);
       (r.p8.registerPlugin(
         a.V,
         i.Flip,
-        o.ScrollTrigger,
-        s.ScrollToPlugin,
+        s.ScrollTrigger,
+        o.ScrollToPlugin,
         n.ScrollSmoother,
         c.SplitText,
       ),
