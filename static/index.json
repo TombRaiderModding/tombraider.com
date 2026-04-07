@@ -2,6 +2,342 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Tomb Raider: Legend Turns 20 — Celebrating 20 Years with Uncovered Early Gameplay",
+        "slug": "tomb-raider-legend-turns-20-celebrating-20-years-with-uncovered-early",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6KPfjWiWrWki8YH0wFTKoZ",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:14:47.775Z",
+            "updatedAt": "2024-02-05T18:36:21.395Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 8,
+            "revision": 4,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Video Games",
+            "slug": "video-games",
+            "order": 10
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "MOjaAJI7tftAKO7eH2TMl",
+              "type": "Entry",
+              "createdAt": "2023-09-15T19:29:29.703Z",
+              "updatedAt": "2024-02-08T00:34:16.791Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider: Legend",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "260G8XfBNDYRKVoAuqAWGc",
+            "type": "Asset",
+            "createdAt": "2026-04-06T21:38:50.283Z",
+            "updatedAt": "2026-04-06T21:38:50.283Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Editorial Legend Turns 20 Header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/260G8XfBNDYRKVoAuqAWGc/822c2a3a6f30317c9edc0db2e48dd573/Editorial_Legend_Turns_20_Header.png",
+              "details": {
+                "size": 1890791,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "Editorial_Legend_Turns_20_Header.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Tomb Raider: Legend Turns 20 — Celebrating 20 Years with Uncovered Early Gameplay",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Tomb Raider: Legend turns 20 today! ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "To celebrate this round anniversary, we uncovered an ancient artefact for all digital archaeologists in the Tomb Raider community; a never-before-seen early development playthrough footage of a level from ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Legend",
+                  "nodeType": "text"
+                },
+                { "data": {}, "marks": [], "value": ". ", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "At the beginning of development, Crystal Dynamics created their own version of the ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://youtu.be/QA0tgHoUPNM?si=bmUpj8Fb_YMcqJ7V"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "underline" }],
+                      "value": "Lara Croft model from ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "underline" }, { "type": "italic" }],
+                      "value": "Tomb Raider: The Angel of Darkness",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " with the intention of keeping the iconic aspects of her character",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": ". ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "This model was used as the base model for early concept art and gameplay testing before Toby Gard joined the team and played a major role in Lara’s redesign along with character artist Kam Yu. That is why the ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Angel of Darkness",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " model appears in this video playthrough. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The level opens with Lara leaping from a helicopter into a warzone territory, searching for a map hidden inside a temple. This level represents an early version of what would later become the Bolivia level. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3TBJzEHq1ilUCQ9zMxSGlO",
+                    "type": "Entry",
+                    "createdAt": "2026-04-06T21:44:00.442Z",
+                    "updatedAt": "2026-04-06T21:46:33.139Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 10,
+                    "revision": 3,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "embeddedHtml"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "contentfulName": "Tomb Raider Legend - Early Gameplay Demo",
+                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/jeM36NFBLYA?si=DpCY5kUpm3JPGm9A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-entry-block"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "We hope you enjoy this uncovered part of the franchise’s history as we also celebrate 30 years of Tomb Raider. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "publishDate": "2026-04-07",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Lara Croft and the Temple of Osiris Arrives on GameNight",
         "slug": "lara-croft-and-the-temple-of-osiris-arrives-on-gamenight",
         "isLatestNews": true,
@@ -7651,1208 +7987,6 @@
           ]
         },
         "publishDate": "2025-11-18",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Tomb Raider Turns 29!",
-        "slug": "tomb-raider-turns-29",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "5FFz5iSwgZAtZhUE219Cz1",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:12:37.537Z",
-            "updatedAt": "2024-02-05T17:59:57.282Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 16,
-            "revision": 7,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": { "name": "Community", "slug": "community", "order": 45 }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2hiccY1WDxgmeb3ttGf6ik",
-              "type": "Entry",
-              "createdAt": "2023-09-15T19:32:38.378Z",
-              "updatedAt": "2023-09-15T19:32:38.378Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider:  Anniversary",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "38mRRP7cDLXzwhJF2dIdCc",
-              "type": "Entry",
-              "createdAt": "2023-09-15T16:13:19.571Z",
-              "updatedAt": "2023-09-15T16:13:19.571Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Community Spotlight",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "5FFz5iSwgZAtZhUE219Cz1",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:12:37.537Z",
-                  "updatedAt": "2024-02-05T17:59:57.282Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 16,
-                  "revision": 7,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Community",
-                  "slug": "community",
-                  "order": 45
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "2brO8ejWBOCl9fFsSgIbqd",
-            "type": "Asset",
-            "createdAt": "2025-10-20T19:00:00.174Z",
-            "updatedAt": "2025-10-20T19:00:00.174Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "TR 29 Cosplay Winners Article Header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/2brO8ejWBOCl9fFsSgIbqd/90a17ae99db96e1d7092343e03e8d483/Header.png",
-              "details": {
-                "size": 1751044,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "Header.png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider turns 29! Scenes from the fan event in Derby, read classic Tomb Raider comics for free, and a sneak peek at upcoming merch.",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Tomorrow (October 25th, 2025) will be the 29th anniversary of the release of ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " in 1996, marking nearly three decades of tombs, traps, and danger for our favorite adventurer. To commemorate the series' anniversary, we have some announcements and highlights to share.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Read \"The Medusa Mask\" for Free!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "heading-2"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Our partners at Dark Horse recently published an ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://www.darkhorse.com/Books/3015-323/Tomb-Raider-Colossal-Collection-Volume-1-HC"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "omnibus of classic Tomb Raider comics",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", with ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://www.darkhorse.com/Books/3015-324/Tomb-Raider-Colossal-Collection-Volume-2-HC"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "volume 2",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " available for pre-order now.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "To celebrate the upcoming second volume, they have generously provided a digital version of the first arc of Tomb Raider comics, The Medusa Mask, for",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": " free to all Society of Raiders members! ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "All four issues, a total of 95 pages, are available for you to download right now.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "74lHgM9p10YEDAnajeQb1f",
-                    "type": "Asset",
-                    "createdAt": "2025-10-22T17:45:05.379Z",
-                    "updatedAt": "2025-10-22T17:45:05.379Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 5,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "The Medusa Mask cover",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/74lHgM9p10YEDAnajeQb1f/2a7976e2f0f13470a2cf1d84df7cad51/Medusa_Mask_Title_Page.png",
-                      "details": {
-                        "size": 2037874,
-                        "image": { "width": 878, "height": 1310 }
-                      },
-                      "fileName": "Medusa Mask Title Page.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "To download The Medusa Mask, make sure you're logged in (or ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": { "uri": "https://www.tombraider.com/registration" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "sign up",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " if you haven't already) and head to the ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": { "uri": "https://www.tombraider.com/account" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "download section of your dashboard",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ". Then, just click on ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider The Medusa Mask",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " to save it to your machine!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Thanks to Dark Horse for providing this awesome gift to celebrate Tomb Raider's anniversary!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            { "data": {}, "content": [], "nodeType": "hr" },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Holiday Merch",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "heading-2"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Our partners at ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://sharkrobot.com/collections/tomb-raider-all?srsltid=AfmBOoqonlFftj8B5GguWK2OxPINbxmbvrLceIg-DxesNEtzXdsdtfaP"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Shark Robot",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " have been hard at work designing amazing Tomb Raider apparel, and as the holidays approach they will be adding much more to their lineup! Check out some of the cool new pieces that will be arriving in their store soon, including shirts, metal posters, acrylics, and more!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "1ldFGb1ydMnbGncMyzcHGs",
-                    "type": "Asset",
-                    "createdAt": "2025-10-23T19:57:52.421Z",
-                    "updatedAt": "2025-10-23T19:57:52.421Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Shark Robot merch",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1ldFGb1ydMnbGncMyzcHGs/4e72c57ffd80caced20510a23cd770a1/Shark_Robot_merch.png",
-                      "details": {
-                        "size": 1286156,
-                        "image": { "width": 1600, "height": 680 }
-                      },
-                      "fileName": "Shark Robot merch.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            { "data": {}, "content": [], "nodeType": "hr" },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Derby TR29: Fan Event Recap",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "heading-2"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" },
-                {
-                  "data": { "uri": "https://x.com/derbytombraider" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "TR29",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", the annual unofficial Tomb Raider fan event, took place earlier this month in Derby, England, bringing fans together from around the globe. Attendees celebrated the franchise with cosplay, panels, and interviews. Also, courtesy of Legendary Entertainment, fans got to see an exclusive screenshot from the upcoming second season of ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: The Legend of Lara Croft",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "! Thank you to Legendary for premiering this shot for fans at the event.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "TKYrv5rq1mY1MMoqRiHVX",
-                    "type": "Asset",
-                    "createdAt": "2025-10-20T18:54:42.476Z",
-                    "updatedAt": "2025-10-20T18:54:42.476Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 6,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Tomb Raider Derby 29 Legend of Lara Croft S2 preview",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/TKYrv5rq1mY1MMoqRiHVX/dfb674cf7dbce557ccbfde49d4334aa8/01_JLawrence.jpg",
-                      "details": {
-                        "size": 596009,
-                        "image": { "width": 2000, "height": 1334 }
-                      },
-                      "fileName": "01_JLawrence.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Here’s what Luke Earle, TR29’s organiser and host, had to say about this year’s gathering: ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "“", "nodeType": "text" },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Thank you to everyone who came to TR29, our 5th annual event in Derby celebrating all things Tomb Raider. And what an amazing event it was, with Natalie Cook making her Derby debut, Eric Loren's return and of course, the icon that is Judith Gibbins. This year was our biggest yet! With over 250 attendees, of which over 30 cosplayed. This event is by the fans, for the fans, and long may it continue. \nTR29 is over... Here comes TR30!",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": "” ", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "The event kicked off with a panel in which Tomb Jonathon interviewed the first-ever official Lara Croft model, Natalie Cook, about stepping into what would become the start of a tradition in which each main Tomb Raider game would feature its own official Lara Croft model, a tradition which continued all the way through ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Underworld",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": ". ", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "6GFITkcEprwNdBGrijVVEr",
-                    "type": "Asset",
-                    "createdAt": "2025-10-20T18:56:27.155Z",
-                    "updatedAt": "2025-10-20T18:56:27.155Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "02 JLawrence",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/6GFITkcEprwNdBGrijVVEr/ca91116626a2576ecd943d9468387a29/02_JLawrence.jpg",
-                      "details": {
-                        "size": 656329,
-                        "image": { "width": 2000, "height": 1334 }
-                      },
-                      "fileName": "02_JLawrence.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "A returning guest, Eric Loren, the voice of Kurtis Trent, sat down with Steve Of Warr to chat about all things Kurtis. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Steve Of Warr shared a few thoughts about his panel: ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "“", "nodeType": "text" },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Being back at Derby after having to miss out last year's event felt almost like a homecoming of sorts. To me Derby isn’t necessarily all about celebrating the “pomp and circumstance” of Tomb Raider’s history, but is about all the people that keep its legacy alive. In a lot of ways, you could view Derby as a “unification” of the community. No matter which game or era of the series is or isn’t someone’s favourite, it doesn’t matter here. All that just melts away and what we’re left with is a group of people who are here for the same thing…",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": " ", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Getting to meet Eric was a privilege enough, let alone having the opportunity to interview him on a stage and get to chat to him about his experience in the gaming industry. The man was just so excited and thrilled to be among the community again and it very much felt like we were having an open conversation rather than an interview done out of any form of obligation. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "To have a moment to share his stories about Tomb Raider, his other voice work and how it differs from his Tomb Raider work, get to talk about his film and music careers and share that all with the community, was something I thought was really special and I'm humbled/delighted to be a part of it.",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": "” ", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "sokdQxIauilvnyZ1QNqwJ",
-                    "type": "Asset",
-                    "createdAt": "2025-10-20T18:57:10.192Z",
-                    "updatedAt": "2025-10-20T18:57:10.192Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "03 JLawrence",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/sokdQxIauilvnyZ1QNqwJ/b2e7ffb79901d5acb28cd0908dbb15ff/03_JLawrence.jpg",
-                      "details": {
-                        "size": 653294,
-                        "image": { "width": 2000, "height": 1334 }
-                      },
-                      "fileName": "03_JLawrence.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Another returning guest was Judith Gibbins, the voice of Lara Croft in ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider II",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " and ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "III",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", who joined Luke Earle on stage for a Q&A session. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "A first for the event was a Tomb Raider Level Editor panel, celebrating 25 years of fan-made levels using the tools Core Design released with the PC version of ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Chronicles",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ". Panel moderators ArkRaiderMs and Trizzcat led a discussion with level builders Athos, Christopher Lowman (CBL), Gecko, and Titak about their experiences in level creation and how the community has evolved the original tools into modern editors. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Here’s what ArkRaiderMs shared with us: ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "“", "nodeType": "text" },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Trizzcat and I really enjoyed the Tomb Raider Level Editor (TRLE) panel discussion! It gave us a chance to introduce TRLEs to people who may not be familiar with custom levels, delve into the history of the tools and editors, and listen to builders discuss their inspirations and creative processes. We were able to show a beautifully crafted video with TRLE highlights, and the bloopers video and quiz show received well deserved laughs!",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": "” ", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "3XX0Z2hfzoMkCgj72mDcXo",
-                    "type": "Asset",
-                    "createdAt": "2025-10-20T18:57:52.364Z",
-                    "updatedAt": "2025-10-20T18:57:52.364Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "04 JLawrence",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3XX0Z2hfzoMkCgj72mDcXo/fc0ed27ac930652b55138529e7484284/04_JLawrence.jpg",
-                      "details": {
-                        "size": 543183,
-                        "image": { "width": 2000, "height": 1334 }
-                      },
-                      "fileName": "04_JLawrence.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Christopher Lowman returned for his second year with another instalment of his Archaeology of Tomb Raider panel, this time centred on ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Chronicles",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": ". ", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "The event wrapped up with a cosplay parade, and there was certainly no shortage of creativity on display. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Photography by: J Lawrence Photography ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "6rMJFjPq5PfVZjUU1fV8VU",
-                    "type": "Asset",
-                    "createdAt": "2025-10-20T18:58:34.491Z",
-                    "updatedAt": "2025-10-20T18:58:34.491Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "JLawrence-Photography-0380",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/6rMJFjPq5PfVZjUU1fV8VU/62a9ce39548bf8f774335bd38f95d75c/JLawrence-Photography-0380.jpg",
-                      "details": {
-                        "size": 1973999,
-                        "image": { "width": 2000, "height": 1334 }
-                      },
-                      "fileName": "JLawrence-Photography-0380.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "It's been an amazing 29 years since Lara Croft first swan-dived into video game history, and there's much more to come. Stay tuned to Tomb Raider for the latest news!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" },
-                {
-                  "data": { "uri": "https://twitter.com/tombraider" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Twitter/X",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": " | ", "nodeType": "text" },
-                {
-                  "data": { "uri": "https://www.instagram.com/tombraider/" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Instagram ",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": "| ", "nodeType": "text" },
-                {
-                  "data": { "uri": "https://www.facebook.com/TombRaider" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Facebook",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": " | ", "nodeType": "text" },
-                {
-                  "data": { "uri": "https://www.threads.net/@tombraider" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Threads",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": " | ", "nodeType": "text" },
-                {
-                  "data": { "uri": "https://www.tiktok.com/@tombraider" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "TikTok",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": " | ", "nodeType": "text" },
-                {
-                  "data": { "uri": "https://bsky.app/profile/tombraider.com" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Bluesky",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "publishDate": "2025-10-24",
         "hideSocialSharingButtons": false
       }
     ],
