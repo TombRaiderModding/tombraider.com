@@ -52,7 +52,7 @@
           id: u,
           disabled: o,
           className:
-            "border-radius-8 group relative inline-flex items-center justify-center "
+            "border-radius-8 group relative inline-flex items-center justify-center overflow-hidden "
               .concat(e.className, " ")
               .concat(a && "w-full", " ")
               .concat(
@@ -73,7 +73,7 @@
                   "text-black",
                   "text-white",
                 ),
-                " transition duration-300 canhover:hover:border-opacity-90 ",
+                " transition duration-300 ",
               )
               .concat(
                 classForVariant(
@@ -104,18 +104,19 @@
               (0, r.jsxs)("div", {
                 "html-for": u,
                 className:
-                  "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden border-transparent opacity-100 transition duration-300",
+                  "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden opacity-100 transition duration-300",
                 children: [
                   (0, r.jsx)(i(), {
                     src: "/images/fabric-button-texture_teal-1.jpg",
                     fill: !0,
-                    className: "object-cover",
+                    className:
+                      "absolute inset-0 z-10 rounded-md transition duration-300 group-hover:brightness-90",
                     alt: "Green back",
                     sizes: "256px",
                   }),
                   (0, r.jsx)("div", {
                     className:
-                      "pointer-events-none absolute left-0 top-0 h-full w-full bg-teal-500 opacity-0 transition duration-300 canhover:group-hover:opacity-100",
+                      "pointer-events-none absolute inset-0 h-full w-full bg-teal-500",
                   }),
                 ],
               }),
@@ -617,8 +618,8 @@
                 campaignCodesNextToken: B,
                 loadMoreCampaignCodes: O,
                 loadingMoreCampaignCodes: V,
-                actionFeedback: _,
-                onDismissActionFeedback: z,
+                actionFeedback: z,
+                onDismissActionFeedback: _,
               } = e,
               [K, G] = (0, s.useState)(null),
               Q = {
@@ -826,13 +827,13 @@
                       }),
                     ],
                   }),
-                  _.length > 0 &&
+                  z.length > 0 &&
                     (0, l.jsx)("div", {
                       className: "mb-3 space-y-2",
                       role: "status",
                       "aria-live": "polite",
                       "aria-atomic": "false",
-                      children: _.map((e) => {
+                      children: z.map((e) => {
                         let t = Q[e.state];
                         return (0, l.jsxs)(
                           "div",
@@ -865,7 +866,7 @@
                               "in-progress" !== e.state &&
                                 (0, l.jsx)("button", {
                                   type: "button",
-                                  onClick: () => z(e.id),
+                                  onClick: () => _(e.id),
                                   className:
                                     "text-xs font-semibold text-gray-700 underline underline-offset-2 hover:text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
                                   "aria-label": "Dismiss action feedback",
@@ -5047,7 +5048,7 @@
               [Z, P] = (0, n.useState)(null),
               [B, O] = (0, n.useState)(null),
               V = (0, n.useRef)(null),
-              [_, z] = (0, n.useState)([]),
+              [z, _] = (0, n.useState)([]),
               [K, G] = (0, n.useState)(null),
               [Q, H] = (0, n.useState)(null),
               [q, X] = (0, n.useState)(!1),
@@ -5136,7 +5137,7 @@
               [eZ, eP] = (0, n.useState)(null),
               eB = (0, n.useCallback)(async (e) => {
                 var t, a, r;
-                (z([]), G(null), H(null), X(!0), W(!1));
+                (_([]), G(null), H(null), X(!0), W(!1));
                 let l = await (0, i.bt)({ campaignId: e, limit: 50 });
                 if (V.current === e) {
                   if (l.error)
@@ -5145,11 +5146,11 @@
                         ? t
                         : "Failed to load campaign codes",
                     ),
-                      z([]),
+                      _([]),
                       G(null));
                   else {
                     let e = l.data;
-                    (z(
+                    (_(
                       null !== (a = null == e ? void 0 : e.items) &&
                         void 0 !== a
                         ? a
@@ -5204,7 +5205,7 @@
                 },
                 [eB, eO],
               ),
-              e_ = (0, n.useCallback)(
+              ez = (0, n.useCallback)(
                 async (e) => {
                   var t, a;
                   (et(null), J(e));
@@ -5257,7 +5258,7 @@
                 },
                 [j, es, D, en],
               ),
-              ez = (0, n.useCallback)(async () => {
+              e_ = (0, n.useCallback)(async () => {
                 var e, t;
                 if (!B || !K) return;
                 let a = B.id;
@@ -5277,7 +5278,7 @@
                   else {
                     let e = r.data;
                     e &&
-                      (z((t) => {
+                      (_((t) => {
                         var a;
                         return [
                           ...t,
@@ -5483,12 +5484,12 @@
                   campaignExportError: ee,
                   onCreateCodes: eY,
                   onShowCampaignDetails: eV,
-                  onExportCampaignCodes: e_,
+                  onExportCampaignCodes: ez,
                   exportingCampaignId: Y,
                   onEditCampaign: e$,
                   onDeleteCampaign: eW,
                   selectedCampaign: B,
-                  campaignCodes: _,
+                  campaignCodes: z,
                   campaignCodesError: Q,
                   loadingCampaignCodes: q,
                   campaignsById: D,
@@ -5496,7 +5497,7 @@
                   onOpenUser: eE,
                   onOpenRedemptionHistory: eq,
                   campaignCodesNextToken: K,
-                  loadMoreCampaignCodes: ez,
+                  loadMoreCampaignCodes: e_,
                   loadingMoreCampaignCodes: $,
                   actionFeedback: ea,
                   onDismissActionFeedback: ei,

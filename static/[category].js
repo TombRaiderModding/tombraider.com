@@ -58,7 +58,7 @@
             placeholder: h = "Options",
             error: x,
             variant: f,
-            rounded: p = !1,
+            rounded: g = !1,
           } = e,
           getValue = (e) => ("string" == typeof e ? e : e.value),
           getName = (e) => (e ? ("string" == typeof e ? e : e.name) : ""),
@@ -79,7 +79,7 @@
                       ? "rounded-lg border-black/20 px-5 py-3 hover:border-black/40 focus:border-black/40"
                       : "border-gray-300 border-opacity-20 hover:border-white hover:border-opacity-50 focus:border-white focus:border-opacity-100",
                   "dark" === f ? "text-black" : "text-white",
-                  p && "rounded-lg",
+                  g && "rounded-lg",
                 ),
                 children: [
                   c
@@ -176,10 +176,10 @@
             var t, l, r;
             let { websiteSingleton: i, navItems: o, footerSocialLinks: h } = e,
               { isLoggedIn: x, shopifyUrl: f } = (0, c.S)(),
-              p = o.filter(
+              g = o.filter(
                 (e) => e.showInFooter && !(x && e.hideForLoggedInUsers),
               ),
-              g = o.filter(
+              p = o.filter(
                 (e) => e.showInSubFooter && !(x && e.hideForLoggedInUsers),
               );
             return (0, s.jsxs)("div", {
@@ -212,7 +212,7 @@
                       className:
                         "flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg text-darkgray-500 ",
                       children: [
-                        p.map((e) => {
+                        g.map((e) => {
                           let t = e.link;
                           return (
                             e.shouldReplaceWithGeneratedShopLink &&
@@ -301,7 +301,7 @@
                     (0, s.jsx)("div", {
                       className:
                         "flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 text-darkgray-500 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
-                      children: g.map((e) =>
+                      children: p.map((e) =>
                         (0, s.jsx)(
                           "a",
                           { href: e.link, children: e.name },
@@ -596,7 +596,7 @@
             h = l(42897),
             x = l(14790),
             f = l(99288),
-            p = e([i, x]);
+            g = e([i, x]);
           function HorizontalProductList(e) {
             let { products: t, title: l, description: r, isHome: i } = e,
               [o, c] = (0, a.useState)(null);
@@ -698,26 +698,26 @@
           }
           function ProductItem(e) {
             var t, l, r, a, o, d, h, f;
-            let { product: p } = e;
+            let { product: g } = e;
             return (0, s.jsx)("div", {
               className:
                 "group aspect-[2/3] h-auto w-full cursor-pointer shadow-[0_10px_48px_-16px_rgba(0,0,0,1)]",
               children: (0, s.jsxs)(u(), {
                 href: "/products/"
                   .concat(
-                    null === (t = p.category) || void 0 === t
+                    null === (t = g.category) || void 0 === t
                       ? void 0
                       : t.fields.slug,
                     "/",
                   )
-                  .concat(p.slug),
+                  .concat(g.slug),
                 children: [
                   (0, s.jsx)(n(), {
                     fill: !0,
                     alt:
                       null !==
                         (f =
-                          null === (r = (0, i.U7_)(p)) || void 0 === r
+                          null === (r = (0, i.U7_)(g)) || void 0 === r
                             ? void 0
                             : null === (l = r.fields.image) || void 0 === l
                               ? void 0
@@ -726,7 +726,7 @@
                         : "",
                     src: "".concat(
                       (0, x.Wx)(
-                        null === (d = (0, i.U7_)(p)) || void 0 === d
+                        null === (d = (0, i.U7_)(g)) || void 0 === d
                           ? void 0
                           : null === (o = d.fields.image) || void 0 === o
                             ? void 0
@@ -754,7 +754,7 @@
                     children: [
                       (0, s.jsx)("p", {
                         className: "text-xl font-bold",
-                        children: p.title,
+                        children: g.title,
                       }),
                       (0, s.jsxs)("div", {
                         className: "relative my-2 h-[3px] w-full",
@@ -780,12 +780,12 @@
                         children: [
                           (0, s.jsx)("p", {
                             className: "text-sm",
-                            children: (0, c.So)(p.releaseDate),
+                            children: (0, c.So)(g.releaseDate),
                           }),
                           (0, s.jsx)("div", {
                             className: "flex gap-x-2",
                             children:
-                              null === (h = p.ctaButtons) || void 0 === h
+                              null === (h = g.ctaButtons) || void 0 === h
                                 ? void 0
                                 : h.map((e, t) => {
                                     var l, r, i;
@@ -860,7 +860,7 @@
               }),
             });
           }
-          (([i, x] = p.then ? (await p)() : p), r());
+          (([i, x] = g.then ? (await g)() : g), r());
         } catch (e) {
           r(e);
         }
@@ -981,12 +981,12 @@
             h = l(14322),
             x = l(81039),
             f = l(38825),
-            p = l(59909),
-            g = l(14790),
+            g = l(59909),
+            p = l(14790),
             m = l(39378),
             v = l.n(m),
             w = l(91359),
-            b = e([i, g]);
+            b = e([i, p]);
           function ProductsCategoryHero(e) {
             let { categories: t, products: l } = e,
               [r, i] = (0, u.useState)(0),
@@ -1060,7 +1060,7 @@
                                         : r.fields.description) && void 0 !== c
                                   ? c
                                   : "",
-                              src: (0, g.Wx)(
+                              src: (0, p.Wx)(
                                 null == d
                                   ? void 0
                                   : null === (n = d.fields.image) ||
@@ -1158,7 +1158,7 @@
                                 void 0 !== i
                                   ? i
                                   : "",
-                              src: (0, g.Wx)(
+                              src: (0, p.Wx)(
                                 null === (l = e.titleLogo.fields.file) ||
                                   void 0 === l
                                   ? void 0
@@ -1242,8 +1242,8 @@
                   }),
                 }),
                 (0, s.jsx)(GalleryDesktopButtons, { tabs: t }),
-                (0, s.jsx)(p.Z, {
-                  images: l.map(i.Odn).map((e, t) => (0, g.Uj)(e, t, !0)),
+                (0, s.jsx)(g.Z, {
+                  images: l.map(i.Odn).map((e, t) => (0, p.Uj)(e, t, !0)),
                   selectedImageIndex: r,
                   setSelectedImageIndex: a,
                 }),
@@ -1342,7 +1342,7 @@
               ],
             });
           }
-          (([i, g] = b.then ? (await b)() : b), r());
+          (([i, p] = b.then ? (await b)() : b), r());
         } catch (e) {
           r(e);
         }
@@ -1375,12 +1375,12 @@
               navItems: h,
               footerSocialLinks: x,
               surveys: f,
-              signUpBanner: p,
+              signUpBanner: g,
             } = e;
             return (0, s.jsxs)("div", {
               className: "",
               children: [
-                (0, s.jsx)(i.ZP, { surveys: f, navItems: h, signUpBanner: p }),
+                (0, s.jsx)(i.ZP, { surveys: f, navItems: h, signUpBanner: g }),
                 (0, s.jsx)(a.Z, { categories: t, products: l }),
                 (0, s.jsxs)(d.Z, {
                   children: [
@@ -1528,7 +1528,7 @@
             s
               ? (0, r.jsxs)(o(), {
                   className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:border-opacity-90 canhover:hover:text-black",
+                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
                   onClick: () => {
                     u.pathname.includes("/news") &&
                       u.query.category &&
@@ -1539,7 +1539,7 @@
                   children: [
                     (0, r.jsx)("div", {
                       className:
-                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden border-transparent opacity-0 shadow-[0_0px_15px_0px_#F1C662] transition duration-300 canhover:group-hover:opacity-100",
+                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
                       children: (0, r.jsx)(i(), {
                         src: "/images/gold-button-texture-1.jpg",
                         fill: !0,
@@ -1549,8 +1549,7 @@
                       }),
                     }),
                     (0, r.jsx)("span", {
-                      className:
-                        "relative z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
+                      className: "relative z-20",
                       children: "Sign Up",
                     }),
                   ],

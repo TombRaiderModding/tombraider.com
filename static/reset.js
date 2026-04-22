@@ -597,7 +597,7 @@
             n
               ? (0, o.jsxs)(i(), {
                   className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:border-opacity-90 canhover:hover:text-black",
+                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
                   onClick: () => {
                     d.pathname.includes("/news") &&
                       d.query.category &&
@@ -608,7 +608,7 @@
                   children: [
                     (0, o.jsx)("div", {
                       className:
-                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden border-transparent opacity-0 shadow-[0_0px_15px_0px_#F1C662] transition duration-300 canhover:group-hover:opacity-100",
+                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
                       children: (0, o.jsx)(a(), {
                         src: "/images/gold-button-texture-1.jpg",
                         fill: !0,
@@ -618,8 +618,7 @@
                       }),
                     }),
                     (0, o.jsx)("span", {
-                      className:
-                        "relative z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
+                      className: "relative z-20",
                       children: "Sign Up",
                     }),
                   ],
@@ -672,8 +671,8 @@
                 defaultValues: { password: "", confirmPassword: "" },
               }),
               S = (0, p.useRouter)(),
-              [_, j] = (0, f.useState)(!1),
-              [P, R] = (0, f.useState)(void 0);
+              [j, P] = (0, f.useState)(!1),
+              [_, R] = (0, f.useState)(void 0);
             (0, f.useEffect)(() => {
               b &&
                 R(
@@ -691,9 +690,9 @@
                 }
                 R(void 0);
                 let t = { password: e.password, token: g };
-                j(!0);
+                P(!0);
                 let r = await h.c0(t);
-                (j(!1),
+                (P(!1),
                   r.error
                     ? R(r.error.errorMessage)
                     : (E({
@@ -750,10 +749,10 @@
                     className: "mt-12",
                     children: [
                       (0, n.jsx)(a.Z, {
-                        loading: _,
+                        loading: j,
                         children: "Reset Password",
                       }),
-                      (0, n.jsx)(y.Z, { error: P }),
+                      (0, n.jsx)(y.Z, { error: _ }),
                     ],
                   }),
                 ],

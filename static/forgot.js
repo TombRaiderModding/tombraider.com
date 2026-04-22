@@ -85,10 +85,10 @@
             helperText: c,
             ...d
           } = e,
-          [u, p] = (0, a.useState)(!1);
+          [u, m] = (0, a.useState)(!1);
         return (
           (0, a.useEffect)(() => {
-            p(!0);
+            m(!0);
           }, []),
           (0, o.jsxs)("div", {
             className: l && "text-red-500",
@@ -212,7 +212,7 @@
             a
               ? (0, o.jsxs)(n(), {
                   className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:border-opacity-90 canhover:hover:text-black",
+                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
                   onClick: () => {
                     u.pathname.includes("/news") &&
                       u.query.category &&
@@ -223,7 +223,7 @@
                   children: [
                     (0, o.jsx)("div", {
                       className:
-                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden border-transparent opacity-0 shadow-[0_0px_15px_0px_#F1C662] transition duration-300 canhover:group-hover:opacity-100",
+                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
                       children: (0, o.jsx)(s(), {
                         src: "/images/gold-button-texture-1.jpg",
                         fill: !0,
@@ -233,8 +233,7 @@
                       }),
                     }),
                     (0, o.jsx)("span", {
-                      className:
-                        "relative z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
+                      className: "relative z-20",
                       children: "Sign Up",
                     }),
                   ],
@@ -265,24 +264,24 @@
             c = t(96061),
             d = t(86848),
             u = t(52983),
-            p = t(16424),
+            m = t(16424),
             h = t(24148),
-            m = e([i, c, h]);
-          [i, c, h] = m.then ? (await m)() : m;
+            p = e([i, c, h]);
+          [i, c, h] = p.then ? (await p)() : p;
           var x = !0;
           function ForgotPassword(e) {
             let { navItems: r } = e,
               {
                 handleSubmit: t,
                 control: o,
-                setError: m,
+                setError: p,
                 formState: { errors: x },
               } = (0, d.cI)({
                 resolver: (0, l.F)(c.hOb),
                 defaultValues: { email: "" },
               }),
               [f, b] = (0, u.useState)(!1),
-              { addAlert: g } = (0, p.Z)(),
+              { addAlert: g } = (0, m.Z)(),
               handleForgotPassword = async (e) => {
                 b(!0);
                 let r = await h.BL(e);
@@ -290,10 +289,10 @@
                   switch (r.error.error) {
                     case "InvalidEmailOrPassword":
                     case "AccountNotFound":
-                      m("email", { message: r.error.errorMessage });
+                      p("email", { message: r.error.errorMessage });
                       break;
                     default:
-                      m("root", { message: r.error.errorMessage });
+                      p("root", { message: r.error.errorMessage });
                   }
                 else
                   g({

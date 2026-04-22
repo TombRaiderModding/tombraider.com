@@ -23,8 +23,8 @@
           function Avatar(e) {
             var t, r, n, u, m, g, x;
             let { darkMode: f, surveys: p } = e,
-              { userData: b, emailData: v, completedSurveys: y } = (0, l.S)(),
-              [w, j] = (0, o.useState)(!1),
+              { userData: b, emailData: v, completedSurveys: w } = (0, l.S)(),
+              [y, j] = (0, o.useState)(!1),
               [N, k] = (0, o.useState)(0),
               C = (0, o.useMemo)(() => {
                 var e;
@@ -32,11 +32,11 @@
                   (e =
                     null == p
                       ? void 0
-                      : p.filter((e) => !y.includes(e.telemetryId))) &&
+                      : p.filter((e) => !w.includes(e.telemetryId))) &&
                   void 0 !== e
                   ? e
                   : [];
-              }, [p, y]);
+              }, [p, w]);
             (0, o.useEffect)(() => {
               ((v && !v.hasConfirmedEmail) || C.length > 0) && k(1);
             }, [v, null == v ? void 0 : v.hasConfirmedEmail, C]);
@@ -55,7 +55,7 @@
               children: [
                 (0, a.jsx)("div", {
                   onClick: () => {
-                    j(!w);
+                    j(!y);
                   },
                   className: "inline-block cursor-pointer",
                   children: (0, a.jsx)("div", {
@@ -120,7 +120,7 @@
                     }),
                   }),
                 }),
-                (0, a.jsx)(i.Z, { onClose: () => j(!1), open: w }),
+                (0, a.jsx)(i.Z, { onClose: () => j(!1), open: y }),
               ],
             });
           }
@@ -172,7 +172,7 @@
           id: u,
           disabled: o,
           className:
-            "border-radius-8 group relative inline-flex items-center justify-center "
+            "border-radius-8 group relative inline-flex items-center justify-center overflow-hidden "
               .concat(e.className, " ")
               .concat(r && "w-full", " ")
               .concat(
@@ -193,7 +193,7 @@
                   "text-black",
                   "text-white",
                 ),
-                " transition duration-300 canhover:hover:border-opacity-90 ",
+                " transition duration-300 ",
               )
               .concat(
                 classForVariant(
@@ -224,18 +224,19 @@
               (0, n.jsxs)("div", {
                 "html-for": u,
                 className:
-                  "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden border-transparent opacity-100 transition duration-300",
+                  "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden opacity-100 transition duration-300",
                 children: [
                   (0, n.jsx)(i(), {
                     src: "/images/fabric-button-texture_teal-1.jpg",
                     fill: !0,
-                    className: "object-cover",
+                    className:
+                      "absolute inset-0 z-10 rounded-md transition duration-300 group-hover:brightness-90",
                     alt: "Green back",
                     sizes: "256px",
                   }),
                   (0, n.jsx)("div", {
                     className:
-                      "pointer-events-none absolute left-0 top-0 h-full w-full bg-teal-500 opacity-0 transition duration-300 canhover:group-hover:opacity-100",
+                      "pointer-events-none absolute inset-0 h-full w-full bg-teal-500",
                   }),
                 ],
               }),
@@ -321,7 +322,7 @@
               [m, g] = (0, l.useState)(!1),
               [x, f] = (0, l.useState)(null),
               [p, b] = (0, l.useState)(null),
-              [v, y] = (0, l.useState)(!1),
+              [v, w] = (0, l.useState)(!1),
               handleSubmit = async (e) => {
                 e.preventDefault();
                 let t = u.trim();
@@ -329,7 +330,7 @@
                   f("Enter a code to redeem.");
                   return;
                 }
-                (f(null), y(!0));
+                (f(null), w(!0));
                 try {
                   var r, n;
                   if (o) {
@@ -409,10 +410,10 @@
                         : "Unable to preview code.";
                   (b({ type: "error", message: e }), null == d || d(e));
                 } finally {
-                  y(!1);
+                  w(!1);
                 }
               },
-              w = x ? { type: "error", message: x } : p;
+              y = x ? { type: "error", message: x } : p;
             return (0, a.jsxs)("form", {
               onSubmit: handleSubmit,
               className:
@@ -474,18 +475,18 @@
                               " bg-transparent px-4 py-3 text-base outline-none transition  ",
                             )
                             .concat(
-                              (null == w ? void 0 : w.type) === "error"
+                              (null == y ? void 0 : y.type) === "error"
                                 ? "border-red-500"
                                 : "",
                             ),
                         }),
                         (0, a.jsx)("p", {
                           className: "mt-1 min-h-5 text-sm ".concat(
-                            (null == w ? void 0 : w.type) === "error"
+                            (null == y ? void 0 : y.type) === "error"
                               ? "text-red-500"
                               : "text-green-700",
                           ),
-                          children: w && w.message,
+                          children: y && y.message,
                         }),
                       ],
                     }),
@@ -615,8 +616,8 @@
             p = r(22668),
             b = r(17461),
             v = r(37165),
-            y = r(39378),
-            w = r.n(y),
+            w = r(39378),
+            y = r.n(w),
             j = e([i, o, b, v]);
           function Header(e) {
             let {
@@ -626,12 +627,12 @@
                 signUpBanner: a,
               } = e,
               [l, d] = (0, x.useState)(),
-              [m, y] = (0, x.useState)(!1),
+              [m, w] = (0, x.useState)(!1),
               j = (0, h.useRouter)(),
               N = j.query["shopify-redirect"],
-              k = Array.isArray(N) ? w().first(N) : N,
+              k = Array.isArray(N) ? y().first(N) : N,
               C = j.query["aspyr-code"],
-              R = Array.isArray(C) ? w().first(C) : C,
+              R = Array.isArray(C) ? y().first(C) : C,
               [S, A] = (0, x.useState)(2),
               [L, I] = (0, x.useState)(!1),
               { isLoggedIn: Z } = (0, i.S)(),
@@ -789,7 +790,7 @@
                         alt: "hamburger menu",
                         className: "cursor-pointer",
                         src: m ? "/images/close.svg" : "/images/hamburger.svg",
-                        onClick: () => y(!m),
+                        onClick: () => w(!m),
                       }),
                     }),
                     (0, s.jsx)("div", {

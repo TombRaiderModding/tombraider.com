@@ -3928,6 +3928,12 @@ blockquote.tiktok-embed {
 .group:hover .group-hover\:opacity-60 {
   opacity: 0.6;
 }
+.group:hover .group-hover\:brightness-90 {
+  --tw-brightness: brightness(0.9);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+}
 @media (min-width: 640px) {
   .sm\:bottom-8 {
     bottom: 2rem;
@@ -4835,9 +4841,6 @@ blockquote.tiktok-embed {
   }
 }
 @media (hover: hover) {
-  .canhover\:hover\:border-opacity-90:hover {
-    --tw-border-opacity: 0.9;
-  }
   .hover\:canhover\:bg-white\/20:hover {
     background-color: hsla(48, 71%, 96%, 0.2);
   }

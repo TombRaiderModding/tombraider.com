@@ -775,7 +775,7 @@
             a
               ? (0, r.jsxs)(o(), {
                   className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:border-opacity-90 canhover:hover:text-black",
+                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
                   onClick: () => {
                     u.pathname.includes("/news") &&
                       u.query.category &&
@@ -786,7 +786,7 @@
                   children: [
                     (0, r.jsx)("div", {
                       className:
-                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full overflow-hidden border-transparent opacity-0 shadow-[0_0px_15px_0px_#F1C662] transition duration-300 canhover:group-hover:opacity-100",
+                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
                       children: (0, r.jsx)(i(), {
                         src: "/images/gold-button-texture-1.jpg",
                         fill: !0,
@@ -796,8 +796,7 @@
                       }),
                     }),
                     (0, r.jsx)("span", {
-                      className:
-                        "relative z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
+                      className: "relative z-20",
                       children: "Sign Up",
                     }),
                   ],
