@@ -10,7 +10,7 @@ async function downloadFile(url: string, path: string) {
     console.log(url)
     const response = await fetch(url)
 
-    if (!response.ok) {
+    if (!response.ok && !url.includes("404.json")) {
         throw new Error("Unable to download " + url)
     }
 
