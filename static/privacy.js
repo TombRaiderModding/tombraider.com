@@ -1,28 +1,25 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [894],
+  [8318],
   {
-    70607: function (n, u, t) {
+    32212: (e, _, n) => {
+      "use strict";
+      (n.r(_), n.d(_, { default: () => r }));
+      var u = n(2183);
+      n(36439);
+      let r = function () {
+        return (0, u.jsx)("div", {});
+      };
+    },
+    35272: (e, _, n) => {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/external/legal/privacy",
         function () {
-          return t(5091);
+          return n(32212);
         },
       ]);
     },
-    5091: function (n, u, t) {
-      "use strict";
-      t.r(u);
-      var e = t(97458);
-      (t(52983),
-        (u.default = function () {
-          return (0, e.jsx)("div", {});
-        }));
-    },
   },
-  function (n) {
-    (n.O(0, [774, 888, 179], function () {
-      return n((n.s = 70607));
-    }),
-      (_N_E = n.O()));
+  (e) => {
+    (e.O(0, [636, 6593, 8792], () => e((e.s = 35272))), (_N_E = e.O()));
   },
 ]);

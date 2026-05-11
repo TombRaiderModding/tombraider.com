@@ -1,558 +1,14 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [6],
+  [7537],
   {
-    25482: function (e, t, r) {
-      (window.__NEXT_P = window.__NEXT_P || []).push([
-        "/reset-password",
-        function () {
-          return r(81205);
-        },
-      ]);
-    },
-    72404: function (e, t) {
+    7674: (e, r, s) => {
       "use strict";
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        Object.defineProperty(t, "createAsyncLocalStorage", {
-          enumerable: !0,
-          get: function () {
-            return createAsyncLocalStorage;
-          },
-        }));
-      let r = Error(
-        "Invariant: AsyncLocalStorage accessed in runtime where it is not available",
-      );
-      let FakeAsyncLocalStorage = class FakeAsyncLocalStorage {
-        disable() {
-          throw r;
-        }
-        getStore() {}
-        run() {
-          throw r;
-        }
-        exit() {
-          throw r;
-        }
-        enterWith() {
-          throw r;
-        }
-      };
-      let o = globalThis.AsyncLocalStorage;
-      function createAsyncLocalStorage() {
-        return o ? new o() : new FakeAsyncLocalStorage();
-      }
-      ("function" == typeof t.default ||
-        ("object" == typeof t.default && null !== t.default)) &&
-        void 0 === t.default.__esModule &&
-        (Object.defineProperty(t.default, "__esModule", { value: !0 }),
-        Object.assign(t.default, t),
-        (e.exports = t.default));
-    },
-    97091: function (e, t, r) {
-      "use strict";
-      function clientHookInServerComponentError(e) {}
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        Object.defineProperty(t, "clientHookInServerComponentError", {
-          enumerable: !0,
-          get: function () {
-            return clientHookInServerComponentError;
-          },
-        }),
-        r(83166),
-        r(52983),
-        ("function" == typeof t.default ||
-          ("object" == typeof t.default && null !== t.default)) &&
-          void 0 === t.default.__esModule &&
-          (Object.defineProperty(t.default, "__esModule", { value: !0 }),
-          Object.assign(t.default, t),
-          (e.exports = t.default)));
-    },
-    56298: function (e, t, r) {
-      "use strict";
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        (function (e, t) {
-          for (var r in t)
-            Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
-        })(t, {
-          ReadonlyURLSearchParams: function () {
-            return ReadonlyURLSearchParams;
-          },
-          useSearchParams: function () {
-            return useSearchParams;
-          },
-          usePathname: function () {
-            return usePathname;
-          },
-          ServerInsertedHTMLContext: function () {
-            return u.ServerInsertedHTMLContext;
-          },
-          useServerInsertedHTML: function () {
-            return u.useServerInsertedHTML;
-          },
-          useRouter: function () {
-            return useRouter;
-          },
-          useParams: function () {
-            return useParams;
-          },
-          useSelectedLayoutSegments: function () {
-            return useSelectedLayoutSegments;
-          },
-          useSelectedLayoutSegment: function () {
-            return useSelectedLayoutSegment;
-          },
-          redirect: function () {
-            return l.redirect;
-          },
-          permanentRedirect: function () {
-            return l.permanentRedirect;
-          },
-          RedirectType: function () {
-            return l.RedirectType;
-          },
-          notFound: function () {
-            return c.notFound;
-          },
-        }));
-      let o = r(52983),
-        n = r(76608),
-        a = r(92053),
-        s = r(97091),
-        i = r(46520),
-        u = r(85304),
-        l = r(20982),
-        c = r(19125),
-        d = Symbol("internal for urlsearchparams readonly");
-      function readonlyURLSearchParamsError() {
-        return Error("ReadonlyURLSearchParams cannot be modified");
-      }
-      let ReadonlyURLSearchParams = class ReadonlyURLSearchParams {
-        [Symbol.iterator]() {
-          return this[d][Symbol.iterator]();
-        }
-        append() {
-          throw readonlyURLSearchParamsError();
-        }
-        delete() {
-          throw readonlyURLSearchParamsError();
-        }
-        set() {
-          throw readonlyURLSearchParamsError();
-        }
-        sort() {
-          throw readonlyURLSearchParamsError();
-        }
-        constructor(e) {
-          ((this[d] = e),
-            (this.entries = e.entries.bind(e)),
-            (this.forEach = e.forEach.bind(e)),
-            (this.get = e.get.bind(e)),
-            (this.getAll = e.getAll.bind(e)),
-            (this.has = e.has.bind(e)),
-            (this.keys = e.keys.bind(e)),
-            (this.values = e.values.bind(e)),
-            (this.toString = e.toString.bind(e)),
-            (this.size = e.size));
-        }
-      };
-      function useSearchParams() {
-        (0, s.clientHookInServerComponentError)("useSearchParams");
-        let e = (0, o.useContext)(a.SearchParamsContext),
-          t = (0, o.useMemo)(
-            () => (e ? new ReadonlyURLSearchParams(e) : null),
-            [e],
-          );
-        return t;
-      }
-      function usePathname() {
-        return (
-          (0, s.clientHookInServerComponentError)("usePathname"),
-          (0, o.useContext)(a.PathnameContext)
-        );
-      }
-      function useRouter() {
-        (0, s.clientHookInServerComponentError)("useRouter");
-        let e = (0, o.useContext)(n.AppRouterContext);
-        if (null === e)
-          throw Error("invariant expected app router to be mounted");
-        return e;
-      }
-      function useParams() {
-        (0, s.clientHookInServerComponentError)("useParams");
-        let e = (0, o.useContext)(n.GlobalLayoutRouterContext),
-          t = (0, o.useContext)(a.PathParamsContext);
-        return (0, o.useMemo)(
-          () =>
-            (null == e ? void 0 : e.tree)
-              ? (function getSelectedParams(e, t) {
-                  void 0 === t && (t = {});
-                  let r = e[1];
-                  for (let e of Object.values(r)) {
-                    let r = e[0],
-                      o = Array.isArray(r),
-                      n = o ? r[1] : r;
-                    if (!n || n.startsWith("__PAGE__")) continue;
-                    let a = o && ("c" === r[2] || "oc" === r[2]);
-                    (a ? (t[r[0]] = r[1].split("/")) : o && (t[r[0]] = r[1]),
-                      (t = getSelectedParams(e, t)));
-                  }
-                  return t;
-                })(e.tree)
-              : t,
-          [null == e ? void 0 : e.tree, t],
-        );
-      }
-      function useSelectedLayoutSegments(e) {
-        (void 0 === e && (e = "children"),
-          (0, s.clientHookInServerComponentError)("useSelectedLayoutSegments"));
-        let { tree: t } = (0, o.useContext)(n.LayoutRouterContext);
-        return (function getSelectedLayoutSegmentPath(e, t, r, o) {
-          let n;
-          if ((void 0 === r && (r = !0), void 0 === o && (o = []), r))
-            n = e[1][t];
-          else {
-            var a;
-            let t = e[1];
-            n = null != (a = t.children) ? a : Object.values(t)[0];
-          }
-          if (!n) return o;
-          let s = n[0],
-            u = (0, i.getSegmentValue)(s);
-          return !u || u.startsWith("__PAGE__")
-            ? o
-            : (o.push(u), getSelectedLayoutSegmentPath(n, t, !1, o));
-        })(t, e);
-      }
-      function useSelectedLayoutSegment(e) {
-        (void 0 === e && (e = "children"),
-          (0, s.clientHookInServerComponentError)("useSelectedLayoutSegment"));
-        let t = useSelectedLayoutSegments(e);
-        return 0 === t.length ? null : t[0];
-      }
-      ("function" == typeof t.default ||
-        ("object" == typeof t.default && null !== t.default)) &&
-        void 0 === t.default.__esModule &&
-        (Object.defineProperty(t.default, "__esModule", { value: !0 }),
-        Object.assign(t.default, t),
-        (e.exports = t.default));
-    },
-    19125: function (e, t) {
-      "use strict";
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        (function (e, t) {
-          for (var r in t)
-            Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
-        })(t, {
-          notFound: function () {
-            return notFound;
-          },
-          isNotFoundError: function () {
-            return isNotFoundError;
-          },
-        }));
-      let r = "NEXT_NOT_FOUND";
-      function notFound() {
-        let e = Error(r);
-        throw ((e.digest = r), e);
-      }
-      function isNotFoundError(e) {
-        return (null == e ? void 0 : e.digest) === r;
-      }
-      ("function" == typeof t.default ||
-        ("object" == typeof t.default && null !== t.default)) &&
-        void 0 === t.default.__esModule &&
-        (Object.defineProperty(t.default, "__esModule", { value: !0 }),
-        Object.assign(t.default, t),
-        (e.exports = t.default));
-    },
-    20982: function (e, t, r) {
-      "use strict";
-      var o, n;
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        (function (e, t) {
-          for (var r in t)
-            Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
-        })(t, {
-          RedirectType: function () {
-            return o;
-          },
-          getRedirectError: function () {
-            return getRedirectError;
-          },
-          redirect: function () {
-            return redirect;
-          },
-          permanentRedirect: function () {
-            return permanentRedirect;
-          },
-          isRedirectError: function () {
-            return isRedirectError;
-          },
-          getURLFromRedirectError: function () {
-            return getURLFromRedirectError;
-          },
-          getRedirectTypeFromError: function () {
-            return getRedirectTypeFromError;
-          },
-        }));
-      let a = r(76501),
-        s = "NEXT_REDIRECT";
-      function getRedirectError(e, t, r) {
-        void 0 === r && (r = !1);
-        let o = Error(s);
-        o.digest = s + ";" + t + ";" + e + ";" + r;
-        let n = a.requestAsyncStorage.getStore();
-        return (n && (o.mutableCookies = n.mutableCookies), o);
-      }
-      function redirect(e, t) {
-        throw (void 0 === t && (t = "replace"), getRedirectError(e, t, !1));
-      }
-      function permanentRedirect(e, t) {
-        throw (void 0 === t && (t = "replace"), getRedirectError(e, t, !0));
-      }
-      function isRedirectError(e) {
-        if ("string" != typeof (null == e ? void 0 : e.digest)) return !1;
-        let [t, r, o, n] = e.digest.split(";", 4);
-        return (
-          t === s &&
-          ("replace" === r || "push" === r) &&
-          "string" == typeof o &&
-          ("true" === n || "false" === n)
-        );
-      }
-      function getURLFromRedirectError(e) {
-        return isRedirectError(e) ? e.digest.split(";", 3)[2] : null;
-      }
-      function getRedirectTypeFromError(e) {
-        if (!isRedirectError(e)) throw Error("Not a redirect error");
-        return e.digest.split(";", 3)[1];
-      }
-      (((n = o || (o = {})).push = "push"),
-        (n.replace = "replace"),
-        ("function" == typeof t.default ||
-          ("object" == typeof t.default && null !== t.default)) &&
-          void 0 === t.default.__esModule &&
-          (Object.defineProperty(t.default, "__esModule", { value: !0 }),
-          Object.assign(t.default, t),
-          (e.exports = t.default)));
-    },
-    76501: function (e, t, r) {
-      "use strict";
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        Object.defineProperty(t, "requestAsyncStorage", {
-          enumerable: !0,
-          get: function () {
-            return n;
-          },
-        }));
-      let o = r(72404),
-        n = (0, o.createAsyncLocalStorage)();
-      ("function" == typeof t.default ||
-        ("object" == typeof t.default && null !== t.default)) &&
-        void 0 === t.default.__esModule &&
-        (Object.defineProperty(t.default, "__esModule", { value: !0 }),
-        Object.assign(t.default, t),
-        (e.exports = t.default));
-    },
-    46520: function (e, t) {
-      "use strict";
-      function getSegmentValue(e) {
-        return Array.isArray(e) ? e[1] : e;
-      }
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        Object.defineProperty(t, "getSegmentValue", {
-          enumerable: !0,
-          get: function () {
-            return getSegmentValue;
-          },
-        }),
-        ("function" == typeof t.default ||
-          ("object" == typeof t.default && null !== t.default)) &&
-          void 0 === t.default.__esModule &&
-          (Object.defineProperty(t.default, "__esModule", { value: !0 }),
-          Object.assign(t.default, t),
-          (e.exports = t.default)));
-    },
-    85304: function (e, t, r) {
-      "use strict";
-      (Object.defineProperty(t, "__esModule", { value: !0 }),
-        (function (e, t) {
-          for (var r in t)
-            Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
-        })(t, {
-          ServerInsertedHTMLContext: function () {
-            return a;
-          },
-          useServerInsertedHTML: function () {
-            return useServerInsertedHTML;
-          },
-        }));
-      let o = r(44925),
-        n = o._(r(52983)),
-        a = n.default.createContext(null);
-      function useServerInsertedHTML(e) {
-        let t = (0, n.useContext)(a);
-        t && t(e);
-      }
-    },
-    94225: function (e, t, r) {
-      "use strict";
-      r.d(t, {
-        Z: function () {
-          return ErrorLabel;
-        },
-      });
-      var o = r(97458);
-      function ErrorLabel(e) {
-        var t;
-        let { error: r } = e;
-        return (0, o.jsx)("p", {
-          className: "text-red-error mt-1 min-h-5 text-sm",
-          children:
-            "string" == typeof r
-              ? r
-              : null == r
-                ? void 0
-                : null === (t = r.message) || void 0 === t
-                  ? void 0
-                  : t.toString(),
-        });
-      }
-    },
-    80879: function (e, t, r) {
-      "use strict";
-      r.a(e, async function (e, o) {
-        try {
-          var n = r(97458),
-            a = r(52983),
-            s = r(14647),
-            i = r(23010),
-            u = e([s]);
-          s = (u.then ? (await u)() : u)[0];
-          let l = (0, a.forwardRef)((e, t) => {
-            let { children: r, WelcomeSectionProps: o, navItems: a } = e;
-            return (0, n.jsx)("main", {
-              children: (0, n.jsxs)("div", {
-                ref: t,
-                className:
-                  "relative flex h-svh flex-col items-center overflow-x-hidden",
-                children: [
-                  (0, n.jsx)(s.ZP, { isSticky: !0, navItems: a }),
-                  (0, n.jsx)("div", {
-                    className:
-                      "flex w-full flex-1 flex-col items-center justify-center",
-                    children: (0, n.jsxs)("div", {
-                      className: "w-full max-w-7xl px-8 pb-20 pt-8 lg:pt-20",
-                      children: [o && (0, n.jsx)(i.Z, { ...o }), r],
-                    }),
-                  }),
-                ],
-              }),
-            });
-          });
-          ((l.displayName = "FormWrapper"), (t.Z = l), o());
-        } catch (e) {
-          o(e);
-        }
-      });
-    },
-    32583: function (e, t, r) {
-      "use strict";
-      var o = r(97458),
-        n = r(52983),
-        a = r(94225),
-        s = r(68956),
-        i = r.n(s);
-      let u = (0, n.forwardRef)((e, t) => {
-        let {
-            variant: r = "normal",
-            label: s,
-            error: u,
-            helperText: l,
-            ...c
-          } = e,
-          [d, f] = (0, n.useState)(!1);
-        return (
-          (0, n.useEffect)(() => {
-            f(!0);
-          }, []),
-          (0, o.jsxs)("div", {
-            className: u && "text-red-500",
-            children: [
-              (0, o.jsxs)("span", {
-                className: "mb-1 flex items-center",
-                children: [
-                  (0, o.jsx)("label", {
-                    className: "leading-none",
-                    children: s,
-                  }),
-                  d &&
-                    l &&
-                    (0, o.jsxs)("div", {
-                      className: "group relative",
-                      children: [
-                        (0, o.jsx)(i(), {
-                          alt: "Helper icon",
-                          priority: !0,
-                          className: "ml-1 h-6 w-6",
-                          src:
-                            "normal" === r
-                              ? "/images/help-white.svg"
-                              : "/images/help-black.svg",
-                          height: "0",
-                          width: "0",
-                        }),
-                        (0, o.jsxs)("div", {
-                          "data-popover": !0,
-                          id: "popover-default",
-                          role: "tooltip",
-                          className:
-                            "pointer-events-none absolute -left-20 bottom-[calc(100%+1rem)] z-10 inline-block w-52 rounded-lg border border-yellow-500/70 bg-black text-sm text-white opacity-0 shadow-sm transition-opacity duration-300 group-hover:opacity-100 sm:bottom-auto sm:left-12 sm:top-0 sm:w-64 ",
-                          children: [
-                            (0, o.jsx)("div", {
-                              className: "px-3 py-2",
-                              children: (0, o.jsx)("p", { children: l }),
-                            }),
-                            (0, o.jsx)("div", { "data-popper-arrow": !0 }),
-                          ],
-                        }),
-                      ],
-                    }),
-                ],
-              }),
-              (0, o.jsx)("input", {
-                ...c,
-                ref: t,
-                className: "w-full border-2 ".concat(
-                  "normal" === r
-                    ? "".concat(
-                        u
-                          ? "border-red-500 border-opacity-40 hover:border-red-500 hover:border-opacity-70 focus:border-red-500 focus:border-opacity-70"
-                          : "border-gray-300 border-opacity-20 hover:border-white hover:border-opacity-50 focus:border-white focus:border-opacity-100",
-                        " bg-white bg-opacity-20 text-white ",
-                      )
-                    : "border-gray-500 border-opacity-30 bg-gray-800 bg-opacity-10 text-black hover:border-gray-800 hover:border-opacity-60 focus:border-gray-800 focus:border-opacity-80",
-                  "   px-3 py-4  outline-none backdrop-blur duration-200",
-                ),
-              }),
-              (0, o.jsx)(a.Z, { error: u }),
-            ],
-          })
-        );
-      });
-      t.Z = u;
-    },
-    23010: function (e, t, r) {
-      "use strict";
-      r.d(t, {
-        Z: function () {
-          return WelcomeSection;
-        },
-      });
-      var o = r(97458),
-        n = r(68956),
-        a = r.n(n);
-      function Divider() {
-        return (0, o.jsx)(a(), {
+      s.d(r, { A: () => m });
+      var t = s(2183),
+        a = s(96006),
+        o = s.n(a);
+      function l() {
+        return (0, t.jsx)(o(), {
           src: "/images/divider.svg",
           className: "my-12 w-full",
           width: "0",
@@ -561,55 +17,55 @@
           priority: !0,
         });
       }
-      var s = r(66426),
-        i = r.n(s),
-        u = r(14322),
-        l = r(22668);
-      function WelcomeSection(e) {
+      var i = s(11677),
+        n = s.n(i),
+        d = s(18652),
+        c = s(608);
+      function m(e) {
         let {
-            title: t,
-            children: r,
-            showSignUp: n,
-            textAlign: s,
-            largerFont: c,
+            title: r,
+            children: s,
+            showSignUp: a,
+            textAlign: i,
+            largerFont: m,
           } = e,
-          d = (0, u.useRouter)();
-        return (0, o.jsxs)("div", {
+          u = (0, d.useRouter)();
+        return (0, t.jsxs)("div", {
           className: "".concat(
-            s || "text-center",
+            i || "text-center",
             " align-center min-w-0 flex-1 justify-center text-white",
           ),
           children: [
-            (0, o.jsx)("h2", {
+            (0, t.jsx)("h2", {
               className: "".concat(
-                c ? "text-5xl leading-[110%] lg:text-7xl" : "text-5xl",
+                m ? "text-5xl leading-[110%] lg:text-7xl" : "text-5xl",
                 " font-normal tracking-normal drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
-              ),
-              children: t,
-            }),
-            (0, o.jsx)("p", {
-              className: "".concat(
-                c && "text-lg leading-[150%] lg:text-xl",
-                " pt-8 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
               ),
               children: r,
             }),
-            n
-              ? (0, o.jsxs)(i(), {
+            (0, t.jsx)("p", {
+              className: "".concat(
+                m && "text-lg leading-[150%] lg:text-xl",
+                " pt-8 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
+              ),
+              children: s,
+            }),
+            a
+              ? (0, t.jsxs)(n(), {
                   className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
+                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500/50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
                   onClick: () => {
-                    d.pathname.includes("/news") &&
-                      d.query.category &&
-                      d.query.article &&
-                      (0, l.OR)(window.location.href);
+                    u.pathname.includes("/news") &&
+                      u.query.category &&
+                      u.query.article &&
+                      (0, c.d4)(window.location.href);
                   },
                   href: "/registration",
                   children: [
-                    (0, o.jsx)("div", {
+                    (0, t.jsx)("div", {
                       className:
                         "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
-                      children: (0, o.jsx)(a(), {
+                      children: (0, t.jsx)(o(), {
                         src: "/images/gold-button-texture-1.jpg",
                         fill: !0,
                         className: "object-cover",
@@ -617,170 +73,288 @@
                         sizes: "256px",
                       }),
                     }),
-                    (0, o.jsx)("span", {
+                    (0, t.jsx)("span", {
                       className: "relative z-20",
                       children: "Sign Up",
                     }),
                   ],
                 })
-              : (0, o.jsx)(Divider, {}),
+              : (0, t.jsx)(l, {}),
           ],
         });
       }
     },
-    81205: function (e, t, r) {
+    39023: (e, r, s) => {
       "use strict";
-      r.a(e, async function (e, o) {
+      s.a(e, async (e, t) => {
         try {
-          (r.r(t),
-            r.d(t, {
-              __N_SSG: function () {
-                return b;
-              },
-              default: function () {
-                return ResetPassword;
-              },
-            }));
-          var n = r(97458),
-            a = r(42897),
-            s = r(80879),
-            i = r(32583),
-            u = r(81581),
-            l = r(86848),
-            c = r(63935),
-            d = r(96133),
-            f = r(52983),
-            p = r(14322),
-            m = r(16424),
-            h = r(24148),
-            y = r(94225),
-            g = e([s, h]);
-          [s, h] = g.then ? (await g)() : g;
-          var b = !0;
-          function ResetPassword(e) {
-            let { websiteSingleton: t, navItems: r } = e,
-              o = (0, d.useSearchParams)(),
-              g = null == o ? void 0 : o.get("token"),
-              b = null == o ? void 0 : o.get("errorCode"),
+          (s.r(r), s.d(r, { __N_SSG: () => v, default: () => g }));
+          var a = s(2183),
+            o = s(15711),
+            l = s(39334),
+            i = s(40502),
+            n = s(73357),
+            d = s(80777),
+            c = s(64087),
+            m = s(87531),
+            u = s(36439),
+            p = s(18652),
+            x = s(77752),
+            h = s(55109),
+            w = s(67895),
+            f = e([l, h]);
+          [l, h] = f.then ? (await f)() : f;
+          var v = !0;
+          function g(e) {
+            let { websiteSingleton: r, navItems: s } = e,
+              t = (0, m.useSearchParams)(),
+              f = null == t ? void 0 : t.get("token"),
+              v = null == t ? void 0 : t.get("errorCode"),
               {
-                handleSubmit: v,
-                control: x,
-                formState: { errors: w },
-              } = (0, l.cI)({
-                resolver: (0, u.F)(c.S),
+                handleSubmit: g,
+                control: b,
+                formState: { errors: j },
+              } = (0, d.mN)({
+                resolver: (0, n.u)(c.o),
                 defaultValues: { password: "", confirmPassword: "" },
               }),
-              S = (0, p.useRouter)(),
-              [j, P] = (0, f.useState)(!1),
-              [_, R] = (0, f.useState)(void 0);
-            (0, f.useEffect)(() => {
-              b &&
-                R(
+              y = (0, p.useRouter)(),
+              [N, P] = (0, u.useState)(!1),
+              [_, k] = (0, u.useState)(void 0);
+            (0, u.useEffect)(() => {
+              v &&
+                k(
                   "Something went wrong with the link you used. Please try sending another email.",
                 );
-            }, [b]);
-            let { addAlert: E } = (0, m.Z)(),
-              handleForgotPassword = async (e) => {
-                if (!g) {
-                  if (b) return;
-                  R(
+            }, [v]);
+            let { addAlert: S } = (0, x.Z)(),
+              A = async (e) => {
+                if (!f) {
+                  if (v) return;
+                  k(
                     "Token is missing in URL. Please use the link from your email to reset your password.",
                   );
                   return;
                 }
-                R(void 0);
-                let t = { password: e.password, token: g };
+                k(void 0);
+                let r = { password: e.password, token: f };
                 P(!0);
-                let r = await h.c0(t);
+                let s = await h.xw(r);
                 (P(!1),
-                  r.error
-                    ? R(r.error.errorMessage)
-                    : (E({
+                  s.error
+                    ? k(s.error.errorMessage)
+                    : (S({
                         title: "Password Successfully Reset",
                         children: "Your password has successfully been reset!",
                       }),
-                      S.replace("/login")));
+                      y.replace("/login")));
               };
-            return (0, n.jsx)(s.Z, {
+            return (0, a.jsx)(l.A, {
               WelcomeSectionProps: {
-                title: t.resetPasswordTitle,
-                children: t.resetPasswordDescription,
+                title: r.resetPasswordTitle,
+                children: r.resetPasswordDescription,
               },
-              navItems: r,
-              children: (0, n.jsxs)("form", {
-                onSubmit: v(handleForgotPassword),
+              navItems: s,
+              children: (0, a.jsxs)("form", {
+                onSubmit: g(A),
                 autoComplete: "on",
                 children: [
-                  (0, n.jsx)("div", {
+                  (0, a.jsx)("div", {
                     className: "mb-4",
-                    children: (0, n.jsx)(l.Qr, {
+                    children: (0, a.jsx)(d.xI, {
                       name: "password",
-                      control: x,
+                      control: b,
                       render: (e) => {
-                        let { field: t } = e;
-                        return (0, n.jsx)(i.Z, {
+                        let { field: r } = e;
+                        return (0, a.jsx)(i.A, {
                           type: "password",
                           label: "Password",
-                          error: w.password,
+                          error: j.password,
                           autoComplete: "new-password",
-                          ...t,
+                          ...r,
                         });
                       },
                     }),
                   }),
-                  (0, n.jsx)("div", {
+                  (0, a.jsx)("div", {
                     className: "mb-4",
-                    children: (0, n.jsx)(l.Qr, {
+                    children: (0, a.jsx)(d.xI, {
                       name: "confirmPassword",
-                      control: x,
+                      control: b,
                       render: (e) => {
-                        let { field: t } = e;
-                        return (0, n.jsx)(i.Z, {
+                        let { field: r } = e;
+                        return (0, a.jsx)(i.A, {
                           type: "password",
                           label: "Confirm Password",
                           autoComplete: "new-password",
-                          error: w.confirmPassword,
-                          ...t,
+                          error: j.confirmPassword,
+                          ...r,
                         });
                       },
                     }),
                   }),
-                  (0, n.jsxs)("div", {
+                  (0, a.jsxs)("div", {
                     className: "mt-12",
                     children: [
-                      (0, n.jsx)(a.Z, {
-                        loading: j,
+                      (0, a.jsx)(o.A, {
+                        loading: N,
                         children: "Reset Password",
                       }),
-                      (0, n.jsx)(y.Z, { error: _ }),
+                      (0, a.jsx)(w.A, { error: _ }),
                     ],
                   }),
                 ],
               }),
             });
           }
-          o();
+          t();
         } catch (e) {
-          o(e);
+          t(e);
         }
       });
     },
-    63935: function (e, t, r) {
+    39334: (e, r, s) => {
       "use strict";
-      r.d(t, {
-        S: function () {
-          return n;
-        },
+      s.a(e, async (e, t) => {
+        try {
+          s.d(r, { A: () => c });
+          var a = s(2183),
+            o = s(36439),
+            l = s(95216),
+            i = s(7674),
+            n = e([l]);
+          l = (n.then ? (await n)() : n)[0];
+          let d = (0, o.forwardRef)((e, r) => {
+            let { children: s, WelcomeSectionProps: t, navItems: o } = e;
+            return (0, a.jsx)("main", {
+              children: (0, a.jsxs)("div", {
+                ref: r,
+                className:
+                  "relative flex h-svh flex-col items-center overflow-x-hidden",
+                children: [
+                  (0, a.jsx)(l.Ay, { isSticky: !0, navItems: o }),
+                  (0, a.jsx)("div", {
+                    className:
+                      "flex w-full flex-1 flex-col items-center justify-center",
+                    children: (0, a.jsxs)("div", {
+                      className: "w-full max-w-7xl px-8 pb-20 pt-8 lg:pt-20",
+                      children: [t && (0, a.jsx)(i.A, { ...t }), s],
+                    }),
+                  }),
+                ],
+              }),
+            });
+          });
+          d.displayName = "FormWrapper";
+          let c = d;
+          t();
+        } catch (e) {
+          t(e);
+        }
       });
-      var o = r(1850);
-      let n = o.z
-        .object({
-          password: o.z
-            .string()
+    },
+    40502: (e, r, s) => {
+      "use strict";
+      s.d(r, { A: () => d });
+      var t = s(2183),
+        a = s(36439),
+        o = s(67895),
+        l = s(96006),
+        i = s.n(l);
+      let n = (0, a.forwardRef)((e, r) => {
+        var s;
+        let {
+            variant: l = "normal",
+            label: n,
+            error: d,
+            helperText: c,
+            ...m
+          } = e,
+          [u, p] = (0, a.useState)(!1);
+        return (
+          (0, a.useEffect)(() => {
+            p(!0);
+          }, []),
+          (0, t.jsxs)("div", {
+            className: d && "text-red-500",
+            children: [
+              (0, t.jsxs)("span", {
+                className: "mb-1 flex items-center",
+                children: [
+                  (0, t.jsx)("label", {
+                    className: "leading-none",
+                    children: n,
+                  }),
+                  u &&
+                    c &&
+                    (0, t.jsxs)("div", {
+                      className: "group relative",
+                      children: [
+                        (0, t.jsx)(i(), {
+                          alt: "Helper icon",
+                          priority: !0,
+                          className: "ml-1 h-6 w-6",
+                          src:
+                            "normal" === l
+                              ? "/images/help-white.svg"
+                              : "/images/help-black.svg",
+                          height: "0",
+                          width: "0",
+                        }),
+                        (0, t.jsxs)("div", {
+                          "data-popover": !0,
+                          id: "popover-default",
+                          role: "tooltip",
+                          className:
+                            "pointer-events-none absolute bottom-[calc(100%+1rem)] -left-20 z-10 inline-block w-52 rounded-lg border border-yellow-500/70 bg-black text-sm text-white opacity-0 shadow-sm transition-opacity duration-300 group-hover:opacity-100 sm:top-0 sm:bottom-auto sm:left-12 sm:w-64",
+                          children: [
+                            (0, t.jsx)("div", {
+                              className: "px-3 py-2",
+                              children: (0, t.jsx)("p", { children: c }),
+                            }),
+                            (0, t.jsx)("div", { "data-popper-arrow": !0 }),
+                          ],
+                        }),
+                      ],
+                    }),
+                ],
+              }),
+              (0, t.jsx)("input", {
+                ...m,
+                ref: r,
+                className: "w-full border-2 ".concat(
+                  ((s = "".concat(
+                    d
+                      ? "border-red-500/40 hover:border-red-500/70 focus:border-red-500/70"
+                      : "border-gray-300/20 hover:border-white/50 focus:border-white",
+                    " bg-white/20 text-white",
+                  )),
+                  "normal" === l
+                    ? s
+                    : "border-gray-500/30 bg-gray-800/10 text-black hover:border-gray-800/60 focus:border-gray-800/80"),
+                  " px-3 py-4 backdrop-blur duration-200 outline-none",
+                ),
+              }),
+              (0, t.jsx)(o.A, { error: d }),
+            ],
+          })
+        );
+      });
+      n.displayName = "TextField";
+      let d = n;
+    },
+    64087: (e, r, s) => {
+      "use strict";
+      s.d(r, { o: () => a });
+      var t = s(46951);
+      let a = t
+        .Ikc({
+          password: t
+            .YjP()
             .max(100, "Password is at most 100 characters")
             .min(6),
-          confirmPassword: o.z
-            .string()
+          confirmPassword: t
+            .YjP()
             .max(100, "Password is at most 100 characters")
             .min(6),
         })
@@ -789,14 +363,37 @@
           path: ["confirmPassword"],
         });
     },
-    96133: function (e, t, r) {
-      e.exports = r(56298);
+    67895: (e, r, s) => {
+      "use strict";
+      s.d(r, { A: () => a });
+      var t = s(2183);
+      function a(e) {
+        var r;
+        let { error: s } = e;
+        return (0, t.jsx)("p", {
+          className: "text-red-error mt-1 min-h-5 text-sm",
+          children:
+            "string" == typeof s
+              ? s
+              : null == s || null == (r = s.message)
+                ? void 0
+                : r.toString(),
+        });
+      }
+    },
+    69234: (e, r, s) => {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        "/reset-password",
+        function () {
+          return s(39023);
+        },
+      ]);
     },
   },
-  function (e) {
-    (e.O(0, [46, 956, 672, 696, 647, 774, 888, 179], function () {
-      return e((e.s = 25482));
-    }),
+  (e) => {
+    (e.O(0, [9950, 6006, 1433, 3357, 7531, 5216, 636, 6593, 8792], () =>
+      e((e.s = 69234)),
+    ),
       (_N_E = e.O()));
   },
 ]);

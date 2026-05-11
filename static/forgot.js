@@ -1,173 +1,14 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [742],
+  [9461],
   {
-    7166: function (e, r, t) {
-      (window.__NEXT_P = window.__NEXT_P || []).push([
-        "/forgot-password",
-        function () {
-          return t(10725);
-        },
-      ]);
-    },
-    94225: function (e, r, t) {
+    7674: (e, r, t) => {
       "use strict";
-      t.d(r, {
-        Z: function () {
-          return ErrorLabel;
-        },
-      });
-      var o = t(97458);
-      function ErrorLabel(e) {
-        var r;
-        let { error: t } = e;
-        return (0, o.jsx)("p", {
-          className: "text-red-error mt-1 min-h-5 text-sm",
-          children:
-            "string" == typeof t
-              ? t
-              : null == t
-                ? void 0
-                : null === (r = t.message) || void 0 === r
-                  ? void 0
-                  : r.toString(),
-        });
-      }
-    },
-    80879: function (e, r, t) {
-      "use strict";
-      t.a(e, async function (e, o) {
-        try {
-          var a = t(97458),
-            s = t(52983),
-            i = t(14647),
-            n = t(23010),
-            l = e([i]);
-          i = (l.then ? (await l)() : l)[0];
-          let c = (0, s.forwardRef)((e, r) => {
-            let { children: t, WelcomeSectionProps: o, navItems: s } = e;
-            return (0, a.jsx)("main", {
-              children: (0, a.jsxs)("div", {
-                ref: r,
-                className:
-                  "relative flex h-svh flex-col items-center overflow-x-hidden",
-                children: [
-                  (0, a.jsx)(i.ZP, { isSticky: !0, navItems: s }),
-                  (0, a.jsx)("div", {
-                    className:
-                      "flex w-full flex-1 flex-col items-center justify-center",
-                    children: (0, a.jsxs)("div", {
-                      className: "w-full max-w-7xl px-8 pb-20 pt-8 lg:pt-20",
-                      children: [o && (0, a.jsx)(n.Z, { ...o }), t],
-                    }),
-                  }),
-                ],
-              }),
-            });
-          });
-          ((c.displayName = "FormWrapper"), (r.Z = c), o());
-        } catch (e) {
-          o(e);
-        }
-      });
-    },
-    32583: function (e, r, t) {
-      "use strict";
-      var o = t(97458),
-        a = t(52983),
-        s = t(94225),
-        i = t(68956),
-        n = t.n(i);
-      let l = (0, a.forwardRef)((e, r) => {
-        let {
-            variant: t = "normal",
-            label: i,
-            error: l,
-            helperText: c,
-            ...d
-          } = e,
-          [u, m] = (0, a.useState)(!1);
-        return (
-          (0, a.useEffect)(() => {
-            m(!0);
-          }, []),
-          (0, o.jsxs)("div", {
-            className: l && "text-red-500",
-            children: [
-              (0, o.jsxs)("span", {
-                className: "mb-1 flex items-center",
-                children: [
-                  (0, o.jsx)("label", {
-                    className: "leading-none",
-                    children: i,
-                  }),
-                  u &&
-                    c &&
-                    (0, o.jsxs)("div", {
-                      className: "group relative",
-                      children: [
-                        (0, o.jsx)(n(), {
-                          alt: "Helper icon",
-                          priority: !0,
-                          className: "ml-1 h-6 w-6",
-                          src:
-                            "normal" === t
-                              ? "/images/help-white.svg"
-                              : "/images/help-black.svg",
-                          height: "0",
-                          width: "0",
-                        }),
-                        (0, o.jsxs)("div", {
-                          "data-popover": !0,
-                          id: "popover-default",
-                          role: "tooltip",
-                          className:
-                            "pointer-events-none absolute -left-20 bottom-[calc(100%+1rem)] z-10 inline-block w-52 rounded-lg border border-yellow-500/70 bg-black text-sm text-white opacity-0 shadow-sm transition-opacity duration-300 group-hover:opacity-100 sm:bottom-auto sm:left-12 sm:top-0 sm:w-64 ",
-                          children: [
-                            (0, o.jsx)("div", {
-                              className: "px-3 py-2",
-                              children: (0, o.jsx)("p", { children: c }),
-                            }),
-                            (0, o.jsx)("div", { "data-popper-arrow": !0 }),
-                          ],
-                        }),
-                      ],
-                    }),
-                ],
-              }),
-              (0, o.jsx)("input", {
-                ...d,
-                ref: r,
-                className: "w-full border-2 ".concat(
-                  "normal" === t
-                    ? "".concat(
-                        l
-                          ? "border-red-500 border-opacity-40 hover:border-red-500 hover:border-opacity-70 focus:border-red-500 focus:border-opacity-70"
-                          : "border-gray-300 border-opacity-20 hover:border-white hover:border-opacity-50 focus:border-white focus:border-opacity-100",
-                        " bg-white bg-opacity-20 text-white ",
-                      )
-                    : "border-gray-500 border-opacity-30 bg-gray-800 bg-opacity-10 text-black hover:border-gray-800 hover:border-opacity-60 focus:border-gray-800 focus:border-opacity-80",
-                  "   px-3 py-4  outline-none backdrop-blur duration-200",
-                ),
-              }),
-              (0, o.jsx)(s.Z, { error: l }),
-            ],
-          })
-        );
-      });
-      r.Z = l;
-    },
-    23010: function (e, r, t) {
-      "use strict";
-      t.d(r, {
-        Z: function () {
-          return WelcomeSection;
-        },
-      });
-      var o = t(97458),
-        a = t(68956),
-        s = t.n(a);
-      function Divider() {
-        return (0, o.jsx)(s(), {
+      t.d(r, { A: () => m });
+      var a = t(2183),
+        s = t(96006),
+        l = t.n(s);
+      function o() {
+        return (0, a.jsx)(l(), {
           src: "/images/divider.svg",
           className: "my-12 w-full",
           width: "0",
@@ -176,55 +17,55 @@
           priority: !0,
         });
       }
-      var i = t(66426),
+      var i = t(11677),
         n = t.n(i),
-        l = t(14322),
-        c = t(22668);
-      function WelcomeSection(e) {
+        c = t(18652),
+        d = t(608);
+      function m(e) {
         let {
             title: r,
             children: t,
-            showSignUp: a,
+            showSignUp: s,
             textAlign: i,
-            largerFont: d,
+            largerFont: m,
           } = e,
-          u = (0, l.useRouter)();
-        return (0, o.jsxs)("div", {
+          u = (0, c.useRouter)();
+        return (0, a.jsxs)("div", {
           className: "".concat(
             i || "text-center",
             " align-center min-w-0 flex-1 justify-center text-white",
           ),
           children: [
-            (0, o.jsx)("h2", {
+            (0, a.jsx)("h2", {
               className: "".concat(
-                d ? "text-5xl leading-[110%] lg:text-7xl" : "text-5xl",
+                m ? "text-5xl leading-[110%] lg:text-7xl" : "text-5xl",
                 " font-normal tracking-normal drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
               ),
               children: r,
             }),
-            (0, o.jsx)("p", {
+            (0, a.jsx)("p", {
               className: "".concat(
-                d && "text-lg leading-[150%] lg:text-xl",
+                m && "text-lg leading-[150%] lg:text-xl",
                 " pt-8 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
               ),
               children: t,
             }),
-            a
-              ? (0, o.jsxs)(n(), {
+            s
+              ? (0, a.jsxs)(n(), {
                   className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500 border-opacity-50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
+                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500/50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
                   onClick: () => {
                     u.pathname.includes("/news") &&
                       u.query.category &&
                       u.query.article &&
-                      (0, c.OR)(window.location.href);
+                      (0, d.d4)(window.location.href);
                   },
                   href: "/registration",
                   children: [
-                    (0, o.jsx)("div", {
+                    (0, a.jsx)("div", {
                       className:
                         "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
-                      children: (0, o.jsx)(s(), {
+                      children: (0, a.jsx)(l(), {
                         src: "/images/gold-button-texture-1.jpg",
                         fill: !0,
                         className: "object-cover",
@@ -232,105 +73,97 @@
                         sizes: "256px",
                       }),
                     }),
-                    (0, o.jsx)("span", {
+                    (0, a.jsx)("span", {
                       className: "relative z-20",
                       children: "Sign Up",
                     }),
                   ],
                 })
-              : (0, o.jsx)(Divider, {}),
+              : (0, a.jsx)(o, {}),
           ],
         });
       }
     },
-    10725: function (e, r, t) {
+    11789: (e, r, t) => {
       "use strict";
-      t.a(e, async function (e, o) {
+      t.a(e, async (e, a) => {
         try {
-          (t.r(r),
-            t.d(r, {
-              __N_SSG: function () {
-                return x;
-              },
-              default: function () {
-                return ForgotPassword;
-              },
-            }));
-          var a = t(97458),
-            s = t(42897),
-            i = t(80879),
-            n = t(32583),
-            l = t(81581),
-            c = t(96061),
-            d = t(86848),
-            u = t(52983),
-            m = t(16424),
-            h = t(24148),
-            p = e([i, c, h]);
-          [i, c, h] = p.then ? (await p)() : p;
-          var x = !0;
-          function ForgotPassword(e) {
+          (t.r(r), t.d(r, { __N_SSG: () => p, default: () => f }));
+          var s = t(2183),
+            l = t(15711),
+            o = t(39334),
+            i = t(40502),
+            n = t(73357),
+            c = t(75109),
+            d = t(80777),
+            m = t(36439),
+            u = t(77752),
+            x = t(55109),
+            h = e([o, c, x]);
+          [o, c, x] = h.then ? (await h)() : h;
+          var p = !0;
+          function f(e) {
             let { navItems: r } = e,
               {
                 handleSubmit: t,
-                control: o,
-                setError: p,
-                formState: { errors: x },
-              } = (0, d.cI)({
-                resolver: (0, l.F)(c.hOb),
+                control: a,
+                setError: h,
+                formState: { errors: p },
+              } = (0, d.mN)({
+                resolver: (0, n.u)(c.yDN),
                 defaultValues: { email: "" },
               }),
-              [f, b] = (0, u.useState)(!1),
-              { addAlert: g } = (0, m.Z)(),
-              handleForgotPassword = async (e) => {
-                b(!0);
-                let r = await h.BL(e);
-                if ((b(!1), r.error))
+              [f, g] = (0, m.useState)(!1),
+              { addAlert: v } = (0, u.Z)(),
+              w = async (e) => {
+                g(!0);
+                let r = await x.iC(e);
+                if ((g(!1), r.error))
                   switch (r.error.error) {
                     case "InvalidEmailOrPassword":
                     case "AccountNotFound":
-                      p("email", { message: r.error.errorMessage });
+                      h("email", { message: r.error.errorMessage });
                       break;
                     default:
-                      p("root", { message: r.error.errorMessage });
+                      h("root", { message: r.error.errorMessage });
                   }
                 else
-                  g({
+                  v({
                     title: "Email sent!",
                     children:
                       "Please check your email for further instructions.",
                   });
               };
-            return (0, a.jsx)(i.Z, {
+            return (0, s.jsx)(o.A, {
               WelcomeSectionProps: {
                 title: "Forgot Password",
                 children:
                   "Forgot Password? Enter your email below to reset your password.",
               },
               navItems: r,
-              children: (0, a.jsxs)("form", {
-                onSubmit: t(handleForgotPassword),
+              children: (0, s.jsxs)("form", {
+                onSubmit: t(w),
                 autoComplete: "on",
                 children: [
-                  (0, a.jsx)("div", {
+                  (0, s.jsx)("div", {
                     className: "mb-4",
-                    children: (0, a.jsx)(d.Qr, {
+                    children: (0, s.jsx)(d.xI, {
                       name: "email",
-                      control: o,
+                      control: a,
                       render: (e) => {
                         let { field: r } = e;
-                        return (0, a.jsx)(n.Z, {
+                        return (0, s.jsx)(i.A, {
                           label: "Email",
-                          error: x.email,
+                          error: p.email,
                           autoComplete: "email",
                           ...r,
                         });
                       },
                     }),
                   }),
-                  (0, a.jsx)("div", {
+                  (0, s.jsx)("div", {
                     className: "mt-12",
-                    children: (0, a.jsx)(s.Z, {
+                    children: (0, s.jsx)(l.A, {
                       loading: f,
                       children: "Send Reset Email",
                     }),
@@ -339,17 +172,173 @@
               }),
             });
           }
-          o();
+          a();
         } catch (e) {
-          o(e);
+          a(e);
         }
       });
     },
+    39334: (e, r, t) => {
+      "use strict";
+      t.a(e, async (e, a) => {
+        try {
+          t.d(r, { A: () => d });
+          var s = t(2183),
+            l = t(36439),
+            o = t(95216),
+            i = t(7674),
+            n = e([o]);
+          o = (n.then ? (await n)() : n)[0];
+          let c = (0, l.forwardRef)((e, r) => {
+            let { children: t, WelcomeSectionProps: a, navItems: l } = e;
+            return (0, s.jsx)("main", {
+              children: (0, s.jsxs)("div", {
+                ref: r,
+                className:
+                  "relative flex h-svh flex-col items-center overflow-x-hidden",
+                children: [
+                  (0, s.jsx)(o.Ay, { isSticky: !0, navItems: l }),
+                  (0, s.jsx)("div", {
+                    className:
+                      "flex w-full flex-1 flex-col items-center justify-center",
+                    children: (0, s.jsxs)("div", {
+                      className: "w-full max-w-7xl px-8 pb-20 pt-8 lg:pt-20",
+                      children: [a && (0, s.jsx)(i.A, { ...a }), t],
+                    }),
+                  }),
+                ],
+              }),
+            });
+          });
+          c.displayName = "FormWrapper";
+          let d = c;
+          a();
+        } catch (e) {
+          a(e);
+        }
+      });
+    },
+    40502: (e, r, t) => {
+      "use strict";
+      t.d(r, { A: () => c });
+      var a = t(2183),
+        s = t(36439),
+        l = t(67895),
+        o = t(96006),
+        i = t.n(o);
+      let n = (0, s.forwardRef)((e, r) => {
+        var t;
+        let {
+            variant: o = "normal",
+            label: n,
+            error: c,
+            helperText: d,
+            ...m
+          } = e,
+          [u, x] = (0, s.useState)(!1);
+        return (
+          (0, s.useEffect)(() => {
+            x(!0);
+          }, []),
+          (0, a.jsxs)("div", {
+            className: c && "text-red-500",
+            children: [
+              (0, a.jsxs)("span", {
+                className: "mb-1 flex items-center",
+                children: [
+                  (0, a.jsx)("label", {
+                    className: "leading-none",
+                    children: n,
+                  }),
+                  u &&
+                    d &&
+                    (0, a.jsxs)("div", {
+                      className: "group relative",
+                      children: [
+                        (0, a.jsx)(i(), {
+                          alt: "Helper icon",
+                          priority: !0,
+                          className: "ml-1 h-6 w-6",
+                          src:
+                            "normal" === o
+                              ? "/images/help-white.svg"
+                              : "/images/help-black.svg",
+                          height: "0",
+                          width: "0",
+                        }),
+                        (0, a.jsxs)("div", {
+                          "data-popover": !0,
+                          id: "popover-default",
+                          role: "tooltip",
+                          className:
+                            "pointer-events-none absolute bottom-[calc(100%+1rem)] -left-20 z-10 inline-block w-52 rounded-lg border border-yellow-500/70 bg-black text-sm text-white opacity-0 shadow-sm transition-opacity duration-300 group-hover:opacity-100 sm:top-0 sm:bottom-auto sm:left-12 sm:w-64",
+                          children: [
+                            (0, a.jsx)("div", {
+                              className: "px-3 py-2",
+                              children: (0, a.jsx)("p", { children: d }),
+                            }),
+                            (0, a.jsx)("div", { "data-popper-arrow": !0 }),
+                          ],
+                        }),
+                      ],
+                    }),
+                ],
+              }),
+              (0, a.jsx)("input", {
+                ...m,
+                ref: r,
+                className: "w-full border-2 ".concat(
+                  ((t = "".concat(
+                    c
+                      ? "border-red-500/40 hover:border-red-500/70 focus:border-red-500/70"
+                      : "border-gray-300/20 hover:border-white/50 focus:border-white",
+                    " bg-white/20 text-white",
+                  )),
+                  "normal" === o
+                    ? t
+                    : "border-gray-500/30 bg-gray-800/10 text-black hover:border-gray-800/60 focus:border-gray-800/80"),
+                  " px-3 py-4 backdrop-blur duration-200 outline-none",
+                ),
+              }),
+              (0, a.jsx)(l.A, { error: c }),
+            ],
+          })
+        );
+      });
+      n.displayName = "TextField";
+      let c = n;
+    },
+    67895: (e, r, t) => {
+      "use strict";
+      t.d(r, { A: () => s });
+      var a = t(2183);
+      function s(e) {
+        var r;
+        let { error: t } = e;
+        return (0, a.jsx)("p", {
+          className: "text-red-error mt-1 min-h-5 text-sm",
+          children:
+            "string" == typeof t
+              ? t
+              : null == t || null == (r = t.message)
+                ? void 0
+                : r.toString(),
+        });
+      }
+    },
+    92058: (e, r, t) => {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        "/forgot-password",
+        function () {
+          return t(11789);
+        },
+      ]);
+    },
   },
-  function (e) {
-    (e.O(0, [46, 956, 672, 696, 647, 774, 888, 179], function () {
-      return e((e.s = 7166));
-    }),
+  (e) => {
+    (e.O(0, [9950, 6006, 1433, 3357, 5216, 636, 6593, 8792], () =>
+      e((e.s = 92058)),
+    ),
       (_N_E = e.O()));
   },
 ]);
