@@ -470,7 +470,7 @@
             "id": "2AV8uswVWXjlBmtnpo2RAR",
             "type": "Asset",
             "createdAt": "2026-03-13T16:51:03.699Z",
-            "updatedAt": "2026-03-13T16:51:03.699Z",
+            "updatedAt": "2026-05-22T21:23:54.335Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -478,13 +478,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "Temple of osiris blog header",
-            "description": "",
+            "description": "Dramatic Tomb Raider promotional key art featuring four heroes standing together in a battle-ready pose against a dark, smoky, ruins-filled background. At the center is Lara Croft, depicted in her classic look with dark ponytail, teal tank top, brown shorts, and knee pads, dual-wielding pistols with both guns firing. To her left stands a muscular man in a red shirt firing a revolver with a red energy flash. To her right is a warrior dressed in an ancient Egyptian pharaoh's nemes headdress and armor, wielding a large staff. Furthest right is a young woman in Egyptian-style robes raising a glowing blue magical scepter. Looming behind the group is a massive snarling black wolf-like creature with bared fangs, emerging from the darkness. Scorpion claws and twisted dark tree branches frame the edges of the composition, reinforcing the supernatural danger the heroes face.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/2AV8uswVWXjlBmtnpo2RAR/7228974f834d87dba2c2b7661ff55006/Temple_of_osiris_blog_header.jpg",
               "details": {
@@ -607,7 +607,7 @@
                     "id": "2oUPSQIhGRKxQ2DKtVb2zA",
                     "type": "Asset",
                     "createdAt": "2026-03-13T16:54:39.122Z",
-                    "updatedAt": "2026-03-13T16:54:39.122Z",
+                    "updatedAt": "2026-05-22T21:16:57.922Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -615,13 +615,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "LC2 Screenshot Ball Cage",
-                    "description": "",
+                    "description": "A Tomb Raider game screenshot depicting an intense isometric combat scene set in a circular sandy arena at night. The enclosed battlefield is surrounded by wooden spike fences and tall dark barriers, with torches burning along the perimeter. At the center stands a crumbling ancient stone rotunda structure engulfed in fire and debris. Two player characters are visible — one on the upper left highlighted with a red selection ring aiming a weapon, and one on the upper right with a green ring in a combat stance. A third character near the bottom center is surrounded by a blue magical circle. The arena floor is scattered with glowing teal Zia symbol rings, purple gem pickups, a yellow arc marker, and green energy pools near the central structure. Explosions, fire bursts, smoke clouds, flying debris, and white energy beams fill the chaotic scene, suggesting a major battle or boss encounter in progress.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/2oUPSQIhGRKxQ2DKtVb2zA/921433f9b6c0d2e3d746fa1b3af8f314/LC2_Screenshot_Ball_Cage.jpg",
                       "details": {
@@ -715,7 +715,7 @@
                     "id": "2tUwnB8w4Gf6BFpV6X6Eni",
                     "type": "Asset",
                     "createdAt": "2026-03-13T16:56:31.552Z",
-                    "updatedAt": "2026-03-13T16:56:31.552Z",
+                    "updatedAt": "2026-05-22T21:02:32.149Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -723,13 +723,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "LC2 Screenshot Puzzle",
-                    "description": "",
+                    "description": "An isometric view of a combat scene inside an ancient Egyptian tomb or temple. The sandy, torchlit environment features stone brick walls, carved pharaoh statues, crumbling columns, and a row of tall metal spikes serving as a barrier across the middle of the scene. Four characters are engaged in battle: one character highlighted with a red danger ring appears to be under attack on the left side of the spikes, while another raises a glowing orb nearby. On the right side, a heavily armored warrior character stands within a teal glowing shield ability circle, and a third enemy holds a red flare. Teal and blue magical energy effects illuminate the ground around the fighters. Wall-mounted torches and small braziers cast warm orange light throughout the dimly lit stone chamber.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/2tUwnB8w4Gf6BFpV6X6Eni/824b687ed18b26e42e14f95c85cc3f4a/LC2_Screenshot_Puzzle.jpg",
                       "details": {
@@ -811,7 +811,7 @@
                     "id": "5oqfWU4QT8jYACUDt43E9r",
                     "type": "Asset",
                     "createdAt": "2026-03-13T16:55:24.393Z",
-                    "updatedAt": "2026-03-13T16:55:24.393Z",
+                    "updatedAt": "2026-05-22T21:07:28.758Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -819,13 +819,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "LC2 Screenshot Flood Tomb",
-                    "description": "",
+                    "description": "A Tomb Raider game screenshot showing an isometric combat scene set in a darkened, overgrown ancient ruins courtyard at night. The multi-tiered stone environment is covered in vines and moss, lit by scattered torches and glowing blue crystals on the ground. Four characters are engaged in battle across different levels of the ruins: one character ringed in red is fighting a skeleton enemy in the foreground, another with a green selection ring is firing a weapon in the center, a third is conjuring a teal magical energy beam on the upper right, and a yellow glowing ring marks another position nearby. Swirling smoke, ice crystal effects, and magical blue light trails fill the scene. Stone archways, clay pots, crumbling columns, and overgrown walls decorate the atmospheric background, creating a haunted, ancient temple atmosphere.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/5oqfWU4QT8jYACUDt43E9r/2c8ff051f399016a614af0909490ee5c/LC2_Screenshot_Flood_Tomb.jpg",
                       "details": {
@@ -1261,7 +1261,7 @@
             "id": "6N2chidaeFHgd7UUHq3geW",
             "type": "Asset",
             "createdAt": "2026-03-10T17:25:53.787Z",
-            "updatedAt": "2026-03-10T17:25:53.787Z",
+            "updatedAt": "2026-05-22T21:32:33.719Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -1269,13 +1269,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "TRchallenge mode blog header",
-            "description": "",
+            "description": "Tomb Raider game promotional artwork showcasing three different costume variants or skins of Lara Croft displayed side by side against a dark textured background with three vertical panel backdrops. The center figure is the most prominent, depicted in ornate gold and bronze ancient warrior armor with a red scarf, gold laurel leaf hair accessory, and a braided updo, set against a warm amber temple background. To the left, Lara wears a green and black futuristic wetsuit with tactical goggles pushed up on her head, carrying a scoped assault rifle, set against an underwater teal backdrop. To the right, Lara is styled in a sleek olive/military green tactical outfit with aviator sunglasses and a side braid, dual-wielding silver pistols against a dark green background. All three versions share the same confident, combat-ready expression and stylized animated art style.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/6N2chidaeFHgd7UUHq3geW/fa4e93151a617987456bd96d70f464db/TRchallenge_mode_blog_header.jpg",
               "details": {
@@ -1529,7 +1529,7 @@
                     "id": "gEgDG6A5itFS4NihCOktl",
                     "type": "Asset",
                     "createdAt": "2026-03-10T17:12:38.676Z",
-                    "updatedAt": "2026-03-10T17:12:38.676Z",
+                    "updatedAt": "2026-05-22T21:55:22.164Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1537,13 +1537,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Outfit Examples",
-                    "description": "",
+                    "description": "A Tomb Raider promotional image advertising unlockable cosmetic content, with bold white text at the bottom reading \"UNLOCK 10 NEW OUTFITS.\" Ten versions of Lara Croft are displayed in a lineup against a dark textured background, each wearing a distinct costume skin. From left to right the outfits include: a dark navy tactical suit with gold belt, a red racing jacket with goggles and grey pants, a pink and gold fantasy warrior outfit with armor shoulder pads, a sleek grey pilot or spy jumpsuit with blue-tinted glasses, a striking red and gold Asian-inspired royal outfit with a gold crown centerpiece, a sporty crop top and red patterned shorts with orange sunglasses, a black and neon green athletic racing bodysuit with knee pads, a gold and bronze striped fantasy skirt armor set, and a classic tan safari explorer outfit with a white hat. Each Lara model shares the same stylized animated character design but is differentiated by her unique costume, color palette, and accessories.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/gEgDG6A5itFS4NihCOktl/401924ada25e6821793a56fd6cd7482a/Outfit_Examples.jpg",
                       "details": {
@@ -1612,7 +1612,7 @@
                     "id": "107FE0QYvXqtLFwWzOKHEp",
                     "type": "Asset",
                     "createdAt": "2026-03-10T17:14:58.407Z",
-                    "updatedAt": "2026-03-10T17:14:58.407Z",
+                    "updatedAt": "2026-05-22T21:54:03.475Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1620,13 +1620,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Achievements Mockup",
-                    "description": "",
+                    "description": "A Tomb Raider Challenge Mode promotional image displaying eleven achievement or challenge badge cards arranged in two horizontal rows against a dark background. At the top center is an orange distressed banner reading \"Challenge Mode\" with a crowned skull icon. Each badge is designed to look like an aged, weathered parchment tile with dark red and magenta illustrated artwork. The badges depict various challenge themes including: a figure holding a compass, Lara Croft seated atop a large pile of skulls, a triumphant silhouette with arms raised in a sunburst, a silhouette standing victorious on a mountain peak, Lara making a peace sign gesture, a shark, a crouching figure with large animal paw prints, a silhouette walking a winding path through trees, Lara in her wetsuit costume beside a no-swimming symbol, a stopwatch with a running figure indicating a speed challenge, and a silhouette figure in an action pose against a pink splattered background. The overall aesthetic is retro adventure poster style rendered in warm brown, pink, and magenta tones.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/107FE0QYvXqtLFwWzOKHEp/3552c039e6a3bc4d72db6acafb65c826/Achievements_Mockup.jpg",
                       "details": {
@@ -1696,7 +1696,7 @@
                     "id": "1ojLttuOyuBj66250JZqUv",
                     "type": "Asset",
                     "createdAt": "2026-03-10T17:16:00.375Z",
-                    "updatedAt": "2026-03-10T17:16:00.375Z",
+                    "updatedAt": "2026-05-22T21:43:04.593Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1704,13 +1704,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Combat Screenshot",
-                    "description": "",
+                    "description": "A Tomb Raider game screenshot showing a dramatic action sequence inside an ancient Greco-Roman style stone temple or colosseum. Lara Croft, dressed in her gold and black ancient warrior armor with a red scarf and gold laurel hair accessory, is leaping acrobatically through the air in the upper right of the frame. She is surrounded by two large dinosaur creatures — a towering red-orange theropod dinosaur dominates the left side of the image, lunging forward with its jaws wide open revealing sharp teeth and outstretched clawed arms, while a second large brown dinosaur is partially visible in the foreground right. The ornate interior setting features tall stone columns, decorative carved friezes with laurel wreaths and lion head details, mosaic tiled floors, and warm amber lighting, creating a sense of grand ancient architecture contrasting with the prehistoric danger.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/1ojLttuOyuBj66250JZqUv/78f865607e4bd305bea6fcb6de45a67a/Combat_Screenshot.jpg",
                       "details": {
@@ -1779,7 +1779,7 @@
                     "id": "2dBEng6FrsIE5uvu1P40r8",
                     "type": "Asset",
                     "createdAt": "2026-03-10T17:16:36.788Z",
-                    "updatedAt": "2026-03-10T17:16:36.788Z",
+                    "updatedAt": "2026-05-22T21:41:07.438Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1787,13 +1787,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "New Platforms",
-                    "description": "",
+                    "description": "A Tomb Raider game promotional image showcasing the title running across three different devices, arranged against a dark textured brown background. The largest and central device is an iPad or tablet displayed in portrait-leaning landscape orientation, showing a remastered close-up of Lara Croft in a brown outfit, red scarf, and white safari hat, standing inside an ornate ancient stone temple with decorated ceilings and columns. In the lower left is a smaller tablet or iPhone in landscape orientation displaying an older, more blocky original-graphics version of a Lara Croft character navigating mossy stone ruins, representing the classic retro gameplay. In the lower right is a Nintendo Switch handheld console showing Lara Croft in her green and black futuristic wetsuit costume with tactical goggles, posed in a rocky cavern environment. The three screens together illustrate the game's availability across multiple platforms and its visual range from classic to remastered graphics.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/2dBEng6FrsIE5uvu1P40r8/8ae317e914320a754b042c831d1c6d92/New_Platforms.png",
                       "details": {
@@ -2958,7 +2958,7 @@
             "id": "7u9CDY20s8VjPFOOWUZjsC",
             "type": "Asset",
             "createdAt": "2026-02-13T18:03:07.647Z",
-            "updatedAt": "2026-02-13T18:03:07.647Z",
+            "updatedAt": "2026-05-22T22:04:01.884Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -2966,13 +2966,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "Lara Birthday FWH blog header",
-            "description": "",
+            "description": "A Tomb Raider 30th anniversary celebratory illustration depicting Lara Croft in a stylized comic book art style, leaning casually on a rocky ledge against a lush misty jungle and floating mountains backdrop. Lara has dark braided hair, wears round red-tinted sunglasses which she is adjusting with one fingerless-gloved hand, a teal tank top, and a tactical backpack harness. She has a warm, confident smile. In front of her sits a detailed miniature diorama birthday cake decorated to resemble a Tomb Raider scene, featuring two red theropod dinosaurs flanking a waterfall and jungle temple on a wooden slice base. Atop the cake are gold metallic number \"30\" candles with lit flames, celebrating the franchise's 30th anniversary. The overall mood is playful and celebratory while nodding to iconic Tomb Raider imagery including the classic dinosaur encounters.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/7u9CDY20s8VjPFOOWUZjsC/8c878613a2a0e67a6957b48180fd1cf3/Lara_Birthday_FWH_blog_header.jpg",
               "details": {
@@ -4079,7 +4079,7 @@
                               "id": "4dE5mV0e5NI6vJm28jVsxH",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:52:10.049Z",
-                              "updatedAt": "2026-02-12T20:52:10.049Z",
+                              "updatedAt": "2026-05-22T22:26:52.595Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -4087,13 +4087,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 3,
-                              "revision": 1,
+                              "publishedVersion": 6,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "LaraT-ShirtB",
-                              "description": "",
+                              "description": "A black unisex crew neck t-shirt featuring official Tomb Raider 30th anniversary merchandise artwork. The upper portion of the graphic shows a detailed comic book style illustration of Lara Croft rendered in teal and dark ink tones, depicted from the waist up holding a pistol raised near her face with a confident, intense expression. She wears her classic teal tank top with a tactical chest harness and her hair in a braid. Below the illustration is the Tomb Raider 30th anniversary logo: a large bold gold metallic \"30\" with a small black silhouette of Lara Croft in her iconic dual-pistol stance integrated into the zero, and \"Tomb Raider\" written in gold text beneath it. The two-tone design combines the detailed teal illustration above with the shiny gold anniversary branding below, creating an elegant commemorative aesthetic.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/4dE5mV0e5NI6vJm28jVsxH/dea5827c7fe2a7287d28ebe5c87992e1/LaraT-ShirtB.png",
                                 "details": {
@@ -4153,7 +4153,7 @@
                               "id": "5NOpAXy6Tb8oinLUMZkRwu",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:53:59.261Z",
-                              "updatedAt": "2026-02-12T20:53:59.261Z",
+                              "updatedAt": "2026-05-22T22:16:36.480Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -4161,13 +4161,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 3,
-                              "revision": 1,
+                              "publishedVersion": 5,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "TRCAVEDESIGN",
-                              "description": "",
+                              "description": "Black T-shirt featuring stylized artwork inspired by Tomb Raider. The design shows Lara Croft climbing upward through a fiery red and orange cave-like background while holding a lit flare above her head. Lara wears a tank top, shorts, and climbing boots, with the glowing flare illuminating her figure. The words “Tomb Raider” appear in red script near the bottom of the graphic.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/5NOpAXy6Tb8oinLUMZkRwu/d3802e678dc739bbc5c918e06d0db853/TRCAVEDESIGN.png",
                                 "details": {
@@ -4227,7 +4227,7 @@
                               "id": "2jDlrtc3QSUxG1NI3FvHBJ",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:54:33.004Z",
-                              "updatedAt": "2026-02-12T20:54:33.004Z",
+                              "updatedAt": "2026-05-22T22:15:03.950Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -4235,13 +4235,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 3,
-                              "revision": 1,
+                              "publishedVersion": 10,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "LaraSplatterT-Shirt",
-                              "description": "",
+                              "description": "A black unisex crew neck t-shirt featuring a vibrant neon pop art graphic of Lara Croft from the Tomb Raider franchise. The illustration depicts Lara Croft from the shoulders up with a stylized yellow-toned complexion, bold pink lips, and large reflective sunglasses. Her hair is multi-colored in teal, pink, and purple tones with a dramatic pointed widow's peak silhouette. The background of the graphic bursts with explosive neon elements including pink and teal lightning bolts, yellow and purple triangles, colorful paint splatter drips in pink, teal, orange, and purple, and circular dot accents. The overall aesthetic is bold, retro-futuristic, and reimagines Lara Croft through a 1980s neon pop art or comic book lens.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/2jDlrtc3QSUxG1NI3FvHBJ/c8fbf5d5c094a552eaa9b4f0a4c0dd17/LaraSplatterT-Shirt.png",
                                 "details": {
@@ -4301,7 +4301,7 @@
                               "id": "1zHA7E775ejLC22yeOISYC",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:55:04.521Z",
-                              "updatedAt": "2026-02-12T20:55:04.521Z",
+                              "updatedAt": "2026-05-22T22:07:21.467Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -4309,13 +4309,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 3,
-                              "revision": 1,
+                              "publishedVersion": 6,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "LaraT-shirtD",
-                              "description": "",
+                              "description": "A black unisex crew neck t-shirt featuring official Tomb Raider merchandise graphic art. The shirt displays a bold retro synthwave-style illustration of Lara Croft rendered in a vibrant teal, hot pink, and yellow color palette. Lara is depicted in a pink tank top and tactical vest, dual-wielding pistols with a fierce expression, bursting dynamically out of a geometric diamond-shaped pink frame. Flanking her are two iconic Tomb Raider enemy creatures also rendered in teal: a snarling raptor-style dinosaur on her left and a leaping spotted leopard with bared claws on her right. Yellow lightning bolt accents, starburst explosion details, and scattered dot patterns fill the background, giving the design an energetic 1980s retro pop art aesthetic. The overall composition is action-packed and vibrant, celebrating classic Tomb Raider gameplay elements.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/1zHA7E775ejLC22yeOISYC/359792ae3dc69ee84cd80719374fac7e/LaraT-shirtD.png",
                                 "details": {
@@ -4375,7 +4375,7 @@
                               "id": "58OwsypkhucmFqXJEeHLCV",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:55:35.406Z",
-                              "updatedAt": "2026-02-12T20:55:35.406Z",
+                              "updatedAt": "2026-05-22T22:05:57.837Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -4383,13 +4383,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 3,
-                              "revision": 1,
+                              "publishedVersion": 6,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "TRClimbDesignShirt",
-                              "description": "",
+                              "description": "A black unisex crew neck t-shirt featuring official Tomb Raider merchandise graphic art. The shirt's design displays the \"Tomb Raider\" logo in large distressed crumbling orange stone lettering arranged in two stacked rows. Overlaid on the text is an illustrated figure of Lara Croft in her classic look — teal tank top, white shorts, dark hair flowing — dynamically climbing or scaling upward, reaching high with one arm while holding a rope that trails below her. The illustration style is bold and graphic with a limited color palette of teal, white, red, and orange against the black fabric. The overall design has an energetic, action-packed feel capturing Lara's adventurous spirit.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/58OwsypkhucmFqXJEeHLCV/ad9c97d782bdbf1edc3de4326e99c237/TRClimbDesignShirt.png",
                                 "details": {
@@ -20840,7 +20840,7 @@
             "id": "62xLXqLP9oUOWdHJd3nzw0",
             "type": "Asset",
             "createdAt": "2026-03-12T16:21:09.080Z",
-            "updatedAt": "2026-03-12T16:21:09.080Z",
+            "updatedAt": "2026-05-22T21:27:46.475Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -20848,13 +20848,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "TR1-3 Challenge Mode w logo",
-            "description": "",
+            "description": "Official key art for Tomb Raider I•II•III Remastered – Challenge Mode. The left half features three stylized versions of Lara Croft in different outfits posed against vertical colored backdrop panels. The center and largest figure wears ornate gold ancient warrior armor with a red scarf and gold laurel hair accessory. To her left, Lara is dressed in a green and black futuristic wetsuit with tactical goggles, holding a scoped assault rifle, set against a teal underwater background. To her right, Lara wears an olive military tactical suit with aviator sunglasses, dual-wielding silver pistols against a dark green background. The right half of the image displays the game's official logo: \"Tomb Raider I•II•III Remastered\" in large distressed orange stone-textured lettering, with \"Challenge Mode\" highlighted in an orange banner beneath it, featuring a small skull icon, all set against a dark charcoal textured background.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/62xLXqLP9oUOWdHJd3nzw0/cce35ed64c2b7e5bbc972bf2d6d1c891/TR1-3_Challenge_Mode_w_logo.jpg",
               "details": {
@@ -20879,7 +20879,7 @@
             "id": "7IkArf2RMs8rtDRnOlcaNE",
             "type": "Asset",
             "createdAt": "2026-03-12T16:21:31.705Z",
-            "updatedAt": "2026-03-12T16:21:31.705Z",
+            "updatedAt": "2026-05-22T21:26:43.871Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -20887,13 +20887,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "TR1-3Challenge key art zoom",
-            "description": "",
+            "description": "Tomb Raider game promotional artwork showcasing three different costume variants or skins of Lara Croft displayed side by side against a dark textured background with three vertical panel backdrops. The center figure is the most prominent, depicted in ornate gold and bronze ancient warrior armor with a red scarf, gold laurel leaf hair accessory, and a braided updo, set against a warm amber temple background. To the left, Lara wears a green and black futuristic wetsuit with tactical goggles pushed up on her head, carrying a scoped assault rifle, set against an underwater teal backdrop. To the right, Lara is styled in a sleek olive/military green tactical outfit with aviator sunglasses and a side braid, dual-wielding silver pistols against a dark green background. All three versions share the same confident, combat-ready expression and stylized animated art style.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/7IkArf2RMs8rtDRnOlcaNE/253b939a5af2d8bc113aff7337922c6c/TR1-3Challenge_key_art_zoom.jpg",
               "details": {

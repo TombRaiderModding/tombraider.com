@@ -117,7 +117,7 @@
                   "id": "MZxudsHjmtnimr5w36kKy",
                   "type": "Asset",
                   "createdAt": "2026-02-25T23:38:01.960Z",
-                  "updatedAt": "2026-02-25T23:38:01.960Z",
+                  "updatedAt": "2026-05-22T21:57:13.895Z",
                   "environment": {
                     "sys": {
                       "id": "master",
@@ -125,13 +125,13 @@
                       "linkType": "Environment"
                     }
                   },
-                  "publishedVersion": 3,
-                  "revision": 1,
+                  "publishedVersion": 6,
+                  "revision": 2,
                   "locale": "en-US"
                 },
                 "fields": {
                   "title": "30th Anni Roth Pistols",
-                  "description": "",
+                  "description": "A Tomb Raider themed product or promotional image showing Lara Croft's iconic dual pistols displayed in a crossed formation. The two matching semi-automatic pistols are arranged symmetrically in an X shape, with the barrels pointing upward and the grips facing downward. The guns feature a weathered silver and gunmetal finish with black textured rubber grips. Each grip panel bears a small embossed medallion emblem featuring a compass rose and laurel wreath design. The trigger guards have a distinctive perforated cut-out detail, and both pistols have red fiber optic front sights visible at the tips of the barrels. The overall presentation is dramatic and iconic, evoking Lara Croft's signature dual-wielding style.",
                   "file": {
                     "url": "//images.ctfassets.net/x77ixfmkpoiv/MZxudsHjmtnimr5w36kKy/60a15e830d4b8c9b633d364f514b77d4/30th_Anni_Roth_Pistols.png",
                     "details": {
