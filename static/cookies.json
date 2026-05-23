@@ -670,7 +670,7 @@
             "id": "01Myr4Uw5B3LiZiwhkIDOo",
             "type": "Asset",
             "createdAt": "2025-01-30T20:00:27.508Z",
-            "updatedAt": "2026-03-23T20:39:08.144Z",
+            "updatedAt": "2026-05-22T20:28:46.753Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -678,13 +678,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 8,
-            "revision": 2,
+            "publishedVersion": 10,
+            "revision": 3,
             "locale": "en-US"
           },
           "fields": {
             "title": "threads-instagram-app-white-background-social-network-black-color-vector-illustration-new-287425602",
-            "description": "Threads",
+            "description": "White spiral-shaped logo for Threads displayed on a solid black background. The design resembles a stylized lowercase “@” or looping thread line drawn in a continuous minimalist stroke.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/01Myr4Uw5B3LiZiwhkIDOo/dcb80a0536a5336f9c3bdcdfe5499bb7/download.png",
               "details": {
@@ -713,7 +713,7 @@
             "id": "5zLrHeUr4dRx5HV0jpG2nM",
             "type": "Asset",
             "createdAt": "2025-01-30T20:03:38.455Z",
-            "updatedAt": "2026-03-23T20:39:42.295Z",
+            "updatedAt": "2026-05-22T20:28:53.333Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -721,13 +721,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 5,
-            "revision": 2,
+            "publishedVersion": 7,
+            "revision": 3,
             "locale": "en-US"
           },
           "fields": {
             "title": "bluesky-logo",
-            "description": "Bluesky",
+            "description": "White butterfly-shaped logo for Bluesky displayed on a solid black background. The logo features two rounded upper wings and two smaller lower wings in a simple, minimalist design.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/5zLrHeUr4dRx5HV0jpG2nM/96a83eab127de86aad931005878c084a/bluesky-logo.jpg",
               "details": {
