@@ -3126,7 +3126,7 @@
                     "id": "2yV0rModdk9kZw5ZmcwQR3",
                     "type": "Asset",
                     "createdAt": "2026-02-11T00:08:08.186Z",
-                    "updatedAt": "2026-02-11T00:08:08.186Z",
+                    "updatedAt": "2026-06-01T15:50:12.703Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -3134,13 +3134,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "FWH Happy Birthday Lara text",
-                    "description": "",
+                    "description": "\"Happy Birthday Lara!\" illustration by Flying Wild Hog showing Lara Croft with a Tomb Raider 30th anniversary dinosaur-themed birthday cake.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/2yV0rModdk9kZw5ZmcwQR3/6b900acfdc0d4d4d6fa85f022246a1e6/FWH_Happy_Birthday_Lara_text.png",
                       "details": {
@@ -3376,7 +3376,7 @@
                     "id": "uD9JmUp2MYV2XoDSDdqey",
                     "type": "Asset",
                     "createdAt": "2026-01-26T21:12:44.288Z",
-                    "updatedAt": "2026-01-26T21:12:44.288Z",
+                    "updatedAt": "2026-06-01T16:01:48.676Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -3384,13 +3384,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 6,
-                    "revision": 1,
+                    "publishedVersion": 8,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Tomb Raider 30th Anniversary Key Art",
-                    "description": "",
+                    "description": "Tomb Raider 30th anniversary key art featuring multiple versions of Lara Croft from across the franchise, alongside the gold \"30 Tomb Raider\" logo.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/uD9JmUp2MYV2XoDSDdqey/06248f25eed0336769d188c0e872890d/Tomb_Raider_30th_Anniversary_Key_Art_4k.png",
                       "details": {
@@ -3544,7 +3544,7 @@
                     "id": "1Or87UeJTietBnNHYqKFmK",
                     "type": "Asset",
                     "createdAt": "2026-02-11T16:56:00.515Z",
-                    "updatedAt": "2026-02-11T16:56:00.515Z",
+                    "updatedAt": "2026-06-01T15:47:56.115Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -3552,13 +3552,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "TR30 stream kit blog image",
-                    "description": "",
+                    "description": "Tomb Raider 30th anniversary Twitch streaming asset pack featuring Lara Croft, including alert overlays for new subscriber, follower, bits, a stream layout, and a \"Be Right Back\" screen.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/1Or87UeJTietBnNHYqKFmK/ea4c9d937f2a5c7b449f08035d67ef21/TR30_stream_kit_blog_image.png",
                       "details": {
@@ -3805,7 +3805,7 @@
                               "id": "2XFHQXutwLTVbBHHqK4xgs",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:48:58.141Z",
-                              "updatedAt": "2026-02-12T20:48:58.141Z",
+                              "updatedAt": "2026-06-01T15:44:08.455Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -3813,13 +3813,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 4,
-                              "revision": 1,
+                              "publishedVersion": 7,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "TombRaiderLegendMetalCard",
-                              "description": "",
+                              "description": "Tomb Raider 30th anniversary gold collectible card featuring Lara Croft climbing a rocky surface, set against a jungle waterfall background.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/2XFHQXutwLTVbBHHqK4xgs/737df5abf847a108e1d2fef60941f99b/TOmbRaiderLegendMetalCard.png",
                                 "details": {
@@ -3879,7 +3879,7 @@
                               "id": "7ek6uUZGCEFg2PIzXtYe30",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:49:30.736Z",
-                              "updatedAt": "2026-02-12T20:49:30.736Z",
+                              "updatedAt": "2026-06-01T15:41:31.609Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -3887,13 +3887,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 3,
-                              "revision": 1,
+                              "publishedVersion": 5,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "TombRaiderSurvivorMetalCard",
-                              "description": "",
+                              "description": "Tomb Raider 30th anniversary gold collectible card featuring Lara Croft drawing a bow and arrow, with an Asian temple silhouette in the background.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/7ek6uUZGCEFg2PIzXtYe30/cdebf13cb512eb636209b80db06a9e25/TombRaiderSurvivorMetalCard.png",
                                 "details": {
@@ -3953,7 +3953,7 @@
                               "id": "1xGwBdbFuvwrNTLU2JgKFj",
                               "type": "Asset",
                               "createdAt": "2026-02-12T20:51:03.721Z",
-                              "updatedAt": "2026-02-12T20:51:03.721Z",
+                              "updatedAt": "2026-06-01T15:40:26.872Z",
                               "environment": {
                                 "sys": {
                                   "id": "master",
@@ -3961,13 +3961,13 @@
                                   "linkType": "Environment"
                                 }
                               },
-                              "publishedVersion": 3,
-                              "revision": 1,
+                              "publishedVersion": 5,
+                              "revision": 2,
                               "locale": "en-US"
                             },
                             "fields": {
                               "title": "TombRaiderClassicMetalCard",
-                              "description": "",
+                              "description": "Tomb Raider 30th anniversary gold collectible card featuring Lara Croft dual-wielding pistols, with a dinosaur silhouette in the jungle background.",
                               "file": {
                                 "url": "//images.ctfassets.net/x77ixfmkpoiv/1xGwBdbFuvwrNTLU2JgKFj/117c4f8c7dd85eff538188f22b62c0f7/TombRaiderClassicMetalCard.png",
                                 "details": {
@@ -4743,7 +4743,7 @@
                     "id": "VRLJl2qxe6kKBNbqs7Yn2",
                     "type": "Asset",
                     "createdAt": "2026-02-02T22:25:30.090Z",
-                    "updatedAt": "2026-02-06T17:35:36.215Z",
+                    "updatedAt": "2026-06-01T15:51:14.699Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -4751,13 +4751,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 7,
-                    "revision": 2,
+                    "publishedVersion": 9,
+                    "revision": 3,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "TR30 stream kit blog image",
-                    "description": "",
+                    "description": "Tomb Raider 30th anniversary Twitch streaming asset pack featuring Lara Croft, including alert overlays for new subscriber, follower, bits, a stream layout, and a \"Be Right Back\" screen.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/VRLJl2qxe6kKBNbqs7Yn2/a5c56671eea5236a83c651a49b61a0c2/tr30_streamer_kit_blog_image_alt.png",
                       "details": {
@@ -5189,7 +5189,7 @@
             "id": "3wyLfQe5oFxvOb3iFUra60",
             "type": "Asset",
             "createdAt": "2026-01-27T23:26:33.226Z",
-            "updatedAt": "2026-01-27T23:26:33.226Z",
+            "updatedAt": "2026-06-01T15:58:27.974Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -5197,13 +5197,13 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 3,
-            "revision": 1,
+            "publishedVersion": 5,
+            "revision": 2,
             "locale": "en-US"
           },
           "fields": {
             "title": "TR 30th KEY ART 1440x960",
-            "description": "",
+            "description": "Tomb Raider 30th anniversary key art featuring multiple versions of Lara Croft from across the franchise, alongside the gold \"30 Tomb Raider\" logo.",
             "file": {
               "url": "//images.ctfassets.net/x77ixfmkpoiv/3wyLfQe5oFxvOb3iFUra60/2bc9d7ae8b3f7c6d9dba4bba675ed32f/TR_30th_KEY_ART_1440x960.png",
               "details": {
