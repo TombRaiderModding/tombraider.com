@@ -2307,6 +2307,783 @@
             "loreHeadlineUnlocked": "One Step Closer",
             "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door."
           }
+        },
+        {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5iMJpdi9avlKNI7rH9r2hj",
+            "type": "Entry",
+            "createdAt": "2026-06-02T21:22:48.948Z",
+            "updatedAt": "2026-06-02T21:22:48.948Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 30,
+            "revision": 1,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "puzzleRoom"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "June 2026",
+            "tombDoor": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "5YofNrKCGkwb3lyafoPJ3F",
+                "type": "Entry",
+                "createdAt": "2025-12-06T00:07:12.976Z",
+                "updatedAt": "2025-12-06T00:07:12.976Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tombDoor"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "TR Underworld Door",
+                "closedImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "24djqeXD3EkDfuuJIwpaOD",
+                    "type": "Asset",
+                    "createdAt": "2025-12-06T00:06:40.944Z",
+                    "updatedAt": "2025-12-06T00:06:40.944Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Underworld Door Closed",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/24djqeXD3EkDfuuJIwpaOD/d5768e2af1f05d2593b679374a711c2a/Underworld_Door_Closed.webp",
+                      "details": {
+                        "size": 1157876,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Underworld Door Closed.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                },
+                "openImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6myF69mPZx4JZCJoVrUB7p",
+                    "type": "Asset",
+                    "createdAt": "2025-12-06T00:06:58.654Z",
+                    "updatedAt": "2025-12-06T00:06:58.654Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Underworld Door Open",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/6myF69mPZx4JZCJoVrUB7p/270be8a6c78869e19d6eb77cb8b5312b/Underworld_Door_Open.webp",
+                      "details": {
+                        "size": 1050572,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Underworld Door Open.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "laraCroft": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "ofIEoe8atHOFYeqqIpkbD",
+                "type": "Entry",
+                "createdAt": "2025-12-09T21:19:50.632Z",
+                "updatedAt": "2025-12-09T21:19:50.632Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleLaraCroft"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": " Anniversary Lara",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3KDtK5uHgGUw5Nvi6xC92N",
+                    "type": "Asset",
+                    "createdAt": "2025-12-09T21:19:43.030Z",
+                    "updatedAt": "2025-12-09T21:19:43.030Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TR Anniversary LaraBack",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3KDtK5uHgGUw5Nvi6xC92N/4dfb921f2347264173300486779a72d2/TR_Anniversary_LaraBack.webp",
+                      "details": {
+                        "size": 230414,
+                        "image": { "width": 1018, "height": 1960 }
+                      },
+                      "fileName": "TR_Anniversary_LaraBack.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "loreHeadlineLocked": "Looking for mysterious symbols",
+            "loreDescriptionLocked": "There have been reports of mysterious glowing symbols.  With enough of them,  I believe I could open this door.",
+            "showCountdown": false,
+            "allowNotify": false,
+            "notifySuccessHeadline": "You've done it!  ",
+            "notifySuccessDescription": "Collect your rewards and make your way deeper into this Challenge Tomb.",
+            "notifyButtonText": "Get Notified",
+            "puzzleSliderText": "Start the Puzzle",
+            "puzzleHeadline": "Solve the puzzle and your curiosity will be rewarded",
+            "puzzleDescription": "Arrange the symbols in the correct order to open the door.",
+            "puzzleBackground": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "4J6qKPIAX4fJxof5sVE23M",
+                "type": "Entry",
+                "createdAt": "2025-12-06T00:10:49.478Z",
+                "updatedAt": "2025-12-06T00:10:49.478Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 3,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleBackground"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Grey Stone Puzzle",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "kjyZAaqtCgdNUxrFOZwYm",
+                    "type": "Asset",
+                    "createdAt": "2025-12-06T00:10:35.865Z",
+                    "updatedAt": "2025-12-06T00:10:35.865Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "SoS PuzzleDoor03 v04",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/kjyZAaqtCgdNUxrFOZwYm/0c989c78e38f7fd87c5562eb22e59303/SoS_PuzzleDoor03_v04.webp",
+                      "details": {
+                        "size": 721604,
+                        "image": { "width": 1440, "height": 720 }
+                      },
+                      "fileName": "SoS_PuzzleDoor03_v04.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "puzzleSolveButtonText": "Solve Puzzle",
+            "puzzleBackButtonText": "Back to Tomb",
+            "glyphOptions": [
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "KKJZ8f419DlLSwQp8tbix",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:33:14.201Z",
+                  "updatedAt": "2025-12-08T19:33:14.201Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 01",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "2a93bVb8tGkFO2O5eTQJYn",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:32:36.583Z",
+                      "updatedAt": "2025-12-08T19:32:36.583Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph01",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2a93bVb8tGkFO2O5eTQJYn/44765085b647277bf2dab42981b97bbd/SoS_Puzzle01_Glyph01.webp",
+                        "details": {
+                          "size": 126640,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph01.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6Pn76dIDtq3qIfOOSDitDk",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:38:17.318Z",
+                  "updatedAt": "2025-12-08T19:38:17.318Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 03",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "6RC4E4FhYieMNBeLyDfkuT",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:38:04.472Z",
+                      "updatedAt": "2025-12-08T19:38:04.472Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph03",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/6RC4E4FhYieMNBeLyDfkuT/57667786aef239057f973488a41a175d/SoS_Puzzle01_Glyph03.webp",
+                        "details": {
+                          "size": 190596,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph03.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4ID2wy4cZyvuTTeiVlqPaF",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:39:13.044Z",
+                  "updatedAt": "2025-12-08T19:39:13.044Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 05",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "Cpf9FN7vwBhZwThSOAYRV",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:39:03.871Z",
+                      "updatedAt": "2025-12-08T19:39:03.871Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph05",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/Cpf9FN7vwBhZwThSOAYRV/ae53d8ef3d24b0785181fdc0fec34e50/SoS_Puzzle01_Glyph05.webp",
+                        "details": {
+                          "size": 123450,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph05.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "34RyL0bCWDjEyHLlruT90Y",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:40:16.420Z",
+                  "updatedAt": "2025-12-08T19:40:16.420Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 07",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "7xNiR59GSzavhYih5QZjIm",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:40:08.934Z",
+                      "updatedAt": "2025-12-08T19:40:08.934Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph07",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/7xNiR59GSzavhYih5QZjIm/df0fbed00bb4dee865c7ad202c369c8f/SoS_Puzzle01_Glyph07.webp",
+                        "details": {
+                          "size": 161916,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph07.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4g7FIRc9ojFv6Df9Q1zuJq",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:45:27.127Z",
+                  "updatedAt": "2025-12-08T19:45:27.127Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 11",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "5CfQHsgdnS8jeCUZWoxWLb",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:45:16.590Z",
+                      "updatedAt": "2025-12-08T19:45:16.590Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph11",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/5CfQHsgdnS8jeCUZWoxWLb/8679c12852ef7cd076aa9d120231f02c/SoS_Puzzle01_Glyph11.webp",
+                        "details": {
+                          "size": 145810,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph11.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "2zFDxZUJWxDdQchI55IFKJ",
+                  "type": "Entry",
+                  "createdAt": "2025-12-08T19:48:23.042Z",
+                  "updatedAt": "2025-12-08T19:48:23.042Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Yellow Symbol 13",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "3RpmxkLvnJjSF6n7LRyKie",
+                      "type": "Asset",
+                      "createdAt": "2025-12-08T19:48:11.901Z",
+                      "updatedAt": "2025-12-08T19:48:11.901Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 3,
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle01 Glyph13",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/3RpmxkLvnJjSF6n7LRyKie/8a3a6a4cd093d243efed9098a7f8cc1c/SoS_Puzzle01_Glyph13.webp",
+                        "details": {
+                          "size": 134146,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle01_Glyph13.webp",
+                        "contentType": "image/webp"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "congratsHeadlineLoggedIn": "Congrats Raider!",
+            "congratsDescriptionLoggedIn": "Along with your treasures,  further mysteries await you in the depths of the Tomb Door Puzzle",
+            "congratsHeadlineLoggedOut": "Congrats Raider!",
+            "congratsDescriptionLoggedOut": "Join the Society of Raiders,  to claim your treasure and explore deeper into the Tomb Door Puzzle",
+            "congratsRegisterButtonText": "Register",
+            "congratsBeforeLoginText": "Already a Raider?",
+            "congratsLoginText": "Login",
+            "congratsViewRewardButtonText": "View Reward",
+            "congratsContinuePlayingButtonText": "Continue Playing",
+            "isUnlocked": false,
+            "msUntilUnlock": 0,
+            "loreHeadlineUnlocked": null,
+            "loreDescriptionUnlocked": null
+          }
         }
       ]
     }

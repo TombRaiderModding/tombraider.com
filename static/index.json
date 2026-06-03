@@ -2,6 +2,1594 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Raider Records – Exploring the Tomb Door Puzzle",
+        "slug": "raider-records-exploring-the-tomb-door-puzzle",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5FFz5iSwgZAtZhUE219Cz1",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:12:37.537Z",
+            "updatedAt": "2024-02-05T17:59:57.282Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 16,
+            "revision": 7,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Community", "slug": "community", "order": 45 }
+        },
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6t9fsfUGrrnywjwNcSbb8v",
+            "type": "Asset",
+            "createdAt": "2026-06-01T19:19:10.087Z",
+            "updatedAt": "2026-06-01T19:19:10.087Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Raider Records Header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/6t9fsfUGrrnywjwNcSbb8v/e35d83da02e03bd452641746f24bc341/Raider_Records_Header.png",
+              "details": {
+                "size": 1891217,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "Raider_Records_Header.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Welcome to Raider Records – the place for complete Tomb Door puzzle coverage!",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Welcome to Raider Records – the place for complete Tomb Door puzzle coverage!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Explore the Tomb: ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://www.tombraider.com/challenge-tomb"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "https://www.tombraider.com/challenge-tomb",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Raider Records are here to help fellow raiders find solutions for the Tomb Door puzzles they might have missed, and to provide them with updates as each door is ready to be unlocked.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The Raider Records also act as a running count of how many symbols have been revealed so far for the latest Tomb Door puzzle, updating as each new symbol is uncovered.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Some symbols can be found in plain sight, while others are hidden away in the most unexpected places, waiting to be discovered.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The Tomb Door can be opened only after the last symbol has been revealed.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Happy raiding!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Door Puzzle #1 – Status: UNLOCKED",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Symbols revealed: 4",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The symbol sequence is as follows:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "2CBrYg7orBAKgiDPh205rf",
+                    "type": "Asset",
+                    "createdAt": "2026-06-01T19:13:23.480Z",
+                    "updatedAt": "2026-06-01T19:13:23.480Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TD-1 Symbol Solution",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2CBrYg7orBAKgiDPh205rf/fa81b6a6638da192f0ebe779624e2ec9/TD-1_Symbol_Solution.png",
+                      "details": {
+                        "size": 493046,
+                        "image": { "width": 1200, "height": 270 }
+                      },
+                      "fileName": "TD-1_Symbol_Solution.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The symbols were hidden in the following places:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Tomb Raider: Legacy of Atlantis - Key Art",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Social Media PFP",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Dual Pistols image - the ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "hyperlink",
+                          "data": {
+                            "uri": "https://www.tombraider.com/lara-croft"
+                          },
+                          "content": [
+                            {
+                              "nodeType": "text",
+                              "value": "Lara Croft",
+                              "marks": [],
+                              "data": {}
+                            }
+                          ]
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " segment on tombraider.com",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4PatOnAOOgE5Cr2brm1UU7",
+                    "type": "Asset",
+                    "createdAt": "2026-06-01T19:14:29.342Z",
+                    "updatedAt": "2026-06-01T19:14:29.342Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TD1 Symbol Hints",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/4PatOnAOOgE5Cr2brm1UU7/ad4e76b16d43176d61adae2a55f157ba/TD1_Symbol_Hints.png",
+                      "details": {
+                        "size": 7868695,
+                        "image": { "width": 4000, "height": 1500 }
+                      },
+                      "fileName": "TD1_Symbol_Hints.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Door Puzzle #2 – Status: UNLOCKED",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Symbols revealed: 4",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The symbol sequence is as follows:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5wn6I1DGo36xdrbLUdH7rd",
+                    "type": "Asset",
+                    "createdAt": "2026-06-01T19:15:14.783Z",
+                    "updatedAt": "2026-06-01T19:15:14.783Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TD-2 Symbol Solution",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5wn6I1DGo36xdrbLUdH7rd/6807bcc48a38f8a5d67931b8efccb55c/TD-2_Symbol_Solution.png",
+                      "details": {
+                        "size": 363079,
+                        "image": { "width": 816, "height": 183 }
+                      },
+                      "fileName": "TD-2_Symbol_Solution.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The symbols were hidden in following places:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "hyperlink",
+                          "data": {
+                            "uri": "https://www.tombraider.com/news/community/tomb-raider-30th-anniversary-streaming-kit-and-backgrounds-available-for"
+                          },
+                          "content": [
+                            {
+                              "nodeType": "text",
+                              "value": "Streaming Kit Blog",
+                              "marks": [],
+                              "data": {}
+                            }
+                          ]
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "hyperlink",
+                          "data": {
+                            "uri": "https://www.instagram.com/reel/DU4aWcaD0vF/"
+                          },
+                          "content": [
+                            {
+                              "nodeType": "text",
+                              "value": "Shortform video",
+                              "marks": [],
+                              "data": {}
+                            }
+                          ]
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "hyperlink",
+                          "data": {
+                            "uri": "http://tombraider.com/registration"
+                          },
+                          "content": [
+                            {
+                              "nodeType": "text",
+                              "value": "Newsletter",
+                              "marks": [],
+                              "data": {}
+                            }
+                          ]
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "hyperlink",
+                          "data": {
+                            "uri": "https://www.instagram.com/p/DVPIM1Gj4GD/"
+                          },
+                          "content": [
+                            {
+                              "nodeType": "text",
+                              "value": "Travel Checklist",
+                              "marks": [],
+                              "data": {}
+                            }
+                          ]
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Join fellow raiders on the hunt for new symbols in the upcoming weeks to unlock the prize behind Tomb Door puzzle #3!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Door Puzzle #3 – Status: LOCKED",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Symbols revealed: 0",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "publishDate": "2026-06-02",
+        "hideSocialSharingButtons": false
+      },
+      {
+        "title": "Pre-Orders are Open for Tomb Raider: Legacy of Atlantis!",
+        "slug": "pre-orders-are-open-for-tomb-raider-legacy-of-atlantis",
+        "isLatestNews": true,
+        "isFeatured": true,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6KPfjWiWrWki8YH0wFTKoZ",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:14:47.775Z",
+            "updatedAt": "2024-02-05T18:36:21.395Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 8,
+            "revision": 4,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Video Games",
+            "slug": "video-games",
+            "order": 10
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5Vi3RnBigsSI75NrS9DClO",
+              "type": "Entry",
+              "createdAt": "2026-06-02T21:41:01.648Z",
+              "updatedAt": "2026-06-02T21:46:42.101Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider: Legacy of Atlantis",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "46uE3w4F1GHFdm0Zuc3Lof",
+                  "type": "Entry",
+                  "createdAt": "2026-06-02T21:40:55.816Z",
+                  "updatedAt": "2026-06-02T21:40:55.816Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Tomb Raider: Legacy of Atlantis",
+                  "slug": "tomb-raider-legacy-of-atlantis",
+                  "order": -1
+                }
+              }
+            }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "57GtVpzfl8ANqff1p3rhWx",
+            "type": "Asset",
+            "createdAt": "2026-06-02T21:43:29.918Z",
+            "updatedAt": "2026-06-02T21:43:29.918Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "ATL Release Date Trailer Article Header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/57GtVpzfl8ANqff1p3rhWx/e6e51d37ff6bc3c6cb4bedfb3eef4c5f/ATL_Release_Date_Trailer_Article_Header.jpg",
+              "details": {
+                "size": 125626,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "ATL Release Date Trailer Article Header.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Pre-Orders are Open for Tomb Raider: Legacy of Atlantis!",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The wait is over. Tomb Raider: Legacy of Atlantis arrives February 12, 2027, on PlayStation 5, Xbox Series X|S, Steam, and Nintendo Switch 2. Check out the State of Play trailer below for your first look at new gameplay.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "7HvvQCXPasE0DBP4A8EGyZ",
+                    "type": "Entry",
+                    "createdAt": "2026-06-02T21:27:49.968Z",
+                    "updatedAt": "2026-06-02T21:27:49.968Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "embeddedHtml"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "contentfulName": "Legacy of Atlantis Release Date Trailer",
+                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/fn1EREGsdFg?si=38WU0bRz6GJnurH6\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-entry-block"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Built on Unreal Engine 5 by Crystal Dynamics and Flying Wild Hog, Legacy of Atlantis pairs stunning visuals with modern design sensibilities and unexpected new twists, all while staying true to the tone and atmosphere that defined Lara's original journey.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Environments have grown in scope and scale, making exploration, combat, and puzzle-solving feel entirely reimagined. In Peru's Lost Valley, puzzles have been redesigned from scratch. Spaces that once stood alone now flow into interconnected environments, giving players multiple angles of approach and new paths to discover.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Fan-favorite moments like the cog puzzle return in completely reimagined form. These reinventions bring Peru fully to life, layering in personality and history that make every iconic moment land harder than ever.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Whether you've been raiding tombs since '96 or this is your first adventure with Lara Croft, this is the definitive way to experience where the legend started.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Pre-Order Details",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-2"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Pre-orders are live now on PlayStation 5, Xbox Series X|S, and Steam. Three editions are available: Standard, Deluxe, and Collector's.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Standard Edition",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-3"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "16RESlJ8JdPQBuaRaXe0VJ",
+                    "type": "Asset",
+                    "createdAt": "2026-06-02T21:28:23.564Z",
+                    "updatedAt": "2026-06-02T21:28:23.564Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "EN TR STANDARD EDITION CT-000026074",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/16RESlJ8JdPQBuaRaXe0VJ/1ea0b4706dc60ea52ba2e064a2553dec/EN_TR_STANDARD_EDITION_CT-000026074.webp",
+                      "details": {
+                        "size": 134344,
+                        "image": { "width": 1920, "height": 1080 }
+                      },
+                      "fileName": "EN_TR_STANDARD_EDITION_CT-000026074.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Tomb Raider: Legacy of Atlantis (full game digital download)",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Survivor Outfit (pre-order bonus)",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "unordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Deluxe Edition",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-3"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "gGoBPBL6mfzcfYxZwNksF",
+                    "type": "Asset",
+                    "createdAt": "2026-06-02T21:28:53.259Z",
+                    "updatedAt": "2026-06-02T21:28:53.259Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "EN TR DELUXE CT-000026074",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/gGoBPBL6mfzcfYxZwNksF/7b055f23208ab3ccb39f4f4460e999c1/EN_TR_DELUXE_CT-000026074.webp",
+                      "details": {
+                        "size": 154444,
+                        "image": { "width": 1920, "height": 1080 }
+                      },
+                      "fileName": "EN_TR_DELUXE_CT-000026074.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Everything in Standard, plus:",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "48-Hour Early Launch Access (pre-order bonus)",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Parisian Fugitive Outfit",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Post-Launch DLC Story Pack",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "unordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Collector's Edition",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-3"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Everything in Deluxe, plus:",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "44csGdfKRJv4Sxin9EkEmr",
+                    "type": "Asset",
+                    "createdAt": "2026-06-02T21:30:03.927Z",
+                    "updatedAt": "2026-06-02T21:30:03.927Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "EN TR Collectors Edition CT-000026074",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/44csGdfKRJv4Sxin9EkEmr/fcfed2b7dbd719518c8d1c733b2be4e2/EN_TR_Collectors_Edition_CT-000026074.webp",
+                      "details": {
+                        "size": 216374,
+                        "image": { "width": 1920, "height": 1080 }
+                      },
+                      "fileName": "EN_TR_Collectors_Edition_CT-000026074.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Premium Steel Case",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Lara Croft vs. The T-Rex Statue",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Mini Art Book",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Croft Signet Pin",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Triumvirate Talisman Keychain",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "unordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Coming to the Nintendo Switch™ 2",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-2"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Yes, you read that right. Tomb Raider: Legacy of Atlantis is coming to Nintendo Switch 2 on February 12, 2027. Play on the go, at home, or wherever adventure calls — experience the same cinematic scale and fluid gameplay, designed for Nintendo Switch 2.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Pre-orders for Tomb Raider: Legacy of Atlantis on Nintendo Switch™ 2 will be available at a later date. Stay tuned for more updates.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Pre-Order Now",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-2"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Digital pre-orders for the Standard and Deluxe Editions are available now on ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "http://store.playstation.com/concept/10014491/"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "PlayStation Store",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": ", ", "nodeType": "text" },
+                {
+                  "data": {
+                    "uri": "https://www.xbox.com/games/store/tomb-raider-legacy-of-atlantis/9P82C3N2TLSV"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Xbox Store",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", and ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://store.steampowered.com/app/3558670/Tomb_Raider_Legacy_of_Atlantis/"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Steam",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ". Physical editions (including the Collector’s Edition) will be available at select retailers in the coming days.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Secure your copy now and follow the official Tomb Raider: Legacy of Atlantis @PlayTombRaider social channels for the latest updates!",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "publishDate": "2026-06-02",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Tomb Raider: Legend Turns 20 — Celebrating 20 Years with Uncovered Early Gameplay",
         "slug": "tomb-raider-legend-turns-20-celebrating-20-years-with-uncovered-early",
         "isLatestNews": true,
@@ -6957,1036 +8545,6 @@
           ]
         },
         "publishDate": "2025-11-26",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "slug": "tomb-raider-anniversary-now-available-on-playstation-store",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "6KPfjWiWrWki8YH0wFTKoZ",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:14:47.775Z",
-            "updatedAt": "2024-02-05T18:36:21.395Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Video Games",
-            "slug": "video-games",
-            "order": 10
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "2hiccY1WDxgmeb3ttGf6ik",
-              "type": "Entry",
-              "createdAt": "2023-09-15T19:32:38.378Z",
-              "updatedAt": "2023-09-15T19:32:38.378Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 2,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider:  Anniversary",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "1wZVSwdcWvNCEclvchCcXh",
-            "type": "Asset",
-            "createdAt": "2025-11-14T20:15:05.165Z",
-            "updatedAt": "2025-11-14T20:15:05.165Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "TR:A on PSN header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/1wZVSwdcWvNCEclvchCcXh/005933c33073f7fedd1a70e098822f45/image__9_.png",
-              "details": {
-                "size": 6400416,
-                "image": { "width": 3000, "height": 2000 }
-              },
-              "fileName": "image (9).png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider: Anniversary Now Available on PlayStation Store",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Relive the classic adventure today with Tomb Raider: Anniversary, ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10013616"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "now available on PlayStation 4 & 5",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": "!", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "If you're a ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "PlayStation Plus Premium",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " subscriber, Tomb Raider: Anniversary is included with your subscription.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Game Overview",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Tomb Raider: Anniversary retraces Lara Croft’s original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced ‘Tomb Raider: Legend’ game engine, the graphics, technology and physics bring Lara’s adventure and pursuit of a mystical artifact known only as the Scion right up to today’s technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "This is an emulation of the classic PS2 action-adventure title, Tomb Raider: Anniversary, playable on PS4 and PS5 for the first time. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "1N1rCWme4TBWjeNIc1nodB",
-                    "type": "Asset",
-                    "createdAt": "2025-10-15T21:33:23.558Z",
-                    "updatedAt": "2025-10-15T21:33:23.558Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "TRA ps5",
-                    "description": "",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1N1rCWme4TBWjeNIc1nodB/c02b133f0355703126300ef0ae6f862d/TRA_ps5.jpg",
-                      "details": {
-                        "size": 1468252,
-                        "image": { "width": 3840, "height": 2160 }
-                      },
-                      "fileName": "TRA ps5.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Release Date: ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "October 18, 2025",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Price:",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " $19.99/€19.99 SRP",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Be sure to check out the Tomb Raider series on the PlayStation Store, including the PS2 classic ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://store.playstation.com/en-us/concept/10010747/"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": "Tomb Raider: Legend",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "publishDate": "2025-11-18",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Tomb Raider: Definitive Edition Available NOW on Nintendo Switch™ and Nintendo Switch™ 2!",
-        "slug": "tomb-raider-definitive-edition-available-now-on-nintendo-switch-tm-and",
-        "isLatestNews": true,
-        "isFeatured": true,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "6KPfjWiWrWki8YH0wFTKoZ",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:14:47.775Z",
-            "updatedAt": "2024-02-05T18:36:21.395Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Video Games",
-            "slug": "video-games",
-            "order": 10
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "1iKNmTm8cuJ7ujC9MnIXkH",
-              "type": "Entry",
-              "createdAt": "2023-09-15T19:40:09.962Z",
-              "updatedAt": "2023-09-15T19:40:09.962Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Tomb Raider (2013)",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "4MB4P1vztAkl3wN2xPfVmu",
-            "type": "Asset",
-            "createdAt": "2025-11-17T17:36:42.304Z",
-            "updatedAt": "2025-11-17T17:36:42.304Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 3,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "tr2013 switch blog header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/4MB4P1vztAkl3wN2xPfVmu/c4846bdbb15db668088f2228ee58f871/tr2013_switch_blog_header.png",
-              "details": {
-                "size": 1745237,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "tr2013 switch blog header.png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Surprise, Raiders! \nTomb Raider: Definitive Edition is Available NOW on Nintendo Switch™ and Nintendo Switch™ 2!",
-        "body": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "See Where It All Began... At Home or On the Go",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Today, we’re thrilled to announce our partnership with Aspyr in bringing Tomb Raider: Definitive Edition to Nintendo systems. ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "This is the game that started it all for the Survivor trilogy—the viscerally intense, award-winning action-adventure that follows Lara Croft’s emotional journey from an inexperienced young woman into a hardened survivor.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Now, you can relive that defining adventure anywhere. Engage in high-octane combat, customize Lara's weapons and gear, and overcome grueling environments, whether you're playing on your TV or exploring Yamatai on the go.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "What’s in the Definitive edition?",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "This isn't just the base game. The ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Definitive Edition",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " is the complete package, optimized for Nintendo platforms and packed with all the content from the original release:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "All DLC Included:",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " Comes with all previously released downloadable content, including six bonus outfits for Lara, eight online multiplayer maps, and four multiplayer characters.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Online Multiplayer:",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " Yes, the 8-player online multiplayer is included! Team up with (or fight against) fellow survivors.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Digital Bonus Content:",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " Get a look behind the scenes with digital versions of the Dark Horse comic ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: The Beginning",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ", the mini-art book ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: The Art of Survival",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ", and the \"Final Hours of Tomb Raider\" developer video series.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Check out the brand new release trailer!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-entry-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "2PRUlwwAuV3iAIQoA4M7X",
-                    "type": "Entry",
-                    "createdAt": "2025-11-17T18:35:19.466Z",
-                    "updatedAt": "2025-11-17T18:35:19.466Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "embeddedHtml"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "contentfulName": "TR2013 Switch Trailer",
-                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/haF4auqSX50?si=A8gPONcvHjCfYXDF\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "A Special Thank You to Our Switch Community",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "We are so grateful to all of you who have supported Lara Croft’s classic adventures on the Nintendo Switch. To celebrate, we’re offering some special promotions!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Launch Discount:",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " To kick things off, the game is available for ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "10% off",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " its regular $19.99 price for everyone through November 24!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Loyalty Discount:",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " As a special thank you, owners of ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider I-III Remastered",
-                  "marks": [{ "type": "italic" }, { "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " on Nintendo Switch are eligible for an additional ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "10% off",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Loyalty Discount:",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " As a special thank you, owners of ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider IV-VI Remastered",
-                  "marks": [{ "type": "italic" }, { "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " on Nintendo Switch will ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "also",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " be eligible for a ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "10% off",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " discount.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Yes, these discounts stack!",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "If you own both ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider I-III Remastered",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " and ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider IV-VI Remastered",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ", you can combine those loyalty discounts with the launch discount for a potential ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "total of 30% off!",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " It's our way of saying thank you for exploring Lara Croft's entire legacy. Loyalty Discounts will run in the NOA Region from 11/18-11/25, and in the NOE/AUS Region from 11/21-11/28.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "We can't wait for you to experience this pivotal chapter in her story.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Download Now from the Nintendo eShop: ",
-                  "marks": [{ "type": "bold" }],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.nintendo.com/us/store/products/tomb-raider-definitive-edition-switch-2/"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Nintendo Switch 2 Edition",
-                      "marks": [{ "type": "bold" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.nintendo.com/us/store/products/tomb-raider-definitive-edition-switch/"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Nintendo Switch Edition",
-                      "marks": [{ "type": "bold" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            }
-          ]
-        },
-        "publishDate": "2025-11-18",
         "hideSocialSharingButtons": false
       }
     ],
@@ -20739,6 +21297,90 @@
       }
     ],
     "heroCards": [
+      {
+        "title": "Pre-Orders are Open for Tomb Raider: Legacy of Atlantis!",
+        "order": -12,
+        "thumbnail": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "a2O625TTDv9MpfURwwcdy",
+            "type": "Asset",
+            "createdAt": "2026-06-02T22:18:10.913Z",
+            "updatedAt": "2026-06-02T22:18:10.913Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "EN Atlantis SGF Trailer THM FINAL 3840x2160 CT-000024900",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/a2O625TTDv9MpfURwwcdy/7a4a4d024c16cf4860ba7a9e2f367aca/EN_Atlantis_SGF_Trailer_THM_FINAL_3840x2160_CT-000024900.jpg",
+              "details": {
+                "size": 1900710,
+                "image": { "width": 3840, "height": 2160 }
+              },
+              "fileName": "EN_Atlantis_SGF_Trailer_THM_FINAL_3840x2160_CT-000024900.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "backgroundImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "17kX6NmQvNv2CKwm6haGtS",
+            "type": "Asset",
+            "createdAt": "2025-12-09T23:30:47.127Z",
+            "updatedAt": "2025-12-09T23:30:47.127Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "TombRaider LegacyofAtlantis LaraCroft Vilcabamba VistaReveal",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/17kX6NmQvNv2CKwm6haGtS/421c926df8bb39744c0c0fa4a9792616/TombRaider_LegacyofAtlantis_LaraCroft_Vilcabamba_VistaReveal.png",
+              "details": {
+                "size": 14252934,
+                "image": { "width": 3840, "height": 2160 }
+              },
+              "fileName": "TombRaider_LegacyofAtlantis_LaraCroft_Vilcabamba_VistaReveal.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "ctaButtonLabel": "Learn More",
+        "ctaButtonLink": "https://www.tombraider.com/news/video-games/pre-orders-are-open-for-tomb-raider-legacy-of-atlantis"
+      },
       {
         "title": "Two Thrilling Tomb Raider Adventures Unveiled at The Game Awards",
         "order": -11,
