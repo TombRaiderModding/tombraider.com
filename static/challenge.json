@@ -1811,7 +1811,7 @@
                     "id": "3FqPEOJTaH5lRmAXDeYqYy",
                     "type": "Asset",
                     "createdAt": "2025-12-06T00:08:36.178Z",
-                    "updatedAt": "2025-12-06T00:08:36.178Z",
+                    "updatedAt": "2026-06-05T19:33:40.475Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1819,13 +1819,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "SoS PuzzleDoor02 v04",
-                    "description": "",
+                    "description": "Stone puzzle panel with four sliding stone tiles, framed by weathered rock and marked with carved up and down arrow controls.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/3FqPEOJTaH5lRmAXDeYqYy/530e3135e2ca7dc12bb244bc18f6760f/SoS_PuzzleDoor02_v04.webp",
                       "details": {
@@ -2390,7 +2390,7 @@
                     "id": "24djqeXD3EkDfuuJIwpaOD",
                     "type": "Asset",
                     "createdAt": "2025-12-06T00:06:40.944Z",
-                    "updatedAt": "2025-12-06T00:06:40.944Z",
+                    "updatedAt": "2026-06-05T19:40:30.890Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -2398,13 +2398,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Underworld Door Closed",
-                    "description": "",
+                    "description": "Ancient stone door set into a cavern wall, decorated with carved symbols and a central face-like relief, framed by engraved pillars.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/24djqeXD3EkDfuuJIwpaOD/d5768e2af1f05d2593b679374a711c2a/Underworld_Door_Closed.webp",
                       "details": {
@@ -2429,7 +2429,7 @@
                     "id": "6myF69mPZx4JZCJoVrUB7p",
                     "type": "Asset",
                     "createdAt": "2025-12-06T00:06:58.654Z",
-                    "updatedAt": "2025-12-06T00:06:58.654Z",
+                    "updatedAt": "2026-06-05T19:35:40.020Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -2437,13 +2437,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Underworld Door Open",
-                    "description": "",
+                    "description": "Ancient stone doorway carved into a rocky cavern wall, framed by engraved pillars and opening into darkness.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/6myF69mPZx4JZCJoVrUB7p/270be8a6c78869e19d6eb77cb8b5312b/Underworld_Door_Open.webp",
                       "details": {
@@ -2589,7 +2589,7 @@
                     "id": "kjyZAaqtCgdNUxrFOZwYm",
                     "type": "Asset",
                     "createdAt": "2025-12-06T00:10:35.865Z",
-                    "updatedAt": "2025-12-06T00:10:35.865Z",
+                    "updatedAt": "2026-06-05T18:45:53.302Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -2597,13 +2597,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "SoS PuzzleDoor03 v04",
-                    "description": "",
+                    "description": "Stone puzzle panel with four square slots, each marked by up and down arrow symbols carved into a weathered stone frame.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/kjyZAaqtCgdNUxrFOZwYm/0c989c78e38f7fd87c5562eb22e59303/SoS_PuzzleDoor03_v04.webp",
                       "details": {
