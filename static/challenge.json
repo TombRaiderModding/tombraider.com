@@ -1611,7 +1611,7 @@
                     "id": "2qCoCvckk4a3XIbxQ7uGnP",
                     "type": "Asset",
                     "createdAt": "2025-12-05T23:58:15.918Z",
-                    "updatedAt": "2025-12-05T23:58:15.918Z",
+                    "updatedAt": "2026-06-05T20:10:46.662Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1619,13 +1619,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Legend Door Closed",
-                    "description": "",
+                    "description": "Ancient stone gate carved with stacked faces and geometric motifs, set within a dark temple chamber above a short staircase.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/2qCoCvckk4a3XIbxQ7uGnP/45c7298d4778bcc6fa4c3f0cdea2930b/Legend_Door_Closed.webp",
                       "details": {
@@ -1650,7 +1650,7 @@
                     "id": "4D4HZA7kIYhjRh2Nq9QBeZ",
                     "type": "Asset",
                     "createdAt": "2025-12-06T00:03:53.572Z",
-                    "updatedAt": "2025-12-06T00:03:53.572Z",
+                    "updatedAt": "2026-06-05T20:03:09.561Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1658,13 +1658,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Legend Door Open",
-                    "description": "",
+                    "description": "Ancient stone doorway in a temple chamber, topped with a carved face and surrounded by weathered reliefs and pillars.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/4D4HZA7kIYhjRh2Nq9QBeZ/098537ec814246e7c94d432f070ff5aa/Legend_Door_Open.webp",
                       "details": {
@@ -1725,7 +1725,7 @@
                     "id": "5XAoqFz8RC1zuXh9Z6cFQp",
                     "type": "Asset",
                     "createdAt": "2025-12-05T23:30:17.189Z",
-                    "updatedAt": "2025-12-05T23:30:17.189Z",
+                    "updatedAt": "2026-06-05T20:14:07.365Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1733,13 +1733,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 6,
-                    "revision": 1,
+                    "publishedVersion": 8,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "SoS RiseLara Backfacing",
-                    "description": "",
+                    "description": "Rear view of Lara Croft in a dark tank top and cargo pants, with a ponytail, radio, and climbing axe on her belt.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/5XAoqFz8RC1zuXh9Z6cFQp/fae96871cc5a23c7eb293dc7fcbd065e/SoS_RiseLara_Backfacing.webp",
                       "details": {
