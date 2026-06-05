@@ -45,16 +45,17 @@
           "id": "5oHvbd6MyBZEEz49j3W2MJ",
           "type": "Asset",
           "createdAt": "2023-11-28T17:59:14.600Z",
-          "updatedAt": "2025-12-08T21:22:33.843Z",
+          "updatedAt": "2026-06-05T17:22:13.160Z",
           "environment": {
             "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
           },
-          "publishedVersion": 8,
-          "revision": 2,
+          "publishedVersion": 10,
+          "revision": 3,
           "locale": "en-US"
         },
         "fields": {
           "title": "Tomb Raider Unified Wallpaper",
+          "description": "Lara Croft stands with pistols drawn as a roaring Tyrannosaurus rex emerges from a jungle landscape of waterfalls, ruins, and mountains.",
           "file": {
             "url": "//images.ctfassets.net/x77ixfmkpoiv/5oHvbd6MyBZEEz49j3W2MJ/29e5a6d08ddac046b1c79dd5b94d6dde/TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1__1_.png",
             "details": {
@@ -831,7 +832,7 @@
                     "id": "yFh8LXsqWcCUYwl3wnlYq",
                     "type": "Asset",
                     "createdAt": "2025-12-09T21:17:55.523Z",
-                    "updatedAt": "2025-12-09T21:17:55.523Z",
+                    "updatedAt": "2026-06-05T17:14:49.274Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -839,13 +840,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Xian Door Closed",
-                    "description": "",
+                    "description": "Xian Door Closed",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/yFh8LXsqWcCUYwl3wnlYq/edeb6d2c795e06a55b0c1ed38e3f083d/Xian_Door_Closed.webp",
                       "details": {
@@ -870,7 +871,7 @@
                     "id": "7u1xjLeyAsyGlXx1XJ61JH",
                     "type": "Asset",
                     "createdAt": "2025-12-09T21:18:20.642Z",
-                    "updatedAt": "2025-12-09T21:18:20.642Z",
+                    "updatedAt": "2026-06-05T17:14:35.042Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -878,13 +879,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Xian Door Open",
-                    "description": "",
+                    "description": "Xian Door Open",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/7u1xjLeyAsyGlXx1XJ61JH/9fbf2073dba3194e13e1db23ea4b1aef/Xian_Door_Open.webp",
                       "details": {
@@ -945,7 +946,7 @@
                     "id": "3KDtK5uHgGUw5Nvi6xC92N",
                     "type": "Asset",
                     "createdAt": "2025-12-09T21:19:43.030Z",
-                    "updatedAt": "2025-12-09T21:19:43.030Z",
+                    "updatedAt": "2026-06-05T17:14:15.205Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -953,13 +954,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "TR Anniversary LaraBack",
-                    "description": "",
+                    "description": "Rear view of Lara Croft wearing a backpack and dual holsters, with braided hair and a shotgun slung across her back.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/3KDtK5uHgGUw5Nvi6xC92N/4dfb921f2347264173300486779a72d2/TR_Anniversary_LaraBack.webp",
                       "details": {
@@ -1031,7 +1032,7 @@
                     "id": "2mNzQt6jywslwfQ6JbT41B",
                     "type": "Asset",
                     "createdAt": "2025-12-09T21:24:40.334Z",
-                    "updatedAt": "2025-12-09T21:24:40.334Z",
+                    "updatedAt": "2026-06-05T16:38:44.372Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -1039,13 +1040,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 5,
-                    "revision": 1,
+                    "publishedVersion": 7,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "Xian Puzzle Box",
-                    "description": "",
+                    "description": "Xian Puzzle Box",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/2mNzQt6jywslwfQ6JbT41B/a82320e67a9adb59674368f9a6554d62/SoS_PuzzleDoor01_v03.webp",
                       "details": {
@@ -1109,7 +1110,7 @@
                       "id": "4JntZ9AjEM1fXhuZd7spI",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:50:58.575Z",
-                      "updatedAt": "2025-12-08T19:50:58.575Z",
+                      "updatedAt": "2026-06-05T17:32:39.505Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1117,13 +1118,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph15",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/4JntZ9AjEM1fXhuZd7spI/c5c9dd0d3a89f0897e7da300d9118f3f/SoS_Puzzle01_Glyph15.webp",
                         "details": {
@@ -1184,7 +1185,7 @@
                       "id": "Cpf9FN7vwBhZwThSOAYRV",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:39:03.871Z",
-                      "updatedAt": "2025-12-08T19:39:03.871Z",
+                      "updatedAt": "2026-06-05T17:34:35.199Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1192,13 +1193,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph05",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/Cpf9FN7vwBhZwThSOAYRV/ae53d8ef3d24b0785181fdc0fec34e50/SoS_Puzzle01_Glyph05.webp",
                         "details": {
@@ -1259,7 +1260,7 @@
                       "id": "6RC4E4FhYieMNBeLyDfkuT",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:38:04.472Z",
-                      "updatedAt": "2025-12-08T19:38:04.472Z",
+                      "updatedAt": "2026-06-05T17:34:56.136Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1267,13 +1268,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph03",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/6RC4E4FhYieMNBeLyDfkuT/57667786aef239057f973488a41a175d/SoS_Puzzle01_Glyph03.webp",
                         "details": {
@@ -1334,7 +1335,7 @@
                       "id": "4ZnFF8KNf1npqrM66LlIFm",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:49:03.030Z",
-                      "updatedAt": "2025-12-08T19:49:03.030Z",
+                      "updatedAt": "2026-06-05T17:32:49.021Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1342,13 +1343,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph14",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/4ZnFF8KNf1npqrM66LlIFm/ba0f22bbf02554ae340285bc03a3cee6/SoS_Puzzle01_Glyph14.webp",
                         "details": {
@@ -1409,7 +1410,7 @@
                       "id": "4PT1anFQLVkXE9tmOxkhWF",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:44:39.967Z",
-                      "updatedAt": "2025-12-08T19:44:39.967Z",
+                      "updatedAt": "2026-06-05T17:33:39.005Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1417,13 +1418,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph10",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/4PT1anFQLVkXE9tmOxkhWF/d48db46954ade48786c24683d3e6cc95/SoS_Puzzle01_Glyph10.webp",
                         "details": {
@@ -1484,7 +1485,7 @@
                       "id": "4ZLRMkeZuDuiChFAxRgCSi",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:54:11.460Z",
-                      "updatedAt": "2025-12-08T19:54:11.460Z",
+                      "updatedAt": "2026-06-05T17:32:09.463Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1492,13 +1493,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 7,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph18",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/4ZLRMkeZuDuiChFAxRgCSi/0e45b5304e0d83c0a64b257cbb7cf45c/SoS_Puzzle01_Glyph18.webp",
                         "details": {
@@ -2503,7 +2504,7 @@
                     "id": "3KDtK5uHgGUw5Nvi6xC92N",
                     "type": "Asset",
                     "createdAt": "2025-12-09T21:19:43.030Z",
-                    "updatedAt": "2025-12-09T21:19:43.030Z",
+                    "updatedAt": "2026-06-05T17:14:15.205Z",
                     "environment": {
                       "sys": {
                         "id": "master",
@@ -2511,13 +2512,13 @@
                         "linkType": "Environment"
                       }
                     },
-                    "publishedVersion": 3,
-                    "revision": 1,
+                    "publishedVersion": 5,
+                    "revision": 2,
                     "locale": "en-US"
                   },
                   "fields": {
                     "title": "TR Anniversary LaraBack",
-                    "description": "",
+                    "description": "Rear view of Lara Croft wearing a backpack and dual holsters, with braided hair and a shotgun slung across her back.",
                     "file": {
                       "url": "//images.ctfassets.net/x77ixfmkpoiv/3KDtK5uHgGUw5Nvi6xC92N/4dfb921f2347264173300486779a72d2/TR_Anniversary_LaraBack.webp",
                       "details": {
@@ -2666,7 +2667,7 @@
                       "id": "2a93bVb8tGkFO2O5eTQJYn",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:32:36.583Z",
-                      "updatedAt": "2025-12-08T19:32:36.583Z",
+                      "updatedAt": "2026-06-05T17:35:17.930Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2674,13 +2675,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph01",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/2a93bVb8tGkFO2O5eTQJYn/44765085b647277bf2dab42981b97bbd/SoS_Puzzle01_Glyph01.webp",
                         "details": {
@@ -2741,7 +2742,7 @@
                       "id": "6RC4E4FhYieMNBeLyDfkuT",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:38:04.472Z",
-                      "updatedAt": "2025-12-08T19:38:04.472Z",
+                      "updatedAt": "2026-06-05T17:34:56.136Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2749,13 +2750,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph03",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/6RC4E4FhYieMNBeLyDfkuT/57667786aef239057f973488a41a175d/SoS_Puzzle01_Glyph03.webp",
                         "details": {
@@ -2816,7 +2817,7 @@
                       "id": "Cpf9FN7vwBhZwThSOAYRV",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:39:03.871Z",
-                      "updatedAt": "2025-12-08T19:39:03.871Z",
+                      "updatedAt": "2026-06-05T17:34:35.199Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2824,13 +2825,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph05",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/Cpf9FN7vwBhZwThSOAYRV/ae53d8ef3d24b0785181fdc0fec34e50/SoS_Puzzle01_Glyph05.webp",
                         "details": {
@@ -2891,7 +2892,7 @@
                       "id": "7xNiR59GSzavhYih5QZjIm",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:40:08.934Z",
-                      "updatedAt": "2025-12-08T19:40:08.934Z",
+                      "updatedAt": "2026-06-05T17:34:08.817Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2899,13 +2900,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph07",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/7xNiR59GSzavhYih5QZjIm/df0fbed00bb4dee865c7ad202c369c8f/SoS_Puzzle01_Glyph07.webp",
                         "details": {
@@ -2966,7 +2967,7 @@
                       "id": "5CfQHsgdnS8jeCUZWoxWLb",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:45:16.590Z",
-                      "updatedAt": "2025-12-08T19:45:16.590Z",
+                      "updatedAt": "2026-06-05T17:33:27.966Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2974,13 +2975,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph11",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/5CfQHsgdnS8jeCUZWoxWLb/8679c12852ef7cd076aa9d120231f02c/SoS_Puzzle01_Glyph11.webp",
                         "details": {
@@ -3041,7 +3042,7 @@
                       "id": "3RpmxkLvnJjSF6n7LRyKie",
                       "type": "Asset",
                       "createdAt": "2025-12-08T19:48:11.901Z",
-                      "updatedAt": "2025-12-08T19:48:11.901Z",
+                      "updatedAt": "2026-06-05T17:33:02.319Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -3049,13 +3050,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle01 Glyph13",
-                      "description": "",
+                      "description": "Puzzel Glyph",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/3RpmxkLvnJjSF6n7LRyKie/8a3a6a4cd093d243efed9098a7f8cc1c/SoS_Puzzle01_Glyph13.webp",
                         "details": {

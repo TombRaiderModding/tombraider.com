@@ -46,16 +46,17 @@
           "id": "5oHvbd6MyBZEEz49j3W2MJ",
           "type": "Asset",
           "createdAt": "2023-11-28T17:59:14.600Z",
-          "updatedAt": "2025-12-08T21:22:33.843Z",
+          "updatedAt": "2026-06-05T17:22:13.160Z",
           "environment": {
             "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
           },
-          "publishedVersion": 8,
-          "revision": 2,
+          "publishedVersion": 10,
+          "revision": 3,
           "locale": "en-US"
         },
         "fields": {
           "title": "Tomb Raider Unified Wallpaper",
+          "description": "Lara Croft stands with pistols drawn as a roaring Tyrannosaurus rex emerges from a jungle landscape of waterfalls, ruins, and mountains.",
           "file": {
             "url": "//images.ctfassets.net/x77ixfmkpoiv/5oHvbd6MyBZEEz49j3W2MJ/29e5a6d08ddac046b1c79dd5b94d6dde/TR1_COVER_ART_LAYERED_3840x2160_NOLOGO_withOmega_v01_Alt1__1_.png",
             "details": {
