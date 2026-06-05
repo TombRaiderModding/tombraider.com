@@ -1888,7 +1888,7 @@
                       "id": "2OR3mXD0fB8QRxY6N6RdvH",
                       "type": "Asset",
                       "createdAt": "2025-12-09T22:43:02.933Z",
-                      "updatedAt": "2025-12-09T22:43:02.933Z",
+                      "updatedAt": "2026-06-05T15:03:10.138Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1896,13 +1896,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle03 Glyph12",
-                      "description": "",
+                      "description": "Puzzel Glyph ",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/2OR3mXD0fB8QRxY6N6RdvH/7b46436b4698d49f8abeb128260bce41/SoS_Puzzle03_Glyph12.png",
                         "details": {
@@ -1963,7 +1963,7 @@
                       "id": "7sI9eVgjQvry6ocLd0qDNJ",
                       "type": "Asset",
                       "createdAt": "2025-12-09T22:14:28.964Z",
-                      "updatedAt": "2025-12-09T22:14:28.964Z",
+                      "updatedAt": "2026-06-05T15:07:13.747Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -1971,13 +1971,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle03 Glyph02",
-                      "description": "",
+                      "description": "Puzzel Glyph ",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/7sI9eVgjQvry6ocLd0qDNJ/a14d828b7e8f3189dcd7e6a01c6b958d/SoS_Puzzle03_Glyph02.png",
                         "details": {
@@ -2038,7 +2038,7 @@
                       "id": "42JqNquSJ4Xz9Z6nQ7EUnY",
                       "type": "Asset",
                       "createdAt": "2025-12-09T22:34:24.732Z",
-                      "updatedAt": "2025-12-09T22:34:24.732Z",
+                      "updatedAt": "2026-06-05T15:04:30.036Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2046,13 +2046,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle03 Glyph10",
-                      "description": "",
+                      "description": "Puzzel Glyph ",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/42JqNquSJ4Xz9Z6nQ7EUnY/48c3189258e523d5a89aef1fb88eeee7/SoS_Puzzle03_Glyph10.png",
                         "details": {
@@ -2113,7 +2113,7 @@
                       "id": "2286SwScUhVgYqgHmQ2PJq",
                       "type": "Asset",
                       "createdAt": "2025-12-09T22:32:55.005Z",
-                      "updatedAt": "2025-12-09T22:32:55.005Z",
+                      "updatedAt": "2026-06-05T15:05:18.108Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2121,13 +2121,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle03 Glyph08",
-                      "description": "",
+                      "description": "Puzzel Glyph ",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/2286SwScUhVgYqgHmQ2PJq/efb9afcb52d1e4772049c3d665828533/SoS_Puzzle03_Glyph08.png",
                         "details": {
@@ -2188,7 +2188,7 @@
                       "id": "4HfHcFGemIQtSpisr5XOro",
                       "type": "Asset",
                       "createdAt": "2025-12-09T22:29:21.140Z",
-                      "updatedAt": "2025-12-09T22:29:21.140Z",
+                      "updatedAt": "2026-06-05T15:06:36.312Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2196,13 +2196,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle03 Glyph04",
-                      "description": "",
+                      "description": "Puzzel Glyph ",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/4HfHcFGemIQtSpisr5XOro/df4514db1a65be62d177020544736697/SoS_Puzzle03_Glyph04.png",
                         "details": {
@@ -2263,7 +2263,7 @@
                       "id": "jw1AsUXZD2eUYVPZZdJNs",
                       "type": "Asset",
                       "createdAt": "2025-12-09T22:31:54.164Z",
-                      "updatedAt": "2025-12-09T22:31:54.164Z",
+                      "updatedAt": "2026-06-05T15:06:06.353Z",
                       "environment": {
                         "sys": {
                           "id": "master",
@@ -2271,13 +2271,13 @@
                           "linkType": "Environment"
                         }
                       },
-                      "publishedVersion": 3,
-                      "revision": 1,
+                      "publishedVersion": 5,
+                      "revision": 2,
                       "locale": "en-US"
                     },
                     "fields": {
                       "title": "SoS Puzzle03 Glyph06",
-                      "description": "",
+                      "description": "Puzzel Glyph ",
                       "file": {
                         "url": "//images.ctfassets.net/x77ixfmkpoiv/jw1AsUXZD2eUYVPZZdJNs/c6e4264e487b578aff8f4995470a69dc/SoS_Puzzle03_Glyph06.png",
                         "details": {
