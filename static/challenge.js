@@ -40,11 +40,11 @@
                   ? [x[0].sys.id, x[0].sys.id, x[0].sys.id, x[0].sys.id]
                   : ["", "", "", ""],
               ),
-              [C, L] = (0, n.useState)(!1),
-              [_, A] = (0, n.useState)(!1),
+              [C, _] = (0, n.useState)(!1),
+              [L, A] = (0, n.useState)(!1),
               T = (0, n.useRef)(null);
-            async function O() {
-              (A(!0), L(!1));
+            async function E() {
+              (A(!0), _(!1));
               try {
                 var e, t, l;
                 let s = await fetch("/api/puzzle/validate-solution", {
@@ -55,7 +55,7 @@
                   r = await s.json();
                 if (!s.ok) throw Error("Validation failed");
                 (null == (e = r.data) ? void 0 : e.isCorrect)
-                  ? (L(!1),
+                  ? (_(!1),
                     j ||
                       sessionStorage.setItem(
                         "pendingPuzzleSolved",
@@ -72,7 +72,7 @@
                       roomId: p,
                       puzzleId: p,
                     }))
-                  : (L(!0),
+                  : (_(!0),
                     (0, m.sendGTMEvent)({
                       event: "challenge_incorrect_answer",
                       playFabId:
@@ -90,7 +90,7 @@
                       .to(".error-message", { x: 0, duration: 0.1 })
                       .play());
               } catch (e) {
-                (console.error("Error validating puzzle solution:", e), L(!0));
+                (console.error("Error validating puzzle solution:", e), _(!0));
               } finally {
                 A(!1);
               }
@@ -109,7 +109,7 @@
                     roomId: p,
                     puzzleId: p,
                   }));
-              } else (L(!1), document.body.classList.remove("overflow-hidden"));
+              } else (_(!1), document.body.classList.remove("overflow-hidden"));
               return () => {
                 document.body.classList.remove("overflow-hidden");
               };
@@ -255,9 +255,9 @@
                                         "mb-4 flex flex-col items-center gap-6",
                                       children: [
                                         (0, r.jsx)(i.A, {
-                                          onClick: () => O(),
-                                          disabled: _,
-                                          children: _ ? "Checking..." : b,
+                                          onClick: () => E(),
+                                          disabled: L,
+                                          children: L ? "Checking..." : b,
                                         }),
                                         (0, r.jsx)("span", {
                                           className: "cursor-pointer underline",
@@ -582,11 +582,11 @@
             b = l(95344),
             y = e([c, u, h]);
           function j(e) {
-            var t, l, s, a, y, j, w, N, z, k, I, S, R, C, L, _, A;
+            var t, l, s, a, y, j, w, N, z, k, I, S, R, C, _, L, A;
             let {
                 room: T,
-                roomId: O,
-                activeRoomIndex: E,
+                roomId: E,
+                activeRoomIndex: O,
                 moveToNextRoom: D,
                 onRoomCompleted: F,
               } = e,
@@ -639,7 +639,7 @@
                     { opacity: 1, stagger: 0.5, delay: 0.8, overwrite: !0 },
                   );
               },
-              { scope: eu, dependencies: [E] },
+              { scope: eu, dependencies: [O] },
             ),
             (0, x.L)(
               () => {
@@ -656,7 +656,7 @@
                   { opacity: 1, duration: 2 },
                 );
               },
-              { scope: eu, dependencies: [E] },
+              { scope: eu, dependencies: [O] },
             ),
             (0, x.L)(
               () => {
@@ -711,16 +711,16 @@
                       (console.log(
                         "[PuzzleRoom] Processing pending puzzle for room "
                           .concat(e, ", current room: ")
-                          .concat(O),
+                          .concat(E),
                       ),
-                        (l = e === O));
+                        (l = e === E));
                     }
                     let s = await fetch("/api/puzzle/completed-rooms"),
                       r = (
                         (null == (e = (await s.json()).data)
                           ? void 0
                           : e.completedRoomIds) || []
-                      ).includes(O);
+                      ).includes(E);
                     if (l) {
                       (sessionStorage.removeItem("pendingPuzzleSolved"),
                         console.log(
@@ -729,7 +729,7 @@
                       let e = await fetch("/api/puzzle/grant-reward", {
                           method: "POST",
                           headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ roomId: O }),
+                          body: JSON.stringify({ roomId: E }),
                         }),
                         t = await e.json();
                       t.data
@@ -739,7 +739,7 @@
                           er(t.data.rewardImageUrl),
                           el(!0),
                           ec(!0),
-                          F(O))
+                          F(E))
                         : console.error(
                             "[PuzzleRoom] Failed to grant reward - no data in response",
                             t,
@@ -748,7 +748,7 @@
                       let e = await fetch("/api/puzzle/grant-reward", {
                           method: "POST",
                           headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ roomId: O }),
+                          body: JSON.stringify({ roomId: E }),
                         }),
                         t = await e.json();
                       t.data && (er(t.data.rewardImageUrl), ec(!0));
@@ -760,7 +760,7 @@
                     );
                   }
               })();
-            }, [M, O, F]),
+            }, [M, E, F]),
             (0, n.useEffect)(() => {
               if (!eo && Q) {
                 var e;
@@ -770,14 +770,14 @@
                     (null == B || null == (e = B.accountInfo)
                       ? void 0
                       : e.playFabId) || null,
-                  roomId: O,
-                  puzzleId: O,
+                  roomId: E,
+                  puzzleId: E,
                 });
               }
             }, [
               eo,
               Q,
-              O,
+              E,
               null == B || null == (a = B.accountInfo) ? void 0 : a.playFabId,
             ]),
             U && V && K)
@@ -883,8 +883,8 @@
                             children: (0, r.jsx)(f.A, {
                               onUnlock: () => ee(!0),
                               overlayText:
-                                null != (L = T.puzzleSliderText)
-                                  ? L
+                                null != (_ = T.puzzleSliderText)
+                                  ? _
                                   : "Start the Puzzle",
                               id: "vaultDoorSlider",
                             }),
@@ -981,14 +981,14 @@
                           ee(!1);
                         },
                         glyphOptions: ed,
-                        puzzleHeadline: null != (_ = T.puzzleHeadline) ? _ : "",
+                        puzzleHeadline: null != (L = T.puzzleHeadline) ? L : "",
                         puzzleDescription:
                           null != (A = T.puzzleDescription) ? A : "",
                         puzzleBackground: null == K ? void 0 : K.image,
-                        roomId: O,
+                        roomId: E,
                         isLoggedIn: M,
                         solvePuzzle: (e) => {
-                          (el(!0), er(e), M && F(O));
+                          (el(!0), er(e), M && F(E));
                         },
                         puzzleSolveButtonText: T.puzzleSolveButtonText,
                         puzzleBackButtonText: T.puzzleBackButtonText,
@@ -1459,7 +1459,7 @@
               children: [
                 (0, r.jsxs)("div", {
                   className:
-                    "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
+                    "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
                     (0, r.jsx)("div", {
                       children: (0, r.jsx)(a(), {
@@ -1481,7 +1481,7 @@
                     }),
                     (0, r.jsxs)("div", {
                       className:
-                        "flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg text-darkgray-500 ",
+                        "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
                       children: [
                         p.map((e) => {
                           let t = e.link;
@@ -1501,13 +1501,14 @@
                           className: "cursor-pointer",
                           children: "Accessibility",
                         }),
-                        (0, r.jsx)("span", {
+                        (0, r.jsx)("a", {
+                          href: "#",
                           className: "cursor-pointer",
-                          onClick: () => {
-                            var e;
-                            return null == (e = window.OneTrust)
-                              ? void 0
-                              : e.ToggleInfoDisplay();
+                          onClick: (e) => {
+                            var t;
+                            (e.preventDefault(),
+                              null == (t = window.__ucCmp) ||
+                                t.showSecondLayer());
                           },
                           children:
                             "Do Not Sell or Share My Personal Information",
@@ -1521,7 +1522,7 @@
                     "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
                   children: [
                     (0, r.jsx)("div", {
-                      className: "text-center text-darkgray-500",
+                      className: "text-darkgray-500 text-center",
                       children: n.footerCopyright,
                     }),
                     (0, r.jsx)("div", {
@@ -1557,19 +1558,19 @@
                     }),
                   ],
                 }),
-                (0, r.jsx)("div", { className: "h-[1px] bg-gray-500" }),
+                (0, r.jsx)("div", { className: "h-px bg-gray-500" }),
                 (0, r.jsxs)("div", {
                   className:
-                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row ",
+                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row",
                   children: [
                     (0, r.jsx)("p", {
                       className:
-                        "max-w-[1000px] text-center text-sm text-darkgray-300 lg:text-left",
+                        "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
                       children: n.footerLegalNotice,
                     }),
                     (0, r.jsx)("div", {
                       className:
-                        "flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 text-darkgray-500 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
+                        "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
                       children: h.map((e) =>
                         (0, r.jsx)(
                           "a",

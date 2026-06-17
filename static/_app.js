@@ -62122,17 +62122,11 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
                         ),
                       ],
                     }),
+                    (0, i.jsx)(d.GoogleTagManager, { gtmId: "GTM-MLGX5W4V" }),
                     (0, i.jsxs)(s.N, {
                       children: [
                         (0, i.jsx)(a.A, {}),
-                        (0, i.jsxs)(u.Y, {
-                          children: [
-                            (0, i.jsx)(d.GoogleTagManager, {
-                              gtmId: "GTM-MLGX5W4V",
-                            }),
-                            (0, i.jsx)(r, { ...n }),
-                          ],
-                        }),
+                        (0, i.jsx)(u.Y, { children: (0, i.jsx)(r, { ...n }) }),
                       ],
                     }),
                   ],

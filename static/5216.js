@@ -2,8 +2,8 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [5216],
   {
-    608: (e, t, l) => {
-      function r(e) {
+    608: (e, t, r) => {
+      function l(e) {
         sessionStorage.setItem("redirectToURLAfterAuth", e);
       }
       function a() {
@@ -12,24 +12,24 @@
       function n() {
         sessionStorage.removeItem("redirectToURLAfterAuth");
       }
-      l.d(t, { d4: () => r, nF: () => a, pz: () => n });
+      r.d(t, { d4: () => l, nF: () => a, pz: () => n });
     },
-    3976: (e, t, l) => {
-      l.a(e, async (e, r) => {
+    3976: (e, t, r) => {
+      r.a(e, async (e, l) => {
         try {
-          l.d(t, { A: () => x });
-          var a = l(2183),
-            n = l(99435),
-            s = l(95290),
-            i = l(69370),
-            o = l(36439),
-            c = l(28898),
-            d = l(18219),
-            u = l(96006),
-            h = l.n(u),
+          r.d(t, { A: () => x });
+          var a = r(2183),
+            n = r(99435),
+            s = r(95290),
+            i = r(69370),
+            o = r(36439),
+            c = r(28898),
+            d = r(18219),
+            u = r(96006),
+            h = r.n(u),
             m = e([n, i]);
           function x(e) {
-            var t, l, r, u, m, x, g;
+            var t, r, l, u, m, x, g;
             let { darkMode: p, surveys: f } = e,
               { userData: b, emailData: v, completedSurveys: w } = (0, n.u)(),
               [y, j] = (0, o.useState)(!1),
@@ -49,9 +49,9 @@
             }, [v, null == v ? void 0 : v.hasConfirmedEmail, C]);
             let A =
               (null == b ||
-              null == (r = b.accountInfo) ||
-              null == (l = r.titleInfo) ||
-              null == (t = l.displayName)
+              null == (l = b.accountInfo) ||
+              null == (r = l.titleInfo) ||
+              null == (t = r.displayName)
                 ? void 0
                 : t.substring(0, 2).toUpperCase()) || "";
             return (0, a.jsxs)(c.A, {
@@ -124,23 +124,23 @@
               ],
             });
           }
-          (([n, i] = m.then ? (await m)() : m), r());
+          (([n, i] = m.then ? (await m)() : m), l());
         } catch (e) {
-          r(e);
+          l(e);
         }
       });
     },
-    15711: (e, t, l) => {
-      l.d(t, { A: () => o });
-      var r = l(2183),
-        a = l(36439),
-        n = l(26974),
-        s = l(96006),
-        i = l.n(s);
+    15711: (e, t, r) => {
+      r.d(t, { A: () => o });
+      var l = r(2183),
+        a = r(36439),
+        n = r(26974),
+        s = r(96006),
+        i = r.n(s);
       function o(e) {
         let {
             variant: t = "normal",
-            full: l = !1,
+            full: r = !1,
             loading: s,
             disabled: o,
             startIcon: c,
@@ -150,17 +150,17 @@
             var t;
             return null == (t = e.children) ? void 0 : t.toString();
           }, [e.children]),
-          h = (e, l, r, a, n) =>
+          h = (e, r, l, a, n) =>
             "normal" === t
               ? e
               : "darkBackground" === t
-                ? l
+                ? r
                 : "dark" === t
-                  ? r
+                  ? l
                   : "green" === t
                     ? n
                     : a;
-        return (0, r.jsxs)("button", {
+        return (0, l.jsxs)("button", {
           ...d,
           type: "submit",
           id: u,
@@ -168,7 +168,7 @@
           className:
             "border-radius-8 group relative inline-flex cursor-pointer items-center justify-center overflow-hidden "
               .concat(e.className, " ")
-              .concat(l && "w-full", " ")
+              .concat(r && "w-full", " ")
               .concat(
                 h(
                   "border-yellow-500/50 bg-transparent",
@@ -199,14 +199,14 @@
                 ),
                 " ",
               )
-              .concat(l && "w-full"),
+              .concat(r && "w-full"),
           children: [
             ("normal" === t || "darkBackground" === t) &&
-              (0, r.jsx)("div", {
+              (0, l.jsx)("div", {
                 "html-for": u,
                 className:
                   "canhover:group-hover:opacity-100 pointer-events-none absolute top-0 left-0 z-10 h-full w-full overflow-hidden border-transparent opacity-0 shadow-[0_0px_15px_0px_#F1C662] transition duration-300",
-                children: (0, r.jsx)(i(), {
+                children: (0, l.jsx)(i(), {
                   src: "/images/gold-button-texture-1.jpg",
                   fill: !0,
                   className: "object-cover",
@@ -215,12 +215,12 @@
                 }),
               }),
             "green" === t &&
-              (0, r.jsxs)("div", {
+              (0, l.jsxs)("div", {
                 "html-for": u,
                 className:
                   "pointer-events-none absolute top-0 left-0 z-10 h-full w-full overflow-hidden opacity-100 transition duration-300",
                 children: [
-                  (0, r.jsx)(i(), {
+                  (0, l.jsx)(i(), {
                     src: "/images/fabric-button-texture_teal-1.jpg",
                     fill: !0,
                     className:
@@ -228,26 +228,26 @@
                     alt: "Green back",
                     sizes: "256px",
                   }),
-                  (0, r.jsx)("div", {
+                  (0, l.jsx)("div", {
                     className:
                       "pointer-events-none absolute inset-0 h-full w-full bg-teal-500",
                   }),
                 ],
               }),
             "dark" === t &&
-              (0, r.jsx)("div", {
+              (0, l.jsx)("div", {
                 "html-for": u,
                 className:
                   "canhover:group-hover:opacity-80 pointer-events-none absolute top-0 left-0 z-10 h-full w-full border-transparent bg-gradient-to-r from-black to-black opacity-0 transition duration-300",
               }),
             "error" === t &&
-              (0, r.jsx)("div", {
+              (0, l.jsx)("div", {
                 "html-for": u,
                 className:
                   "canhover:group-hover:opacity-100 pointer-events-none absolute top-0 left-0 z-10 h-full w-full border-transparent bg-gradient-to-r from-red-500 to-red-500 opacity-0 transition duration-300",
               }),
             c &&
-              (0, r.jsx)(i(), {
+              (0, l.jsx)(i(), {
                 width: 16,
                 height: 16,
                 alt: "Link icon",
@@ -255,49 +255,49 @@
                   "canhover:group-hover:invert relative z-10 mr-3 transition duration-300",
                 src: c,
               }),
-            (0, r.jsx)("span", {
+            (0, l.jsx)("span", {
               className: "relative z-20",
               children: e.children,
             }),
             s &&
-              (0, r.jsx)("span", {
+              (0, l.jsx)("span", {
                 className: "relative z-20 ml-3",
-                children: (0, r.jsx)(n.A, {}),
+                children: (0, l.jsx)(n.A, {}),
               }),
           ],
         });
       }
     },
-    18219: (e, t, l) => {
-      l.d(t, { A: () => a });
-      var r = l(2183);
+    18219: (e, t, r) => {
+      r.d(t, { A: () => a });
+      var l = r(2183);
       function a(e) {
         let { initials: t } = e;
-        return (0, r.jsx)("div", {
+        return (0, l.jsx)("div", {
           className:
             "relative inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border-2 border-blue-800 bg-blue-500",
-          children: (0, r.jsx)("span", {
+          children: (0, l.jsx)("span", {
             className: "font-bold text-blue-800",
             children: t,
           }),
         });
       }
     },
-    24135: (e, t, l) => {
-      l.d(t, { A: () => a });
-      var r = l(2183);
+    24135: (e, t, r) => {
+      r.d(t, { A: () => a });
+      var l = r(2183);
       function a(e) {
-        return (0, r.jsx)("div", { className: "pointer text-white", ...e });
+        return (0, l.jsx)("div", { className: "pointer text-white", ...e });
       }
     },
-    26974: (e, t, l) => {
-      l.d(t, { A: () => a });
-      var r = l(2183);
+    26974: (e, t, r) => {
+      r.d(t, { A: () => a });
+      var l = r(2183);
       function a() {
-        return (0, r.jsxs)("div", {
+        return (0, l.jsxs)("div", {
           role: "status",
           children: [
-            (0, r.jsxs)("svg", {
+            (0, l.jsxs)("svg", {
               "aria-hidden": "true",
               className:
                 "inline h-6 w-6 animate-spin fill-yellow-800 text-yellow-300",
@@ -305,17 +305,17 @@
               fill: "none",
               xmlns: "http://www.w3.org/2000/svg",
               children: [
-                (0, r.jsx)("path", {
+                (0, l.jsx)("path", {
                   d: "M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z",
                   fill: "currentColor",
                 }),
-                (0, r.jsx)("path", {
+                (0, l.jsx)("path", {
                   d: "M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z",
                   fill: "currentFill",
                 }),
               ],
             }),
-            (0, r.jsx)("span", {
+            (0, l.jsx)("span", {
               className: "sr-only",
               children: "Loading...",
             }),
@@ -323,30 +323,30 @@
         });
       }
     },
-    27649: (e, t, l) => {
-      l.a(e, async (e, r) => {
+    27649: (e, t, r) => {
+      r.a(e, async (e, l) => {
         try {
-          l.d(t, { A: () => x });
-          var a = l(2183),
-            n = l(11677),
-            s = l.n(n),
-            i = l(15711),
-            o = l(96006),
-            c = l.n(o),
-            d = l(43042),
-            u = l(608),
-            h = l(75109),
+          r.d(t, { A: () => x });
+          var a = r(2183),
+            n = r(11677),
+            s = r.n(n),
+            i = r(15711),
+            o = r(96006),
+            c = r.n(o),
+            d = r(43042),
+            u = r(608),
+            h = r(75109),
             m = e([h]);
           function x(e) {
             let {
               rewards: t,
-              isLoggedIn: l,
-              onClose: r,
+              isLoggedIn: r,
+              onClose: l,
               showViewRewardsButton: n = !0,
             } = e;
             (h.I5m.AVATAR, h.I5m.AVATAR);
             let o = () => {
-              l || (0, u.d4)("/account/rewards");
+              r || (0, u.d4)("/account/rewards");
             };
             return t && 0 !== t.length
               ? (0, a.jsxs)("div", {
@@ -366,7 +366,7 @@
                       children: [
                         (0, a.jsx)("button", {
                           type: "button",
-                          onClick: r,
+                          onClick: l,
                           "aria-label": "Close",
                           className: "absolute right-4 top-4",
                           children: (0, a.jsx)("span", {
@@ -376,7 +376,7 @@
                         }),
                         (0, a.jsx)("h2", {
                           className: "mb-2 text-2xl font-bold",
-                          children: l
+                          children: r
                             ? t.length > 1
                               ? "Rewards Unlocked!"
                               : "Reward Unlocked!"
@@ -386,12 +386,12 @@
                         }),
                         (0, a.jsx)("p", {
                           className: "mb-6 text-sm",
-                          children: l ? "You've unlocked the following:" : "",
+                          children: r ? "You've unlocked the following:" : "",
                         }),
                         (0, a.jsx)("ul", {
                           className: "mb-6 space-y-3",
                           children: t.map((e, t) => {
-                            var l;
+                            var r;
                             return (0, a.jsxs)(
                               "li",
                               {
@@ -405,8 +405,8 @@
                                       fill: !0,
                                       alt: e.title,
                                       src:
-                                        null != (l = e.imageUrl)
-                                          ? l
+                                        null != (r = e.imageUrl)
+                                          ? r
                                           : "/images/tomb-slide-coin.png",
                                       className: "object-cover",
                                       sizes: "64px",
@@ -444,7 +444,7 @@
                             );
                           }),
                         }),
-                        l
+                        r
                           ? n &&
                             (0, a.jsx)("div", {
                               className: "mb-6 text-center",
@@ -495,7 +495,7 @@
                             }),
                         (0, a.jsx)("button", {
                           type: "button",
-                          onClick: r,
+                          onClick: l,
                           className:
                             "px-4 py-2 text-sm font-semibold underline",
                           children: "Close",
@@ -506,23 +506,23 @@
                 })
               : null;
           }
-          ((h = (m.then ? (await m)() : m)[0]), r());
+          ((h = (m.then ? (await m)() : m)[0]), l());
         } catch (e) {
-          r(e);
+          l(e);
         }
       });
     },
-    28898: (e, t, l) => {
-      l.d(t, { A: () => n });
-      var r = l(2183),
-        a = l(36439);
+    28898: (e, t, r) => {
+      r.d(t, { A: () => n });
+      var l = r(2183),
+        a = r(36439);
       let n = (e) => {
-        let { children: t, onClickOutside: l } = e,
+        let { children: t, onClickOutside: r } = e,
           n = (0, a.useRef)(null);
         return (
           (0, a.useEffect)(() => {
             function e(e) {
-              n.current && !n.current.contains(e.target) && l();
+              n.current && !n.current.contains(e.target) && r();
             }
             return (
               document.addEventListener("mousedown", e),
@@ -530,18 +530,18 @@
                 document.removeEventListener("mousedown", e);
               }
             );
-          }, [l]),
-          (0, r.jsx)("div", { ref: n, children: t })
+          }, [r]),
+          (0, l.jsx)("div", { ref: n, children: t })
         );
       };
     },
-    43042: (e, t, l) => {
-      l.d(t, { y: () => s });
-      var r = l(2183),
-        a = l(36439),
-        n = l(44190);
+    43042: (e, t, r) => {
+      r.d(t, { y: () => s });
+      var l = r(2183),
+        a = r(36439),
+        n = r(44190);
       let s = (e) => {
-        let { playAnimation: t, responsive: l } = e,
+        let { playAnimation: t, responsive: r } = e,
           { rive: s, RiveComponent: i } = (0, n.useRive)({
             src: "/animations/celebration_desktop.riv",
             stateMachines: "Celebration State Machine",
@@ -576,30 +576,30 @@
           (0, a.useEffect)(() => {
             t
               ? (null == s || s.play(),
-                l && (null == o || o.play(), null == d || d.play()))
+                r && (null == o || o.play(), null == d || d.play()))
               : (null == s || s.pause(),
-                l && (null == o || o.pause(), null == d || d.pause()));
-          }, [t, l, s, o, d]),
-          (0, r.jsxs)(r.Fragment, {
+                r && (null == o || o.pause(), null == d || d.pause()));
+          }, [t, r, s, o, d]),
+          (0, l.jsxs)(l.Fragment, {
             children: [
-              (0, r.jsx)("div", {
+              (0, l.jsx)("div", {
                 className:
                   "absolute left-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 ".concat(
-                    l ? "md:block" : "block",
+                    r ? "md:block" : "block",
                   ),
-                children: (0, r.jsx)(i, {}),
+                children: (0, l.jsx)(i, {}),
               }),
-              l &&
-                (0, r.jsxs)(r.Fragment, {
+              r &&
+                (0, l.jsxs)(l.Fragment, {
                   children: [
-                    (0, r.jsx)("div", {
+                    (0, l.jsx)("div", {
                       className: "absolute inset-0 h-full w-full md:hidden",
-                      children: (0, r.jsx)(c, {}),
+                      children: (0, l.jsx)(c, {}),
                     }),
-                    (0, r.jsx)("div", {
+                    (0, l.jsx)("div", {
                       className:
                         "absolute bottom-0 left-0 h-full w-full md:hidden",
-                      children: (0, r.jsx)(u, {}),
+                      children: (0, l.jsx)(u, {}),
                     }),
                   ],
                 }),
@@ -608,20 +608,20 @@
         );
       };
     },
-    69370: (e, t, l) => {
-      l.a(e, async (e, r) => {
+    69370: (e, t, r) => {
+      r.a(e, async (e, l) => {
         try {
-          l.d(t, { A: () => c });
-          var a = l(2183),
-            n = l(99435),
-            s = l(11677),
-            i = l.n(s),
+          r.d(t, { A: () => c });
+          var a = r(2183),
+            n = r(99435),
+            s = r(11677),
+            i = r.n(s),
             o = e([n]);
           function c(e) {
             let { open: t } = e,
-              { logout: l } = (0, n.u)(),
-              r = async () => {
-                l();
+              { logout: r } = (0, n.u)(),
+              l = async () => {
+                r();
               };
             return (0, a.jsx)("div", {
               className: "group relative top-2 z-40",
@@ -645,7 +645,7 @@
                       }),
                       (0, a.jsx)(d, {
                         className: "logout",
-                        onClick: r,
+                        onClick: l,
                         noDivider: !0,
                         children: "Sign Out",
                       }),
@@ -659,8 +659,8 @@
           function d(e) {
             let {
                 children: t,
-                noDivider: l,
-                href: r,
+                noDivider: r,
+                href: l,
                 onClick: n,
                 className: s,
               } = e,
@@ -670,15 +670,15 @@
                 children: (0, a.jsx)("div", {
                   className: "px-4",
                   children: (0, a.jsx)("div", {
-                    className: "py-4 pl-2 ".concat(!l && "border-b"),
+                    className: "py-4 pl-2 ".concat(!r && "border-b"),
                     children: t,
                   }),
                 }),
               });
-            return r
+            return l
               ? (0, a.jsx)(i(), {
                   className: s,
-                  href: r,
+                  href: l,
                   onClick: () => (null == n ? void 0 : n()),
                   children: o,
                 })
@@ -689,67 +689,50 @@
                   children: o,
                 });
           }
-          ((n = (o.then ? (await o)() : o)[0]), r());
+          ((n = (o.then ? (await o)() : o)[0]), l());
         } catch (e) {
-          r(e);
+          l(e);
         }
       });
     },
-    81409: (e, t, l) => {
-      l.a(e, async (e, r) => {
+    81409: (e, t, r) => {
+      r.a(e, async (e, l) => {
         try {
-          l.d(t, { A: () => d });
-          var a = l(2183),
-            n = l(11677),
-            s = l.n(n),
-            i = l(36439),
-            o = l(99435),
+          r.d(t, { A: () => d });
+          var a = r(2183),
+            n = r(11677),
+            s = r.n(n),
+            i = r(36439),
+            o = r(99435),
             c = e([o]);
           function d(e) {
             let { banner: t } = e,
-              [l, r] = (0, i.useState)(!1),
+              [r, l] = (0, i.useState)(!1),
               { isLoggedIn: n } = (0, o.u)();
             (0, i.useEffect)(() => {
               if (!t) return;
               let e = parseInt(localStorage.getItem("lastVisit") || "0"),
-                l = parseInt(localStorage.getItem("lastDismissal") || "0"),
+                r = parseInt(localStorage.getItem("lastDismissal") || "0"),
                 a = !sessionStorage.getItem("visitedThisSession"),
                 s = Date.now(),
                 i = 60 * t.initialDelayInHours * 6e4,
                 o = 60 * t.dismissDelayInHours * 6e4;
-              (r(
-                n || !e
-                  ? (console.log(
-                      "User is logged in or visiting for the first time.",
-                    ),
-                    !1)
-                  : s - e < i
-                    ? (console.log(
-                        "Not enough time has passed since the last visit.",
-                      ),
-                      !1)
-                    : !l ||
-                      !(s - l < o) ||
-                      (console.log(
-                        "Not enough time has passed since the last dismissal.",
-                      ),
-                      !1),
-              ),
+              (l(!n && !!e && !(s - e < i) && (!r || !(s - r < o)) && !0),
                 a &&
                   (localStorage.setItem("lastVisit", s.toString()),
                   sessionStorage.setItem("visitedThisSession", "true")));
             }, [t, n]);
             let c = (0, i.useCallback)(() => {
               (localStorage.setItem("lastDismissal", Date.now().toString()),
-                r(!1));
+                l(!1));
             }, []);
             return (0, a.jsx)(a.Fragment, {
               children:
                 t &&
-                l &&
+                r &&
                 (0, a.jsxs)("div", {
                   className:
-                    "absolute left-0 top-full flex w-full items-center justify-center border border-x-0 border-yellow-300/30 bg-trueblack/50 p-1 text-white hover:bg-yellow-300/70 hover:text-black lg:mx-12 lg:w-[calc(100%-6rem)] lg:rounded-lg lg:border-x",
+                    "bg-trueblack/50 absolute top-full left-0 flex w-full items-center justify-center border border-x-0 border-yellow-300/30 p-1 text-white hover:bg-yellow-300/70 hover:text-black lg:mx-12 lg:w-[calc(100%-6rem)] lg:rounded-lg lg:border-x",
                   children: [
                     (0, a.jsx)(s(), {
                       href: "/registration",
@@ -759,7 +742,7 @@
                     }),
                     (0, a.jsx)("button", {
                       className:
-                        "group absolute right-2 top-1/2 -translate-y-1/2",
+                        "group absolute top-1/2 right-2 -translate-y-1/2",
                       onClick: c,
                       children: (0, a.jsx)("svg", {
                         className:
@@ -779,25 +762,25 @@
                 }),
             });
           }
-          ((o = (c.then ? (await c)() : c)[0]), r());
+          ((o = (c.then ? (await c)() : c)[0]), l());
         } catch (e) {
-          r(e);
+          l(e);
         }
       });
     },
-    83429: (e, t, l) => {
-      l.a(e, async (e, r) => {
+    83429: (e, t, r) => {
+      r.a(e, async (e, l) => {
         try {
-          l.d(t, { A: () => u });
-          var a = l(2183),
-            n = l(96006),
-            s = l.n(n),
-            i = l(36439),
-            o = l(94581),
-            c = l(27649),
+          r.d(t, { A: () => u });
+          var a = r(2183),
+            n = r(96006),
+            s = r.n(n),
+            i = r(36439),
+            o = r(94581),
+            c = r(27649),
             d = e([o, c]);
           function u(e) {
-            let { isOpen: t, onClose: l, isLoggedIn: r } = e,
+            let { isOpen: t, onClose: r, isLoggedIn: l } = e,
               [n, d] = (0, i.useState)(null);
             return t
               ? (0, a.jsxs)(a.Fragment, {
@@ -808,7 +791,7 @@
                       "aria-label": "Code redemption overlay",
                       className:
                         "fixed inset-0 z-[200] flex items-center justify-center bg-trueblack p-4",
-                      onClick: l,
+                      onClick: r,
                       children: [
                         (0, a.jsx)("div", {
                           className:
@@ -827,7 +810,7 @@
                           children: [
                             (0, a.jsx)(o.A, {
                               type: "overlay",
-                              isLoggedIn: r,
+                              isLoggedIn: l,
                               onRedeemSuccess: (e) => {
                                 e.items && e.items.length > 0 && d(e.items);
                               },
@@ -835,7 +818,7 @@
                             (0, a.jsx)("button", {
                               "aria-label": "Close code redemption overlay",
                               className: "mx-auto mt-4 block underline",
-                              onClick: l,
+                              onClick: r,
                               children: "Close",
                             }),
                           ],
@@ -844,32 +827,32 @@
                     }),
                     (0, a.jsx)(c.A, {
                       rewards: n,
-                      isLoggedIn: r,
+                      isLoggedIn: l,
                       onClose: () => d(null),
                     }),
                   ],
                 })
               : null;
           }
-          (([o, c] = d.then ? (await d)() : d), r());
+          (([o, c] = d.then ? (await d)() : d), l());
         } catch (e) {
-          r(e);
+          l(e);
         }
       });
     },
-    94581: (e, t, l) => {
-      l.a(e, async (e, r) => {
+    94581: (e, t, r) => {
+      r.a(e, async (e, l) => {
         try {
-          l.d(t, { A: () => o });
-          var a = l(2183),
-            n = l(36439),
-            s = l(55109),
+          r.d(t, { A: () => o });
+          var a = r(2183),
+            n = r(36439),
+            s = r(55109),
             i = e([s]);
           function o(e) {
             let {
                 title: t = "Redeem Rewards",
-                description: l = "Type in the code to redeem your rewards.",
-                type: r = "dashboard",
+                description: r = "Type in the code to redeem your rewards.",
+                type: l = "dashboard",
                 className: i = "",
                 isLoggedIn: o = !0,
                 onRedeemSuccess: c,
@@ -886,25 +869,25 @@
                 if ((x(!0), !t)) return void p("Enter a code to redeem.");
                 (p(null), w(!0));
                 try {
-                  var l, r;
+                  var r, l;
                   if (o) {
                     let e = await (0, s.yM)({ code: t });
                     if ("error" in e && e.error) {
                       let t =
-                        null != (l = e.error.errorMessage)
-                          ? l
+                        null != (r = e.error.errorMessage)
+                          ? r
                           : "Unable to redeem code.";
                       (b({ type: "error", message: t }),
                         null == d || d(t, e.error));
                       return;
                     }
                     if ("data" in e && e.data) {
-                      let { code: t, lastRedeemedAt: l } = e.data,
-                        r = new Date(l),
+                      let { code: t, lastRedeemedAt: r } = e.data,
+                        l = new Date(r),
                         a = 'Code "'
                           .concat(t, '" redeemed ')
                           .concat(
-                            r.toLocaleString(void 0, {
+                            l.toLocaleString(void 0, {
                               dateStyle: "medium",
                               timeStyle: "short",
                             }),
@@ -925,8 +908,8 @@
                     let e = await (0, s.Qb)({ code: t });
                     if ("error" in e && e.error) {
                       let t =
-                        null != (r = e.error.errorMessage)
-                          ? r
+                        null != (l = e.error.errorMessage)
+                          ? l
                           : "Unable to preview code.";
                       (b({ type: "error", message: t }),
                         null == d || d(t, e.error));
@@ -934,7 +917,7 @@
                     }
                     if ("data" in e && e.data) {
                       localStorage.setItem("code-pending-redemption", t);
-                      let l = {
+                      let r = {
                         code: e.data.code,
                         lastRedeemedAt: Date.now(),
                         itemIds: e.data.itemIds,
@@ -946,7 +929,7 @@
                       }),
                         h(""),
                         x(!1),
-                        null == c || c(l));
+                        null == c || c(r));
                       return;
                     }
                     (b({
@@ -985,9 +968,9 @@
                     }),
                     (0, a.jsx)("p", {
                       className: "mt-2 text-sm ".concat(
-                        "dashboard" === r ? "text-gray-600" : "text-white",
+                        "dashboard" === l ? "text-gray-600" : "text-white",
                       ),
-                      children: l,
+                      children: r,
                     }),
                   ],
                 }),
@@ -1023,7 +1006,7 @@
                           placeholder: "Enter code",
                           className: "w-full rounded-lg border "
                             .concat(
-                              "dashboard" === r
+                              "dashboard" === l
                                 ? "border-black/10 focus:border-black "
                                 : "border-white/50 focus:border-white ",
                               " bg-transparent px-4 py-3 text-base outline-none transition  ",
@@ -1049,7 +1032,7 @@
                       disabled: v,
                       className:
                         "mx-auto inline-flex items-center justify-center rounded-lg border ".concat(
-                          "dashboard" === r
+                          "dashboard" === l
                             ? "border-black/20 hover:border-black/40 focus:border-black/40"
                             : "border-yellow-500/50 hover:border-yellow-500/70 focus:border-yellow-500/70",
                           " px-6 py-3 text-sm tracking-wide transition hover:opacity-90 disabled:cursor-not-allowed disabled:border-black/30 disabled:bg-black/30 disabled:text-white/80",
@@ -1061,38 +1044,38 @@
               ],
             });
           }
-          ((s = (i.then ? (await i)() : i)[0]), r());
+          ((s = (i.then ? (await i)() : i)[0]), l());
         } catch (e) {
-          r(e);
+          l(e);
         }
       });
     },
-    95216: (e, t, l) => {
-      l.a(e, async (e, r) => {
+    95216: (e, t, r) => {
+      r.a(e, async (e, l) => {
         try {
-          l.d(t, { Ay: () => y, jU: () => j });
-          var a = l(2183),
-            n = l(99435),
-            s = l(3976),
-            i = l(15711),
-            o = l(11677),
-            c = l.n(o),
-            d = l(18652),
-            u = l(96006),
-            h = l.n(u),
-            m = l(36439),
-            x = l(24135),
-            g = l(608),
-            p = l(81409),
-            f = l(83429),
-            b = l(80707),
-            v = l.n(b),
+          r.d(t, { Ay: () => y, jU: () => j });
+          var a = r(2183),
+            n = r(99435),
+            s = r(3976),
+            i = r(15711),
+            o = r(11677),
+            c = r.n(o),
+            d = r(18652),
+            u = r(96006),
+            h = r.n(u),
+            m = r(36439),
+            x = r(24135),
+            g = r(608),
+            p = r(81409),
+            f = r(83429),
+            b = r(80707),
+            v = r.n(b),
             w = e([n, s, p, f]);
           function y(e) {
             let {
                 darkMode: t,
-                isSticky: l = !1,
-                surveys: r,
+                isSticky: r = !1,
+                surveys: l,
                 signUpBanner: o,
               } = e,
               [u, b] = (0, m.useState)(),
@@ -1162,7 +1145,7 @@
             }, [N.pathname]);
             let F = (e) => {
               let t = [],
-                l = e ? x.A : i.A;
+                r = e ? x.A : i.A;
               return (
                 "/login" !== N.pathname &&
                   t.push(
@@ -1171,7 +1154,7 @@
                       {
                         onClick: U,
                         href: _("/login"),
-                        children: (0, a.jsx)(l, { children: "Login" }),
+                        children: (0, a.jsx)(r, { children: "Login" }),
                       },
                       "1",
                     ),
@@ -1184,7 +1167,7 @@
                         onClick: U,
                         className: "account_register_cta",
                         href: _("/registration"),
-                        children: (0, a.jsx)(l, { children: "Register" }),
+                        children: (0, a.jsx)(r, { children: "Register" }),
                       },
                       "2",
                     ),
@@ -1207,7 +1190,7 @@
                   })(),
                   " ",
                 )
-                .concat(l ? "sticky" : "fixed", " z-50"),
+                .concat(r ? "sticky" : "fixed", " z-50"),
               style: { transition: "background-color 0.3s ease" },
               children: [
                 (0, a.jsxs)("nav", {
@@ -1237,7 +1220,7 @@
                       className:
                         "col-span-1 flex items-center justify-end gap-x-4",
                       children: E
-                        ? (0, a.jsx)(s.A, { surveys: r, darkMode: t })
+                        ? (0, a.jsx)(s.A, { surveys: l, darkMode: t })
                         : F(),
                     }),
                   ],
@@ -1275,7 +1258,7 @@
                     (0, a.jsx)("div", {
                       className:
                         "col-span-1 flex items-center justify-end gap-4",
-                      children: E ? (0, a.jsx)(s.A, { surveys: r }) : F(!0),
+                      children: E ? (0, a.jsx)(s.A, { surveys: l }) : F(!0),
                     }),
                   ],
                 }),
@@ -1314,9 +1297,9 @@
             });
           }
           function j(e) {
-            let { selected: t, title: l, href: r, darkMode: n } = e;
+            let { selected: t, title: r, href: l, darkMode: n } = e;
             return (0, a.jsxs)(c(), {
-              href: r,
+              href: l,
               className:
                 "relative flex flex-col text-4xl whitespace-nowrap transition duration-300 lg:w-24 lg:text-lg",
               children: [
@@ -1329,7 +1312,7 @@
                         : "text-white/70 hover:text-white",
                   ),
                   style: { transition: "all 0.3s ease" },
-                  children: l,
+                  children: r,
                 }),
                 t &&
                   (0, a.jsx)(h(), {
@@ -1342,9 +1325,9 @@
               ],
             });
           }
-          (([n, s, p, f] = w.then ? (await w)() : w), r());
+          (([n, s, p, f] = w.then ? (await w)() : w), l());
         } catch (e) {
-          r(e);
+          l(e);
         }
       });
     },

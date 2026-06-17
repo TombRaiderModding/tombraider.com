@@ -11,22 +11,22 @@
     },
     7345: (e, s, o) => {
       "use strict";
-      o.d(s, { A: () => a });
+      o.d(s, { A: () => i });
       var t = o(2183),
         r = o(11677),
-        i = o.n(r);
-      let a = (e) => {
-        let { href: s, children: o, className: r, ...a } = e;
+        a = o.n(r);
+      let i = (e) => {
+        let { href: s, children: o, className: r, ...i } = e;
         return "string" == typeof s && s.startsWith("http")
           ? (0, t.jsx)("a", {
               href: s,
               target: "_blank",
               rel: "noopener noreferrer",
               className: r,
-              ...a,
+              ...i,
               children: o,
             })
-          : (0, t.jsx)(i(), { className: r, href: s, ...a, children: o });
+          : (0, t.jsx)(a(), { className: r, href: s, ...i, children: o });
       };
     },
     71411: (e, s, o) => {
@@ -35,10 +35,10 @@
         try {
           (o.r(s), o.d(s, { __N_SSG: () => c, default: () => l }));
           var r = o(2183),
-            i = o(75894),
-            a = o(95216),
-            n = e([i, a]);
-          [i, a] = n.then ? (await n)() : n;
+            a = o(75894),
+            i = o(95216),
+            n = e([a, i]);
+          [a, i] = n.then ? (await n)() : n;
           var c = !0;
           function l(e) {
             let {
@@ -51,7 +51,7 @@
             return (0, r.jsxs)("main", {
               className: "flex w-full flex-col items-center",
               children: [
-                (0, r.jsx)(a.Ay, { surveys: n, navItems: o, signUpBanner: c }),
+                (0, r.jsx)(i.Ay, { surveys: n, navItems: o, signUpBanner: c }),
                 (0, r.jsxs)("div", {
                   className:
                     "mx-auto flex w-full grow flex-col gap-y-6 py-32 lg:mx-0 lg:max-w-xl 2xl:max-w-4xl",
@@ -201,7 +201,7 @@
                         " ",
                       ],
                     }),
-                    (0, r.jsx)("div", { id: "ot-sdk-cookie-policy" }),
+                    (0, r.jsx)("div", { className: "uc-embed" }),
                     (0, r.jsx)("p", {
                       className: "has-h-2-font-size",
                       children: "4. SALE OF PERSONAL DATA (CALIFORNIA ONLY)",
@@ -227,8 +227,13 @@
                     }),
                     (0, r.jsx)("p", {
                       children: (0, r.jsx)("button", {
-                        id: "ot-sdk-btn",
-                        className: "ot-sdk-show-settings",
+                        type: "button",
+                        onClick: (e) => {
+                          var s;
+                          (e.preventDefault(),
+                            null == (s = window.__ucCmp) ||
+                              s.showSecondLayer());
+                        },
                         children: "Cookie Settings",
                       }),
                     }),
@@ -328,7 +333,7 @@
                     }),
                   ],
                 }),
-                (0, r.jsx)(i.A, {
+                (0, r.jsx)(a.A, {
                   websiteSingleton: s,
                   navItems: o,
                   footerSocialLinks: t,
@@ -348,8 +353,8 @@
         try {
           o.d(s, { A: () => p });
           var r = o(2183),
-            i = o(96006),
-            a = o.n(i),
+            a = o(96006),
+            i = o.n(a),
             n = o(11677),
             c = o.n(n),
             l = o(99435),
@@ -358,7 +363,7 @@
             u = e([l, h]);
           function p(e) {
             var s, o, t;
-            let { websiteSingleton: i, navItems: n, footerSocialLinks: u } = e,
+            let { websiteSingleton: a, navItems: n, footerSocialLinks: u } = e,
               { isLoggedIn: p, shopifyUrl: m } = (0, l.u)(),
               f = n.filter(
                 (e) => e.showInFooter && !(p && e.hideForLoggedInUsers),
@@ -371,12 +376,12 @@
               children: [
                 (0, r.jsxs)("div", {
                   className:
-                    "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
+                    "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
                     (0, r.jsx)("div", {
-                      children: (0, r.jsx)(a(), {
+                      children: (0, r.jsx)(i(), {
                         src: (0, h._c)(
-                          null == (o = i.footerLogo) ||
+                          null == (o = a.footerLogo) ||
                             null == (s = o.fields.file)
                             ? void 0
                             : s.url,
@@ -384,7 +389,7 @@
                         width: 248,
                         height: 248,
                         alt: (0, h._c)(
-                          null == (t = i.footerLogo)
+                          null == (t = a.footerLogo)
                             ? void 0
                             : t.fields.description,
                         ),
@@ -393,7 +398,7 @@
                     }),
                     (0, r.jsxs)("div", {
                       className:
-                        "flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg text-darkgray-500 ",
+                        "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
                       children: [
                         f.map((e) => {
                           let s = e.link;
@@ -413,13 +418,14 @@
                           className: "cursor-pointer",
                           children: "Accessibility",
                         }),
-                        (0, r.jsx)("span", {
+                        (0, r.jsx)("a", {
+                          href: "#",
                           className: "cursor-pointer",
-                          onClick: () => {
-                            var e;
-                            return null == (e = window.OneTrust)
-                              ? void 0
-                              : e.ToggleInfoDisplay();
+                          onClick: (e) => {
+                            var s;
+                            (e.preventDefault(),
+                              null == (s = window.__ucCmp) ||
+                                s.showSecondLayer());
                           },
                           children:
                             "Do Not Sell or Share My Personal Information",
@@ -433,18 +439,18 @@
                     "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
                   children: [
                     (0, r.jsx)("div", {
-                      className: "text-center text-darkgray-500",
-                      children: i.footerCopyright,
+                      className: "text-darkgray-500 text-center",
+                      children: a.footerCopyright,
                     }),
                     (0, r.jsx)("div", {
                       className: "flex items-center space-x-4 text-white",
                       children: u.map((e) => {
-                        var s, o, t, i;
+                        var s, o, t, a;
                         return (0, r.jsx)(
                           d.A,
                           {
                             href: e.link,
-                            children: (0, r.jsx)(a(), {
+                            children: (0, r.jsx)(i(), {
                               src: (0, h._c)(
                                 null == (o = e.icon) ||
                                   null == (s = o.fields.file)
@@ -453,11 +459,11 @@
                               ),
                               alt:
                                 null !=
-                                (i =
+                                (a =
                                   null == (t = e.icon)
                                     ? void 0
                                     : t.fields.description)
-                                  ? i
+                                  ? a
                                   : "",
                               width: 20,
                               height: 20,
@@ -469,19 +475,19 @@
                     }),
                   ],
                 }),
-                (0, r.jsx)("div", { className: "h-[1px] bg-gray-500" }),
+                (0, r.jsx)("div", { className: "h-px bg-gray-500" }),
                 (0, r.jsxs)("div", {
                   className:
-                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row ",
+                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row",
                   children: [
                     (0, r.jsx)("p", {
                       className:
-                        "max-w-[1000px] text-center text-sm text-darkgray-300 lg:text-left",
-                      children: i.footerLegalNotice,
+                        "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
+                      children: a.footerLegalNotice,
                     }),
                     (0, r.jsx)("div", {
                       className:
-                        "flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 text-darkgray-500 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
+                        "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
                       children: g.map((e) =>
                         (0, r.jsx)(
                           "a",

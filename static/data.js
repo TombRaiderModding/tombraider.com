@@ -218,10 +218,10 @@
             var t, s, l;
             let { websiteSingleton: i, navItems: n, footerSocialLinks: h } = e,
               { isLoggedIn: m, shopifyUrl: u } = (0, o.u)(),
-              g = n.filter(
+              f = n.filter(
                 (e) => e.showInFooter && !(m && e.hideForLoggedInUsers),
               ),
-              f = n.filter(
+              g = n.filter(
                 (e) => e.showInSubFooter && !(m && e.hideForLoggedInUsers),
               );
             return (0, a.jsxs)("div", {
@@ -229,7 +229,7 @@
               children: [
                 (0, a.jsxs)("div", {
                   className:
-                    "flex flex-col items-center justify-center space-y-16 pb-16 pt-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
+                    "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
                     (0, a.jsx)("div", {
                       children: (0, a.jsx)(c(), {
@@ -251,9 +251,9 @@
                     }),
                     (0, a.jsxs)("div", {
                       className:
-                        "flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg text-darkgray-500 ",
+                        "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
                       children: [
-                        g.map((e) => {
+                        f.map((e) => {
                           let t = e.link;
                           return (
                             e.shouldReplaceWithGeneratedShopLink &&
@@ -271,13 +271,14 @@
                           className: "cursor-pointer",
                           children: "Accessibility",
                         }),
-                        (0, a.jsx)("span", {
+                        (0, a.jsx)("a", {
+                          href: "#",
                           className: "cursor-pointer",
-                          onClick: () => {
-                            var e;
-                            return null == (e = window.OneTrust)
-                              ? void 0
-                              : e.ToggleInfoDisplay();
+                          onClick: (e) => {
+                            var t;
+                            (e.preventDefault(),
+                              null == (t = window.__ucCmp) ||
+                                t.showSecondLayer());
                           },
                           children:
                             "Do Not Sell or Share My Personal Information",
@@ -291,7 +292,7 @@
                     "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
                   children: [
                     (0, a.jsx)("div", {
-                      className: "text-center text-darkgray-500",
+                      className: "text-darkgray-500 text-center",
                       children: i.footerCopyright,
                     }),
                     (0, a.jsx)("div", {
@@ -327,20 +328,20 @@
                     }),
                   ],
                 }),
-                (0, a.jsx)("div", { className: "h-[1px] bg-gray-500" }),
+                (0, a.jsx)("div", { className: "h-px bg-gray-500" }),
                 (0, a.jsxs)("div", {
                   className:
-                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row ",
+                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row",
                   children: [
                     (0, a.jsx)("p", {
                       className:
-                        "max-w-[1000px] text-center text-sm text-darkgray-300 lg:text-left",
+                        "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
                       children: i.footerLegalNotice,
                     }),
                     (0, a.jsx)("div", {
                       className:
-                        "flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 text-darkgray-500 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
-                      children: f.map((e) =>
+                        "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
+                      children: g.map((e) =>
                         (0, a.jsx)(
                           "a",
                           { href: e.link, children: e.name },
