@@ -1446,7 +1446,7 @@
                           "content": [
                             {
                               "nodeType": "text",
-                              "value": "Shortform video",
+                              "value": "Short-form video",
                               "marks": [],
                               "data": {}
                             }
@@ -1566,7 +1566,7 @@
               "content": [
                 {
                   "nodeType": "text",
-                  "value": "Tomb Door Puzzle #3 – Status: LOCKED",
+                  "value": "Tomb Door Puzzle #3 – Status: UNLOCKED",
                   "marks": [{ "type": "bold" }],
                   "data": {}
                 }
@@ -1578,7 +1578,19 @@
               "content": [
                 {
                   "nodeType": "text",
-                  "value": "Symbols revealed: 2",
+                  "value": "Symbols revealed: 4",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Symbol solution coming soon!",
                   "marks": [],
                   "data": {}
                 }

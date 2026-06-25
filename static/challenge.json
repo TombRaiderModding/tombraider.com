@@ -2322,7 +2322,7 @@
             "id": "5iMJpdi9avlKNI7rH9r2hj",
             "type": "Entry",
             "createdAt": "2026-06-02T21:22:48.948Z",
-            "updatedAt": "2026-06-18T20:31:53.076Z",
+            "updatedAt": "2026-06-25T15:55:14.244Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -2330,8 +2330,8 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 34,
-            "revision": 2,
+            "publishedVersion": 37,
+            "revision": 3,
             "contentType": {
               "sys": {
                 "type": "Link",
@@ -3071,6 +3071,10 @@
                 }
               }
             ],
+            "rewardItemFriendlyIds": [
+              "atlantis-wallpaper-desktop",
+              "atlantis-wallpaper-mobile"
+            ],
             "congratsHeadlineLoggedIn": "Congrats Raider!",
             "congratsDescriptionLoggedIn": "Along with your treasures,  further mysteries await you in the depths of the Tomb Door Puzzle",
             "congratsHeadlineLoggedOut": "Congrats Raider!",
@@ -3080,10 +3084,10 @@
             "congratsLoginText": "Login",
             "congratsViewRewardButtonText": "View Reward",
             "congratsContinuePlayingButtonText": "Continue Playing",
-            "isUnlocked": false,
+            "isUnlocked": true,
             "msUntilUnlock": 0,
-            "loreHeadlineUnlocked": null,
-            "loreDescriptionUnlocked": null
+            "loreHeadlineUnlocked": "One Step Closer",
+            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door."
           }
         }
       ]
