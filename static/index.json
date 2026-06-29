@@ -2,6 +2,2751 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Astonishing Travels - Field Notes: Lara Croft. Tracking “the Tomb Raider” to the Andes",
+        "slug": "astonishing-travels-field-notes-lara-croft-tracking-the-tomb-raider-to-the-andes",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5FFz5iSwgZAtZhUE219Cz1",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:12:37.537Z",
+            "updatedAt": "2024-02-05T17:59:57.282Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 16,
+            "revision": 7,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Community", "slug": "community", "order": 45 }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5Vi3RnBigsSI75NrS9DClO",
+              "type": "Entry",
+              "createdAt": "2026-06-02T21:41:01.648Z",
+              "updatedAt": "2026-06-02T21:46:42.101Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Tomb Raider: Legacy of Atlantis" }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "1RbXY4xflO5n37FcTnwBRl",
+            "type": "Asset",
+            "createdAt": "2026-06-26T18:22:49.986Z",
+            "updatedAt": "2026-06-26T18:22:49.986Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Astonishing Travels Header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/1RbXY4xflO5n37FcTnwBRl/19862fc512c651beca8c5442ba1a7df3/Astonishing_Travels_Header_REAL.png",
+              "details": {
+                "size": 1718763,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "Astonishing_Travels_Header_REAL.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Cover Story Headline:  Field Notes: Lara Croft. Tracking “the Tomb Raider” to the Andes",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Welcome back to Field Notes, Astonishing Travels' recurring roundtable series, where the editorial standards are a little looser, and speculation gets a seat at the table. I'm Nora Bennett, Editor-in-Chief, and joining me as always is our resident fringe specialist Julian Mercer, who spent the last month harassing archaeologists, aviation analysts, and likely government employees in pursuit of this story.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Allegedly…",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " …and I'd like to remind our readers that today's fringe theory has a habit of becoming tomorrow's accepted history. Continental drift was rejected. Copernican heliocentrism was considered heretical in medieval times. Troy was considered myth right up until somebody started digging it out of the ground.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " And that’s why I continue allowing you on these pages, Julian. Just in case one of your theories survives contact with reality. You provide entertainment. I’m here to keep you grounded and ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Astonishing Travels",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " out of litigation.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " That, and you’d never pass up a Lara Croft cover story.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Potential cover story. You have to earn it.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "...Which brings us to my ongoing act of optimism.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "A tradition as unsuccessful as it is persistent.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Lara, if you're listening, the invitation still stands: one interview and all this speculation goes away. Our door remains open.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Do you genuinely believe she reads ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Astonishing Travels",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": "?", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Maybe not her personally. But she’s posh enough to have people, right? ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " You're assuming she has staff dedicated to managing fan mail?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "You wound me. I assume she has staff dedicated to managing everything.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Onward. Set the scene, Julian.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "First, the facts. Lara Croft was recently in Peru under unclear circumstances.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " How did you determine she was in Peru?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Aviation tracking. As with many of our more interesting stories, monitoring aircraft associated with high-profile explorers and private collectors can be surprisingly productive.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Leading with hard evidence. Starting strong, Julian.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " What caught my attention was where the aircraft landed: a remote strip primarily servicing ore extraction operations in the Andes. Not tourism. Not research. Certainly not somewhere associated with major active archaeological digs.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Before you get ahead of yourself, flight records don’t prove Lara Croft was personally onboard. Private aircraft get loaned out all the time.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " True. But two days earlier, one of my local contacts flagged an unusual arrival at the same strip. An aircraft linked to Jacqueline Natla, of all people.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Natla Technologies?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " The very same. Natla herself wasn’t onboard, but the contact described a single passenger deplaning. A blond American man.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Did you identify him?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "His arrival was kept off the books, and no matches were found through any of our usual channels. No social footprint, no public profiles I could reliably connect to Natla. Either he’s intentionally difficult to trace, or he’s simply very good at staying out of photographs. The whole thing was odd enough that I asked my contact to keep an eye on future arrivals.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ": And then Croft’s aircraft landed.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Exactly. Ground staff confirmed she disembarked personally. Lara Croft is uniquely identifiable due to the brunette hair, long braid, aristocratic accent, and…twin pistols.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " You think the two are connected?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Possibly. At that point, all I had was an unusual arrival followed by another unusual arrival.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Natla's interests are firmly in technology. Rare earth extraction attracts powerful people. Why do you connect this to Croft?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Natla Technologies has always had a wider reach than the name suggests.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Such as?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Biotech. Pharmaceuticals. The Amazon is one of the richest natural laboratories on Earth.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "You're thinking about sloth fur again, aren't you?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " I maintain that sloths deserve more respect. A fungus discovered in sloth fur showed activity against certain cancer cells. That's exactly the sort of discovery that attracts pharmaceutical investment in remote ecosystems.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Julian...",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " I digress. More relevantly, Natla Technologies has also quietly funded archaeological projects in the past.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Buried the lead there, didn't you?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "None resulted in major public discoveries, but there is a pattern. Natla seems unusually interested in reports of so-called lost technologies and forgotten knowledge.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Better.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Which is why Lara turning up in the same corner of Peru got my attention. Lara then surfaced in a small Andean mountain settlement several hundred kilometers from the airstrip, one not known for visitors…",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Hold on. How exactly did you track her movements beyond the airport?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Satellite imagery confirmed the village. A local source confirmed Croft.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " You have access to satellites now?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Not directly. But I knew this story had legs, so I called in a big favor. Let’s just say there are circles adjacent to archaeology that possess resources most journalists don’t.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " I’m sorry, ‘raider networks’ are a thing now?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "I didn't say that.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " You sort of did.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " The important detail is that the blond American connected to Natla was already at the village when Croft arrived.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "…So now we have Lara Croft and Natla-linked personnel, both arriving at a remote mining airstrip in Peru, before traveling to an isolated Andean settlement.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Exactly. I think coincidence becomes less convincing the more often it occurs.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Alright, you’ve got my attention.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Okay, so why Peru? It’s a massive country with diverse terrain, ancient history, and living cultures. There are numerous things that could attract Lara Croft, including the mountains themselves. She’s an accomplished mountaineer, and this section of the Andes is incredibly remote. A first ascent alone could draw climbers from around the world.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Sure, and the climbing equipment tracks. The logistics don’t.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Explain.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Serious mountaineering expeditions leave a bigger footprint including climbing permits, equipment rentals, and if an uncharted route, significant local coordination. Lara kept the entire operation unusually small and avoided every conventional route into the region. To be fair, she isn’t known for taking a “by the books” approach to anything. She’s chased adrenaline before, certainly, but this feels much more targeted than thrill-seeking.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " So the mountain wasn’t the destination.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Exactly. It was the obstacle between her and whatever she was actually looking for.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Fair enough. And… if I remember correctly, Lara has history in Peru.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Correct.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " In her early twenties, Lara was tied to some…quite dramatic events in Peru and rumored to have been pursuing a lost city. Nothing was ever confirmed, unfortunately.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Exactly. And South America has no shortage of legendary lost cities to obsess over including Paititi, El Dorado, the Lost City of Z… even Vilcabamba.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Vilcabamba doesn’t fit the pattern. Historians consider it found.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Most historians do.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Here we go. The region Lara entered, deep in the Peruvian Andes, is associated primarily with highland cultures such as the Inca. I'll give you that. Couldn't the area still contain artifacts of high cultural value?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Certainly. But I don’t think Lara Croft flies into remote territory for a kero (a ceremonial Andean drinking vessel, for readers unfamiliar) regardless of its historical significance.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " You think the scale is wrong.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Exactly. Lara has always been more interested in mysteries than museum pieces.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " To be fair, she said as much in one of her few public lectures. A fact she felt obligated to make clear in direct response to being given the moniker “the Tomb Raider” in the British tabloids.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Which makes a traditional artifact feel… small. No disrespect intended to the archaeological community.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " You’re suggesting she was chasing something bigger.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Something unresolved.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " …and we’ve arrived at the heart of the matter.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Vilcabamba.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " This still feels like a stretch to me. Vilcabamba is a known archaeological site. A tourist destination, even, for people willing to brave the terrain. So, walk me through your theory.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " The problem is that “Vilcabamba” no longer refers to one clear thing. Depending on who you ask, it can mean a region, a mountain range, multiple cities, or simply the final chapter of organized Inca resistance.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Give our readers the abridged version, then.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Vilcabamba was long considered one of South America’s many mythical lost cities before archaeologists eventually connected it to the ruins now known as Espíritu Pampa, translated to “Plain of the Spirits”, in Peru’s Cusco region.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " But the identification process was messy, right?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Very. Vilcabamba, which means \"sacred plain\" in Quechua, originally referred to a much larger region inhabited by the Inca beginning around the 15th century. The territory stretched from the high Andes down towards the Amazon Basin and encompassed mountains, cloud forests, rivers, jungle. Brutal terrain.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " The Inca were not the first to inhabit the area, though. Earlier cultures like the Wari had occupied parts of it long before.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Correct. The area had a storied history before the Inca’s last stand. After major conflicts with the Spanish in the 1530s, Manco Inca, the then ruler, relocated the capital deeper into the Vilcabamba region, believing the terrain would make invasion nearly impossible. And for decades, he was right.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Until the Spanish made their final advance.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Right again. In 1572 the last Inca stronghold fell and the final ruler Túpac Amaru was captured and executed.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "And over time the jungle reclaimed much of the region. The city became a myth to many.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " For centuries, historians weren’t entirely sure which ruins actually represented Vilcabamba. Machu Picchu itself was once incorrectly identified as the lost city by Hiram Bingham after his 1911 expedition.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " I’ll concede that even modern histories got parts of the story wrong.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Exactly. It took decades of competing theories, expeditions, and archaeological debate before Espíritu Pampa became widely accepted as Vilcabamba.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Go on...",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " History tends to simplify messy collapses. The Inca were exceptional engineers and strategic planners. Vilcabamba represents the last ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "known defensive stronghold of the Neo-Inca",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ". I’m not alone in thinking that the broader refuge network included secondary settlements, fallback locations, or protected sanctuaries deeper in the Andes.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " You’re suggesting historians identified part of the system, but not necessarily all of it.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Exactly.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Any chance you’d like to bolster your claim’s legitimacy by identifying some of your fellow theorists?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Absolutely not. My social media footprint grants me the luxury of being dismissed professionally. Most academics still need tenure.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Humble and pragmatic.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Always. But there have long been quiet references from fragmented colonial accounts, disputed translations, scattered oral histories, hinting at more remote refuges beyond the traditionally accepted Vilcabamba sites. Smaller. Better hidden. Potentially reserved for leadership if the primary settlements fell.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Rumor is not evidence, Julian.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " No. But unresolved history tends to produce both.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " So, your theory is that Lara traveled into this isolated Andean region searching for the “true” last refuge of the Inca?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " I think she was searching for something connected to the unresolved parts of the Vilcabamba story.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " But if such a place existed, surely the Spanish would have eventually discovered it. And if they had, there would be records.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Unless the records were incomplete. Or no one survived, Inca or invaders, to author them.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Well. That’s appropriately ominous.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Okay, we’ve gone on quite a tangent. Back to what we know. The village. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " We recruited a local willing to report back to us. According to her, the blond American appeared to be deliberately avoiding Lara. He observed her from a distance, never approaching directly.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Go on.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " After several days of planning and stocking up on supplies, Lara departed with a local guide named Carlos. No surname given. Our source reported what little was known about him. No family, risk taker, a bit of a loner…",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Sounds like Lara found a kindred spirit.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Like minds and all that. He had a reputation for taking difficult jobs and apparently knew the nearby peaks better than anyone. I suspect that’s why Lara hired him.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Anyway, the blond American left several hours after Lara and Carlos, following the same route into the mountains. He returned days later looking significantly worse for wear, covered in bruises and walking with a limp, before eventually returning to the remote airstrip and departing aboard the same Natla Technologies-linked aircraft.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " And Carlos?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Never returned to the village.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " That’s… concerning.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Lara didn’t return through the village either. She eventually made her way back to the airstrip via an unknown route. But Carlos was local. People noticed when he didn’t come back.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Careful. I enjoy avoiding defamation lawsuits.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " For the record, I’m implying nothing. There are countless explanations for someone disappearing in terrain like that.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Such as?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " The Peruvian Andes are home to apex predators such as pumas. This region also has bears, an assortment of aggressive cave-dwelling bats, and strangely, packs of unidentified canids. Locals describe them as too large to be Andean foxes or feral dogs; they keep out of those mountains for good reason.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " So between the altitude, the unpredictable weather, the rugged terrain, and the unusual wildlife, we're talking about an extremely remote and dangerous environment. Accidents happen.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Frequently.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Personally, I choose to believe Carlos took that Croft coin and started a peaceful new life somewhere warmer.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " One can hope. But all of this is exactly why the region interests me.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " The danger?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " The isolation. Places like that can hide things for a very long time. Like the last refuge of a fallen empire...wink wink.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Did you just wink out loud?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Yes, for sake of the transcript. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ": … Well, if we're indulging increasingly unlikely theories, Peru has produced some genuinely strange paleontological discoveries over the years. Lara Croft has been linked to several improbable stories. We’ve covered one particularly persistent rumor involving Bigfoot extensively. Perhaps she was in Peru hunting \"prehistoric predators\"...",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " And people call me a conspiracy theorist.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " I’m trying to speak your language. Although I recognize dinosaurs would technically be the wrong kind of bones for an archeologist's remit.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " And Lara seems to prefer the ones that come with ancient curses and elaborate death traps. In all seriousness, I know it sounds ridiculous, but I can’t shake the feeling that there’s something important hidden in those mountains.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Then explain this to me. Even if a second Inca refuge existed, how would they have built it? Inca engineering was extraordinary, yes, but the Andes are unforgiving.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Perhaps they had help from an advanced ancient civilization?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Julian.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian:",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " That was a joke.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Good. Because even ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Astonishing Travels",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " has standards. There’s no place for that ancient aliens shit here.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Fair enough. The truth is, whatever Lara was searching for up there remains unresolved. But people don’t move through hidden airstrips, isolated villages, and remote mountain corridors like that without a reason.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "So your official position is still “something strange happened in Peru.”",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Julian: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "My official position is that Lara Croft found something important enough to keep hidden.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Nora: ",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "…And you think that earns you a cover story?",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Editor’s Note:",
+                  "marks": [{ "type": "italic" }, { "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " He got the cover. Even incomplete, it’s a compelling story with an equally compelling character",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1SzaHj51AoKvVbPgV1fsMm",
+                    "type": "Asset",
+                    "createdAt": "2026-06-26T18:16:19.670Z",
+                    "updatedAt": "2026-06-26T18:16:19.670Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Astonishing Travels - Field Notes: Lara Croft",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1SzaHj51AoKvVbPgV1fsMm/9c541102f86b59d78f3989a8597b0e35/EN_TR_Social_Magazine_Cover_CT-000026148.png",
+                      "details": {
+                        "size": 2020090,
+                        "image": { "width": 1080, "height": 1350 }
+                      },
+                      "fileName": "EN_TR_Social_Magazine_Cover_CT-000026148.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "publishDate": "2026-06-29",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Raider Records – Exploring the Tomb Door Puzzle",
         "slug": "raider-records-exploring-the-tomb-door-puzzle",
         "isLatestNews": true,
@@ -8477,357 +11222,6 @@
           "nodeType": "document"
         },
         "publishDate": "2025-12-11",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Lara Croft and Tomb Raider earn two new entries in the Guinness World Records",
-        "slug": "lara-croft-and-tomb-raider-earn-two-new-entries-in-the-guinness-world",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "2G5EbBMRyPRk2T41wbvJTl",
-            "type": "Entry",
-            "createdAt": "2023-09-20T20:46:39.772Z",
-            "updatedAt": "2024-02-05T17:59:10.303Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": { "name": "Books", "slug": "books", "order": 40 }
-        },
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "1T5iKwjSHCCE2qcvklwDvt",
-            "type": "Asset",
-            "createdAt": "2025-12-08T20:20:31.472Z",
-            "updatedAt": "2026-06-05T17:31:33.438Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 6,
-            "revision": 2,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "Lara Croft Guinness World Record Certificate Header",
-            "description": "Lara Croft kneels in a grand temple hall, holding a Guinness World Records certificate in front of ornate stone carvings and stairways.",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/1T5iKwjSHCCE2qcvklwDvt/c47b2c969a087147fbadefd886321f49/Lara_Croft_Guinness_World_Record_Certificate_header.jpg",
-              "details": {
-                "size": 439568,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "Lara Croft Guinness World Record Certificate header.jpg",
-              "contentType": "image/jpeg"
-            }
-          }
-        },
-        "socialMediaShareDescription": "The iconic adventurer adds two new records to her legacy.",
-        "body": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Lara Croft received two new entries in the ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Guinness World Records",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ", continuing nearly thirty years of cultural influence and record-breaking:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "heading-4",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Best-Selling Video Game Heroine",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "and", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "heading-4",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Most Magazine Covers for a Video Game Character",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "With over ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.tombraider.com/news/video-games/tomb-raider-iv-vi-remastered-reveal-100-million-games-sold-and-more"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "100 million unit sales",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": " and 2,300 magazine covers, Lara Croft's impact on video game and pop culture is undeniable.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Scot Amos, Head of Studio at Crystal Dynamics, had this to say:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "\"As tremendous fans of Lara Croft, we've been so fortunate to join the ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " community on this journey throughout the years. She's been aspirational and inspirational for nearly three decades, and it’s an honour to have her legacy recognized by Guinness World Records.\"",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "In addition to these records, our favorite adventurer also graced the cover of the ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Guinness World Records Gamer's Edition 2026",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                { "nodeType": "text", "value": ":", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "5WZGVkgDK8JLJhY4j6wK1l",
-                    "type": "Asset",
-                    "createdAt": "2025-12-08T20:20:55.706Z",
-                    "updatedAt": "2026-06-05T17:27:21.077Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 10,
-                    "revision": 3,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "gwr-gamers-2026",
-                    "description": "Cover of Guinness World Records Gamer’s Edition 2026 featuring gaming characters and artwork, including Lara Croft.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5WZGVkgDK8JLJhY4j6wK1l/609bd315c37cd7ec74740f8ce19a6037/GWR_Gamer_Edition_2026.png",
-                      "details": {
-                        "size": 398619,
-                        "image": { "width": 1200, "height": 600 }
-                      },
-                      "fileName": "GWR Gamer Edition 2026.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "For even more examples of Lara's appearances in pop culture over the years, check out ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.tombraider.com/news/movies-and-tv/lara-croft-tributes-and-cameos"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "these tributes and cameos",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "!", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Here's to many more years of adventure, action, and record-breaking! You can pick up a copy of ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Guinness World Records Gamer's Edition 2026",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                { "nodeType": "text", "value": " ", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://gwrstore.com/en-us/products/gamers-2026-collectors-edition-with-extras?variant=54636105236865"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "here",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
-              ]
-            }
-          ]
-        },
-        "publishDate": "2025-11-26",
         "hideSocialSharingButtons": false
       }
     ],
