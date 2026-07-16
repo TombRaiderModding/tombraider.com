@@ -2,6 +2,354 @@
   "pageProps": {
     "articles": [
       {
+        "title": " A letter from T.E. Croft, Ancestor of Lara Croft",
+        "slug": "a-letter-from-t-e-croft-ancestor-of-lara-croft",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5FFz5iSwgZAtZhUE219Cz1",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:12:37.537Z",
+            "updatedAt": "2024-02-05T17:59:57.282Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 16,
+            "revision": 7,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Community", "slug": "community", "order": 45 }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5Vi3RnBigsSI75NrS9DClO",
+              "type": "Entry",
+              "createdAt": "2026-06-02T21:41:01.648Z",
+              "updatedAt": "2026-06-02T21:46:42.101Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Tomb Raider: Legacy of Atlantis" }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "168xJeDzGE05AA4pIjZP57",
+            "type": "Asset",
+            "createdAt": "2026-07-14T16:15:59.455Z",
+            "updatedAt": "2026-07-14T16:15:59.455Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 6,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "T.E. Croft Letter Seal Header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/168xJeDzGE05AA4pIjZP57/7ff0afec65bebe869032678355667627/CD_TR_SM_SoR-LetterHeaderWeb_4x5_v1_r2.png",
+              "details": {
+                "size": 2217613,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "CD_TR_SM_SoR-LetterHeaderWeb_4x5_v1_r2.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": " A letter from T.E. Croft, Ancestor of Lara Croft",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Croft Manor, 1887",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": " ", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "To the heirs of my blood, ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "You will inherit these stone walls and titles, but you will also inherit a burden. A question that will never be satisfied: ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "what lies hidden, and should it remain so?",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": " ", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "In my time, I sought companions who shared this hunger. Scholars, thieves, nobles… bound by a covenant older and deeper than traditional pacts. We styled ourselves the Society of Raiders, for plain words oft bear the greatest weight. We seek what many fear and bring to light what others would consign to the darkness. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Understand this, the Society is a pact of honor among those who live outside the laws of nations. Its laws are few, yet enduring; for without them, our ambitions would consume us. To betray a fellow Raider’s contract is to betray the Society itself. To spill blood without recompense is to inherit the debt of the slain. And to break sanctuary is to exile yourself from all aid and comfort. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We trade in Society Marks… tokens, earned through deeds, exchanged as currency among our kind. They are a ledger of our worth, more enduring than gold or land. A currency of trust in a trustless world. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "And yet, it is not wealth alone that drives us. I have stood in catacombs where the air still carried the prayers of the dead. I have uncovered stones carved by hands that lived before history. In such moments one glimpses truth in its purest form, stripped of all ornament and pretense. The Society’s credo binds us to seek it: ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Verum Invenire, Virtus Revela",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " -- ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Discover Truth, Uncover Power.",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": " ", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "To you who read this, whether you bear the Croft name proudly or seek to cast it aside, know that this hunger is your inheritance. It may call you to greatness, or ruin, or both. Your passion may place you among plunderers and grave-robbers. But you will know what you are… a seeker of truth, as I was. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "If you follow in my footsteps, you will walk a path of peril and rivalry, of secrets that can wound as deeply as any blade. But you will also walk in wonder and discovery, in power beyond the grasp of monarchs. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "And if ever you doubt why such a path must be walked, remember this: Truth waits in the dark. Power waits with it. And nothing stays buried forever. Better we uncover it than those who would wield it for ill. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "With this, I entrust our legacy. Carry it well. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "T.E. Croft",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "6bvFdswbkkLuGNIEYAR1fz",
+                    "type": "Asset",
+                    "createdAt": "2026-07-14T16:15:27.547Z",
+                    "updatedAt": "2026-07-14T16:15:27.547Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 6,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "T.E. Croft Society of Raiders Letter",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/6bvFdswbkkLuGNIEYAR1fz/3e885f2bfcce23656279c31a65a226d5/CD_TR_SM_SoR-Letter3Web_4x5_v2_r2.png",
+                      "details": {
+                        "size": 2648632,
+                        "image": { "width": 1080, "height": 1350 }
+                      },
+                      "fileName": "CD_TR_SM_SoR-Letter3Web_4x5_v2_r2.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            }
+          ]
+        },
+        "publishDate": "2026-07-16",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "Astonishing Travels - Field Notes: Lara Croft. Tracking “the Tomb Raider” to the Andes",
         "slug": "astonishing-travels-field-notes-lara-croft-tracking-the-tomb-raider-to-the-andes",
         "isLatestNews": true,
@@ -10606,622 +10954,6 @@
           "nodeType": "document"
         },
         "publishDate": "2026-01-28",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Two Thrilling Tomb Raider Adventures Unveiled at The Game Awards",
-        "slug": "two-thrilling-tomb-raider-adventures-unveiled-at-the-game-awards",
-        "isLatestNews": true,
-        "isFeatured": true,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "6KPfjWiWrWki8YH0wFTKoZ",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:14:47.775Z",
-            "updatedAt": "2024-02-05T18:36:21.395Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Video Games",
-            "slug": "video-games",
-            "order": 10
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "5MKaKnwkyPFVCUHqCtQuSi",
-              "type": "Entry",
-              "createdAt": "2024-01-12T20:40:47.690Z",
-              "updatedAt": "2024-01-12T20:40:47.690Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": { "name": "Video Games" }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "5Vi3RnBigsSI75NrS9DClO",
-              "type": "Entry",
-              "createdAt": "2026-06-02T21:41:01.648Z",
-              "updatedAt": "2026-06-02T21:46:42.101Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 5,
-              "revision": 2,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": { "name": "Tomb Raider: Legacy of Atlantis" }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "4VTE3IpIWNgwgjAR8YoC2V",
-            "type": "Asset",
-            "createdAt": "2025-12-09T17:55:13.884Z",
-            "updatedAt": "2026-06-05T17:15:52.377Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 2,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "After The Game Awards - Blog Header",
-            "description": "Lara Croft climbs a massive ancient gear mechanism inside a temple, navigating ropes, stonework, and intricate machinery.",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/4VTE3IpIWNgwgjAR8YoC2V/3c29b04d7277589bcf7daab6195a7c93/After_The_Game_Awards_-_Blog_Header.jpg",
-              "details": {
-                "size": 323188,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "After The Game Awards - Blog Header.jpg",
-              "contentType": "image/jpeg"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Legendary heroine Lara Croft returns in Tomb Raider: Catalyst, the all-new major entry in the Tomb Raider series, and Tomb Raider: Legacy of Atlantis, a reimagined version of her iconic debut—both games coming to PlayStation 5, Xbox Series X|S and Steam",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "At The Game Awards earlier this evening, two new entries in the Tomb Raider franchise were announced. Audiences were introduced to the long-awaited next chapter of Lara Croft's story, ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Catalyst",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", as well as the surprise announcement of ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", a fully reimagined version of Lara Croft's iconic debut adventure. Watch the trailers now!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "2S7ZzKAUxxHRO3HkvWkKzU",
-                    "type": "Entry",
-                    "createdAt": "2025-12-12T02:32:55.464Z",
-                    "updatedAt": "2025-12-12T02:32:55.464Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "embeddedHtml"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "contentfulName": "Tomb Raider: Catalyst Teaser",
-                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/N2yLZQFPSLo?si=9zxOBSS4BhrHworb\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-entry-block"
-            },
-            { "data": {}, "content": [], "nodeType": "hr" },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "3cE0a2HYLMaQewsRUS2Eau",
-                    "type": "Entry",
-                    "createdAt": "2025-12-12T02:33:40.121Z",
-                    "updatedAt": "2025-12-12T02:33:40.121Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 4,
-                    "revision": 1,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "embeddedHtml"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "contentfulName": "Tomb Raider: Legacy of Atlantis Debut Trailer",
-                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/n6JxVxSHjqE?si=MIkjuoTdMNVlPwY4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-entry-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Catalyst",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", developed by Crystal Dynamics, marks a bold new direction for the series as Lara Croft embarks on a new adventure across Northern India. ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Catalyst",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " is set in the wake of a mythical cataclysm that has unleashed ancient secrets and awakened the mysterious forces that guard them. When the most notorious treasure hunters from around the world descend on the region, Lara races to uncover the truth buried beneath the fractured landscape and stop those who would use its power for their own gain. As the ancient world collides with the present, Lara must decide who to trust among rivals and allies to prevent a catastrophe and protect a secret that could reshape the future. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Powered by Unreal Engine 5, ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Catalyst",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " delivers the largest Tomb Raider world yet where Lara will traverse a landscape full of secrets, delve into lost tombs packed with intricate puzzles, and solve ancient mysteries using her unmatched brilliance and richly customized adventure tech. Perfect for longtime fans and newcomers alike, players will experience an exhilarating story of trust and betrayal that tests Lara Croft in new ways. ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Catalyst",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " is set to launch in 2027 for PlayStation 5, Xbox Series X|S and Steam. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "3uX8xa3uChlamkKWxLeb0W",
-                    "type": "Asset",
-                    "createdAt": "2025-12-09T21:21:14.471Z",
-                    "updatedAt": "2026-06-05T16:40:08.292Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 13,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Tomb Raider Legacy of Atlantis Key Art",
-                    "description": "Promotional artwork for Tomb Raider: Legacy of Atlantis showing Lara Croft with dual pistols before jungle ruins, waterfalls, and a mountain backdrop.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3uX8xa3uChlamkKWxLeb0W/8edff3a526c98744441478d2add59add/Tomb_Raider_Legacy_of_Atlantis_Key_Art.jpg",
-                      "details": {
-                        "size": 12608734,
-                        "image": { "width": 5533, "height": 3200 }
-                      },
-                      "fileName": "Tomb Raider Legacy of Atlantis Key Art.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "In addition to the next chapter of Lara's story, some legends are destined to be retold. ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Legacy of Atlantis ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "captures the wonder and excitement of Lara's debut adventure, re-envisioned with modern gameplay, visuals, and storytelling. Developed in partnership between Crystal Dynamics and Flying Wild Hog, the game features stunning visuals powered by Unreal Engine 5, modern game design, and new surprises that honor the spirit and atmosphere of the original game. As Lara Croft, players will harness their wits and athleticism to explore exotic locations lost to time, traverse treacherous landscapes, solve deadly contraptions, and face lethal predators in their quest for the scattered pieces of the Scion—an artifact of immeasurable power. The game arrives in 2026 for PlayStation 5, Xbox Series X|S and Steam. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Both ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Catalyst",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " and ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " games will feature acclaimed voice actress Alix Wilton Regan as Lara Croft. Known for her performances in ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Dragon Age: Inquisition",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": ", ", "nodeType": "text" },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Cyberpunk 2077",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " and ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Mass Effect 3",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", Wilton Regan's dynamic portrayal of Lara energizes gaming's most iconic heroine with fresh spirit and depth, marking a new era in the Tomb Raider franchise.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "For more information on both titles, including trailers and the opportunity to wishlist, visit ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": { "uri": "http://www.playtombraider.com/" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "underline" }],
-                      "value": "www.playtombraider.com",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", and follow the games on ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": { "uri": "https://www.facebook.com/PlayTombRaider" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "value": "Facebook",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ", ", "nodeType": "text" },
-                {
-                  "data": {
-                    "uri": "file:///C:/Users/roidoyle/Documents/awaitinglink"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "value": "X",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ",", "nodeType": "text" },
-                {
-                  "data": {
-                    "uri": "https://www.instagram.com/playtombraider/?hl=en"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "underline" }],
-                      "value": " ",
-                      "nodeType": "text"
-                    },
-                    {
-                      "data": {},
-                      "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "value": "Instagram",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": " ",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": "and", "nodeType": "text" },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": " ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": { "uri": "https://www.tiktok.com/@playtombraider" },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "underline" }, { "type": "bold" }],
-                      "value": "TikTok",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": ". ", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "We are incredibly excited to share more information with you about these upcoming titles as we celebrate thirty years of Tomb Raider - stay tuned to our socials and tombraider.com for even more in the coming months!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "publishDate": "2025-12-11",
         "hideSocialSharingButtons": false
       }
     ],
