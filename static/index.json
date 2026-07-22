@@ -2,6 +2,262 @@
   "pageProps": {
     "articles": [
       {
+        "title": "The Society of Raiders",
+        "slug": "the-society-of-raiders",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5FFz5iSwgZAtZhUE219Cz1",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:12:37.537Z",
+            "updatedAt": "2024-02-05T17:59:57.282Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 16,
+            "revision": 7,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Community", "slug": "community", "order": 45 }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5Vi3RnBigsSI75NrS9DClO",
+              "type": "Entry",
+              "createdAt": "2026-06-02T21:41:01.648Z",
+              "updatedAt": "2026-06-02T21:46:42.101Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Tomb Raider: Legacy of Atlantis" }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6e469EJytfsI3xKIvcBO2I",
+            "type": "Asset",
+            "createdAt": "2026-07-21T15:12:04.493Z",
+            "updatedAt": "2026-07-21T15:12:04.493Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "SoR Letter - Header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/6e469EJytfsI3xKIvcBO2I/189d9bd1e06ac593b1588624bdd3049e/TR_-_New_Header_v2.png",
+              "details": {
+                "size": 2123525,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "TR_-_New_Header_v2.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Raiders come for different reasons. Truth, power, prestige… or simply the thrill of discovery. But all know the rules. Break them, and you risk exile. Honor them, and your legend grows.",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-5",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Verum Invenire, Virtus Revela",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": " - ", "marks": [], "data": {} },
+                {
+                  "nodeType": "text",
+                  "value": "Discover Truth, Uncover Power",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Since the early 19",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "th",
+                  "marks": [{ "type": "superscript" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " century, whispers have told of a secret tradition binding together explorers, thieves, aristocrats, and mercenaries. They called themselves The Society of Raiders. Born in the shadows of London, the Society arose to bring order to a frenzy of artifact hunting. Rules and customs were designed to keep rivals alive long enough to profit, and to protect their anonymity from the world.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "For nearly two centuries, the Society has thrived in silence. It is an organization without ranks or councils... there are no secret masters pulling strings. Only Raiders, Collectors, and those who dare to do business with them. All governed by a code as old as the Society itself. Contracts, safe havens, and a rare currency known as Society Marks bind this underground network together.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Raiders come for different reasons. Truth, power, prestige… or simply the thrill of discovery. But all know the rules. Break them, and you risk exile. Honor them, and your legend grows.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The Society has always been there, just out of sight. And many who crossed paths with Lara Croft have ties to it, whether they admit it or not.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "5iRulup1Vcv1rNiOEy5mO2",
+                    "type": "Asset",
+                    "createdAt": "2026-07-21T15:11:37.413Z",
+                    "updatedAt": "2026-07-21T15:11:37.413Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 7,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Society of Raiders - Letter",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5iRulup1Vcv1rNiOEy5mO2/86567bb8dc18ef5a2c43483d17b92e14/TR_-_Letter_Ex_-_v4.png",
+                      "details": {
+                        "size": 1770353,
+                        "image": { "width": 1080, "height": 1350 }
+                      },
+                      "fileName": "TR_-_Letter_Ex_-_v4.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            }
+          ]
+        },
+        "publishDate": "2026-07-22",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": " A letter from T.E. Croft, Ancestor of Lara Croft",
         "slug": "a-letter-from-t-e-croft-ancestor-of-lara-croft",
         "isLatestNews": true,
@@ -10024,936 +10280,6 @@
           ]
         },
         "publishDate": "2026-02-09",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "The 30th Anniversary of Tomb Raider is Here!",
-        "slug": "the-30th-anniversary-of-tomb-raider-is-here",
-        "isLatestNews": true,
-        "isFeatured": true,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "5Ln250eKRYvH3B8tqH479H",
-            "type": "Entry",
-            "createdAt": "2024-02-05T18:00:30.240Z",
-            "updatedAt": "2024-02-07T19:18:10.540Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 12,
-            "revision": 2,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Collaborations",
-            "slug": "collaborations",
-            "order": 15
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "5MKaKnwkyPFVCUHqCtQuSi",
-              "type": "Entry",
-              "createdAt": "2024-01-12T20:40:47.690Z",
-              "updatedAt": "2024-01-12T20:40:47.690Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": { "name": "Video Games" }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "3wyLfQe5oFxvOb3iFUra60",
-            "type": "Asset",
-            "createdAt": "2026-01-27T23:26:33.226Z",
-            "updatedAt": "2026-06-01T15:58:27.974Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 2,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "TR 30th KEY ART 1440x960",
-            "description": "Tomb Raider 30th anniversary key art featuring multiple versions of Lara Croft from across the franchise, alongside the gold \"30 Tomb Raider\" logo.",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/3wyLfQe5oFxvOb3iFUra60/2bc9d7ae8b3f7c6d9dba4bba675ed32f/TR_30th_KEY_ART_1440x960.png",
-              "details": {
-                "size": 2695084,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "TR_30th_KEY_ART_1440x960.png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider is celebrating 30 years of adventure with a treasure trove of exciting partnerships, plus special art and wallpapers celebrating Lara Croft's legacy.",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "It's been 30 years since Lara Croft climbed, jumped, and swan-dived onto the scene, and every moment since has been an adventure. From her sharply-polygonal origins in 1996, to the recently announced ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", our favorite British archaeologist and adventurer has established herself as gaming's most iconic heroine, and we plan to celebrate that legacy all year long!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "To kick off the festivities, we're collaborating with an incredible array of partners who will all be releasing special 30th Anniversary products this year:",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://www.8bitdo.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "8BitDo",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the premier third-party video game hardware company known for their retro-inspired gaming peripherals",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://www.aspyr.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Aspyr",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the next-level developer and publisher whose recent work includes ",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [{ "type": "italic" }],
-                          "value": "Tomb Raider I-VI Remastered ",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "(available now on all platforms) and the release of ",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [{ "type": "italic" }],
-                          "value": "Tomb Raider: Definitive Edition",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": " on Nintendo Switch and Nintendo Switch 2",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://blendcotastudios.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Blend Cota Studios",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", prolific fine artist Blend Cota will be partnering with Tomb Raider for original works based on Tomb Raider: Legacy of Atlantis",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://www.darkhorse.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Dark Horse",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the world-renowned comic publisher whose works include ",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [{ "type": "italic" }],
-                          "value": "Hellboy",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", ",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [{ "type": "italic" }],
-                          "value": "Star Wars",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", ",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [{ "type": "italic" }],
-                          "value": "Avatar: The Last Airbender,",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": " and recently, ",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [{ "type": "italic" }],
-                          "value": "Tomb Raider: The Sacred Artifacts",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://figgyz.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "FiGGYZ",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", magnetic pixel-art collectibles with interchangeable backdrops",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://full.life/en" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Fulllife",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the premium French streetwear and gaming apparel brand",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://funko.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Funko",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the lifestyle brand known for its iconic Pop! figures",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://gunnar.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "GUNNAR Optiks",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", pioneers of clinically proven, cutting-edge eyewear that enhances the digital screen experience and protects the human visual system",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://iconiqstudios.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Iconiq Studios",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [{ "type": "bold" }],
-                          "value": ",",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": " creators of premium collectibles, board games, and more",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://loungefly.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Loungefly",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", a high-quality, innovative brand that blends fandom with fashion",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://sharkrobot.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Shark Robot",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the apparel and collectibles merchandise site that hosts beloved brands and featured artists",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://syntilay.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Syntilay",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", futuristic footwear brand Syntilay will be releasing a collaboration with Tomb Raider to celebrate the 30th anniversary",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://gear.tombraider.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Tomb Raider Gear Store",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the official Tomb Raider Gear Store with new products all year long celebrating the anniversary",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://tubbz.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Tubbz",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the era of the duck continues with a new 30th Anniversary Lara Croft duck ",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": { "uri": "https://upperdeck.com/" },
-                          "content": [
-                            {
-                              "data": {},
-                              "marks": [{ "type": "bold" }],
-                              "value": "Upper Deck",
-                              "nodeType": "text"
-                            }
-                          ],
-                          "nodeType": "hyperlink"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", the leading sports and entertainment trading card company",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                }
-              ],
-              "nodeType": "unordered-list"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "These partnerships will contribute to an exciting 2026 for Tomb Raider, with ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", the reimagining of Lara Croft’s original genre-defining adventure created in collaboration with Amazon Game Studios and Flying Wild Hog, slated to launch on PC, PlayStation 5 and Xbox Series X|S later this year. Stay tuned for more information on Tomb Raider projects and collaborations throughout 2026!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            { "data": {}, "content": [], "nodeType": "hr" },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "To celebrate 30 years of raiding, we've put together wallpaper versions of the 30th Anniversary art featured above!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/2WB1sDrW6vQMC8hp1FJb8o/9d423ff5c4c79333fdb030670b59a153/Tomb_Raider_30th_Anniversary_Mobile_Wallpaper.png"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "bold" }],
-                      "value": "Mobile",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/chyHGwCzRqx7nR6srFxZ6/374599e05c57469fa34afabaa706b033/Tomb_Raider_30th_Anniversary_Tablet_Wallpaper.png"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "bold" }],
-                      "value": "Tablet",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/rr7mVtH3FEiqh8rXUtEeA/255f98ea62abc1af4195badfcc72d60d/Tomb_Raider_30th_Anniversary_Desktop_Wallpaper.png"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [{ "type": "bold" }],
-                      "value": "Desktop",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Thank you for adventuring with Lara over the years, and look forward to many more adventures to come!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "publishDate": "2026-01-28",
         "hideSocialSharingButtons": false
       }
     ],
