@@ -2,6 +2,240 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Tomb Raider: Legacy of Atlantis - Character Cards",
+        "slug": "tomb-raider-legacy-of-atlantis-character-cards",
+        "isLatestNews": true,
+        "isFeatured": false,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5FFz5iSwgZAtZhUE219Cz1",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:12:37.537Z",
+            "updatedAt": "2024-02-05T17:59:57.282Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 16,
+            "revision": 7,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Community", "slug": "community", "order": 45 }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5Vi3RnBigsSI75NrS9DClO",
+              "type": "Entry",
+              "createdAt": "2026-06-02T21:41:01.648Z",
+              "updatedAt": "2026-06-02T21:46:42.101Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Tomb Raider: Legacy of Atlantis" }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "1ExXNrPyoDjgLmvMugGgig",
+            "type": "Asset",
+            "createdAt": "2024-02-13T23:59:13.362Z",
+            "updatedAt": "2024-02-13T23:59:13.362Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "SoR Featured Image",
+            "description": "An image of the Society of Raiders crest.",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/1ExXNrPyoDjgLmvMugGgig/1344296cf3ad8ac6f0ffbf5dd8e714c1/SoR_Featured_Image.jpg",
+              "details": {
+                "size": 483708,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "SoR_Featured_Image.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Meet the characters behind the story. Dive into character cards that reveal their backgrounds, reputations, key strengths, and hidden liabilities.",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Behind every character is a story shaped by their reputation, strengths, and liabilities. Explore the character cards below to discover what sets each individual apart, and stay tuned for more.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4BlATwAVCuY7M8m4OErvlG",
+                    "type": "Asset",
+                    "createdAt": "2026-07-26T10:51:44.384Z",
+                    "updatedAt": "2026-07-26T10:51:44.384Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Character Card Lara WEB",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/4BlATwAVCuY7M8m4OErvlG/5d111fb66716356fa99c6be00c518833/Character_Card_Lara_WEB.png",
+                      "details": {
+                        "size": 2529289,
+                        "image": { "width": 1450, "height": 1350 }
+                      },
+                      "fileName": "Character_Card_Lara_WEB.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "embedded-asset-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "7nHXNOm6t9go7eD1DSoTrx",
+                    "type": "Asset",
+                    "createdAt": "2026-07-26T10:53:12.549Z",
+                    "updatedAt": "2026-07-26T10:53:12.549Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Character Card Natla WEB",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/7nHXNOm6t9go7eD1DSoTrx/f98e4c754d10410b45ad691f04604a4e/Character_Card_Natla_WEB.png",
+                      "details": {
+                        "size": 2511179,
+                        "image": { "width": 1450, "height": 1350 }
+                      },
+                      "fileName": "Character_Card_Natla_WEB.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            }
+          ]
+        },
+        "publishDate": "2026-07-27",
+        "hideSocialSharingButtons": false
+      },
+      {
         "title": "The Society of Raiders",
         "slug": "the-society-of-raiders",
         "isLatestNews": true,
@@ -9631,655 +9865,6 @@
           ]
         },
         "publishDate": "2026-02-14",
-        "hideSocialSharingButtons": false
-      },
-      {
-        "title": "Tomb Raider 30th Anniversary Streaming Kit and Backgrounds Available for Download",
-        "slug": "tomb-raider-30th-anniversary-streaming-kit-and-backgrounds-available-for",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "5FFz5iSwgZAtZhUE219Cz1",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:12:37.537Z",
-            "updatedAt": "2024-02-05T17:59:57.282Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 16,
-            "revision": 7,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": { "name": "Community", "slug": "community", "order": 45 }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "42LIcZRCm3N6dU4RppROLF",
-              "type": "Entry",
-              "createdAt": "2023-09-15T18:03:46.940Z",
-              "updatedAt": "2023-09-15T18:03:46.940Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Live Stream",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "5FFz5iSwgZAtZhUE219Cz1",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:12:37.537Z",
-                  "updatedAt": "2024-02-05T17:59:57.282Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 16,
-                  "revision": 7,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Community",
-                  "slug": "community",
-                  "order": 45
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "52OoqhkvVKu0yfItzLgh4Z",
-              "type": "Entry",
-              "createdAt": "2023-09-15T17:40:52.813Z",
-              "updatedAt": "2023-09-15T17:40:52.813Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Community Creations",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "5FFz5iSwgZAtZhUE219Cz1",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:12:37.537Z",
-                  "updatedAt": "2024-02-05T17:59:57.282Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 16,
-                  "revision": 7,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Community",
-                  "slug": "community",
-                  "order": 45
-                }
-              }
-            }
-          },
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "5MKaKnwkyPFVCUHqCtQuSi",
-              "type": "Entry",
-              "createdAt": "2024-01-12T20:40:47.690Z",
-              "updatedAt": "2024-01-12T20:40:47.690Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": { "name": "Video Games" }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "3FbnZ4waa0x4tRwDzZRSvQ",
-            "type": "Asset",
-            "createdAt": "2026-02-02T22:20:52.547Z",
-            "updatedAt": "2026-02-02T22:20:52.547Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 3,
-            "revision": 1,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "Streaming Kits - 30th Anniversary - Blog Header",
-            "description": "",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/3FbnZ4waa0x4tRwDzZRSvQ/bf3281fcd74d7533e59bb1c53c18f5de/Streaming_Kits_-_30th_Anniversary_-_Blog_Header.png",
-              "details": {
-                "size": 1558623,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "Streaming Kits - 30th Anniversary - Blog Header.png",
-              "contentType": "image/png"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Tomb Raider 30th Anniversary Streaming Kit and Backgrounds Available for Download",
-        "body": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "This year marks three decades of tombs, traps, and adventures, and we're excited to celebrate Tomb Raider's legacy all year long.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "VRLJl2qxe6kKBNbqs7Yn2",
-                    "type": "Asset",
-                    "createdAt": "2026-02-02T22:25:30.090Z",
-                    "updatedAt": "2026-06-01T15:51:14.699Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 9,
-                    "revision": 3,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "TR30 stream kit blog image",
-                    "description": "Tomb Raider 30th anniversary Twitch streaming asset pack featuring Lara Croft, including alert overlays for new subscriber, follower, bits, a stream layout, and a \"Be Right Back\" screen.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/VRLJl2qxe6kKBNbqs7Yn2/a5c56671eea5236a83c651a49b61a0c2/tr30_streamer_kit_blog_image_alt.png",
-                      "details": {
-                        "size": 1024220,
-                        "image": { "width": 1191, "height": 680 }
-                      },
-                      "fileName": "tr30 streamer kit blog image alt.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "To help everyone get in to the anniversary spirit, we've put together a streaming kit based on the 30th Anniversary art, free to download! This package includes:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Two overlays to support gameplay, showcases, or just hanging out",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Alerts for followers, subscribers, and bits",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Themed interstitials for scene changes and breaks",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Three custom emotes",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "We've also created a set of themed backgrounds for use on video calls or greenscreens, so everyone can join in the fun!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Anyone is welcome to download and use these kits!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "7tAFY28a73nFvXrtY0U9jz",
-                    "type": "Asset",
-                    "createdAt": "2026-02-02T22:37:37.877Z",
-                    "updatedAt": "2026-02-02T22:37:37.877Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Tomb Raider 30th Anniversary Streamer Kit",
-                    "file": {
-                      "url": "//downloads.ctfassets.net/x77ixfmkpoiv/7tAFY28a73nFvXrtY0U9jz/8f042ab8972b117ce01717e5a6aabaa4/Tomb_Raider_30th_Anniversary_Streamer_Kit.zip",
-                      "details": { "size": 15711387 },
-                      "fileName": "Tomb Raider 30th Anniversary Streamer Kit.zip",
-                      "contentType": "application/zip"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "5g9DHBFxZb7nzkfGbE05N0",
-                    "type": "Asset",
-                    "createdAt": "2026-02-02T22:38:16.258Z",
-                    "updatedAt": "2026-02-02T22:38:16.258Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 3,
-                    "revision": 1,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Tomb Raider 30th Anniversary Video Backgrounds",
-                    "file": {
-                      "url": "//assets.ctfassets.net/x77ixfmkpoiv/5g9DHBFxZb7nzkfGbE05N0/bfab2eb4f7c9d09d670ca7627b1872e7/Tomb_Raider_30th_Anniversary_Video_Backgrounds.zip",
-                      "details": { "size": 10418956 },
-                      "fileName": "Tomb Raider 30th Anniversary Video Backgrounds.zip",
-                      "contentType": "application/zip"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Are you watching or streaming Tomb Raider during the anniversary? Who are some of your favorite Tomb Raider content creators? Let us know on ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": { "uri": "https://www.instagram.com/tombraider/" },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Instagram",
-                      "marks": [{ "type": "underline" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": { "uri": "https://www.threads.net/@tombraider" },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Threads",
-                      "marks": [{ "type": "underline" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": { "uri": "https://www.facebook.com/TombRaider/" },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Facebook",
-                      "marks": [{ "type": "underline" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": { "uri": "https://www.tiktok.com/@tombraider" },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "TikTok",
-                      "marks": [{ "type": "underline" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": { "uri": "https://bsky.app/profile/tombraider.com" },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Bluesky",
-                      "marks": [{ "type": "underline" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": " or ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": { "uri": "https://twitter.com/tombraider" },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "X",
-                      "marks": [{ "type": "underline" }],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "! ", "marks": [], "data": {} }
-              ]
-            }
-          ]
-        },
-        "publishDate": "2026-02-09",
         "hideSocialSharingButtons": false
       }
     ],
