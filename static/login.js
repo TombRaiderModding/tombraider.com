@@ -51,8 +51,8 @@
                 } = (0, c.u)(),
                 S = (0, h.useRouter)(),
                 [F, E] = (0, s.useState)(!1),
-                [A, G] = (0, s.useState)(!1),
-                [R, L] = (0, s.useState)(!1),
+                [R, A] = (0, s.useState)(!1),
+                [G, L] = (0, s.useState)(!1),
                 [I, T] = (0, s.useState)(!1),
                 [M, V] = (0, s.useState)(!1),
                 H = ((r = "1881486789441765"), void 0 !== r) ? r : "",
@@ -96,7 +96,7 @@
                   let e = () => {
                     W.current &&
                       ((W.current = !1),
-                      G(!1),
+                      A(!1),
                       j("root", {
                         message:
                           "Facebook login was cancelled. Please try again.",
@@ -199,7 +199,7 @@
                       D(),
                       !(null == (r = e.authResponse) ? void 0 : r.accessToken))
                     ) {
-                      (G(!1),
+                      (A(!1),
                         j("root", {
                           message:
                             "Facebook login was cancelled. Please try again.",
@@ -221,14 +221,14 @@
                                 : l.playFabId,
                           }),
                           await _(),
-                          G(!1));
+                          A(!1));
                         return;
                       }
                       if (
                         (null == (a = e.error) ? void 0 : a.error) ===
                         "AccountNotFound"
                       ) {
-                        (j("root", { message: x }), G(!1));
+                        (j("root", { message: x }), A(!1));
                         return;
                       }
                       let r =
@@ -241,7 +241,7 @@
                           message: "Facebook login failed. Please try again.",
                         }));
                     }
-                    G(!1);
+                    A(!1);
                   },
                   [D, _, j, N],
                 );
@@ -346,7 +346,7 @@
                             message:
                               "Facebook login is still initializing. Please try again in a moment.",
                           });
-                        (k(), G(!0));
+                        (k(), A(!0));
                         let e = (e) => {
                           if (
                             (null == e ? void 0 : e.status) === "connected" &&
@@ -362,7 +362,7 @@
                                   message:
                                     "Facebook login failed. Please try again.",
                                 }),
-                                G(!1));
+                                A(!1));
                             });
                           try {
                             var r;
@@ -379,7 +379,7 @@
                                             message:
                                               "Facebook login failed. Please try again.",
                                           }),
-                                          G(!1));
+                                          A(!1));
                                       }));
                                   },
                                   { scope: "email", return_scopes: !0 },
@@ -388,7 +388,7 @@
                             (console.error(e),
                               (W.current = !1),
                               D(),
-                              G(!1),
+                              A(!1),
                               j("root", {
                                 message:
                                   "Facebook login failed. Please try again.",
@@ -406,8 +406,8 @@
                       control: b,
                       errors: C,
                       loginLoading: F,
-                      facebookLoginLoading: A,
-                      facebookSdkReady: R,
+                      facebookLoginLoading: R,
+                      facebookSdkReady: G,
                       googleLoginLoading: I,
                       googleSdkReady: M,
                       raiderFeatureSlides: v.raiderFeatureSlides
@@ -428,22 +428,27 @@
       "use strict";
       a.a(e, async (e, o) => {
         try {
-          (a.r(r), a.d(r, { __N_SSG: () => i, default: () => c }));
+          (a.r(r), a.d(r, { __N_SSG: () => c, default: () => d }));
           var l = a(2183),
             s = a(75460),
-            t = a(12268),
-            n = e([s, t]);
-          [s, t] = n.then ? (await n)() : n;
-          var i = !0;
-          function c(e) {
+            t = a(91134),
+            n = a(12268),
+            i = e([s, n]);
+          [s, n] = i.then ? (await i)() : i;
+          var c = !0;
+          function d(e) {
             let { websiteSingleton: r, navItems: a, registrationPage: o } = e;
             return (0, l.jsxs)(l.Fragment, {
               children: [
+                (0, l.jsx)(t.A, {
+                  description:
+                    "Log in to your Tomb Raider account to access exclusive rewards, monthly newsletters, and all your Society of Raiders member benefits from Crystal Dynamics.",
+                }),
                 (0, l.jsx)("h1", {
                   className: "hidden",
                   children: "Tomb Raider - Login",
                 }),
-                (0, l.jsx)(t.A, {
+                (0, l.jsx)(n.A, {
                   children: (0, l.jsx)(s.A, {
                     websiteSingleton: r,
                     navItems: a,
@@ -741,7 +746,7 @@
   (e) => {
     (e.O(
       0,
-      [9950, 6006, 1433, 1329, 3357, 7531, 5216, 6906, 636, 6593, 8792],
+      [9950, 6006, 1433, 1329, 3357, 7531, 5216, 7083, 636, 6593, 8792],
       () => e((e.s = 32802)),
     ),
       (_N_E = e.O()));

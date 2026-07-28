@@ -1,5 +1,5 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [1175],
+  [1089],
   {
     22045: (e) => {
       !(function () {
@@ -14,16 +14,16 @@
               }
               function r(e, t) {
                 for (
-                  var r, n = "", i = 0, o = -1, s = 0, a = 0;
-                  a <= e.length;
-                  ++a
+                  var r, n = "", i = 0, E = -1, a = 0, l = 0;
+                  l <= e.length;
+                  ++l
                 ) {
-                  if (a < e.length) r = e.charCodeAt(a);
+                  if (l < e.length) r = e.charCodeAt(l);
                   else if (47 === r) break;
                   else r = 47;
                   if (47 === r) {
-                    if (o === a - 1 || 1 === s);
-                    else if (o !== a - 1 && 2 === s) {
+                    if (E === l - 1 || 1 === a);
+                    else if (E !== l - 1 && 2 === a) {
                       if (
                         n.length < 2 ||
                         2 !== i ||
@@ -31,48 +31,48 @@
                         46 !== n.charCodeAt(n.length - 2)
                       ) {
                         if (n.length > 2) {
-                          var E = n.lastIndexOf("/");
-                          if (E !== n.length - 1) {
-                            (-1 === E
+                          var o = n.lastIndexOf("/");
+                          if (o !== n.length - 1) {
+                            (-1 === o
                               ? ((n = ""), (i = 0))
                               : (i =
-                                  (n = n.slice(0, E)).length -
+                                  (n = n.slice(0, o)).length -
                                   1 -
                                   n.lastIndexOf("/")),
-                              (o = a),
-                              (s = 0));
+                              (E = l),
+                              (a = 0));
                             continue;
                           }
                         } else if (2 === n.length || 1 === n.length) {
-                          ((n = ""), (i = 0), (o = a), (s = 0));
+                          ((n = ""), (i = 0), (E = l), (a = 0));
                           continue;
                         }
                       }
                       t && (n.length > 0 ? (n += "/..") : (n = ".."), (i = 2));
                     } else
                       (n.length > 0
-                        ? (n += "/" + e.slice(o + 1, a))
-                        : (n = e.slice(o + 1, a)),
-                        (i = a - o - 1));
-                    ((o = a), (s = 0));
-                  } else 46 === r && -1 !== s ? ++s : (s = -1);
+                        ? (n += "/" + e.slice(E + 1, l))
+                        : (n = e.slice(E + 1, l)),
+                        (i = l - E - 1));
+                    ((E = l), (a = 0));
+                  } else 46 === r && -1 !== a ? ++a : (a = -1);
                 }
                 return n;
               }
               var n = {
                 resolve: function () {
                   for (
-                    var e, n, i = "", o = !1, s = arguments.length - 1;
-                    s >= -1 && !o;
-                    s--
+                    var e, n, i = "", E = !1, a = arguments.length - 1;
+                    a >= -1 && !E;
+                    a--
                   )
-                    (s >= 0
-                      ? (n = arguments[s])
+                    (a >= 0
+                      ? (n = arguments[a])
                       : (void 0 === e && (e = ""), (n = e)),
                       t(n),
                       0 !== n.length &&
-                        ((i = n + "/" + i), (o = 47 === n.charCodeAt(0))));
-                  if (((i = r(i, !o)), o))
+                        ((i = n + "/" + i), (E = 47 === n.charCodeAt(0))));
+                  if (((i = r(i, !E)), E))
                     if (i.length > 0) return "/" + i;
                     else return "/";
                   return i.length > 0 ? i : ".";
@@ -109,38 +109,38 @@
                     return "";
                   for (var i = 1; i < e.length && 47 === e.charCodeAt(i); ++i);
                   for (
-                    var o = e.length, s = o - i, a = 1;
-                    a < r.length && 47 === r.charCodeAt(a);
-                    ++a
+                    var E = e.length, a = E - i, l = 1;
+                    l < r.length && 47 === r.charCodeAt(l);
+                    ++l
                   );
                   for (
-                    var E = r.length - a, h = s < E ? s : E, l = -1, c = 0;
-                    c <= h;
+                    var o = r.length - l, s = a < o ? a : o, h = -1, c = 0;
+                    c <= s;
                     ++c
                   ) {
-                    if (c === h) {
-                      if (E > h) {
-                        if (47 === r.charCodeAt(a + c))
-                          return r.slice(a + c + 1);
-                        else if (0 === c) return r.slice(a + c);
+                    if (c === s) {
+                      if (o > s) {
+                        if (47 === r.charCodeAt(l + c))
+                          return r.slice(l + c + 1);
+                        else if (0 === c) return r.slice(l + c);
                       } else
-                        s > h &&
+                        a > s &&
                           (47 === e.charCodeAt(i + c)
-                            ? (l = c)
-                            : 0 === c && (l = 0));
+                            ? (h = c)
+                            : 0 === c && (h = 0));
                       break;
                     }
-                    var A = e.charCodeAt(i + c);
-                    if (A !== r.charCodeAt(a + c)) break;
-                    47 === A && (l = c);
+                    var u = e.charCodeAt(i + c);
+                    if (u !== r.charCodeAt(l + c)) break;
+                    47 === u && (h = c);
                   }
-                  var u = "";
-                  for (c = i + l + 1; c <= o; ++c)
-                    (c === o || 47 === e.charCodeAt(c)) &&
-                      (0 === u.length ? (u += "..") : (u += "/.."));
-                  return u.length > 0
-                    ? u + r.slice(a + l)
-                    : ((a += l), 47 === r.charCodeAt(a) && ++a, r.slice(a));
+                  var A = "";
+                  for (c = i + h + 1; c <= E; ++c)
+                    (c === E || 47 === e.charCodeAt(c)) &&
+                      (0 === A.length ? (A += "..") : (A += "/.."));
+                  return A.length > 0
+                    ? A + r.slice(l + h)
+                    : ((l += h), 47 === r.charCodeAt(l) && ++l, r.slice(l));
                 },
                 _makeLong: function (e) {
                   return e;
@@ -151,17 +151,17 @@
                     var r = e.charCodeAt(0),
                       n = 47 === r,
                       i = -1,
-                      o = !0,
-                      s = e.length - 1;
-                    s >= 1;
-                    --s
+                      E = !0,
+                      a = e.length - 1;
+                    a >= 1;
+                    --a
                   )
-                    if (47 === (r = e.charCodeAt(s))) {
-                      if (!o) {
-                        i = s;
+                    if (47 === (r = e.charCodeAt(a))) {
+                      if (!E) {
+                        i = a;
                         break;
                       }
-                    } else o = !1;
+                    } else E = !1;
                   return -1 === i
                     ? n
                       ? "/"
@@ -176,66 +176,66 @@
                   t(e);
                   var n,
                     i = 0,
-                    o = -1,
-                    s = !0;
+                    E = -1,
+                    a = !0;
                   if (void 0 !== r && r.length > 0 && r.length <= e.length) {
                     if (r.length === e.length && r === e) return "";
-                    var a = r.length - 1,
-                      E = -1;
+                    var l = r.length - 1,
+                      o = -1;
                     for (n = e.length - 1; n >= 0; --n) {
-                      var h = e.charCodeAt(n);
-                      if (47 === h) {
-                        if (!s) {
+                      var s = e.charCodeAt(n);
+                      if (47 === s) {
+                        if (!a) {
                           i = n + 1;
                           break;
                         }
                       } else
-                        (-1 === E && ((s = !1), (E = n + 1)),
-                          a >= 0 &&
-                            (h === r.charCodeAt(a)
-                              ? -1 == --a && (o = n)
-                              : ((a = -1), (o = E))));
+                        (-1 === o && ((a = !1), (o = n + 1)),
+                          l >= 0 &&
+                            (s === r.charCodeAt(l)
+                              ? -1 == --l && (E = n)
+                              : ((l = -1), (E = o))));
                     }
                     return (
-                      i === o ? (o = E) : -1 === o && (o = e.length),
-                      e.slice(i, o)
+                      i === E ? (E = o) : -1 === E && (E = e.length),
+                      e.slice(i, E)
                     );
                   }
                   for (n = e.length - 1; n >= 0; --n)
                     if (47 === e.charCodeAt(n)) {
-                      if (!s) {
+                      if (!a) {
                         i = n + 1;
                         break;
                       }
-                    } else -1 === o && ((s = !1), (o = n + 1));
-                  return -1 === o ? "" : e.slice(i, o);
+                    } else -1 === E && ((a = !1), (E = n + 1));
+                  return -1 === E ? "" : e.slice(i, E);
                 },
                 extname: function (e) {
                   t(e);
                   for (
-                    var r = -1, n = 0, i = -1, o = !0, s = 0, a = e.length - 1;
-                    a >= 0;
-                    --a
+                    var r = -1, n = 0, i = -1, E = !0, a = 0, l = e.length - 1;
+                    l >= 0;
+                    --l
                   ) {
-                    var E = e.charCodeAt(a);
-                    if (47 === E) {
-                      if (!o) {
-                        n = a + 1;
+                    var o = e.charCodeAt(l);
+                    if (47 === o) {
+                      if (!E) {
+                        n = l + 1;
                         break;
                       }
                       continue;
                     }
-                    (-1 === i && ((o = !1), (i = a + 1)),
-                      46 === E
+                    (-1 === i && ((E = !1), (i = l + 1)),
+                      46 === o
                         ? -1 === r
-                          ? (r = a)
-                          : 1 !== s && (s = 1)
-                        : -1 !== r && (s = -1));
+                          ? (r = l)
+                          : 1 !== a && (a = 1)
+                        : -1 !== r && (a = -1));
                   }
                   return -1 === r ||
                     -1 === i ||
-                    0 === s ||
-                    (1 === s && r === i - 1 && r === n + 1)
+                    0 === a ||
+                    (1 === a && r === i - 1 && r === n + 1)
                     ? ""
                     : e.slice(r, i);
                 },
@@ -258,42 +258,42 @@
                     n = { root: "", dir: "", base: "", ext: "", name: "" };
                   if (0 === e.length) return n;
                   var i = e.charCodeAt(0),
-                    o = 47 === i;
-                  o ? ((n.root = "/"), (r = 1)) : (r = 0);
+                    E = 47 === i;
+                  E ? ((n.root = "/"), (r = 1)) : (r = 0);
                   for (
-                    var s = -1, a = 0, E = -1, h = !0, l = e.length - 1, c = 0;
-                    l >= r;
-                    --l
+                    var a = -1, l = 0, o = -1, s = !0, h = e.length - 1, c = 0;
+                    h >= r;
+                    --h
                   ) {
-                    if (47 === (i = e.charCodeAt(l))) {
-                      if (!h) {
-                        a = l + 1;
+                    if (47 === (i = e.charCodeAt(h))) {
+                      if (!s) {
+                        l = h + 1;
                         break;
                       }
                       continue;
                     }
-                    (-1 === E && ((h = !1), (E = l + 1)),
+                    (-1 === o && ((s = !1), (o = h + 1)),
                       46 === i
-                        ? -1 === s
-                          ? (s = l)
+                        ? -1 === a
+                          ? (a = h)
                           : 1 !== c && (c = 1)
-                        : -1 !== s && (c = -1));
+                        : -1 !== a && (c = -1));
                   }
                   return (
-                    -1 === s ||
-                    -1 === E ||
+                    -1 === a ||
+                    -1 === o ||
                     0 === c ||
-                    (1 === c && s === E - 1 && s === a + 1)
-                      ? -1 !== E &&
-                        (0 === a && o
-                          ? (n.base = n.name = e.slice(1, E))
-                          : (n.base = n.name = e.slice(a, E)))
-                      : (0 === a && o
-                          ? ((n.name = e.slice(1, s)), (n.base = e.slice(1, E)))
-                          : ((n.name = e.slice(a, s)),
-                            (n.base = e.slice(a, E))),
-                        (n.ext = e.slice(s, E))),
-                    a > 0 ? (n.dir = e.slice(0, a - 1)) : o && (n.dir = "/"),
+                    (1 === c && a === o - 1 && a === l + 1)
+                      ? -1 !== o &&
+                        (0 === l && E
+                          ? (n.base = n.name = e.slice(1, o))
+                          : (n.base = n.name = e.slice(l, o)))
+                      : (0 === l && E
+                          ? ((n.name = e.slice(1, a)), (n.base = e.slice(1, o)))
+                          : ((n.name = e.slice(l, a)),
+                            (n.base = e.slice(l, o))),
+                        (n.ext = e.slice(a, o))),
+                    l > 0 ? (n.dir = e.slice(0, l - 1)) : E && (n.dir = "/"),
                     n
                   );
                 },
@@ -309,27 +309,27 @@
         function n(e) {
           var i = r[e];
           if (void 0 !== i) return i.exports;
-          var o = (r[e] = { exports: {} }),
-            s = !0;
+          var E = (r[e] = { exports: {} }),
+            a = !0;
           try {
-            (t[e](o, o.exports, n), (s = !1));
+            (t[e](E, E.exports, n), (a = !1));
           } finally {
-            s && delete r[e];
+            a && delete r[e];
           }
-          return o.exports;
+          return E.exports;
         }
         ((n.ab = "//"), (e.exports = n(114)));
       })();
     },
     40235: (e, t, r) => {
       "use strict";
-      r.d(t, { nA: () => i, XD: () => o, j7: () => s, _$: () => n });
+      r.d(t, { nA: () => i, XD: () => E, j7: () => a, _$: () => n });
       var n = {};
       (r.r(n),
         r.d(n, {
-          isBlock: () => u,
-          isEmptyParagraph: () => f,
-          isInline: () => A,
+          isBlock: () => A,
+          isEmptyParagraph: () => D,
+          isInline: () => u,
           isText: () => p,
           stripEmptyTrailingParagraphFromDocument: () => d,
         }));
@@ -358,7 +358,7 @@
             e
           );
         })({}),
-        o = (function (e) {
+        E = (function (e) {
           return (
             (e.ASSET_HYPERLINK = "asset-hyperlink"),
             (e.EMBEDDED_ENTRY = "embedded-entry-inline"),
@@ -369,7 +369,7 @@
             e
           );
         })({}),
-        s = (function (e) {
+        a = (function (e) {
           return (
             (e.BOLD = "bold"),
             (e.ITALIC = "italic"),
@@ -381,7 +381,7 @@
             e
           );
         })({});
-      let a = [
+      let l = [
           i.PARAGRAPH,
           i.HEADING_1,
           i.HEADING_2,
@@ -398,7 +398,7 @@
           i.EMBEDDED_RESOURCE,
           i.TABLE,
         ],
-        E = [
+        o = [
           i.PARAGRAPH,
           i.HEADING_1,
           i.HEADING_2,
@@ -422,17 +422,17 @@
         i.EMBEDDED_ENTRY,
         i.EMBEDDED_ASSET,
         i.EMBEDDED_RESOURCE);
-      let h = {
+      let s = {
           [i.OL_LIST]: [i.LIST_ITEM],
           [i.UL_LIST]: [i.LIST_ITEM],
-          [i.LIST_ITEM]: E,
+          [i.LIST_ITEM]: o,
           [i.QUOTE]: [i.PARAGRAPH],
           [i.TABLE]: [i.TABLE_ROW],
           [i.TABLE_ROW]: [i.TABLE_CELL, i.TABLE_HEADER_CELL],
           [i.TABLE_CELL]: [i.PARAGRAPH, i.UL_LIST, i.OL_LIST],
           [i.TABLE_HEADER_CELL]: [i.PARAGRAPH],
         },
-        l = [
+        h = [
           i.HEADING_1,
           i.HEADING_2,
           i.HEADING_3,
@@ -444,16 +444,16 @@
         for (let r of Object.keys(e)) if (t === e[r]) return !0;
         return !1;
       }
-      function A(e) {
-        return c(o, e.nodeType);
-      }
       function u(e) {
+        return c(E, e.nodeType);
+      }
+      function A(e) {
         return c(i, e.nodeType);
       }
       function p(e) {
         return "text" === e.nodeType;
       }
-      function f(e) {
+      function D(e) {
         if (e.nodeType !== i.PARAGRAPH || 1 !== e.content.length) return !1;
         let t = e.content[0];
         return "text" === t.nodeType && "" === t.value;
@@ -466,11 +466,11 @@
           Array.isArray(e.content)
         ) || e.content.length < 2
           ? e
-          : f(e.content[e.content.length - 1])
+          : D(e.content[e.content.length - 1])
             ? { ...e, content: e.content.slice(0, -1) }
             : e;
       }
-      ([i.PARAGRAPH, ...l],
+      ([i.PARAGRAPH, ...h],
         i.DOCUMENT,
         i.PARAGRAPH,
         i.HEADING_1,
@@ -486,17 +486,17 @@
         i.QUOTE,
         i.EMBEDDED_ENTRY,
         i.EMBEDDED_ASSET,
-        o.HYPERLINK,
-        o.ENTRY_HYPERLINK,
-        o.ASSET_HYPERLINK,
-        o.EMBEDDED_ENTRY,
-        s.BOLD,
-        s.CODE,
-        s.ITALIC,
-        s.UNDERLINE,
+        E.HYPERLINK,
+        E.ENTRY_HYPERLINK,
+        E.ASSET_HYPERLINK,
+        E.EMBEDDED_ENTRY,
+        a.BOLD,
+        a.CODE,
+        a.ITALIC,
+        a.UNDERLINE,
         i.DOCUMENT,
         i.PARAGRAPH);
-      let D = ({ path: e, property: t, typeName: r, value: n }) => ({
+      let T = ({ path: e, property: t, typeName: r, value: n }) => ({
         details: `The type of "${t}" is incorrect, expected type: ${r}`,
         name: "type",
         path: e.toArray(),
@@ -538,7 +538,7 @@
             n = e ?? this.path.last() ?? "value";
           return (
             this.catch(
-              D({ typeName: "Object", property: n, path: r, value: t }),
+              T({ typeName: "Object", property: n, path: r, value: t }),
             ),
             !1
           );
@@ -549,7 +549,7 @@
             (!e || !!this.exists(e)) &&
             ("string" == typeof t ||
               (this.catch(
-                D({
+                T({
                   typeName: "String",
                   property: e,
                   path: this.path.of(e),
@@ -566,7 +566,7 @@
             (!!this.exists(e) &&
               (!("number" != typeof r || Number.isNaN(r)) ||
                 (this.catch(
-                  D({
+                  T({
                     typeName: "Number",
                     property: e,
                     path: this.path.of(e),
@@ -582,7 +582,7 @@
             (!e || !!this.exists(e)) &&
             (!!Array.isArray(t) ||
               (this.catch(
-                D({
+                T({
                   typeName: "Array",
                   property: e,
                   path: this.path.of(e),
@@ -665,12 +665,12 @@
             n = !1;
           r.forEach((r, i) => {
             if (n) return;
-            let o = t(r, this.path.of(e).of(i));
-            (o.length > 0 && (n = !0), this.catch(...o));
+            let E = t(r, this.path.of(e).of(i));
+            (E.length > 0 && (n = !0), this.catch(...E));
           });
         };
       }
-      let T = [];
+      let f = [];
       class L {
         contentRule;
         validateData;
@@ -742,10 +742,10 @@
         };
       }
       let I = (e, t) => new L(e, t),
-        g = (e, t) => new R(e, t);
-      (I([...Object.values(o), "text"].sort()),
+        m = (e, t) => new R(e, t);
+      (I([...Object.values(E), "text"].sort()),
         I([i.LIST_ITEM]),
-        g("Entry", T),
+        m("Entry", f),
         I(
           () => ({ nodeTypes: [i.PARAGRAPH], min: 1 }),
           (e, t) => {
@@ -759,7 +759,7 @@
           },
         ),
         i.DOCUMENT,
-        I(a),
+        I(l),
         i.PARAGRAPH,
         i.HEADING_1,
         i.HEADING_2,
@@ -768,35 +768,155 @@
         i.HEADING_5,
         i.HEADING_6,
         i.QUOTE,
-        I(h[i.QUOTE]),
+        I(s[i.QUOTE]),
         i.EMBEDDED_ENTRY,
         i.EMBEDDED_ASSET,
-        g("Asset", T),
+        m("Asset", f),
         i.EMBEDDED_RESOURCE,
-        g("Contentful:Entry", T),
+        m("Contentful:Entry", f),
         i.HR,
-        I(T),
+        I(f),
         i.OL_LIST,
         i.UL_LIST,
         i.LIST_ITEM,
-        I([...E].sort()),
+        I([...o].sort()),
         i.TABLE,
         I(() => ({ nodeTypes: [i.TABLE_ROW], min: 1 })),
         i.TABLE_ROW,
         I(() => ({ nodeTypes: [i.TABLE_CELL, i.TABLE_HEADER_CELL], min: 1 })),
         i.TABLE_CELL,
         i.TABLE_HEADER_CELL,
-        o.HYPERLINK,
+        E.HYPERLINK,
         new y(),
-        o.EMBEDDED_ENTRY,
-        o.EMBEDDED_RESOURCE,
-        g("Contentful:Entry", T),
-        o.ENTRY_HYPERLINK,
-        g("Entry", ["text"]),
-        o.ASSET_HYPERLINK,
-        g("Asset", ["text"]),
-        o.RESOURCE_HYPERLINK,
-        g("Contentful:Entry", ["text"]));
+        E.EMBEDDED_ENTRY,
+        E.EMBEDDED_RESOURCE,
+        m("Contentful:Entry", f),
+        E.ENTRY_HYPERLINK,
+        m("Entry", ["text"]),
+        E.ASSET_HYPERLINK,
+        m("Asset", ["text"]),
+        E.RESOURCE_HYPERLINK,
+        m("Contentful:Entry", ["text"]));
+    },
+    40453: (e, t, r) => {
+      "use strict";
+      r.d(t, { i: () => s });
+      var n = r(36439),
+        i = r(40235);
+      let E = {
+          [i.nA.DOCUMENT]: (e, t) => t,
+          [i.nA.PARAGRAPH]: (e, t) => n.createElement("p", null, t),
+          [i.nA.HEADING_1]: (e, t) => n.createElement("h1", null, t),
+          [i.nA.HEADING_2]: (e, t) => n.createElement("h2", null, t),
+          [i.nA.HEADING_3]: (e, t) => n.createElement("h3", null, t),
+          [i.nA.HEADING_4]: (e, t) => n.createElement("h4", null, t),
+          [i.nA.HEADING_5]: (e, t) => n.createElement("h5", null, t),
+          [i.nA.HEADING_6]: (e, t) => n.createElement("h6", null, t),
+          [i.nA.EMBEDDED_ENTRY]: (e, t) => n.createElement("div", null, t),
+          [i.nA.EMBEDDED_RESOURCE]: (e, t) => n.createElement("div", null, t),
+          [i.nA.UL_LIST]: (e, t) => n.createElement("ul", null, t),
+          [i.nA.OL_LIST]: (e, t) => n.createElement("ol", null, t),
+          [i.nA.LIST_ITEM]: (e, t) => n.createElement("li", null, t),
+          [i.nA.QUOTE]: (e, t) => n.createElement("blockquote", null, t),
+          [i.nA.HR]: () => n.createElement("hr", null),
+          [i.nA.TABLE]: (e, t) =>
+            n.createElement("table", null, n.createElement("tbody", null, t)),
+          [i.nA.TABLE_ROW]: (e, t) => n.createElement("tr", null, t),
+          [i.nA.TABLE_HEADER_CELL]: (e, t) => n.createElement("th", null, t),
+          [i.nA.TABLE_CELL]: (e, t) => n.createElement("td", null, t),
+          [i.XD.ASSET_HYPERLINK]: (e) => l(i.XD.ASSET_HYPERLINK, e),
+          [i.XD.ENTRY_HYPERLINK]: (e) => l(i.XD.ENTRY_HYPERLINK, e),
+          [i.XD.RESOURCE_HYPERLINK]: (e) => o(i.XD.RESOURCE_HYPERLINK, e),
+          [i.XD.EMBEDDED_ENTRY]: (e) => l(i.XD.EMBEDDED_ENTRY, e),
+          [i.XD.EMBEDDED_RESOURCE]: (e, t) => o(i.XD.EMBEDDED_RESOURCE, e),
+          [i.XD.HYPERLINK]: (e, t) =>
+            n.createElement("a", { href: e.data.uri }, t),
+        },
+        a = {
+          [i.j7.BOLD]: (e) => n.createElement("b", null, e),
+          [i.j7.ITALIC]: (e) => n.createElement("i", null, e),
+          [i.j7.UNDERLINE]: (e) => n.createElement("u", null, e),
+          [i.j7.CODE]: (e) => n.createElement("code", null, e),
+          [i.j7.SUPERSCRIPT]: (e) => n.createElement("sup", null, e),
+          [i.j7.SUBSCRIPT]: (e) => n.createElement("sub", null, e),
+          [i.j7.STRIKETHROUGH]: (e) => n.createElement("s", null, e),
+        };
+      function l(e, t) {
+        return n.createElement(
+          "span",
+          { key: t.data.target.sys.id },
+          "type: ",
+          t.nodeType,
+          " id: ",
+          t.data.target.sys.id,
+        );
+      }
+      function o(e, t) {
+        return n.createElement(
+          "span",
+          { key: t.data.target.sys.urn },
+          "type: ",
+          t.nodeType,
+          " urn: ",
+          t.data.target.sys.urn,
+        );
+      }
+      function s(e, t = {}) {
+        if (!e) return null;
+        let r = e;
+        return (
+          t.stripEmptyTrailingParagraph &&
+            (r = i._$.stripEmptyTrailingParagraphFromDocument(e)),
+          (function e(t, r) {
+            let {
+              renderNode: E,
+              renderMark: a,
+              renderText: l,
+              preserveWhitespace: o,
+            } = r;
+            if (i._$.isText(t)) {
+              let e = l ? l(t.value) : t.value;
+              if (o && !l) {
+                let t = (e = e.replace(/ {2,}/g, (e) =>
+                    "\xa0".repeat(e.length),
+                  )).split("\n"),
+                  r = [];
+                (t.forEach((e, i) => {
+                  (r.push(e),
+                    i !== t.length - 1 && r.push(n.createElement("br", null)));
+                }),
+                  (e = r));
+              }
+              return t.marks.reduce(
+                (e, t) => (a[t.type] ? a[t.type](e) : e),
+                e,
+              );
+            }
+            {
+              var s;
+              let i =
+                ((s = t.content),
+                s.map((t, i) => {
+                  var E;
+                  return (
+                    (E = e(t, r)),
+                    (0, n.isValidElement)(E) && null === E.key
+                      ? (0, n.cloneElement)(E, { key: i })
+                      : E
+                  );
+                }));
+              return t.nodeType && E[t.nodeType]
+                ? E[t.nodeType](t, i)
+                : n.createElement(n.Fragment, null, i);
+            }
+          })(r, {
+            renderNode: { ...E, ...t.renderNode },
+            renderMark: { ...a, ...t.renderMark },
+            renderText: t.renderText,
+            preserveWhitespace: t.preserveWhitespace,
+          })
+        );
+      }
     },
   },
 ]);

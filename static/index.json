@@ -233,7 +233,8 @@
           ]
         },
         "publishDate": "2026-07-27",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-07-27T16:00:05.602Z"
       },
       {
         "title": "The Society of Raiders",
@@ -489,7 +490,8 @@
           ]
         },
         "publishDate": "2026-07-22",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-07-22T15:55:10.342Z"
       },
       {
         "title": " A letter from T.E. Croft, Ancestor of Lara Croft",
@@ -837,7 +839,8 @@
           ]
         },
         "publishDate": "2026-07-16",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-07-16T15:55:18.574Z"
       },
       {
         "title": "Astonishing Travels - Field Notes: Lara Croft. Tracking “the Tomb Raider” to the Andes",
@@ -3582,7 +3585,8 @@
           ]
         },
         "publishDate": "2026-06-29",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-06-29T16:00:15.731Z"
       },
       {
         "title": "Raider Records – Exploring the Tomb Door Puzzle",
@@ -4574,7 +4578,8 @@
           "nodeType": "document"
         },
         "publishDate": "2026-06-26",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-06-26T16:44:30.623Z"
       },
       {
         "title": "Pre-Orders are Open for Tomb Raider: Legacy of Atlantis!",
@@ -5419,7 +5424,8 @@
           "nodeType": "document"
         },
         "publishDate": "2026-06-02",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-06-02T22:15:59.966Z"
       },
       {
         "title": "Tomb Raider: Legend Turns 20 — Celebrating 20 Years with Uncovered Early Gameplay",
@@ -5755,7 +5761,8 @@
           "nodeType": "document"
         },
         "publishDate": "2026-04-07",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-04-07T17:00:11.103Z"
       },
       {
         "title": "Lara Croft and the Temple of Osiris Arrives on GameNight",
@@ -6438,7 +6445,8 @@
           "nodeType": "document"
         },
         "publishDate": "2026-03-17",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-03-17T16:00:05.492Z"
       },
       {
         "title": "Tomb Raider I-III Remastered Challenge Mode Patch Is Live",
@@ -8323,7 +8331,8 @@
           ]
         },
         "publishDate": "2026-03-12",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-03-12T16:57:51.218Z"
       },
       {
         "title": "Happy Birthday, Lara Croft",
@@ -9865,7 +9874,8 @@
           ]
         },
         "publishDate": "2026-02-14",
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-02-14T17:00:05.823Z"
       }
     ],
     "products": [
@@ -11873,7 +11883,8 @@
             }
           }
         ],
-        "appearsOnTimeline": false
+        "appearsOnTimeline": false,
+        "sysUpdatedAt": "2025-11-19T22:26:13.192Z"
       },
       {
         "title": "Tomb Raider I-VI Remastered",
@@ -13666,7 +13677,8 @@
           }
         ],
         "appearsOnTimeline": false,
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2025-11-19T22:27:28.781Z"
       },
       {
         "title": "Tomb Raider: The Legend of Lara Croft",
@@ -14704,7 +14716,8 @@
         "timelineCustomLinkUrl": "https://www.netflix.com/title/81361105",
         "timelineCustomLinkCtaText": "Stream Here",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 4
+        "timelineFictionOrder": 4,
+        "sysUpdatedAt": "2025-08-21T18:12:45.470Z"
       },
       {
         "title": "Tomb Raider I-III Remastered ",
@@ -16886,7 +16899,8 @@
               "contentType": "image/png"
             }
           }
-        }
+        },
+        "sysUpdatedAt": "2025-11-19T22:30:58.980Z"
       },
       {
         "title": "The Lara Croft Collection",
@@ -17705,7 +17719,8 @@
         "manufacturer": "Feral Interactive",
         "publisher": "Feral Interactive",
         "esrbRating": "T",
-        "esrbContentDescriptors": ["Mild Blood", "Mild Language", "Violence"]
+        "esrbContentDescriptors": ["Mild Blood", "Mild Language", "Violence"],
+        "sysUpdatedAt": "2025-11-19T23:08:24.413Z"
       },
       {
         "title": "Tomb Raider: Definitive Survivor Trilogy",
@@ -18760,7 +18775,8 @@
           "Drug Reference",
           "Intense Violence",
           "Strong Language"
-        ]
+        ],
+        "sysUpdatedAt": "2025-11-19T23:07:40.004Z"
       },
       {
         "title": "Shadow of the Tomb Raider: Definitive Edition",
@@ -19935,7 +19951,8 @@
         },
         "timelineDescription": "Lara Croft accidentally triggers a Mayan apocalypse and races to stop the Trinity organization from completing a ritual that could destroy the world. As she navigates ancient tombs and confronts supernatural forces, Lara must resist a temptation to remake the world, and possibly her own parents, and ultimately sacrifices herself to save humanity, emerging at peace with her decision. ",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 3
+        "timelineFictionOrder": 3,
+        "sysUpdatedAt": "2025-11-19T23:04:33.674Z"
       },
       {
         "title": "Tomb Raider",
@@ -20226,7 +20243,8 @@
         ],
         "socialMediaShareDescription": "Tomb Raider",
         "appearsOnTimeline": false,
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2025-10-31T23:17:15.786Z"
       },
       {
         "title": "Rise of the Tomb Raider: 20 Year Celebration",
@@ -21402,7 +21420,8 @@
         },
         "timelineDescription": "Haunted by her experience on Yamatai, Lara Croft seeks the secret of immortality in the lost city of Kitezh. Together with her good friend Jonah, she confronts the Trinity organization and uncovers the truth about her father’s death while racing to stop Trinity from acquiring the Divine Source, an artifact of immense power. In the end, Lara destroys the Divine Source and resolves to continue her fight against Trinity. ",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 2
+        "timelineFictionOrder": 2,
+        "sysUpdatedAt": "2025-11-19T23:05:19.025Z"
       },
       {
         "title": "Lara Croft and the Temple of Osiris",
@@ -22613,7 +22632,8 @@
         },
         "timelineDescription": "Lara Croft and her rival, Carter Bell, inadvertently unleash the evil god Set in Egypt and must join forces with the gods Horus and Isis to stop him. They search for the dismembered body of Osiris to resurrect him, leading to a final battle where Set is defeated, and the curse is lifted. However, the temple remains guarded, hinting at future dangers. ",
         "timelineEra": "Legend",
-        "timelineFictionOrder": 2
+        "timelineFictionOrder": 2,
+        "sysUpdatedAt": "2025-11-19T22:59:56.070Z"
       }
     ],
     "heroCards": [
@@ -22699,7 +22719,8 @@
           }
         },
         "ctaButtonLabel": "Learn More",
-        "ctaButtonLink": "https://www.tombraider.com/news/video-games/pre-orders-are-open-for-tomb-raider-legacy-of-atlantis"
+        "ctaButtonLink": "https://www.tombraider.com/news/video-games/pre-orders-are-open-for-tomb-raider-legacy-of-atlantis",
+        "sysUpdatedAt": "2026-06-02T22:21:05.385Z"
       },
       {
         "title": "Two Thrilling Tomb Raider Adventures Unveiled at The Game Awards",
@@ -22784,7 +22805,8 @@
           }
         },
         "ctaButtonLabel": "Learn More",
-        "ctaButtonLink": "https://www.tombraider.com/news/video-games/two-thrilling-tomb-raider-adventures-unveiled-at-the-game-awards"
+        "ctaButtonLink": "https://www.tombraider.com/news/video-games/two-thrilling-tomb-raider-adventures-unveiled-at-the-game-awards",
+        "sysUpdatedAt": "2025-12-12T02:50:37.623Z"
       },
       {
         "title": "Tomb Raider I-III Remastered Challenge Mode Patch is Live Now",
@@ -22868,7 +22890,8 @@
           }
         },
         "ctaButtonLabel": "Learn More",
-        "ctaButtonLink": "https://www.tombraider.com/news/video-games/tomb-raider-i-iii-remastered-challenge-mode-patch-is-live"
+        "ctaButtonLink": "https://www.tombraider.com/news/video-games/tomb-raider-i-iii-remastered-challenge-mode-patch-is-live",
+        "sysUpdatedAt": "2026-03-12T17:00:20.190Z"
       },
       {
         "title": "Wishlist Tomb Raider: Legacy of Atlantis Now",
@@ -22953,7 +22976,8 @@
           }
         },
         "ctaButtonLabel": "Wishlist Now",
-        "ctaButtonLink": "https://playtr.games/wishlistnow"
+        "ctaButtonLink": "https://playtr.games/wishlistnow",
+        "sysUpdatedAt": "2025-12-12T02:45:32.938Z"
       },
       {
         "title": "Tomb Raider: The Legend of Lara Croft is Live on Netflix",
@@ -23038,7 +23062,8 @@
           }
         },
         "ctaButtonLabel": "Stream Now",
-        "ctaButtonLink": "https://www.netflix.com/title/81361105"
+        "ctaButtonLink": "https://www.netflix.com/title/81361105",
+        "sysUpdatedAt": "2025-03-20T20:22:42.487Z"
       },
       {
         "title": "Get the Latest Tomb Raider Merch in the All New Gear Store",
@@ -23123,7 +23148,8 @@
           }
         },
         "ctaButtonLabel": "Shop Now",
-        "ctaButtonLink": "https://gear.tombraider.com/"
+        "ctaButtonLink": "https://gear.tombraider.com/",
+        "sysUpdatedAt": "2025-12-10T17:20:38.237Z"
       }
     ],
     "rewards": [
@@ -23169,7 +23195,8 @@
               "contentType": "image/jpeg"
             }
           }
-        }
+        },
+        "sysUpdatedAt": "2024-02-14T18:13:01.342Z"
       },
       {
         "title": "Member-Only Wallpapers ",
@@ -23213,7 +23240,8 @@
               "contentType": "image/jpeg"
             }
           }
-        }
+        },
+        "sysUpdatedAt": "2024-02-14T18:14:06.694Z"
       },
       {
         "title": "Society of Raiders Newsletter",
@@ -23257,7 +23285,8 @@
               "contentType": "image/png"
             }
           }
-        }
+        },
+        "sysUpdatedAt": "2024-02-05T23:13:06.816Z"
       }
     ],
     "websiteSingleton": {
@@ -23521,7 +23550,8 @@
       "productCallOutLabel": "Call Out",
       "globalSliderAutoplayDelay": 6000,
       "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
-      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content.",
+      "sysUpdatedAt": "2025-12-08T16:43:42.767Z"
     },
     "navItems": [
       {
@@ -23533,7 +23563,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 100,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:00.029Z"
       },
       {
         "name": "Home",
@@ -23544,7 +23575,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 200,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:55.545Z"
       },
       {
         "name": "News",
@@ -23555,7 +23587,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 300,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:04.262Z"
       },
       {
         "name": "Explore",
@@ -23566,7 +23599,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 325,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2025-12-12T02:49:01.994Z"
       },
       {
         "name": "Lara Croft",
@@ -23577,7 +23611,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 350,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-10-08T18:15:43.907Z"
       },
       {
         "name": "Products",
@@ -23588,7 +23623,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 400,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:08.239Z"
       },
       {
         "name": "Shop",
@@ -23599,7 +23635,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 500,
-        "shouldReplaceWithGeneratedShopLink": true
+        "shouldReplaceWithGeneratedShopLink": true,
+        "sysUpdatedAt": "2024-02-07T19:31:39.459Z"
       },
       {
         "name": "Login",
@@ -23610,7 +23647,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 600,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:49.678Z"
       },
       {
         "name": "Register",
@@ -23621,7 +23659,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 700,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:45.751Z"
       },
       {
         "name": "Terms",
@@ -23632,7 +23671,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 800,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:33.218Z"
       },
       {
         "name": "Privacy",
@@ -23643,7 +23683,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 900,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:39.702Z"
       },
       {
         "name": "Cookies",
@@ -23654,7 +23695,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 1000,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:26.651Z"
       }
     ],
     "footerSocialLinks": [
@@ -23699,7 +23741,8 @@
             }
           }
         },
-        "order": 100
+        "order": 100,
+        "sysUpdatedAt": "2023-12-08T19:53:28.933Z"
       },
       {
         "link": "https://www.instagram.com/tombraider/",
@@ -23742,7 +23785,8 @@
             }
           }
         },
-        "order": 200
+        "order": 200,
+        "sysUpdatedAt": "2023-12-08T19:54:34.473Z"
       },
       {
         "link": "https://www.facebook.com/TombRaider",
@@ -23785,7 +23829,8 @@
             }
           }
         },
-        "order": 300
+        "order": 300,
+        "sysUpdatedAt": "2023-12-08T19:55:57.707Z"
       },
       {
         "link": "https://www.youtube.com/tombraider",
@@ -23828,7 +23873,8 @@
             }
           }
         },
-        "order": 400
+        "order": 400,
+        "sysUpdatedAt": "2025-01-30T19:55:52.436Z"
       },
       {
         "link": "https://discord.com/invite/tomb-raider",
@@ -23871,7 +23917,8 @@
             }
           }
         },
-        "order": 500
+        "order": 500,
+        "sysUpdatedAt": "2023-12-08T19:56:55.563Z"
       },
       {
         "link": "https://www.tiktok.com/@tombraider",
@@ -23914,7 +23961,8 @@
             }
           }
         },
-        "order": 600
+        "order": 600,
+        "sysUpdatedAt": "2025-01-30T19:57:12.954Z"
       },
       {
         "link": "https://www.threads.net/@tombraider",
@@ -23957,7 +24005,8 @@
             }
           }
         },
-        "order": 700
+        "order": 700,
+        "sysUpdatedAt": "2025-01-30T20:00:38.057Z"
       },
       {
         "link": "https://bsky.app/profile/tombraider.com",
@@ -24000,7 +24049,8 @@
             }
           }
         },
-        "order": 800
+        "order": 800,
+        "sysUpdatedAt": "2025-01-30T20:03:41.211Z"
       }
     ],
     "surveys": [
@@ -25175,13 +25225,15 @@
           }
         ],
         "unlockAvatarFriendlyId": "Survey-Avatar",
-        "requiresVerifiedAccount": true
+        "requiresVerifiedAccount": true,
+        "sysUpdatedAt": "2024-02-07T00:45:58.687Z"
       }
     ],
     "signUpBanner": {
       "message": "Join the Society of Raiders to stay up to date with the latest Tomb Raider news",
       "initialDelayInHours": 48,
-      "dismissDelayInHours": 168
+      "dismissDelayInHours": 168,
+      "sysUpdatedAt": "2024-09-04T20:47:34.375Z"
     }
   },
   "__N_SSG": true

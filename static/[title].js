@@ -1,15 +1,142 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [8062],
   {
+    16739: (e, t, l) => {
+      "use strict";
+      l.a(e, async (e, a) => {
+        try {
+          l.d(t, { A: () => h });
+          var s = l(2183),
+            i = l(96006),
+            r = l.n(i),
+            n = l(11677),
+            o = l.n(n),
+            c = l(46956),
+            d = l(92446),
+            u = e([d]);
+          function h(e) {
+            var t, l, a, i, n, u, h, m, p;
+            let { item: g, onClick: x = () => {} } = e;
+            return (0, s.jsx)(o(), {
+              onClick: x,
+              href: "/news/"
+                .concat(
+                  null == (l = g.category) || null == (t = l.fields)
+                    ? void 0
+                    : t.slug,
+                  "/",
+                )
+                .concat(g.slug),
+              children: (0, s.jsxs)("article", {
+                className:
+                  "group flex h-full grow flex-col bg-white shadow-lg duration-[0.3s] lg:bg-transparent lg:shadow-none lg:hover:bg-white lg:hover:shadow-lg",
+                children: [
+                  (0, s.jsxs)("figure", {
+                    className: "relative w-full overflow-hidden",
+                    children: [
+                      (0, s.jsx)(r(), {
+                        alt: "".concat(
+                          (null == (i = g.headerImage) || null == (a = i.fields)
+                            ? void 0
+                            : a.description) || "",
+                        ),
+                        className:
+                          "aspect-[3/2] w-full object-cover transition-all duration-500 group-hover:scale-105",
+                        src: (0, d._c)(
+                          null == (h = g.headerImage) ||
+                            null == (u = h.fields) ||
+                            null == (n = u.file)
+                            ? void 0
+                            : n.url,
+                        ),
+                        width: 500,
+                        height: 500,
+                      }),
+                      (0, s.jsx)(r(), {
+                        alt: "blog card image gradient",
+                        fill: !0,
+                        className:
+                          "absolute top-0 left-0 h-full w-full object-cover",
+                        src: "/images/blog-card-image-gradient.svg",
+                      }),
+                      (0, s.jsx)(r(), {
+                        alt: "top left bracket",
+                        width: 48,
+                        height: 48,
+                        className:
+                          "absolute -top-4 -left-4 duration-200 group-hover:top-2 group-hover:left-2",
+                        src: "/images/top-left-bracket.svg",
+                      }),
+                      (0, s.jsx)(r(), {
+                        alt: "bottom right bracket",
+                        width: 48,
+                        height: 48,
+                        className:
+                          "absolute -right-4 -bottom-4 duration-200 group-hover:right-2 group-hover:bottom-2",
+                        src: "/images/bottom-right-bracket.svg",
+                      }),
+                      (0, s.jsx)("div", {
+                        className:
+                          "absolute bottom-0 left-0 bg-teal-500 px-5 pt-2 pb-1.5 text-center text-sm font-bold tracking-widest text-white uppercase",
+                        children:
+                          null == (p = g.category) || null == (m = p.fields)
+                            ? void 0
+                            : m.name,
+                      }),
+                    ],
+                  }),
+                  (0, s.jsxs)("div", {
+                    className:
+                      "relative flex min-h-[10rem] grow flex-col justify-between overflow-hidden py-5 pr-12 pl-5 duration-200",
+                    children: [
+                      (0, s.jsx)("h3", {
+                        className: "text-2xl font-bold",
+                        children: g.title.toString(),
+                      }),
+                      (0, s.jsx)("p", {
+                        className: "mt-4 font-normal text-gray-500",
+                        children: (0, s.jsx)("time", {
+                          dateTime: g.publishDate,
+                          children: (0, c.Yq)(g.publishDate),
+                        }),
+                      }),
+                      (0, s.jsx)(r(), {
+                        alt: "desktop compass",
+                        width: 232,
+                        height: 232,
+                        className:
+                          "absolute -right-16 -bottom-24 hidden opacity-0 duration-200 group-hover:-right-12 group-hover:-bottom-20 group-hover:opacity-50 lg:block",
+                        src: "/images/compass.webp",
+                      }),
+                      (0, s.jsx)(r(), {
+                        alt: "mobile compass",
+                        width: 232,
+                        height: 232,
+                        className:
+                          "absolute -right-12 -bottom-20 opacity-50 lg:hidden",
+                        src: "/images/compass.webp",
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            });
+          }
+          ((d = (u.then ? (await u)() : u)[0]), a());
+        } catch (e) {
+          a(e);
+        }
+      });
+    },
     28092: (e, t, l) => {
       "use strict";
       l.d(t, { A: () => d });
       var a = l(2183),
-        i = l(96006),
-        r = l.n(i),
-        s = l(94536),
+        s = l(96006),
+        i = l.n(s),
+        r = l(94536),
         n = l(36439);
-      function c() {
+      function o() {
         let [e, t] = (0, n.useState)(230);
         return (
           (0, n.useEffect)(() => {
@@ -27,9 +154,9 @@
           e
         );
       }
-      function o(e) {
+      function c(e) {
         let { disableSwipe: t, selectedImageIndex: l } = e,
-          a = (0, s.Mn)();
+          a = (0, r.Mn)();
         return (
           (0, n.useEffect)(() => {
             a.allowTouchMove = !t;
@@ -47,43 +174,43 @@
         let {
             images: t,
             selectedImageIndex: l,
-            setSelectedImageIndex: i,
-            clipOverflow: r = !1,
+            setSelectedImageIndex: s,
+            clipOverflow: i = !1,
             disableArrows: d = !1,
-            disableSwipe: h = !1,
+            disableSwipe: m = !1,
           } = e,
-          p = c(),
-          [x, g] = (0, n.useState)(null),
+          p = o(),
+          [g, x] = (0, n.useState)(null),
           f = (e) => {
             let l = e;
             (l >= t.length && (l = t.length - 1),
               l < 0 && (l = 0),
-              i(l),
-              null == x || x.slideTo(l));
+              s(l),
+              null == g || g.slideTo(l));
           };
         return (
           (0, n.useEffect)(() => {
-            (null == x ? void 0 : x.activeIndex) != l &&
-              (null == x || x.slideTo(l));
+            (null == g ? void 0 : g.activeIndex) != l &&
+              (null == g || g.slideTo(l));
           }, [l]),
           (0, a.jsxs)("div", {
             className: "relative w-full",
             children: [
               (0, a.jsx)("div", {
-                className: r ? "overflow-hidden p-2" : "",
-                children: (0, a.jsxs)(s.RC, {
+                className: i ? "overflow-hidden p-2" : "",
+                children: (0, a.jsxs)(r.RC, {
                   spaceBetween: 16,
                   autoHeight: !0,
                   slidesPerView: "auto",
                   className: "swiper-show-overflow relative flex ",
-                  onSwiper: (e) => g(e),
+                  onSwiper: (e) => x(e),
                   onSlideChange: (e) => f(e.activeIndex),
                   children: [
-                    (0, a.jsx)(o, { disableSwipe: h, selectedImageIndex: l }),
+                    (0, a.jsx)(c, { disableSwipe: m, selectedImageIndex: l }),
                     t.map((e, t) =>
                       e
                         ? (0, a.jsx)(
-                            s.qr,
+                            r.qr,
                             {
                               className: "relative max-w-none shrink-0",
                               style: { width: p },
@@ -101,7 +228,7 @@
                     ),
                     Array.from({ length: 10 }, (e, t) =>
                       (0, a.jsx)(
-                        s.qr,
+                        r.qr,
                         {
                           className: "relative max-w-none shrink-0",
                           style: { width: p },
@@ -115,8 +242,8 @@
               !d &&
                 (0, a.jsxs)(a.Fragment, {
                   children: [
-                    (0, a.jsx)(m, { onClick: () => f(l - 1) }),
-                    (0, a.jsx)(m, { onClick: () => f(l + 1), isRight: !0 }),
+                    (0, a.jsx)(h, { onClick: () => f(l - 1) }),
+                    (0, a.jsx)(h, { onClick: () => f(l + 1), isRight: !0 }),
                   ],
                 }),
             ],
@@ -127,16 +254,16 @@
         let {
             altText: t,
             url: l,
-            isActive: i = !1,
-            onClick: s,
+            isActive: s = !1,
+            onClick: r,
             isVideo: n = !1,
           } = e,
-          o = c();
+          c = o();
         return (0, a.jsxs)("div", {
           className: "relative aspect-video shrink-0 overflow-visible",
-          style: { width: o },
+          style: { width: c },
           children: [
-            (0, a.jsx)(r(), {
+            (0, a.jsx)(i(), {
               fill: !0,
               alt: null != t ? t : "",
               src: null != l ? l : "",
@@ -144,9 +271,9 @@
               sizes: "(max-width: 768px) 25vw, (max-width: 1200px) 20vw, 15vw",
               className:
                 "cursor-pointer object-cover object-center transition-all ".concat(
-                  i ? "" : "brightness-[0.6] hover:brightness-100",
+                  s ? "" : "brightness-[0.6] hover:brightness-100",
                 ),
-              onClick: s,
+              onClick: r,
             }),
             n &&
               (0, a.jsx)("div", {
@@ -166,31 +293,31 @@
                   }),
                 }),
               }),
-            i &&
+            s &&
               (0, a.jsxs)(a.Fragment, {
                 children: [
-                  (0, a.jsx)(r(), {
+                  (0, a.jsx)(i(), {
                     height: 26,
                     width: 26,
                     alt: "Top left corner",
                     src: "/images/small-top-left-bracket.svg",
                     className: "absolute -left-1.5 -top-1.5",
                   }),
-                  (0, a.jsx)(r(), {
+                  (0, a.jsx)(i(), {
                     height: 26,
                     width: 26,
                     alt: "Top right corner",
                     src: "/images/small-top-right-bracket.svg",
                     className: "absolute -right-1.5 -top-1.5",
                   }),
-                  (0, a.jsx)(r(), {
+                  (0, a.jsx)(i(), {
                     height: 26,
                     width: 26,
                     alt: "Bottom left corner",
                     src: "/images/small-bottom-left-bracket.svg",
                     className: "absolute -bottom-1.5 -left-1.5",
                   }),
-                  (0, a.jsx)(r(), {
+                  (0, a.jsx)(i(), {
                     height: 26,
                     width: 26,
                     alt: "Bottom right corner",
@@ -202,9 +329,9 @@
           ],
         });
       }
-      function m(e) {
+      function h(e) {
         let { isRight: t = !1, onClick: l } = e;
-        return (0, a.jsx)(r(), {
+        return (0, a.jsx)(i(), {
           width: 48,
           height: 48,
           alt: t ? "Right arrow" : "Left arrow",
@@ -223,51 +350,51 @@
       "use strict";
       l.d(t, { A: () => P });
       var a = l(36439);
-      let i =
+      let s =
           /\.(m4a|m4b|mp4a|mpga|mp2|mp2a|mp3|m2a|m3a|wav|weba|aac|oga|spx)($|\?)/i,
-        r = /\.(mp4|og[gv]|webm|mov|m4v)(#t=[,\d+]+)?($|\?)/i,
-        s = /\.(m3u8)($|\?)/i,
+        i = /\.(mp4|og[gv]|webm|mov|m4v)(#t=[,\d+]+)?($|\?)/i,
+        r = /\.(m3u8)($|\?)/i,
         n = /\.(mpd)($|\?)/i,
-        c = /stream\.mux\.com\/(?!\w+\.m3u8)(\w+)/,
-        o =
+        o = /stream\.mux\.com\/(?!\w+\.m3u8)(\w+)/,
+        c =
           /(?:youtu\.be\/|youtube(?:-nocookie|education)?\.com\/(?:embed\/|v\/|watch\/|watch\?v=|watch\?.+&v=|shorts\/|live\/))((\w|-){11})|youtube\.com\/playlist\?list=|youtube\.com\/user\//,
         d = /vimeo\.com\/(?!progressive_redirect).+/,
         u =
           /(?:wistia\.(?:com|net)|wi\.st)\/(?:medias|embed)\/(?:iframe\/)?([^?]+)/,
-        m = /open\.spotify\.com\/(\w+)\/(\w+)/i,
-        h =
+        h = /open\.spotify\.com\/(\w+)\/(\w+)/i,
+        m =
           /(?:www\.|go\.)?twitch\.tv\/([a-zA-Z0-9_]+|(videos?\/|\?video=)\d+)($|\?)/,
         p =
           /tiktok\.com\/(?:player\/v1\/|share\/video\/|@[^/]+\/video\/)([0-9]+)/,
-        x = (e, t) => {
+        g = (e, t) => {
           if (Array.isArray(e)) {
             for (let l of e)
-              if (("string" == typeof l && x(l, t)) || x(l.src, t)) return !0;
+              if (("string" == typeof l && g(l, t)) || g(l.src, t)) return !0;
             return !1;
           }
           return t(e);
         },
-        g = {
-          html: (e) => x(e, (e) => i.test(e) || r.test(e)),
-          hls: (e) => x(e, (e) => s.test(e)),
-          dash: (e) => x(e, (e) => n.test(e)),
-          mux: (e) => c.test(e),
-          youtube: (e) => o.test(e),
-          vimeo: (e) => d.test(e) && !r.test(e) && !s.test(e),
+        x = {
+          html: (e) => g(e, (e) => s.test(e) || i.test(e)),
+          hls: (e) => g(e, (e) => r.test(e)),
+          dash: (e) => g(e, (e) => n.test(e)),
+          mux: (e) => o.test(e),
+          youtube: (e) => c.test(e),
+          vimeo: (e) => d.test(e) && !i.test(e) && !r.test(e),
           wistia: (e) => u.test(e),
-          spotify: (e) => m.test(e),
-          twitch: (e) => h.test(e),
+          spotify: (e) => h.test(e),
+          twitch: (e) => m.test(e),
           tiktok: (e) => p.test(e),
         },
         f = a.forwardRef((e, t) => {
-          let l = i.test(`${e.src}`) ? "audio" : "video";
+          let l = s.test(`${e.src}`) ? "audio" : "video";
           return a.createElement(l, { ...e, ref: t }, e.children);
         }),
         w = [
           {
             key: "hls",
             name: "hls.js",
-            canPlay: g.hls,
+            canPlay: x.hls,
             canEnablePIP: () => !0,
             player: (0, a.lazy)(() =>
               Promise.all([l.e(9871), l.e(9629), l.e(2262)]).then(
@@ -278,7 +405,7 @@
           {
             key: "dash",
             name: "dash.js",
-            canPlay: g.dash,
+            canPlay: x.dash,
             canEnablePIP: () => !0,
             player: (0, a.lazy)(() =>
               Promise.all([l.e(9629), l.e(6395)]).then(l.bind(l, 85490)),
@@ -287,7 +414,7 @@
           {
             key: "mux",
             name: "Mux",
-            canPlay: g.mux,
+            canPlay: x.mux,
             canEnablePIP: () => !0,
             player: (0, a.lazy)(() =>
               Promise.all([l.e(9871), l.e(9629), l.e(2723)]).then(
@@ -298,47 +425,47 @@
           {
             key: "youtube",
             name: "YouTube",
-            canPlay: g.youtube,
+            canPlay: x.youtube,
             player: (0, a.lazy)(() => l.e(8446).then(l.bind(l, 28439))),
           },
           {
             key: "vimeo",
             name: "Vimeo",
-            canPlay: g.vimeo,
+            canPlay: x.vimeo,
             player: (0, a.lazy)(() => l.e(6173).then(l.bind(l, 51524))),
           },
           {
             key: "wistia",
             name: "Wistia",
-            canPlay: g.wistia,
+            canPlay: x.wistia,
             canEnablePIP: () => !0,
             player: (0, a.lazy)(() => l.e(9340).then(l.bind(l, 88889))),
           },
           {
             key: "spotify",
             name: "Spotify",
-            canPlay: g.spotify,
+            canPlay: x.spotify,
             canEnablePIP: () => !1,
             player: (0, a.lazy)(() => l.e(2771).then(l.bind(l, 25666))),
           },
           {
             key: "twitch",
             name: "Twitch",
-            canPlay: g.twitch,
+            canPlay: x.twitch,
             canEnablePIP: () => !1,
             player: (0, a.lazy)(() => l.e(2042).then(l.bind(l, 63570))),
           },
           {
             key: "tiktok",
             name: "TikTok",
-            canPlay: g.tiktok,
+            canPlay: x.tiktok,
             canEnablePIP: () => !1,
             player: (0, a.lazy)(() => l.e(8085).then(l.bind(l, 72287))),
           },
           {
             key: "html",
             name: "html",
-            canPlay: g.html,
+            canPlay: x.html,
             canEnablePIP: () => !0,
             player: f,
           },
@@ -353,53 +480,53 @@
           oEmbedUrl: "https://noembed.com/embed?url={url}",
         },
         b = a.forwardRef((e, t) => {
-          let { playing: l, pip: i } = e,
-            r = e.activePlayer,
-            s = (0, a.useRef)(null),
+          let { playing: l, pip: s } = e,
+            i = e.activePlayer,
+            r = (0, a.useRef)(null),
             n = (0, a.useRef)(!0);
           if (
             ((0, a.useEffect)(() => {
               var t, a;
-              s.current &&
-                (s.current.paused && !0 === l && s.current.play(),
-                s.current.paused || !1 !== l || s.current.pause(),
-                (s.current.playbackRate = null != (t = e.playbackRate) ? t : 1),
-                (s.current.volume = null != (a = e.volume) ? a : 1));
+              r.current &&
+                (r.current.paused && !0 === l && r.current.play(),
+                r.current.paused || !1 !== l || r.current.pause(),
+                (r.current.playbackRate = null != (t = e.playbackRate) ? t : 1),
+                (r.current.volume = null != (a = e.volume) ? a : 1));
             }),
             (0, a.useEffect)(() => {
-              var e, t, l, a, r;
-              if (s.current && globalThis.document) {
-                if (i && !document.pictureInPictureElement)
+              var e, t, l, a, i;
+              if (r.current && globalThis.document) {
+                if (s && !document.pictureInPictureElement)
                   try {
-                    null == (t = (e = s.current).requestPictureInPicture) ||
+                    null == (t = (e = r.current).requestPictureInPicture) ||
                       t.call(e);
                   } catch (e) {}
-                if (!i && document.pictureInPictureElement)
+                if (!s && document.pictureInPictureElement)
                   try {
-                    (null == (a = (l = s.current).exitPictureInPicture) ||
+                    (null == (a = (l = r.current).exitPictureInPicture) ||
                       a.call(l),
-                      null == (r = document.exitPictureInPicture) ||
-                        r.call(document));
+                      null == (i = document.exitPictureInPicture) ||
+                        i.call(document));
                   } catch (e) {}
               }
-            }, [i]),
-            !r)
+            }, [s]),
+            !i)
           )
             return null;
-          let c = {},
-            o = ["onReady", "onStart"];
+          let o = {},
+            c = ["onReady", "onStart"];
           for (let t in e)
-            t.startsWith("on") && !o.includes(t) && (c[t] = e[t]);
+            t.startsWith("on") && !c.includes(t) && (o[t] = e[t]);
           return a.createElement(
-            r,
+            i,
             {
-              ...c,
+              ...o,
               style: e.style,
               className: e.className,
               slot: e.slot,
               ref: (0, a.useCallback)(
                 (e) => {
-                  ((s.current = e),
+                  ((r.current = e),
                     "function" == typeof t
                       ? t(e)
                       : null !== t && (t.current = e));
@@ -435,79 +562,79 @@
       b.displayName = "Player";
       let y = (0, a.lazy)(() => l.e(6353).then(l.bind(l, 40640))),
         j = [],
-        k = ({ children: e }) => e,
-        N = w[w.length - 1];
+        N = ({ children: e }) => e,
+        k = w[w.length - 1];
       var P = ((e, t) => {
-        let l = a.forwardRef((l, i) => {
-          let r = { ...v, ...l },
+        let l = a.forwardRef((l, s) => {
+          let i = { ...v, ...l },
             {
-              src: s,
+              src: r,
               slot: n,
-              className: c,
-              style: o,
+              className: o,
+              style: c,
               width: d,
               height: u,
-              fallback: m,
-              wrapper: h,
-            } = r,
-            [p, x] = (0, a.useState)(!!r.light);
+              fallback: h,
+              wrapper: m,
+            } = i,
+            [p, g] = (0, a.useState)(!!i.light);
           (0, a.useEffect)(() => {
-            r.light ? x(!0) : x(!1);
-          }, [r.light]);
-          let g = (e) => {
+            i.light ? g(!0) : g(!1);
+          }, [i.light]);
+          let x = (e) => {
               var t;
-              (x(!1), null == (t = r.onClickPreview) || t.call(r, e));
+              (g(!1), null == (t = i.onClickPreview) || t.call(i, e));
             },
-            f = null == h ? k : h,
-            w = !1 === m ? k : a.Suspense;
+            f = null == m ? N : m,
+            w = !1 === h ? N : a.Suspense;
           return a.createElement(
             f,
-            { slot: n, className: c, style: { width: d, height: u, ...o } },
+            { slot: n, className: o, style: { width: d, height: u, ...c } },
             a.createElement(
               w,
-              { fallback: m },
+              { fallback: h },
               p
                 ? ((e) => {
                     if (!e) return null;
                     let {
                       light: t,
                       playIcon: l,
-                      previewTabIndex: i,
-                      oEmbedUrl: s,
+                      previewTabIndex: s,
+                      oEmbedUrl: r,
                       previewAriaLabel: n,
-                    } = r;
+                    } = i;
                     return a.createElement(y, {
                       src: e,
                       light: t,
                       playIcon: l,
-                      previewTabIndex: i,
+                      previewTabIndex: s,
                       previewAriaLabel: n,
-                      oEmbedUrl: s,
-                      onClickPreview: g,
+                      oEmbedUrl: r,
+                      onClickPreview: x,
                     });
-                  })(s)
+                  })(r)
                 : ((l) => {
-                    var s, o;
+                    var r, c;
                     let d = ((l) => {
                       for (let t of [...j, ...e])
                         if (l && t.canPlay(l)) return t;
                       return t || null;
                     })(l);
                     if (!d) return null;
-                    let { style: u, width: m, height: h, wrapper: p } = r,
-                      x = null == (s = r.config) ? void 0 : s[d.key];
+                    let { style: u, width: h, height: m, wrapper: p } = i,
+                      g = null == (r = i.config) ? void 0 : r[d.key];
                     return a.createElement(b, {
-                      ...r,
-                      ref: i,
-                      activePlayer: null != (o = d.player) ? o : d,
+                      ...i,
+                      ref: s,
+                      activePlayer: null != (c = d.player) ? c : d,
                       slot: p ? void 0 : n,
-                      className: p ? void 0 : c,
+                      className: p ? void 0 : o,
                       style: p
                         ? { display: "block", width: "100%", height: "100%" }
-                        : { display: "block", width: m, height: h, ...u },
-                      config: x,
+                        : { display: "block", width: h, height: m, ...u },
+                      config: g,
                     });
-                  })(s),
+                  })(r),
             ),
           );
         });
@@ -539,7 +666,7 @@
           }),
           l
         );
-      })(w, N);
+      })(w, k);
     },
     58502: (e, t, l) => {
       (window.__NEXT_P = window.__NEXT_P || []).push([
@@ -553,65 +680,68 @@
       "use strict";
       l.a(e, async (e, a) => {
         try {
-          (l.r(t), l.d(t, { __N_SSG: () => x, default: () => g }));
-          var i = l(2183),
-            r = l(95216),
-            s = l(72962),
+          (l.r(t), l.d(t, { __N_SSG: () => w, default: () => v }));
+          var s = l(2183),
+            i = l(95216),
+            r = l(72962),
             n = l(31026),
-            c = l(75894),
-            o = l(13544),
+            o = l(75894),
+            c = l(13544),
             d = l(72327),
             u = l(14623),
-            m = l.n(u),
-            h = l(92446),
-            p = e([r, s, c, d, h]);
-          [r, s, c, d, h] = p.then ? (await p)() : p;
-          var x = !0;
-          function g(e) {
-            var t, l, a, u, p;
+            h = l.n(u),
+            m = l(71429),
+            p = l(92446),
+            g = l(4243),
+            x = l(2371),
+            f = e([i, r, o, d, p, g]);
+          [i, r, o, d, p, g] = f.then ? (await f)() : f;
+          var w = !0;
+          function v(e) {
+            var t, l, a, u, f, w;
             let {
-                product: x,
-                relatedArticles: g,
-                websiteSingleton: f,
-                navItems: w,
-                footerSocialLinks: v,
-                surveys: b,
-                signUpBanner: y,
+                product: v,
+                relatedArticles: b,
+                websiteSingleton: y,
+                navItems: j,
+                footerSocialLinks: N,
+                surveys: k,
+                signUpBanner: P,
               } = e,
-              j = x.shortDescription || "",
-              k = (
-                null == (a = x.titleLogo) ||
+              E = v.shortDescription || "",
+              I = (
+                null == (a = v.titleLogo) ||
                 null == (l = a.fields) ||
                 null == (t = l.file)
                   ? void 0
                   : t.url
               )
-                ? (0, h._c)(x.titleLogo.fields.file.url)
-                : "/images/Tomb-Raider-Opengraph.png";
-            return (0, i.jsxs)("div", {
+                ? (0, p._c)(v.titleLogo.fields.file.url)
+                : "".concat(x.W, "/images/Tomb-Raider-Opengraph.png");
+            return (0, s.jsxs)("div", {
               className: "relative",
               children: [
-                (0, i.jsxs)(m(), {
+                (0, s.jsxs)(h(), {
                   children: [
-                    (0, i.jsx)("title", {
-                      children: "Tomb Raider | ".concat(x.title),
+                    (0, s.jsx)("title", {
+                      children: "Tomb Raider | ".concat(v.title),
                     }),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       {
                         name: "description",
-                        content: j || "Learn more about ".concat(x.title),
+                        content: E || "Learn more about ".concat(v.title),
                       },
                       "description",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       {
                         name: "keywords",
                         content: "Tomb Raider, "
-                          .concat(x.title, ", ")
+                          .concat(v.title, ", ")
                           .concat(
-                            (null == (p = x.category) || null == (u = p.fields)
+                            (null == (f = v.category) || null == (u = f.fields)
                               ? void 0
                               : u.name) || "",
                             ", video games, adventure",
@@ -619,82 +749,84 @@
                       },
                       "keywords",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       {
                         property: "og:title",
-                        content: "Tomb Raider | ".concat(x.title),
+                        content: "Tomb Raider | ".concat(v.title),
                       },
                       "og:title",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       { property: "og:type", content: "product" },
                       "og:type",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
-                      { property: "og:image", content: k },
+                      { property: "og:image", content: I },
                       "og:image",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       {
                         property: "og:description",
-                        content: j || "Learn more about ".concat(x.title),
+                        content: E || "Learn more about ".concat(v.title),
                       },
                       "og:description",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       { property: "og:site_name", content: "Tomb Raider" },
                       "og:site_name",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       { name: "twitter:card", content: "summary_large_image" },
                       "twitter:card",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       {
                         name: "twitter:title",
-                        content: "Tomb Raider | ".concat(x.title),
+                        content: "Tomb Raider | ".concat(v.title),
                       },
                       "twitter:title",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
                       {
                         name: "twitter:description",
-                        content: j || "Learn more about ".concat(x.title),
+                        content: E || "Learn more about ".concat(v.title),
                       },
                       "twitter:description",
                     ),
-                    (0, i.jsx)(
+                    (0, s.jsx)(
                       "meta",
-                      { name: "twitter:image", content: k },
+                      { name: "twitter:image", content: I },
                       "twitter:image",
                     ),
                   ],
                 }),
-                (0, i.jsx)(r.Ay, { surveys: b, navItems: w, signUpBanner: y }),
-                (0, i.jsx)(s.A, { product: x, websiteSingleton: f }),
-                g.length > 0 &&
-                  (0, i.jsxs)(o.A, {
+                (null == (w = v.category) ? void 0 : w.fields.slug) ===
+                  "games" && (0, s.jsx)(m.A, { data: (0, g.Om)(v) }),
+                (0, s.jsx)(i.Ay, { surveys: k, navItems: j, signUpBanner: P }),
+                (0, s.jsx)(r.A, { product: v, websiteSingleton: y }),
+                b.length > 0 &&
+                  (0, s.jsxs)(c.A, {
                     className: "text-black",
                     children: [
-                      (0, i.jsx)("div", {
-                        className: "py-5 lg:py-16 xl:py-20 4xl:py-24",
+                      (0, s.jsx)("div", {
+                        className: "4xl:py-24 py-5 lg:py-16 xl:py-20",
                       }),
-                      (0, i.jsx)(d.A, { articles: g, disableButton: !0 }),
+                      (0, s.jsx)(d.A, { articles: b, disableButton: !0 }),
                     ],
                   }),
-                (0, i.jsx)(n.A, { websiteSingleton: f }),
-                (0, i.jsx)(c.A, {
-                  websiteSingleton: f,
-                  navItems: w,
-                  footerSocialLinks: v,
+                (0, s.jsx)(n.A, { websiteSingleton: y }),
+                (0, s.jsx)(o.A, {
+                  websiteSingleton: y,
+                  navItems: j,
+                  footerSocialLinks: N,
                 }),
               ],
             });
@@ -710,26 +842,26 @@
       l.a(e, async (e, a) => {
         try {
           l.d(t, { A: () => d });
-          var i = l(2183),
-            r = l(96006),
-            s = l.n(r),
+          var s = l(2183),
+            i = l(96006),
+            r = l.n(i),
             n = l(92446),
-            c = l(7345),
-            o = e([n]);
+            o = l(7345),
+            c = e([n]);
           function d(e) {
-            var t, l, a, r, o, d;
-            let { ctaButton: u, url: m } = e,
-              h = (null == u ? void 0 : u.fields.label)
+            var t, l, a, i, c, d;
+            let { ctaButton: u, url: h } = e,
+              m = (null == u ? void 0 : u.fields.label)
                 ? u.fields.label
                     .trim()
                     .toLowerCase()
                     .replace(/\s/g, "-")
                     .replace(/[^a-zA-Z0-9]/g, "-")
                 : "";
-            return (0, i.jsxs)(c.A, {
-              href: m,
+            return (0, s.jsxs)(o.A, {
+              href: h,
               className: "".concat(
-                h,
+                m,
                 " flex flex-row flex-nowrap gap-x-2 rounded-lg border-2 border-white/20 px-3 py-1.5 duration-200 hover:canhover:bg-white/20",
               ),
               children: [
@@ -738,7 +870,7 @@
                 null == (t = l.fields.file)
                   ? void 0
                   : t.url) &&
-                  (0, i.jsx)(s(), {
+                  (0, s.jsx)(r(), {
                     width: 16,
                     height: 16,
                     alt:
@@ -753,17 +885,17 @@
                           : u.fields.label,
                     src: (0, n._c)(
                       null == u ||
-                        null == (o = u.fields.icon) ||
-                        null == (r = o.fields.file)
+                        null == (c = u.fields.icon) ||
+                        null == (i = c.fields.file)
                         ? void 0
-                        : r.url,
+                        : i.url,
                     ),
                   }),
                 null == u ? void 0 : u.fields.label,
               ],
             });
           }
-          ((n = (o.then ? (await o)() : o)[0]), a());
+          ((n = (c.then ? (await c)() : c)[0]), a());
         } catch (e) {
           a(e);
         }
@@ -774,71 +906,71 @@
       l.a(e, async (e, a) => {
         try {
           l.d(t, { A: () => p });
-          var i = l(2183),
-            r = l(96006),
-            s = l.n(r),
+          var s = l(2183),
+            i = l(96006),
+            r = l.n(i),
             n = l(16739),
-            c = l(36439),
-            o = l(15711),
+            o = l(36439),
+            c = l(15711),
             d = l(11677),
             u = l.n(d),
-            m = l(94536),
-            h = e([n]);
+            h = l(94536),
+            m = e([n]);
           function p(e) {
             let {
                 articles: t,
                 headingTitle: l = "Related Articles",
                 disableButton: a = !1,
-                buttonTitle: r = "View All",
+                buttonTitle: i = "View All",
                 isHome: d,
               } = e,
-              [h, p] = (0, c.useState)(null);
-            return (0, i.jsxs)("div", {
+              [m, p] = (0, o.useState)(null);
+            return (0, s.jsxs)("div", {
               className:
                 "flex w-full flex-col items-stretch overflow-hidden py-8",
               children: [
-                (0, i.jsxs)("div", {
+                (0, s.jsxs)("div", {
                   className: "lg:pb-".concat(
                     d ? 12 : 16,
-                    " flex  w-full flex-col flex-wrap items-center justify-between px-8 pb-8 lg:flex-row lg:px-16",
+                    " flex w-full flex-col flex-wrap items-center justify-between px-8 pb-8 lg:flex-row lg:px-16",
                   ),
                   children: [
-                    (0, i.jsxs)("div", {
+                    (0, s.jsxs)("div", {
                       className:
                         "flex flex-col items-center gap-x-8 gap-y-4 pb-4 lg:flex-row lg:pb-0",
                       children: [
-                        (0, i.jsx)("p", {
+                        (0, s.jsx)("h2", {
                           className:
                             "text-4xl text-black sm:text-5xl lg:text-6xl",
                           children: l,
                         }),
                         !a &&
-                          (0, i.jsx)(u(), {
+                          (0, s.jsx)(u(), {
                             href: "/news/all",
-                            children: (0, i.jsx)(o.A, {
+                            children: (0, s.jsx)(c.A, {
                               variant: "dark",
-                              children: r,
+                              children: i,
                             }),
                           }),
                       ],
                     }),
                     t.length > 0 &&
-                      (0, i.jsxs)("div", {
+                      (0, s.jsxs)("div", {
                         className: "hidden gap-x-2 lg:flex",
                         children: [
-                          (0, i.jsx)(s(), {
+                          (0, s.jsx)(r(), {
                             width: 48,
                             height: 48,
                             alt: "Left arrow",
                             src: "/images/arrow-button-left.svg",
                             className: "mr-2 cursor-pointer",
-                            onClick: () => (null == h ? void 0 : h.slidePrev()),
+                            onClick: () => (null == m ? void 0 : m.slidePrev()),
                           }),
-                          (0, i.jsx)(s(), {
+                          (0, s.jsx)(r(), {
                             width: 48,
                             height: 48,
                             alt: "Right arrow",
-                            onClick: () => (null == h ? void 0 : h.slideNext()),
+                            onClick: () => (null == m ? void 0 : m.slideNext()),
                             src: "/images/arrow-button-right.svg",
                             className: "cursor-pointer",
                           }),
@@ -847,9 +979,9 @@
                   ],
                 }),
                 t.length > 0
-                  ? (0, i.jsx)("div", {
+                  ? (0, s.jsx)("div", {
                       className: "px-8 lg:px-16",
-                      children: (0, i.jsx)(m.RC, {
+                      children: (0, s.jsx)(h.RC, {
                         className: "swiper-show-overflow relative flex w-full",
                         slidesPerView: 1.25,
                         centeredSlides: !0,
@@ -861,26 +993,26 @@
                         rewind: !0,
                         onSwiper: (e) => p(e),
                         children: t.map((e) =>
-                          (0, i.jsx)(
-                            m.qr,
+                          (0, s.jsx)(
+                            h.qr,
                             {
                               className:
                                 "relative !h-auto w-64 max-w-none shrink-0 overflow-visible",
-                              children: (0, i.jsx)(n.A, { item: e }),
+                              children: (0, s.jsx)(n.A, { item: e }),
                             },
                             e.slug,
                           ),
                         ),
                       }),
                     })
-                  : (0, i.jsx)("p", {
+                  : (0, s.jsx)("p", {
                       className: "px-8 lg:px-16",
                       children: "We couldn't find any related articles.",
                     }),
               ],
             });
           }
-          ((n = (h.then ? (await h)() : h)[0]), a());
+          ((n = (m.then ? (await m)() : m)[0]), a());
         } catch (e) {
           a(e);
         }
@@ -891,62 +1023,62 @@
       l.a(e, async (e, a) => {
         try {
           l.d(t, { A: () => y });
-          var i = l(2183),
-            r = l(96006),
-            s = l.n(r),
+          var s = l(2183),
+            i = l(96006),
+            r = l.n(i),
             n = l(36439),
-            c = l(52464),
-            o = l(40453),
+            o = l(52464),
+            c = l(40453),
             d = l(65035),
             u = l(28092),
-            m = l(80707),
-            h = l.n(m),
+            h = l(80707),
+            m = l.n(h),
             p = l(43699),
-            x = l(92446),
-            g = l(46956),
+            g = l(92446),
+            x = l(46956),
             f = l(40235),
             w = l(94734),
             v = l(81219),
-            b = e([d, x]);
+            b = e([d, g]);
           function y(e) {
             var t;
             let { product: l, websiteSingleton: a } = e,
-              [r, s] = (0, n.useState)(0);
-            return (0, i.jsxs)("div", {
+              [i, r] = (0, n.useState)(0);
+            return (0, s.jsxs)("div", {
               className: "relative z-10",
               children: [
-                (0, i.jsx)(j, {}),
-                (0, i.jsxs)("div", {
-                  className: (0, c.cn)(
+                (0, s.jsx)(j, {}),
+                (0, s.jsxs)("div", {
+                  className: (0, o.cn)(
                     "relative z-0 mx-auto overflow-hidden",
                     "max-w-xl lg:max-w-none",
                     "px-6 pt-24 pb-24 lg:px-12 lg:pt-28 lg:pb-24",
                     "flex flex-col items-start justify-center gap-12 lg:flex-row",
                   ),
                   children: [
-                    (0, i.jsx)(N, {
+                    (0, s.jsx)(k, {
                       images: null != (t = l.galleryEntries) ? t : [],
-                      selectedImageIndex: r,
-                      setSelectedImageIndex: s,
+                      selectedImageIndex: i,
+                      setSelectedImageIndex: r,
                     }),
-                    (0, i.jsx)(k, { product: l, websiteSingleton: a }),
+                    (0, s.jsx)(N, { product: l, websiteSingleton: a }),
                   ],
                 }),
               ],
             });
           }
           function j() {
-            return (0, i.jsxs)(i.Fragment, {
+            return (0, s.jsxs)(s.Fragment, {
               children: [
-                (0, i.jsx)("div", {
+                (0, s.jsx)("div", {
                   className: "absolute inset-0 -z-20 bg-black",
-                  children: (0, i.jsxs)("div", {
+                  children: (0, s.jsxs)("div", {
                     className: "relative min-h-full overflow-hidden pb-24",
                     children: [
-                      (0, i.jsx)("div", {
+                      (0, s.jsx)("div", {
                         className:
                           "absolute right-0 bottom-0 hidden h-full w-full opacity-30 lg:block",
-                        children: (0, i.jsx)(s(), {
+                        children: (0, s.jsx)(r(), {
                           width: 1274,
                           height: 892,
                           className:
@@ -955,11 +1087,11 @@
                           src: "/images/topography.webp",
                         }),
                       }),
-                      (0, i.jsxs)("div", {
+                      (0, s.jsxs)("div", {
                         className:
                           "absolute bottom-10 left-[-250px] aspect-[1616/673] w-full min-w-[800px] lg:-bottom-16 lg:left-[-500px]",
                         children: [
-                          (0, i.jsx)("div", {
+                          (0, s.jsx)("div", {
                             className:
                               "absolute h-full w-full overflow-visible opacity-40 mix-blend-lighten blur-[100px]",
                             style: {
@@ -967,7 +1099,7 @@
                                 "radial-gradient(50% 50% at 50% 50%, #936726 0%, transparent 100%)",
                             },
                           }),
-                          (0, i.jsx)(s(), {
+                          (0, s.jsx)(r(), {
                             fill: !0,
                             className:
                               "object-contain object-center opacity-30 mix-blend-screen",
@@ -979,14 +1111,14 @@
                     ],
                   }),
                 }),
-                (0, i.jsx)(w.A, {}),
+                (0, s.jsx)(w.A, {}),
               ],
             });
           }
-          function k(e) {
-            var t, l, a, r;
-            let { product: u, websiteSingleton: m } = e,
-              [p, x] = (0, n.useState)(!1),
+          function N(e) {
+            var t, l, a, i;
+            let { product: u, websiteSingleton: h } = e,
+              [p, g] = (0, n.useState)(!1),
               [w, b] = (0, n.useState)(!1),
               y = (0, n.useRef)(null);
             return (
@@ -994,7 +1126,7 @@
                 let e = () => {
                     !w &&
                       y.current &&
-                      x(y.current.scrollHeight <= y.current.clientHeight);
+                      g(y.current.scrollHeight <= y.current.clientHeight);
                   },
                   t = new ResizeObserver(e);
                 return (
@@ -1004,13 +1136,13 @@
                   }
                 );
               }, [u.description, w]),
-              (0, i.jsxs)("div", {
+              (0, s.jsxs)("div", {
                 className: "mx-auto lg:mx-0 lg:max-w-xl",
                 children: [
                   u.titleLogo &&
-                    (0, i.jsx)("div", {
+                    (0, s.jsx)("div", {
                       className: "relative h-40 w-full",
-                      children: (0, i.jsx)(s(), {
+                      children: (0, s.jsx)(r(), {
                         fill: !0,
                         className: "object-contain object-center",
                         alt:
@@ -1023,17 +1155,17 @@
                       }),
                     }),
                   u.title &&
-                    (0, i.jsx)("h1", {
+                    (0, s.jsx)("h1", {
                       className:
                         "hidden text-3xl leading-[1.1] font-medium tracking-[-0.8px] lg:text-5xl",
                       children: u.title,
                     }),
-                  (0, i.jsx)("div", { className: "pt-8" }),
+                  (0, s.jsx)("div", { className: "pt-8" }),
                   u.hideSocialSharingButtons
                     ? null
-                    : (0, i.jsx)(v.A, { white: !0, title: u.title }),
-                  (0, i.jsx)("div", { className: "pb-4" }),
-                  (0, i.jsx)("div", {
+                    : (0, s.jsx)(v.A, { white: !0, title: u.title }),
+                  (0, s.jsx)("div", { className: "pb-4" }),
+                  (0, s.jsx)("div", {
                     ref: y,
                     style:
                       p || w
@@ -1044,14 +1176,14 @@
                             WebkitMaskImage:
                               "linear-gradient(to top, transparent 0%, black 40%)",
                           },
-                    className: (0, c.cn)(
+                    className: (0, o.cn)(
                       "max-h-60 overflow-hidden",
                       w && "max-h-full",
                     ),
-                    children: (0, o.i)(u.description, {
+                    children: (0, c.i)(u.description, {
                       renderNode: {
                         [f.nA.PARAGRAPH]: (e, t) =>
-                          (0, i.jsx)("p", {
+                          (0, s.jsx)("p", {
                             className: "mb-4 last:mb-0",
                             children: t,
                           }),
@@ -1059,7 +1191,7 @@
                     }),
                   }),
                   !p &&
-                    (0, i.jsx)("button", {
+                    (0, s.jsx)("button", {
                       className:
                         "pt-2 font-bold text-yellow-500 hover:underline",
                       onClick: () => {
@@ -1083,33 +1215,33 @@
                       },
                       children: w ? "Show less" : "Show more",
                     }),
-                  h().compact(null != (a = u.ctaButtons) ? a : []).length > 0 &&
-                    (0, i.jsxs)(i.Fragment, {
+                  m().compact(null != (a = u.ctaButtons) ? a : []).length > 0 &&
+                    (0, s.jsxs)(s.Fragment, {
                       children: [
-                        (0, i.jsx)("div", { className: "pt-10" }),
-                        (0, i.jsx)("p", {
+                        (0, s.jsx)("div", { className: "pt-10" }),
+                        (0, s.jsx)("p", {
                           children: u.ctaSectionLabel
                             ? "".concat(u.ctaSectionLabel, ":")
                             : "Where to Purchase:",
                         }),
-                        (0, i.jsx)("div", { className: "pt-3" }),
-                        (0, i.jsx)("div", {
+                        (0, s.jsx)("div", { className: "pt-3" }),
+                        (0, s.jsx)("div", {
                           className: "flex flex-row flex-wrap gap-2",
-                          children: h()
-                            .compact(null != (r = u.ctaButtons) ? r : [])
+                          children: m()
+                            .compact(null != (i = u.ctaButtons) ? i : [])
                             .map((e) =>
-                              (0, i.jsx)(d.A, { ...e.fields }, e.sys.id),
+                              (0, s.jsx)(d.A, { ...e.fields }, e.sys.id),
                             ),
                         }),
                       ],
                     }),
                   u.esrbRating &&
-                    (0, i.jsxs)("div", {
+                    (0, s.jsxs)("div", {
                       className: "flex items-center gap-6 pt-10",
                       children: [
-                        (0, i.jsx)("div", {
+                        (0, s.jsx)("div", {
                           className: "flex-shrink-0",
-                          children: (0, i.jsx)(s(), {
+                          children: (0, s.jsx)(r(), {
                             src: "/images/esrb/".concat(u.esrbRating, ".svg"),
                             alt: "ESRB Rating: ".concat(u.esrbRating),
                             width: 80,
@@ -1118,47 +1250,47 @@
                         }),
                         u.esrbContentDescriptors &&
                           u.esrbContentDescriptors.length > 0 &&
-                          (0, i.jsx)("div", {
+                          (0, s.jsx)("div", {
                             className: "flex flex-col gap-1",
                             children: u.esrbContentDescriptors.map((e) =>
-                              (0, i.jsx)("p", { children: e }, e),
+                              (0, s.jsx)("p", { children: e }, e),
                             ),
                           }),
                       ],
                     }),
-                  (0, i.jsx)("div", {
+                  (0, s.jsx)("div", {
                     className: "grid max-w-xs grid-cols-2 gap-y-2 pt-10",
                     children: [
                       {
-                        label: "".concat(m.productReleaseDateLabel, ":"),
-                        value: (0, g.Yq)(u.releaseDate),
+                        label: "".concat(h.productReleaseDateLabel, ":"),
+                        value: (0, x.Yq)(u.releaseDate),
                       },
                       {
-                        label: "".concat(m.productManufacturerLabel, ":"),
+                        label: "".concat(h.productManufacturerLabel, ":"),
                         value: u.manufacturer,
                       },
                       {
-                        label: "".concat(m.productPublisherLabel, ":"),
+                        label: "".concat(h.productPublisherLabel, ":"),
                         value: u.publisher,
                       },
                       {
-                        label: "".concat(m.productPartnerLabel, ":"),
+                        label: "".concat(h.productPartnerLabel, ":"),
                         value: u.partner,
                       },
                       {
-                        label: "".concat(m.productCallOutLabel, ":"),
+                        label: "".concat(h.productCallOutLabel, ":"),
                         value: u.callOut,
                       },
                     ].map((e) => {
                       let { label: t, value: l } = e;
                       return (
                         l &&
-                        (0, i.jsxs)(
+                        (0, s.jsxs)(
                           n.Fragment,
                           {
                             children: [
-                              (0, i.jsx)("p", { children: t }),
-                              (0, i.jsx)("p", { children: l }),
+                              (0, s.jsx)("p", { children: t }),
+                              (0, s.jsx)("p", { children: l }),
                             ],
                           },
                           t,
@@ -1170,66 +1302,66 @@
               })
             );
           }
-          function N(e) {
+          function k(e) {
             let {
                 images: t,
                 selectedImageIndex: l,
                 setSelectedImageIndex: a,
               } = e,
-              [r, o] = (0, n.useState)(!1);
+              [i, c] = (0, n.useState)(!1);
             (0, n.useEffect)(() => {
-              void 0 !== window && o(!0);
+              void 0 !== window && c(!0);
             }, []);
             let d = (0, n.useRef)(null);
             return (
               (0, n.useEffect)(() => {
                 d.current && (d.current.currentTime = 0);
               }, [l, d]),
-              (0, i.jsxs)("div", {
+              (0, s.jsxs)("div", {
                 className:
                   "mx-auto flex w-full grow flex-col gap-y-6 lg:mx-0 lg:max-w-xl 2xl:max-w-4xl",
                 children: [
-                  (0, i.jsx)("div", {
+                  (0, s.jsx)("div", {
                     className: "relative aspect-video grow",
                     children: t.map((e, t) => {
-                      var a, o, u, m;
-                      let h = !!(null == e ? void 0 : e.fields.videoUrl),
-                        g = t === l;
-                      return (0, i.jsx)(
+                      var a, c, u, h;
+                      let m = !!(null == e ? void 0 : e.fields.videoUrl),
+                        x = t === l;
+                      return (0, s.jsx)(
                         n.Fragment,
                         {
-                          children: h
-                            ? r &&
-                              (0, i.jsx)(p.A, {
+                          children: m
+                            ? i &&
+                              (0, s.jsx)(p.A, {
                                 ref: d,
                                 src: null == e ? void 0 : e.fields.videoUrl,
                                 controls: !0,
                                 width: "100%",
                                 height: "100%",
-                                playing: h && r && g,
-                                style: { display: g ? "block" : "none" },
+                                playing: m && i && x,
+                                style: { display: x ? "block" : "none" },
                               })
-                            : (0, i.jsx)(s(), {
+                            : (0, s.jsx)(r(), {
                                 fill: !0,
                                 priority: !0,
-                                className: (0, c.cn)(
+                                className: (0, o.cn)(
                                   "object-contain",
-                                  g ? "block" : "hidden",
+                                  x ? "block" : "hidden",
                                 ),
                                 alt:
                                   null !=
-                                  (m =
+                                  (h =
                                     null == e || null == (a = e.fields.image)
                                       ? void 0
                                       : a.fields.description)
-                                    ? m
+                                    ? h
                                     : "",
-                                src: (0, x._c)(
+                                src: (0, g._c)(
                                   null == e ||
                                     null == (u = e.fields.image) ||
-                                    null == (o = u.fields.file)
+                                    null == (c = u.fields.file)
                                     ? void 0
-                                    : o.url,
+                                    : c.url,
                                 ),
                               }),
                         },
@@ -1237,8 +1369,8 @@
                       );
                     }),
                   }),
-                  (0, i.jsx)(u.A, {
-                    images: t.map((e, t) => (0, x.pO)(e, t)),
+                  (0, s.jsx)(u.A, {
+                    images: t.map((e, t) => (0, g.pO)(e, t)),
                     selectedImageIndex: l,
                     setSelectedImageIndex: a,
                     clipOverflow: !0,
@@ -1247,7 +1379,7 @@
               })
             );
           }
-          (([d, x] = b.then ? (await b)() : b), a());
+          (([d, g] = b.then ? (await b)() : b), a());
         } catch (e) {
           a(e);
         }
@@ -1255,22 +1387,22 @@
     },
     81219: (e, t, l) => {
       "use strict";
-      l.d(t, { A: () => c });
+      l.d(t, { A: () => o });
       var a = l(2183);
       l(36439);
-      var i = l(96006),
-        r = l.n(i),
-        s = l(8906),
+      var s = l(96006),
+        i = l.n(s),
+        r = l(8906),
         n = l(77752);
-      function c(e) {
+      function o(e) {
         let { title: t, white: l } = e,
-          { addAlert: i } = (0, n.Z)();
+          { addAlert: s } = (0, n.Z)();
         return (0, a.jsxs)("div", {
           className: "flex flex-wrap items-center gap-x-2",
           children: [
-            (0, a.jsx)(s.uI, {
+            (0, a.jsx)(r.uI, {
               url: window.location.href,
-              children: (0, a.jsx)(r(), {
+              children: (0, a.jsx)(i(), {
                 width: 20,
                 height: 20,
                 src: "/images/social/logo-fb-simple.svg",
@@ -1278,10 +1410,10 @@
                 className: "article-facebook ".concat(l ? "invert" : void 0),
               }),
             }),
-            (0, a.jsx)(s.r6, {
+            (0, a.jsx)(r.r6, {
               title: t,
               url: window.location.href,
-              children: (0, a.jsx)(r(), {
+              children: (0, a.jsx)(i(), {
                 width: 20,
                 height: 20,
                 src: "/images/social/logo-x.svg",
@@ -1289,7 +1421,7 @@
                 className: "article-x ".concat(l ? "invert" : void 0),
               }),
             }),
-            (0, a.jsx)(r(), {
+            (0, a.jsx)(i(), {
               width: 20,
               height: 20,
               alt: "share to Threads",
@@ -1309,14 +1441,14 @@
                 l ? "invert" : "",
               ),
             }),
-            (0, a.jsx)(r(), {
+            (0, a.jsx)(i(), {
               width: 20,
               height: 20,
               src: "/images/link.svg",
               alt: "copy to clipboard",
               onClick: () => {
                 (navigator.clipboard.writeText(window.location.href),
-                  i({
+                  s({
                     title: "Link copied!",
                     children:
                       "A link to this article has been copied to your clipboard.",
@@ -1330,12 +1462,32 @@
         });
       }
     },
+    94734: (e, t, l) => {
+      "use strict";
+      l.d(t, { A: () => r });
+      var a = l(2183),
+        s = l(96006),
+        i = l.n(s);
+      function r() {
+        return (0, a.jsx)("div", {
+          className:
+            "pointer-events-none absolute bottom-0 left-0 w-full translate-y-1/4",
+          children: (0, a.jsx)(i(), {
+            width: 1920,
+            height: 483,
+            className: "w-full object-cover object-top",
+            alt: "Hardwood transition",
+            src: "/images/hero-transition(tinyfied).webp",
+          }),
+        });
+      }
+    },
   },
   (e) => {
     (e.O(
       0,
       [
-        9950, 6006, 1433, 1329, 1175, 3492, 6390, 5216, 2446, 8657, 636, 6593,
+        9950, 6006, 1433, 1329, 1089, 3492, 8906, 5216, 2446, 7137, 636, 6593,
         8792,
       ],
       () => e((e.s = 58502)),

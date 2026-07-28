@@ -727,6 +727,9 @@
   .left-\[30\%\] {
     left: 30%;
   }
+  .isolate {
+    isolation: isolate;
+  }
   .-z-5 {
     z-index: calc(5 * -1);
   }
@@ -1929,6 +1932,9 @@
       calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse))
     );
   }
+  .gap-y-1 {
+    row-gap: calc(var(--spacing) * 1);
+  }
   .gap-y-2 {
     row-gap: calc(var(--spacing) * 2);
   }
@@ -2937,6 +2943,9 @@
   }
   .text-black\/50 {
     color: oklab(20.9036% 7.45058e-9 0/0.5);
+  }
+  .text-black\/70 {
+    color: oklab(20.9036% 7.45058e-9 0/0.7);
   }
   .text-blue-800 {
     color: #527775;

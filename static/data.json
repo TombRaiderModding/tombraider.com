@@ -261,7 +261,8 @@
       "productCallOutLabel": "Call Out",
       "globalSliderAutoplayDelay": 6000,
       "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
-      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content.",
+      "sysUpdatedAt": "2025-12-08T16:43:42.767Z"
     },
     "navItems": [
       {
@@ -273,7 +274,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 100,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:00.029Z"
       },
       {
         "name": "Home",
@@ -284,7 +286,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 200,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:55.545Z"
       },
       {
         "name": "News",
@@ -295,7 +298,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 300,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:04.262Z"
       },
       {
         "name": "Explore",
@@ -306,7 +310,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 325,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2025-12-12T02:49:01.994Z"
       },
       {
         "name": "Lara Croft",
@@ -317,7 +322,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 350,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-10-08T18:15:43.907Z"
       },
       {
         "name": "Products",
@@ -328,7 +334,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 400,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:08.239Z"
       },
       {
         "name": "Shop",
@@ -339,7 +346,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 500,
-        "shouldReplaceWithGeneratedShopLink": true
+        "shouldReplaceWithGeneratedShopLink": true,
+        "sysUpdatedAt": "2024-02-07T19:31:39.459Z"
       },
       {
         "name": "Login",
@@ -350,7 +358,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 600,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:49.678Z"
       },
       {
         "name": "Register",
@@ -361,7 +370,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 700,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:45.751Z"
       },
       {
         "name": "Terms",
@@ -372,7 +382,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 800,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:33.218Z"
       },
       {
         "name": "Privacy",
@@ -383,7 +394,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 900,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:39.702Z"
       },
       {
         "name": "Cookies",
@@ -394,7 +406,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 1000,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:26.651Z"
       }
     ],
     "footerSocialLinks": [
@@ -439,7 +452,8 @@
             }
           }
         },
-        "order": 100
+        "order": 100,
+        "sysUpdatedAt": "2023-12-08T19:53:28.933Z"
       },
       {
         "link": "https://www.instagram.com/tombraider/",
@@ -482,7 +496,8 @@
             }
           }
         },
-        "order": 200
+        "order": 200,
+        "sysUpdatedAt": "2023-12-08T19:54:34.473Z"
       },
       {
         "link": "https://www.facebook.com/TombRaider",
@@ -525,7 +540,8 @@
             }
           }
         },
-        "order": 300
+        "order": 300,
+        "sysUpdatedAt": "2023-12-08T19:55:57.707Z"
       },
       {
         "link": "https://www.youtube.com/tombraider",
@@ -568,7 +584,8 @@
             }
           }
         },
-        "order": 400
+        "order": 400,
+        "sysUpdatedAt": "2025-01-30T19:55:52.436Z"
       },
       {
         "link": "https://discord.com/invite/tomb-raider",
@@ -611,7 +628,8 @@
             }
           }
         },
-        "order": 500
+        "order": 500,
+        "sysUpdatedAt": "2023-12-08T19:56:55.563Z"
       },
       {
         "link": "https://www.tiktok.com/@tombraider",
@@ -654,7 +672,8 @@
             }
           }
         },
-        "order": 600
+        "order": 600,
+        "sysUpdatedAt": "2025-01-30T19:57:12.954Z"
       },
       {
         "link": "https://www.threads.net/@tombraider",
@@ -697,7 +716,8 @@
             }
           }
         },
-        "order": 700
+        "order": 700,
+        "sysUpdatedAt": "2025-01-30T20:00:38.057Z"
       },
       {
         "link": "https://bsky.app/profile/tombraider.com",
@@ -740,7 +760,8 @@
             }
           }
         },
-        "order": 800
+        "order": 800,
+        "sysUpdatedAt": "2025-01-30T20:03:41.211Z"
       }
     ],
     "surveys": [
@@ -1915,13 +1936,15 @@
           }
         ],
         "unlockAvatarFriendlyId": "Survey-Avatar",
-        "requiresVerifiedAccount": true
+        "requiresVerifiedAccount": true,
+        "sysUpdatedAt": "2024-02-07T00:45:58.687Z"
       }
     ],
     "signUpBanner": {
       "message": "Join the Society of Raiders to stay up to date with the latest Tomb Raider news",
       "initialDelayInHours": 48,
-      "dismissDelayInHours": 168
+      "dismissDelayInHours": 168,
+      "sysUpdatedAt": "2024-09-04T20:47:34.375Z"
     }
   },
   "__N_SSG": true

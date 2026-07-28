@@ -1,5 +1,5 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [6906],
+  [7083],
   {
     7674: (e, t, r) => {
       "use strict";
@@ -104,7 +104,7 @@
                 userData: d,
                 cacheLoaded: u,
                 requiresIdentitySetup: p,
-                loading: f,
+                loading: m,
               } = (0, s.u)();
             (0, n.useEffect)(() => {
               let e = (e) => {
@@ -119,7 +119,7 @@
                 }
               );
             }, [r]);
-            let m = async () => {
+            let f = async () => {
               var e, t;
               if (!l) return;
               let r = l.get("shopify-redirect");
@@ -130,9 +130,9 @@
                   null == (t = a.data) ? void 0 : t.shopifyUrl);
             };
             return ((0, n.useEffect)(() => {
-              if (!f && d && !p && r.isReady && l) {
+              if (!m && d && !p && r.isReady && l) {
                 var e;
-                if (l.get("shopify-redirect")) m();
+                if (l.get("shopify-redirect")) f();
                 else {
                   let e = (0, o.nF)();
                   e ? (r.push(e), (0, o.pz)()) : r.replace("/account");
@@ -158,8 +158,8 @@
                       console.error("Error:", e);
                     });
               }
-            }, [f, d, p, r, l]),
-            !u || f)
+            }, [m, d, p, r, l]),
+            !u || m)
               ? null
               : !d || p
                 ? t
@@ -191,23 +191,23 @@
             shadow: u = !0,
           } = e,
           p = "square",
-          f = "aspect-square",
-          m = "scale-100";
+          m = "aspect-square",
+          f = "scale-100";
         if (a && s) {
           let e = a / s;
           0.1 > Math.abs(e - 1)
             ? ((p = "square"),
-              (f = "aspect-square w-full"),
-              (m = "lg:scale-90"))
+              (m = "aspect-square w-full"),
+              (f = "lg:scale-90"))
             : e > 1
-              ? ((p = "landscape"), (f = "aspect-[3/2] w-full"))
+              ? ((p = "landscape"), (m = "aspect-[3/2] w-full"))
               : ((p = "portrait"),
-                (f = "aspect-[2/3] h-full max-h-[50vh] lg:max-h-[500px]"));
+                (m = "aspect-[2/3] h-full max-h-[50vh] lg:max-h-[500px]"));
         }
         return (0, l.jsxs)("div", {
           className: "relative "
-            .concat(f, " ")
             .concat(m, " ")
+            .concat(f, " ")
             .concat(i, " ")
             .concat(c),
           children: [
@@ -234,7 +234,7 @@
             u &&
               (0, l.jsx)("div", {
                 className: "".concat(
-                  f,
+                  m,
                   " absolute -bottom-4 left-1/2 h-full -translate-x-1/2 bg-black opacity-60 blur-lg",
                 ),
               }),
@@ -300,10 +300,10 @@
             helperText: d,
             ...u
           } = e,
-          [p, f] = (0, a.useState)(!1);
+          [p, m] = (0, a.useState)(!1);
         return (
           (0, a.useEffect)(() => {
-            f(!0);
+            m(!0);
           }, []),
           (0, l.jsxs)("div", {
             className: c && "text-red-500",
@@ -696,6 +696,35 @@
         });
       }
       (r(4197), r(99871));
+    },
+    91134: (e, t, r) => {
+      "use strict";
+      r.d(t, { A: () => s });
+      var l = r(2183),
+        a = r(14623),
+        n = r.n(a);
+      function s(e) {
+        let { description: t } = e;
+        return (0, l.jsxs)(n(), {
+          children: [
+            (0, l.jsx)(
+              "meta",
+              { name: "description", content: t },
+              "description",
+            ),
+            (0, l.jsx)(
+              "meta",
+              { property: "og:description", content: t },
+              "og:description",
+            ),
+            (0, l.jsx)(
+              "meta",
+              { name: "twitter:description", content: t },
+              "twitter:description",
+            ),
+          ],
+        });
+      }
     },
   },
 ]);

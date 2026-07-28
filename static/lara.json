@@ -39446,7 +39446,8 @@
         }
       ],
       "featuredProductsEnabled": true,
-      "featuredProductsHeading": "Featured Products"
+      "featuredProductsHeading": "Featured Products",
+      "sysUpdatedAt": "2025-12-12T02:31:41.231Z"
     },
     "products": [
       {
@@ -41453,7 +41454,8 @@
             }
           }
         ],
-        "appearsOnTimeline": false
+        "appearsOnTimeline": false,
+        "sysUpdatedAt": "2025-11-19T22:26:13.192Z"
       },
       {
         "title": "Tomb Raider I-VI Remastered",
@@ -43246,7 +43248,8 @@
           }
         ],
         "appearsOnTimeline": false,
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2025-11-19T22:27:28.781Z"
       },
       {
         "title": "Tomb Raider: The Legend of Lara Croft",
@@ -44284,7 +44287,8 @@
         "timelineCustomLinkUrl": "https://www.netflix.com/title/81361105",
         "timelineCustomLinkCtaText": "Stream Here",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 4
+        "timelineFictionOrder": 4,
+        "sysUpdatedAt": "2025-08-21T18:12:45.470Z"
       },
       {
         "title": "Tomb Raider I-III Remastered ",
@@ -46466,7 +46470,8 @@
               "contentType": "image/png"
             }
           }
-        }
+        },
+        "sysUpdatedAt": "2025-11-19T22:30:58.980Z"
       },
       {
         "title": "The Lara Croft Collection",
@@ -47285,7 +47290,8 @@
         "manufacturer": "Feral Interactive",
         "publisher": "Feral Interactive",
         "esrbRating": "T",
-        "esrbContentDescriptors": ["Mild Blood", "Mild Language", "Violence"]
+        "esrbContentDescriptors": ["Mild Blood", "Mild Language", "Violence"],
+        "sysUpdatedAt": "2025-11-19T23:08:24.413Z"
       },
       {
         "title": "Tomb Raider: Definitive Survivor Trilogy",
@@ -48340,7 +48346,8 @@
           "Drug Reference",
           "Intense Violence",
           "Strong Language"
-        ]
+        ],
+        "sysUpdatedAt": "2025-11-19T23:07:40.004Z"
       },
       {
         "title": "Shadow of the Tomb Raider: Definitive Edition",
@@ -49515,7 +49522,8 @@
         },
         "timelineDescription": "Lara Croft accidentally triggers a Mayan apocalypse and races to stop the Trinity organization from completing a ritual that could destroy the world. As she navigates ancient tombs and confronts supernatural forces, Lara must resist a temptation to remake the world, and possibly her own parents, and ultimately sacrifices herself to save humanity, emerging at peace with her decision. ",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 3
+        "timelineFictionOrder": 3,
+        "sysUpdatedAt": "2025-11-19T23:04:33.674Z"
       },
       {
         "title": "Tomb Raider",
@@ -49806,7 +49814,8 @@
         ],
         "socialMediaShareDescription": "Tomb Raider",
         "appearsOnTimeline": false,
-        "hideSocialSharingButtons": false
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2025-10-31T23:17:15.786Z"
       },
       {
         "title": "Rise of the Tomb Raider: 20 Year Celebration",
@@ -50982,7 +50991,8 @@
         },
         "timelineDescription": "Haunted by her experience on Yamatai, Lara Croft seeks the secret of immortality in the lost city of Kitezh. Together with her good friend Jonah, she confronts the Trinity organization and uncovers the truth about her father’s death while racing to stop Trinity from acquiring the Divine Source, an artifact of immense power. In the end, Lara destroys the Divine Source and resolves to continue her fight against Trinity. ",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 2
+        "timelineFictionOrder": 2,
+        "sysUpdatedAt": "2025-11-19T23:05:19.025Z"
       },
       {
         "title": "Lara Croft and the Temple of Osiris",
@@ -52193,7 +52203,8 @@
         },
         "timelineDescription": "Lara Croft and her rival, Carter Bell, inadvertently unleash the evil god Set in Egypt and must join forces with the gods Horus and Isis to stop him. They search for the dismembered body of Osiris to resurrect him, leading to a final battle where Set is defeated, and the curse is lifted. However, the temple remains guarded, hinting at future dangers. ",
         "timelineEra": "Legend",
-        "timelineFictionOrder": 2
+        "timelineFictionOrder": 2,
+        "sysUpdatedAt": "2025-11-19T22:59:56.070Z"
       }
     ],
     "websiteSingleton": {
@@ -52457,7 +52468,8 @@
       "productCallOutLabel": "Call Out",
       "globalSliderAutoplayDelay": 6000,
       "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
-      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content.",
+      "sysUpdatedAt": "2025-12-08T16:43:42.767Z"
     },
     "navItems": [
       {
@@ -52469,7 +52481,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 100,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:00.029Z"
       },
       {
         "name": "Home",
@@ -52480,7 +52493,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 200,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:55.545Z"
       },
       {
         "name": "News",
@@ -52491,7 +52505,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 300,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:04.262Z"
       },
       {
         "name": "Explore",
@@ -52502,7 +52517,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 325,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2025-12-12T02:49:01.994Z"
       },
       {
         "name": "Lara Croft",
@@ -52513,7 +52529,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 350,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-10-08T18:15:43.907Z"
       },
       {
         "name": "Products",
@@ -52524,7 +52541,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 400,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:08.239Z"
       },
       {
         "name": "Shop",
@@ -52535,7 +52553,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 500,
-        "shouldReplaceWithGeneratedShopLink": true
+        "shouldReplaceWithGeneratedShopLink": true,
+        "sysUpdatedAt": "2024-02-07T19:31:39.459Z"
       },
       {
         "name": "Login",
@@ -52546,7 +52565,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 600,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:49.678Z"
       },
       {
         "name": "Register",
@@ -52557,7 +52577,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 700,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:45.751Z"
       },
       {
         "name": "Terms",
@@ -52568,7 +52589,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 800,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:33.218Z"
       },
       {
         "name": "Privacy",
@@ -52579,7 +52601,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 900,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:39.702Z"
       },
       {
         "name": "Cookies",
@@ -52590,7 +52613,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 1000,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:26.651Z"
       }
     ],
     "footerSocialLinks": [
@@ -52635,7 +52659,8 @@
             }
           }
         },
-        "order": 100
+        "order": 100,
+        "sysUpdatedAt": "2023-12-08T19:53:28.933Z"
       },
       {
         "link": "https://www.instagram.com/tombraider/",
@@ -52678,7 +52703,8 @@
             }
           }
         },
-        "order": 200
+        "order": 200,
+        "sysUpdatedAt": "2023-12-08T19:54:34.473Z"
       },
       {
         "link": "https://www.facebook.com/TombRaider",
@@ -52721,7 +52747,8 @@
             }
           }
         },
-        "order": 300
+        "order": 300,
+        "sysUpdatedAt": "2023-12-08T19:55:57.707Z"
       },
       {
         "link": "https://www.youtube.com/tombraider",
@@ -52764,7 +52791,8 @@
             }
           }
         },
-        "order": 400
+        "order": 400,
+        "sysUpdatedAt": "2025-01-30T19:55:52.436Z"
       },
       {
         "link": "https://discord.com/invite/tomb-raider",
@@ -52807,7 +52835,8 @@
             }
           }
         },
-        "order": 500
+        "order": 500,
+        "sysUpdatedAt": "2023-12-08T19:56:55.563Z"
       },
       {
         "link": "https://www.tiktok.com/@tombraider",
@@ -52850,7 +52879,8 @@
             }
           }
         },
-        "order": 600
+        "order": 600,
+        "sysUpdatedAt": "2025-01-30T19:57:12.954Z"
       },
       {
         "link": "https://www.threads.net/@tombraider",
@@ -52893,7 +52923,8 @@
             }
           }
         },
-        "order": 700
+        "order": 700,
+        "sysUpdatedAt": "2025-01-30T20:00:38.057Z"
       },
       {
         "link": "https://bsky.app/profile/tombraider.com",
@@ -52936,7 +52967,8 @@
             }
           }
         },
-        "order": 800
+        "order": 800,
+        "sysUpdatedAt": "2025-01-30T20:03:41.211Z"
       }
     ],
     "timelineProducts": [
@@ -53976,7 +54008,8 @@
         "timelineCustomLinkUrl": "https://www.netflix.com/title/81361105",
         "timelineCustomLinkCtaText": "Stream Here",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 4
+        "timelineFictionOrder": 4,
+        "sysUpdatedAt": "2025-08-21T18:12:45.470Z"
       },
       {
         "title": "Tomb Raider Reloaded",
@@ -54964,7 +54997,8 @@
         },
         "timelineDescription": "Lara Croft's adventures come to mobile in this roguelike gameplay. Lara's quest sees her avoiding traps, discovering ancient relics, solving a wide variety of puzzles and facing off against different enemies and bosses both new and familiar.",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 3
+        "timelineFictionOrder": 3,
+        "sysUpdatedAt": "2025-11-19T23:03:24.749Z"
       },
       {
         "title": "Shadow of the Tomb Raider: Definitive Edition",
@@ -56139,7 +56173,8 @@
         },
         "timelineDescription": "Lara Croft accidentally triggers a Mayan apocalypse and races to stop the Trinity organization from completing a ritual that could destroy the world. As she navigates ancient tombs and confronts supernatural forces, Lara must resist a temptation to remake the world, and possibly her own parents, and ultimately sacrifices herself to save humanity, emerging at peace with her decision. ",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 3
+        "timelineFictionOrder": 3,
+        "sysUpdatedAt": "2025-11-19T23:04:33.674Z"
       },
       {
         "title": "Lara Croft GO",
@@ -57346,7 +57381,8 @@
         },
         "timelineDescription": "Lara Croft GO is a turn based puzzle-adventure set in a long-forgotten world. Explore the ruins of an ancient civilization, discover well-kept secrets and face deadly challenges as Lara Croft uncovers the myth of the Queen of Venom.",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 4
+        "timelineFictionOrder": 4,
+        "sysUpdatedAt": "2025-11-19T23:02:07.721Z"
       },
       {
         "title": "Rise of the Tomb Raider: 20 Year Celebration",
@@ -58522,7 +58558,8 @@
         },
         "timelineDescription": "Haunted by her experience on Yamatai, Lara Croft seeks the secret of immortality in the lost city of Kitezh. Together with her good friend Jonah, she confronts the Trinity organization and uncovers the truth about her father’s death while racing to stop Trinity from acquiring the Divine Source, an artifact of immense power. In the end, Lara destroys the Divine Source and resolves to continue her fight against Trinity. ",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 2
+        "timelineFictionOrder": 2,
+        "sysUpdatedAt": "2025-11-19T23:05:19.025Z"
       },
       {
         "title": "Lara Croft: Relic Run",
@@ -59420,7 +59457,8 @@
         },
         "timelineDescription": "Lara Croft must run, swing, drive, and swan dive her way through mesmerizing yet hazardous environments, uncovering ancient relics to unearth the truth and solve the mystery behind a shadowy conspiracy that threatens the world.",
         "timelineEra": "Legend",
-        "timelineFictionOrder": 3
+        "timelineFictionOrder": 3,
+        "sysUpdatedAt": "2025-11-19T22:59:04.606Z"
       },
       {
         "title": "Lara Croft and the Temple of Osiris",
@@ -60631,7 +60669,8 @@
         },
         "timelineDescription": "Lara Croft and her rival, Carter Bell, inadvertently unleash the evil god Set in Egypt and must join forces with the gods Horus and Isis to stop him. They search for the dismembered body of Osiris to resurrect him, leading to a final battle where Set is defeated, and the curse is lifted. However, the temple remains guarded, hinting at future dangers. ",
         "timelineEra": "Legend",
-        "timelineFictionOrder": 2
+        "timelineFictionOrder": 2,
+        "sysUpdatedAt": "2025-11-19T22:59:56.070Z"
       },
       {
         "title": "Tomb Raider: Definitive Edition",
@@ -61795,7 +61834,8 @@
         },
         "timelineDescription": "On her first expedition, Lara Croft is shipwrecked on an island and must survive against a cult worshipping the ancient Sun Queen, Himiko. Lara uncovers the island's dark secrets and stops a ritual that could claim her friend Samantha Nishimura’s life. Ultimately, Lara ends the curse and escapes the island, finally coming to understand her father’s search for the unknown. ",
         "timelineEra": "Survivor",
-        "timelineFictionOrder": 1
+        "timelineFictionOrder": 1,
+        "sysUpdatedAt": "2025-11-19T22:36:41.798Z"
       },
       {
         "title": "Lara Croft and the Guardian of Light",
@@ -63108,7 +63148,8 @@
         },
         "timelineDescription": "Lara teams up with Totec, an ancient warrior, to stop the evil god Xolotl, who was unleashed from the Mirror of Smoke. Together, they battle through waves of enemies and ultimately imprison Xolotl once more, with Totec returning to his stone form as a guardian of the balance between light and dark. ",
         "timelineEra": "Legend",
-        "timelineFictionOrder": 1
+        "timelineFictionOrder": 1,
+        "sysUpdatedAt": "2025-11-19T22:13:04.802Z"
       },
       {
         "title": "Tomb Raider: Underworld",
@@ -64164,7 +64205,8 @@
         },
         "timelineDescription": "Lara Croft’s search for her parents’ fate leads her to confront the resurrected Atlantean Natla and stop her plan to awaken the Midgard Serpent. With the help of Thor’s artifacts, Lara confronts her doppelganger and uncovers the truth about her mother’s tragic end, ultimately saving the world from destruction but accepting her loss. ",
         "timelineEra": "Legend",
-        "timelineFictionOrder": 5
+        "timelineFictionOrder": 5,
+        "sysUpdatedAt": "2025-11-19T22:53:49.839Z"
       },
       {
         "title": "Tomb Raider: Anniversary",
@@ -65101,7 +65143,8 @@
         },
         "timelineDescription": "In this remake of the original Tomb Raider, Lara Croft once again seeks the Scion, facing dangerous creatures and rival Raiders. The story reveals new details about Natla's plan to use the Scion to resurrect her Atlantean army of mutants and a doppleganger of Lara herself. ",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 2
+        "timelineFictionOrder": 2,
+        "sysUpdatedAt": "2025-11-19T22:11:05.285Z"
       },
       {
         "title": "Tomb Raider: Legend",
@@ -66154,7 +66197,8 @@
         },
         "timelineDescription": "Driven by her mother’s mysterious disappearance, Lara Croft embarks on a quest to find Excalibur, an ancient sword linked to the mythical realm of Avalon. She unravels the truth about her mother’s fate, and confronts Amanda Evert, an old friend with a grudge. The journey culminates in a dramatic showdown that leaves Lara with new questions and a determination to continue her search for her mother. ",
         "timelineEra": "Legend",
-        "timelineFictionOrder": 4
+        "timelineFictionOrder": 4,
+        "sysUpdatedAt": "2025-11-19T22:28:17.658Z"
       },
       {
         "title": "Tomb Raider: The Angel of Darkness",
@@ -66881,7 +66925,8 @@
         },
         "timelineDescription": "Lara Croft is framed for murder and uncovers a conspiracy involving a cult trying to resurrect an ancient evil. With help from fellow raider Kurtis Trent, she sets out on a journey to stop the alchemist Eckhardt from awakening the Sleeper, a powerful entity that could destroy the world. ",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 9
+        "timelineFictionOrder": 9,
+        "sysUpdatedAt": "2025-11-19T22:40:27.601Z"
       },
       {
         "title": "Tomb Raider: Chronicles",
@@ -67857,7 +67902,8 @@
         },
         "timelineDescription": "Friends of Lara Croft recall untold adventures after her presumed death in Egypt. These include her quest for the Philosopher's Stone in Rome, the Spear of Destiny from a sunken submarine, and a battle against an ancient demon on the Black Isle. The story concludes with a glimmer of hope as her backpack is found by Von Croy in Egypt, leaving her fate unresolved. ",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 8
+        "timelineFictionOrder": 8,
+        "sysUpdatedAt": "2025-11-19T23:00:50.031Z"
       },
       {
         "title": "Tomb Raider: The Last Revelation",
@@ -68683,7 +68729,8 @@
         },
         "timelineDescription": "A young Lara Croft’s first expedition ends in betrayal, setting the stage for a future quest where she accidentally unleashes the dark god, Set. As she races to prevent Armageddon, she confronts her possessed former mentor, Werner Von Croy, ultimately sealing Set away. However, Lara’s fate remains uncertain as she’s buried in a collapsing temple. ",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 7
+        "timelineFictionOrder": 7,
+        "sysUpdatedAt": "2025-11-19T22:46:34.471Z"
       },
       {
         "title": "Tomb Raider III: Adventures of Lara Croft",
@@ -69953,7 +70000,8 @@
         },
         "timelineDescription": "Lara Croft tracks down four powerful artifacts linked to a meteorite, leading her across the globe from Nevada to Antarctica. She faces deadly adversaries, including mutated creatures created by a cosmetics mogul, and ultimately confronts Dr. Willard, a scientist bent on harnessing the meteorite's power. ",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 6
+        "timelineFictionOrder": 6,
+        "sysUpdatedAt": "2025-11-19T22:52:31.379Z"
       },
       {
         "title": "Tomb Raider II",
@@ -71112,7 +71160,8 @@
         },
         "timelineDescription": "Lara Croft races to prevent the Fiamma Nera cult from obtaining the Dagger of Xian, an artifact capable of transforming its wielder into a dragon. Her journey takes her from Venice to China, where she confronts the cult leader in a climactic battle, ultimately securing the dagger and returning home victorious. ",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 5
+        "timelineFictionOrder": 5,
+        "sysUpdatedAt": "2025-11-19T22:39:37.685Z"
       },
       {
         "title": "Tomb Raider",
@@ -72271,13 +72320,15 @@
         },
         "timelineDescription": "Archaeologist and adventurer Lara Croft embarks on a perilous quest to retrieve the Scion, a mystical artifact from Atlantis. After exploring ancient ruins and confronting deadly foes, including a showdown with the famous T-REX, she discovers the true intentions of her employer, Natla, an ancient Atlantean ruler. Lara ultimately destroys the Scion to prevent Natla from using it to dominate the world. ",
         "timelineEra": "Classic",
-        "timelineFictionOrder": 5
+        "timelineFictionOrder": 5,
+        "sysUpdatedAt": "2025-11-19T22:08:49.262Z"
       }
     ],
     "signUpBanner": {
       "message": "Join the Society of Raiders to stay up to date with the latest Tomb Raider news",
       "initialDelayInHours": 48,
-      "dismissDelayInHours": 168
+      "dismissDelayInHours": 168,
+      "sysUpdatedAt": "2024-09-04T20:47:34.375Z"
     }
   },
   "__N_SSG": true

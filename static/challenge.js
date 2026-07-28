@@ -5,24 +5,24 @@
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          l.d(t, { A: () => p });
+          l.d(t, { A: () => x });
           var r = l(2183),
             n = l(36439),
             a = l(96006),
-            o = l.n(a),
-            i = l(15711),
+            i = l.n(a),
+            o = l(15711),
             c = l(73985),
             d = l(26947),
             u = l(92446),
             m = l(95344),
             f = l(99435),
-            x = e([c, u, f]);
-          function p(e) {
+            p = e([c, u, f]);
+          function x(e) {
             var t, l, s;
             let {
                 open: a,
-                glyphOptions: x,
-                roomId: p,
+                glyphOptions: p,
+                roomId: x,
                 puzzleHeadline: h,
                 puzzleDescription: g,
                 puzzleBackground: v,
@@ -34,53 +34,53 @@
                 isRoomCompleted: z,
                 viewReward: k,
               } = e,
-              { userData: I } = (0, f.u)(),
-              [S, R] = (0, n.useState)(() =>
-                x.length > 0
-                  ? [x[0].sys.id, x[0].sys.id, x[0].sys.id, x[0].sys.id]
+              { userData: S } = (0, f.u)(),
+              [I, R] = (0, n.useState)(() =>
+                p.length > 0
+                  ? [p[0].sys.id, p[0].sys.id, p[0].sys.id, p[0].sys.id]
                   : ["", "", "", ""],
               ),
-              [C, _] = (0, n.useState)(!1),
-              [L, A] = (0, n.useState)(!1),
+              [_, A] = (0, n.useState)(!1),
+              [L, C] = (0, n.useState)(!1),
               T = (0, n.useRef)(null);
-            async function E() {
-              (A(!0), _(!1));
+            async function O() {
+              (C(!0), A(!1));
               try {
                 var e, t, l;
                 let s = await fetch("/api/puzzle/validate-solution", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ roomId: p, answer: S }),
+                    body: JSON.stringify({ roomId: x, answer: I }),
                   }),
                   r = await s.json();
                 if (!s.ok) throw Error("Validation failed");
                 (null == (e = r.data) ? void 0 : e.isCorrect)
-                  ? (_(!1),
+                  ? (A(!1),
                     j ||
                       sessionStorage.setItem(
                         "pendingPuzzleSolved",
-                        JSON.stringify({ roomId: p, timestamp: Date.now() }),
+                        JSON.stringify({ roomId: x, timestamp: Date.now() }),
                       ),
                     N(r.data.rewardImageUrl),
                     w(),
                     (0, m.sendGTMEvent)({
                       event: "challenge_solve",
                       playFabId:
-                        (null == I || null == (t = I.accountInfo)
+                        (null == S || null == (t = S.accountInfo)
                           ? void 0
                           : t.playFabId) || null,
-                      roomId: p,
-                      puzzleId: p,
+                      roomId: x,
+                      puzzleId: x,
                     }))
-                  : (_(!0),
+                  : (A(!0),
                     (0, m.sendGTMEvent)({
                       event: "challenge_incorrect_answer",
                       playFabId:
-                        (null == I || null == (l = I.accountInfo)
+                        (null == S || null == (l = S.accountInfo)
                           ? void 0
                           : l.playFabId) || null,
-                      roomId: p,
-                      puzzleId: p,
+                      roomId: x,
+                      puzzleId: x,
                     }),
                     d.A.timeline()
                       .to(".error-message", { x: 10, duration: 0.1 })
@@ -90,9 +90,9 @@
                       .to(".error-message", { x: 0, duration: 0.1 })
                       .play());
               } catch (e) {
-                (console.error("Error validating puzzle solution:", e), _(!0));
+                (console.error("Error validating puzzle solution:", e), A(!0));
               } finally {
-                A(!1);
+                C(!1);
               }
             }
             return ((0, n.useEffect)(() => {
@@ -103,20 +103,20 @@
                   (0, m.sendGTMEvent)({
                     event: "challenge_start",
                     playFabId:
-                      (null == I || null == (e = I.accountInfo)
+                      (null == S || null == (e = S.accountInfo)
                         ? void 0
                         : e.playFabId) || null,
-                    roomId: p,
-                    puzzleId: p,
+                    roomId: x,
+                    puzzleId: x,
                   }));
-              } else (_(!1), document.body.classList.remove("overflow-hidden"));
+              } else (A(!1), document.body.classList.remove("overflow-hidden"));
               return () => {
                 document.body.classList.remove("overflow-hidden");
               };
             }, [
               a,
-              p,
-              null == I || null == (t = I.accountInfo) ? void 0 : t.playFabId,
+              x,
+              null == S || null == (t = S.accountInfo) ? void 0 : t.playFabId,
             ]),
             a)
               ? (0, r.jsxs)("div", {
@@ -127,11 +127,11 @@
                         ((0, m.sendGTMEvent)({
                           event: "challenge_close",
                           playFabId:
-                            (null == I || null == (e = I.accountInfo)
+                            (null == S || null == (e = S.accountInfo)
                               ? void 0
                               : e.playFabId) || null,
-                          roomId: p,
-                          puzzleId: p,
+                          roomId: x,
+                          puzzleId: x,
                         }),
                           w());
                       },
@@ -178,7 +178,7 @@
                                   (null == v || null == (l = v.fields.file)
                                     ? void 0
                                     : l.url) &&
-                                    (0, r.jsx)(o(), {
+                                    (0, r.jsx)(i(), {
                                       width: "1440",
                                       height: "720",
                                       alt:
@@ -200,18 +200,18 @@
                                   (0, r.jsx)("div", {
                                     className:
                                       "flex w-full pl-[3.5%] pr-[4.15%]",
-                                    children: S.map(function (e, t) {
+                                    children: I.map(function (e, t) {
                                       return (0, r.jsx)(
                                         c.A,
                                         {
                                           ref: 0 === t ? T : null,
-                                          selectedGlyph: S[t],
+                                          selectedGlyph: I[t],
                                           updatePuzzleAnswer: (e) =>
                                             R((l) => {
                                               let s = [...l];
                                               return ((s[t] = e), s);
                                             }),
-                                          glyphOptions: x,
+                                          glyphOptions: p,
                                         },
                                         t,
                                       );
@@ -235,7 +235,7 @@
                                       children:
                                         "You have already solved this puzzle.",
                                     }),
-                                    (0, r.jsx)(i.A, {
+                                    (0, r.jsx)(o.A, {
                                       onClick: () => {
                                         (w(), k());
                                       },
@@ -254,8 +254,8 @@
                                       className:
                                         "mb-4 flex flex-col items-center gap-6",
                                       children: [
-                                        (0, r.jsx)(i.A, {
-                                          onClick: () => E(),
+                                        (0, r.jsx)(o.A, {
+                                          onClick: () => O(),
                                           disabled: L,
                                           children: L ? "Checking..." : b,
                                         }),
@@ -268,7 +268,7 @@
                                     }),
                                     (0, r.jsx)("p", {
                                       className: "".concat(
-                                        C ? "" : "invisible ",
+                                        _ ? "" : "invisible ",
                                         " error-message text-center",
                                       ),
                                       children:
@@ -284,7 +284,129 @@
                 })
               : null;
           }
-          (([c, u, f] = x.then ? (await x)() : x), s());
+          (([c, u, f] = p.then ? (await p)() : p), s());
+        } catch (e) {
+          s(e);
+        }
+      });
+    },
+    4243: (e, t, l) => {
+      "use strict";
+      l.a(e, async (e, s) => {
+        try {
+          l.d(t, { OU: () => c, Om: () => u, Q0: () => d, _8: () => o });
+          var r = l(92446),
+            n = l(2371),
+            a = e([r]);
+          r = (a.then ? (await a)() : a)[0];
+          let m = "".concat(n.W, "/#organization"),
+            f = "".concat(n.W, "/#website"),
+            p = "Tomb Raider",
+            x = "https://en.wikipedia.org/wiki/Tomb_Raider";
+          function i(e) {
+            var t, l;
+            let s = (0, r._c)(
+              null == (l = e.footerLogo) || null == (t = l.fields.file)
+                ? void 0
+                : t.url,
+            );
+            return s ? { logo: { "@type": "ImageObject", url: s } } : {};
+          }
+          function o(e, t) {
+            return {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": m,
+              name: p,
+              url: n.W,
+              ...i(e),
+              sameAs: [
+                ...t.map((e) => e.link),
+                x,
+                "https://www.wikidata.org/wiki/Q270503",
+              ],
+            };
+          }
+          function c() {
+            return {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": f,
+              name: p,
+              url: n.W,
+              publisher: { "@id": m },
+            };
+          }
+          function d(e, t) {
+            var l, s, a, o;
+            let c = ""
+                .concat(n.W, "/news/")
+                .concat(null == (l = e.category) ? void 0 : l.fields.slug, "/")
+                .concat(e.slug),
+              d = (0, r._c)(
+                null == (a = e.headerImage) || null == (s = a.fields.file)
+                  ? void 0
+                  : s.url,
+              ),
+              u = { "@type": "Organization", "@id": m, name: p, ...i(t) };
+            return {
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              headline: e.title,
+              description: e.excerpt || e.socialMediaShareDescription,
+              ...(d ? { image: [d] } : {}),
+              datePublished: e.publishDate,
+              dateModified: null != (o = e.sysUpdatedAt) ? o : e.publishDate,
+              url: c,
+              mainEntityOfPage: { "@type": "WebPage", "@id": c },
+              author: u,
+              publisher: u,
+            };
+          }
+          function u(e) {
+            var t, l, s, a, i, o, c, d;
+            let u = ""
+                .concat(n.W, "/products/")
+                .concat(null == (t = e.category) ? void 0 : t.fields.slug, "/")
+                .concat(e.slug),
+              m = (0, r._c)(
+                null !=
+                  (d =
+                    null == (s = e.titleLogo) || null == (l = s.fields.file)
+                      ? void 0
+                      : l.url)
+                  ? d
+                  : null == (c = e.galleryEntries) ||
+                      null == (o = c[0]) ||
+                      null == (i = o.fields.image) ||
+                      null == (a = i.fields.file)
+                    ? void 0
+                    : a.url,
+              );
+            return {
+              "@context": "https://schema.org",
+              "@type": "VideoGame",
+              name: e.title,
+              url: u,
+              ...(e.shortDescription
+                ? { description: e.shortDescription }
+                : {}),
+              ...(m ? { image: m } : {}),
+              ...(e.releaseDate ? { datePublished: e.releaseDate } : {}),
+              ...(e.publisher
+                ? { publisher: { "@type": "Organization", name: e.publisher } }
+                : {}),
+              ...(e.esrbRating
+                ? { contentRating: "ESRB ".concat(e.esrbRating) }
+                : {}),
+              isPartOf: {
+                "@type": "VideoGameSeries",
+                name: "Tomb Raider",
+                sameAs: x,
+              },
+            };
+          }
+          s();
         } catch (e) {
           s(e);
         }
@@ -314,34 +436,35 @@
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          (l.r(t), l.d(t, { __N_SSG: () => p, default: () => h }));
+          (l.r(t), l.d(t, { __N_SSG: () => h, default: () => g }));
           var r = l(2183),
-            n = l(36439),
-            a = l(16890),
+            n = l(91134),
+            a = l(36439),
+            i = l(16890),
             o = l(26947),
-            i = l(95216),
-            c = l(75894),
-            d = l(31081),
-            u = l(71003),
-            m = l(80707),
-            f = l.n(m),
-            x = e([i, c, d]);
-          [i, c, d] = x.then ? (await x)() : x;
-          var p = !0;
-          function h(e) {
+            c = l(95216),
+            d = l(75894),
+            u = l(31081),
+            m = l(71003),
+            f = l(80707),
+            p = l.n(f),
+            x = e([c, d, u]);
+          [c, d, u] = x.then ? (await x)() : x;
+          var h = !0;
+          function g(e) {
             let {
                 challengeTomb: t,
                 websiteSingleton: l,
                 navItems: s,
-                footerSocialLinks: m,
+                footerSocialLinks: f,
                 signUpBanner: x,
               } = e,
-              p = (0, n.useRef)(null),
-              [h, g] = (0, n.useState)(0),
-              v = (0, n.useRef)(0),
-              [b, y] = (0, n.useState)([]),
-              j = (0, n.useRef)(!1);
-            ((0, n.useEffect)(() => {
+              h = (0, a.useRef)(null),
+              [g, v] = (0, a.useState)(0),
+              b = (0, a.useRef)(0),
+              [y, j] = (0, a.useState)([]),
+              w = (0, a.useRef)(!1);
+            ((0, a.useEffect)(() => {
               let e = sessionStorage.getItem("pendingPuzzleSolved");
               if (e && (null == t ? void 0 : t.rooms))
                 try {
@@ -349,12 +472,12 @@
                     s = t.rooms.findIndex(
                       (e) => (null == e ? void 0 : e.sys.id) === l,
                     );
-                  -1 !== s && ((j.current = !0), g(s));
+                  -1 !== s && ((w.current = !0), v(s));
                 } catch (e) {
                   console.error("Error parsing pending puzzle data:", e);
                 }
             }, [t]),
-              (0, n.useEffect)(() => {
+              (0, a.useEffect)(() => {
                 async function e() {
                   if (null == t ? void 0 : t.rooms)
                     try {
@@ -364,7 +487,7 @@
                           (null == (e = (await l.json()).data)
                             ? void 0
                             : e.completedRoomIds) || [];
-                      if ((y(s), j.current || 0 === s.length)) return;
+                      if ((j(s), w.current || 0 === s.length)) return;
                       let r = -1;
                       for (let e = 0; e < t.rooms.length; e++) {
                         let l = t.rooms[e];
@@ -373,10 +496,10 @@
                           break;
                         }
                       }
-                      if (-1 !== r) g(r);
+                      if (-1 !== r) v(r);
                       else {
                         let e = t.rooms.length - 1;
-                        g(e);
+                        v(e);
                       }
                     } catch (e) {
                       console.error("Error fetching completed rooms:", e);
@@ -384,79 +507,83 @@
                 }
                 sessionStorage.getItem("pendingPuzzleSolved") || e();
               }, [t]));
-            let w = () => {
-              o.A.to(".room-container-".concat(h), {
+            let N = () => {
+              o.A.to(".room-container-".concat(g), {
                 opacity: 0,
                 duration: 0.4,
                 ease: "power2.inOut",
                 onComplete: () => {
-                  (null == t ? void 0 : t.rooms[h + 1]) ? g(h + 1) : g(0);
+                  (null == t ? void 0 : t.rooms[g + 1]) ? v(g + 1) : v(0);
                 },
               });
             };
             return (
-              (0, a.L)(
+              (0, i.L)(
                 () => {
-                  o.A.set(".room-container-".concat(h), {
+                  o.A.set(".room-container-".concat(g), {
                     display: "flex",
                     opacity: 1,
                   });
                 },
-                { scope: p },
+                { scope: h },
               ),
-              (0, a.L)(
+              (0, i.L)(
                 () => {
-                  v.current !== h &&
+                  b.current !== g &&
                     (o.A.timeline()
-                      .to(".room-container-".concat(v.current), {
+                      .to(".room-container-".concat(b.current), {
                         opacity: 0,
                         duration: 0.4,
                         ease: "power2.inOut",
                       })
-                      .set(".room-container-".concat(v.current), {
+                      .set(".room-container-".concat(b.current), {
                         display: "none",
                       })
-                      .set(".room-container-".concat(h), { display: "flex" })
-                      .to(".room-container-".concat(h), {
+                      .set(".room-container-".concat(g), { display: "flex" })
+                      .to(".room-container-".concat(g), {
                         opacity: 1,
                         duration: 0.4,
                         ease: "power2.inOut",
                       })
                       .play(),
-                    (v.current = h));
+                    (b.current = g));
                 },
-                { scope: p, dependencies: [h] },
+                { scope: h, dependencies: [g] },
               ),
               (0, r.jsxs)("div", {
-                ref: p,
-                className: "relative bg-trueblack",
+                ref: h,
+                className: "bg-trueblack relative",
                 children: [
-                  (0, r.jsx)(i.Ay, { navItems: s, signUpBanner: x }),
+                  (0, r.jsx)(n.A, {
+                    description:
+                      "Enter the Tomb Raider Challenge Tomb. Solve puzzles, decrypt ciphers, collect hidden relics, and unlock exclusive rewards in this interactive fan experience.",
+                  }),
+                  (0, r.jsx)(c.Ay, { navItems: s, signUpBanner: x }),
                   (0, r.jsxs)("div", {
                     className:
                       "relative mt-20 flex h-[calc(100svh-5rem)] flex-col items-center overflow-hidden",
                     children: [
                       (0, r.jsx)("div", {
                         className:
-                          "absolute inset-0 z-10 h-60 w-full bg-gradient-to-b from-trueblack",
+                          "from-trueblack absolute inset-0 z-10 h-60 w-full bg-gradient-to-b",
                       }),
                       (0, r.jsx)("div", {
                         className:
-                          "absolute bottom-0 left-0 z-10 h-60 w-full bg-gradient-to-t from-trueblack",
+                          "from-trueblack absolute bottom-0 left-0 z-10 h-60 w-full bg-gradient-to-t",
                       }),
                       (0, r.jsxs)("div", {
                         className: "flex w-full flex-1 flex-col",
                         children: [
                           (null == t ? void 0 : t.rooms) &&
-                            (0, r.jsx)(u.A, {
-                              rooms: f().compact(
+                            (0, r.jsx)(m.A, {
+                              rooms: p().compact(
                                 t.rooms.map((e) =>
                                   null == e ? void 0 : e.fields,
                                 ),
                               ),
-                              activeRoomIndex: h,
+                              activeRoomIndex: g,
                               onRoomClick: (e) => {
-                                if (e === h || !(null == t ? void 0 : t.rooms))
+                                if (e === g || !(null == t ? void 0 : t.rooms))
                                   return;
                                 let l = -1;
                                 for (let e = 0; e < t.rooms.length; e++) {
@@ -464,19 +591,19 @@
                                   if (
                                     (null == s ? void 0 : s.fields) &&
                                     (!s.fields.isUnlocked ||
-                                      !b.includes(s.sys.id))
+                                      !y.includes(s.sys.id))
                                   ) {
                                     l = e;
                                     break;
                                   }
                                 }
                                 (-1 !== l && e > l) ||
-                                  o.A.to(".room-container-".concat(h), {
+                                  o.A.to(".room-container-".concat(g), {
                                     opacity: 0,
                                     duration: 0.4,
                                     ease: "power2.inOut",
                                     onComplete: () => {
-                                      g(e);
+                                      v(e);
                                     },
                                   });
                               },
@@ -485,7 +612,7 @@
                                   (null == e ? void 0 : e.fields) &&
                                   !e.fields.isUnlocked,
                               ),
-                              completedRoomIds: b,
+                              completedRoomIds: y,
                               roomIds: t.rooms.map(
                                 (e) => (null == e ? void 0 : e.sys.id) || "",
                               ),
@@ -502,16 +629,16 @@
                                     ),
                                     children:
                                       e &&
-                                      h === t &&
+                                      g === t &&
                                       (0, r.jsx)(
-                                        d.A,
+                                        u.A,
                                         {
                                           room: null == e ? void 0 : e.fields,
                                           roomId: e.sys.id,
-                                          activeRoomIndex: h,
-                                          moveToNextRoom: w,
+                                          activeRoomIndex: g,
+                                          moveToNextRoom: N,
                                           onRoomCompleted: (e) => {
-                                            y((t) => [...t, e]);
+                                            j((t) => [...t, e]);
                                           },
                                         },
                                         t,
@@ -524,10 +651,10 @@
                       }),
                     ],
                   }),
-                  (0, r.jsx)(c.A, {
+                  (0, r.jsx)(d.A, {
                     websiteSingleton: l,
                     navItems: s,
-                    footerSocialLinks: m,
+                    footerSocialLinks: f,
                   }),
                 ],
               })
@@ -546,15 +673,15 @@
         r = l(16890),
         n = l(23323),
         a = l(93551),
-        o = l(3843),
-        i = l(4124),
+        i = l(3843),
+        o = l(4124),
         c = l(12979);
       s.os.registerPlugin(
         r.L,
         n.Flip,
         a.ScrollTrigger,
-        o.ScrollToPlugin,
-        i.ScrollSmoother,
+        i.ScrollToPlugin,
+        o.ScrollSmoother,
         c.SplitText,
       );
       let d = s.os;
@@ -567,83 +694,83 @@
           var r = l(2183),
             n = l(36439),
             a = l(96006),
-            o = l.n(a),
-            i = l(18652),
+            i = l.n(a),
+            o = l(18652),
             c = l(92446),
             d = l(80895),
             u = l(1620),
             m = l(15711),
             f = l(66767),
-            x = l(16890),
-            p = l(26947),
+            p = l(16890),
+            x = l(26947),
             h = l(99435),
             g = l(608),
             v = l(43042),
             b = l(95344),
             y = e([c, u, h]);
           function j(e) {
-            var t, l, s, a, y, j, w, N, z, k, I, S, R, C, _, L, A;
+            var t, l, s, a, y, j, w, N, z, k, S, I, R, _, A, L, C;
             let {
                 room: T,
-                roomId: E,
-                activeRoomIndex: O,
-                moveToNextRoom: D,
-                onRoomCompleted: F,
+                roomId: O,
+                activeRoomIndex: D,
+                moveToNextRoom: E,
+                onRoomCompleted: P,
               } = e,
-              P = (0, i.useRouter)(),
+              F = (0, o.useRouter)(),
               { isLoggedIn: M, userData: B } = (0, h.u)(),
               U = null == (t = T.tombDoor) ? void 0 : t.fields,
-              G = null == U ? void 0 : U.closedImage,
-              W = null == U ? void 0 : U.openImage,
+              W = null == U ? void 0 : U.closedImage,
+              G = null == U ? void 0 : U.openImage,
               H =
-                null != (S = null == U ? void 0 : U.title) ? S : "Closed Door",
+                null != (I = null == U ? void 0 : U.title) ? I : "Closed Door",
               J = null != (R = null == U ? void 0 : U.title) ? R : "Open Door",
               V = null == (l = T.laraCroft) ? void 0 : l.fields,
               q = null == V ? void 0 : V.image,
-              X = T.laraShift,
-              Y = "";
-            "Left" === X
-              ? (Y = "-translate-x-1/2")
-              : "Right" === X && (Y = "translate-x-1/2");
-            let K = null == (s = T.puzzleBackground) ? void 0 : s.fields,
-              Q = T.showCountdown,
-              Z = null != (C = T.countdownMessage) ? C : "",
+              Q = T.laraShift,
+              X = "";
+            "Left" === Q
+              ? (X = "-translate-x-1/2")
+              : "Right" === Q && (X = "translate-x-1/2");
+            let Y = null == (s = T.puzzleBackground) ? void 0 : s.fields,
+              K = T.showCountdown,
+              Z = null != (_ = T.countdownMessage) ? _ : "",
               [$, ee] = (0, n.useState)(!1),
               [et, el] = (0, n.useState)(!1),
               [es, er] = (0, n.useState)(),
               [en, ea] = (0, n.useState)(!1),
-              eo = T.isUnlocked,
-              [ei, ec] = (0, n.useState)(!1),
+              ei = T.isUnlocked,
+              [eo, ec] = (0, n.useState)(!1),
               ed = (0, n.useMemo)(
-                () => (eo ? T.glyphOptions.filter((e) => null != e) : []),
-                [eo, T.glyphOptions],
+                () => (ei ? T.glyphOptions.filter((e) => null != e) : []),
+                [ei, T.glyphOptions],
               ),
               eu = (0, n.useRef)(null),
               em = (0, n.useRef)(null),
               ef = (0, n.useRef)(null),
-              ex = (0, n.useRef)(null),
               ep = (0, n.useRef)(null),
+              ex = (0, n.useRef)(null),
               eh = (0, n.useRef)(null),
               eg = (0, n.useRef)(null),
               ev = (0, n.useRef)(null),
               eb = (0, n.useRef)(null),
               ey = (0, n.useRef)(null),
               ej = (0, n.useRef)(null);
-            return ((0, x.L)(
+            return ((0, p.L)(
               () => {
                 eb.current &&
                   ey.current &&
-                  p.A.fromTo(
+                  x.A.fromTo(
                     [eb.current, ey.current],
                     { opacity: 0 },
                     { opacity: 1, stagger: 0.5, delay: 0.8, overwrite: !0 },
                   );
               },
-              { scope: eu, dependencies: [O] },
+              { scope: eu, dependencies: [D] },
             ),
-            (0, x.L)(
+            (0, p.L)(
               () => {
-                p.A.timeline({
+                x.A.timeline({
                   scrollTrigger: {
                     trigger: eu.current,
                     start: "top bottom",
@@ -656,20 +783,20 @@
                   { opacity: 1, duration: 2 },
                 );
               },
-              { scope: eu, dependencies: [O] },
+              { scope: eu, dependencies: [D] },
             ),
-            (0, x.L)(
+            (0, p.L)(
               () => {
                 et &&
                   ef.current &&
-                  ep.current &&
-                  (ej.current = p.A.timeline()
+                  ex.current &&
+                  (ej.current = x.A.timeline()
                     .to(ef.current, {
                       opacity: 0,
                       duration: 1,
                       ease: "power2.inOut",
                     })
-                    .to([ep.current, ex.current], {
+                    .to([ex.current, ep.current], {
                       scale: 10,
                       duration: 1,
                       ease: "power2.inOut",
@@ -697,7 +824,7 @@
                       "<+=0.3",
                     ));
               },
-              { dependencies: [et, ef, ep, eh, eg] },
+              { dependencies: [et, ef, ex, eh, eg] },
             ),
             (0, n.useEffect)(() => {
               !(async function () {
@@ -711,16 +838,16 @@
                       (console.log(
                         "[PuzzleRoom] Processing pending puzzle for room "
                           .concat(e, ", current room: ")
-                          .concat(E),
+                          .concat(O),
                       ),
-                        (l = e === E));
+                        (l = e === O));
                     }
                     let s = await fetch("/api/puzzle/completed-rooms"),
                       r = (
                         (null == (e = (await s.json()).data)
                           ? void 0
                           : e.completedRoomIds) || []
-                      ).includes(E);
+                      ).includes(O);
                     if (l) {
                       (sessionStorage.removeItem("pendingPuzzleSolved"),
                         console.log(
@@ -729,7 +856,7 @@
                       let e = await fetch("/api/puzzle/grant-reward", {
                           method: "POST",
                           headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ roomId: E }),
+                          body: JSON.stringify({ roomId: O }),
                         }),
                         t = await e.json();
                       t.data
@@ -739,7 +866,7 @@
                           er(t.data.rewardImageUrl),
                           el(!0),
                           ec(!0),
-                          F(E))
+                          P(O))
                         : console.error(
                             "[PuzzleRoom] Failed to grant reward - no data in response",
                             t,
@@ -748,7 +875,7 @@
                       let e = await fetch("/api/puzzle/grant-reward", {
                           method: "POST",
                           headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ roomId: E }),
+                          body: JSON.stringify({ roomId: O }),
                         }),
                         t = await e.json();
                       t.data && (er(t.data.rewardImageUrl), ec(!0));
@@ -760,9 +887,9 @@
                     );
                   }
               })();
-            }, [M, E, F]),
+            }, [M, O, P]),
             (0, n.useEffect)(() => {
-              if (!eo && Q) {
+              if (!ei && K) {
                 var e;
                 (0, b.sendGTMEvent)({
                   event: "challenge_locked_view",
@@ -770,17 +897,17 @@
                     (null == B || null == (e = B.accountInfo)
                       ? void 0
                       : e.playFabId) || null,
-                  roomId: E,
-                  puzzleId: E,
+                  roomId: O,
+                  puzzleId: O,
                 });
               }
             }, [
-              eo,
-              Q,
-              E,
+              ei,
+              K,
+              O,
               null == B || null == (a = B.accountInfo) ? void 0 : a.playFabId,
             ]),
-            U && V && K)
+            U && V && Y)
               ? (0, r.jsxs)(r.Fragment, {
                   children: [
                     (0, r.jsxs)("div", {
@@ -801,7 +928,7 @@
                                 "from-trueblack absolute top-1/2 left-1/2 hidden h-[200%] w-[200%] -translate-x-1/2 -translate-y-1/2 bg-radial to-60% md:block",
                             }),
                             !et &&
-                              (eo
+                              (ei
                                 ? (0, r.jsxs)("div", {
                                     className: "relative z-10",
                                     children: [
@@ -838,8 +965,8 @@
                                   })),
                           ],
                         }),
-                        !eo &&
-                          Q &&
+                        !ei &&
+                          K &&
                           (0, r.jsxs)("div", {
                             ref: em,
                             className:
@@ -854,9 +981,9 @@
                                 children: [
                                   (0, r.jsx)(d.A, {
                                     msUntilUnlock: T.msUntilUnlock,
-                                    isUnlocked: eo,
+                                    isUnlocked: ei,
                                     message: Z,
-                                    unlockPuzzle: () => P.reload(),
+                                    unlockPuzzle: () => F.reload(),
                                   }),
                                   T.allowNotify &&
                                     !M &&
@@ -876,23 +1003,23 @@
                               }),
                             ],
                           }),
-                        eo &&
+                        ei &&
                           !et &&
                           (0, r.jsx)("div", {
                             className: "my-12",
                             children: (0, r.jsx)(f.A, {
                               onUnlock: () => ee(!0),
                               overlayText:
-                                null != (_ = T.puzzleSliderText)
-                                  ? _
+                                null != (A = T.puzzleSliderText)
+                                  ? A
                                   : "Start the Puzzle",
                               id: "vaultDoorSlider",
                             }),
                           }),
                       ],
                     }),
-                    G &&
-                      (null == (y = G.fields.file) ? void 0 : y.url) &&
+                    W &&
+                      (null == (y = W.fields.file) ? void 0 : y.url) &&
                       (0, r.jsxs)(r.Fragment, {
                         children: [
                           (0, r.jsx)("div", {
@@ -903,10 +1030,10 @@
                             className:
                               "from-trueblack absolute top-0 right-0 z-[7] h-full w-1/3 bg-gradient-to-l to-75% opacity-75",
                           }),
-                          (0, r.jsx)(o(), {
-                            ref: ex,
+                          (0, r.jsx)(i(), {
+                            ref: ep,
                             src: (0, c._c)(
-                              null == (j = G.fields.file) ? void 0 : j.url,
+                              null == (j = W.fields.file) ? void 0 : j.url,
                             ),
                             alt: H,
                             className:
@@ -920,12 +1047,12 @@
                       className:
                         "absolute top-0 left-1/2 aspect-square h-full -translate-x-1/2",
                       children: [
-                        G &&
-                          (null == (w = G.fields.file) ? void 0 : w.url) &&
-                          (0, r.jsx)(o(), {
+                        W &&
+                          (null == (w = W.fields.file) ? void 0 : w.url) &&
+                          (0, r.jsx)(i(), {
                             ref: ef,
                             src: (0, c._c)(
-                              null == (N = G.fields.file) ? void 0 : N.url,
+                              null == (N = W.fields.file) ? void 0 : N.url,
                             ),
                             alt: H,
                             className: "relative z-[6]",
@@ -938,12 +1065,12 @@
                                 "linear-gradient(to right, rgba(0,0,0,0.0) 0%, rgba(0,0,0,1.0) 15%, rgba(0,0,0,1.0) 85%, rgba(0,0,0,0.0) 100%)",
                             },
                           }),
-                        W &&
-                          (null == (z = W.fields.file) ? void 0 : z.url) &&
-                          (0, r.jsx)(o(), {
-                            ref: ep,
+                        G &&
+                          (null == (z = G.fields.file) ? void 0 : z.url) &&
+                          (0, r.jsx)(i(), {
+                            ref: ex,
                             src: (0, c._c)(
-                              null == (k = W.fields.file) ? void 0 : k.url,
+                              null == (k = G.fields.file) ? void 0 : k.url,
                             ),
                             alt: J,
                             className: "relative z-[5]",
@@ -959,22 +1086,22 @@
                         (0, r.jsx)("div", {
                           className:
                             "absolute bottom-0 left-1/2 z-20 aspect-[9/16] w-1/4 -translate-x-1/2",
-                          children: (0, r.jsx)(o(), {
+                          children: (0, r.jsx)(i(), {
                             ref: eh,
                             src: (0, c._c)(
-                              null == q || null == (I = q.fields.file)
+                              null == q || null == (S = q.fields.file)
                                 ? void 0
-                                : I.url,
+                                : S.url,
                             ),
                             alt: "An image of Lara Croft facing the challenge tomb ahead.",
                             priority: !0,
                             fill: !0,
-                            className: "".concat(Y),
+                            className: "".concat(X),
                           }),
                         }),
                       ],
                     }),
-                    eo &&
+                    ei &&
                       (0, r.jsx)(u.A, {
                         open: $,
                         close: () => {
@@ -983,16 +1110,16 @@
                         glyphOptions: ed,
                         puzzleHeadline: null != (L = T.puzzleHeadline) ? L : "",
                         puzzleDescription:
-                          null != (A = T.puzzleDescription) ? A : "",
-                        puzzleBackground: null == K ? void 0 : K.image,
-                        roomId: E,
+                          null != (C = T.puzzleDescription) ? C : "",
+                        puzzleBackground: null == Y ? void 0 : Y.image,
+                        roomId: O,
                         isLoggedIn: M,
                         solvePuzzle: (e) => {
-                          (el(!0), er(e), M && F(E));
+                          (el(!0), er(e), M && P(O));
                         },
                         puzzleSolveButtonText: T.puzzleSolveButtonText,
                         puzzleBackButtonText: T.puzzleBackButtonText,
-                        isRoomCompleted: ei,
+                        isRoomCompleted: eo,
                         viewReward: () => {
                           el(!0);
                         },
@@ -1016,13 +1143,13 @@
                             className:
                               "bg-trueblack relative mb-6 size-48 flex-none scale-0 overflow-hidden rounded-full shadow-[0_0_32px_16px_rgba(234,179,8,0.4)]",
                             children: es
-                              ? (0, r.jsx)(o(), {
+                              ? (0, r.jsx)(i(), {
                                   src: es,
                                   alt: "Reward",
                                   fill: !0,
                                   className: "object-cover",
                                 })
-                              : (0, r.jsx)(o(), {
+                              : (0, r.jsx)(i(), {
                                   src: "/images/tombraider-logo.webp",
                                   alt: "Tombraider Logo",
                                   fill: !0,
@@ -1047,13 +1174,13 @@
                                     (0, r.jsx)(m.A, {
                                       className: "my-6",
                                       onClick: () => {
-                                        P.push("/account");
+                                        F.push("/account");
                                       },
                                       children: T.congratsViewRewardButtonText,
                                     }),
                                     (0, r.jsx)("button", {
                                       className: "cursor-pointer underline",
-                                      onClick: D,
+                                      onClick: E,
                                       children:
                                         T.congratsContinuePlayingButtonText,
                                     }),
@@ -1119,11 +1246,11 @@
             label: n = "Open Vault Door",
             id: a = "unlockSwitch",
           } = e,
-          [o, i] = (0, r.useState)(0);
+          [i, o] = (0, r.useState)(0);
         return (
           (0, r.useEffect)(() => {
-            o > 90 && (t(), i(0));
-          }, [o, t]),
+            i > 90 && (t(), o(0));
+          }, [i, t]),
           (0, s.jsxs)("div", {
             className:
               "unlock-switch relative z-50 mx-auto w-64 cursor-pointer rounded-full border border-white/60 bg-black/90 p-2",
@@ -1138,11 +1265,11 @@
                 className:
                   "relative block h-12 w-full cursor-pointer appearance-none rounded-full bg-transparent",
                 type: "range",
-                value: o,
+                value: i,
                 max: 100,
                 id: a,
                 name: a,
-                onChange: (e) => i(Number(e.target.value)),
+                onChange: (e) => o(Number(e.target.value)),
               }),
               (0, s.jsx)("span", {
                 className:
@@ -1156,40 +1283,40 @@
     },
     71003: (e, t, l) => {
       "use strict";
-      l.d(t, { A: () => o });
+      l.d(t, { A: () => i });
       var s = l(2183),
         r = l(36439),
         n = l(96006),
         a = l.n(n);
-      function o(e) {
+      function i(e) {
         let {
             rooms: t,
             activeRoomIndex: l,
             onRoomClick: n,
-            firstLockedIndex: o,
-            completedRoomIds: i,
+            firstLockedIndex: i,
+            completedRoomIds: o,
             roomIds: c,
           } = e,
           d = (0, r.useRef)(null),
           [u, m] = (0, r.useState)(!1),
-          [f, x] = (0, r.useState)(!1),
-          p = () => {
+          [f, p] = (0, r.useState)(!1),
+          x = () => {
             let e = d.current;
             if (!e) return;
             let { scrollLeft: t, scrollWidth: l, clientWidth: s } = e;
-            (m(t > 10), x(l - s - t > 10));
+            (m(t > 10), p(l - s - t > 10));
           };
         return (
           (0, r.useEffect)(() => {
-            p();
+            x();
             let e = d.current;
             if (e)
               return (
-                e.addEventListener("scroll", p),
-                window.addEventListener("resize", p),
+                e.addEventListener("scroll", x),
+                window.addEventListener("resize", x),
                 () => {
-                  (e.removeEventListener("scroll", p),
-                    window.removeEventListener("resize", p));
+                  (e.removeEventListener("scroll", x),
+                    window.removeEventListener("resize", x));
                 }
               );
           }, [t]),
@@ -1253,12 +1380,12 @@
                     "navigation-container flex snap-x snap-mandatory gap-3 overflow-x-auto overflow-y-hidden scroll-smooth px-4 py-3",
                   children: t.map((e, t) => {
                     let r = t === l,
-                      d = -1 !== o && t > o,
+                      d = -1 !== i && t > i,
                       u = !1;
                     if (!d && c[t])
                       for (let e = 0; e < t; e++) {
                         let t = c[e];
-                        if (t && !i.includes(t)) {
+                        if (t && !o.includes(t)) {
                           u = !0;
                           break;
                         }
@@ -1301,6 +1428,22 @@
         );
       }
     },
+    71429: (e, t, l) => {
+      "use strict";
+      l.d(t, { A: () => a });
+      var s = l(2183),
+        r = l(14623),
+        n = l.n(r);
+      function a(e) {
+        let { data: t } = e;
+        return (0, s.jsx)(n(), {
+          children: (0, s.jsx)("script", {
+            type: "application/ld+json",
+            dangerouslySetInnerHTML: { __html: JSON.stringify(t) },
+          }),
+        });
+      }
+    },
     73985: (e, t, l) => {
       "use strict";
       l.a(e, async (e, s) => {
@@ -1309,8 +1452,8 @@
           var r = l(2183),
             n = l(36439),
             a = l(96006),
-            o = l.n(a),
-            i = l(26947),
+            i = l.n(a),
+            o = l(26947),
             c = l(92446),
             d = e([c]);
           c = (d.then ? (await d)() : d)[0];
@@ -1325,24 +1468,24 @@
                 let e = s.findIndex((e) => e.sys.id === l);
                 return e >= 0 ? e : 0;
               }),
-              x = (0, n.useRef)(null);
+              p = (0, n.useRef)(null);
             return (
               (0, n.useEffect)(() => {
                 let e = s.findIndex((e) => e.sys.id === l);
                 e >= 0 && f(e);
               }, [l, s]),
               (0, n.useEffect)(() => {
-                let e = i.A.context(() => {
-                  i.A.fromTo(
+                let e = o.A.context(() => {
+                  o.A.fromTo(
                     ".glyph-" + m,
                     { y: "up" === d ? 10 : -10, opacity: 0, overwrite: "auto" },
                     { y: 0, opacity: 1 },
                   );
-                }, x);
+                }, p);
                 return () => e.revert();
               }, [m]),
               (0, r.jsxs)("div", {
-                ref: x,
+                ref: p,
                 className: "flex w-1/4 flex-col justify-center",
                 children: [
                   (0, r.jsx)("button", {
@@ -1368,7 +1511,7 @@
                             "glyph-" + t,
                             " absolute flex h-full w-full items-center justify-center p-2 opacity-0",
                           ),
-                          children: (0, r.jsx)(o(), {
+                          children: (0, r.jsx)(i(), {
                             src: (() => {
                               var t;
                               if (
@@ -1434,36 +1577,40 @@
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          l.d(t, { A: () => f });
+          l.d(t, { A: () => x });
           var r = l(2183),
             n = l(96006),
             a = l.n(n),
-            o = l(11677),
-            i = l.n(o),
+            i = l(11677),
+            o = l.n(i),
             c = l(99435),
             d = l(7345),
-            u = l(92446),
-            m = e([c, u]);
-          function f(e) {
+            u = l(71429),
+            m = l(92446),
+            f = l(4243),
+            p = e([c, m, f]);
+          function x(e) {
             var t, l, s;
-            let { websiteSingleton: n, navItems: o, footerSocialLinks: m } = e,
-              { isLoggedIn: f, shopifyUrl: x } = (0, c.u)(),
-              p = o.filter(
-                (e) => e.showInFooter && !(f && e.hideForLoggedInUsers),
+            let { websiteSingleton: n, navItems: i, footerSocialLinks: p } = e,
+              { isLoggedIn: x, shopifyUrl: h } = (0, c.u)(),
+              g = i.filter(
+                (e) => e.showInFooter && !(x && e.hideForLoggedInUsers),
               ),
-              h = o.filter(
-                (e) => e.showInSubFooter && !(f && e.hideForLoggedInUsers),
+              v = i.filter(
+                (e) => e.showInSubFooter && !(x && e.hideForLoggedInUsers),
               );
-            return (0, r.jsxs)("div", {
+            return (0, r.jsxs)("footer", {
               className: "relative w-full bg-black px-8 text-white lg:px-32",
               children: [
+                (0, r.jsx)(u.A, { data: (0, f._8)(n, p) }),
+                (0, r.jsx)(u.A, { data: (0, f.OU)() }),
                 (0, r.jsxs)("div", {
                   className:
                     "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
                   children: [
                     (0, r.jsx)("div", {
                       children: (0, r.jsx)(a(), {
-                        src: (0, u._c)(
+                        src: (0, m._c)(
                           null == (l = n.footerLogo) ||
                             null == (t = l.fields.file)
                             ? void 0
@@ -1471,7 +1618,7 @@
                         ),
                         width: 248,
                         height: 248,
-                        alt: (0, u._c)(
+                        alt: (0, m._c)(
                           null == (s = n.footerLogo)
                             ? void 0
                             : s.fields.description,
@@ -1479,18 +1626,19 @@
                         className: "w-40",
                       }),
                     }),
-                    (0, r.jsxs)("div", {
+                    (0, r.jsxs)("nav", {
+                      "aria-label": "Footer",
                       className:
                         "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
                       children: [
-                        p.map((e) => {
+                        g.map((e) => {
                           let t = e.link;
                           return (
                             e.shouldReplaceWithGeneratedShopLink &&
-                              x &&
-                              (t = x),
+                              h &&
+                              (t = h),
                             (0, r.jsx)(
-                              i(),
+                              o(),
                               { href: t, children: e.name },
                               e.link + e.name,
                             )
@@ -1527,14 +1675,14 @@
                     }),
                     (0, r.jsx)("div", {
                       className: "flex items-center space-x-4 text-white",
-                      children: m.map((e) => {
+                      children: p.map((e) => {
                         var t, l, s, n;
                         return (0, r.jsx)(
                           d.A,
                           {
                             href: e.link,
                             children: (0, r.jsx)(a(), {
-                              src: (0, u._c)(
+                              src: (0, m._c)(
                                 null == (l = e.icon) ||
                                   null == (t = l.fields.file)
                                   ? void 0
@@ -1568,10 +1716,11 @@
                         "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
                       children: n.footerLegalNotice,
                     }),
-                    (0, r.jsx)("div", {
+                    (0, r.jsx)("nav", {
+                      "aria-label": "Legal",
                       className:
                         "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
-                      children: h.map((e) =>
+                      children: v.map((e) =>
                         (0, r.jsx)(
                           "a",
                           { href: e.link, children: e.name },
@@ -1584,7 +1733,7 @@
               ],
             });
           }
-          (([c, u] = m.then ? (await m)() : m), s());
+          (([c, m, f] = p.then ? (await p)() : p), s());
         } catch (e) {
           s(e);
         }
@@ -1602,7 +1751,7 @@
             message: n,
             unlockPuzzle: a,
           } = e,
-          [o, i] = (0, r.useState)({
+          [i, o] = (0, r.useState)({
             days: 0,
             hours: 0,
             minutes: 0,
@@ -1617,13 +1766,13 @@
             if (t > 0) {
               let e = Math.floor(t / 864e5),
                 l = Math.floor((t % 864e5) / 36e5);
-              i({
+              o({
                 days: e,
                 hours: l,
                 minutes: Math.floor((t % 36e5) / 6e4),
                 seconds: Math.floor((t % 6e4) / 1e3),
               });
-            } else (i({ days: 0, hours: 0, minutes: 0, seconds: 0 }), a());
+            } else (o({ days: 0, hours: 0, minutes: 0, seconds: 0 }), a());
           };
           e();
           let t = setInterval(e, 1e3);
@@ -1644,7 +1793,7 @@
                         children: [
                           (0, s.jsx)("span", {
                             className: "font-spline-sans-mono text-5xl",
-                            children: o.days.toString().padStart(2, "0"),
+                            children: i.days.toString().padStart(2, "0"),
                           }),
                           (0, s.jsx)("span", {
                             className: "text-xs uppercase text-[#9D9D9C]",
@@ -1661,7 +1810,7 @@
                         children: [
                           (0, s.jsx)("span", {
                             className: "font-spline-sans-mono text-5xl",
-                            children: o.hours.toString().padStart(2, "0"),
+                            children: i.hours.toString().padStart(2, "0"),
                           }),
                           (0, s.jsx)("span", {
                             className: "text-xs uppercase text-[#9D9D9C]",
@@ -1678,7 +1827,7 @@
                         children: [
                           (0, s.jsx)("span", {
                             className: "font-spline-sans-mono text-5xl",
-                            children: o.minutes.toString().padStart(2, "0"),
+                            children: i.minutes.toString().padStart(2, "0"),
                           }),
                           (0, s.jsx)("span", {
                             className: "text-xs uppercase text-[#9D9D9C]",
@@ -1695,7 +1844,7 @@
                         children: [
                           (0, s.jsx)("span", {
                             className: "font-spline-sans-mono text-5xl",
-                            children: o.seconds.toString().padStart(2, "0"),
+                            children: i.seconds.toString().padStart(2, "0"),
                           }),
                           (0, s.jsx)("span", {
                             className: "text-xs uppercase text-[#9D9D9C]",
@@ -1722,11 +1871,40 @@
         },
       ]);
     },
+    91134: (e, t, l) => {
+      "use strict";
+      l.d(t, { A: () => a });
+      var s = l(2183),
+        r = l(14623),
+        n = l.n(r);
+      function a(e) {
+        let { description: t } = e;
+        return (0, s.jsxs)(n(), {
+          children: [
+            (0, s.jsx)(
+              "meta",
+              { name: "description", content: t },
+              "description",
+            ),
+            (0, s.jsx)(
+              "meta",
+              { property: "og:description", content: t },
+              "og:description",
+            ),
+            (0, s.jsx)(
+              "meta",
+              { name: "twitter:description", content: t },
+              "twitter:description",
+            ),
+          ],
+        });
+      }
+    },
   },
   (e) => {
     (e.O(
       0,
-      [9950, 8762, 6006, 1433, 1329, 1175, 4971, 5216, 2446, 636, 6593, 8792],
+      [9950, 8762, 6006, 1433, 1329, 1089, 4971, 5216, 2446, 636, 6593, 8792],
       () => e((e.s = 86020)),
     ),
       (_N_E = e.O()));

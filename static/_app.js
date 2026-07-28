@@ -115,6 +115,11 @@
         }
       e.exports = n;
     },
+    2371: (e, t, r) => {
+      "use strict";
+      r.d(t, { W: () => n });
+      let n = "https://www.tombraider.com";
+    },
     2517: (e, t, r) => {
       "use strict";
       r.d(t, { l1: () => u });
@@ -61993,7 +61998,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
       "use strict";
       r.a(e, async (e, n) => {
         try {
-          (r.r(t), r.d(t, { default: () => m }));
+          (r.r(t), r.d(t, { default: () => g }));
           var i = r(2183),
             a = r(71903),
             o = r(21021),
@@ -62004,27 +62009,31 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
             l = r.n(c);
           (r(24813), r(4197), r(99871), r(92597), r(18855));
           var f = r(36439),
-            d = r(95344),
-            h = r(23727),
-            p = e([u]);
-          function m(e) {
+            d = r(18652),
+            h = r(95344),
+            p = r(2371),
+            m = r(23727),
+            y = e([u]);
+          function g(e) {
             var t;
             let { Component: r, pageProps: n } = e,
-              [c, p] = (0, f.useState)(
-                (null == (t = h.env.NEXT_PUBLIC_MAINTENANCE_MODE)
+              c = (0, d.useRouter)(),
+              y = "".concat(p.W).concat(c.asPath.split(/[?#]/)[0]),
+              [g, b] = (0, f.useState)(
+                (null == (t = m.env.NEXT_PUBLIC_MAINTENANCE_MODE)
                   ? void 0
                   : t.toLowerCase()) === "true",
               );
             return ((0, f.useEffect)(() => {
               var e;
               let t =
-                  (null == (e = h.env.NEXT_PUBLIC_MAINTENANCE_MODE)
+                  (null == (e = m.env.NEXT_PUBLIC_MAINTENANCE_MODE)
                     ? void 0
                     : e.toLowerCase()) === "true",
                 r = localStorage.getItem("maintenanceBypass");
-              p(t && !r);
+              b(t && !r);
             }, []),
-            c)
+            g)
               ? (0, i.jsxs)(i.Fragment, {
                   children: [
                     (0, i.jsx)(l(), {
@@ -62040,6 +62049,11 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
                     (0, i.jsxs)(l(), {
                       children: [
                         (0, i.jsx)("title", { children: "Tomb Raider" }),
+                        (0, i.jsx)(
+                          "link",
+                          { rel: "canonical", href: y },
+                          "canonical",
+                        ),
                         (0, i.jsx)(
                           "meta",
                           {
@@ -62072,7 +62086,10 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
                           "meta",
                           {
                             property: "og:image",
-                            content: "/images/Tomb-Raider-Opengraph.png",
+                            content: "".concat(
+                              p.W,
+                              "/images/Tomb-Raider-Opengraph.png",
+                            ),
                           },
                           "og:image",
                         ),
@@ -62122,7 +62139,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
                         ),
                       ],
                     }),
-                    (0, i.jsx)(d.GoogleTagManager, { gtmId: "GTM-MLGX5W4V" }),
+                    (0, i.jsx)(h.GoogleTagManager, { gtmId: "GTM-MLGX5W4V" }),
                     (0, i.jsxs)(s.N, {
                       children: [
                         (0, i.jsx)(a.A, {}),
@@ -62132,7 +62149,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
                   ],
                 });
           }
-          ((u = (p.then ? (await p)() : p)[0]), n());
+          ((u = (y.then ? (await y)() : y)[0]), n());
         } catch (e) {
           n(e);
         }

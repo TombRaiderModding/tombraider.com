@@ -70,7 +70,7 @@
     },
     2581: (e, t, r) => {
       "use strict";
-      r.d(t, { h: () => m });
+      r.d(t, { h: () => h });
       var a = r(2183),
         l = r(36439),
         o = r(51472),
@@ -80,8 +80,8 @@
         c = r(26974),
         d = r(96006),
         u = r.n(d),
-        h = r(95344);
-      let m = {
+        m = r(95344);
+      let h = {
         LeftContent: function (e) {
           var t, r;
           let { image: l } = e,
@@ -111,7 +111,7 @@
               onSkip: r,
               control: d,
               errors: u,
-              isSigningUpWithEmail: m,
+              isSigningUpWithEmail: h,
               trigger: g,
               setError: f,
               onNewsletterUpdate: x,
@@ -123,17 +123,17 @@
             [j, N] = (0, l.useState)(!1),
             k = (0, s.FH)({ control: d, name: "newsletterContactEmail" }),
             A = async () => {
-              if (!m && !(null == k ? void 0 : k.trim()))
+              if (!h && !(null == k ? void 0 : k.trim()))
                 return void f("newsletterContactEmail", {
                   type: "manual",
                   message:
                     "Please provide an email address for newsletter updates",
                 });
-              if (m ? await g() : await g("newsletterContactEmail")) {
+              if (h ? await g() : await g("newsletterContactEmail")) {
                 w(!0);
                 try {
                   (await x(),
-                    (0, h.sendGTMEvent)({
+                    (0, m.sendGTMEvent)({
                       event: "registration_newsletter_subscribe",
                     }),
                     t());
@@ -186,7 +186,7 @@
                   }),
                 ],
               }),
-              !m &&
+              !h &&
                 (0, a.jsx)(s.xI, {
                   name: "newsletterContactEmail",
                   control: d,
@@ -242,7 +242,7 @@
                   }),
                   (0, a.jsx)("button", {
                     onClick: () => {
-                      ((0, h.sendGTMEvent)({
+                      ((0, m.sendGTMEvent)({
                         event: "registration_newsletter_skip",
                       }),
                         r());
@@ -264,21 +264,28 @@
       "use strict";
       r.a(e, async (e, a) => {
         try {
-          (r.r(t), r.d(t, { __N_SSG: () => s, default: () => c }));
+          (r.r(t), r.d(t, { __N_SSG: () => c, default: () => d }));
           var l = r(2183),
-            o = r(56678),
-            n = r(12268),
-            i = e([o, n]);
-          [o, n] = i.then ? (await i)() : i;
-          var s = !0;
-          function c(e) {
+            o = r(91134),
+            n = r(56678),
+            i = r(12268),
+            s = e([n, i]);
+          [n, i] = s.then ? (await s)() : s;
+          var c = !0;
+          function d(e) {
             let { websiteSingleton: t, navItems: r, registrationPage: a } = e;
-            return (0, l.jsx)(n.A, {
-              children: (0, l.jsx)(o.A, {
-                websiteSingleton: t,
-                navItems: r,
-                registrationPage: a,
-              }),
+            return (0, l.jsxs)(i.A, {
+              children: [
+                (0, l.jsx)(o.A, {
+                  description:
+                    "Register for a Tomb Raider account and join the Society of Raiders. Get exclusive rewards, monthly newsletters, and special Lara Croft member-only perks.",
+                }),
+                (0, l.jsx)(n.A, {
+                  websiteSingleton: t,
+                  navItems: r,
+                  registrationPage: a,
+                }),
+              ],
             });
           }
           a();
@@ -303,7 +310,7 @@
       "use strict";
       r.a(e, async (e, a) => {
         try {
-          r.d(t, { j: () => h });
+          r.d(t, { j: () => m });
           var l = r(2183),
             o = r(36439),
             n = r(12801),
@@ -312,14 +319,14 @@
             c = r(2581),
             d = r(55109),
             u = e([d]);
-          function h(e) {
+          function m(e) {
             let {
                 currentStep: t,
                 onNext: r,
                 onSkip: a,
                 onBack: u,
-                control: h,
-                errors: m,
+                control: m,
+                errors: h,
                 setValue: g,
                 trigger: f,
                 setError: x,
@@ -398,8 +405,8 @@
                               (0, l.jsx)(s.Q.RightContent, {
                                 onNext: r,
                                 onBack: u,
-                                control: h,
-                                errors: m,
+                                control: m,
+                                errors: h,
                                 setValue: g,
                                 trigger: f,
                                 headline: w.raiderDetailsHeadline,
@@ -409,8 +416,8 @@
                               (0, l.jsx)(i.S.RightContent, {
                                 onNext: r,
                                 onBack: u,
-                                control: h,
-                                errors: m,
+                                control: m,
+                                errors: h,
                                 trigger: f,
                                 setError: x,
                                 watch: v,
@@ -423,8 +430,8 @@
                               (0, l.jsx)(c.h.RightContent, {
                                 onNext: r,
                                 onSkip: null != a ? a : r,
-                                control: h,
-                                errors: m,
+                                control: m,
+                                errors: h,
                                 isSigningUpWithEmail: p,
                                 trigger: f,
                                 setError: x,
@@ -458,8 +465,8 @@
         c = r(43042),
         d = r(26974),
         u = r(67895),
-        h = r(15711),
-        m = r(7812);
+        m = r(15711),
+        h = r(7812);
       function g(e) {
         let {
             raiderFeatureSlides: t,
@@ -480,7 +487,7 @@
           [C, S] = (0, l.useState)(0),
           [E, I] = (0, l.useState)(null),
           [P, _] = (0, l.useState)(null),
-          M = (0, m.A)(p);
+          M = (0, h.A)(p);
         return (0, a.jsxs)("div", {
           className:
             "flex w-full flex-col gap-8 lg:flex-row lg:items-center lg:gap-24 xl:gap-32",
@@ -565,7 +572,7 @@
                             b ? "Checking..." : "Continue with Email",
                           ],
                         }),
-                        (0, a.jsx)(h.A, {
+                        (0, a.jsx)(m.A, {
                           onClick: () => w(!1),
                           full: !0,
                           id: "email-signup-back-button",
@@ -702,7 +709,7 @@
                                 "rounded-lg border border-yellow-500 bg-yellow-500 py-2 text-black hover:bg-yellow-300",
                               children: "Continue with Email",
                             }),
-                            (0, a.jsx)(h.A, {
+                            (0, a.jsx)(m.A, {
                               onClick: x,
                               full: !0,
                               id: "login-button",
@@ -818,8 +825,8 @@
             selected: s,
             onSelect: d = () => {},
             placeholder: u = "Options",
-            error: h,
-            variant: m,
+            error: m,
+            variant: h,
             rounded: g = !1,
           } = e,
           f = (e) => (e ? ("string" == typeof e ? e : e.name) : ""),
@@ -834,12 +841,12 @@
               children: (0, a.jsxs)(o.Menu.Button, {
                 className: (0, i.cn)(
                   "flex w-full items-center border-2 bg-white/20 px-3 py-4 backdrop-blur duration-200 outline-none",
-                  h
+                  m
                     ? "border-red-500/40 hover:border-red-500/70 focus:border-red-500/70"
-                    : "dark" === m
+                    : "dark" === h
                       ? "rounded-lg border-black/20 px-5 py-3 hover:border-black/40 focus:border-black/40"
                       : "border-gray-300/20 hover:border-white/50 focus:border-white",
-                  "dark" === m ? "text-black" : "text-white",
+                  "dark" === h ? "text-black" : "text-white",
                   g && "rounded-lg",
                 ),
                 children: [
@@ -853,7 +860,7 @@
                   (0, a.jsx)("div", { className: "grow" }),
                   (0, a.jsx)(n.A, {
                     className: "".concat(
-                      "dark" === m ? "text-black" : "text-yellow",
+                      "dark" === h ? "text-black" : "text-yellow",
                       " -mr-1 h-6 w-6",
                     ),
                     "aria-hidden": "true",
@@ -936,8 +943,8 @@
             celebrationDescription: c,
             celebrationImage: d,
           } = e,
-          [u, h] = (0, l.useState)(!1),
-          m = (
+          [u, m] = (0, l.useState)(!1),
+          h = (
             null == d || null == (r = d.fields) || null == (t = r.file)
               ? void 0
               : t.url
@@ -946,7 +953,7 @@
             : "/images/welcome/Lara-Croft-Hero.png";
         return (
           (0, l.useEffect)(() => {
-            h(!0);
+            m(!0);
           }, []),
           (0, a.jsxs)("div", {
             className:
@@ -972,7 +979,7 @@
                     (0, a.jsx)("div", {
                       className: "relative z-10 h-full w-full -translate-x-8",
                       children: (0, a.jsx)(n(), {
-                        src: m,
+                        src: h,
                         alt: "Lara Croft",
                         priority: !0,
                         fill: !0,
@@ -1111,8 +1118,8 @@
         });
       }
       var u = r(80777),
-        h = r(94536),
-        m = r(63308);
+        m = r(94536),
+        h = r(63308);
       function g(e) {
         let { avatars: t, currentIndex: r, onSlideChange: o } = e,
           [i, s] = (0, l.useState)(null);
@@ -1122,10 +1129,10 @@
             (0, a.jsx)("div", {
               className: "relative w-full",
               children: (0, a.jsx)(
-                h.RC,
+                m.RC,
                 {
                   grabCursor: !0,
-                  modules: [m.Vx, m.dK],
+                  modules: [h.Vx, h.dK],
                   onSwiper: (e) => {
                     s(e);
                   },
@@ -1157,7 +1164,7 @@
                     let l = t === r,
                       o = !1 === e.isUnlocked;
                     return (0, a.jsx)(
-                      h.qr,
+                      m.qr,
                       {
                         className: "flex items-center justify-center py-4",
                         children: (0, a.jsx)("div", {
@@ -1315,8 +1322,8 @@
               onBack: r,
               control: o,
               errors: n,
-              trigger: h,
-              setError: m,
+              trigger: m,
+              setError: h,
               watch: g,
               onRegistrationSuccess: b,
               headline: y,
@@ -1329,11 +1336,11 @@
             E = g("acceptTermsOfService"),
             I = async () => {
               if (j && !j.isUnlocked)
-                return void m("root", {
+                return void h("root", {
                   type: "manual",
                   message: "Please select an unlocked avatar to continue.",
                 });
-              if (await h(["displayName", "acceptTermsOfService"])) {
+              if (await m(["displayName", "acceptTermsOfService"])) {
                 k(!0);
                 try {
                   (await b(null == j ? void 0 : j.id),
@@ -1484,8 +1491,8 @@
           .filter((e) => "United States of America" !== e.name),
       ];
       var u = r(15711),
-        h = r(96006),
-        m = r.n(h),
+        m = r(96006),
+        h = r.n(m),
         g = r(95344);
       let f = new Date().getFullYear(),
         x = Array.from({ length: 120 }, (e, t) => (f - t).toString()),
@@ -1518,7 +1525,7 @@
               className: "relative mx-auto aspect-square w-full max-w-[500px]",
               children:
                 o &&
-                (0, a.jsx)(m(), {
+                (0, a.jsx)(h(), {
                   src: o,
                   alt: "Raider Details",
                   fill: !0,
@@ -1531,8 +1538,8 @@
                 onNext: t,
                 onBack: r,
                 control: s,
-                errors: h,
-                setValue: m,
+                errors: m,
+                setValue: h,
                 trigger: f,
                 headline: p,
                 description: b,
@@ -1587,15 +1594,15 @@
                               placeholder: "Country",
                               selected: r,
                               onSelect: (e) => {
-                                (t(e), m("stateOrProvinceName", ""));
+                                (t(e), h("stateOrProvinceName", ""));
                               },
                               items: d,
-                              error: h.countryAlpha2Code,
+                              error: m.countryAlpha2Code,
                             });
                           },
                         }),
-                        h.countryAlpha2Code &&
-                          (0, a.jsx)(n.A, { error: h.countryAlpha2Code }),
+                        m.countryAlpha2Code &&
+                          (0, a.jsx)(n.A, { error: m.countryAlpha2Code }),
                       ],
                     }),
                     ("US" === y || "CA" === y) &&
@@ -1620,8 +1627,8 @@
                               });
                             },
                           }),
-                          h.stateOrProvinceName &&
-                            (0, a.jsx)(n.A, { error: h.stateOrProvinceName }),
+                          m.stateOrProvinceName &&
+                            (0, a.jsx)(n.A, { error: m.stateOrProvinceName }),
                         ],
                       }),
                     (0, a.jsxs)("div", {
@@ -1656,7 +1663,7 @@
                                       );
                                     },
                                     items: v,
-                                    error: h.dateOfBirth,
+                                    error: m.dateOfBirth,
                                   });
                                 },
                               }),
@@ -1694,7 +1701,7 @@
                                       },
                                       (e, t) => (t + 1).toString(),
                                     ),
-                                    error: h.dateOfBirth,
+                                    error: m.dateOfBirth,
                                   });
                                 },
                               }),
@@ -1722,15 +1729,15 @@
                                         ),
                                       ),
                                     items: x,
-                                    error: h.dateOfBirth,
+                                    error: m.dateOfBirth,
                                   });
                                 },
                               }),
                             }),
                           ],
                         }),
-                        h.dateOfBirth &&
-                          (0, a.jsx)(n.A, { error: h.dateOfBirth }),
+                        m.dateOfBirth &&
+                          (0, a.jsx)(n.A, { error: m.dateOfBirth }),
                         (0, a.jsx)("p", {
                           className: "mt-2 text-xs text-gray-400",
                           children: "Must be at least 13 years old to register",
@@ -1829,8 +1836,8 @@
             c = r(67895),
             d = r(99435),
             u = r(55109),
-            h = r(95344),
-            m = r(9771),
+            m = r(95344),
+            h = r(9771),
             g = r(18652),
             f = r(9457),
             x = r(22099),
@@ -1909,8 +1916,8 @@
                 [eo, en] = (0, o.useState)(!1),
                 [ei, es] = (0, o.useState)(null),
                 [ec, ed] = (0, o.useState)(!1),
-                [eu, eh] = (0, o.useState)(!1),
-                [em, eg] = (0, o.useState)(!1),
+                [eu, em] = (0, o.useState)(!1),
+                [eh, eg] = (0, o.useState)(!1),
                 [ef, ex] = (0, o.useState)(!1),
                 [ev, ep] = (0, o.useState)(!1),
                 eb = (0, o.useRef)(!1),
@@ -2221,10 +2228,10 @@
                   return (
                     (0, b.FJ)(ey)
                       .then((t) => {
-                        !e && t && eh(!0);
+                        !e && t && em(!0);
                       })
                       .catch((t) => {
-                        e || (console.error(t), eh(!1));
+                        e || (console.error(t), em(!1));
                       }),
                     () => {
                       e = !0;
@@ -2383,7 +2390,7 @@
                   }
                 },
                 eX = async (e) => {
-                  var t, r, a, l, o, n, i, s, c, d, m, g, f, x, v;
+                  var t, r, a, l, o, n, i, s, c, d, h, g, f, x, v;
                   let p,
                     b = W();
                   if (eR) {
@@ -2420,7 +2427,7 @@
                           }
                         : null;
                     (es(s || null),
-                      (0, h.sendGTMEvent)({
+                      (0, m.sendGTMEvent)({
                         event: "registration_form_conversion",
                         value:
                           null == s || null == (a = s.accountInfo)
@@ -2530,7 +2537,7 @@
                       e && (await u.oB({ email: e }), (eb.current = !0));
                     }
                     (es(a || null),
-                      (0, h.sendGTMEvent)({
+                      (0, m.sendGTMEvent)({
                         event: "registration_form_conversion",
                         value:
                           null == a || null == (i = a.accountInfo)
@@ -2607,7 +2614,7 @@
                           'Your Google connection has expired or become invalid. Please click "Continue with Google" above to reconnect.',
                       }),
                       ep(!1)),
-                      (null == (m = Y.root) ? void 0 : m.message) ||
+                      (null == (h = Y.root) ? void 0 : h.message) ||
                         r ||
                         H("root", { message: k.FORM_VALIDATION }));
                     let a = new Set([
@@ -2682,7 +2689,7 @@
                       message:
                         "This email is already registered. Please sign in instead or use a different email.",
                     });
-                  ((0, h.sendGTMEvent)({ event: "registration_email_start" }),
+                  ((0, m.sendGTMEvent)({ event: "registration_email_start" }),
                     e1());
                 },
                 e5 = (0, o.useCallback)(() => {
@@ -2703,7 +2710,7 @@
                       message:
                         "Google login is still initializing. Please try again in a moment.",
                     });
-                  ((0, h.sendGTMEvent)({
+                  ((0, m.sendGTMEvent)({
                     event: "registration_sso_google_start",
                   }),
                     q(),
@@ -2732,7 +2739,7 @@
                   children: [
                     1 === L &&
                       !eR &&
-                      (0, l.jsx)(m.v, {
+                      (0, l.jsx)(h.v, {
                         onNext: e1,
                         onEmailSignUp: e2,
                         onGoogleSignUp: () => {
@@ -2749,7 +2756,7 @@
                               message:
                                 "Facebook login is still initializing. Please try again in a moment.",
                             });
-                          ((0, h.sendGTMEvent)({
+                          ((0, m.sendGTMEvent)({
                             event: "registration_sso_facebook_start",
                           }),
                             q(),
@@ -2870,7 +2877,7 @@
                         setIsSigningUpWithEmail: eW,
                         facebookLoginLoading: ec,
                         facebookSdkReady: eu,
-                        googleLoginLoading: em,
+                        googleLoginLoading: eh,
                         googleSdkReady: ef,
                         raiderFeatureSlides: V.raiderFeatureSlides
                           .filter((e) => void 0 !== e)
@@ -2895,8 +2902,8 @@
                             children: [
                               (0, l.jsx)(v.A, {
                                 onClick: e5,
-                                loading: em,
-                                disabled: em || !ef,
+                                loading: eh,
+                                disabled: eh || !ef,
                                 fullWidth: !0,
                                 children: Z
                                   ? "Use a different Google account"
@@ -3035,19 +3042,19 @@
       t.useSyncExternalStoreWithSelector = function (e, t, r, a, d) {
         var u = n(null);
         if (null === u.current) {
-          var h = { hasValue: !1, value: null };
-          u.current = h;
-        } else h = u.current;
-        var m = o(
+          var m = { hasValue: !1, value: null };
+          u.current = m;
+        } else m = u.current;
+        var h = o(
           e,
           (u = s(
             function () {
               function e(e) {
                 if (!i) {
                   if (
-                    ((i = !0), (o = e), (e = a(e)), void 0 !== d && h.hasValue)
+                    ((i = !0), (o = e), (e = a(e)), void 0 !== d && m.hasValue)
                   ) {
-                    var t = h.value;
+                    var t = m.value;
                     if (d(t, e)) return (n = t);
                   }
                   return (n = e);
@@ -3080,12 +3087,12 @@
         return (
           i(
             function () {
-              ((h.hasValue = !0), (h.value = m));
+              ((m.hasValue = !0), (m.value = h));
             },
-            [m],
+            [h],
           ),
-          c(m),
-          m
+          c(h),
+          h
         );
       };
     },
@@ -3094,7 +3101,7 @@
     (e.O(
       0,
       [
-        9950, 1446, 6006, 1433, 1329, 3492, 3357, 7531, 5216, 6906, 636, 6593,
+        9950, 1446, 6006, 1433, 1329, 3492, 3357, 7531, 5216, 7083, 636, 6593,
         8792,
       ],
       () => e((e.s = 69206)),

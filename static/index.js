@@ -117,7 +117,7 @@
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          l.d(t, { A: () => x });
+          l.d(t, { A: () => f });
           var r = l(2183),
             a = l(96006),
             i = l.n(a),
@@ -128,12 +128,12 @@
             d = l(17286),
             m = l(92446),
             h = l(7345),
-            f = e([n, m]);
-          function x(e) {
+            g = e([n, m]);
+          function f(e) {
             var t, l, s, a;
             let {
-                heroCards: f,
-                websiteSingleton: x,
+                heroCards: g,
+                websiteSingleton: f,
                 navItems: p,
                 surveys: v,
                 signUpBanner: w,
@@ -144,20 +144,20 @@
               { width: S = 1600 } = (0, d.A)(),
               z = (e) => {
                 let t = e;
-                (t > f.length && (t = 0),
-                  t < 0 && (t = f.length),
+                (t > g.length && (t = 0),
+                  t < 0 && (t = g.length),
                   j(t),
                   null == y || y.slideTo(t));
               },
               C = () => {
                 k && z(b + 1);
               },
-              E = () => {
+              L = () => {
                 A(!1);
               };
             return (
               (0, o.useEffect)(() => {
-                let e = x.globalSliderAutoplayDelay || 3e3,
+                let e = f.globalSliderAutoplayDelay || 3e3,
                   t = setInterval(C, e);
                 return () => clearInterval(t);
               }, [k, b]),
@@ -183,7 +183,7 @@
                               className: "object-cover object-center",
                               alt: "Golden sunlight filters through the dense foliage of a jungle, illuminating an ancient stone archway and watchful mountain lion.",
                               src: (0, m._c)(
-                                null == (l = x.homepageHeroBackground) ||
+                                null == (l = f.homepageHeroBackground) ||
                                   null == (t = l.fields.file)
                                   ? void 0
                                   : t.url,
@@ -195,7 +195,7 @@
                             }),
                           ],
                         }),
-                        f.map((e, t) => {
+                        g.map((e, t) => {
                           var l, s, a, n, o, c, u;
                           return e.backgroundVideoLink
                             ? (0, r.jsxs)(
@@ -210,7 +210,7 @@
                                   children: [
                                     (0, r.jsx)("iframe", {
                                       src:
-                                        null != (o = f[t].backgroundVideoLink)
+                                        null != (o = g[t].backgroundVideoLink)
                                           ? o
                                           : "",
                                       allow:
@@ -247,7 +247,7 @@
                                       alt:
                                         null !=
                                         (c =
-                                          null == (l = f[t].backgroundImage)
+                                          null == (l = g[t].backgroundImage)
                                             ? void 0
                                             : l.fields.description)
                                           ? c
@@ -256,7 +256,7 @@
                                         null !=
                                           (u =
                                             null ==
-                                              (n = f[t].backgroundImage) ||
+                                              (n = g[t].backgroundImage) ||
                                             null == (a = n.fields) ||
                                             null == (s = a.file)
                                               ? void 0
@@ -293,7 +293,7 @@
                             return (0, r.jsxs)("div", {
                               className:
                                 "space-between relative flex max-w-full grow flex-col-reverse items-center gap-x-8 gap-y-6 lg:flex-row ".concat(
-                                  f[b - 1].secondaryImage
+                                  g[b - 1].secondaryImage
                                     ? "max-w-6xl"
                                     : "max-w-2xl",
                                 ),
@@ -301,7 +301,7 @@
                                 (0, r.jsxs)("div", {
                                   className:
                                     "z-[10] flex max-w-full flex-col items-center text-center md:max-w-2xl ".concat(
-                                      f[b - 1].secondaryImage
+                                      g[b - 1].secondaryImage
                                         ? "lg:items-start lg:text-left"
                                         : "",
                                     ),
@@ -309,21 +309,21 @@
                                     (0, r.jsx)("p", {
                                       className:
                                         "pb-8 text-3xl sm:text-4xl lg:text-5xl",
-                                      children: f[b - 1].title,
+                                      children: g[b - 1].title,
                                     }),
                                     (0, r.jsx)("p", {
                                       className: "text-md pb-12",
-                                      children: f[b - 1].body,
+                                      children: g[b - 1].body,
                                     }),
                                     (0, r.jsx)(h.A, {
-                                      href: f[b - 1].ctaButtonLink,
+                                      href: g[b - 1].ctaButtonLink,
                                       children: (0, r.jsx)(c.A, {
-                                        children: f[b - 1].ctaButtonLabel,
+                                        children: g[b - 1].ctaButtonLabel,
                                       }),
                                     }),
                                   ],
                                 }),
-                                f[b - 1].secondaryImage &&
+                                g[b - 1].secondaryImage &&
                                   (0, r.jsx)("div", {
                                     className:
                                       "relative aspect-[16/9] w-full max-w-xs grow lg:aspect-[16/16] lg:h-[30rem] lg:w-auto lg:max-w-full",
@@ -333,7 +333,7 @@
                                       alt:
                                         null !=
                                         (s =
-                                          null == (e = f[b - 1].secondaryImage)
+                                          null == (e = g[b - 1].secondaryImage)
                                             ? void 0
                                             : e.fields.description)
                                           ? s
@@ -342,7 +342,7 @@
                                         null !=
                                           (a =
                                             null ==
-                                              (l = f[b - 1].secondaryImage) ||
+                                              (l = g[b - 1].secondaryImage) ||
                                             null == (t = l.fields.file)
                                               ? void 0
                                               : t.url)
@@ -354,7 +354,7 @@
                               ],
                             });
                           {
-                            let e = x.homepageHeroLogo;
+                            let e = f.homepageHeroLogo;
                             return (0, r.jsxs)("div", {
                               className:
                                 "flex flex-col items-center justify-center gap-y-6",
@@ -381,7 +381,7 @@
                                   children: (0, r.jsx)("p", {
                                     className:
                                       "z-10 whitespace-nowrap text-base font-bold uppercase tracking-[1.6px]",
-                                    children: x.homepageHeroSubtitle,
+                                    children: f.homepageHeroSubtitle,
                                   }),
                                 }),
                               ],
@@ -402,7 +402,7 @@
                           className:
                             "absolute -left-4 top-10 z-10 hidden cursor-pointer rounded-full border-[1.5px] border-solid border-white bg-white/60 lg:block",
                           onClick: () => {
-                            (z(b - 1), E());
+                            (z(b - 1), L());
                           },
                         }),
                         (0, r.jsx)(i(), {
@@ -413,7 +413,7 @@
                           className:
                             "absolute -right-4 top-10 z-10 hidden cursor-pointer rounded-full border-[1.5px] border-solid border-white bg-white/60 lg:block",
                           onClick: () => {
-                            (z(b + 1), E());
+                            (z(b + 1), L());
                           },
                         }),
                         (0, r.jsxs)(u.RC, {
@@ -425,12 +425,12 @@
                           onSlideChange: (e) => z(e.activeIndex),
                           children: [
                             (0, r.jsx)(u.qr, {
-                              onClick: E,
+                              onClick: L,
                               className: "mx-1",
                               style: { width: 230 },
-                              children: (0, r.jsx)(g, {
+                              children: (0, r.jsx)(x, {
                                 thumbnail: (0, m._c)(
-                                  null == (a = x.homepageHeroBackground) ||
+                                  null == (a = f.homepageHeroBackground) ||
                                     null == (s = a.fields.file)
                                     ? void 0
                                     : s.url,
@@ -442,16 +442,16 @@
                                 setSelectedIndex: (e) => z(e),
                               }),
                             }),
-                            f.map((e, t) => {
+                            g.map((e, t) => {
                               var l, s, a, i;
                               let { thumbnail: n, title: o } = e;
                               return (0, r.jsx)(
                                 u.qr,
                                 {
-                                  onClick: E,
+                                  onClick: L,
                                   className: "mx-1",
                                   style: { width: 230 },
-                                  children: (0, r.jsx)(g, {
+                                  children: (0, r.jsx)(x, {
                                     thumbnail: "https://".concat(
                                       null !=
                                         (a =
@@ -490,14 +490,14 @@
                     (0, r.jsx)("p", {
                       className:
                         "relative z-10 hidden pb-16 pt-4 text-sm/3 font-medium text-customgray-500/70 lg:block",
-                      children: x.homepageHeroSliderSubtitle,
+                      children: f.homepageHeroSliderSubtitle,
                     }),
                   ],
                 }),
               })
             );
           }
-          function g(e) {
+          function x(e) {
             let {
               thumbnail: t,
               title: l,
@@ -563,7 +563,7 @@
               l,
             );
           }
-          (([n, m] = f.then ? (await f)() : f), s());
+          (([n, m] = g.then ? (await g)() : g), s());
         } catch (e) {
           s(e);
         }
@@ -571,7 +571,7 @@
     },
     8331: (e, t, l) => {
       "use strict";
-      l.d(t, { A: () => x });
+      l.d(t, { A: () => f });
       var s = l(2183),
         r = l(36439),
         a = l(96006),
@@ -603,7 +603,7 @@
             (0, s.jsx)(a, { className: "pointer-events-none h-full w-full" })
           );
         },
-        f = (e) => {
+        g = (e) => {
           let { relicName: t, hovered: l, collected: a } = e,
             { rive: i, RiveComponent: n } = (0, m.useRive)({
               src: "/animations/" + t + ".riv",
@@ -631,7 +631,7 @@
             (0, s.jsx)(n, { className: "pointer-events-none h-full w-full" })
           );
         };
-      function x(e) {
+      function f(e) {
         let {
             lit: t,
             onCampfireLit: l,
@@ -639,7 +639,7 @@
             relicCollection: o,
             websiteSingleton: m,
           } = e,
-          [x, g] = (0, r.useState)(!1),
+          [f, x] = (0, r.useState)(!1),
           [p, v] = (0, r.useState)(!1),
           w = (0, r.useRef)(null),
           b = (0, r.useRef)(null),
@@ -778,12 +778,12 @@
                   }),
                   !t &&
                     (0, s.jsx)("div", {
-                      onMouseEnter: () => g(!0),
-                      onMouseLeave: () => g(!1),
+                      onMouseEnter: () => x(!0),
+                      onMouseLeave: () => x(!1),
                       onClick: () => l(),
                       className:
                         "puzzle_start absolute bottom-[30%] left-1/2 z-20 h-32 w-32 -translate-x-[45%] cursor-pointer lg:h-60 lg:w-60",
-                      children: (0, s.jsx)(h, { hovered: x }),
+                      children: (0, s.jsx)(h, { hovered: f }),
                     }),
                   !o.includes("horn") &&
                     (0, s.jsx)("div", {
@@ -796,7 +796,7 @@
                       children: (0, s.jsxs)("div", {
                         className: "relative aspect-square w-full",
                         children: [
-                          (0, s.jsx)(f, {
+                          (0, s.jsx)(g, {
                             relicName: "horn",
                             hovered: p,
                             collected: o.includes("horn"),
@@ -857,6 +857,133 @@
         );
       }
     },
+    16739: (e, t, l) => {
+      "use strict";
+      l.a(e, async (e, s) => {
+        try {
+          l.d(t, { A: () => m });
+          var r = l(2183),
+            a = l(96006),
+            i = l.n(a),
+            n = l(11677),
+            o = l.n(n),
+            c = l(46956),
+            u = l(92446),
+            d = e([u]);
+          function m(e) {
+            var t, l, s, a, n, d, m, h, g;
+            let { item: f, onClick: x = () => {} } = e;
+            return (0, r.jsx)(o(), {
+              onClick: x,
+              href: "/news/"
+                .concat(
+                  null == (l = f.category) || null == (t = l.fields)
+                    ? void 0
+                    : t.slug,
+                  "/",
+                )
+                .concat(f.slug),
+              children: (0, r.jsxs)("article", {
+                className:
+                  "group flex h-full grow flex-col bg-white shadow-lg duration-[0.3s] lg:bg-transparent lg:shadow-none lg:hover:bg-white lg:hover:shadow-lg",
+                children: [
+                  (0, r.jsxs)("figure", {
+                    className: "relative w-full overflow-hidden",
+                    children: [
+                      (0, r.jsx)(i(), {
+                        alt: "".concat(
+                          (null == (a = f.headerImage) || null == (s = a.fields)
+                            ? void 0
+                            : s.description) || "",
+                        ),
+                        className:
+                          "aspect-[3/2] w-full object-cover transition-all duration-500 group-hover:scale-105",
+                        src: (0, u._c)(
+                          null == (m = f.headerImage) ||
+                            null == (d = m.fields) ||
+                            null == (n = d.file)
+                            ? void 0
+                            : n.url,
+                        ),
+                        width: 500,
+                        height: 500,
+                      }),
+                      (0, r.jsx)(i(), {
+                        alt: "blog card image gradient",
+                        fill: !0,
+                        className:
+                          "absolute top-0 left-0 h-full w-full object-cover",
+                        src: "/images/blog-card-image-gradient.svg",
+                      }),
+                      (0, r.jsx)(i(), {
+                        alt: "top left bracket",
+                        width: 48,
+                        height: 48,
+                        className:
+                          "absolute -top-4 -left-4 duration-200 group-hover:top-2 group-hover:left-2",
+                        src: "/images/top-left-bracket.svg",
+                      }),
+                      (0, r.jsx)(i(), {
+                        alt: "bottom right bracket",
+                        width: 48,
+                        height: 48,
+                        className:
+                          "absolute -right-4 -bottom-4 duration-200 group-hover:right-2 group-hover:bottom-2",
+                        src: "/images/bottom-right-bracket.svg",
+                      }),
+                      (0, r.jsx)("div", {
+                        className:
+                          "absolute bottom-0 left-0 bg-teal-500 px-5 pt-2 pb-1.5 text-center text-sm font-bold tracking-widest text-white uppercase",
+                        children:
+                          null == (g = f.category) || null == (h = g.fields)
+                            ? void 0
+                            : h.name,
+                      }),
+                    ],
+                  }),
+                  (0, r.jsxs)("div", {
+                    className:
+                      "relative flex min-h-[10rem] grow flex-col justify-between overflow-hidden py-5 pr-12 pl-5 duration-200",
+                    children: [
+                      (0, r.jsx)("h3", {
+                        className: "text-2xl font-bold",
+                        children: f.title.toString(),
+                      }),
+                      (0, r.jsx)("p", {
+                        className: "mt-4 font-normal text-gray-500",
+                        children: (0, r.jsx)("time", {
+                          dateTime: f.publishDate,
+                          children: (0, c.Yq)(f.publishDate),
+                        }),
+                      }),
+                      (0, r.jsx)(i(), {
+                        alt: "desktop compass",
+                        width: 232,
+                        height: 232,
+                        className:
+                          "absolute -right-16 -bottom-24 hidden opacity-0 duration-200 group-hover:-right-12 group-hover:-bottom-20 group-hover:opacity-50 lg:block",
+                        src: "/images/compass.webp",
+                      }),
+                      (0, r.jsx)(i(), {
+                        alt: "mobile compass",
+                        width: 232,
+                        height: 232,
+                        className:
+                          "absolute -right-12 -bottom-20 opacity-50 lg:hidden",
+                        src: "/images/compass.webp",
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            });
+          }
+          ((u = (d.then ? (await d)() : d)[0]), s());
+        } catch (e) {
+          s(e);
+        }
+      });
+    },
     17286: (e, t, l) => {
       "use strict";
       l.d(t, { A: () => r });
@@ -884,7 +1011,7 @@
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          l.d(t, { A: () => g });
+          l.d(t, { A: () => x });
           var r = l(2183),
             a = l(75109),
             i = l(36439),
@@ -895,9 +1022,9 @@
             d = l.n(u),
             m = l(15711),
             h = l(92446),
-            f = l(94536),
-            x = e([a, h]);
-          function g(e) {
+            g = l(94536),
+            f = e([a, h]);
+          function x(e) {
             let { products: t, title: l, description: s, isHome: a } = e,
               [n, c] = (0, i.useState)(null);
             return (0, r.jsxs)("div", {
@@ -914,7 +1041,7 @@
                           className:
                             "flex flex-col flex-wrap items-center gap-x-8 gap-y-4 pb-4 lg:flex-row lg:pb-0",
                           children: [
-                            (0, r.jsx)("p", {
+                            (0, r.jsx)("h2", {
                               className:
                                 "text-4xl text-black sm:text-5xl lg:text-6xl",
                               children: l,
@@ -932,7 +1059,7 @@
                           className:
                             "flex flex-col gap-y-4 text-center lg:gap-y-1 lg:text-left",
                           children: [
-                            (0, r.jsx)("p", {
+                            (0, r.jsx)("h2", {
                               className:
                                 "text-3xl font-medium text-black lg:text-4xl",
                               children: l,
@@ -969,7 +1096,7 @@
                 }),
                 (0, r.jsx)("div", {
                   className: "px-8 lg:px-16",
-                  children: (0, r.jsx)(f.RC, {
+                  children: (0, r.jsx)(g.RC, {
                     className: "swiper-show-overflow relative flex w-full",
                     slidesPerView: 1.25,
                     centeredSlides: !0,
@@ -982,7 +1109,7 @@
                     onSwiper: (e) => c(e),
                     children: t.map((e) =>
                       (0, r.jsx)(
-                        f.qr,
+                        g.qr,
                         {
                           className: "relative max-w-none shrink-0",
                           style: { width: 300 },
@@ -997,33 +1124,33 @@
             });
           }
           function p(e) {
-            var t, l, s, i, n, u, m, f;
-            let { product: x } = e;
+            var t, l, s, i, n, u, m, g;
+            let { product: f } = e;
             return (0, r.jsx)("div", {
               className:
                 "group aspect-[2/3] h-auto w-full cursor-pointer shadow-[0_10px_48px_-16px_rgba(0,0,0,1)]",
               children: (0, r.jsxs)(d(), {
                 href: "/products/"
                   .concat(
-                    null == (t = x.category) ? void 0 : t.fields.slug,
+                    null == (t = f.category) ? void 0 : t.fields.slug,
                     "/",
                   )
-                  .concat(x.slug),
+                  .concat(f.slug),
                 children: [
                   (0, r.jsx)(o(), {
                     fill: !0,
                     alt:
                       null !=
-                      (f =
-                        null == (s = (0, a.a9f)(x)) ||
+                      (g =
+                        null == (s = (0, a.a9f)(f)) ||
                         null == (l = s.fields.image)
                           ? void 0
                           : l.fields.description)
-                        ? f
+                        ? g
                         : "",
                     src: "".concat(
                       (0, h._c)(
-                        null == (u = (0, a.a9f)(x)) ||
+                        null == (u = (0, a.a9f)(f)) ||
                           null == (n = u.fields.image) ||
                           null == (i = n.fields.file)
                           ? void 0
@@ -1032,7 +1159,7 @@
                       "?fit=fill&w=300&h=450",
                     ),
                     className:
-                      "absolute left-0 top-0 h-full w-auto object-cover",
+                      "absolute top-0 left-0 h-full w-auto object-cover",
                     sizes: "900px",
                   }),
                   (0, r.jsx)(o(), {
@@ -1049,21 +1176,21 @@
                     children: [
                       (0, r.jsx)("p", {
                         className: "text-xl font-bold",
-                        children: x.title,
+                        children: f.title,
                       }),
                       (0, r.jsxs)("div", {
                         className: "relative my-2 h-[3px] w-full",
                         children: [
                           (0, r.jsx)("img", {
                             className:
-                              " absolute left-0 top-0 h-full w-full object-fill opacity-100  group-hover:opacity-100",
+                              "absolute top-0 left-0 h-full w-full object-fill opacity-100 group-hover:opacity-100",
                             src: "/images/product-divider.svg",
                             alt: "product divider",
                             style: { transition: "all 0.4s ease" },
                           }),
                           (0, r.jsx)("img", {
                             className:
-                              " absolute left-0 top-0 h-full w-full object-fill opacity-0  group-hover:opacity-100",
+                              "absolute top-0 left-0 h-full w-full object-fill opacity-0 group-hover:opacity-100",
                             alt: "product divider highlighted",
                             src: "/images/product-divider-highlighted.svg",
                             style: { transition: "all 0.4s ease" },
@@ -1075,12 +1202,12 @@
                         children: [
                           (0, r.jsx)("p", {
                             className: "text-sm",
-                            children: (0, c.Cp)(x.releaseDate),
+                            children: (0, c.Cp)(f.releaseDate),
                           }),
                           (0, r.jsx)("div", {
                             className: "flex gap-x-2",
                             children:
-                              null == (m = x.ctaButtons)
+                              null == (m = f.ctaButtons)
                                 ? void 0
                                 : m.map((e, t) => {
                                     var l, s, a;
@@ -1118,7 +1245,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute bottom-4 right-4 opacity-0 group-hover:bottom-1 group-hover:right-1 group-hover:opacity-60",
+                      "absolute right-4 bottom-4 opacity-0 group-hover:right-1 group-hover:bottom-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "bottom right bracket",
@@ -1127,7 +1254,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute left-4 top-4 opacity-0 group-hover:left-1 group-hover:top-1 group-hover:opacity-60",
+                      "absolute top-4 left-4 opacity-0 group-hover:top-1 group-hover:left-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "top left bracket",
@@ -1136,7 +1263,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute right-4 top-4 opacity-0 group-hover:right-1 group-hover:top-1 group-hover:opacity-60",
+                      "absolute top-4 right-4 opacity-0 group-hover:top-1 group-hover:right-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "top right bracket",
@@ -1147,7 +1274,7 @@
               }),
             });
           }
-          (([a, h] = x.then ? (await x)() : x), s());
+          (([a, h] = f.then ? (await f)() : f), s());
         } catch (e) {
           s(e);
         }
@@ -1362,20 +1489,20 @@
             setSuccess: d,
             websiteSingleton: m,
           } = e,
-          [h, f] = (0, r.useState)([0, 0, 0, 0, 0]),
-          x = [
+          [h, g] = (0, r.useState)([0, 0, 0, 0, 0]),
+          f = [
             { runeIndex: 5, relicClue: "crown" },
             { runeIndex: 2, relicClue: "horn" },
             { runeIndex: 4, relicClue: "mask" },
             { runeIndex: 3, relicClue: "helmet" },
             { runeIndex: 0, relicClue: "vase" },
           ],
-          [g, p] = (0, r.useState)(!1),
+          [x, p] = (0, r.useState)(!1),
           [v, w] = (0, r.useState)(!1),
           [b, j] = (0, r.useState)(!1),
           y = (0, r.useRef)(null);
         function N() {
-          h.every((e, t) => e === x[t].runeIndex)
+          h.every((e, t) => e === f[t].runeIndex)
             ? (d(!0),
               l(),
               j(!1),
@@ -1466,7 +1593,7 @@
                             (0, s.jsx)("div", {
                               className:
                                 "mb-20 flex w-full scale-[1.12] justify-center px-[7%] sm:scale-100",
-                              children: x.map(function (e, t) {
+                              children: f.map(function (e, t) {
                                 return a.includes(e.relicClue)
                                   ? (0, s.jsx)(
                                       "div",
@@ -1545,7 +1672,7 @@
                                         setRuneVal: (e) =>
                                           ((e, t) => {
                                             let l = [...h];
-                                            ((l[e] = t), f(l));
+                                            ((l[e] = t), g(l));
                                           })(t, e),
                                       },
                                       t,
@@ -1587,7 +1714,7 @@
                   }),
                   (0, s.jsx)("div", {
                     className: "absolute bottom-4 right-8",
-                    children: g
+                    children: x
                       ? (0, s.jsxs)("div", {
                           className: "max-w-sm rounded-2xl bg-white p-4",
                           children: [
@@ -1791,8 +1918,8 @@
         let { handleRelicClick: t, relicCollection: l, gameActive: a } = e,
           o = (0, r.useRef)(null),
           d = (0, r.useRef)(null),
-          [h, f] = (0, r.useState)(!1),
-          [x, g] = (0, r.useState)(!1);
+          [h, g] = (0, r.useState)(!1),
+          [f, x] = (0, r.useState)(!1);
         return (
           (0, r.useEffect)(() => {
             let e = n.A.context(() => {
@@ -1837,7 +1964,7 @@
                     start: "top 70%",
                     end: "top+=200px 70%",
                     onToggle: (e) => {
-                      a && g(e.isActive);
+                      a && x(e.isActive);
                     },
                   }),
                     c().create({
@@ -1845,7 +1972,7 @@
                       start: "bottom-=200px center",
                       end: "bottom center",
                       onToggle: (e) => {
-                        a && f(e.isActive);
+                        a && g(e.isActive);
                       },
                     }));
                 }),
@@ -1868,13 +1995,13 @@
                       (0, s.jsx)(m, {
                         crownHovered: h,
                         crownCollected: l.includes("crown"),
-                        helmetHovered: x,
+                        helmetHovered: f,
                         helmetCollected: l.includes("helmet"),
                       }),
                       !l.includes("crown") &&
                         (0, s.jsx)("div", {
-                          onMouseEnter: () => f(!0),
-                          onMouseLeave: () => f(!1),
+                          onMouseEnter: () => g(!0),
+                          onMouseLeave: () => g(!1),
                           className: "".concat(
                             a ? "" : "pointer-events-none",
                             " absolute bottom-[17%] left-1/2 z-20 flex aspect-square w-[20%] -translate-x-1/2 items-center justify-center lg:bottom-[15%] lg:w-[15%]",
@@ -1888,8 +2015,8 @@
                         }),
                       !l.includes("helmet") &&
                         (0, s.jsx)("div", {
-                          onMouseEnter: () => g(!0),
-                          onMouseLeave: () => g(!1),
+                          onMouseEnter: () => x(!0),
+                          onMouseLeave: () => x(!1),
                           className: "".concat(
                             a ? "" : "pointer-events-none",
                             " absolute left-[30%] top-[27%] z-20 flex aspect-square w-[20%] items-center justify-center lg:left-[36%] lg:top-[25%] lg:w-[15%]",
@@ -1945,7 +2072,7 @@
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          l.d(t, { A: () => f });
+          l.d(t, { A: () => g });
           var r = l(2183),
             a = l(96006),
             i = l.n(a),
@@ -1956,7 +2083,7 @@
             d = l.n(u),
             m = l(94536),
             h = e([n]);
-          function f(e) {
+          function g(e) {
             let {
                 articles: t,
                 headingTitle: l = "Related Articles",
@@ -1964,7 +2091,7 @@
                 buttonTitle: a = "View All",
                 isHome: u,
               } = e,
-              [h, f] = (0, o.useState)(null);
+              [h, g] = (0, o.useState)(null);
             return (0, r.jsxs)("div", {
               className:
                 "flex w-full flex-col items-stretch overflow-hidden py-8",
@@ -1972,14 +2099,14 @@
                 (0, r.jsxs)("div", {
                   className: "lg:pb-".concat(
                     u ? 12 : 16,
-                    " flex  w-full flex-col flex-wrap items-center justify-between px-8 pb-8 lg:flex-row lg:px-16",
+                    " flex w-full flex-col flex-wrap items-center justify-between px-8 pb-8 lg:flex-row lg:px-16",
                   ),
                   children: [
                     (0, r.jsxs)("div", {
                       className:
                         "flex flex-col items-center gap-x-8 gap-y-4 pb-4 lg:flex-row lg:pb-0",
                       children: [
-                        (0, r.jsx)("p", {
+                        (0, r.jsx)("h2", {
                           className:
                             "text-4xl text-black sm:text-5xl lg:text-6xl",
                           children: l,
@@ -2031,7 +2158,7 @@
                         },
                         spaceBetween: 16,
                         rewind: !0,
-                        onSwiper: (e) => f(e),
+                        onSwiper: (e) => g(e),
                         children: t.map((e) =>
                           (0, r.jsx)(
                             m.qr,
@@ -2082,7 +2209,7 @@
                   d &&
                   (0, r.jsx)("div", {
                     className:
-                      "pointer-events-none absolute left-0 top-0 z-40 w-full -translate-y-2/3",
+                      "pointer-events-none absolute top-0 left-0 z-40 w-full -translate-y-2/3",
                     children: (0, r.jsx)(u(), {
                       width: 1920,
                       height: 483,
@@ -2091,7 +2218,8 @@
                       src: "/images/hero-transition(tinyfied).webp",
                     }),
                   }),
-                (0, r.jsx)("div", {
+                (0, r.jsx)("section", {
+                  "aria-label": "Latest News",
                   className: "flex w-full flex-col overflow-hidden",
                   children: (0, r.jsx)("div", {
                     className: "flex flex-col items-center self-stretch pt-10",
@@ -2107,7 +2235,8 @@
                     }),
                   }),
                 }),
-                (0, r.jsx)("div", {
+                (0, r.jsx)("section", {
+                  "aria-label": "Featured Games",
                   className: "flex w-full flex-col items-start overflow-hidden",
                   children: (0, r.jsx)("div", {
                     className: "flex flex-col items-center self-stretch",
@@ -2146,9 +2275,9 @@
             d = l(31026),
             m = l(72871),
             h = l(49711),
-            f = l(2513),
-            x = l(86e3),
-            g = l(36439),
+            g = l(2513),
+            f = l(86e3),
+            x = l(36439),
             p = l(23323),
             v = l(99435),
             w = l(26947),
@@ -2168,14 +2297,14 @@
                 surveys: z,
                 signUpBanner: C,
               } = e,
-              [E, L] = (0, g.useState)([]),
-              [M, R] = (0, g.useState)(!1),
-              [T, _] = (0, g.useState)(!1),
-              [P, I] = (0, g.useState)(!1),
-              { isLoggedIn: B, minigameCompleted: H } = (0, v.u)(),
+              [L, E] = (0, x.useState)([]),
+              [M, R] = (0, x.useState)(!1),
+              [T, _] = (0, x.useState)(!1),
+              [P, I] = (0, x.useState)(!1),
+              { isLoggedIn: H, minigameCompleted: B } = (0, v.u)(),
               O = (0, b.useRouter)(),
               { addAlert: F } = (0, j.Z)();
-            (0, g.useEffect)(() => {
+            (0, x.useEffect)(() => {
               if (O.asPath.split("?").length <= 1) return;
               let e = new URLSearchParams(O.asPath.split("?")[1]);
               null !== e.get("verification-successful") &&
@@ -2184,10 +2313,10 @@
                   children: "Thank you for verifying your email.",
                 });
             }, [O.asPath]);
-            let V = (e) => {
+            let q = (e) => {
                 _(!0);
                 let t = p.Flip.getState(".relic");
-                (L((t) => [...t, e]),
+                (E((t) => [...t, e]),
                   requestAnimationFrame(() => {
                     p.Flip.from(t, {
                       targets: ".relic",
@@ -2198,9 +2327,9 @@
                     });
                   }));
               },
-              [q, U] = (0, g.useState)(!1),
-              D = (0, g.useRef)(null);
-            ((0, g.useEffect)(() => {
+              [V, U] = (0, x.useState)(!1),
+              D = (0, x.useRef)(null);
+            ((0, x.useEffect)(() => {
               let e = w.A.matchMedia();
               return (
                 e.add("(max-width: 768px)", () => {
@@ -2227,7 +2356,7 @@
                 () => e.revert()
               );
             }, [D]),
-              (0, g.useEffect)(() => {
+              (0, x.useEffect)(() => {
                 if (P) {
                   let e = w.A.matchMedia();
                   return (
@@ -2244,86 +2373,92 @@
                   );
                 }
               }, [P]));
-            let [Y, G] = (0, g.useState)(!1),
+            let [Y, G] = (0, x.useState)(!1),
               W = () => {
                 G(!0);
               };
             return (0, r.jsxs)("div", {
               children: [
-                (0, r.jsxs)("div", {
-                  className: "overflow-hidden",
+                (0, r.jsxs)("main", {
                   children: [
-                    (0, r.jsx)("h1", {
-                      className: "hidden",
-                      children: "Tomb Raider - Adventure Awaits",
-                    }),
-                    (0, r.jsx)(a.A, {
-                      heroCards: s,
-                      websiteSingleton: k,
-                      navItems: A,
-                      surveys: z,
-                      signUpBanner: C,
-                    }),
-                    (0, r.jsx)("div", {
-                      className: "h-40 w-full bg-trueblack lg:h-80",
-                    }),
-                    H
-                      ? (0, r.jsx)(i.A, {
-                          handleRelicClick: V,
-                          relicCollection: E,
-                          gameActive: q,
-                          puzzleSolved: P,
-                          onUnlock: W,
+                    (0, r.jsxs)("div", {
+                      className: "overflow-hidden",
+                      children: [
+                        (0, r.jsx)("h1", {
+                          className: "hidden",
+                          children: "Tomb Raider - Adventure Awaits",
+                        }),
+                        (0, r.jsx)(a.A, {
+                          heroCards: s,
                           websiteSingleton: k,
-                        })
-                      : (0, r.jsxs)("div", {
-                          ref: D,
-                          children: [
-                            (0, r.jsx)(i.A, {
-                              handleRelicClick: V,
-                              relicCollection: E,
-                              gameActive: q,
+                          navItems: A,
+                          surveys: z,
+                          signUpBanner: C,
+                        }),
+                        (0, r.jsx)("div", {
+                          className: "bg-trueblack h-40 w-full lg:h-80",
+                        }),
+                        B
+                          ? (0, r.jsx)(i.A, {
+                              handleRelicClick: q,
+                              relicCollection: L,
+                              gameActive: V,
                               puzzleSolved: P,
                               onUnlock: W,
                               websiteSingleton: k,
+                            })
+                          : (0, r.jsxs)("div", {
+                              ref: D,
+                              children: [
+                                (0, r.jsx)(i.A, {
+                                  handleRelicClick: q,
+                                  relicCollection: L,
+                                  gameActive: V,
+                                  puzzleSolved: P,
+                                  onUnlock: W,
+                                  websiteSingleton: k,
+                                }),
+                                (0, r.jsx)(n.A, {
+                                  lit: V,
+                                  onCampfireLit: function () {
+                                    ((0, y.sendGTMEvent)({
+                                      event: "puzzle_start",
+                                    }),
+                                      U(!0),
+                                      w.A.to("#campfire-text", {
+                                        opacity: 0,
+                                        duration: 1,
+                                        ease: "power2.inOut",
+                                      }));
+                                  },
+                                  handleRelicClick: q,
+                                  relicCollection: L,
+                                  websiteSingleton: k,
+                                }),
+                                (0, r.jsx)(o.A, {
+                                  handleRelicClick: q,
+                                  relicCollection: L,
+                                  gameActive: V,
+                                }),
+                              ],
                             }),
-                            (0, r.jsx)(n.A, {
-                              lit: q,
-                              onCampfireLit: function () {
-                                ((0, y.sendGTMEvent)({ event: "puzzle_start" }),
-                                  U(!0),
-                                  w.A.to("#campfire-text", {
-                                    opacity: 0,
-                                    duration: 1,
-                                    ease: "power2.inOut",
-                                  }));
-                              },
-                              handleRelicClick: V,
-                              relicCollection: E,
-                              websiteSingleton: k,
-                            }),
-                            (0, r.jsx)(o.A, {
-                              handleRelicClick: V,
-                              relicCollection: E,
-                              gameActive: q,
-                            }),
-                          ],
-                        }),
+                      ],
+                    }),
+                    !H && (0, r.jsx)(c.A, { rewards: N, websiteSingleton: k }),
+                    (0, r.jsx)(m.A, {
+                      articles: t,
+                      products: l,
+                      websiteSingleton: k,
+                    }),
+                    (0, r.jsx)(d.A, { websiteSingleton: k }),
                   ],
                 }),
-                !B && (0, r.jsx)(c.A, { rewards: N, websiteSingleton: k }),
-                (0, r.jsx)(m.A, {
-                  articles: t,
-                  products: l,
-                  websiteSingleton: k,
-                }),
-                (0, r.jsx)(d.A, { websiteSingleton: k }),
                 (0, r.jsx)(u.A, {
                   websiteSingleton: k,
                   navItems: A,
                   footerSocialLinks: S,
                 }),
-                !H &&
+                !B &&
                   (0, r.jsxs)(r.Fragment, {
                     children: [
                       (0, r.jsx)(h.A, {
@@ -2331,20 +2466,20 @@
                         close: () => {
                           G(!1);
                         },
-                        relicCollection: E,
+                        relicCollection: L,
                         setSuccess: I,
                         websiteSingleton: k,
                       }),
-                      (0, r.jsx)(f.A, { enabled: q }),
-                      (0, r.jsx)(x.A, {
+                      (0, r.jsx)(g.A, { enabled: V }),
+                      (0, r.jsx)(f.A, {
                         gameArea: D,
-                        collection: E,
-                        activated: M && q && !P && !H,
+                        collection: L,
+                        activated: M && V && !P && !B,
                         setActivated: R,
                         open: T,
                         setOpen: (e) => _(e),
                         puzzleOpen: Y,
-                        puzzleSolved: P || H,
+                        puzzleSolved: P || B,
                         websiteSingleton: k,
                       }),
                     ],
@@ -2395,14 +2530,15 @@
             }, [i]);
             return () => e.revert();
           }, []),
-          (0, s.jsxs)("div", {
+          (0, s.jsxs)("aside", {
             ref: i,
+            "aria-label": "Society of Raiders sign-up",
             className: "relative z-40 w-full overflow-visible",
             children: [
               (0, s.jsxs)("div", {
                 ref: u,
                 className:
-                  "pointer-events-none absolute left-0 top-0 z-20 w-full -translate-y-1/2",
+                  "pointer-events-none absolute top-0 left-0 z-20 w-full -translate-y-1/2",
                 children: [
                   (0, s.jsx)(n(), {
                     width: 1920,
@@ -2413,7 +2549,7 @@
                   }),
                   (0, s.jsx)("div", {
                     className:
-                      "relative bottom-4 z-10 h-20 w-full bg-gradient-to-b from-trueblack md:bottom-28 md:h-40",
+                      "from-trueblack relative bottom-4 z-10 h-20 w-full bg-gradient-to-b md:bottom-28 md:h-40",
                   }),
                 ],
               }),
@@ -2427,7 +2563,7 @@
                   children: [
                     (0, s.jsx)("div", {
                       className:
-                        "flex flex-col items-start pb-12 pt-24 lg:sticky lg:top-32 lg:w-1/2 lg:px-12",
+                        "flex flex-col items-start pt-24 pb-12 lg:sticky lg:top-32 lg:w-1/2 lg:px-12",
                       children: (0, s.jsx)(r.A, {
                         title: l.nonFooterCtaTitle,
                         textAlign: "text-left",
@@ -2511,14 +2647,14 @@
             puzzleSolved: m,
             websiteSingleton: h,
           } = e,
-          f = (0, r.useRef)(null),
-          [x, g] = (0, r.useState)(""),
+          g = (0, r.useRef)(null),
+          [f, x] = (0, r.useState)(""),
           [p, v] = (0, r.useState)(!1);
         return (
           (0, r.useEffect)(() => {
-            if (f.current) {
-              let e = n ? f.current.clientHeight - 72 : f.current.clientHeight;
-              i.A.to(f.current, {
+            if (g.current) {
+              let e = n ? g.current.clientHeight - 72 : g.current.clientHeight;
+              i.A.to(g.current, {
                 y: e,
                 duration: 0.3,
                 ease: "power2.inOut",
@@ -2535,15 +2671,15 @@
             }
           }, [t]),
           (0, r.useEffect)(() => {
-            if (f.current) {
-              let e = n ? f.current.clientHeight - 72 : f.current.clientHeight;
+            if (g.current) {
+              let e = n ? g.current.clientHeight - 72 : g.current.clientHeight;
               c && n
-                ? i.A.to(f.current, {
+                ? i.A.to(g.current, {
                     y: 0,
                     ease: "power2.inOut",
                     duration: 0.3,
                   })
-                : i.A.to(f.current, {
+                : i.A.to(g.current, {
                     y: e,
                     ease: "power2.inOut",
                     duration: 0.3,
@@ -2556,7 +2692,7 @@
           (0, s.jsxs)(s.Fragment, {
             children: [
               (0, s.jsxs)("div", {
-                ref: f,
+                ref: g,
                 style: { transform: "translateY(100%)" },
                 className: "".concat(
                   m ? "opacity-0" : "",
@@ -2618,7 +2754,7 @@
                     children: l.map(function (e, t) {
                       return (0, s.jsx)(
                         a.A,
-                        { onClick: g, name: e, collected: !0, zoomed: !1 },
+                        { onClick: x, name: e, collected: !0, zoomed: !1 },
                         t,
                       );
                     }),
@@ -2629,14 +2765,14 @@
                   }),
                 ],
               }),
-              "" !== x &&
+              "" !== f &&
                 (0, s.jsx)("div", {
-                  onClick: () => g(""),
+                  onClick: () => x(""),
                   className:
                     "fixed left-0 top-0 z-[103] flex h-screen w-screen cursor-pointer items-center justify-center bg-black/80",
                   children: (0, s.jsx)(a.A, {
-                    onClick: () => g(""),
-                    name: x,
+                    onClick: () => x(""),
+                    name: f,
                     collected: !0,
                     zoomed: !0,
                   }),
@@ -2678,12 +2814,12 @@
             "VaseShimmering",
           ),
           h = (0, r.useStateMachineInput)(c, "State Machine 1", "VaseAway"),
-          f = (0, r.useStateMachineInput)(
+          g = (0, r.useStateMachineInput)(
             c,
             "State Machine 1",
             "MaskShimmering",
           ),
-          x = (0, r.useStateMachineInput)(c, "State Machine 1", "MaskAway");
+          f = (0, r.useStateMachineInput)(c, "State Machine 1", "MaskAway");
         return (
           (0, a.useEffect)(() => {
             o && d && (d.value = !0);
@@ -2697,16 +2833,36 @@
                   : (m.value = !1));
           }, [t, l, m]),
           (0, a.useEffect)(() => {
-            f &&
-              (n && x
-                ? ((f.value = !1), (x.value = !0))
+            g &&
+              (n && f
+                ? ((g.value = !1), (f.value = !0))
                 : i
-                  ? (f.value = !0)
-                  : (f.value = !1));
-          }, [i, n, f]),
+                  ? (g.value = !0)
+                  : (g.value = !1));
+          }, [i, n, g]),
           (0, s.jsx)(u, { className: "pointer-events-none h-full w-full" })
         );
       };
+    },
+    94734: (e, t, l) => {
+      "use strict";
+      l.d(t, { A: () => i });
+      var s = l(2183),
+        r = l(96006),
+        a = l.n(r);
+      function i() {
+        return (0, s.jsx)("div", {
+          className:
+            "pointer-events-none absolute bottom-0 left-0 w-full translate-y-1/4",
+          children: (0, s.jsx)(a(), {
+            width: 1920,
+            height: 483,
+            className: "w-full object-cover object-top",
+            alt: "Hardwood transition",
+            src: "/images/hero-transition(tinyfied).webp",
+          }),
+        });
+      }
     },
     98104: (e, t, l) => {
       "use strict";
@@ -2723,9 +2879,9 @@
             d = l(43319),
             m = l(26947),
             h = l(93551),
-            f = l.n(h),
-            x = l(11677),
-            g = l.n(x),
+            g = l.n(h),
+            f = l(11677),
+            x = l.n(f),
             p = l(15711),
             v = l(66767),
             w = l(99435),
@@ -2738,15 +2894,15 @@
                 gameActive: s,
                 puzzleSolved: i,
                 onUnlock: h,
-                websiteSingleton: x,
+                websiteSingleton: f,
               } = e,
               [j, y] = (0, a.useState)(!1),
               [N, k] = (0, a.useState)(!1),
               { isLoggedIn: A } = (0, w.u)(),
               { minigameCompleted: S, setMinigameCompleted: z } = (0, w.u)(),
               C = (0, a.useRef)(null),
-              E = (0, a.useRef)(null),
               L = (0, a.useRef)(null),
+              E = (0, a.useRef)(null),
               M = (0, a.useRef)(null);
             ((0, a.useEffect)(() => {
               let e = m.A.context(() => {
@@ -2780,7 +2936,7 @@
                     }),
                     m.A.to(".transition-leaves", {
                       scrollTrigger: {
-                        trigger: E.current,
+                        trigger: L.current,
                         start: "top bottom",
                         end: "bottom top",
                         scrub: 0.5,
@@ -2791,7 +2947,7 @@
                 t = m.A.matchMedia();
               return (
                 t.add("(max-width: 768px)", () => {
-                  f().create({
+                  g().create({
                     trigger: C.current,
                     start: "bottom-=250px center",
                     end: "bottom center",
@@ -2810,7 +2966,7 @@
                   let e = m.A.matchMedia();
                   return (
                     e.add("(max-width: 768px)", () => {
-                      f().create({
+                      g().create({
                         trigger: C.current,
                         start: "bottom-=250px center",
                         end: "bottom center",
@@ -2825,14 +2981,14 @@
               }, [s]),
               (0, a.useEffect)(() => {
                 (S || i) &&
-                  L.current &&
+                  E.current &&
                   (S ||
                     m.A.to(window, {
                       duration: 1,
                       scrollTo: { y: "#reward-container", offsetY: 150 },
                     }),
                   m.A.fromTo(
-                    L.current,
+                    E.current,
                     { opacity: 0 },
                     { opacity: 1, duration: 1.5, delay: 3.5 },
                   ));
@@ -2850,7 +3006,7 @@
               children: [
                 (0, r.jsx)(c.A, {}),
                 (0, r.jsx)("div", {
-                  ref: E,
+                  ref: L,
                   className:
                     "pointer-events-none absolute left-0 top-0 z-50 w-full -translate-y-1/3",
                   children: (0, r.jsx)(n(), {
@@ -2897,7 +3053,7 @@
                       children:
                         (S || i) &&
                         (0, r.jsxs)("div", {
-                          ref: L,
+                          ref: E,
                           id: "reward-container",
                           className:
                             "p-4 opacity-0 transition-opacity duration-0",
@@ -2907,17 +3063,17 @@
                                 "mb-6 text-center text-xl font-medium lg:text-6xl",
                               children:
                                 S && A
-                                  ? x.minigameSolvedLoggedInPromptHeadline ||
+                                  ? f.minigameSolvedLoggedInPromptHeadline ||
                                     "Stay Up to Date"
-                                  : x.minigameCorrectSolutionTitle,
+                                  : f.minigameCorrectSolutionTitle,
                             }),
                             (0, r.jsx)("p", {
                               className: "mb-4 text-center lg:text-2xl",
                               children:
                                 S && A
-                                  ? x.minigameSolvedLoggedInPromptDescription ||
+                                  ? f.minigameSolvedLoggedInPromptDescription ||
                                     "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
-                                  : x.minigameCorrectSolutionSubtitle,
+                                  : f.minigameCorrectSolutionSubtitle,
                             }),
                             !S &&
                               (0, r.jsx)("div", {
@@ -2929,7 +3085,7 @@
                             A
                               ? (0, r.jsx)("div", {
                                   className: "mb-4 flex justify-center",
-                                  children: (0, r.jsx)(g(), {
+                                  children: (0, r.jsx)(x(), {
                                     href: "/account",
                                     children: (0, r.jsx)(p.A, {
                                       variant: "darkBackground",
@@ -2941,7 +3097,7 @@
                                       },
                                       children: S
                                         ? "View Dashboard"
-                                        : x.minigameSolvedLoggedInContinueButtonText,
+                                        : f.minigameSolvedLoggedInContinueButtonText,
                                     }),
                                   }),
                                 })
@@ -2951,29 +3107,29 @@
                                       className:
                                         "mb-4 flex justify-center gap-2",
                                       children: [
-                                        (0, r.jsx)(g(), {
+                                        (0, r.jsx)(x(), {
                                           href: "/registration",
                                           children: (0, r.jsx)(p.A, {
                                             variant: "darkBackground",
                                             onClick: R,
                                             children:
-                                              x.minigameSolvedLoggedOutRegisterButtonText,
+                                              f.minigameSolvedLoggedOutRegisterButtonText,
                                           }),
                                         }),
-                                        (0, r.jsx)(g(), {
+                                        (0, r.jsx)(x(), {
                                           href: "/login",
                                           children: (0, r.jsx)(p.A, {
                                             variant: "darkBackground",
                                             onClick: R,
                                             children:
-                                              x.minigameSolvedLoggedOutLoginButtonText,
+                                              f.minigameSolvedLoggedOutLoginButtonText,
                                           }),
                                         }),
                                       ],
                                     }),
                                     (0, r.jsx)("p", {
                                       className: "text-center lg:text-lg",
-                                      children: x.minigameSolvedLoggedOutCta,
+                                      children: f.minigameSolvedLoggedOutCta,
                                     }),
                                   ],
                                 }),
@@ -2987,7 +3143,7 @@
                           "absolute bottom-[25%] left-0 right-0 mx-auto",
                         children: (0, r.jsx)(v.A, {
                           onUnlock: h,
-                          overlayText: x.minigameSliderText,
+                          overlayText: f.minigameSliderText,
                           id: "vaultDoorSlider",
                         }),
                       }),
@@ -3050,7 +3206,7 @@
     (e.O(
       0,
       [
-        9950, 8762, 6006, 1433, 1329, 1175, 3492, 4971, 5216, 2446, 8657, 636,
+        9950, 8762, 6006, 1433, 1329, 1089, 3492, 4971, 5216, 2446, 7137, 636,
         6593, 8792,
       ],
       () => e((e.s = 51553)),

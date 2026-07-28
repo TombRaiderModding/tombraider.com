@@ -24,12 +24,12 @@
               navItems: h,
               footerSocialLinks: x,
               surveys: p,
-              signUpBanner: f,
+              signUpBanner: g,
             } = e;
             return (0, r.jsxs)("div", {
               className: "",
               children: [
-                (0, r.jsx)(a.Ay, { surveys: p, navItems: h, signUpBanner: f }),
+                (0, r.jsx)(a.Ay, { surveys: p, navItems: h, signUpBanner: g }),
                 (0, r.jsx)(i.A, { categories: t, products: l }),
                 (0, r.jsxs)(d.A, {
                   children: [
@@ -78,12 +78,12 @@
             h = l(18652),
             x = l(52464),
             p = l(13776),
-            f = l(28092),
-            g = l(92446),
+            g = l(28092),
+            f = l(92446),
             m = l(80707),
             v = l.n(m),
             w = l(94734),
-            b = e([a, g]);
+            b = e([a, f]);
           function j(e) {
             let { categories: t, products: l } = e,
               [s, a] = (0, u.useState)(0),
@@ -159,7 +159,7 @@
                                       : s.fields.description)
                                     ? c
                                     : "",
-                                src: (0, g._c)(
+                                src: (0, f._c)(
                                   null == u ||
                                     null == (o = u.fields.image) ||
                                     null == (i = o.fields.file)
@@ -258,7 +258,7 @@
                                   null != (a = e.titleLogo.fields.description)
                                     ? a
                                     : "",
-                                src: (0, g._c)(
+                                src: (0, f._c)(
                                   null == (l = e.titleLogo.fields.file)
                                     ? void 0
                                     : l.url,
@@ -340,16 +340,16 @@
                     },
                   }),
                 }),
-                (0, r.jsx)(_, { tabs: t }),
-                (0, r.jsx)(f.A, {
-                  images: l.map(a.r5H).map((e, t) => (0, g.pO)(e, t, !0)),
+                (0, r.jsx)(A, { tabs: t }),
+                (0, r.jsx)(g.A, {
+                  images: l.map(a.r5H).map((e, t) => (0, f.pO)(e, t, !0)),
                   selectedImageIndex: s,
                   setSelectedImageIndex: i,
                 }),
               ],
             });
           }
-          function _(e) {
+          function A(e) {
             let { tabs: t } = e,
               l = (0, h.useRouter)();
             return (0, r.jsxs)("div", {
@@ -441,200 +441,11 @@
               ],
             });
           }
-          (([a, g] = b.then ? (await b)() : b), s());
+          (([a, f] = b.then ? (await b)() : b), s());
         } catch (e) {
           s(e);
         }
       });
-    },
-    7345: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => i });
-      var s = l(2183),
-        r = l(11677),
-        a = l.n(r);
-      let i = (e) => {
-        let { href: t, children: l, className: r, ...i } = e;
-        return "string" == typeof t && t.startsWith("http")
-          ? (0, s.jsx)("a", {
-              href: t,
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: r,
-              ...i,
-              children: l,
-            })
-          : (0, s.jsx)(a(), { className: r, href: t, ...i, children: l });
-      };
-    },
-    7674: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => u });
-      var s = l(2183),
-        r = l(96006),
-        a = l.n(r);
-      function i() {
-        return (0, s.jsx)(a(), {
-          src: "/images/divider.svg",
-          className: "my-12 w-full",
-          width: "0",
-          height: "0",
-          alt: "divider",
-          priority: !0,
-        });
-      }
-      var n = l(11677),
-        o = l.n(n),
-        c = l(18652),
-        d = l(608);
-      function u(e) {
-        let {
-            title: t,
-            children: l,
-            showSignUp: r,
-            textAlign: n,
-            largerFont: u,
-          } = e,
-          h = (0, c.useRouter)();
-        return (0, s.jsxs)("div", {
-          className: "".concat(
-            n || "text-center",
-            " align-center min-w-0 flex-1 justify-center text-white",
-          ),
-          children: [
-            (0, s.jsx)("h2", {
-              className: "".concat(
-                u ? "text-5xl leading-[110%] lg:text-7xl" : "text-5xl",
-                " font-normal tracking-normal drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
-              ),
-              children: t,
-            }),
-            (0, s.jsx)("p", {
-              className: "".concat(
-                u && "text-lg leading-[150%] lg:text-xl",
-                " pt-8 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
-              ),
-              children: l,
-            }),
-            r
-              ? (0, s.jsxs)(o(), {
-                  className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500/50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
-                  onClick: () => {
-                    h.pathname.includes("/news") &&
-                      h.query.category &&
-                      h.query.article &&
-                      (0, d.d4)(window.location.href);
-                  },
-                  href: "/registration",
-                  children: [
-                    (0, s.jsx)("div", {
-                      className:
-                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
-                      children: (0, s.jsx)(a(), {
-                        src: "/images/gold-button-texture-1.jpg",
-                        fill: !0,
-                        className: "object-cover",
-                        alt: "Gold sheen",
-                        sizes: "256px",
-                      }),
-                    }),
-                    (0, s.jsx)("span", {
-                      className: "relative z-20",
-                      children: "Sign Up",
-                    }),
-                  ],
-                })
-              : (0, s.jsx)(i, {}),
-          ],
-        });
-      }
-    },
-    13544: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => o });
-      var s = l(2183),
-        r = l(52464),
-        a = l(96006),
-        i = l.n(a),
-        n = l(36439);
-      function o(e) {
-        let { className: t, children: l, ...a } = e,
-          o = (0, n.useRef)(null),
-          [c, d] = (0, n.useState)(0);
-        return (
-          (0, n.useEffect)(() => {
-            if (!o.current) return;
-            let e = new ResizeObserver(() => {
-              var e, t;
-              d(
-                null != (t = null == (e = o.current) ? void 0 : e.offsetHeight)
-                  ? t
-                  : 0,
-              );
-            });
-            return (
-              e.observe(o.current),
-              () => {
-                e.disconnect();
-              }
-            );
-          }, [o]),
-          (0, s.jsxs)("div", {
-            ref: o,
-            className: (0, r.cn)("relative w-full pb-24", t),
-            ...a,
-            children: [
-              l,
-              (0, s.jsx)("div", {
-                className:
-                  "absolute left-0 top-0 -z-20 h-full w-full bg-[url('/images/paper-texture_main_tile(tinyfied).jpg')] bg-repeat",
-              }),
-              (0, s.jsx)("div", {
-                style: { height: c },
-                className:
-                  "pointer-events-none absolute left-0 top-0 w-full overflow-hidden",
-                children: (0, s.jsx)(i(), {
-                  src: "/images/paper-graphics_TOP_1(tinyfied).webp",
-                  alt: "Paper Top Overlay",
-                  width: "0",
-                  priority: !0,
-                  height: "0",
-                  className:
-                    "absolute left-0 top-0 -z-20 h-auto w-full object-cover",
-                  unoptimized: !0,
-                }),
-              }),
-              c > 1600 &&
-                (0, s.jsx)(i(), {
-                  src: "/images/paper-graphics_BOTTOM_1(tinyfied).webp",
-                  alt: "Paper Bottom Overlay",
-                  width: "0",
-                  priority: !0,
-                  height: "0",
-                  className:
-                    "absolute bottom-0 left-0 -z-20 h-auto w-full object-cover",
-                  unoptimized: !0,
-                }),
-              (0, s.jsx)("div", {
-                style: { backgroundSize: "100% auto" },
-                className:
-                  "absolute left-0 top-0 -z-20 hidden h-full w-[8vw] max-w-[104px] bg-[url('/images/paper-edge_long(tinyfied).webp')] bg-repeat-y md:block",
-              }),
-              (0, s.jsx)(i(), {
-                src: "/images/footer-transition(tinyfied).webp",
-                width: "1920",
-                height: "305",
-                priority: !0,
-                className:
-                  "pointer-events-none absolute bottom-0 left-0 z-10 w-full translate-y-1/2 object-cover",
-                alt: "footer transition",
-                unoptimized: !0,
-              }),
-            ],
-          })
-        );
-      }
     },
     13776: (e, t, l) => {
       "use strict";
@@ -657,8 +468,8 @@
             variant: x,
             rounded: p = !1,
           } = e,
-          f = (e) => (e ? ("string" == typeof e ? e : e.name) : ""),
-          g = (e) => {
+          g = (e) => (e ? ("string" == typeof e ? e : e.name) : ""),
+          f = (e) => {
             d("string" == typeof e ? e : e.value);
           };
         return (0, s.jsxs)(a.Menu, {
@@ -733,15 +544,15 @@
                             ? (0, s.jsx)(c(), {
                                 scroll: !1,
                                 href: r,
-                                onClick: () => g(e),
+                                onClick: () => f(e),
                                 className: a,
-                                children: f(e),
+                                children: g(e),
                               })
                             : (0, s.jsx)("button", {
                                 type: "button",
-                                onClick: () => g(e),
+                                onClick: () => f(e),
                                 className: "w-full text-left ".concat(a),
-                                children: f(e),
+                                children: g(e),
                               });
                         },
                       },
@@ -759,7 +570,7 @@
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          l.d(t, { A: () => g });
+          l.d(t, { A: () => f });
           var r = l(2183),
             a = l(75109),
             i = l(36439),
@@ -771,8 +582,8 @@
             h = l(15711),
             x = l(92446),
             p = l(94536),
-            f = e([a, x]);
-          function g(e) {
+            g = e([a, x]);
+          function f(e) {
             let { products: t, title: l, description: s, isHome: a } = e,
               [n, c] = (0, i.useState)(null);
             return (0, r.jsxs)("div", {
@@ -789,7 +600,7 @@
                           className:
                             "flex flex-col flex-wrap items-center gap-x-8 gap-y-4 pb-4 lg:flex-row lg:pb-0",
                           children: [
-                            (0, r.jsx)("p", {
+                            (0, r.jsx)("h2", {
                               className:
                                 "text-4xl text-black sm:text-5xl lg:text-6xl",
                               children: l,
@@ -807,7 +618,7 @@
                           className:
                             "flex flex-col gap-y-4 text-center lg:gap-y-1 lg:text-left",
                           children: [
-                            (0, r.jsx)("p", {
+                            (0, r.jsx)("h2", {
                               className:
                                 "text-3xl font-medium text-black lg:text-4xl",
                               children: l,
@@ -873,24 +684,24 @@
           }
           function m(e) {
             var t, l, s, i, n, d, h, p;
-            let { product: f } = e;
+            let { product: g } = e;
             return (0, r.jsx)("div", {
               className:
                 "group aspect-[2/3] h-auto w-full cursor-pointer shadow-[0_10px_48px_-16px_rgba(0,0,0,1)]",
               children: (0, r.jsxs)(u(), {
                 href: "/products/"
                   .concat(
-                    null == (t = f.category) ? void 0 : t.fields.slug,
+                    null == (t = g.category) ? void 0 : t.fields.slug,
                     "/",
                   )
-                  .concat(f.slug),
+                  .concat(g.slug),
                 children: [
                   (0, r.jsx)(o(), {
                     fill: !0,
                     alt:
                       null !=
                       (p =
-                        null == (s = (0, a.a9f)(f)) ||
+                        null == (s = (0, a.a9f)(g)) ||
                         null == (l = s.fields.image)
                           ? void 0
                           : l.fields.description)
@@ -898,7 +709,7 @@
                         : "",
                     src: "".concat(
                       (0, x._c)(
-                        null == (d = (0, a.a9f)(f)) ||
+                        null == (d = (0, a.a9f)(g)) ||
                           null == (n = d.fields.image) ||
                           null == (i = n.fields.file)
                           ? void 0
@@ -907,7 +718,7 @@
                       "?fit=fill&w=300&h=450",
                     ),
                     className:
-                      "absolute left-0 top-0 h-full w-auto object-cover",
+                      "absolute top-0 left-0 h-full w-auto object-cover",
                     sizes: "900px",
                   }),
                   (0, r.jsx)(o(), {
@@ -924,21 +735,21 @@
                     children: [
                       (0, r.jsx)("p", {
                         className: "text-xl font-bold",
-                        children: f.title,
+                        children: g.title,
                       }),
                       (0, r.jsxs)("div", {
                         className: "relative my-2 h-[3px] w-full",
                         children: [
                           (0, r.jsx)("img", {
                             className:
-                              " absolute left-0 top-0 h-full w-full object-fill opacity-100  group-hover:opacity-100",
+                              "absolute top-0 left-0 h-full w-full object-fill opacity-100 group-hover:opacity-100",
                             src: "/images/product-divider.svg",
                             alt: "product divider",
                             style: { transition: "all 0.4s ease" },
                           }),
                           (0, r.jsx)("img", {
                             className:
-                              " absolute left-0 top-0 h-full w-full object-fill opacity-0  group-hover:opacity-100",
+                              "absolute top-0 left-0 h-full w-full object-fill opacity-0 group-hover:opacity-100",
                             alt: "product divider highlighted",
                             src: "/images/product-divider-highlighted.svg",
                             style: { transition: "all 0.4s ease" },
@@ -950,12 +761,12 @@
                         children: [
                           (0, r.jsx)("p", {
                             className: "text-sm",
-                            children: (0, c.Cp)(f.releaseDate),
+                            children: (0, c.Cp)(g.releaseDate),
                           }),
                           (0, r.jsx)("div", {
                             className: "flex gap-x-2",
                             children:
-                              null == (h = f.ctaButtons)
+                              null == (h = g.ctaButtons)
                                 ? void 0
                                 : h.map((e, t) => {
                                     var l, s, a;
@@ -993,7 +804,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute bottom-4 right-4 opacity-0 group-hover:bottom-1 group-hover:right-1 group-hover:opacity-60",
+                      "absolute right-4 bottom-4 opacity-0 group-hover:right-1 group-hover:bottom-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "bottom right bracket",
@@ -1002,7 +813,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute left-4 top-4 opacity-0 group-hover:left-1 group-hover:top-1 group-hover:opacity-60",
+                      "absolute top-4 left-4 opacity-0 group-hover:top-1 group-hover:left-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "top left bracket",
@@ -1011,7 +822,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute right-4 top-4 opacity-0 group-hover:right-1 group-hover:top-1 group-hover:opacity-60",
+                      "absolute top-4 right-4 opacity-0 group-hover:top-1 group-hover:right-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "top right bracket",
@@ -1022,7 +833,7 @@
               }),
             });
           }
-          (([a, x] = f.then ? (await f)() : f), s());
+          (([a, x] = g.then ? (await g)() : g), s());
         } catch (e) {
           s(e);
         }
@@ -1080,18 +891,18 @@
             disableSwipe: x = !1,
           } = e,
           p = o(),
-          [f, g] = (0, n.useState)(null),
+          [g, f] = (0, n.useState)(null),
           m = (e) => {
             let l = e;
             (l >= t.length && (l = t.length - 1),
               l < 0 && (l = 0),
               r(l),
-              null == f || f.slideTo(l));
+              null == g || g.slideTo(l));
           };
         return (
           (0, n.useEffect)(() => {
-            (null == f ? void 0 : f.activeIndex) != l &&
-              (null == f || f.slideTo(l));
+            (null == g ? void 0 : g.activeIndex) != l &&
+              (null == g || g.slideTo(l));
           }, [l]),
           (0, s.jsxs)("div", {
             className: "relative w-full",
@@ -1103,7 +914,7 @@
                   autoHeight: !0,
                   slidesPerView: "auto",
                   className: "swiper-show-overflow relative flex ",
-                  onSwiper: (e) => g(e),
+                  onSwiper: (e) => f(e),
                   onSlideChange: (e) => m(e.activeIndex),
                   children: [
                     (0, s.jsx)(c, { disableSwipe: x, selectedImageIndex: l }),
@@ -1250,60 +1061,6 @@
       "use strict";
       e.exports = l(94528);
     },
-    31026: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => n });
-      var s = l(2183),
-        r = l(7674),
-        a = l(96006),
-        i = l.n(a);
-      function n(e) {
-        var t, l, a, n;
-        let { websiteSingleton: o } = e;
-        return (0, s.jsxs)("div", {
-          className:
-            "relative flex aspect-video w-screen flex-col justify-center bg-black pb-8 lg:px-24 lg:py-16",
-          children: [
-            (0, s.jsxs)("div", {
-              className:
-                "relative left-0 top-0 aspect-video w-full lg:absolute lg:aspect-auto lg:h-full",
-              children: [
-                (0, s.jsx)(i(), {
-                  fill: !0,
-                  alt:
-                    null !=
-                    (n =
-                      null == (t = o.footerCtaBackground)
-                        ? void 0
-                        : t.fields.description)
-                      ? n
-                      : "",
-                  src: "https:".concat(
-                    null == (a = o.footerCtaBackground) ||
-                      null == (l = a.fields.file)
-                      ? void 0
-                      : l.url,
-                  ),
-                }),
-                (0, s.jsx)("div", {
-                  className: "absolute left-0 top-0 h-full w-full bg-black/15",
-                }),
-              ],
-            }),
-            (0, s.jsx)("div", {
-              className: "relative z-10 max-w-3xl px-8 py-2",
-              children: (0, s.jsx)(r.A, {
-                largerFont: !0,
-                textAlign: "text-left",
-                showSignUp: !0,
-                title: o.footerCtaTitle,
-                children: o.footerCtaDescription,
-              }),
-            }),
-          ],
-        });
-      }
-    },
     44394: (e, t, l) => {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/products/[category]",
@@ -1312,62 +1069,52 @@
         },
       ]);
     },
-    46956: (e, t, l) => {
-      "use strict";
-      l.d(t, { Cp: () => r, Yq: () => s });
-      let s = (e) =>
-          e
-            ? new Date(e).toLocaleString("en-US", {
-                timeZone: "UTC",
-                month: "short",
-                day: "numeric",
-                year: "numeric",
-              })
-            : "",
-        r = (e) =>
-          e ? new Date(e).toLocaleString("en-US", { year: "numeric" }) : "";
-    },
-    52464: (e, t, l) => {
-      "use strict";
-      l.d(t, { cn: () => a });
-      var s = l(3638),
-        r = l(30597);
-      function a() {
-        for (var e = arguments.length, t = Array(e), l = 0; l < e; l++)
-          t[l] = arguments[l];
-        return (0, r.QP)((0, s.$)(t));
-      }
-    },
     55699: (e, t, l) => {
       "use strict";
       l.a(e, async (e, s) => {
         try {
-          (l.r(t), l.d(t, { __N_SSG: () => n, default: () => o }));
+          (l.r(t), l.d(t, { __N_SSG: () => o, default: () => c }));
           var r = l(2183),
-            a = l(1906),
-            i = e([a]);
-          a = (i.then ? (await i)() : i)[0];
-          var n = !0;
-          function o(e) {
+            a = l(91134),
+            i = l(1906),
+            n = e([i]);
+          i = (n.then ? (await n)() : n)[0];
+          let d = {
+            featured:
+              "Browse featured Tomb Raider products from Crystal Dynamics. Discover the latest games, collectibles, and official merchandise starring Lara Croft today.",
+            games:
+              "Explore the full Tomb Raider games catalog. From classic remasters to the Survivor Trilogy, discover every Lara Croft adventure available to play now.",
+            "tv-and-film":
+              "Discover all Tomb Raider TV and film titles, including the Netflix animated series The Legend of Lara Croft and the classic Lara Croft live-action movies.",
+          };
+          var o = !0;
+          function c(e) {
             let {
-              categories: t,
-              featuredProducts: l,
-              subcategories: s,
-              websiteSingleton: i,
-              navItems: n,
-              footerSocialLinks: o,
-              surveys: c,
-              signUpBanner: d,
-            } = e;
-            return (0, r.jsx)(a.A, {
-              categories: t,
-              galleryProducts: l,
-              productLists: s,
-              websiteSingleton: i,
-              navItems: n,
-              footerSocialLinks: o,
-              surveys: c,
-              signUpBanner: d,
+                categories: t,
+                categorySlug: l,
+                featuredProducts: s,
+                subcategories: n,
+                websiteSingleton: o,
+                navItems: c,
+                footerSocialLinks: u,
+                surveys: h,
+                signUpBanner: x,
+              } = e,
+              p = d[l];
+            return (0, r.jsxs)(r.Fragment, {
+              children: [
+                p && (0, r.jsx)(a.A, { description: p }),
+                (0, r.jsx)(i.A, {
+                  categories: t,
+                  galleryProducts: s,
+                  productLists: n,
+                  websiteSingleton: o,
+                  navItems: c,
+                  footerSocialLinks: u,
+                  surveys: h,
+                  signUpBanner: x,
+                }),
+              ],
             });
           }
           s();
@@ -1376,165 +1123,34 @@
         }
       });
     },
-    75894: (e, t, l) => {
+    91134: (e, t, l) => {
       "use strict";
-      l.a(e, async (e, s) => {
-        try {
-          l.d(t, { A: () => x });
-          var r = l(2183),
-            a = l(96006),
-            i = l.n(a),
-            n = l(11677),
-            o = l.n(n),
-            c = l(99435),
-            d = l(7345),
-            u = l(92446),
-            h = e([c, u]);
-          function x(e) {
-            var t, l, s;
-            let { websiteSingleton: a, navItems: n, footerSocialLinks: h } = e,
-              { isLoggedIn: x, shopifyUrl: p } = (0, c.u)(),
-              f = n.filter(
-                (e) => e.showInFooter && !(x && e.hideForLoggedInUsers),
-              ),
-              g = n.filter(
-                (e) => e.showInSubFooter && !(x && e.hideForLoggedInUsers),
-              );
-            return (0, r.jsxs)("div", {
-              className: "relative w-full bg-black px-8 text-white lg:px-32",
-              children: [
-                (0, r.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
-                  children: [
-                    (0, r.jsx)("div", {
-                      children: (0, r.jsx)(i(), {
-                        src: (0, u._c)(
-                          null == (l = a.footerLogo) ||
-                            null == (t = l.fields.file)
-                            ? void 0
-                            : t.url,
-                        ),
-                        width: 248,
-                        height: 248,
-                        alt: (0, u._c)(
-                          null == (s = a.footerLogo)
-                            ? void 0
-                            : s.fields.description,
-                        ),
-                        className: "w-40",
-                      }),
-                    }),
-                    (0, r.jsxs)("div", {
-                      className:
-                        "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
-                      children: [
-                        f.map((e) => {
-                          let t = e.link;
-                          return (
-                            e.shouldReplaceWithGeneratedShopLink &&
-                              p &&
-                              (t = p),
-                            (0, r.jsx)(
-                              o(),
-                              { href: t, children: e.name },
-                              e.link + e.name,
-                            )
-                          );
-                        }),
-                        (0, r.jsx)("span", {
-                          id: "accessibilityWidget",
-                          className: "cursor-pointer",
-                          children: "Accessibility",
-                        }),
-                        (0, r.jsx)("a", {
-                          href: "#",
-                          className: "cursor-pointer",
-                          onClick: (e) => {
-                            var t;
-                            (e.preventDefault(),
-                              null == (t = window.__ucCmp) ||
-                                t.showSecondLayer());
-                          },
-                          children:
-                            "Do Not Sell or Share My Personal Information",
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-                (0, r.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
-                  children: [
-                    (0, r.jsx)("div", {
-                      className: "text-darkgray-500 text-center",
-                      children: a.footerCopyright,
-                    }),
-                    (0, r.jsx)("div", {
-                      className: "flex items-center space-x-4 text-white",
-                      children: h.map((e) => {
-                        var t, l, s, a;
-                        return (0, r.jsx)(
-                          d.A,
-                          {
-                            href: e.link,
-                            children: (0, r.jsx)(i(), {
-                              src: (0, u._c)(
-                                null == (l = e.icon) ||
-                                  null == (t = l.fields.file)
-                                  ? void 0
-                                  : t.url,
-                              ),
-                              alt:
-                                null !=
-                                (a =
-                                  null == (s = e.icon)
-                                    ? void 0
-                                    : s.fields.description)
-                                  ? a
-                                  : "",
-                              width: 20,
-                              height: 20,
-                            }),
-                          },
-                          e.link,
-                        );
-                      }),
-                    }),
-                  ],
-                }),
-                (0, r.jsx)("div", { className: "h-px bg-gray-500" }),
-                (0, r.jsxs)("div", {
-                  className:
-                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row",
-                  children: [
-                    (0, r.jsx)("p", {
-                      className:
-                        "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
-                      children: a.footerLegalNotice,
-                    }),
-                    (0, r.jsx)("div", {
-                      className:
-                        "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
-                      children: g.map((e) =>
-                        (0, r.jsx)(
-                          "a",
-                          { href: e.link, children: e.name },
-                          e.link + e.name,
-                        ),
-                      ),
-                    }),
-                  ],
-                }),
-              ],
-            });
-          }
-          (([c, u] = h.then ? (await h)() : h), s());
-        } catch (e) {
-          s(e);
-        }
-      });
+      l.d(t, { A: () => i });
+      var s = l(2183),
+        r = l(14623),
+        a = l.n(r);
+      function i(e) {
+        let { description: t } = e;
+        return (0, s.jsxs)(a(), {
+          children: [
+            (0, s.jsx)(
+              "meta",
+              { name: "description", content: t },
+              "description",
+            ),
+            (0, s.jsx)(
+              "meta",
+              { property: "og:description", content: t },
+              "og:description",
+            ),
+            (0, s.jsx)(
+              "meta",
+              { name: "twitter:description", content: t },
+              "twitter:description",
+            ),
+          ],
+        });
+      }
     },
     94528: (e, t, l) => {
       "use strict";
@@ -1633,7 +1249,10 @@
   (e) => {
     (e.O(
       0,
-      [9950, 1446, 6006, 1433, 1329, 1175, 3492, 5216, 2446, 636, 6593, 8792],
+      [
+        9950, 1446, 6006, 1433, 1329, 1089, 3492, 5216, 2446, 7137, 636, 6593,
+        8792,
+      ],
       () => e((e.s = 44394)),
     ),
       (_N_E = e.O()));

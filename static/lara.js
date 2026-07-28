@@ -568,9 +568,10 @@
                   t,
                 ),
               );
-            return (0, r.jsxs)("div", {
+            return (0, r.jsxs)("section", {
               ref: y,
-              className: "relative pb-40 pt-40 lg:pt-96",
+              "aria-label": "Meet Lara Croft",
+              className: "relative pt-40 pb-40 lg:pt-96",
               children: [
                 (0, r.jsxs)("div", {
                   id: "meet-lara-scroll-target",
@@ -582,13 +583,13 @@
                       children: [
                         (0, r.jsx)("div", {
                           className:
-                            "lara-main-image aspect-[3/4] -mb-28 w-full flex-shrink-0 will-change-transform md:-mb-36 lg:mb-0 lg:w-1/2",
+                            "lara-main-image -mb-28 aspect-[3/4] w-full flex-shrink-0 will-change-transform md:-mb-36 lg:mb-0 lg:w-1/2",
                           children: (0, r.jsx)(d(), {
                             fill: !0,
                             alt: P,
                             src: A,
                             className:
-                              "mx-auto max-h-[750px] w-auto lg:max-h-none object-contain",
+                              "mx-auto max-h-[750px] w-auto object-contain lg:max-h-none",
                             priority: !0,
                           }),
                         }),
@@ -603,7 +604,7 @@
                                 children: [
                                   (0, r.jsx)("h1", {
                                     className:
-                                      "heading-text pb-2 text-5xl font-bold leading-[1.1]",
+                                      "heading-text pb-2 text-5xl leading-[1.1] font-bold",
                                     children: v.meetLaraCroftHeadline,
                                   }),
                                   (0, r.jsx)("div", {
@@ -636,7 +637,7 @@
                 (0, r.jsx)("div", {
                   ref: w,
                   className:
-                    "pointer-events-none absolute left-0 top-0 z-20 w-full -translate-y-1/4 will-change-transform",
+                    "pointer-events-none absolute top-0 left-0 z-20 w-full -translate-y-1/4 will-change-transform",
                   children: (0, r.jsx)(d(), {
                     width: 1920,
                     height: 1403,
@@ -648,7 +649,7 @@
                 }),
                 (0, r.jsx)("div", {
                   className:
-                    "left-leaves pointer-events-none absolute left-0 top-0 z-50 w-full -translate-x-1/3 will-change-transform lg:w-4/5",
+                    "left-leaves pointer-events-none absolute top-0 left-0 z-50 w-full -translate-x-1/3 will-change-transform lg:w-4/5",
                   children: (0, r.jsx)(d(), {
                     width: 1286,
                     height: 857,
@@ -661,7 +662,7 @@
                 (0, r.jsx)("div", {
                   ref: b,
                   className:
-                    "right-leaves pointer-events-none absolute right-0 top-0 z-50 w-full translate-x-1/3 will-change-transform lg:w-4/5",
+                    "right-leaves pointer-events-none absolute top-0 right-0 z-50 w-full translate-x-1/3 will-change-transform lg:w-4/5",
                   children: (0, r.jsx)(d(), {
                     width: 1286,
                     height: 857,
@@ -674,7 +675,7 @@
                 (0, r.jsx)("div", {
                   style: { opacity: 0 },
                   className:
-                    "topographic-lines pointer-events-none absolute bottom-0 right-0 w-screen lg:w-4/5",
+                    "topographic-lines pointer-events-none absolute right-0 bottom-0 w-screen lg:w-4/5",
                   children: (0, r.jsx)(d(), {
                     width: 1440,
                     height: 1024,
@@ -692,109 +693,6 @@
           a(e);
         }
       });
-    },
-    7345: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => i });
-      var a = l(2183),
-        r = l(11677),
-        s = l.n(r);
-      let i = (e) => {
-        let { href: t, children: l, className: r, ...i } = e;
-        return "string" == typeof t && t.startsWith("http")
-          ? (0, a.jsx)("a", {
-              href: t,
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: r,
-              ...i,
-              children: l,
-            })
-          : (0, a.jsx)(s(), { className: r, href: t, ...i, children: l });
-      };
-    },
-    7674: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => u });
-      var a = l(2183),
-        r = l(96006),
-        s = l.n(r);
-      function i() {
-        return (0, a.jsx)(s(), {
-          src: "/images/divider.svg",
-          className: "my-12 w-full",
-          width: "0",
-          height: "0",
-          alt: "divider",
-          priority: !0,
-        });
-      }
-      var n = l(11677),
-        o = l.n(n),
-        c = l(18652),
-        d = l(608);
-      function u(e) {
-        let {
-            title: t,
-            children: l,
-            showSignUp: r,
-            textAlign: n,
-            largerFont: u,
-          } = e,
-          m = (0, c.useRouter)();
-        return (0, a.jsxs)("div", {
-          className: "".concat(
-            n || "text-center",
-            " align-center min-w-0 flex-1 justify-center text-white",
-          ),
-          children: [
-            (0, a.jsx)("h2", {
-              className: "".concat(
-                u ? "text-5xl leading-[110%] lg:text-7xl" : "text-5xl",
-                " font-normal tracking-normal drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
-              ),
-              children: t,
-            }),
-            (0, a.jsx)("p", {
-              className: "".concat(
-                u && "text-lg leading-[150%] lg:text-xl",
-                " pt-8 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]",
-              ),
-              children: l,
-            }),
-            r
-              ? (0, a.jsxs)(o(), {
-                  className:
-                    "account_register_cta border-radius-8 group relative mt-12 inline-flex items-center overflow-hidden rounded-lg border-2 border-yellow-500/50 bg-transparent px-6 py-2 text-base text-white transition duration-300 canhover:hover:text-black",
-                  onClick: () => {
-                    m.pathname.includes("/news") &&
-                      m.query.category &&
-                      m.query.article &&
-                      (0, d.d4)(window.location.href);
-                  },
-                  href: "/registration",
-                  children: [
-                    (0, a.jsx)("div", {
-                      className:
-                        "pointer-events-none absolute left-0 top-0 z-10 h-full w-full opacity-0 transition duration-300 canhover:group-hover:opacity-100",
-                      children: (0, a.jsx)(s(), {
-                        src: "/images/gold-button-texture-1.jpg",
-                        fill: !0,
-                        className: "object-cover",
-                        alt: "Gold sheen",
-                        sizes: "256px",
-                      }),
-                    }),
-                    (0, a.jsx)("span", {
-                      className: "relative z-20",
-                      children: "Sign Up",
-                    }),
-                  ],
-                })
-              : (0, a.jsx)(i, {}),
-          ],
-        });
-      }
     },
     8411: (e, t, l) => {
       "use strict";
@@ -870,8 +768,9 @@
                 },
                 { scope: d },
               ),
-              (0, r.jsxs)("div", {
+              (0, r.jsxs)("section", {
                 ref: d,
+                "aria-label": "Lara Croft's equipment",
                 children: [
                   (0, r.jsxs)("div", {
                     className: "flex items-center md:gap-5 md:px-6",
@@ -1007,11 +906,11 @@
                     }),
                     (0, r.jsx)("div", {
                       className:
-                        "pointer-events-none absolute left-0 top-0 z-30 h-full w-full bg-black transition\n          ".concat(
+                        "pointer-events-none absolute top-0 left-0 z-30 h-full w-full bg-black transition ".concat(
                           s !== i
                             ? "opacity-50 group-hover:opacity-0"
                             : "opacity-0",
-                          "\n          ",
+                          " ",
                         ),
                     }),
                   ],
@@ -1019,12 +918,12 @@
                 (0, r.jsxs)("div", {
                   className: "".concat(
                     s !== i ? "opacity-0" : "opacity-100",
-                    "\n      mt-6 flex flex-col items-center opacity-0 transition-opacity duration-300 lg:group-hover:opacity-100",
+                    " mt-6 flex flex-col items-center opacity-0 transition-opacity duration-300 lg:group-hover:opacity-100",
                   ),
                   children: [
                     (0, r.jsx)("h2", {
                       className:
-                        "selected-item-name w-[calc(100%+2rem)] text-nowrap text-center text-2xl font-bold text-white lg:text-wrap",
+                        "selected-item-name w-[calc(100%+2rem)] text-center text-2xl font-bold text-nowrap text-white lg:text-wrap",
                       children: a.name,
                     }),
                     (0, r.jsxs)("div", {
@@ -1195,7 +1094,7 @@
                 null == (a = c.image)
                   ? void 0
                   : a.width,
-              z =
+              E =
                 null == (v = j.timelinePosterImage) ||
                 null == (x = v.fields.file) ||
                 null == (f = x.details) ||
@@ -1252,7 +1151,7 @@
                         src: C,
                         alt: j.title,
                         width: T,
-                        height: z,
+                        height: E,
                         priority: !0,
                         rotateClass: N % 2 == 0 ? "-rotate-3" : "rotate-3",
                         className: "max-h-[50vh] lg:max-h-[600px]",
@@ -1590,8 +1489,9 @@
                 { scope: l },
               ));
             let S = 0;
-            return (0, r.jsxs)("div", {
+            return (0, r.jsxs)("section", {
               ref: l,
+              "aria-label": "Tomb Raider timeline",
               className:
                 "relative bg-white bg-[url('/images/paper-texture_main_tile(tinyfied).jpg')] bg-contain bg-top py-40 text-black",
               children: [
@@ -1601,7 +1501,7 @@
                   width: 1440,
                   height: 68,
                   className:
-                    "absolute left-0 top-0 z-20 w-full -translate-y-1/2",
+                    "absolute top-0 left-0 z-20 w-full -translate-y-1/2",
                 }),
                 (0, r.jsxs)("div", {
                   className: "absolute inset-0 overflow-hidden",
@@ -1612,7 +1512,7 @@
                       width: 1087,
                       height: 1088,
                       className:
-                        "pointer-events-none absolute left-0 top-0 -translate-x-1/3 -translate-y-[10%] opacity-20 lg:w-3/4",
+                        "pointer-events-none absolute top-0 left-0 -translate-x-1/3 -translate-y-[10%] opacity-20 lg:w-3/4",
                     }),
                     (0, r.jsx)(u(), {
                       src: "/images/welcome/lines/timeline-topo-lines.png",
@@ -1620,7 +1520,7 @@
                       width: 1087,
                       height: 1088,
                       className:
-                        "pointer-events-none absolute bottom-0 right-0 translate-x-1/3 translate-y-[10%] rotate-180 opacity-20 lg:w-3/4",
+                        "pointer-events-none absolute right-0 bottom-0 translate-x-1/3 translate-y-[10%] rotate-180 opacity-20 lg:w-3/4",
                     }),
                   ],
                 }),
@@ -1630,7 +1530,7 @@
                   children: (0, r.jsx)("div", {
                     ref: d,
                     className:
-                      "absolute left-1/2 top-0 h-full w-full -translate-x-1/2 lg:w-[1018px]",
+                      "absolute top-0 left-1/2 h-full w-full -translate-x-1/2 lg:w-[1018px]",
                     style: {
                       backgroundImage:
                         "url('/images/welcome/lines/timeline-dashed-line.svg')",
@@ -1656,7 +1556,7 @@
                       children: [
                         (0, r.jsx)("h2", {
                           className:
-                            "px-4 text-right font-spline-sans-mono text-6xl font-bold uppercase text-yellow-900/40 lg:sticky lg:right-0 lg:top-20 lg:px-40 lg:text-8xl",
+                            "font-spline-sans-mono px-4 text-right text-6xl font-bold text-yellow-900/40 uppercase lg:sticky lg:top-20 lg:right-0 lg:px-40 lg:text-8xl",
                           children: e,
                         }),
                         (0, r.jsx)("div", {
@@ -1734,92 +1634,6 @@
         }
       });
     },
-    13544: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => o });
-      var a = l(2183),
-        r = l(52464),
-        s = l(96006),
-        i = l.n(s),
-        n = l(36439);
-      function o(e) {
-        let { className: t, children: l, ...s } = e,
-          o = (0, n.useRef)(null),
-          [c, d] = (0, n.useState)(0);
-        return (
-          (0, n.useEffect)(() => {
-            if (!o.current) return;
-            let e = new ResizeObserver(() => {
-              var e, t;
-              d(
-                null != (t = null == (e = o.current) ? void 0 : e.offsetHeight)
-                  ? t
-                  : 0,
-              );
-            });
-            return (
-              e.observe(o.current),
-              () => {
-                e.disconnect();
-              }
-            );
-          }, [o]),
-          (0, a.jsxs)("div", {
-            ref: o,
-            className: (0, r.cn)("relative w-full pb-24", t),
-            ...s,
-            children: [
-              l,
-              (0, a.jsx)("div", {
-                className:
-                  "absolute left-0 top-0 -z-20 h-full w-full bg-[url('/images/paper-texture_main_tile(tinyfied).jpg')] bg-repeat",
-              }),
-              (0, a.jsx)("div", {
-                style: { height: c },
-                className:
-                  "pointer-events-none absolute left-0 top-0 w-full overflow-hidden",
-                children: (0, a.jsx)(i(), {
-                  src: "/images/paper-graphics_TOP_1(tinyfied).webp",
-                  alt: "Paper Top Overlay",
-                  width: "0",
-                  priority: !0,
-                  height: "0",
-                  className:
-                    "absolute left-0 top-0 -z-20 h-auto w-full object-cover",
-                  unoptimized: !0,
-                }),
-              }),
-              c > 1600 &&
-                (0, a.jsx)(i(), {
-                  src: "/images/paper-graphics_BOTTOM_1(tinyfied).webp",
-                  alt: "Paper Bottom Overlay",
-                  width: "0",
-                  priority: !0,
-                  height: "0",
-                  className:
-                    "absolute bottom-0 left-0 -z-20 h-auto w-full object-cover",
-                  unoptimized: !0,
-                }),
-              (0, a.jsx)("div", {
-                style: { backgroundSize: "100% auto" },
-                className:
-                  "absolute left-0 top-0 -z-20 hidden h-full w-[8vw] max-w-[104px] bg-[url('/images/paper-edge_long(tinyfied).webp')] bg-repeat-y md:block",
-              }),
-              (0, a.jsx)(i(), {
-                src: "/images/footer-transition(tinyfied).webp",
-                width: "1920",
-                height: "305",
-                priority: !0,
-                className:
-                  "pointer-events-none absolute bottom-0 left-0 z-10 w-full translate-y-1/2 object-cover",
-                alt: "footer transition",
-                unoptimized: !0,
-              }),
-            ],
-          })
-        );
-      }
-    },
     14264: (e, t, l) => {
       "use strict";
       l.a(e, async (e, a) => {
@@ -1865,15 +1679,16 @@
                 },
                 { scope: i },
               ),
-              (0, r.jsxs)("div", {
+              (0, r.jsxs)("section", {
                 ref: i,
+                "aria-label": "Supporting characters",
                 className:
-                  "relative bg-[url('/images/hero-texture_dark-wood(tinyfied).jpg')] bg-cover py-32 lg:pb-80 lg:pt-96",
+                  "relative bg-[url('/images/hero-texture_dark-wood(tinyfied).jpg')] bg-cover py-32 lg:pt-96 lg:pb-80",
                 children: [
                   (0, r.jsx)("div", {
                     ref: u,
                     className:
-                      "pointer-events-none absolute left-0 top-0 z-50 w-full -translate-y-1/3 will-change-transform",
+                      "pointer-events-none absolute top-0 left-0 z-50 w-full -translate-y-1/3 will-change-transform",
                     children: (0, r.jsx)(n(), {
                       width: 1920,
                       height: 1403,
@@ -1886,7 +1701,7 @@
                   (0, r.jsx)("h2", {
                     id: "characters",
                     className:
-                      "mb-16 text-center text-xl font-bold uppercase tracking-[4px]",
+                      "mb-16 text-center text-xl font-bold tracking-[4px] uppercase",
                     children: a.charactersHeading,
                   }),
                   (0, r.jsx)(d.A, { slides: p }),
@@ -2016,7 +1831,7 @@
                           className:
                             "flex flex-col flex-wrap items-center gap-x-8 gap-y-4 pb-4 lg:flex-row lg:pb-0",
                           children: [
-                            (0, r.jsx)("p", {
+                            (0, r.jsx)("h2", {
                               className:
                                 "text-4xl text-black sm:text-5xl lg:text-6xl",
                               children: l,
@@ -2034,7 +1849,7 @@
                           className:
                             "flex flex-col gap-y-4 text-center lg:gap-y-1 lg:text-left",
                           children: [
-                            (0, r.jsx)("p", {
+                            (0, r.jsx)("h2", {
                               className:
                                 "text-3xl font-medium text-black lg:text-4xl",
                               children: l,
@@ -2134,7 +1949,7 @@
                       "?fit=fill&w=300&h=450",
                     ),
                     className:
-                      "absolute left-0 top-0 h-full w-auto object-cover",
+                      "absolute top-0 left-0 h-full w-auto object-cover",
                     sizes: "900px",
                   }),
                   (0, r.jsx)(o(), {
@@ -2158,14 +1973,14 @@
                         children: [
                           (0, r.jsx)("img", {
                             className:
-                              " absolute left-0 top-0 h-full w-full object-fill opacity-100  group-hover:opacity-100",
+                              "absolute top-0 left-0 h-full w-full object-fill opacity-100 group-hover:opacity-100",
                             src: "/images/product-divider.svg",
                             alt: "product divider",
                             style: { transition: "all 0.4s ease" },
                           }),
                           (0, r.jsx)("img", {
                             className:
-                              " absolute left-0 top-0 h-full w-full object-fill opacity-0  group-hover:opacity-100",
+                              "absolute top-0 left-0 h-full w-full object-fill opacity-0 group-hover:opacity-100",
                             alt: "product divider highlighted",
                             src: "/images/product-divider-highlighted.svg",
                             style: { transition: "all 0.4s ease" },
@@ -2220,7 +2035,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute bottom-4 right-4 opacity-0 group-hover:bottom-1 group-hover:right-1 group-hover:opacity-60",
+                      "absolute right-4 bottom-4 opacity-0 group-hover:right-1 group-hover:bottom-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "bottom right bracket",
@@ -2229,7 +2044,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute left-4 top-4 opacity-0 group-hover:left-1 group-hover:top-1 group-hover:opacity-60",
+                      "absolute top-4 left-4 opacity-0 group-hover:top-1 group-hover:left-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "top left bracket",
@@ -2238,7 +2053,7 @@
                   }),
                   (0, r.jsx)(o(), {
                     className:
-                      "absolute right-4 top-4 opacity-0 group-hover:right-1 group-hover:top-1 group-hover:opacity-60",
+                      "absolute top-4 right-4 opacity-0 group-hover:top-1 group-hover:right-1 group-hover:opacity-60",
                     width: 24,
                     height: 24,
                     alt: "top right bracket",
@@ -2275,65 +2090,11 @@
       );
       let d = a.os;
     },
-    31026: (e, t, l) => {
-      "use strict";
-      l.d(t, { A: () => n });
-      var a = l(2183),
-        r = l(7674),
-        s = l(96006),
-        i = l.n(s);
-      function n(e) {
-        var t, l, s, n;
-        let { websiteSingleton: o } = e;
-        return (0, a.jsxs)("div", {
-          className:
-            "relative flex aspect-video w-screen flex-col justify-center bg-black pb-8 lg:px-24 lg:py-16",
-          children: [
-            (0, a.jsxs)("div", {
-              className:
-                "relative left-0 top-0 aspect-video w-full lg:absolute lg:aspect-auto lg:h-full",
-              children: [
-                (0, a.jsx)(i(), {
-                  fill: !0,
-                  alt:
-                    null !=
-                    (n =
-                      null == (t = o.footerCtaBackground)
-                        ? void 0
-                        : t.fields.description)
-                      ? n
-                      : "",
-                  src: "https:".concat(
-                    null == (s = o.footerCtaBackground) ||
-                      null == (l = s.fields.file)
-                      ? void 0
-                      : l.url,
-                  ),
-                }),
-                (0, a.jsx)("div", {
-                  className: "absolute left-0 top-0 h-full w-full bg-black/15",
-                }),
-              ],
-            }),
-            (0, a.jsx)("div", {
-              className: "relative z-10 max-w-3xl px-8 py-2",
-              children: (0, a.jsx)(r.A, {
-                largerFont: !0,
-                textAlign: "text-left",
-                showSignUp: !0,
-                title: o.footerCtaTitle,
-                children: o.footerCtaDescription,
-              }),
-            }),
-          ],
-        });
-      }
-    },
     37387: (e, t, l) => {
       "use strict";
       l.a(e, async (e, a) => {
         try {
-          (l.r(t), l.d(t, { __N_SSG: () => x, default: () => v }));
+          (l.r(t), l.d(t, { __N_SSG: () => v, default: () => y }));
           var r = l(2183),
             s = l(20204),
             i = l(31026),
@@ -2346,19 +2107,20 @@
             p = l(5973),
             h = l(10461),
             g = l(14264),
-            f = e([s, n, o, m, p, h, g]);
-          [s, n, o, m, p, h, g] = f.then ? (await f)() : f;
-          var x = !0;
-          function v(e) {
+            f = l(2371),
+            x = e([s, n, o, m, p, h, g]);
+          [s, n, o, m, p, h, g] = x.then ? (await x)() : x;
+          var v = !0;
+          function y(e) {
             var t;
             let {
               welcomePage: l,
               products: a,
               navItems: d,
-              websiteSingleton: f,
-              footerSocialLinks: x,
-              timelineProducts: v,
-              signUpBanner: y,
+              websiteSingleton: x,
+              footerSocialLinks: v,
+              timelineProducts: y,
+              signUpBanner: w,
             } = e;
             return (0, r.jsxs)(r.Fragment, {
               children: [
@@ -2406,7 +2168,10 @@
                       "meta",
                       {
                         property: "og:image",
-                        content: "/images/welcome/meet-lara-meta-image.jpg",
+                        content: "".concat(
+                          f.W,
+                          "/images/welcome/meet-lara-meta-image.jpg",
+                        ),
                       },
                       "og:image",
                     ),
@@ -2460,13 +2225,13 @@
                     ),
                   ],
                 }),
-                (0, r.jsx)(n.Ay, { surveys: [], navItems: d, signUpBanner: y }),
-                (0, r.jsxs)("div", {
+                (0, r.jsx)(n.Ay, { surveys: [], navItems: d, signUpBanner: w }),
+                (0, r.jsxs)("main", {
                   className: "relative z-10 overflow-x-clip",
                   children: [
                     (0, r.jsx)(m.A, { welcomePage: l }),
                     (0, r.jsx)(p.A, { welcomePage: l }),
-                    (0, r.jsx)(h.A, { timelineProducts: v }),
+                    (0, r.jsx)(h.A, { timelineProducts: y }),
                     (0, r.jsx)(g.A, { welcomePage: l }),
                     l.featuredProductsEnabled &&
                       (0, r.jsx)(c.A, {
@@ -2479,13 +2244,13 @@
                               : "Featured Games",
                         }),
                       }),
-                    (0, r.jsx)(i.A, { websiteSingleton: f }),
+                    (0, r.jsx)(i.A, { websiteSingleton: x }),
                   ],
                 }),
                 (0, r.jsx)(o.A, {
-                  websiteSingleton: f,
+                  websiteSingleton: x,
                   navItems: d,
-                  footerSocialLinks: x,
+                  footerSocialLinks: v,
                 }),
               ],
             });
@@ -2817,21 +2582,6 @@
           l
         );
       })(v, k);
-    },
-    46956: (e, t, l) => {
-      "use strict";
-      l.d(t, { Cp: () => r, Yq: () => a });
-      let a = (e) =>
-          e
-            ? new Date(e).toLocaleString("en-US", {
-                timeZone: "UTC",
-                month: "short",
-                day: "numeric",
-                year: "numeric",
-              })
-            : "",
-        r = (e) =>
-          e ? new Date(e).toLocaleString("en-US", { year: "numeric" }) : "";
     },
     52128: (e, t, l) => {
       "use strict";
@@ -3414,7 +3164,7 @@
                     children: [
                       (0, r.jsx)("div", {
                         className: "mb-2 flex justify-center",
-                        children: (0, r.jsx)("h1", {
+                        children: (0, r.jsx)("p", {
                           className:
                             "hero-text text-center text-3xl font-bold tracking-[5px] uppercase lg:text-5xl",
                           children: h.heroCallToActionText,
@@ -3502,17 +3252,6 @@
         }
       });
     },
-    52464: (e, t, l) => {
-      "use strict";
-      l.d(t, { cn: () => s });
-      var a = l(3638),
-        r = l(30597);
-      function s() {
-        for (var e = arguments.length, t = Array(e), l = 0; l < e; l++)
-          t[l] = arguments[l];
-        return (0, r.QP)((0, a.$)(t));
-      }
-    },
     65346: (e, t, l) => {
       "use strict";
       l.a(e, async (e, a) => {
@@ -3592,7 +3331,7 @@
                         className: "slider-arrow",
                         children: (0, r.jsx)("div", {
                           className:
-                            "absolute left-4 top-1/2 z-10 hidden size-12 -translate-y-full cursor-pointer items-center justify-center rounded-full border-[1.5px] border-yellow-300 opacity-75 transition hover:opacity-100 md:flex",
+                            "absolute top-1/2 left-4 z-10 hidden size-12 -translate-y-full cursor-pointer items-center justify-center rounded-full border-[1.5px] border-yellow-300 opacity-75 transition hover:opacity-100 md:flex",
                           id: "character-prev",
                           children: (0, r.jsx)("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
@@ -3663,7 +3402,7 @@
                         className: "slider-arrow",
                         children: (0, r.jsx)("div", {
                           className:
-                            "absolute right-4 top-1/2 z-10 hidden size-12 -translate-y-full cursor-pointer items-center justify-center rounded-full border-[1.5px] border-yellow-300 opacity-75 transition hover:opacity-100 md:flex",
+                            "absolute top-1/2 right-4 z-10 hidden size-12 -translate-y-full cursor-pointer items-center justify-center rounded-full border-[1.5px] border-yellow-300 opacity-75 transition hover:opacity-100 md:flex",
                           id: "character-next",
                           children: (0, r.jsx)("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
@@ -3701,109 +3440,112 @@
                 a.images &&
                 (null == (l = a.images[0]) ? void 0 : l.fields.description),
               u = (null == s ? void 0 : s.name) === a.name;
-            return (0, r.jsxs)("div", {
+            return (0, r.jsx)("article", {
               className:
                 "character-slide group relative cursor-pointer p-1 will-change-transform",
               onClick: i,
-              children: [
-                (0, r.jsxs)("div", {
-                  className:
-                    "\n          relative aspect-[2/3] w-full transition will-change-transform\n          ".concat(
-                      u
-                        ? "opacity-100"
-                        : "scale-90 opacity-50 hover:opacity-100",
-                      "\n        ",
-                    ),
-                  children: [
-                    (0, r.jsx)(o(), {
-                      src: n,
-                      alt: null != d ? d : "",
-                      fill: !0,
-                      className:
-                        "character-image-mask h-full w-full object-contain",
-                    }),
-                    (0, r.jsx)(o(), {
-                      className:
-                        "absolute -left-1.5 -top-1 transition-opacity duration-300 ".concat(
-                          u ? "opacity-100" : "opacity-0",
-                        ),
-                      width: 24,
-                      height: 24,
-                      alt: "top left bracket",
-                      src: "/images/small-top-left-bracket.svg",
-                    }),
-                    (0, r.jsx)(o(), {
-                      className:
-                        "absolute -right-1 -top-1 transition-opacity duration-300 ".concat(
-                          u ? "opacity-100" : "opacity-0",
-                        ),
-                      width: 24,
-                      height: 24,
-                      alt: "top right bracket",
-                      src: "/images/small-top-right-bracket.svg",
-                    }),
-                    (0, r.jsx)(o(), {
-                      className:
-                        "absolute -bottom-1 -left-1 transition-opacity duration-300 ".concat(
-                          u ? "opacity-100" : "opacity-0",
-                        ),
-                      width: 24,
-                      height: 24,
-                      alt: "bottom left bracket",
-                      src: "/images/small-bottom-left-bracket.svg",
-                    }),
-                    (0, r.jsx)(o(), {
-                      className:
-                        "absolute -bottom-1 -right-1.5 transition-opacity duration-300 ".concat(
-                          u ? "opacity-100" : "opacity-0",
-                        ),
-                      width: 24,
-                      height: 24,
-                      alt: "bottom right bracket",
-                      src: "/images/small-bottom-right-bracket.svg",
-                    }),
-                  ],
-                }),
-                (0, r.jsxs)("div", {
-                  className:
-                    "\n          mt-6 flex flex-col items-center transition-opacity duration-300\n          ".concat(
-                      u ? "opacity-100" : "opacity-0 group-hover:opacity-100",
-                      "\n        ",
-                    ),
-                  children: [
-                    (0, r.jsx)("h2", {
-                      className:
-                        "selected-item-name w-[calc(100%+2rem)] text-center text-[2rem] font-bold text-white",
-                      children: a.name,
-                    }),
-                    (0, r.jsxs)("div", {
-                      className:
-                        "flex flex-col transition-opacity duration-300 lg:opacity-0 ".concat(
-                          u ? "lg:group-hover:opacity-100" : "",
-                        ),
-                      children: [
-                        (0, r.jsx)("button", {
-                          type: "button",
-                          className:
-                            "p-1 text-sm font-bold hover:text-yellow-300",
-                          children: "Learn More",
-                        }),
-                        (0, r.jsx)("div", {
-                          className:
-                            "relative h-1 overflow-hidden transition-all delay-100 duration-300 lg:w-0 lg:group-hover:w-full",
-                          children: (0, r.jsx)(o(), {
-                            width: 80,
-                            height: 4,
-                            src: "/images/welcome/lines/learn-more-line.png",
-                            alt: "A streak of gold underneath the learn more button",
-                            className: "absolute bottom-0 left-0 h-full w-full",
+              children: (0, r.jsxs)("figure", {
+                children: [
+                  (0, r.jsxs)("div", {
+                    className:
+                      "relative aspect-[2/3] w-full transition will-change-transform ".concat(
+                        u
+                          ? "opacity-100"
+                          : "scale-90 opacity-50 hover:opacity-100",
+                        " ",
+                      ),
+                    children: [
+                      (0, r.jsx)(o(), {
+                        src: n,
+                        alt: null != d ? d : "",
+                        fill: !0,
+                        className:
+                          "character-image-mask h-full w-full object-contain",
+                      }),
+                      (0, r.jsx)(o(), {
+                        className:
+                          "absolute -top-1 -left-1.5 transition-opacity duration-300 ".concat(
+                            u ? "opacity-100" : "opacity-0",
+                          ),
+                        width: 24,
+                        height: 24,
+                        alt: "top left bracket",
+                        src: "/images/small-top-left-bracket.svg",
+                      }),
+                      (0, r.jsx)(o(), {
+                        className:
+                          "absolute -top-1 -right-1 transition-opacity duration-300 ".concat(
+                            u ? "opacity-100" : "opacity-0",
+                          ),
+                        width: 24,
+                        height: 24,
+                        alt: "top right bracket",
+                        src: "/images/small-top-right-bracket.svg",
+                      }),
+                      (0, r.jsx)(o(), {
+                        className:
+                          "absolute -bottom-1 -left-1 transition-opacity duration-300 ".concat(
+                            u ? "opacity-100" : "opacity-0",
+                          ),
+                        width: 24,
+                        height: 24,
+                        alt: "bottom left bracket",
+                        src: "/images/small-bottom-left-bracket.svg",
+                      }),
+                      (0, r.jsx)(o(), {
+                        className:
+                          "absolute -right-1.5 -bottom-1 transition-opacity duration-300 ".concat(
+                            u ? "opacity-100" : "opacity-0",
+                          ),
+                        width: 24,
+                        height: 24,
+                        alt: "bottom right bracket",
+                        src: "/images/small-bottom-right-bracket.svg",
+                      }),
+                    ],
+                  }),
+                  (0, r.jsxs)("figcaption", {
+                    className:
+                      "mt-6 flex flex-col items-center transition-opacity duration-300 ".concat(
+                        u ? "opacity-100" : "opacity-0 group-hover:opacity-100",
+                        " ",
+                      ),
+                    children: [
+                      (0, r.jsx)("h3", {
+                        className:
+                          "selected-item-name w-[calc(100%+2rem)] text-center text-[2rem] font-bold text-white",
+                        children: a.name,
+                      }),
+                      (0, r.jsxs)("div", {
+                        className:
+                          "flex flex-col transition-opacity duration-300 lg:opacity-0 ".concat(
+                            u ? "lg:group-hover:opacity-100" : "",
+                          ),
+                        children: [
+                          (0, r.jsx)("button", {
+                            type: "button",
+                            className:
+                              "p-1 text-sm font-bold hover:text-yellow-300",
+                            children: "Learn More",
                           }),
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-              ],
+                          (0, r.jsx)("div", {
+                            className:
+                              "relative h-1 overflow-hidden transition-all delay-100 duration-300 lg:w-0 lg:group-hover:w-full",
+                            children: (0, r.jsx)(o(), {
+                              width: 80,
+                              height: 4,
+                              src: "/images/welcome/lines/learn-more-line.png",
+                              alt: "A streak of gold underneath the learn more button",
+                              className:
+                                "absolute bottom-0 left-0 h-full w-full",
+                            }),
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
             });
           }
           (([c, u] = h.then ? (await h)() : h), a());
@@ -3819,166 +3561,6 @@
           return l(37387);
         },
       ]);
-    },
-    75894: (e, t, l) => {
-      "use strict";
-      l.a(e, async (e, a) => {
-        try {
-          l.d(t, { A: () => p });
-          var r = l(2183),
-            s = l(96006),
-            i = l.n(s),
-            n = l(11677),
-            o = l.n(n),
-            c = l(99435),
-            d = l(7345),
-            u = l(92446),
-            m = e([c, u]);
-          function p(e) {
-            var t, l, a;
-            let { websiteSingleton: s, navItems: n, footerSocialLinks: m } = e,
-              { isLoggedIn: p, shopifyUrl: h } = (0, c.u)(),
-              g = n.filter(
-                (e) => e.showInFooter && !(p && e.hideForLoggedInUsers),
-              ),
-              f = n.filter(
-                (e) => e.showInSubFooter && !(p && e.hideForLoggedInUsers),
-              );
-            return (0, r.jsxs)("div", {
-              className: "relative w-full bg-black px-8 text-white lg:px-32",
-              children: [
-                (0, r.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
-                  children: [
-                    (0, r.jsx)("div", {
-                      children: (0, r.jsx)(i(), {
-                        src: (0, u._c)(
-                          null == (l = s.footerLogo) ||
-                            null == (t = l.fields.file)
-                            ? void 0
-                            : t.url,
-                        ),
-                        width: 248,
-                        height: 248,
-                        alt: (0, u._c)(
-                          null == (a = s.footerLogo)
-                            ? void 0
-                            : a.fields.description,
-                        ),
-                        className: "w-40",
-                      }),
-                    }),
-                    (0, r.jsxs)("div", {
-                      className:
-                        "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
-                      children: [
-                        g.map((e) => {
-                          let t = e.link;
-                          return (
-                            e.shouldReplaceWithGeneratedShopLink &&
-                              h &&
-                              (t = h),
-                            (0, r.jsx)(
-                              o(),
-                              { href: t, children: e.name },
-                              e.link + e.name,
-                            )
-                          );
-                        }),
-                        (0, r.jsx)("span", {
-                          id: "accessibilityWidget",
-                          className: "cursor-pointer",
-                          children: "Accessibility",
-                        }),
-                        (0, r.jsx)("a", {
-                          href: "#",
-                          className: "cursor-pointer",
-                          onClick: (e) => {
-                            var t;
-                            (e.preventDefault(),
-                              null == (t = window.__ucCmp) ||
-                                t.showSecondLayer());
-                          },
-                          children:
-                            "Do Not Sell or Share My Personal Information",
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-                (0, r.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
-                  children: [
-                    (0, r.jsx)("div", {
-                      className: "text-darkgray-500 text-center",
-                      children: s.footerCopyright,
-                    }),
-                    (0, r.jsx)("div", {
-                      className: "flex items-center space-x-4 text-white",
-                      children: m.map((e) => {
-                        var t, l, a, s;
-                        return (0, r.jsx)(
-                          d.A,
-                          {
-                            href: e.link,
-                            children: (0, r.jsx)(i(), {
-                              src: (0, u._c)(
-                                null == (l = e.icon) ||
-                                  null == (t = l.fields.file)
-                                  ? void 0
-                                  : t.url,
-                              ),
-                              alt:
-                                null !=
-                                (s =
-                                  null == (a = e.icon)
-                                    ? void 0
-                                    : a.fields.description)
-                                  ? s
-                                  : "",
-                              width: 20,
-                              height: 20,
-                            }),
-                          },
-                          e.link,
-                        );
-                      }),
-                    }),
-                  ],
-                }),
-                (0, r.jsx)("div", { className: "h-px bg-gray-500" }),
-                (0, r.jsxs)("div", {
-                  className:
-                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row",
-                  children: [
-                    (0, r.jsx)("p", {
-                      className:
-                        "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
-                      children: s.footerLegalNotice,
-                    }),
-                    (0, r.jsx)("div", {
-                      className:
-                        "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
-                      children: f.map((e) =>
-                        (0, r.jsx)(
-                          "a",
-                          { href: e.link, children: e.name },
-                          e.link + e.name,
-                        ),
-                      ),
-                    }),
-                  ],
-                }),
-              ],
-            });
-          }
-          (([c, u] = m.then ? (await m)() : m), a());
-        } catch (e) {
-          a(e);
-        }
-      });
     },
     92279: (e, t, l) => {
       "use strict";
@@ -4289,8 +3871,8 @@
     (e.O(
       0,
       [
-        9950, 8762, 6006, 1433, 1329, 1175, 3492, 4971, 5216, 2446, 636, 6593,
-        8792,
+        9950, 8762, 6006, 1433, 1329, 1089, 3492, 4971, 5216, 2446, 7137, 636,
+        6593, 8792,
       ],
       () => e((e.s = 72530)),
     ),

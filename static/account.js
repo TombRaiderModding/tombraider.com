@@ -1,175 +1,187 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [9309],
   {
-    15056: (e, t, l) => {
+    15056: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => m });
-          var s = l(2183),
-            n = l(36439),
-            r = l(55507),
-            c = l(55109),
-            i = l(26974),
-            d = l(99435),
-            o = l(80707),
-            u = l.n(o),
-            h = e([r, c, d]);
-          function m() {
+          t.d(s, { A: () => x });
+          var l = t(2183),
+            r = t(36439),
+            i = t(55507),
+            n = t(55109),
+            c = t(26974),
+            d = t(99435),
+            o = t(80707),
+            u = t.n(o),
+            h = e([i, n, d]);
+          function x() {
             let {
                 setUserData: e,
-                userData: t,
-                rewards: l,
+                userData: s,
+                rewards: t,
                 rewardsLoading: a,
                 fetchRewards: o,
                 minigameCompleted: h,
               } = (0, d.u)(),
-              m = (0, n.useMemo)(
+              x = (0, r.useMemo)(
                 () =>
-                  [...l.avatars].sort((e, t) =>
-                    e.title.localeCompare(t.title, void 0, {
+                  [...t.avatars].sort((e, s) =>
+                    e.title.localeCompare(s.title, void 0, {
                       sensitivity: "base",
                     }),
                   ),
-                [l],
+                [t],
               ),
-              x = async (l) => {
-                var a, s;
-                (0, c.nU)({ itemId: l.id });
-                let n = u().clone(t);
-                (null == n || null == (a = n.accountInfo)
+              m = async (t) => {
+                var a, l;
+                (0, n.nU)({ itemId: t.id });
+                let r = u().clone(s);
+                (null == r || null == (a = r.accountInfo)
                   ? void 0
                   : a.titleInfo) &&
-                  ((n.accountInfo.titleInfo.avatarUrl =
-                    null != (s = l.imageUrl) ? s : void 0),
-                  e(n));
+                  ((r.accountInfo.titleInfo.avatarUrl =
+                    null != (l = t.imageUrl) ? l : void 0),
+                  e(r));
               };
             return (
-              (0, n.useEffect)(() => {
+              (0, r.useEffect)(() => {
                 o();
               }, [h]),
-              (0, s.jsx)("div", {
+              (0, l.jsx)("div", {
                 className:
                   "flex flex-col gap-y-4 rounded-xl bg-lightgray-100 px-8 py-8",
                 children: a
-                  ? (0, s.jsx)("div", {
+                  ? (0, l.jsx)("div", {
                       className: "flex justify-center",
-                      children: (0, s.jsx)(i.A, {}),
+                      children: (0, l.jsx)(c.A, {}),
                     })
-                  : 0 === m.length
-                    ? (0, s.jsx)("p", {
+                  : 0 === x.length
+                    ? (0, l.jsx)("p", {
                         children: "You don't have any avatars unlocked.",
                       })
-                    : m.map((e) =>
-                        (0, s.jsx)(r.A, { onClick: x, avatar: e }, e.id),
+                    : x.map((e) =>
+                        (0, l.jsx)(i.A, { onClick: m, avatar: e }, e.id),
                       ),
               })
             );
           }
-          (([r, c, d] = h.then ? (await h)() : h), a());
+          (([i, n, d] = h.then ? (await h)() : h), a());
         } catch (e) {
           a(e);
         }
       });
     },
-    34714: (e, t, l) => {
+    34714: (e, s, t) => {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/account",
         function () {
-          return l(37749);
+          return t(37749);
         },
       ]);
     },
-    37749: (e, t, l) => {
+    37749: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          (l.r(t), l.d(t, { __N_SSG: () => p, default: () => j }));
-          var s = l(2183),
-            n = l(56145),
-            r = l(53017),
-            c = l(88891),
-            i = l(53808),
-            d = l(15056),
-            o = l(67603),
-            u = l(41395),
-            h = l(57e3),
-            m = l(79294),
-            x = l(36439),
-            v = l(55109),
-            g = l(99435),
-            f = e([n, c, i, d, o, u, h, v, g]);
-          [n, c, i, d, o, u, h, v, g] = f.then ? (await f)() : f;
-          var p = !0;
-          function j(e) {
-            let { articles: t, navItems: l, surveys: a } = e,
-              { setMinigameCompleted: f } = (0, g.u)();
+          (t.r(s), t.d(s, { __N_SSG: () => j, default: () => y }));
+          var l = t(2183),
+            r = t(56145),
+            i = t(91134),
+            n = t(53017),
+            c = t(88891),
+            d = t(53808),
+            o = t(15056),
+            u = t(67603),
+            h = t(41395),
+            x = t(57e3),
+            m = t(79294),
+            v = t(36439),
+            g = t(55109),
+            f = t(99435),
+            p = e([r, c, d, o, u, h, x, g, f]);
+          [r, c, d, o, u, h, x, g, f] = p.then ? (await p)() : p;
+          var j = !0;
+          function y(e) {
+            let { articles: s, navItems: t, surveys: a } = e,
+              { setMinigameCompleted: p } = (0, f.u)();
             return (
-              (0, x.useEffect)(() => {
+              (0, v.useEffect)(() => {
                 localStorage.getItem("minigame-completed-while-logged-out") &&
-                  ((0, v.qu)({ action: "MINIGAME_COMPLETION" }),
+                  ((0, g.qu)({ action: "MINIGAME_COMPLETION" }),
                   localStorage.removeItem(
                     "minigame-completed-while-logged-out",
                   ),
-                  f(!0));
+                  p(!0));
               }, []),
-              (0, s.jsx)(n.A, {
-                children: (0, s.jsx)("main", {
-                  className: " min-h-screen bg-white text-black",
-                  children: (0, s.jsxs)("div", {
-                    className: " ",
-                    children: [
-                      (0, s.jsx)(c.A, { surveys: a, navItems: l }),
-                      (0, s.jsx)(r.A, {}),
-                      (0, s.jsx)(m.A, {}),
-                      (0, s.jsxs)("div", {
-                        className: "px-6 py-12 lg:ml-[256px] lg:px-12",
-                        children: [
-                          (0, s.jsx)(i.A, {
-                            surveys: a,
-                            title: "Welcome, Raider!",
-                          }),
-                          (0, s.jsxs)("div", {
-                            className:
-                              "grid grid-cols-1 gap-6 pt-16 lg:grid-cols-2",
-                            children: [
-                              (0, s.jsxs)("div", {
-                                children: [
-                                  (0, s.jsx)("p", {
-                                    className: "pb-4 text-3xl font-bold",
-                                    children: "Avatars",
-                                  }),
-                                  (0, s.jsx)(d.A, {}),
-                                  (0, s.jsx)("p", {
-                                    className: "pb-4 pt-12 text-3xl font-bold",
-                                    children: "Downloads",
-                                  }),
-                                  (0, s.jsx)(u.A, {}),
-                                ],
-                              }),
-                              (0, s.jsxs)("div", {
-                                children: [
-                                  (0, s.jsx)("p", {
-                                    className: "pb-4 text-3xl font-bold",
-                                    children: "Society of Raider News",
-                                  }),
-                                  (0, s.jsx)(o.A, {
-                                    articles: t.slice(0, Math.min(t.length, 3)),
-                                  }),
-                                  (0, s.jsx)("p", {
-                                    className: "pb-4 pt-12 text-3xl font-bold",
-                                    children: "Videos",
-                                  }),
-                                  (0, s.jsx)(h.A, {}),
-                                ],
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    ],
+              (0, l.jsxs)(r.A, {
+                children: [
+                  (0, l.jsx)(i.A, {
+                    description:
+                      "Manage your Tomb Raider account. Update your profile, track exclusive member rewards, and access all your Society of Raiders benefits from Crystal Dynamics.",
                   }),
-                }),
+                  (0, l.jsx)("main", {
+                    className: "min-h-screen bg-white text-black",
+                    children: (0, l.jsxs)("div", {
+                      className: " ",
+                      children: [
+                        (0, l.jsx)(c.A, { surveys: a, navItems: t }),
+                        (0, l.jsx)(n.A, {}),
+                        (0, l.jsx)(m.A, {}),
+                        (0, l.jsxs)("div", {
+                          className: "px-6 py-12 lg:ml-[256px] lg:px-12",
+                          children: [
+                            (0, l.jsx)(d.A, {
+                              surveys: a,
+                              title: "Welcome, Raider!",
+                            }),
+                            (0, l.jsxs)("div", {
+                              className:
+                                "grid grid-cols-1 gap-6 pt-16 lg:grid-cols-2",
+                              children: [
+                                (0, l.jsxs)("div", {
+                                  children: [
+                                    (0, l.jsx)("p", {
+                                      className: "pb-4 text-3xl font-bold",
+                                      children: "Avatars",
+                                    }),
+                                    (0, l.jsx)(o.A, {}),
+                                    (0, l.jsx)("p", {
+                                      className:
+                                        "pt-12 pb-4 text-3xl font-bold",
+                                      children: "Downloads",
+                                    }),
+                                    (0, l.jsx)(h.A, {}),
+                                  ],
+                                }),
+                                (0, l.jsxs)("div", {
+                                  children: [
+                                    (0, l.jsx)("p", {
+                                      className: "pb-4 text-3xl font-bold",
+                                      children: "Society of Raider News",
+                                    }),
+                                    (0, l.jsx)(u.A, {
+                                      articles: s.slice(
+                                        0,
+                                        Math.min(s.length, 3),
+                                      ),
+                                    }),
+                                    (0, l.jsx)("p", {
+                                      className:
+                                        "pt-12 pb-4 text-3xl font-bold",
+                                      children: "Videos",
+                                    }),
+                                    (0, l.jsx)(x.A, {}),
+                                  ],
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                  }),
+                ],
               })
             );
           }
@@ -179,188 +191,68 @@
         }
       });
     },
-    40453: (e, t, l) => {
+    41395: (e, s, t) => {
       "use strict";
-      l.d(t, { i: () => d });
-      var a = l(36439),
-        s = l(40235);
-      let n = {
-          [s.nA.DOCUMENT]: (e, t) => t,
-          [s.nA.PARAGRAPH]: (e, t) => a.createElement("p", null, t),
-          [s.nA.HEADING_1]: (e, t) => a.createElement("h1", null, t),
-          [s.nA.HEADING_2]: (e, t) => a.createElement("h2", null, t),
-          [s.nA.HEADING_3]: (e, t) => a.createElement("h3", null, t),
-          [s.nA.HEADING_4]: (e, t) => a.createElement("h4", null, t),
-          [s.nA.HEADING_5]: (e, t) => a.createElement("h5", null, t),
-          [s.nA.HEADING_6]: (e, t) => a.createElement("h6", null, t),
-          [s.nA.EMBEDDED_ENTRY]: (e, t) => a.createElement("div", null, t),
-          [s.nA.EMBEDDED_RESOURCE]: (e, t) => a.createElement("div", null, t),
-          [s.nA.UL_LIST]: (e, t) => a.createElement("ul", null, t),
-          [s.nA.OL_LIST]: (e, t) => a.createElement("ol", null, t),
-          [s.nA.LIST_ITEM]: (e, t) => a.createElement("li", null, t),
-          [s.nA.QUOTE]: (e, t) => a.createElement("blockquote", null, t),
-          [s.nA.HR]: () => a.createElement("hr", null),
-          [s.nA.TABLE]: (e, t) =>
-            a.createElement("table", null, a.createElement("tbody", null, t)),
-          [s.nA.TABLE_ROW]: (e, t) => a.createElement("tr", null, t),
-          [s.nA.TABLE_HEADER_CELL]: (e, t) => a.createElement("th", null, t),
-          [s.nA.TABLE_CELL]: (e, t) => a.createElement("td", null, t),
-          [s.XD.ASSET_HYPERLINK]: (e) => c(s.XD.ASSET_HYPERLINK, e),
-          [s.XD.ENTRY_HYPERLINK]: (e) => c(s.XD.ENTRY_HYPERLINK, e),
-          [s.XD.RESOURCE_HYPERLINK]: (e) => i(s.XD.RESOURCE_HYPERLINK, e),
-          [s.XD.EMBEDDED_ENTRY]: (e) => c(s.XD.EMBEDDED_ENTRY, e),
-          [s.XD.EMBEDDED_RESOURCE]: (e, t) => i(s.XD.EMBEDDED_RESOURCE, e),
-          [s.XD.HYPERLINK]: (e, t) =>
-            a.createElement("a", { href: e.data.uri }, t),
-        },
-        r = {
-          [s.j7.BOLD]: (e) => a.createElement("b", null, e),
-          [s.j7.ITALIC]: (e) => a.createElement("i", null, e),
-          [s.j7.UNDERLINE]: (e) => a.createElement("u", null, e),
-          [s.j7.CODE]: (e) => a.createElement("code", null, e),
-          [s.j7.SUPERSCRIPT]: (e) => a.createElement("sup", null, e),
-          [s.j7.SUBSCRIPT]: (e) => a.createElement("sub", null, e),
-          [s.j7.STRIKETHROUGH]: (e) => a.createElement("s", null, e),
-        };
-      function c(e, t) {
-        return a.createElement(
-          "span",
-          { key: t.data.target.sys.id },
-          "type: ",
-          t.nodeType,
-          " id: ",
-          t.data.target.sys.id,
-        );
-      }
-      function i(e, t) {
-        return a.createElement(
-          "span",
-          { key: t.data.target.sys.urn },
-          "type: ",
-          t.nodeType,
-          " urn: ",
-          t.data.target.sys.urn,
-        );
-      }
-      function d(e, t = {}) {
-        if (!e) return null;
-        let l = e;
-        return (
-          t.stripEmptyTrailingParagraph &&
-            (l = s._$.stripEmptyTrailingParagraphFromDocument(e)),
-          (function e(t, l) {
-            let {
-              renderNode: n,
-              renderMark: r,
-              renderText: c,
-              preserveWhitespace: i,
-            } = l;
-            if (s._$.isText(t)) {
-              let e = c ? c(t.value) : t.value;
-              if (i && !c) {
-                let t = (e = e.replace(/ {2,}/g, (e) =>
-                    "\xa0".repeat(e.length),
-                  )).split("\n"),
-                  l = [];
-                (t.forEach((e, s) => {
-                  (l.push(e),
-                    s !== t.length - 1 && l.push(a.createElement("br", null)));
-                }),
-                  (e = l));
-              }
-              return t.marks.reduce(
-                (e, t) => (r[t.type] ? r[t.type](e) : e),
-                e,
-              );
-            }
-            {
-              var d;
-              let s =
-                ((d = t.content),
-                d.map((t, s) => {
-                  var n;
-                  return (
-                    (n = e(t, l)),
-                    (0, a.isValidElement)(n) && null === n.key
-                      ? (0, a.cloneElement)(n, { key: s })
-                      : n
-                  );
-                }));
-              return t.nodeType && n[t.nodeType]
-                ? n[t.nodeType](t, s)
-                : a.createElement(a.Fragment, null, s);
-            }
-          })(l, {
-            renderNode: { ...n, ...t.renderNode },
-            renderMark: { ...r, ...t.renderMark },
-            renderText: t.renderText,
-            preserveWhitespace: t.preserveWhitespace,
-          })
-        );
-      }
-    },
-    41395: (e, t, l) => {
-      "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => m });
-          var s = l(2183),
-            n = l(96006),
-            r = l.n(n),
-            c = l(36439),
-            i = l(26974),
-            d = l(11677),
-            o = l.n(d),
-            u = l(99435),
+          t.d(s, { A: () => x });
+          var l = t(2183),
+            r = t(96006),
+            i = t.n(r),
+            n = t(36439),
+            c = t(26974),
+            d = t(11677),
+            o = t.n(d),
+            u = t(99435),
             h = e([u]);
-          function m() {
-            let { rewards: e, rewardsLoading: t } = (0, u.u)(),
-              l = (0, c.useMemo)(
+          function x() {
+            let { rewards: e, rewardsLoading: s } = (0, u.u)(),
+              t = (0, n.useMemo)(
                 () =>
-                  [...e.fileDownloads].sort((e, t) =>
-                    e.startDate && t.startDate
-                      ? t.startDate.localeCompare(e.startDate)
+                  [...e.fileDownloads].sort((e, s) =>
+                    e.startDate && s.startDate
+                      ? s.startDate.localeCompare(e.startDate)
                       : 0,
                   ),
                 [e],
               );
-            return (0, s.jsx)("div", {
+            return (0, l.jsx)("div", {
               className:
                 "flex flex-col gap-y-8 rounded-xl bg-lightgray-100 px-8 py-8",
-              children: t
-                ? (0, s.jsx)("div", {
+              children: s
+                ? (0, l.jsx)("div", {
                     className: "flex justify-center",
-                    children: (0, s.jsx)(i.A, {}),
+                    children: (0, l.jsx)(c.A, {}),
                   })
-                : 0 === l.length
-                  ? (0, s.jsx)("p", {
+                : 0 === t.length
+                  ? (0, l.jsx)("p", {
                       children: "You don't have any downloads unlocked.",
                     })
-                  : l.map((e) => (0, s.jsx)(x, { item: e }, e.id)),
+                  : t.map((e) => (0, l.jsx)(m, { item: e }, e.id)),
             });
           }
-          function x(e) {
-            var t;
-            let { item: l } = e;
-            return (0, s.jsx)(o(), {
-              href: null != (t = l.fileUrl) ? t : "",
-              children: (0, s.jsxs)("div", {
+          function m(e) {
+            var s;
+            let { item: t } = e;
+            return (0, l.jsx)(o(), {
+              href: null != (s = t.fileUrl) ? s : "",
+              children: (0, l.jsxs)("div", {
                 className: "relative flex flex-col gap-y-2",
                 children: [
-                  (0, s.jsx)("div", {
+                  (0, l.jsx)("div", {
                     className: "relative aspect-[16/9] w-full",
-                    children: (0, s.jsx)(r(), {
+                    children: (0, l.jsx)(i(), {
                       fill: !0,
                       sizes:
                         "(max-width: 1024px) 100vw, (max-width: 1440px) 50vw, 33vw",
                       className: "object-cover",
                       alt: "downloadable image",
-                      src: l.imageUrl,
+                      src: t.imageUrl,
                     }),
                   }),
-                  (0, s.jsx)("p", {
+                  (0, l.jsx)("p", {
                     className: "text-lg font-bold",
-                    children: l.title,
+                    children: t.title,
                   }),
                 ],
               }),
@@ -372,36 +264,36 @@
         }
       });
     },
-    53017: (e, t, l) => {
+    53017: (e, s, t) => {
       "use strict";
-      l.d(t, { A: () => o });
-      var a = l(2183),
-        s = l(96006),
-        n = l.n(s),
-        r = l(11677),
-        c = l.n(r),
-        i = l(18652),
-        d = l(36439);
+      t.d(s, { A: () => o });
+      var a = t(2183),
+        l = t(96006),
+        r = t.n(l),
+        i = t(11677),
+        n = t.n(i),
+        c = t(18652),
+        d = t(36439);
       function o() {
-        let e = (0, i.useRouter)(),
-          [t, l] = (0, d.useState)("Dashboard");
+        let e = (0, c.useRouter)(),
+          [s, t] = (0, d.useState)("Dashboard");
         return (
           (0, d.useEffect)(() => {
             e.pathname.includes("settings")
-              ? l("Settings")
+              ? t("Settings")
               : e.pathname.includes("rewards")
-                ? l("Rewards")
+                ? t("Rewards")
                 : e.pathname.includes("surveys")
-                  ? l("Surveys")
-                  : l("Dashboard");
+                  ? t("Surveys")
+                  : t("Dashboard");
           }, [e, e.pathname]),
           (0, a.jsxs)("div", {
             className:
               "fixed left-0 top-0 z-[100] hidden h-screen w-[256px] flex-col items-center gap-y-6 border-r bg-white pt-8 lg:flex",
             children: [
-              (0, a.jsx)(c(), {
+              (0, a.jsx)(n(), {
                 href: "/",
-                children: (0, a.jsx)(n(), {
+                children: (0, a.jsx)(r(), {
                   width: 87,
                   height: 40,
                   alt: "dark Tomb Raider logo",
@@ -410,25 +302,25 @@
                 }),
               }),
               (0, a.jsx)(u, {
-                selected: "Dashboard" === t,
+                selected: "Dashboard" === s,
                 href: "/account",
                 src: "/images/dashboard-icon.svg",
                 children: "Dashboard",
               }),
               (0, a.jsx)(u, {
-                selected: "Rewards" === t,
+                selected: "Rewards" === s,
                 href: "/account/rewards",
                 src: "/images/rewards-icon.svg",
                 children: "Rewards",
               }),
               (0, a.jsx)(u, {
-                selected: "Surveys" === t,
+                selected: "Surveys" === s,
                 href: "/account/surveys",
                 src: "/images/survey-icon.svg",
                 children: "Surveys",
               }),
               (0, a.jsx)(u, {
-                selected: "Settings" === t,
+                selected: "Settings" === s,
                 href: "/account/settings",
                 src: "/images/settings-icon.svg",
                 children: "Settings",
@@ -438,51 +330,51 @@
         );
       }
       function u(e) {
-        let { src: t, children: l, selected: s, href: r } = e;
-        return (0, a.jsx)(c(), {
-          href: r,
+        let { src: s, children: t, selected: l, href: i } = e;
+        return (0, a.jsx)(n(), {
+          href: i,
           children: (0, a.jsxs)("div", {
             className: "flex w-32 cursor-pointer font-bold ".concat(
-              s ? "opacity-100" : "opacity-50",
+              l ? "opacity-100" : "opacity-50",
             ),
             children: [
-              (0, a.jsx)(n(), {
+              (0, a.jsx)(r(), {
                 width: 24,
                 height: 24,
                 alt: "Logo",
                 className: "mr-3",
-                src: t,
+                src: s,
               }),
-              l,
+              t,
             ],
           }),
         });
       }
     },
-    53808: (e, t, l) => {
+    53808: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => h });
-          var s = l(2183),
-            n = l(96006),
-            r = l.n(n),
-            c = l(11677),
-            i = l.n(c),
-            d = l(99435),
-            o = l(36439),
+          t.d(s, { A: () => h });
+          var l = t(2183),
+            r = t(96006),
+            i = t.n(r),
+            n = t(11677),
+            c = t.n(n),
+            d = t(99435),
+            o = t(36439),
             u = e([d]);
           function h(e) {
-            var t, l, a, n;
-            let { title: c, surveys: u } = e,
+            var s, t, a, r;
+            let { title: n, surveys: u } = e,
               {
                 userData: h,
-                emailData: m,
-                resendVerification: x,
+                emailData: x,
+                resendVerification: m,
                 completedSurveys: v,
               } = (0, d.u)(),
               g = async () => {
-                x();
+                m();
               },
               f = (0, o.useMemo)(() => {
                 var e;
@@ -494,44 +386,44 @@
                   ? e
                   : [];
               }, [u, v]);
-            return (0, s.jsxs)("div", {
+            return (0, l.jsxs)("div", {
               className: "flex flex-wrap items-center gap-x-8 gap-y-4",
               children: [
-                (0, s.jsx)("div", {
+                (0, l.jsx)("div", {
                   className: "relative h-[108px] w-[108px]",
-                  children: (0, s.jsx)(r(), {
+                  children: (0, l.jsx)(i(), {
                     fill: !0,
                     className: "rounded-full object-cover ".concat(
                       !(null == h ||
-                      null == (l = h.accountInfo) ||
-                      null == (t = l.titleInfo)
+                      null == (t = h.accountInfo) ||
+                      null == (s = t.titleInfo)
                         ? void 0
-                        : t.avatarUrl) && "bg-gray-500 p-4",
+                        : s.avatarUrl) && "bg-gray-500 p-4",
                     ),
                     alt: "welcome-image",
                     sizes: "216px",
                     src:
                       (null == h ||
-                      null == (n = h.accountInfo) ||
-                      null == (a = n.titleInfo)
+                      null == (r = h.accountInfo) ||
+                      null == (a = r.titleInfo)
                         ? void 0
                         : a.avatarUrl) || "/images/question_mark.svg",
                   }),
                 }),
-                (0, s.jsxs)("div", {
+                (0, l.jsxs)("div", {
                   children: [
-                    (0, s.jsx)("p", {
+                    (0, l.jsx)("p", {
                       className: "mb-4 text-5xl",
-                      children: c,
+                      children: n,
                     }),
-                    m &&
-                      !m.hasConfirmedEmail &&
-                      (0, s.jsxs)("p", {
+                    x &&
+                      !x.hasConfirmedEmail &&
+                      (0, l.jsxs)("p", {
                         className: "mb-4 text-sm",
                         children: [
                           "You're almost done! Please check your email to verify your account.",
                           " ",
-                          (0, s.jsx)("button", {
+                          (0, l.jsx)("button", {
                             className: "font-bold underline hover:no-underline",
                             onClick: g,
                             type: "button",
@@ -540,14 +432,14 @@
                         ],
                       }),
                     f.length > 0 &&
-                      (0, s.jsxs)("p", {
+                      (0, l.jsxs)("p", {
                         className: "text-sm",
                         children: [
-                          (0, s.jsx)("span", {
+                          (0, l.jsx)("span", {
                             className: "text-red-500",
                             children: "You have surveys to complete! ",
                           }),
-                          (0, s.jsx)(i(), {
+                          (0, l.jsx)(c(), {
                             href: "/account/surveys",
                             className: "font-bold underline hover:no-underline",
                             children: "Visit surveys page",
@@ -565,65 +457,65 @@
         }
       });
     },
-    55507: (e, t, l) => {
+    55507: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => o });
-          var s = l(2183),
-            n = l(96006),
-            r = l.n(n),
-            c = l(99435),
-            i = l(36439),
-            d = e([c]);
+          t.d(s, { A: () => o });
+          var l = t(2183),
+            r = t(96006),
+            i = t.n(r),
+            n = t(99435),
+            c = t(36439),
+            d = e([n]);
           function o(e) {
-            var t, l, a;
-            let { avatar: n, onClick: d } = e,
-              { userData: o } = (0, c.u)(),
-              u = (0, i.useMemo)(() => {
-                var e, t;
+            var s, t, a;
+            let { avatar: r, onClick: d } = e,
+              { userData: o } = (0, n.u)(),
+              u = (0, c.useMemo)(() => {
+                var e, s;
                 return (
                   (null == o ||
-                  null == (t = o.accountInfo) ||
-                  null == (e = t.titleInfo)
+                  null == (s = o.accountInfo) ||
+                  null == (e = s.titleInfo)
                     ? void 0
-                    : e.avatarUrl) === n.imageUrl
+                    : e.avatarUrl) === r.imageUrl
                 );
               }, [
                 o,
                 null == o ||
-                null == (l = o.accountInfo) ||
-                null == (t = l.titleInfo)
+                null == (t = o.accountInfo) ||
+                null == (s = t.titleInfo)
                   ? void 0
-                  : t.avatarUrl,
+                  : s.avatarUrl,
               ]);
-            return (0, s.jsxs)("div", {
+            return (0, l.jsxs)("div", {
               onClick: () => {
-                n.isUnlocked && d(n);
+                r.isUnlocked && d(r);
               },
               className: "flex items-center gap-x-4 ".concat(
-                n.isUnlocked ? "cursor-pointer opacity-100" : "opacity-50",
+                r.isUnlocked ? "cursor-pointer opacity-100" : "opacity-50",
               ),
               children: [
-                (0, s.jsxs)("div", {
+                (0, l.jsxs)("div", {
                   className:
                     "relative aspect-square w-16 shrink-0 rounded-full",
                   children: [
-                    (0, s.jsx)(r(), {
+                    (0, l.jsx)(i(), {
                       className: "rounded-full object-cover",
-                      alt: n.title,
+                      alt: r.title,
                       fill: !0,
                       sizes: "128px",
                       src:
-                        null != (a = n.imageUrl)
+                        null != (a = r.imageUrl)
                           ? a
                           : "/images/question_mark.svg",
                     }),
                     u &&
-                      (0, s.jsx)("div", {
+                      (0, l.jsx)("div", {
                         className:
                           "relative z-10 h-full w-full rounded-full bg-black/50",
-                        children: (0, s.jsx)(r(), {
+                        children: (0, l.jsx)(i(), {
                           className: "object-cover p-4",
                           alt: "check",
                           src: "/images/check_white.svg",
@@ -632,106 +524,106 @@
                       }),
                   ],
                 }),
-                (0, s.jsxs)("div", {
+                (0, l.jsxs)("div", {
                   children: [
-                    (0, s.jsx)("p", {
+                    (0, l.jsx)("p", {
                       className: "text-xl",
-                      children: n.title,
+                      children: r.title,
                     }),
-                    (0, s.jsx)("p", {
+                    (0, l.jsx)("p", {
                       className: "text-md",
-                      children: n.howToGetIt,
+                      children: r.howToGetIt,
                     }),
                   ],
                 }),
               ],
             });
           }
-          ((c = (d.then ? (await d)() : d)[0]), a());
+          ((n = (d.then ? (await d)() : d)[0]), a());
         } catch (e) {
           a(e);
         }
       });
     },
-    56145: (e, t, l) => {
+    56145: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => i });
-          var s = l(18652),
-            n = l(36439),
-            r = l(99435),
-            c = e([r]);
-          function i(e) {
-            let { children: t } = e,
-              l = (0, s.useRouter)(),
-              { userData: a, cacheLoaded: c, loading: i } = (0, r.u)();
-            return ((0, n.useEffect)(() => {
-              i || !c || a || l.replace("/");
-            }, [a, c, i, l]),
-            a && c)
-              ? t
+          t.d(s, { A: () => c });
+          var l = t(18652),
+            r = t(36439),
+            i = t(99435),
+            n = e([i]);
+          function c(e) {
+            let { children: s } = e,
+              t = (0, l.useRouter)(),
+              { userData: a, cacheLoaded: n, loading: c } = (0, i.u)();
+            return ((0, r.useEffect)(() => {
+              c || !n || a || t.replace("/");
+            }, [a, n, c, t]),
+            a && n)
+              ? s
               : null;
           }
-          ((r = (c.then ? (await c)() : c)[0]), a());
+          ((i = (n.then ? (await n)() : n)[0]), a());
         } catch (e) {
           a(e);
         }
       });
     },
-    57e3: (e, t, l) => {
+    57e3: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => u });
-          var s = l(2183),
-            n = l(59528),
-            r = l(95873),
-            c = l(36439),
-            i = l(26974),
-            d = l(99435),
+          t.d(s, { A: () => u });
+          var l = t(2183),
+            r = t(59528),
+            i = t(95873),
+            n = t(36439),
+            c = t(26974),
+            d = t(99435),
             o = e([d]);
           function u() {
-            let { rewards: e, rewardsLoading: t } = (0, d.u)(),
-              l = (0, c.useMemo)(
+            let { rewards: e, rewardsLoading: s } = (0, d.u)(),
+              t = (0, n.useMemo)(
                 () =>
-                  [...e.videoLinks].sort((e, t) =>
-                    e.startDate && t.startDate
-                      ? t.startDate.localeCompare(e.startDate)
+                  [...e.videoLinks].sort((e, s) =>
+                    e.startDate && s.startDate
+                      ? s.startDate.localeCompare(e.startDate)
                       : 0,
                   ),
                 [e],
               );
-            return (0, s.jsx)("div", {
+            return (0, l.jsx)("div", {
               className:
                 "flex flex-col gap-y-8 rounded-xl bg-lightgray-100 px-8 py-8",
-              children: t
-                ? (0, s.jsx)("div", {
+              children: s
+                ? (0, l.jsx)("div", {
                     className: "flex justify-center",
-                    children: (0, s.jsx)(i.A, {}),
+                    children: (0, l.jsx)(c.A, {}),
                   })
-                : 0 === l.length
-                  ? (0, s.jsx)("p", {
+                : 0 === t.length
+                  ? (0, l.jsx)("p", {
                       children: "You don't have any videos unlocked.",
                     })
-                  : l.map((e) => (0, s.jsx)(h, { item: e }, e.id)),
+                  : t.map((e) => (0, l.jsx)(h, { item: e }, e.id)),
             });
           }
           function h(e) {
-            var t;
-            let { item: l } = e;
-            return (0, s.jsxs)("div", {
+            var s;
+            let { item: t } = e;
+            return (0, l.jsxs)("div", {
               className: "relative flex flex-col gap-y-2",
               children: [
-                (0, s.jsx)("div", {
+                (0, l.jsx)("div", {
                   className: "relative aspect-[16/9] w-full",
-                  children: (0, s.jsx)(n.A, {
-                    src: (0, r.C)(null != (t = l.link) ? t : ""),
+                  children: (0, l.jsx)(r.A, {
+                    src: (0, i.C)(null != (s = t.link) ? s : ""),
                   }),
                 }),
-                (0, s.jsx)("p", {
+                (0, l.jsx)("p", {
                   className: "text-lg font-bold",
-                  children: l.title,
+                  children: t.title,
                 }),
               ],
             });
@@ -742,55 +634,55 @@
         }
       });
     },
-    67603: (e, t, l) => {
+    67603: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => h });
-          var s = l(2183),
-            n = l(15711),
-            r = l(40453),
-            c = l(11677),
-            i = l.n(c),
-            d = l(92446),
-            o = l(99435),
+          t.d(s, { A: () => h });
+          var l = t(2183),
+            r = t(15711),
+            i = t(40453),
+            n = t(11677),
+            c = t.n(n),
+            d = t(92446),
+            o = t(99435),
             u = e([d, o]);
           function h(e) {
-            let { articles: t } = e;
-            return (0, s.jsx)("div", {
+            let { articles: s } = e;
+            return (0, l.jsx)("div", {
               className: "flex flex-col gap-y-4",
               children:
-                null == t
+                null == s
                   ? void 0
-                  : t.map((e) => (0, s.jsx)(m, { article: e }, e.slug)),
+                  : s.map((e) => (0, l.jsx)(x, { article: e }, e.slug)),
             });
           }
-          function m(e) {
-            var t;
-            let { article: l } = e,
+          function x(e) {
+            var s;
+            let { article: t } = e,
               { isLoggedIn: a } = (0, o.u)();
-            return (0, s.jsxs)("div", {
+            return (0, l.jsxs)("div", {
               className:
                 "text-md flex flex-col gap-y-4 rounded-xl bg-lightgray-100 px-8 py-8",
               children: [
-                (0, s.jsx)("p", {
+                (0, l.jsx)("p", {
                   className: "text-2xl font-bold",
-                  children: l.title,
+                  children: t.title,
                 }),
-                (0, s.jsx)("div", {
+                (0, l.jsx)("div", {
                   className: "line-clamp-3",
-                  children: (0, r.i)(l.body, (0, d.Xx)(!0, a)),
+                  children: (0, i.i)(t.body, (0, d.Xx)(!0, a)),
                 }),
-                (0, s.jsx)("div", {
+                (0, l.jsx)("div", {
                   className: "pt-4",
-                  children: (0, s.jsx)(i(), {
+                  children: (0, l.jsx)(c(), {
                     href: "/news/"
                       .concat(
-                        null == (t = l.category) ? void 0 : t.fields.slug,
+                        null == (s = t.category) ? void 0 : s.fields.slug,
                         "/",
                       )
-                      .concat(null == l ? void 0 : l.slug),
-                    children: (0, s.jsx)(n.A, {
+                      .concat(null == t ? void 0 : t.slug),
+                    children: (0, l.jsx)(r.A, {
                       variant: "green",
                       children: "Read More",
                     }),
@@ -805,28 +697,28 @@
         }
       });
     },
-    79294: (e, t, l) => {
+    79294: (e, s, t) => {
       "use strict";
-      l.d(t, { A: () => o });
-      var a = l(2183),
-        s = l(96006),
-        n = l.n(s),
-        r = l(11677),
-        c = l.n(r),
-        i = l(18652),
-        d = l(36439);
+      t.d(s, { A: () => o });
+      var a = t(2183),
+        l = t(96006),
+        r = t.n(l),
+        i = t(11677),
+        n = t.n(i),
+        c = t(18652),
+        d = t(36439);
       function o() {
-        let e = (0, i.useRouter)(),
-          [t, l] = (0, d.useState)("Dashboard");
+        let e = (0, c.useRouter)(),
+          [s, t] = (0, d.useState)("Dashboard");
         return (
           (0, d.useEffect)(() => {
             e.pathname.includes("settings")
-              ? l("Settings")
+              ? t("Settings")
               : e.pathname.includes("rewards")
-                ? l("Rewards")
+                ? t("Rewards")
                 : e.pathname.includes("surveys")
-                  ? l("Surveys")
-                  : l("Dashboard");
+                  ? t("Surveys")
+                  : t("Dashboard");
           }, [e, e.pathname]),
           (0, a.jsxs)("div", {
             className:
@@ -835,97 +727,97 @@
               (0, a.jsx)(u, {
                 src: "/images/dashboard-icon.svg",
                 href: "/account",
-                active: "Dashboard" === t,
+                active: "Dashboard" === s,
               }),
               (0, a.jsx)(u, {
                 src: "/images/rewards-icon.svg",
                 href: "/account/rewards",
-                active: "Rewards" === t,
+                active: "Rewards" === s,
               }),
               (0, a.jsx)(u, {
                 src: "/images/survey-icon.svg",
                 href: "/account/surveys",
-                active: "Surveys" === t,
+                active: "Surveys" === s,
               }),
               (0, a.jsx)(u, {
                 src: "/images/settings-icon.svg",
                 href: "/account/settings",
-                active: "Settings" === t,
+                active: "Settings" === s,
               }),
             ],
           })
         );
       }
       function u(e) {
-        let { active: t, src: l, href: s } = e;
-        return (0, a.jsx)(c(), {
-          href: s,
-          children: (0, a.jsx)(n(), {
+        let { active: s, src: t, href: l } = e;
+        return (0, a.jsx)(n(), {
+          href: l,
+          children: (0, a.jsx)(r(), {
             width: 32,
             height: 32,
             alt: "Logo",
-            src: l,
-            style: { opacity: t ? 1 : 0.5, color: "white", fill: "white" },
+            src: t,
+            style: { opacity: s ? 1 : 0.5, color: "white", fill: "white" },
           }),
         });
       }
     },
-    88891: (e, t, l) => {
+    88891: (e, s, t) => {
       "use strict";
-      l.a(e, async (e, a) => {
+      t.a(e, async (e, a) => {
         try {
-          l.d(t, { A: () => x });
-          var s = l(2183),
-            n = l(36439),
-            r = l(3976),
-            c = l(95216),
-            i = l(96006),
-            d = l.n(i),
-            o = l(11677),
-            u = l.n(o),
-            h = l(99435),
-            m = e([r, c, h]);
-          function x(e) {
-            let { navItems: t, surveys: l } = e,
+          t.d(s, { A: () => m });
+          var l = t(2183),
+            r = t(36439),
+            i = t(3976),
+            n = t(95216),
+            c = t(96006),
+            d = t.n(c),
+            o = t(11677),
+            u = t.n(o),
+            h = t(99435),
+            x = e([i, n, h]);
+          function m(e) {
+            let { navItems: s, surveys: t } = e,
               { isLoggedIn: a } = (0, h.u)(),
-              [i, o] = (0, n.useState)(!1),
-              m = () =>
-                t
+              [c, o] = (0, r.useState)(!1),
+              x = () =>
+                s
                   .filter(
                     (e) => e.showInHeader && (!e.hideForLoggedInUsers || a),
                   )
                   .map((e) =>
-                    (0, s.jsx)(
-                      c.jU,
+                    (0, l.jsx)(
+                      n.jU,
                       { href: e.link, title: e.name, darkMode: !0 },
                       e.link,
                     ),
                   );
-            return (0, s.jsxs)("header", {
+            return (0, l.jsxs)("header", {
               className:
                 "lg:w-[calc(100% - 256px] relative sticky top-0 left-0 z-[20] bg-white px-12 pt-6 lg:ml-[256px]",
               children: [
-                (0, s.jsx)("nav", {
+                (0, l.jsx)("nav", {
                   "aria-label": "Global",
-                  children: (0, s.jsxs)("div", {
+                  children: (0, l.jsxs)("div", {
                     className: "flex w-full justify-between",
                     children: [
-                      (0, s.jsx)("div", {
+                      (0, l.jsx)("div", {
                         className: "hidden items-center gap-x-4 lg:flex",
-                        children: m(),
+                        children: x(),
                       }),
-                      (0, s.jsx)(d(), {
+                      (0, l.jsx)(d(), {
                         width: 48,
                         height: 48,
                         alt: "hamburger menu",
                         className:
                           "relative z-20 cursor-pointer invert lg:hidden",
-                        src: i ? "/images/close.svg" : "/images/hamburger.svg",
-                        onClick: () => o(!i),
+                        src: c ? "/images/close.svg" : "/images/hamburger.svg",
+                        onClick: () => o(!c),
                       }),
-                      (0, s.jsx)(u(), {
+                      (0, l.jsx)(u(), {
                         href: "/",
-                        children: (0, s.jsx)(d(), {
+                        children: (0, l.jsx)(d(), {
                           className: "relative h-10 w-auto lg:hidden",
                           priority: !0,
                           src: "/images/tombraider-logo-dark.svg",
@@ -934,37 +826,66 @@
                           height: 48,
                         }),
                       }),
-                      (0, s.jsx)(r.A, { surveys: l, darkMode: !0 }),
+                      (0, l.jsx)(i.A, { surveys: t, darkMode: !0 }),
                     ],
                   }),
                 }),
-                (0, s.jsx)("div", {
+                (0, l.jsx)("div", {
                   className: "mt-4 h-[1px] w-full bg-gray-300/50",
                 }),
-                (0, s.jsx)("div", {
+                (0, l.jsx)("div", {
                   className:
                     "fixed top-0 left-0 z-10 w-full overflow-hidden bg-gray-100/90 transition duration-300 lg:hidden",
                   style: {
-                    height: i ? "100vh" : "0",
+                    height: c ? "100vh" : "0",
                     transition: "height 0.3s ease",
                   },
-                  children: (0, s.jsx)("div", {
+                  children: (0, l.jsx)("div", {
                     className: "flex flex-col items-center gap-y-8 pt-32",
-                    children: m(),
+                    children: x(),
                   }),
                 }),
               ],
             });
           }
-          (([r, c, h] = m.then ? (await m)() : m), a());
+          (([i, n, h] = x.then ? (await x)() : x), a());
         } catch (e) {
           a(e);
         }
       });
     },
+    91134: (e, s, t) => {
+      "use strict";
+      t.d(s, { A: () => i });
+      var a = t(2183),
+        l = t(14623),
+        r = t.n(l);
+      function i(e) {
+        let { description: s } = e;
+        return (0, a.jsxs)(r(), {
+          children: [
+            (0, a.jsx)(
+              "meta",
+              { name: "description", content: s },
+              "description",
+            ),
+            (0, a.jsx)(
+              "meta",
+              { property: "og:description", content: s },
+              "og:description",
+            ),
+            (0, a.jsx)(
+              "meta",
+              { name: "twitter:description", content: s },
+              "twitter:description",
+            ),
+          ],
+        });
+      }
+    },
   },
   (e) => {
-    (e.O(0, [9950, 6006, 1433, 1329, 1175, 5216, 2446, 636, 6593, 8792], () =>
+    (e.O(0, [9950, 6006, 1433, 1329, 1089, 5216, 2446, 636, 6593, 8792], () =>
       e((e.s = 34714)),
     ),
       (_N_E = e.O()));

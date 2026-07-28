@@ -262,7 +262,8 @@
       "productCallOutLabel": "Call Out",
       "globalSliderAutoplayDelay": 6000,
       "minigameSolvedLoggedInPromptHeadline": "Stay Up to Date",
-      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content."
+      "minigameSolvedLoggedInPromptDescription": "Keep an eye on your dashboard for breaking news, rewards, and exclusive content.",
+      "sysUpdatedAt": "2025-12-08T16:43:42.767Z"
     },
     "navItems": [
       {
@@ -274,7 +275,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 100,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:00.029Z"
       },
       {
         "name": "Home",
@@ -285,7 +287,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 200,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:55.545Z"
       },
       {
         "name": "News",
@@ -296,7 +299,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 300,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:04.262Z"
       },
       {
         "name": "Explore",
@@ -307,7 +311,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 325,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2025-12-12T02:49:01.994Z"
       },
       {
         "name": "Lara Croft",
@@ -318,7 +323,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 350,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-10-08T18:15:43.907Z"
       },
       {
         "name": "Products",
@@ -329,7 +335,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 400,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:06:08.239Z"
       },
       {
         "name": "Shop",
@@ -340,7 +347,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": false,
         "order": 500,
-        "shouldReplaceWithGeneratedShopLink": true
+        "shouldReplaceWithGeneratedShopLink": true,
+        "sysUpdatedAt": "2024-02-07T19:31:39.459Z"
       },
       {
         "name": "Login",
@@ -351,7 +359,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 600,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:49.678Z"
       },
       {
         "name": "Register",
@@ -362,7 +371,8 @@
         "showInSubFooter": false,
         "hideForLoggedInUsers": true,
         "order": 700,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:45.751Z"
       },
       {
         "name": "Terms",
@@ -373,7 +383,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 800,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:33.218Z"
       },
       {
         "name": "Privacy",
@@ -384,7 +395,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 900,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:39.702Z"
       },
       {
         "name": "Cookies",
@@ -395,7 +407,8 @@
         "showInSubFooter": true,
         "hideForLoggedInUsers": false,
         "order": 1000,
-        "shouldReplaceWithGeneratedShopLink": false
+        "shouldReplaceWithGeneratedShopLink": false,
+        "sysUpdatedAt": "2024-01-26T20:05:26.651Z"
       }
     ],
     "surveys": [
@@ -1570,7 +1583,8 @@
           }
         ],
         "unlockAvatarFriendlyId": "Survey-Avatar",
-        "requiresVerifiedAccount": true
+        "requiresVerifiedAccount": true,
+        "sysUpdatedAt": "2024-02-07T00:45:58.687Z"
       }
     ]
   },
