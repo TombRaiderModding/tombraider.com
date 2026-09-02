@@ -2,6 +2,1172 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Tomb Raider: Legacy of Atlantis at Gamescom 2026",
+        "slug": "tomb-raider-legacy-of-atlantis-at-gamescom-2026",
+        "isLatestNews": true,
+        "isFeatured": true,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "6KPfjWiWrWki8YH0wFTKoZ",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:14:47.775Z",
+            "updatedAt": "2024-02-05T18:36:21.395Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 8,
+            "revision": 4,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "Video Games",
+            "slug": "video-games",
+            "order": 10
+          }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5Vi3RnBigsSI75NrS9DClO",
+              "type": "Entry",
+              "createdAt": "2026-06-02T21:41:01.648Z",
+              "updatedAt": "2026-06-02T21:46:42.101Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Tomb Raider: Legacy of Atlantis" }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "48IDDxsabgPiQDKiySdoov",
+            "type": "Asset",
+            "createdAt": "2026-09-02T19:53:14.337Z",
+            "updatedAt": "2026-09-02T19:53:14.337Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 3,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "gamescom recap header",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/48IDDxsabgPiQDKiySdoov/04355234b4df8daa8b91713e799e19ed/gamescom_recap_header.jpg",
+              "details": {
+                "size": 236958,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "gamescom recap header.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Tomb Raider: Legacy of Atlantis at Gamescom 2026",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Gamers from across Europe and around the world gathered in Cologne, Germany last week for Gamescom, Europe’s largest gaming event, and Tomb Raider: Legacy of Atlantis was there with a huge toothy friend in tow!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Behind closed doors, press saw a demo of the reimagined puzzles of Greece, showing off new mechanics and systems. Check out the screenshots below!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3vLk0uk7UiG2UTe7KLbaRK",
+                    "type": "Entry",
+                    "createdAt": "2026-09-02T21:05:18.750Z",
+                    "updatedAt": "2026-09-02T21:05:18.750Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 7,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "articleGallery"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "name": "Gamescom Screenshot Gallery",
+                    "items": [
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "yJPu6czSNpPYpeQHlQOZC",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:02:31.677Z",
+                          "updatedAt": "2026-09-02T21:02:31.677Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "7hlE8aKc2SEbTLwzajrhKs",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:02:16.728Z",
+                              "updatedAt": "2026-09-02T21:02:16.728Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "ATL Gamescom Screenshots Discovery",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/7hlE8aKc2SEbTLwzajrhKs/c23a020f4040bdeda0b25677c9cab8b6/ATL_Gamescom_Screenshots_Discovery.png",
+                                "details": {
+                                  "size": 15299073,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "ATL_Gamescom_Screenshots_Discovery.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "2aiZc9CPblEApl9AZ2Ao8E",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:03:37.843Z",
+                          "updatedAt": "2026-09-02T21:03:37.843Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "5BMV7uKZFL3U0A6HdnIzyH",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:03:33.185Z",
+                              "updatedAt": "2026-09-02T21:03:33.185Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "ATL Gamescom Screenshots DamoclesTrial",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/5BMV7uKZFL3U0A6HdnIzyH/d8585fa96c85209be7ed077b5c4d9b15/ATL_Gamescom_Screenshots_DamoclesTrial.png",
+                                "details": {
+                                  "size": 14394402,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "ATL_Gamescom_Screenshots_DamoclesTrial.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "oeUWMV1m70w3jK4qdPPxB",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:04:30.040Z",
+                          "updatedAt": "2026-09-02T21:04:30.040Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "7px8jgcmWGwufd2zEDEnKu",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:04:07.401Z",
+                              "updatedAt": "2026-09-02T21:04:07.401Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "ATL Gamescom Screenshots PantherCombat",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/7px8jgcmWGwufd2zEDEnKu/0dda3b92c1044693d36e96acbba58752/ATL_Gamescom_Screenshots_PantherCombat.png",
+                                "details": {
+                                  "size": 16803145,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "ATL_Gamescom_Screenshots_PantherCombat.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "4GJDHla2Vixi7in1bo6K3x",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:05:11.677Z",
+                          "updatedAt": "2026-09-02T21:05:11.677Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "4tVuJCQ1FT6uS02cAJeedB",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:05:03.757Z",
+                              "updatedAt": "2026-09-02T21:05:03.757Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "ATL Gamescom Screenshots Discovery 2",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/4tVuJCQ1FT6uS02cAJeedB/5524ee3cca5613dc8c54b1bc52bc0135/ATL_Gamescom_Screenshots_Discovery_2.png",
+                                "details": {
+                                  "size": 15413581,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "ATL_Gamescom_Screenshots_Discovery 2.png",
+                                "contentType": "image/png"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "showCaptions": true
+                  }
+                }
+              },
+              "content": []
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Developers from Crystal Dynamics and Flying Wild Hog also took part in livestreams by XBOX and IGN during the show, showing previously unreleased footage of Peru while answering questions from the hosts. Watch them here!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1SkS2nLirCJuJR9E38LpZI",
+                    "type": "Entry",
+                    "createdAt": "2026-09-02T21:06:40.999Z",
+                    "updatedAt": "2026-09-02T21:06:40.999Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "embeddedHtml"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "contentfulName": "ATL Gamescom Xbox Livestream",
+                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/UtPlsGWMZFU?si=7RWWyP2Ww6fLMzOk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4XUr1gRhEPmj7VxFmaxYTu",
+                    "type": "Entry",
+                    "createdAt": "2026-09-02T21:08:20.556Z",
+                    "updatedAt": "2026-09-02T21:08:20.556Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 4,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "embeddedHtml"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "contentfulName": "ATL Gamescom IGN Livestream",
+                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/EQigw8PtfNM?si=BfJgz73sWBwSn3lB\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+                  }
+                }
+              },
+              "content": []
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We also got to see over 30 incredible cosplayers at our cosplay meetup on Saturday!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1onxpueoNvdeWy0SGHtuPP",
+                    "type": "Entry",
+                    "createdAt": "2026-09-02T21:21:52.379Z",
+                    "updatedAt": "2026-09-02T21:21:52.379Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 8,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "articleGallery"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "name": "Gamescom Cosplay Gallery",
+                    "items": [
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "1bPbAIXavFpx89ldch4VtQ",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:18:44.761Z",
+                          "updatedAt": "2026-09-02T21:18:44.761Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "JoGnXoWBSFw86TAzAEhna",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:18:35.186Z",
+                              "updatedAt": "2026-09-02T21:18:35.186Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 6,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "Gamescom 2026 cosplay 1",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/JoGnXoWBSFw86TAzAEhna/01120b78f4c59eb4a9de923fd4457a31/Gamescom_2026_cosplay_1.jpg",
+                                "details": {
+                                  "size": 3080371,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "Gamescom 2026 cosplay 1.jpg",
+                                "contentType": "image/jpeg"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "5vDfqFpenlLpXJcRfK3P1d",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:19:23.359Z",
+                          "updatedAt": "2026-09-02T21:19:23.359Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "5gwyL2H48dQZyAHNZ4maEv",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:19:15.838Z",
+                              "updatedAt": "2026-09-02T21:19:15.838Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "Gamescom 2026 cosplay 2",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/5gwyL2H48dQZyAHNZ4maEv/e7c0d4569dde1a3aa85c57bad4a565f0/Gamescom_2026_cosplay_2.jpg",
+                                "details": {
+                                  "size": 3424917,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "Gamescom 2026 cosplay 2.jpg",
+                                "contentType": "image/jpeg"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "1tZJj8vyM56vmOvQs7AxWo",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:19:51.607Z",
+                          "updatedAt": "2026-09-02T21:19:51.607Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "1EEnOxoKD6l9NmtpEGhy07",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:19:44.182Z",
+                              "updatedAt": "2026-09-02T21:19:44.182Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "Gamescom 2026 cosplay 3",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/1EEnOxoKD6l9NmtpEGhy07/728d7bc58bd68719f4322d18e25b00f9/Gamescom_2026_cosplay_3.jpg",
+                                "details": {
+                                  "size": 2767919,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "Gamescom 2026 cosplay 3.jpg",
+                                "contentType": "image/jpeg"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "6hoojr1CowvZqY1nJpaoEB",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:20:30.356Z",
+                          "updatedAt": "2026-09-02T21:20:30.356Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "5iJyHTcqMdQS0spiiUdO7g",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:20:22.314Z",
+                              "updatedAt": "2026-09-02T21:20:22.314Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "Gamescom 2026 cosplay 4",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/5iJyHTcqMdQS0spiiUdO7g/9572f271d45664cbfe2a722d16665890/Gamescom_2026_cosplay_4.jpg",
+                                "details": {
+                                  "size": 3944884,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "Gamescom 2026 cosplay 4.jpg",
+                                "contentType": "image/jpeg"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "1scKmozn9CByiNtK28sftK",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:21:02.515Z",
+                          "updatedAt": "2026-09-02T21:21:02.515Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "9K0yVdwK9H86EN2TgWuK1",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:20:52.642Z",
+                              "updatedAt": "2026-09-02T21:20:52.642Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "Gamescom 2026 cosplay 5",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/9K0yVdwK9H86EN2TgWuK1/a28573aa0def56f3e0435cdbd7a4f841/Gamescom_2026_cosplay_5.jpg",
+                                "details": {
+                                  "size": 2793300,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "Gamescom 2026 cosplay 5.jpg",
+                                "contentType": "image/jpeg"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "metadata": { "tags": [], "concepts": [] },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "x77ixfmkpoiv"
+                            }
+                          },
+                          "id": "3gV3XTIwrEzcSrBUf0gK89",
+                          "type": "Entry",
+                          "createdAt": "2026-09-02T21:21:42.332Z",
+                          "updatedAt": "2026-09-02T21:21:42.332Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "articleGalleryItem"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "media": {
+                            "metadata": { "tags": [], "concepts": [] },
+                            "sys": {
+                              "space": {
+                                "sys": {
+                                  "type": "Link",
+                                  "linkType": "Space",
+                                  "id": "x77ixfmkpoiv"
+                                }
+                              },
+                              "id": "7rKhl2iktjw8OWOJQw4GVK",
+                              "type": "Asset",
+                              "createdAt": "2026-09-02T21:21:37.539Z",
+                              "updatedAt": "2026-09-02T21:21:37.539Z",
+                              "environment": {
+                                "sys": {
+                                  "id": "master",
+                                  "type": "Link",
+                                  "linkType": "Environment"
+                                }
+                              },
+                              "publishedVersion": 3,
+                              "revision": 1,
+                              "locale": "en-US"
+                            },
+                            "fields": {
+                              "title": "Gamescom 2026 cosplay 6",
+                              "description": "",
+                              "file": {
+                                "url": "//images.ctfassets.net/x77ixfmkpoiv/7rKhl2iktjw8OWOJQw4GVK/78fd18bb5a91aec22aef2e9593bc0441/Gamescom_2026_cosplay_6.jpg",
+                                "details": {
+                                  "size": 3839892,
+                                  "image": { "width": 3840, "height": 2160 }
+                                },
+                                "fileName": "Gamescom 2026 cosplay 6.jpg",
+                                "contentType": "image/jpeg"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "showCaptions": true
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We had an absolute blast at Gamescom, and we can’t wait to share even more details about Tomb Raider: Legacy of Atlantis in the coming months. Follow us ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": { "uri": "https://www.instagram.com/tombraider" },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Instagram",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                { "nodeType": "text", "value": ", ", "marks": [], "data": {} },
+                {
+                  "nodeType": "hyperlink",
+                  "data": { "uri": "https://x.com/tombraider" },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "X",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": ", and ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://www.tiktok.com/@tombraider?lang=en"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "TikTok ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": "for more.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "publishDate": "2026-09-02",
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-09-02T21:25:16.601Z"
+      },
+      {
         "title": "Tomb Raider: Legacy of Atlantis - Character Cards",
         "slug": "tomb-raider-legacy-of-atlantis-character-cards",
         "isLatestNews": true,
@@ -8423,1549 +9589,6 @@
         "publishDate": "2026-03-12",
         "hideSocialSharingButtons": false,
         "sysUpdatedAt": "2026-03-12T16:57:51.218Z"
-      },
-      {
-        "title": "Happy Birthday, Lara Croft",
-        "slug": "happy-birthday-lara-croft",
-        "isLatestNews": true,
-        "isFeatured": true,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "5FFz5iSwgZAtZhUE219Cz1",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:12:37.537Z",
-            "updatedAt": "2024-02-05T17:59:57.282Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 16,
-            "revision": 7,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": { "name": "Community", "slug": "community", "order": 45 }
-        },
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "7u9CDY20s8VjPFOOWUZjsC",
-            "type": "Asset",
-            "createdAt": "2026-02-13T18:03:07.647Z",
-            "updatedAt": "2026-05-22T22:04:01.884Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 2,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "Lara Birthday FWH blog header",
-            "description": "A Tomb Raider 30th anniversary celebratory illustration depicting Lara Croft in a stylized comic book art style, leaning casually on a rocky ledge against a lush misty jungle and floating mountains backdrop. Lara has dark braided hair, wears round red-tinted sunglasses which she is adjusting with one fingerless-gloved hand, a teal tank top, and a tactical backpack harness. She has a warm, confident smile. In front of her sits a detailed miniature diorama birthday cake decorated to resemble a Tomb Raider scene, featuring two red theropod dinosaurs flanking a waterfall and jungle temple on a wooden slice base. Atop the cake are gold metallic number \"30\" candles with lit flames, celebrating the franchise's 30th anniversary. The overall mood is playful and celebratory while nodding to iconic Tomb Raider imagery including the classic dinosaur encounters.",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/7u9CDY20s8VjPFOOWUZjsC/8c878613a2a0e67a6957b48180fd1cf3/Lara_Birthday_FWH_blog_header.jpg",
-              "details": {
-                "size": 287060,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "Lara Birthday FWH blog header.jpg",
-              "contentType": "image/jpeg"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Happy Birthday, Lara Croft!",
-        "body": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "It's February 14th, our favorite holiday: Lara Croft's birthday! It's been a busy year for our intrepid adventurer. Since last February, she's",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.tombraider.com/news/video-games/tomb-raider-iv-vi-remastered-available-now"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": " starred in an epic remaster",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": " of her second trilogy of adventures, ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.tombraider.com/news/collaborations/the-30th-anniversary-of-tomb-raider-is-here"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "celebrated 30 years",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": " since the first Tomb Raider game hit shelves, and announced not one, but ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.tombraider.com/news/video-games/two-thrilling-tomb-raider-adventures-unveiled-at-the-game-awards"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "two upcoming new games!",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": " Where does she find the time?",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "While work on the next installments in Lara's adventures continues, we have some announcements, merch, and artwork to help celebrate her birthday in style. Check them out below!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            { "nodeType": "hr", "data": {}, "content": [] },
-            {
-              "nodeType": "heading-2",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Birthday Art from Flying Wild Hog",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Some legends are destined to be retold, and our partners at Flying Wild Hog are eager to tell it. While the studio is hard at work on ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider: Legacy of Atlantis",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": ", they managed to put together a little something to mark Ms. Croft's birthday.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "2yV0rModdk9kZw5ZmcwQR3",
-                    "type": "Asset",
-                    "createdAt": "2026-02-11T00:08:08.186Z",
-                    "updatedAt": "2026-06-01T15:50:12.703Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 5,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "FWH Happy Birthday Lara text",
-                    "description": "\"Happy Birthday Lara!\" illustration by Flying Wild Hog showing Lara Croft with a Tomb Raider 30th anniversary dinosaur-themed birthday cake.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2yV0rModdk9kZw5ZmcwQR3/6b900acfdc0d4d4d6fa85f022246a1e6/FWH_Happy_Birthday_Lara_text.png",
-                      "details": {
-                        "size": 2561074,
-                        "image": { "width": 1246, "height": 968 }
-                      },
-                      "fileName": "FWH Happy Birthday Lara text.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Here's to many more! You can keep up with the latest from Flying Wild Hog on ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": { "uri": "https://x.com/Flying_Wild_Hog" },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "X",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": " and ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.instagram.com/flying_wild_hog/?hl=en"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Instagram",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
-              ]
-            },
-            { "nodeType": "hr", "data": {}, "content": [] },
-            {
-              "nodeType": "heading-2",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider (2013) Comes to Mobile",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-entry-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "kKzuKBO82zrdnNkbRc8By",
-                    "type": "Entry",
-                    "createdAt": "2026-02-10T23:45:40.294Z",
-                    "updatedAt": "2026-02-10T23:45:40.294Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 2,
-                    "revision": 1,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "embeddedHtml"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "contentfulName": "Tomb Raider 2013 Mobile Announce Trailer",
-                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/5ZLieoknwww?si=Hb0rhokpYceIdS0z\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "The wizards at Feral Interactive have done it again - the debut of the Survivor trilogy has arrived on both iOS and Android with all single-player DLC. Experience Lara Croft's origin story and her ascent from a young woman to a hardened survivor on phone or tablet, with all-new touch controls or full controller and mouse + keyboard support!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Tomb Raider",
-                  "marks": [{ "type": "italic" }],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": " is available now for $19.99 / £12.99 / €15,99 on ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://apps.apple.com/app/tomb-raider/id6742988247"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "iOS ",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "text",
-                  "value": "and ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://play.google.com/store/apps/details?id=com.feralinteractive.tombraider_android"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Android",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
-              ]
-            },
-            { "nodeType": "hr", "data": {}, "content": [] },
-            {
-              "nodeType": "heading-2",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Updated 30th Anniversary Wallpapers",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "In January, we shared this amazing art celebrating 30 years of adventure with Lara Croft.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "uD9JmUp2MYV2XoDSDdqey",
-                    "type": "Asset",
-                    "createdAt": "2026-01-26T21:12:44.288Z",
-                    "updatedAt": "2026-06-01T16:01:48.676Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 8,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Tomb Raider 30th Anniversary Key Art",
-                    "description": "Tomb Raider 30th anniversary key art featuring multiple versions of Lara Croft from across the franchise, alongside the gold \"30 Tomb Raider\" logo.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/uD9JmUp2MYV2XoDSDdqey/06248f25eed0336769d188c0e872890d/Tomb_Raider_30th_Anniversary_Key_Art_4k.png",
-                      "details": {
-                        "size": 12985522,
-                        "image": { "width": 3840, "height": 2160 }
-                      },
-                      "fileName": "Tomb Raider 30th Anniversary Key Art 4k.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "We also included wallpaper versions for various devices. We've since made a few tweaks for the mobile versions to more cleanly fit your lock screen - check them out below!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/44MTePt5wm2MawRO7LO2M1/b94667a898f062229f985ff9003beb98/TR_30th_KEY_ART_9x16_2796x1290_v2.png"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "9:16 (vertical) phone wallpaper",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "4:3 tablet wallpaper - ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/3gVfAJnq6aUDUqnMaWodfK/ceab9045b51a4de37837288045e8081d/TR_30th_KEY_ART_4x3_3364x2524_iPadLandscape_alt.png"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "horizontal ",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "& ", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/4sFvTeUJAPHx2vZ8xK6FQV/94379322901f89071a11e6ecd7c7b6a7/TR_30th_KEY_ART_3x4_2524x3364_iPadPortrait.png"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "vertical",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://images.ctfassets.net/x77ixfmkpoiv/rr7mVtH3FEiqh8rXUtEeA/255f98ea62abc1af4195badfcc72d60d/Tomb_Raider_30th_Anniversary_Desktop_Wallpaper.png"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "16:9 (horizontal) desktop wallpaper",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            { "nodeType": "hr", "data": {}, "content": [] },
-            {
-              "nodeType": "heading-2",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "30th Anniversary Streaming Kits",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Eagle-eyed fans may have seen the beautiful custom streaming kits we released this past week - make sure to check them out for all your stream, overlay, and video background needs!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "embedded-asset-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "1Or87UeJTietBnNHYqKFmK",
-                    "type": "Asset",
-                    "createdAt": "2026-02-11T16:56:00.515Z",
-                    "updatedAt": "2026-06-01T15:47:56.115Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 5,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "TR30 stream kit blog image",
-                    "description": "Tomb Raider 30th anniversary Twitch streaming asset pack featuring Lara Croft, including alert overlays for new subscriber, follower, bits, a stream layout, and a \"Be Right Back\" screen.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/1Or87UeJTietBnNHYqKFmK/ea4c9d937f2a5c7b449f08035d67ef21/TR30_stream_kit_blog_image.png",
-                      "details": {
-                        "size": 1023973,
-                        "image": { "width": 1191, "height": 680 }
-                      },
-                      "fileName": "TR30 stream kit blog image.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Download the kit and video backgrounds ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.tombraider.com/news/community/tomb-raider-30th-anniversary-streaming-kit-and-backgrounds-available-for"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "here",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": "!", "marks": [], "data": {} }
-              ]
-            },
-            { "nodeType": "hr", "data": {}, "content": [] },
-            {
-              "nodeType": "heading-2",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "New Merch from Shark Robot",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Our partners at Shark Robot have been hard at work creating new designs celebrating Lara Croft's legacy, and the newest set of items is ready for purchase! Check out the gallery below for some highlights, and find all their Tomb Raider merch at the ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://sharkrobot.com/collections/tomb-raider-all?srsltid=AfmBOopbzrCtV_dWikk1QiQxXv4osEIf8Vdt9GxseqWGl8vGIXCSww5K"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Shark Robot store",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                },
-                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "embedded-entry-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "6YPK873cp2Lz4hXdRL96TQ",
-                    "type": "Entry",
-                    "createdAt": "2026-02-12T20:49:40.153Z",
-                    "updatedAt": "2026-02-12T20:51:13.283Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 10,
-                    "revision": 2,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "articleGallery"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "name": "TR30 Birthday Shark Robot Gallery - Metal",
-                    "items": [
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "5bRTO8npCNSeJg6z5TM0BY",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:48:02.978Z",
-                          "updatedAt": "2026-02-12T20:48:02.978Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "FF0cWCiu6uCU6DPILk575",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:47:45.222Z",
-                              "updatedAt": "2026-05-22T20:29:06.917Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 6,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "Tombraider30thPoster",
-                              "description": "Illustrated poster of Lara Croft from Tomb Raider crouching in an action pose while aiming a pistol forward and holding a second handgun at her side. Lara wears her classic turquoise tank top, brown shorts, fingerless gloves, thigh holsters, and a long braided ponytail. Behind her, a large roaring tiger with bared fangs looms through swirling teal mist and jungle foliage. The artwork uses a stylized comic-book aesthetic with muted earth tones and dynamic lines to create a tense, adventurous atmosphere.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/FF0cWCiu6uCU6DPILk575/c05a64f5a01a26380ecd5ab835644487/Tombraider30thPoster.png",
-                                "details": {
-                                  "size": 2896591,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "Tombraider30thPoster.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "6gzbOROJFil8uCYfYc83JY",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:49:03.187Z",
-                          "updatedAt": "2026-02-12T20:49:03.187Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "2XFHQXutwLTVbBHHqK4xgs",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:48:58.141Z",
-                              "updatedAt": "2026-06-01T15:44:08.455Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 7,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "TombRaiderLegendMetalCard",
-                              "description": "Tomb Raider 30th anniversary gold collectible card featuring Lara Croft climbing a rocky surface, set against a jungle waterfall background.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/2XFHQXutwLTVbBHHqK4xgs/737df5abf847a108e1d2fef60941f99b/TOmbRaiderLegendMetalCard.png",
-                                "details": {
-                                  "size": 4641454,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "TOmbRaiderLegendMetalCard.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "5KyzNrfAwp6ldNs9D32m9O",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:49:35.051Z",
-                          "updatedAt": "2026-02-12T20:49:35.051Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "7ek6uUZGCEFg2PIzXtYe30",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:49:30.736Z",
-                              "updatedAt": "2026-06-01T15:41:31.609Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 5,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "TombRaiderSurvivorMetalCard",
-                              "description": "Tomb Raider 30th anniversary gold collectible card featuring Lara Croft drawing a bow and arrow, with an Asian temple silhouette in the background.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/7ek6uUZGCEFg2PIzXtYe30/cdebf13cb512eb636209b80db06a9e25/TombRaiderSurvivorMetalCard.png",
-                                "details": {
-                                  "size": 4636820,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "TombRaiderSurvivorMetalCard.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "25p2hENrfpAxCnwBUgYtDP",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:51:07.658Z",
-                          "updatedAt": "2026-02-12T20:51:07.658Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "1xGwBdbFuvwrNTLU2JgKFj",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:51:03.721Z",
-                              "updatedAt": "2026-06-01T15:40:26.872Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 5,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "TombRaiderClassicMetalCard",
-                              "description": "Tomb Raider 30th anniversary gold collectible card featuring Lara Croft dual-wielding pistols, with a dinosaur silhouette in the jungle background.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/1xGwBdbFuvwrNTLU2JgKFj/117c4f8c7dd85eff538188f22b62c0f7/TombRaiderClassicMetalCard.png",
-                                "details": {
-                                  "size": 4490392,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "TombRaiderClassicMetalCard.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ],
-                    "showCaptions": true
-                  }
-                }
-              },
-              "content": []
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "embedded-entry-block",
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "5iuKBaEojaNB0uPPQswdRd",
-                    "type": "Entry",
-                    "createdAt": "2026-02-12T20:55:44.384Z",
-                    "updatedAt": "2026-02-12T20:55:44.384Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 8,
-                    "revision": 1,
-                    "contentType": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "articleGallery"
-                      }
-                    },
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "name": "TR30 Birthday Shark Robot Gallery Shirts",
-                    "items": [
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "16vtY3R873gf0UxGEvLVQ8",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:52:26.784Z",
-                          "updatedAt": "2026-02-12T20:52:26.784Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "4dE5mV0e5NI6vJm28jVsxH",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:52:10.049Z",
-                              "updatedAt": "2026-05-22T22:26:52.595Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 6,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "LaraT-ShirtB",
-                              "description": "A black unisex crew neck t-shirt featuring official Tomb Raider 30th anniversary merchandise artwork. The upper portion of the graphic shows a detailed comic book style illustration of Lara Croft rendered in teal and dark ink tones, depicted from the waist up holding a pistol raised near her face with a confident, intense expression. She wears her classic teal tank top with a tactical chest harness and her hair in a braid. Below the illustration is the Tomb Raider 30th anniversary logo: a large bold gold metallic \"30\" with a small black silhouette of Lara Croft in her iconic dual-pistol stance integrated into the zero, and \"Tomb Raider\" written in gold text beneath it. The two-tone design combines the detailed teal illustration above with the shiny gold anniversary branding below, creating an elegant commemorative aesthetic.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/4dE5mV0e5NI6vJm28jVsxH/dea5827c7fe2a7287d28ebe5c87992e1/LaraT-ShirtB.png",
-                                "details": {
-                                  "size": 1668491,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "LaraT-ShirtB.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "4epF3hFGx3bc79HO6wyAS6",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:54:03.676Z",
-                          "updatedAt": "2026-02-12T20:54:03.676Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "5NOpAXy6Tb8oinLUMZkRwu",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:53:59.261Z",
-                              "updatedAt": "2026-05-22T22:16:36.480Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 5,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "TRCAVEDESIGN",
-                              "description": "Black T-shirt featuring stylized artwork inspired by Tomb Raider. The design shows Lara Croft climbing upward through a fiery red and orange cave-like background while holding a lit flare above her head. Lara wears a tank top, shorts, and climbing boots, with the glowing flare illuminating her figure. The words “Tomb Raider” appear in red script near the bottom of the graphic.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/5NOpAXy6Tb8oinLUMZkRwu/d3802e678dc739bbc5c918e06d0db853/TRCAVEDESIGN.png",
-                                "details": {
-                                  "size": 1678331,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "TRCAVEDESIGN.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "5xrgfNYrAa0la3rN2u7TQX",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:54:40.523Z",
-                          "updatedAt": "2026-02-12T20:54:40.523Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "2jDlrtc3QSUxG1NI3FvHBJ",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:54:33.004Z",
-                              "updatedAt": "2026-05-22T22:15:03.950Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 10,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "LaraSplatterT-Shirt",
-                              "description": "A black unisex crew neck t-shirt featuring a vibrant neon pop art graphic of Lara Croft from the Tomb Raider franchise. The illustration depicts Lara Croft from the shoulders up with a stylized yellow-toned complexion, bold pink lips, and large reflective sunglasses. Her hair is multi-colored in teal, pink, and purple tones with a dramatic pointed widow's peak silhouette. The background of the graphic bursts with explosive neon elements including pink and teal lightning bolts, yellow and purple triangles, colorful paint splatter drips in pink, teal, orange, and purple, and circular dot accents. The overall aesthetic is bold, retro-futuristic, and reimagines Lara Croft through a 1980s neon pop art or comic book lens.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/2jDlrtc3QSUxG1NI3FvHBJ/c8fbf5d5c094a552eaa9b4f0a4c0dd17/LaraSplatterT-Shirt.png",
-                                "details": {
-                                  "size": 1700510,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "LaraSplatterT-Shirt.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "7tbXOi7xvsd9YCWlRLluOm",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:55:12.497Z",
-                          "updatedAt": "2026-02-12T20:55:12.497Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "1zHA7E775ejLC22yeOISYC",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:55:04.521Z",
-                              "updatedAt": "2026-05-22T22:07:21.467Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 6,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "LaraT-shirtD",
-                              "description": "A black unisex crew neck t-shirt featuring official Tomb Raider merchandise graphic art. The shirt displays a bold retro synthwave-style illustration of Lara Croft rendered in a vibrant teal, hot pink, and yellow color palette. Lara is depicted in a pink tank top and tactical vest, dual-wielding pistols with a fierce expression, bursting dynamically out of a geometric diamond-shaped pink frame. Flanking her are two iconic Tomb Raider enemy creatures also rendered in teal: a snarling raptor-style dinosaur on her left and a leaping spotted leopard with bared claws on her right. Yellow lightning bolt accents, starburst explosion details, and scattered dot patterns fill the background, giving the design an energetic 1980s retro pop art aesthetic. The overall composition is action-packed and vibrant, celebrating classic Tomb Raider gameplay elements.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/1zHA7E775ejLC22yeOISYC/359792ae3dc69ee84cd80719374fac7e/LaraT-shirtD.png",
-                                "details": {
-                                  "size": 1860764,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "LaraT-shirtD.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "metadata": { "tags": [], "concepts": [] },
-                        "sys": {
-                          "space": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "Space",
-                              "id": "x77ixfmkpoiv"
-                            }
-                          },
-                          "id": "7tC6Dw2aOUtbC7AULeErdU",
-                          "type": "Entry",
-                          "createdAt": "2026-02-12T20:55:40.928Z",
-                          "updatedAt": "2026-02-12T20:55:40.928Z",
-                          "environment": {
-                            "sys": {
-                              "id": "master",
-                              "type": "Link",
-                              "linkType": "Environment"
-                            }
-                          },
-                          "publishedVersion": 2,
-                          "revision": 1,
-                          "contentType": {
-                            "sys": {
-                              "type": "Link",
-                              "linkType": "ContentType",
-                              "id": "articleGalleryItem"
-                            }
-                          },
-                          "locale": "en-US"
-                        },
-                        "fields": {
-                          "media": {
-                            "metadata": { "tags": [], "concepts": [] },
-                            "sys": {
-                              "space": {
-                                "sys": {
-                                  "type": "Link",
-                                  "linkType": "Space",
-                                  "id": "x77ixfmkpoiv"
-                                }
-                              },
-                              "id": "58OwsypkhucmFqXJEeHLCV",
-                              "type": "Asset",
-                              "createdAt": "2026-02-12T20:55:35.406Z",
-                              "updatedAt": "2026-05-22T22:05:57.837Z",
-                              "environment": {
-                                "sys": {
-                                  "id": "master",
-                                  "type": "Link",
-                                  "linkType": "Environment"
-                                }
-                              },
-                              "publishedVersion": 6,
-                              "revision": 2,
-                              "locale": "en-US"
-                            },
-                            "fields": {
-                              "title": "TRClimbDesignShirt",
-                              "description": "A black unisex crew neck t-shirt featuring official Tomb Raider merchandise graphic art. The shirt's design displays the \"Tomb Raider\" logo in large distressed crumbling orange stone lettering arranged in two stacked rows. Overlaid on the text is an illustrated figure of Lara Croft in her classic look — teal tank top, white shorts, dark hair flowing — dynamically climbing or scaling upward, reaching high with one arm while holding a rope that trails below her. The illustration style is bold and graphic with a limited color palette of teal, white, red, and orange against the black fabric. The overall design has an energetic, action-packed feel capturing Lara's adventurous spirit.",
-                              "file": {
-                                "url": "//images.ctfassets.net/x77ixfmkpoiv/58OwsypkhucmFqXJEeHLCV/ad9c97d782bdbf1edc3de4326e99c237/TRClimbDesignShirt.png",
-                                "details": {
-                                  "size": 1772264,
-                                  "image": { "width": 1500, "height": 1500 }
-                                },
-                                "fileName": "TRClimbDesignShirt.png",
-                                "contentType": "image/png"
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ],
-                    "showCaptions": true
-                  }
-                }
-              },
-              "content": []
-            },
-            { "nodeType": "hr", "data": {}, "content": [] },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Thank you so much for being with us on this journey, and we look forward to many more years of tombs, traps, and celebrations. ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                { "nodeType": "text", "value": "", "marks": [], "data": {} }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Happy birthday, Lara!",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "publishDate": "2026-02-14",
-        "hideSocialSharingButtons": false,
-        "sysUpdatedAt": "2026-02-14T17:00:05.823Z"
       }
     ],
     "products": [
