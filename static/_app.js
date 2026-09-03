@@ -8928,12 +8928,13 @@
             zU: () => i.zU,
           });
           var i = r(36011),
-            a = r(63502),
-            o = r(87072),
-            s = r(21358),
-            u = r(56496),
-            c = e([i, a, o, s, u]);
-          (([i, a, o, s, u] = c.then ? (await c)() : c), n());
+            a = r(92814),
+            o = r(63502),
+            s = r(87072),
+            u = r(21358),
+            c = r(56496),
+            l = e([i, a, o, s, u, c]);
+          (([i, a, o, s, u, c] = l.then ? (await l)() : l), n());
         } catch (e) {
           n(e);
         }
@@ -34039,18 +34040,19 @@ ${re(a)}`;
       r.a(e, async (e, n) => {
         try {
           r.d(t, {
-            DE: () => l,
-            E6: () => f,
-            V1: () => d,
-            Vb: () => h,
-            WC: () => c,
-            tD: () => m,
-            zU: () => p,
+            DE: () => f,
+            E6: () => d,
+            V1: () => h,
+            Vb: () => p,
+            WC: () => l,
+            tD: () => y,
+            zU: () => m,
           });
           var i = r(75109),
             a = r(43349),
-            o = e([i, a]);
-          function s(e, t, r = !1) {
+            o = r(92814),
+            s = e([i, a, o]);
+          function u(e, t, r = !1) {
             if (!e.SessionTicket)
               throw (
                 console.error(
@@ -34087,8 +34089,8 @@ ${re(a)}`;
               }
             );
           }
-          async function u(e, t, r, { updateDisplayName: n }) {
-            let i = s(t, e, !0);
+          async function c(e, t, r, { updateDisplayName: n }) {
+            let i = u(t, e, !0);
             if (n)
               try {
                 await a.VR({ DisplayName: r.displayName }, i.sessionTicket);
@@ -34124,20 +34126,20 @@ ${re(a)}`;
             }
             return i;
           }
-          async function c({ email: e, password: t }) {
+          async function l({ email: e, password: t }) {
             let r = await a.$e({ Email: e, Password: t });
-            return s(r, "email login");
-          }
-          async function l(e) {
-            let { createAccount: t = !1, ...r } = e,
-              n = await a.W1({ ...r, CreateAccount: t });
-            return s(n, t ? "Google login (create account)" : "Google login");
+            return u(r, "email login");
           }
           async function f(e) {
-            let t = await a.W1({ ...e, CreateAccount: !0 });
-            return s(t, "Google registration precheck", !0);
+            let { createAccount: t = !1, ...r } = e,
+              n = await a.W1({ ...r, CreateAccount: t });
+            return u(n, t ? "Google login (create account)" : "Google login");
           }
           async function d(e) {
+            let t = await a.W1({ ...e, CreateAccount: !0 });
+            return u(t, "Google registration precheck", !0);
+          }
+          async function h(e) {
             if (e.CreateAccount)
               throw new i.hDB({
                 error: i.E5W.BAD_REQUEST,
@@ -34146,9 +34148,9 @@ ${re(a)}`;
                   "CreateAccount is not allowed for Facebook login. Use clientRegisterWithFacebook instead.",
               });
             let t = await a.V1({ ...e, CreateAccount: !1 });
-            return s(t, "Facebook login");
+            return u(t, "Facebook login");
           }
-          async function h({
+          async function p({
             email: e,
             password: t,
             displayName: r,
@@ -34156,7 +34158,7 @@ ${re(a)}`;
             dateOfBirth: i,
             stateOrProvinceName: o,
             agreeToReceiveExtraEmails: s,
-            acceptTermsOfService: c,
+            acceptTermsOfService: u,
           }) {
             let l = await a.xk({
               DisplayName: r,
@@ -34164,7 +34166,7 @@ ${re(a)}`;
               Password: t,
               RequireBothUsernameAndEmail: !1,
             });
-            return u(
+            return c(
               "email registration",
               l,
               {
@@ -34174,19 +34176,19 @@ ${re(a)}`;
                 dateOfBirth: i,
                 stateOrProvinceName: o,
                 agreeToReceiveExtraEmails: s,
-                acceptTermsOfService: c,
+                acceptTermsOfService: u,
               },
               { updateDisplayName: !1 },
             );
           }
-          async function p(e) {
+          async function m(e) {
             let {
                 displayName: t,
                 email: r,
                 countryAlpha2Code: n,
                 dateOfBirth: o,
                 stateOrProvinceName: s,
-                agreeToReceiveExtraEmails: c,
+                agreeToReceiveExtraEmails: u,
                 acceptTermsOfService: l,
                 ...f
               } = e,
@@ -34198,7 +34200,7 @@ ${re(a)}`;
                 errorMessage:
                   "An account already exists for that email. Please log in instead.",
               });
-            return u(
+            return c(
               "Google registration",
               d,
               {
@@ -34207,13 +34209,13 @@ ${re(a)}`;
                 countryAlpha2Code: n,
                 dateOfBirth: o,
                 stateOrProvinceName: s,
-                agreeToReceiveExtraEmails: c,
+                agreeToReceiveExtraEmails: u,
                 acceptTermsOfService: l,
               },
               { updateDisplayName: !0 },
             );
           }
-          async function m(e) {
+          async function y(e) {
             let {
                 displayName: t,
                 email: r,
@@ -34221,11 +34223,11 @@ ${re(a)}`;
                 dateOfBirth: i,
                 stateOrProvinceName: o,
                 agreeToReceiveExtraEmails: s,
-                acceptTermsOfService: c,
+                acceptTermsOfService: u,
                 ...l
               } = e,
               f = await a.V1({ ...l, CreateAccount: !0 });
-            return u(
+            return c(
               "Facebook registration",
               f,
               {
@@ -34235,12 +34237,12 @@ ${re(a)}`;
                 dateOfBirth: i,
                 stateOrProvinceName: o,
                 agreeToReceiveExtraEmails: s,
-                acceptTermsOfService: c,
+                acceptTermsOfService: u,
               },
               { updateDisplayName: !0 },
             );
           }
-          (([i, a] = o.then ? (await o)() : o), n());
+          (([i, a, o] = s.then ? (await s)() : s), n());
         } catch (e) {
           n(e);
         }
@@ -36328,8 +36330,9 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
           var i = r(20894),
             a = r(19890),
             o = r(70529),
-            s = e([i, a, o]);
-          (([i, a, o] = s.then ? (await s)() : s), n());
+            s = r(75036),
+            u = e([i, a, o, s]);
+          (([i, a, o, s] = u.then ? (await u)() : u), n());
         } catch (e) {
           n(e);
         }
@@ -43440,49 +43443,49 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
           r.d(t, {
             A7: () => v,
             AF: () => x,
-            BD: () => ef,
-            BS: () => es,
+            BD: () => ed,
+            BS: () => eu,
             CK: () => _,
-            Ck: () => ec,
+            Ck: () => el,
             Fd: () => N,
             Gf: () => y,
-            HO: () => et,
-            Ir: () => Z,
+            HO: () => er,
+            Ir: () => J,
             Jv: () => M,
-            KM: () => J,
-            K_: () => ei,
-            L7: () => W,
+            KM: () => Y,
+            K_: () => ea,
+            L7: () => Z,
             Nq: () => b,
-            Q7: () => V,
+            Q7: () => H,
             QH: () => z,
-            Qb: () => eo,
-            SV: () => Q,
-            SX: () => en,
+            Qb: () => es,
+            SV: () => ee,
+            SX: () => ei,
             Ug: () => L,
-            VO: () => el,
-            bi: () => er,
+            VO: () => ef,
+            bi: () => en,
             bp: () => R,
-            d1: () => G,
-            i: () => ee,
+            d1: () => V,
+            i: () => et,
             iC: () => P,
-            k1: () => F,
+            k1: () => q,
             kz: () => E,
             me: () => A,
             mp: () => S,
             nA: () => $,
             nU: () => U,
             oB: () => O,
-            p6: () => H,
-            p8: () => X,
+            p6: () => W,
+            p8: () => Q,
             q7: () => C,
-            qp: () => eu,
+            qp: () => ec,
             qu: () => D,
             rh: () => g,
             ri: () => w,
             rw: () => j,
-            xI: () => K,
+            xI: () => G,
             xw: () => I,
-            yM: () => ea,
+            yM: () => eo,
             zo: () => B,
           });
           var i = r(97562),
@@ -43516,11 +43519,11 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               setTimeout(() => URL.revokeObjectURL(a), 1e3));
           }
           s = (c.then ? (await c)() : c)[0];
-          let ed = i.A.create({ baseURL: "https://www.tombraider.com" });
+          let eh = i.A.create({ baseURL: "https://www.tombraider.com" });
           async function d(e) {
             let t;
             try {
-              t = await ed(e);
+              t = await eh(e);
             } catch (e) {
               if (e instanceof a.pe && e.response) t = e.response;
               else throw e;
@@ -43551,8 +43554,10 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
             e.newlyCreated ? await k(t) : await T(t);
           }
           async function m(e, t) {
-            let r = await h(e, t);
-            return (r.error || (await p(r.data)), r);
+            let r = await F({ displayName: e.displayName });
+            if (r.error) return { error: r.error };
+            let n = await h(e, t);
+            return (n.error || (await p(n.data)), n);
           }
           async function y() {
             return d({ url: "/api/user/account-info", method: "GET" });
@@ -43691,35 +43696,42 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
           }
           async function F(e) {
             return d({
+              url: "/api/user/validate-display-name",
+              method: "POST",
+              data: e,
+            });
+          }
+          async function q(e) {
+            return d({
               url: "/api/user/set-display-name",
               method: "POST",
               data: e,
             });
           }
-          async function q() {
+          async function K() {
             return d({ url: "/api/user/validate-session", method: "GET" });
           }
-          async function K() {
+          async function G() {
             return d({
               url: "/api/user/get-completed-survey-telemetry-ids",
               method: "GET",
             });
           }
-          async function G(e) {
+          async function V(e) {
             return d({
               url: "/api/user/get-custom-shopify-url",
               method: "POST",
               data: e,
             });
           }
-          async function V(e) {
+          async function H(e) {
             return d({
               url: "/api/user/complete-survey",
               method: "POST",
               data: e,
             });
           }
-          async function H(e) {
+          async function W(e) {
             return d({
               url: "/api/user/external-code-rewards/".concat(
                 encodeURIComponent(e),
@@ -43728,14 +43740,14 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               method: "POST",
             });
           }
-          async function W(e) {
+          async function Z(e) {
             return d({
               url: "/api/admin/codes/create",
               method: "POST",
               data: e,
             });
           }
-          async function Z(e) {
+          async function J(e) {
             return d({
               url: "/api/admin/codes/redemption-history",
               method: "GET",
@@ -43746,7 +43758,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               },
             });
           }
-          async function J(e) {
+          async function Y(e) {
             return d({
               url: "/api/admin/codes/by-campaign",
               method: "GET",
@@ -43757,7 +43769,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               },
             });
           }
-          async function Y(e) {
+          async function X(e) {
             let t = new URL(e.apiPath, window.location.origin);
             t.searchParams.set(e.queryParamName, e.queryParamValue);
             try {
@@ -43783,8 +43795,8 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               };
             }
           }
-          async function X(e) {
-            return Y({
+          async function Q(e) {
+            return X({
               apiPath: "/api/admin/codes/export",
               queryParamName: "campaignId",
               queryParamValue: e.campaignId,
@@ -43792,8 +43804,8 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               errorMessage: "Failed to export campaign codes.",
             });
           }
-          async function Q(e) {
-            return Y({
+          async function ee(e) {
+            return X({
               apiPath: "/api/admin/external-codes/export",
               queryParamName: "playFabItemId",
               queryParamValue: e.playFabItemId,
@@ -43804,7 +43816,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               errorMessage: "Failed to export external codes.",
             });
           }
-          async function ee(e) {
+          async function et(e) {
             return d({
               url: "/api/admin/campaigns/redemption-history",
               method: "GET",
@@ -43815,7 +43827,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               },
             });
           }
-          async function et() {
+          async function er() {
             var e, t;
             let r =
               arguments.length > 0 && void 0 !== arguments[0]
@@ -43840,40 +43852,40 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               },
             });
           }
-          async function er(e) {
+          async function en(e) {
             return d({
               url: "/api/admin/campaigns/create",
               method: "POST",
               data: e,
             });
           }
-          async function en(e) {
+          async function ei(e) {
             return d({
               url: "/api/admin/campaigns/update",
               method: "POST",
               data: e,
             });
           }
-          async function ei(e) {
+          async function ea(e) {
             return d({
               url: "/api/admin/campaigns/delete",
               method: "POST",
               data: e,
             });
           }
-          async function ea(e) {
+          async function eo(e) {
             return d({ url: "/api/codes/redeem", method: "POST", data: e });
           }
-          async function eo(e) {
+          async function es(e) {
             return d({ url: "/api/codes/preview", method: "POST", data: e });
           }
-          async function es(e) {
+          async function eu(e) {
             return d({
               url: "/api/admin/users/".concat(encodeURIComponent(e)),
               method: "GET",
             });
           }
-          async function eu() {
+          async function ec() {
             let e =
               arguments.length > 0 && void 0 !== arguments[0]
                 ? arguments[0]
@@ -43888,14 +43900,14 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               },
             });
           }
-          async function ec(e) {
+          async function el(e) {
             return d({
               url: "/api/admin/external-codes/rewards",
               method: "POST",
               data: e,
             });
           }
-          async function el(e) {
+          async function ef(e) {
             let { playFabItemId: t, ...r } = e;
             return d({
               url: "/api/admin/external-codes/rewards/".concat(
@@ -43905,7 +43917,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               data: r,
             });
           }
-          async function ef(e) {
+          async function ed(e) {
             let { playFabItemId: t, ...r } = e;
             return d({
               url: "/api/admin/external-codes/rewards/".concat(
@@ -43916,7 +43928,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
               data: r,
             });
           }
-          ((0, u.Ay)(ed, q, { statusCodes: [401] }), n());
+          ((0, u.Ay)(eh, K, { statusCodes: [401] }), n());
         } catch (e) {
           n(e);
         }
@@ -44896,7 +44908,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
     },
     58922: (e, t, r) => {
       "use strict";
-      r.d(t, { C: () => n });
+      r.d(t, { u: () => i });
       let n = [
         "croft",
         "laracroft",
@@ -44981,6 +44993,10 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
         "sully",
         "belloq",
       ];
+      function i(e) {
+        let t = e.toLowerCase();
+        return n.some((e) => t.includes(e));
+      }
     },
     59257: (e, t, r) => {
       "use strict";
@@ -49718,6 +49734,10 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
             (e.AVATAR_NOT_FOUND = "AvatarNotFound"),
             (e.AVATAR_NOT_UNLOCKED = "AvatarNotUnlocked"),
             (e.INTERNAL_ERROR = "InternalError"),
+            (e.NAME_NOT_AVAILABLE = "NameNotAvailable"),
+            (e.PROFANE_DISPLAY_NAME = "ProfaneDisplayName"),
+            (e.DISPLAY_NAME_VALIDATION_UNAVAILABLE =
+              "DisplayNameValidationUnavailable"),
             (e.ZOD_ERROR = "ZodError"));
         })(n || (n = {})));
     },
@@ -50550,12 +50570,36 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
       "use strict";
       e.exports = Math.max;
     },
+    75036: (e, t, r) => {
+      "use strict";
+      r.a(e, async (e, t) => {
+        try {
+          var n = r(46951);
+          let e = n.KCZ([n.YjP(), n.aig()]);
+          (n.Ikc({
+            rsp: n.Ikc({
+              "@attributes": n.Ikc({ stat: n.YjP() }).partial().optional(),
+              found: e.optional(),
+              err: n
+                .Ikc({
+                  "@attributes": n
+                    .Ikc({ code: e.optional(), msg: n.YjP().optional() })
+                    .optional(),
+                })
+                .optional(),
+            }),
+          }),
+            t());
+        } catch (e) {
+          t(e);
+        }
+      });
+    },
     75109: (e, t, r) => {
       "use strict";
       r.a(e, async (e, n) => {
         try {
           r.d(t, {
-            CtC: () => a.Ct,
             DE9: () => i.DE,
             E5W: () => a.E5,
             E6V: () => i.E6,
@@ -50576,6 +50620,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
             na_: () => o.n,
             r5H: () => i.r5,
             tDg: () => i.tD,
+            u2N: () => a.u2,
             wgj: () => o.wg,
             x0b: () => o.x0,
             yDN: () => o.yD,
@@ -62642,10 +62687,9 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
                   .trim()
                   .min(3, "Display name must be at least 3 characters")
                   .max(25, "Display name must be at most 25 characters")
-                  .refine(
-                    (e) => !u.CtC.some((t) => e.toLowerCase().includes(t)),
-                    { message: "Display name not available" },
-                  ),
+                  .refine((e) => !(0, u.u2N)(e), {
+                    message: "Display name not available",
+                  }),
                 email: a.YjP().email("Invalid email address"),
                 dateOfBirth: e.refine(
                   (e) => {
@@ -62729,6 +62773,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
             permission: a.YjP().trim().optional(),
           }),
             a.Ikc({ titleDisplayName: a.YjP().trim() }),
+            a.Ikc({ displayName: a.YjP().trim().min(3).max(25) }),
             a.Ikc({ email: a.YjP().email().trim() }),
             a.Ikc({ returnTo: a.YjP().trim().optional() }),
             a.Ikc({ itemId: a.YjP().trim() }),
@@ -63237,6 +63282,19 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
         let r = t || s;
         ((window[r] = window[r] || []), window[r].push(e));
       };
+    },
+    92814: (e, t, r) => {
+      "use strict";
+      r.a(e, async (e, t) => {
+        try {
+          var n = r(75109),
+            i = r(43349),
+            a = e([n, i]);
+          (([n, i] = a.then ? (await a)() : a), t());
+        } catch (e) {
+          t(e);
+        }
+      });
     },
     93086: (e, t, r) => {
       "use strict";
@@ -67646,7 +67704,7 @@ Set the \`cycles\` parameter to \`"ref"\` to resolve cyclical schemas with defs.
       "use strict";
       r.a(e, async (e, n) => {
         try {
-          r.d(t, { Ct: () => a.C, E5: () => i.E, pv: () => o.p });
+          r.d(t, { E5: () => i.E, pv: () => o.p, u2: () => a.u });
           var i = r(72138),
             a = r(58922),
             o = r(79385),
