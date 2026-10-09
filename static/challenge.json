@@ -3111,9 +3111,786 @@
             "loreHeadlineUnlocked": "One Step Closer",
             "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door."
           }
+        },
+        {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5Yplhp65x5oWqRqKUuOkwf",
+            "type": "Entry",
+            "createdAt": "2026-10-09T15:52:07.823Z",
+            "updatedAt": "2026-10-09T15:52:07.823Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 19,
+            "revision": 1,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "puzzleRoom"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": {
+            "name": "October 2026",
+            "tombDoor": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "27GFy2a2uyVfpGktRZq9t7",
+                "type": "Entry",
+                "createdAt": "2025-12-06T00:04:08.752Z",
+                "updatedAt": "2025-12-06T00:04:08.752Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 4,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tombDoor"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "TR Legend Door",
+                "closedImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "2qCoCvckk4a3XIbxQ7uGnP",
+                    "type": "Asset",
+                    "createdAt": "2025-12-05T23:58:15.918Z",
+                    "updatedAt": "2026-06-05T20:10:46.662Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 2,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Legend Door Closed",
+                    "description": "Ancient stone gate carved with stacked faces and geometric motifs, set within a dark temple chamber above a short staircase.",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2qCoCvckk4a3XIbxQ7uGnP/45c7298d4778bcc6fa4c3f0cdea2930b/Legend_Door_Closed.webp",
+                      "details": {
+                        "size": 705038,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Legend Door Closed.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                },
+                "openImage": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "4D4HZA7kIYhjRh2Nq9QBeZ",
+                    "type": "Asset",
+                    "createdAt": "2025-12-06T00:03:53.572Z",
+                    "updatedAt": "2026-06-05T20:03:09.561Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 2,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Legend Door Open",
+                    "description": "Ancient stone doorway in a temple chamber, topped with a carved face and surrounded by weathered reliefs and pillars.",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/4D4HZA7kIYhjRh2Nq9QBeZ/098537ec814246e7c94d432f070ff5aa/Legend_Door_Open.webp",
+                      "details": {
+                        "size": 639248,
+                        "image": { "width": 1920, "height": 1920 }
+                      },
+                      "fileName": "Legend Door Open.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "laraCroft": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "4F9qz05Fg2T5Bg32tFWpYu",
+                "type": "Entry",
+                "createdAt": "2025-12-05T23:56:55.563Z",
+                "updatedAt": "2025-12-05T23:56:55.563Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 3,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleLaraCroft"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Remastered - Lara",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "53w24uWiNETgnZgdLwbjod",
+                    "type": "Asset",
+                    "createdAt": "2025-12-05T23:56:40.345Z",
+                    "updatedAt": "2026-06-05T20:11:51.819Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 2,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TR1 LaraBack",
+                    "description": "Rear view of Lara Croft character model wearing a backpack, dual holsters, shorts, boots, and a long braided ponytail.",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/53w24uWiNETgnZgdLwbjod/9fae2c1d942e9beab04bed91b0d1b737/TR1_LaraBack.webp",
+                      "details": {
+                        "size": 349796,
+                        "image": { "width": 1576, "height": 2992 }
+                      },
+                      "fileName": "TR1_LaraBack.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "loreHeadlineLocked": "Looking for mysterious symbols",
+            "loreDescriptionLocked": "There have been reports of mysterious glowing symbols.  With enough of them,  I believe I could open this door.",
+            "showCountdown": false,
+            "allowNotify": false,
+            "notifySuccessHeadline": "You've done it!  ",
+            "notifySuccessDescription": "Collect your rewards and make your way deeper into this Challenge Tomb.",
+            "notifyButtonText": "Get Notified",
+            "puzzleSliderText": "Start the Puzzle",
+            "puzzleHeadline": "Solve the puzzle and your curiosity will be rewarded",
+            "puzzleDescription": "Arrange the symbols in the correct order to open the door.",
+            "puzzleBackground": {
+              "metadata": { "tags": [], "concepts": [] },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "x77ixfmkpoiv"
+                  }
+                },
+                "id": "m9ctmwTWnTb9aFCIvVwiu",
+                "type": "Entry",
+                "createdAt": "2025-12-06T00:08:48.722Z",
+                "updatedAt": "2025-12-06T00:08:48.722Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 3,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "puzzleBackground"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Brown Stone Puzzle",
+                "image": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "3FqPEOJTaH5lRmAXDeYqYy",
+                    "type": "Asset",
+                    "createdAt": "2025-12-06T00:08:36.178Z",
+                    "updatedAt": "2026-06-05T19:33:40.475Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 2,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "SoS PuzzleDoor02 v04",
+                    "description": "Stone puzzle panel with four sliding stone tiles, framed by weathered rock and marked with carved up and down arrow controls.",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3FqPEOJTaH5lRmAXDeYqYy/530e3135e2ca7dc12bb244bc18f6760f/SoS_PuzzleDoor02_v04.webp",
+                      "details": {
+                        "size": 749558,
+                        "image": { "width": 1440, "height": 720 }
+                      },
+                      "fileName": "SoS_PuzzleDoor02_v04.webp",
+                      "contentType": "image/webp"
+                    }
+                  }
+                }
+              }
+            },
+            "puzzleSolveButtonText": "Solve Puzzle",
+            "puzzleBackButtonText": "Back to Tomb",
+            "glyphOptions": [
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "1SzmgbhYEkHGfDixkNbGga",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:13:53.424Z",
+                  "updatedAt": "2025-12-09T22:13:53.424Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 01",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "isYEDK3WbCn1jpnBXs6G0",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:13:45.862Z",
+                      "updatedAt": "2026-06-05T15:07:24.569Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 5,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph01",
+                      "description": "Puzzel Glyph ",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/isYEDK3WbCn1jpnBXs6G0/320757ca59ec4e3b3bc863a5af002a62/SoS_Puzzle03_Glyph01.png",
+                        "details": {
+                          "size": 321817,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph01.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "1HOjLLuGReqg4IwNbKqoxH",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:32:01.384Z",
+                  "updatedAt": "2025-12-09T22:32:01.384Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 3,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 06",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "jw1AsUXZD2eUYVPZZdJNs",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:31:54.164Z",
+                      "updatedAt": "2026-06-05T15:06:06.353Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 5,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph06",
+                      "description": "Puzzel Glyph ",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/jw1AsUXZD2eUYVPZZdJNs/c6e4264e487b578aff8f4995470a69dc/SoS_Puzzle03_Glyph06.png",
+                        "details": {
+                          "size": 368963,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph06.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "4sGG8CpezgA9ZOzzIWOswh",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:33:06.933Z",
+                  "updatedAt": "2025-12-09T22:33:06.933Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 2,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 08",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "2286SwScUhVgYqgHmQ2PJq",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:32:55.005Z",
+                      "updatedAt": "2026-06-05T15:05:18.108Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 5,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph08",
+                      "description": "Puzzel Glyph ",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2286SwScUhVgYqgHmQ2PJq/efb9afcb52d1e4772049c3d665828533/SoS_Puzzle03_Glyph08.png",
+                        "details": {
+                          "size": 464844,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph08.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "XekSQqNe8uEXpeSxkr5GL",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:43:07.116Z",
+                  "updatedAt": "2025-12-09T22:43:07.116Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 2,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 12",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "2OR3mXD0fB8QRxY6N6RdvH",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:43:02.933Z",
+                      "updatedAt": "2026-06-05T15:03:10.138Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 5,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph12",
+                      "description": "Puzzel Glyph ",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2OR3mXD0fB8QRxY6N6RdvH/7b46436b4698d49f8abeb128260bce41/SoS_Puzzle03_Glyph12.png",
+                        "details": {
+                          "size": 319351,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph12.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "vUIfJPAy7UYyNuX4yBglX",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:44:26.080Z",
+                  "updatedAt": "2025-12-09T22:44:26.080Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 4,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 14",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "2NAQhECgLbWOvisgtuLKed",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:44:18.346Z",
+                      "updatedAt": "2026-06-05T15:02:28.753Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 5,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph14",
+                      "description": "Puzzel Glyph ",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/2NAQhECgLbWOvisgtuLKed/720a9a09d136c34a56b7993e8adf810e/SoS_Puzzle03_Glyph14.png",
+                        "details": {
+                          "size": 445885,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph14.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "rCHuadlz9PRRFQDjWRIYF",
+                  "type": "Entry",
+                  "createdAt": "2025-12-09T22:47:45.167Z",
+                  "updatedAt": "2025-12-09T22:47:45.167Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 2,
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "glyph"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Brown Symbol 18",
+                  "image": {
+                    "metadata": { "tags": [], "concepts": [] },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "x77ixfmkpoiv"
+                        }
+                      },
+                      "id": "1vteXE1XERoTTzbZ71KMDw",
+                      "type": "Asset",
+                      "createdAt": "2025-12-09T22:47:39.933Z",
+                      "updatedAt": "2026-06-05T15:01:26.914Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 6,
+                      "revision": 2,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "SoS Puzzle03 Glyph18",
+                      "description": "Puzzel Glyph ",
+                      "file": {
+                        "url": "//images.ctfassets.net/x77ixfmkpoiv/1vteXE1XERoTTzbZ71KMDw/47d73c64edf1425cf0bc7900747b0f26/SoS_Puzzle03_Glyph18.png",
+                        "details": {
+                          "size": 353606,
+                          "image": { "width": 1000, "height": 1000 }
+                        },
+                        "fileName": "SoS_Puzzle03_Glyph18.png",
+                        "contentType": "image/png"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "congratsHeadlineLoggedIn": "Congrats Raider!",
+            "congratsDescriptionLoggedIn": "Along with your treasures,  further mysteries await you in the depths of the Challenge Tomb",
+            "congratsHeadlineLoggedOut": "Congrats Raider!",
+            "congratsDescriptionLoggedOut": "Join the Society of Raiders,  to claim your treasure and explore deeper into the Challenge Tomb.",
+            "congratsRegisterButtonText": "Register",
+            "congratsBeforeLoginText": "Already a Raider?",
+            "congratsLoginText": "Login",
+            "congratsViewRewardButtonText": "View Reward",
+            "congratsContinuePlayingButtonText": "Continue Playing",
+            "isUnlocked": false,
+            "msUntilUnlock": 0,
+            "loreHeadlineUnlocked": null,
+            "loreDescriptionUnlocked": null
+          }
         }
       ],
-      "sysUpdatedAt": "2026-06-02T21:25:53.315Z"
+      "sysUpdatedAt": "2026-10-09T15:54:28.649Z"
     }
   },
   "__N_SSG": true
