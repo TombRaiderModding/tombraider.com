@@ -3887,10 +3887,10 @@
             "congratsLoginText": "Login",
             "congratsViewRewardButtonText": "View Reward",
             "congratsContinuePlayingButtonText": "Continue Playing",
-            "isUnlocked": false,
+            "isUnlocked": true,
             "msUntilUnlock": 0,
-            "loreHeadlineUnlocked": null,
-            "loreDescriptionUnlocked": null
+            "loreHeadlineUnlocked": "One Step Closer",
+            "loreDescriptionUnlocked": "With the right combination of symbols I should be able get through this door."
           }
         }
       ],

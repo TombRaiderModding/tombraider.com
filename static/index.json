@@ -118,145 +118,147 @@
         },
         "socialMediaShareDescription": "Welcome to Raider Records – the place for complete Tomb Door puzzle coverage!",
         "body": {
+          "nodeType": "document",
           "data": {},
           "content": [
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Welcome to Raider Records – the place for complete Tomb Door puzzle coverage!",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Explore the Tomb: ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
+                  "nodeType": "hyperlink",
                   "data": {
                     "uri": "https://www.tombraider.com/challenge-tomb"
                   },
                   "content": [
                     {
-                      "data": {},
-                      "marks": [],
+                      "nodeType": "text",
                       "value": "https://www.tombraider.com/challenge-tomb",
-                      "nodeType": "text"
+                      "marks": [],
+                      "data": {}
                     }
-                  ],
-                  "nodeType": "hyperlink"
+                  ]
                 },
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Raider Records are here to help fellow raiders find solutions for the Tomb Door puzzles they might have missed, and to provide them with updates as each door is ready to be unlocked.",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The Raider Records also act as a running count of how many symbols have been revealed so far for the latest Tomb Door puzzle, updating as each new symbol is uncovered.",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Some symbols can be found in plain sight, while others are hidden away in the most unexpected places, waiting to be discovered.",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The Tomb Door can be opened only after the last symbol has been revealed.",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Happy raiding!",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
-            { "data": {}, "content": [], "nodeType": "hr" },
+            { "nodeType": "hr", "data": {}, "content": [] },
             {
+              "nodeType": "heading-4",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
+                  "nodeType": "text",
                   "value": "Tomb Door Puzzle #1 – Status: UNLOCKED",
-                  "nodeType": "text"
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
                 }
-              ],
-              "nodeType": "heading-4"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Symbols revealed: 4",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The symbol sequence is as follows:",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "embedded-asset-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -298,102 +300,102 @@
                   }
                 }
               },
-              "content": [],
-              "nodeType": "embedded-asset-block"
+              "content": []
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The symbols were hidden in the following places:",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "unordered-list",
               "data": {},
               "content": [
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "Tomb Raider: Legacy of Atlantis - Key Art",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 },
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "Social Media PFP",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 },
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "Dual Pistols image - the ",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "https://www.tombraider.com/lara-croft"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Lara Croft",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": " segment on tombraider.com",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 }
-              ],
-              "nodeType": "unordered-list"
+              ]
             },
             {
+              "nodeType": "embedded-asset-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -435,47 +437,47 @@
                   }
                 }
               },
-              "content": [],
-              "nodeType": "embedded-asset-block"
+              "content": []
             },
-            { "data": {}, "content": [], "nodeType": "hr" },
+            { "nodeType": "hr", "data": {}, "content": [] },
             {
+              "nodeType": "heading-4",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
+                  "nodeType": "text",
                   "value": "Tomb Door Puzzle #2 – Status: UNLOCKED",
-                  "nodeType": "text"
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
                 }
-              ],
-              "nodeType": "heading-4"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Symbols revealed: 4",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The symbol sequence is as follows:",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "embedded-asset-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -517,236 +519,236 @@
                   }
                 }
               },
-              "content": [],
-              "nodeType": "embedded-asset-block"
+              "content": []
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The symbols were hidden in following places:",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "unordered-list",
               "data": {},
               "content": [
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "https://www.tombraider.com/news/community/tomb-raider-30th-anniversary-streaming-kit-and-backgrounds-available-for"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Streaming Kit Blog",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 },
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "https://www.instagram.com/reel/DU4aWcaD0vF/"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Short-form video",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 },
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "http://tombraider.com/registration"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Newsletter",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 },
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "https://www.instagram.com/p/DVPIM1Gj4GD/"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Travel Checklist",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 }
-              ],
-              "nodeType": "unordered-list"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Join fellow raiders on the hunt for new symbols in the upcoming weeks to unlock the prize behind Tomb Door puzzle #3!",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
-            { "data": {}, "content": [], "nodeType": "hr" },
+            { "nodeType": "hr", "data": {}, "content": [] },
             {
+              "nodeType": "heading-4",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
+                  "nodeType": "text",
                   "value": "Tomb Door Puzzle #3 – Status: UNLOCKED",
-                  "nodeType": "text"
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
                 }
-              ],
-              "nodeType": "heading-4"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Symbols revealed: 4",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The symbol sequence is as follows:",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "embedded-asset-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -788,236 +790,246 @@
                   }
                 }
               },
-              "content": [],
-              "nodeType": "embedded-asset-block"
+              "content": []
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "The symbols were hidden in following places:",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "unordered-list",
               "data": {},
               "content": [
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "Short-form video – ",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "https://www.youtube.com/shorts/ev9GFyCKD5A"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Tomb Raider Acrobatics",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 },
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "Short-form video – ",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "https://youtube.com/shorts/jSuIHJtInx8?si=0FLtBPGyz3uOtdVr"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Tomb Raider: Anniversary Acrobatics",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 },
                 {
+                  "nodeType": "list-item",
                   "data": {},
                   "content": [
                     {
+                      "nodeType": "paragraph",
                       "data": {},
                       "content": [
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "Short-form video – ",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         },
                         {
+                          "nodeType": "hyperlink",
                           "data": {
                             "uri": "https://youtube.com/shorts/43AINDxT-Uw?si=Qw9x5JFclEcefDP9"
                           },
                           "content": [
                             {
-                              "data": {},
-                              "marks": [],
+                              "nodeType": "text",
                               "value": "Tomb Raider Acrobatics Celebration",
-                              "nodeType": "text"
+                              "marks": [],
+                              "data": {}
                             }
-                          ],
-                          "nodeType": "hyperlink"
+                          ]
                         },
                         {
-                          "data": {},
-                          "marks": [],
+                          "nodeType": "text",
                           "value": "",
-                          "nodeType": "text"
+                          "marks": [],
+                          "data": {}
                         }
-                      ],
-                      "nodeType": "paragraph"
+                      ]
                     }
-                  ],
-                  "nodeType": "list-item"
+                  ]
                 }
-              ],
-              "nodeType": "unordered-list"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Eagle-eyed raiders may remember our ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
+                  "nodeType": "hyperlink",
                   "data": {
                     "uri": "https://www.instagram.com/reels/DZDZ-ZNitVh/"
                   },
                   "content": [
                     {
-                      "data": {},
-                      "marks": [{ "type": "italic" }],
+                      "nodeType": "text",
                       "value": "Tomb Raider: Anniversary",
-                      "nodeType": "text"
+                      "marks": [{ "type": "italic" }],
+                      "data": {}
                     },
                     {
-                      "data": {},
-                      "marks": [],
+                      "nodeType": "text",
                       "value": " birthday",
-                      "nodeType": "text"
+                      "marks": [],
+                      "data": {}
                     }
-                  ],
-                  "nodeType": "hyperlink"
+                  ]
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": " video showcased Poseidon's room in St. Francis’ Folly. That was no coincidence. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Solve the puzzle to unlock your reward: concept art of Poseidon’s room from ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": ".", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            { "data": {}, "content": [], "nodeType": "hr" },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Tomb Door Puzzle #4 – Status: LOCKED",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "heading-4"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
                   "marks": [],
-                  "value": "Symbols revealed: 2",
-                  "nodeType": "text"
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": ".", "marks": [], "data": {} }
+              ]
+            },
+            { "nodeType": "hr", "data": {}, "content": [] },
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Door Puzzle #4 – Status: UNLOCKED",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Symbols revealed: 4",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Solution coming soon!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
             }
-          ],
-          "nodeType": "document"
+          ]
         },
         "publishDate": "2026-10-16",
         "hideSocialSharingButtons": false,
-        "sysUpdatedAt": "2026-10-16T18:56:41.030Z"
+        "sysUpdatedAt": "2026-10-23T17:11:07.293Z"
       },
       {
         "title": "Astonishing Travels - Field Notes: Lara Croft. What Lies Beneath St. Francis’ Folly?",
