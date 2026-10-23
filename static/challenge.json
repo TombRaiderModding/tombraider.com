@@ -3125,7 +3125,7 @@
             "id": "5Yplhp65x5oWqRqKUuOkwf",
             "type": "Entry",
             "createdAt": "2026-10-09T15:52:07.823Z",
-            "updatedAt": "2026-10-09T15:52:07.823Z",
+            "updatedAt": "2026-10-22T21:12:42.023Z",
             "environment": {
               "sys": {
                 "id": "master",
@@ -3133,8 +3133,8 @@
                 "linkType": "Environment"
               }
             },
-            "publishedVersion": 19,
-            "revision": 1,
+            "publishedVersion": 24,
+            "revision": 2,
             "contentType": {
               "sys": {
                 "type": "Link",
@@ -3873,6 +3873,10 @@
                   }
                 }
               }
+            ],
+            "rewardItemFriendlyIds": [
+              "atlantis-wallpaper-outfits-mobile",
+              "atlantis-wallpaper-outfits-desktop"
             ],
             "congratsHeadlineLoggedIn": "Congrats Raider!",
             "congratsDescriptionLoggedIn": "Along with your treasures,  further mysteries await you in the depths of the Challenge Tomb",
