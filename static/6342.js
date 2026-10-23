@@ -1,11 +1,11 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-  [1089],
+  [6342],
   {
-    22045: (e) => {
+    38514: (e) => {
       !(function () {
         "use strict";
         var t = {
-            114: function (e) {
+            431: function (e) {
               function t(e) {
                 if ("string" != typeof e)
                   throw TypeError(
@@ -318,147 +318,141 @@
           }
           return E.exports;
         }
-        ((n.ab = "//"), (e.exports = n(114)));
+        ((n.ab = "//"), (e.exports = n(431)));
       })();
     },
     40235: (e, t, r) => {
       "use strict";
-      r.d(t, { nA: () => i, XD: () => E, j7: () => a, _$: () => n });
-      var n = {};
-      (r.r(n),
-        r.d(n, {
-          isBlock: () => A,
-          isEmptyParagraph: () => D,
-          isInline: () => u,
-          isText: () => p,
-          stripEmptyTrailingParagraphFromDocument: () => d,
+      r.d(t, { nA: () => l, XD: () => o, j7: () => s, _$: () => a });
+      var n,
+        i,
+        E,
+        a = {};
+      (r.r(a),
+        r.d(a, {
+          isBlock: () => d,
+          isEmptyParagraph: () => _,
+          isInline: () => D,
+          isText: () => T,
+          stripEmptyTrailingParagraphFromDocument: () => f,
         }));
-      var i = (function (e) {
-          return (
-            (e.DOCUMENT = "document"),
-            (e.PARAGRAPH = "paragraph"),
-            (e.HEADING_1 = "heading-1"),
-            (e.HEADING_2 = "heading-2"),
-            (e.HEADING_3 = "heading-3"),
-            (e.HEADING_4 = "heading-4"),
-            (e.HEADING_5 = "heading-5"),
-            (e.HEADING_6 = "heading-6"),
-            (e.OL_LIST = "ordered-list"),
-            (e.UL_LIST = "unordered-list"),
-            (e.LIST_ITEM = "list-item"),
-            (e.HR = "hr"),
-            (e.QUOTE = "blockquote"),
-            (e.EMBEDDED_ENTRY = "embedded-entry-block"),
-            (e.EMBEDDED_ASSET = "embedded-asset-block"),
-            (e.EMBEDDED_RESOURCE = "embedded-resource-block"),
-            (e.TABLE = "table"),
-            (e.TABLE_ROW = "table-row"),
-            (e.TABLE_CELL = "table-cell"),
-            (e.TABLE_HEADER_CELL = "table-header-cell"),
-            e
-          );
-        })({}),
-        E = (function (e) {
-          return (
-            (e.ASSET_HYPERLINK = "asset-hyperlink"),
-            (e.EMBEDDED_ENTRY = "embedded-entry-inline"),
-            (e.EMBEDDED_RESOURCE = "embedded-resource-inline"),
-            (e.ENTRY_HYPERLINK = "entry-hyperlink"),
-            (e.HYPERLINK = "hyperlink"),
-            (e.RESOURCE_HYPERLINK = "resource-hyperlink"),
-            e
-          );
-        })({}),
-        a = (function (e) {
-          return (
-            (e.BOLD = "bold"),
-            (e.ITALIC = "italic"),
-            (e.UNDERLINE = "underline"),
-            (e.CODE = "code"),
-            (e.SUPERSCRIPT = "superscript"),
-            (e.SUBSCRIPT = "subscript"),
-            (e.STRIKETHROUGH = "strikethrough"),
-            e
-          );
-        })({});
-      let l = [
-          i.PARAGRAPH,
-          i.HEADING_1,
-          i.HEADING_2,
-          i.HEADING_3,
-          i.HEADING_4,
-          i.HEADING_5,
-          i.HEADING_6,
-          i.OL_LIST,
-          i.UL_LIST,
-          i.HR,
-          i.QUOTE,
-          i.EMBEDDED_ENTRY,
-          i.EMBEDDED_ASSET,
-          i.EMBEDDED_RESOURCE,
-          i.TABLE,
+      var l =
+          (((n = {}).DOCUMENT = "document"),
+          (n.PARAGRAPH = "paragraph"),
+          (n.HEADING_1 = "heading-1"),
+          (n.HEADING_2 = "heading-2"),
+          (n.HEADING_3 = "heading-3"),
+          (n.HEADING_4 = "heading-4"),
+          (n.HEADING_5 = "heading-5"),
+          (n.HEADING_6 = "heading-6"),
+          (n.OL_LIST = "ordered-list"),
+          (n.UL_LIST = "unordered-list"),
+          (n.LIST_ITEM = "list-item"),
+          (n.HR = "hr"),
+          (n.QUOTE = "blockquote"),
+          (n.EMBEDDED_ENTRY = "embedded-entry-block"),
+          (n.EMBEDDED_ASSET = "embedded-asset-block"),
+          (n.EMBEDDED_RESOURCE = "embedded-resource-block"),
+          (n.TABLE = "table"),
+          (n.TABLE_ROW = "table-row"),
+          (n.TABLE_CELL = "table-cell"),
+          (n.TABLE_HEADER_CELL = "table-header-cell"),
+          n),
+        o =
+          (((i = {}).ASSET_HYPERLINK = "asset-hyperlink"),
+          (i.EMBEDDED_ENTRY = "embedded-entry-inline"),
+          (i.EMBEDDED_RESOURCE = "embedded-resource-inline"),
+          (i.ENTRY_HYPERLINK = "entry-hyperlink"),
+          (i.HYPERLINK = "hyperlink"),
+          (i.RESOURCE_HYPERLINK = "resource-hyperlink"),
+          i),
+        s =
+          (((E = {}).BOLD = "bold"),
+          (E.ITALIC = "italic"),
+          (E.UNDERLINE = "underline"),
+          (E.CODE = "code"),
+          (E.SUPERSCRIPT = "superscript"),
+          (E.SUBSCRIPT = "subscript"),
+          (E.STRIKETHROUGH = "strikethrough"),
+          E);
+      let h = [
+          l.PARAGRAPH,
+          l.HEADING_1,
+          l.HEADING_2,
+          l.HEADING_3,
+          l.HEADING_4,
+          l.HEADING_5,
+          l.HEADING_6,
+          l.OL_LIST,
+          l.UL_LIST,
+          l.HR,
+          l.QUOTE,
+          l.EMBEDDED_ENTRY,
+          l.EMBEDDED_ASSET,
+          l.EMBEDDED_RESOURCE,
+          l.TABLE,
         ],
-        o = [
-          i.PARAGRAPH,
-          i.HEADING_1,
-          i.HEADING_2,
-          i.HEADING_3,
-          i.HEADING_4,
-          i.HEADING_5,
-          i.HEADING_6,
-          i.OL_LIST,
-          i.UL_LIST,
-          i.HR,
-          i.QUOTE,
-          i.EMBEDDED_ENTRY,
-          i.EMBEDDED_ASSET,
-          i.EMBEDDED_RESOURCE,
+        c = [
+          l.PARAGRAPH,
+          l.HEADING_1,
+          l.HEADING_2,
+          l.HEADING_3,
+          l.HEADING_4,
+          l.HEADING_5,
+          l.HEADING_6,
+          l.OL_LIST,
+          l.UL_LIST,
+          l.HR,
+          l.QUOTE,
+          l.EMBEDDED_ENTRY,
+          l.EMBEDDED_ASSET,
+          l.EMBEDDED_RESOURCE,
         ];
-      (i.TABLE,
-        i.TABLE_ROW,
-        i.TABLE_CELL,
-        i.TABLE_HEADER_CELL,
-        i.HR,
-        i.EMBEDDED_ENTRY,
-        i.EMBEDDED_ASSET,
-        i.EMBEDDED_RESOURCE);
-      let s = {
-          [i.OL_LIST]: [i.LIST_ITEM],
-          [i.UL_LIST]: [i.LIST_ITEM],
-          [i.LIST_ITEM]: o,
-          [i.QUOTE]: [i.PARAGRAPH],
-          [i.TABLE]: [i.TABLE_ROW],
-          [i.TABLE_ROW]: [i.TABLE_CELL, i.TABLE_HEADER_CELL],
-          [i.TABLE_CELL]: [i.PARAGRAPH, i.UL_LIST, i.OL_LIST],
-          [i.TABLE_HEADER_CELL]: [i.PARAGRAPH],
+      (l.TABLE,
+        l.TABLE_ROW,
+        l.TABLE_CELL,
+        l.TABLE_HEADER_CELL,
+        l.HR,
+        l.EMBEDDED_ENTRY,
+        l.EMBEDDED_ASSET,
+        l.EMBEDDED_RESOURCE);
+      let u = {
+          [l.OL_LIST]: [l.LIST_ITEM],
+          [l.UL_LIST]: [l.LIST_ITEM],
+          [l.LIST_ITEM]: c,
+          [l.QUOTE]: [l.PARAGRAPH],
+          [l.TABLE]: [l.TABLE_ROW],
+          [l.TABLE_ROW]: [l.TABLE_CELL, l.TABLE_HEADER_CELL],
+          [l.TABLE_CELL]: [l.PARAGRAPH, l.UL_LIST, l.OL_LIST],
+          [l.TABLE_HEADER_CELL]: [l.PARAGRAPH],
         },
-        h = [
-          i.HEADING_1,
-          i.HEADING_2,
-          i.HEADING_3,
-          i.HEADING_4,
-          i.HEADING_5,
-          i.HEADING_6,
+        A = [
+          l.HEADING_1,
+          l.HEADING_2,
+          l.HEADING_3,
+          l.HEADING_4,
+          l.HEADING_5,
+          l.HEADING_6,
         ];
-      function c(e, t) {
+      function p(e, t) {
         for (let r of Object.keys(e)) if (t === e[r]) return !0;
         return !1;
       }
-      function u(e) {
-        return c(E, e.nodeType);
+      function D(e) {
+        return p(o, e.nodeType);
       }
-      function A(e) {
-        return c(i, e.nodeType);
+      function d(e) {
+        return p(l, e.nodeType);
       }
-      function p(e) {
+      function T(e) {
         return "text" === e.nodeType;
       }
-      function D(e) {
-        if (e.nodeType !== i.PARAGRAPH || 1 !== e.content.length) return !1;
+      function _(e) {
+        if (e.nodeType !== l.PARAGRAPH || 1 !== e.content.length) return !1;
         let t = e.content[0];
         return "text" === t.nodeType && "" === t.value;
       }
-      function d(e) {
+      function f(e) {
         return !(
           null != e &&
           "object" == typeof e &&
@@ -466,44 +460,44 @@
           Array.isArray(e.content)
         ) || e.content.length < 2
           ? e
-          : D(e.content[e.content.length - 1])
+          : _(e.content[e.content.length - 1])
             ? { ...e, content: e.content.slice(0, -1) }
             : e;
       }
-      ([i.PARAGRAPH, ...h],
-        i.DOCUMENT,
-        i.PARAGRAPH,
-        i.HEADING_1,
-        i.HEADING_2,
-        i.HEADING_3,
-        i.HEADING_4,
-        i.HEADING_5,
-        i.HEADING_6,
-        i.OL_LIST,
-        i.UL_LIST,
-        i.LIST_ITEM,
-        i.HR,
-        i.QUOTE,
-        i.EMBEDDED_ENTRY,
-        i.EMBEDDED_ASSET,
-        E.HYPERLINK,
-        E.ENTRY_HYPERLINK,
-        E.ASSET_HYPERLINK,
-        E.EMBEDDED_ENTRY,
-        a.BOLD,
-        a.CODE,
-        a.ITALIC,
-        a.UNDERLINE,
-        i.DOCUMENT,
-        i.PARAGRAPH);
-      let T = ({ path: e, property: t, typeName: r, value: n }) => ({
+      ([l.PARAGRAPH, ...A],
+        l.DOCUMENT,
+        l.PARAGRAPH,
+        l.HEADING_1,
+        l.HEADING_2,
+        l.HEADING_3,
+        l.HEADING_4,
+        l.HEADING_5,
+        l.HEADING_6,
+        l.OL_LIST,
+        l.UL_LIST,
+        l.LIST_ITEM,
+        l.HR,
+        l.QUOTE,
+        l.EMBEDDED_ENTRY,
+        l.EMBEDDED_ASSET,
+        o.HYPERLINK,
+        o.ENTRY_HYPERLINK,
+        o.ASSET_HYPERLINK,
+        o.EMBEDDED_ENTRY,
+        s.BOLD,
+        s.CODE,
+        s.ITALIC,
+        s.UNDERLINE,
+        l.DOCUMENT,
+        l.PARAGRAPH);
+      let L = ({ path: e, property: t, typeName: r, value: n }) => ({
         details: `The type of "${t}" is incorrect, expected type: ${r}`,
         name: "type",
         path: e.toArray(),
         type: r,
         value: n,
       });
-      class _ {
+      class R {
         obj;
         path;
         _errors = [];
@@ -538,7 +532,7 @@
             n = e ?? this.path.last() ?? "value";
           return (
             this.catch(
-              T({ typeName: "Object", property: n, path: r, value: t }),
+              L({ typeName: "Object", property: n, path: r, value: t }),
             ),
             !1
           );
@@ -549,7 +543,7 @@
             (!e || !!this.exists(e)) &&
             ("string" == typeof t ||
               (this.catch(
-                T({
+                L({
                   typeName: "String",
                   property: e,
                   path: this.path.of(e),
@@ -566,7 +560,7 @@
             (!!this.exists(e) &&
               (!("number" != typeof r || Number.isNaN(r)) ||
                 (this.catch(
-                  T({
+                  L({
                     typeName: "Number",
                     property: e,
                     path: this.path.of(e),
@@ -582,7 +576,7 @@
             (!e || !!this.exists(e)) &&
             (!!Array.isArray(t) ||
               (this.catch(
-                T({
+                L({
                   typeName: "Array",
                   property: e,
                   path: this.path.of(e),
@@ -670,15 +664,15 @@
           });
         };
       }
-      let f = [];
-      class L {
+      let y = [];
+      class I {
         contentRule;
         validateData;
         constructor(e, t) {
           ((this.contentRule = e), (this.validateData = t));
         }
         assert(e, t) {
-          let r = new _(e, t);
+          let r = new R(e, t);
           if (!r.object()) return r.errors;
           r.noAdditionalProperties(["nodeType", "data", "content"]);
           let { nodeTypes: n, min: i = 0 } = Array.isArray(this.contentRule)
@@ -693,7 +687,7 @@
             0 === n.length
               ? r.empty("content")
               : r.each("content", (e, t) => {
-                  let r = new _(e, t);
+                  let r = new R(e, t);
                   return (r.object() && r.enum("nodeType", n), r.errors);
                 }),
             r.object("data"))
@@ -704,7 +698,7 @@
           return r.errors;
         }
       }
-      class R extends L {
+      class m extends I {
         linkType;
         type;
         constructor(e, t) {
@@ -715,9 +709,9 @@
               : "Link"));
         }
         assertLink = (e, t) => {
-          let r = new _(e, t);
+          let r = new R(e, t);
           if (r.object("target")) {
-            let n = new _(e.target.sys, t.of("target").of("sys"));
+            let n = new R(e.target.sys, t.of("target").of("sys"));
             (n.object() &&
               (n.enum("type", [this.type]),
               n.enum("linkType", [this.linkType]),
@@ -732,24 +726,24 @@
           return (r.noAdditionalProperties(["target"]), r.errors);
         };
       }
-      class y extends L {
+      class N extends I {
         constructor() {
           super(["text"], (e, t) => this.assertLink(e, t));
         }
         assertLink = (e, t) => {
-          let r = new _(e, t);
+          let r = new R(e, t);
           return (r.string("uri"), r.noAdditionalProperties(["uri"]), r.errors);
         };
       }
-      let I = (e, t) => new L(e, t),
-        m = (e, t) => new R(e, t);
-      (I([...Object.values(E), "text"].sort()),
-        I([i.LIST_ITEM]),
-        m("Entry", f),
-        I(
-          () => ({ nodeTypes: [i.PARAGRAPH], min: 1 }),
+      let g = (e, t) => new I(e, t),
+        H = (e, t) => new m(e, t);
+      (g([...Object.values(o), "text"].sort()),
+        g([l.LIST_ITEM]),
+        H("Entry", y),
+        g(
+          () => ({ nodeTypes: [l.PARAGRAPH], min: 1 }),
           (e, t) => {
-            let r = new _(e, t);
+            let r = new R(e, t);
             return (
               r.noAdditionalProperties(["colspan", "rowspan"]),
               r.number("colspan", !0),
@@ -758,45 +752,45 @@
             );
           },
         ),
-        i.DOCUMENT,
-        I(l),
-        i.PARAGRAPH,
-        i.HEADING_1,
-        i.HEADING_2,
-        i.HEADING_3,
-        i.HEADING_4,
-        i.HEADING_5,
-        i.HEADING_6,
-        i.QUOTE,
-        I(s[i.QUOTE]),
-        i.EMBEDDED_ENTRY,
-        i.EMBEDDED_ASSET,
-        m("Asset", f),
-        i.EMBEDDED_RESOURCE,
-        m("Contentful:Entry", f),
-        i.HR,
-        I(f),
-        i.OL_LIST,
-        i.UL_LIST,
-        i.LIST_ITEM,
-        I([...o].sort()),
-        i.TABLE,
-        I(() => ({ nodeTypes: [i.TABLE_ROW], min: 1 })),
-        i.TABLE_ROW,
-        I(() => ({ nodeTypes: [i.TABLE_CELL, i.TABLE_HEADER_CELL], min: 1 })),
-        i.TABLE_CELL,
-        i.TABLE_HEADER_CELL,
-        E.HYPERLINK,
-        new y(),
-        E.EMBEDDED_ENTRY,
-        E.EMBEDDED_RESOURCE,
-        m("Contentful:Entry", f),
-        E.ENTRY_HYPERLINK,
-        m("Entry", ["text"]),
-        E.ASSET_HYPERLINK,
-        m("Asset", ["text"]),
-        E.RESOURCE_HYPERLINK,
-        m("Contentful:Entry", ["text"]));
+        l.DOCUMENT,
+        g(h),
+        l.PARAGRAPH,
+        l.HEADING_1,
+        l.HEADING_2,
+        l.HEADING_3,
+        l.HEADING_4,
+        l.HEADING_5,
+        l.HEADING_6,
+        l.QUOTE,
+        g(u[l.QUOTE]),
+        l.EMBEDDED_ENTRY,
+        l.EMBEDDED_ASSET,
+        H("Asset", y),
+        l.EMBEDDED_RESOURCE,
+        H("Contentful:Entry", y),
+        l.HR,
+        g(y),
+        l.OL_LIST,
+        l.UL_LIST,
+        l.LIST_ITEM,
+        g([...c].sort()),
+        l.TABLE,
+        g(() => ({ nodeTypes: [l.TABLE_ROW], min: 1 })),
+        l.TABLE_ROW,
+        g(() => ({ nodeTypes: [l.TABLE_CELL, l.TABLE_HEADER_CELL], min: 1 })),
+        l.TABLE_CELL,
+        l.TABLE_HEADER_CELL,
+        o.HYPERLINK,
+        new N(),
+        o.EMBEDDED_ENTRY,
+        o.EMBEDDED_RESOURCE,
+        H("Contentful:Entry", y),
+        o.ENTRY_HYPERLINK,
+        H("Entry", ["text"]),
+        o.ASSET_HYPERLINK,
+        H("Asset", ["text"]),
+        o.RESOURCE_HYPERLINK,
+        H("Contentful:Entry", ["text"]));
     },
     40453: (e, t, r) => {
       "use strict";

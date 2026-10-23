@@ -199,11 +199,11 @@
     80777: (e, t, r) => {
       r.d(t, {
         FH: () => C,
-        Gb: () => R,
-        Jt: () => h,
-        hZ: () => v,
+        Gb: () => N,
+        Jt: () => m,
+        hZ: () => h,
         mN: () => eo,
-        xI: () => N,
+        xI: () => j,
       });
       var s = r(36439),
         a = (e) => e instanceof Date,
@@ -222,43 +222,44 @@
               (t, r, s) => !isNaN(Number(t)) && e.has(s.slice(0, r).join(".")),
             ),
         u =
-          "undefined" != typeof window &&
+          "u" > typeof window &&
           void 0 !== window.HTMLElement &&
-          "undefined" != typeof document;
+          "u" > typeof document;
       function d(e) {
+        let t;
         if (e instanceof Date) return new Date(e);
-        let t = "undefined" != typeof FileList && e instanceof FileList;
-        if (u && (e instanceof Blob || t)) return e;
-        let r = Array.isArray(e);
+        let r = "u" > typeof FileList && e instanceof FileList;
+        if (u && (e instanceof Blob || r)) return e;
+        let s = Array.isArray(e);
         if (
-          !r &&
+          !s &&
           !(
             l(e) &&
-            ((e) => {
-              let t = e.constructor && e.constructor.prototype;
-              return l(t) && t.hasOwnProperty("isPrototypeOf");
-            })(e)
+            l((t = e.constructor && e.constructor.prototype)) &&
+            t.hasOwnProperty("isPrototypeOf")
           )
         )
           return e;
-        let s = r ? [] : Object.create(Object.getPrototypeOf(e));
+        let a = s ? [] : Object.create(Object.getPrototypeOf(e));
         for (let t in e)
-          Object.prototype.hasOwnProperty.call(e, t) && (s[t] = d(e[t]));
-        return s;
+          Object.prototype.hasOwnProperty.call(e, t) && (a[t] = d(e[t]));
+        return a;
       }
-      var f = (e) => /^\w*$/.test(e),
-        c = (e) => void 0 === e,
-        y = (e) => (Array.isArray(e) ? e.filter(Boolean) : []),
-        m = (e) => y(e.replace(/["|']|\]/g, "").split(/\.|\[/)),
-        h = (e, t, r) => {
+      var f = (e) => void 0 === e,
+        c = (e) => (Array.isArray(e) ? e.filter(Boolean) : []),
+        y = (e) => c(e.replace(/["|']|\]/g, "").split(/\.|\[/)),
+        m = (e, t, r) => {
           if (!t || !l(e)) return r;
-          let s = (f(t) ? [t] : m(t)).reduce((e, t) => (i(e) ? e : e[t]), e);
-          return c(s) || s === e ? (c(e[t]) ? r : e[t]) : s;
+          let s = (/^\w*$/.test(t) ? [t] : y(t)).reduce(
+            (e, t) => (i(e) ? e : e[t]),
+            e,
+          );
+          return f(s) || s === e ? (f(e[t]) ? r : e[t]) : s;
         },
         p = (e) => "function" == typeof e,
-        v = (e, t, r) => {
+        h = (e, t, r) => {
           let s = -1,
-            a = f(t) ? [t] : m(t),
+            a = /^\w*$/.test(t) ? [t] : y(t),
             i = a.length,
             n = i - 1;
           for (; ++s < i; ) {
@@ -273,22 +274,11 @@
             ((e[t] = i), (e = e[t]));
           }
         };
-      let b = {
-          BLUR: "blur",
-          FOCUS_OUT: "focusout",
-          CHANGE: "change",
-          SUBMIT: "submit",
-          TRIGGER: "trigger",
-          VALID: "valid",
-        },
-        g = {
-          onBlur: "onBlur",
-          onChange: "onChange",
-          onSubmit: "onSubmit",
-          onTouched: "onTouched",
-          all: "all",
-        },
-        _ = {
+      let v = "blur",
+        b = "trigger",
+        g = "onChange",
+        _ = "onSubmit",
+        V = {
           max: "max",
           min: "min",
           maxLength: "maxLength",
@@ -297,31 +287,30 @@
           required: "required",
           validate: "validate",
         },
-        V = "form",
-        F = "root",
+        F = "form",
+        w = "root",
         k = s.createContext(null);
       k.displayName = "HookFormControlContext";
-      let w = () => s.useContext(k);
       var A = (e, t, r, s = !0) => {
         let a = { defaultValues: t._defaultValues };
         for (let i in e)
           Object.defineProperty(a, i, {
             get: () => (
-              t._proxyFormState[i] !== g.all &&
-                (t._proxyFormState[i] = !s || g.all),
+              "all" !== t._proxyFormState[i] &&
+                (t._proxyFormState[i] = !s || "all"),
               r && (r[i] = !0),
               e[i]
             ),
           });
         return a;
       };
-      let S = "undefined" != typeof window ? s.useLayoutEffect : s.useEffect;
-      var x = (e) => "string" == typeof e,
+      let x = "u" > typeof window ? s.useLayoutEffect : s.useEffect;
+      var S = (e) => "string" == typeof e,
         D = (e, t, r, s, a) =>
-          x(e)
-            ? (s && t.watch.add(e), h(r, e, a))
+          S(e)
+            ? (s && t.watch.add(e), m(r, e, a))
             : Array.isArray(e)
-              ? e.map((e) => (s && t.watch.add(e), h(r, e)))
+              ? e.map((e) => (s && t.watch.add(e), m(r, e)))
               : (s && (t.watchAll = !0), r),
         E = (e) => i(e) || "object" != typeof e;
       function O(e, t, r = new WeakSet()) {
@@ -348,7 +337,7 @@
         return !0;
       }
       function C(e) {
-        let t = w(),
+        let t = s.useContext(k),
           {
             control: r = t,
             name: a,
@@ -363,11 +352,11 @@
           c = s.useRef(r),
           y = s.useRef(a);
         d.current = o;
-        let [m, h] = s.useState(() => {
+        let [m, p] = s.useState(() => {
             let e = r._getWatch(a, u.current);
             return d.current ? d.current(e) : e;
           }),
-          p = s.useCallback(
+          h = s.useCallback(
             (e) => {
               let t = D(a, r._names, e || r._formValues, !1, u.current);
               return d.current ? d.current(t) : t;
@@ -380,13 +369,13 @@
                 let t = D(a, r._names, e || r._formValues, !1, u.current);
                 if (d.current) {
                   let e = d.current(t);
-                  O(e, f.current) || (h(e), (f.current = e));
-                } else h(t);
+                  O(e, f.current) || (p(e), (f.current = e));
+                } else p(t);
               }
             },
             [r._formValues, r._names, l, a],
           );
-        (S(
+        (x(
           () => (
             (c.current === r && O(y.current, a)) ||
               ((c.current = r), (y.current = a), v()),
@@ -407,30 +396,30 @@
           _ = s.useMemo(() => {
             if (l) return null;
             let e = !b && !O(g, a);
-            return b || e ? p() : null;
-          }, [l, b, a, g, p]);
+            return b || e ? h() : null;
+          }, [l, b, a, g, h]);
         return null !== _ ? _ : m;
       }
-      let N = (e) =>
+      let j = (e) =>
         e.render(
           (function (e) {
-            let t = w(),
+            let t = s.useContext(k),
               {
                 name: r,
                 disabled: a,
                 control: i = t,
                 shouldUnregister: l,
                 defaultValue: u,
-                exact: f = !0,
+                exact: c = !0,
               } = e,
               y = o(i._names.array, r),
-              m = s.useMemo(
-                () => h(i._formValues, r, h(i._defaultValues, r, u)),
+              b = s.useMemo(
+                () => m(i._formValues, r, m(i._defaultValues, r, u)),
                 [i, r, u],
               ),
-              g = C({ control: i, name: r, defaultValue: m, exact: f }),
+              g = C({ control: i, name: r, defaultValue: b, exact: c }),
               _ = (function (e) {
-                let t = w(),
+                let t = s.useContext(k),
                   { control: r = t, disabled: a, name: i, exact: l } = e || {},
                   [n, o] = s.useState(r._formState),
                   u = s.useRef({
@@ -444,7 +433,7 @@
                     errors: !1,
                   });
                 return (
-                  S(
+                  x(
                     () =>
                       r._subscribe({
                         name: i,
@@ -461,10 +450,10 @@
                   }, [r]),
                   s.useMemo(() => A(n, r, u.current, !1), [n, r])
                 );
-              })({ control: i, name: r, exact: f }),
+              })({ control: i, name: r, exact: c }),
               V = s.useRef(e),
               F = s.useRef(void 0),
-              k = s.useRef(
+              w = s.useRef(
                 i.register(r, {
                   ...e.rules,
                   value: g,
@@ -474,48 +463,48 @@
                 }),
               );
             V.current = e;
-            let x = s.useMemo(
+            let S = s.useMemo(
                 () =>
                   Object.defineProperties(
                     {},
                     {
-                      invalid: { enumerable: !0, get: () => !!h(_.errors, r) },
+                      invalid: { enumerable: !0, get: () => !!m(_.errors, r) },
                       isDirty: {
                         enumerable: !0,
-                        get: () => !!h(_.dirtyFields, r),
+                        get: () => !!m(_.dirtyFields, r),
                       },
                       isTouched: {
                         enumerable: !0,
-                        get: () => !!h(_.touchedFields, r),
+                        get: () => !!m(_.touchedFields, r),
                       },
                       isValidating: {
                         enumerable: !0,
-                        get: () => !!h(_.validatingFields, r),
+                        get: () => !!m(_.validatingFields, r),
                       },
-                      error: { enumerable: !0, get: () => h(_.errors, r) },
+                      error: { enumerable: !0, get: () => m(_.errors, r) },
                     },
                   ),
                 [_, r],
               ),
               D = s.useCallback(
                 (e) =>
-                  k.current.onChange({
+                  w.current.onChange({
                     target: { value: n(e), name: r },
-                    type: b.CHANGE,
+                    type: "change",
                   }),
                 [r],
               ),
               E = s.useCallback(
                 () =>
-                  k.current.onBlur({
-                    target: { value: h(i._formValues, r), name: r },
-                    type: b.BLUR,
+                  w.current.onBlur({
+                    target: { value: m(i._formValues, r), name: r },
+                    type: v,
                   }),
                 [r, i._formValues],
               ),
               O = s.useCallback(
                 (e) => {
-                  let t = h(i._fields, r);
+                  let t = m(i._fields, r);
                   t &&
                     t._f &&
                     e &&
@@ -530,7 +519,7 @@
                 },
                 [i._fields, r],
               ),
-              N = s.useMemo(
+              j = s.useMemo(
                 () => ({
                   name: r,
                   value: g,
@@ -555,15 +544,15 @@
                       : {}),
                   }));
                 let s = (e, t) => {
-                  let r = h(i._fields, e);
+                  let r = m(i._fields, e);
                   r && r._f && (r._f.mount = t);
                 };
                 if ((s(r, !0), e)) {
                   let e = d(
-                    h(i._options.defaultValues, r, V.current.defaultValue),
+                    m(i._options.defaultValues, r, V.current.defaultValue),
                   );
-                  (v(i._defaultValues, r, e),
-                    c(h(i._formValues, r)) && v(i._formValues, r, e));
+                  (h(i._defaultValues, r, e),
+                    f(m(i._formValues, r)) && h(i._formValues, r, e));
                 }
                 return (
                   y || i.register(r),
@@ -579,14 +568,14 @@
                 i._setDisabledField({ disabled: a, name: r });
               }, [a, r, i]),
               s.useMemo(
-                () => ({ field: N, formState: _, fieldState: x }),
-                [N, _, x],
+                () => ({ field: j, formState: _, fieldState: S }),
+                [j, _, S],
               )
             );
           })(e),
         );
       s.createContext(null).displayName = "HookFormContext";
-      var R = (e, t, r, s, a) =>
+      var N = (e, t, r, s, a) =>
           t
             ? {
                 ...r[e],
@@ -596,8 +585,8 @@
                 },
               }
             : {},
-        T = (e) => (Array.isArray(e) ? e : [e]),
-        j = () => {
+        R = (e) => (Array.isArray(e) ? e : [e]),
+        T = () => {
           let e = [];
           return {
             get observers() {
@@ -619,8 +608,8 @@
             },
           };
         },
-        U = (e) => l(e) && !Object.keys(e).length,
-        L = (e) => {
+        M = (e) => l(e) && !Object.keys(e).length,
+        U = (e) => {
           if (!u) return !1;
           let t = e ? e.ownerDocument : 0;
           return (
@@ -628,16 +617,16 @@
             (t && t.defaultView ? t.defaultView.HTMLElement : HTMLElement)
           );
         },
-        M = (e) => L(e) && e.isConnected;
-      function B(e, t) {
-        let r = Array.isArray(t) ? t : f(t) ? [t] : m(t),
+        L = (e) => U(e) && e.isConnected;
+      function P(e, t) {
+        let r = Array.isArray(t) ? t : /^\w*$/.test(t) ? [t] : y(t),
           s =
             1 === r.length
               ? e
               : (function (e, t) {
                   let r = t.slice(0, -1).length,
                     s = 0;
-                  for (; s < r; ) e = c(e) ? s++ : e[t[s++]];
+                  for (; s < r; ) e = f(e) ? s++ : e[t[s++]];
                   return e;
                 })(e, r),
           a = r.length - 1,
@@ -645,18 +634,18 @@
         return (
           s && delete s[i],
           0 !== a &&
-            ((l(s) && U(s)) ||
+            ((l(s) && M(s)) ||
               (Array.isArray(s) &&
                 (function (e) {
                   for (let t in e)
-                    if (e.hasOwnProperty(t) && !c(e[t])) return !1;
+                    if (e.hasOwnProperty(t) && !f(e[t])) return !1;
                   return !0;
                 })(s))) &&
-            B(e, r.slice(0, -1)),
+            P(e, r.slice(0, -1)),
           e
         );
       }
-      function I(e) {
+      function B(e) {
         return (
           Array.isArray(e) ||
           (l(e) &&
@@ -666,22 +655,22 @@
             })(e))
         );
       }
-      function P(e, t = {}) {
+      function I(e, t = {}) {
         for (let r in e) {
           let s = e[r];
-          I(s)
-            ? ((t[r] = Array.isArray(s) ? [] : {}), P(s, t[r]))
-            : c(s) || (t[r] = !0);
+          B(s)
+            ? ((t[r] = Array.isArray(s) ? [] : {}), I(s, t[r]))
+            : f(s) || (t[r] = !0);
         }
         return t;
       }
-      function G(e, t, r) {
-        for (let s in (r || (r = P(t)), e)) {
+      function q(e, t, r) {
+        for (let s in (r || (r = I(t)), e)) {
           let a = e[s];
-          if (I(a))
-            c(t) || E(r[s])
-              ? (r[s] = P(a, Array.isArray(a) ? [] : {}))
-              : G(a, i(t) ? {} : t[s], r[s]);
+          if (B(a))
+            f(t) || E(r[s])
+              ? (r[s] = I(a, Array.isArray(a) ? [] : {}))
+              : q(a, i(t) ? {} : t[s], r[s]);
           else {
             let e = t[s];
             r[s] = !O(a, e);
@@ -689,9 +678,9 @@
         }
         return r;
       }
-      let q = { value: !1, isValid: !1 },
+      let $ = { value: !1, isValid: !1 },
         H = { value: !0, isValid: !0 };
-      var $ = (e) => {
+      var W = (e) => {
           if (Array.isArray(e)) {
             if (e.length > 1) {
               let t = e
@@ -700,54 +689,54 @@
               return { value: t, isValid: !!t.length };
             }
             return e[0].checked && !e[0].disabled
-              ? e[0].attributes && !c(e[0].attributes.value)
-                ? c(e[0].value) || "" === e[0].value
+              ? e[0].attributes && !f(e[0].attributes.value)
+                ? f(e[0].value) || "" === e[0].value
                   ? H
                   : { value: e[0].value, isValid: !0 }
                 : H
-              : q;
+              : $;
           }
-          return q;
+          return $;
         },
-        W = (e, { valueAsNumber: t, valueAsDate: r, setValueAs: s }) =>
-          c(e)
+        J = (e, { valueAsNumber: t, valueAsDate: r, setValueAs: s }) =>
+          f(e)
             ? e
             : t
               ? "" === e
-                ? NaN
+                ? 0 / 0
                 : e
                   ? +e
                   : e
-              : r && x(e)
+              : r && S(e)
                 ? new Date(e)
                 : s
                   ? s(e)
                   : e;
-      let J = { isValid: !1, value: null };
-      var Z = (e) =>
+      let Z = { isValid: !1, value: null };
+      var z = (e) =>
         Array.isArray(e)
           ? e.reduce(
               (e, t) =>
                 t && t.checked && !t.disabled
                   ? { isValid: !0, value: t.value }
                   : e,
-              J,
+              Z,
             )
-          : J;
-      function z(e) {
+          : Z;
+      function G(e) {
         let t = e.ref;
         return "file" === t.type
           ? t.files
           : "radio" === t.type
-            ? Z(e.refs).value
+            ? z(e.refs).value
             : "select-multiple" === t.type
               ? [...t.selectedOptions].map(({ value: e }) => e)
               : "checkbox" === t.type
-                ? $(e.refs).value
-                : W(c(t.value) ? e.ref.value : t.value, e);
+                ? W(e.refs).value
+                : J(f(t.value) ? e.ref.value : t.value, e);
       }
       var K = (e) =>
-          c(e)
+          f(e)
             ? e
             : e instanceof RegExp
               ? e.source
@@ -757,11 +746,11 @@
                   : e.value
                 : e,
         Q = (e) => ({
-          isOnSubmit: !e || e === g.onSubmit,
-          isOnBlur: e === g.onBlur,
-          isOnChange: e === g.onChange,
-          isOnAll: e === g.all,
-          isOnTouch: e === g.onTouched,
+          isOnSubmit: !e || e === _,
+          isOnBlur: "onBlur" === e,
+          isOnChange: e === g,
+          isOnAll: "all" === e,
+          isOnTouch: "onTouched" === e,
         });
       let X = "AsyncFunction";
       var Y = (e) =>
@@ -781,7 +770,7 @@
             ));
       let et = (e, t, r, s) => {
         for (let a of r || Object.keys(e)) {
-          let r = h(e, a);
+          let r = m(e, a);
           if (r) {
             let { _f: e, ...i } = r;
             if (e) {
@@ -793,13 +782,13 @@
         }
       };
       function er(e, t, r) {
-        let s = h(e, r);
-        if (s || f(r)) return { error: s, name: r };
+        let s = m(e, r);
+        if (s || /^\w*$/.test(r)) return { error: s, name: r };
         let a = r.split(".");
         for (; a.length; ) {
           let s = a.join("."),
-            i = h(t, s),
-            l = h(e, s);
+            i = m(t, s),
+            l = m(e, s);
           if (i && !Array.isArray(i) && r !== s) break;
           if (l && l.type) return { name: s, error: l };
           if (l && l.root && l.root.type)
@@ -809,16 +798,16 @@
         return { name: r };
       }
       var es = (e, t, r) => {
-        let s = T(h(e, r));
-        return (v(s, F, t[r]), v(e, r, s), e);
+        let s = R(m(e, r));
+        return (h(s, w, t[r]), h(e, r, s), e);
       };
       function ea(e, t, r = "validate") {
         if (
-          x(e) ||
-          (Array.isArray(e) && e.every(x)) ||
+          S(e) ||
+          (Array.isArray(e) && e.every(S)) ||
           ("boolean" == typeof e && !e)
         )
-          return { type: r, message: x(e) ? e : "", ref: t };
+          return { type: r, message: S(e) ? e : "", ref: t };
       }
       var ei = (e) =>
           !l(e) || e instanceof RegExp ? { value: e, message: "" } : e,
@@ -827,20 +816,20 @@
               ref: o,
               refs: u,
               required: d,
-              maxLength: f,
+              maxLength: c,
               minLength: y,
-              min: m,
+              min: h,
               max: v,
               pattern: b,
               validate: g,
-              name: V,
+              name: _,
               valueAsNumber: F,
-              mount: k,
+              mount: w,
             } = e._f,
-            w = h(r, V);
-          if (!k || t.has(V)) return {};
+            k = m(r, _);
+          if (!w || t.has(_)) return {};
           let A = u ? u[0] : o,
-            S = (e) => {
+            x = (e) => {
               a &&
                 A.reportValidity &&
                 (A.setCustomValidity("boolean" == typeof e ? "" : e || ""),
@@ -850,128 +839,124 @@
             E = "radio" === o.type,
             O = "checkbox" === o.type,
             C =
-              ((F || "file" === o.type) && c(o.value) && c(w)) ||
-              (L(o) && "" === o.value) ||
-              "" === w ||
-              (Array.isArray(w) && !w.length),
-            N = R.bind(null, V, s, D),
-            T = (e, t, r, s = _.maxLength, a = _.minLength) => {
+              ((F || "file" === o.type) && f(o.value) && f(k)) ||
+              (U(o) && "" === o.value) ||
+              "" === k ||
+              (Array.isArray(k) && !k.length),
+            j = N.bind(null, _, s, D),
+            R = (e, t, r, s = V.maxLength, a = V.minLength) => {
               let i = e ? t : r;
-              D[V] = {
+              D[_] = {
                 type: e ? s : a,
                 message: i,
                 ref: o,
-                ...N(e ? s : a, i),
+                ...j(e ? s : a, i),
               };
             };
           if (
             n
-              ? !Array.isArray(w) || !w.length
+              ? !Array.isArray(k) || !k.length
               : d &&
-                ((!(E || O) && (C || i(w))) ||
-                  ("boolean" == typeof w && !w) ||
-                  (O && !$(u).isValid) ||
-                  (E && !Z(u).isValid))
+                ((!(E || O) && (C || i(k))) ||
+                  ("boolean" == typeof k && !k) ||
+                  (O && !W(u).isValid) ||
+                  (E && !z(u).isValid))
           ) {
-            let { value: e, message: t } = x(d)
+            let { value: e, message: t } = S(d)
               ? { value: !!d, message: d }
               : ei(d);
             if (
               e &&
-              ((D[V] = {
-                type: _.required,
+              ((D[_] = {
+                type: V.required,
                 message: t,
                 ref: A,
-                ...N(_.required, t),
+                ...j(V.required, t),
               }),
               !s)
             )
-              return (S(t), D);
+              return (x(t), D);
           }
-          if (!C && (!i(m) || !i(v))) {
+          if (!C && (!i(h) || !i(v))) {
             let e,
               t,
               r = ei(v),
-              a = ei(m);
-            if (i(w) || isNaN(w)) {
-              let s = o.valueAsDate || new Date(w),
+              a = ei(h);
+            if (i(k) || isNaN(k)) {
+              let s = o.valueAsDate || new Date(k),
                 i = (e) => new Date(new Date().toDateString() + " " + e),
                 l = "time" == o.type,
                 n = "week" == o.type;
-              (x(r.value) &&
-                w &&
+              (S(r.value) &&
+                k &&
                 (e = l
-                  ? i(w) > i(r.value)
+                  ? i(k) > i(r.value)
                   : n
-                    ? w > r.value
+                    ? k > r.value
                     : s > new Date(r.value)),
-                x(a.value) &&
-                  w &&
+                S(a.value) &&
+                  k &&
                   (t = l
-                    ? i(w) < i(a.value)
+                    ? i(k) < i(a.value)
                     : n
-                      ? w < a.value
+                      ? k < a.value
                       : s < new Date(a.value)));
             } else {
-              let s = o.valueAsNumber || (w ? +w : w);
+              let s = o.valueAsNumber || (k ? +k : k);
               (i(r.value) || (e = s > r.value),
                 i(a.value) || (t = s < a.value));
             }
-            if ((e || t) && (T(!!e, r.message, a.message, _.max, _.min), !s))
-              return (S(D[V].message), D);
+            if ((e || t) && (R(!!e, r.message, a.message, V.max, V.min), !s))
+              return (x(D[_].message), D);
           }
-          if ((f || y) && !C && (x(w) || (n && Array.isArray(w)))) {
-            let e = ei(f),
+          if ((c || y) && !C && (S(k) || (n && Array.isArray(k)))) {
+            let e = ei(c),
               t = ei(y),
-              r = !i(e.value) && w.length > +e.value,
-              a = !i(t.value) && w.length < +t.value;
-            if ((r || a) && (T(r, e.message, t.message), !s))
-              return (S(D[V].message), D);
+              r = !i(e.value) && k.length > +e.value,
+              a = !i(t.value) && k.length < +t.value;
+            if ((r || a) && (R(r, e.message, t.message), !s))
+              return (x(D[_].message), D);
           }
-          if (b && !C && x(w)) {
+          if (b && !C && S(k)) {
             let { value: e, message: t } = ei(b);
             if (
               e instanceof RegExp &&
-              !w.match(e) &&
-              ((D[V] = {
-                type: _.pattern,
+              !k.match(e) &&
+              ((D[_] = {
+                type: V.pattern,
                 message: t,
                 ref: o,
-                ...N(_.pattern, t),
+                ...j(V.pattern, t),
               }),
               !s)
             )
-              return (S(t), D);
+              return (x(t), D);
           }
           if (g) {
             if (p(g)) {
-              let e = ea(await g(w, r), A);
-              if (e && ((D[V] = { ...e, ...N(_.validate, e.message) }), !s))
-                return (S(e.message), D);
+              let e = ea(await g(k, r), A);
+              if (e && ((D[_] = { ...e, ...j(V.validate, e.message) }), !s))
+                return (x(e.message), D);
             } else if (l(g)) {
               let e = {};
               for (let t in g) {
-                if (!U(e) && !s) break;
-                let a = ea(await g[t](w, r), A, t);
+                if (!M(e) && !s) break;
+                let a = ea(await g[t](k, r), A, t);
                 a &&
-                  ((e = { ...a, ...N(t, a.message) }),
-                  S(a.message),
-                  s && (D[V] = e));
+                  ((e = { ...a, ...j(t, a.message) }),
+                  x(a.message),
+                  s && (D[_] = e));
               }
-              if (!U(e) && ((D[V] = { ref: A, ...e }), !s)) return D;
+              if (!M(e) && ((D[_] = { ref: A, ...e }), !s)) return D;
             }
           }
-          return (S(!0), D);
+          return (x(!0), D);
         };
-      let en = {
-        mode: g.onSubmit,
-        reValidateMode: g.onChange,
-        shouldFocusError: !0,
-      };
+      let en = { mode: _, reValidateMode: g, shouldFocusError: !0 };
       function eo(e = {}) {
         let t = s.useRef(void 0),
           r = s.useRef(void 0),
-          [f, m] = s.useState({
+          [y, g] = s.useState({
             isDirty: !1,
             isValidating: !1,
             isLoading: p(e.defaultValues),
@@ -990,7 +975,7 @@
           });
         if (!t.current)
           if (e.formControl)
-            ((t.current = { ...e.formControl, formState: f }),
+            ((t.current = { ...e.formControl, formState: y }),
               e.defaultValues &&
                 !p(e.defaultValues) &&
                 e.formControl.reset(e.defaultValues, e.resetOptions));
@@ -1014,13 +999,13 @@
                   errors: r.errors || {},
                   disabled: r.disabled || !1,
                 },
-                f = {},
-                m =
+                y = {},
+                g =
                   ((l(r.defaultValues) || l(r.values)) &&
                     d(r.defaultValues || r.values)) ||
                   {},
-                k = r.shouldUnregister ? {} : d(m),
-                w = { action: !1, mount: !1, watch: !1, keepIsValid: !1 },
+                _ = r.shouldUnregister ? {} : d(g),
+                k = { action: !1, mount: !1, watch: !1, keepIsValid: !1 },
                 A = {
                   mount: new Set(),
                   disabled: new Set(),
@@ -1029,7 +1014,7 @@
                   watch: new Set(),
                   registerName: new Set(),
                 },
-                S = 0,
+                x = 0,
                 E = {
                   isDirty: !1,
                   dirtyFields: !1,
@@ -1040,98 +1025,98 @@
                   errors: !1,
                 },
                 C = { ...E },
-                N = { ...C },
-                R = { array: j(), state: j() },
-                I = r.criteriaMode === g.all,
-                P = async (e) => {
+                j = { ...C },
+                N = { array: T(), state: T() },
+                B = "all" === r.criteriaMode,
+                I = async (e) => {
                   if (
-                    !w.keepIsValid &&
+                    !k.keepIsValid &&
                     !r.disabled &&
-                    (C.isValid || N.isValid || e)
+                    (C.isValid || j.isValid || e)
                   ) {
                     let e;
                     (r.resolver
-                      ? ((e = U((await Z()).errors)), q())
+                      ? ((e = M((await z()).errors)), $())
                       : (e = await ei({
-                          fields: f,
+                          fields: y,
                           onlyCheckValid: !0,
-                          eventType: b.VALID,
+                          eventType: "valid",
                         })),
-                      e !== s.isValid && R.state.next({ isValid: e }));
+                      e !== s.isValid && N.state.next({ isValid: e }));
                   }
                 },
-                q = (e, t) => {
+                $ = (e, t) => {
                   !r.disabled &&
                     (C.isValidating ||
                       C.validatingFields ||
-                      N.isValidating ||
-                      N.validatingFields) &&
+                      j.isValidating ||
+                      j.validatingFields) &&
                     ((e || Array.from(A.mount)).forEach((e) => {
                       e &&
                         (t
-                          ? v(s.validatingFields, e, t)
-                          : B(s.validatingFields, e));
+                          ? h(s.validatingFields, e, t)
+                          : P(s.validatingFields, e));
                     }),
-                    R.state.next({
+                    N.state.next({
                       validatingFields: s.validatingFields,
-                      isValidating: !U(s.validatingFields),
+                      isValidating: !M(s.validatingFields),
                     }));
                 },
                 H = (e) => {
-                  let t = G(m, k),
+                  let t = q(g, _),
                     r = e.substring(0, e.search(/\.\d+(\.|$)/)) || e;
-                  v(s.dirtyFields, r, h(t, r));
+                  h(s.dirtyFields, r, m(t, r));
                 },
-                $ = (e, t, r, s) => {
-                  let a = h(f, e);
+                W = (e, t, r, s) => {
+                  let a = m(y, e);
                   if (a) {
-                    let i = h(k, e, c(r) ? h(m, e) : r);
-                    (c(i) || (s && s.defaultChecked) || t
-                      ? v(k, e, t ? i : z(a._f))
+                    let i = m(_, e, f(r) ? m(g, e) : r);
+                    (f(i) || (s && s.defaultChecked) || t
+                      ? h(_, e, t ? i : G(a._f))
                       : ed(e, i),
-                      w.mount && !w.action && P());
+                      k.mount && !k.action && I());
                   }
                 },
-                J = (e, t, a, i, l) => {
+                Z = (e, t, a, i, l) => {
                   let n = !1,
                     o = !1,
                     u = { name: e };
                   if (!r.disabled) {
                     if (!a || i) {
-                      (C.isDirty || N.isDirty) &&
+                      (C.isDirty || j.isDirty) &&
                         ((o = s.isDirty),
                         (s.isDirty = u.isDirty = eo()),
                         (n = o !== u.isDirty));
-                      let r = O(h(m, e), t);
-                      ((o = !!h(s.dirtyFields, e)),
-                        r ? B(s.dirtyFields, e) : v(s.dirtyFields, e, !0),
+                      let r = O(m(g, e), t);
+                      ((o = !!m(s.dirtyFields, e)),
+                        r ? P(s.dirtyFields, e) : h(s.dirtyFields, e, !0),
                         (u.dirtyFields = s.dirtyFields),
                         (n =
-                          n || ((C.dirtyFields || N.dirtyFields) && !r !== o)));
+                          n || ((C.dirtyFields || j.dirtyFields) && !r !== o)));
                     }
                     if (a) {
-                      let t = h(s.touchedFields, e);
+                      let t = m(s.touchedFields, e);
                       t ||
-                        (v(s.touchedFields, e, a),
+                        (h(s.touchedFields, e, a),
                         (u.touchedFields = s.touchedFields),
                         (n =
                           n ||
-                          ((C.touchedFields || N.touchedFields) && t !== a)));
+                          ((C.touchedFields || j.touchedFields) && t !== a)));
                     }
-                    n && l && R.state.next(u);
+                    n && l && N.state.next(u);
                   }
                   return n ? u : {};
                 },
-                Z = async (e) => (
-                  q(e, !0),
+                z = async (e) => (
+                  $(e, !0),
                   await r.resolver(
-                    k,
+                    _,
                     r.context,
                     ((e, t, r, s) => {
                       let a = {};
                       for (let r of e) {
-                        let e = h(t, r);
-                        e && v(a, r, e._f);
+                        let e = m(t, r);
+                        e && h(a, r, e._f);
                       }
                       return {
                         criteriaMode: r,
@@ -1141,18 +1126,18 @@
                       };
                     })(
                       e || A.mount,
-                      f,
+                      y,
                       r.criteriaMode,
                       r.shouldUseNativeValidation,
                     ),
                   )
                 ),
                 X = async (e) => {
-                  let { errors: t } = await Z(e);
-                  if ((q(e), e))
+                  let { errors: t } = await z(e);
+                  if (($(e), e))
                     for (let r of e) {
-                      let e = h(t, r);
-                      e ? v(s.errors, r, e) : B(s.errors, r);
+                      let e = m(t, r);
+                      e ? h(s.errors, r, e) : P(s.errors, r);
                     }
                   else s.errors = t;
                   return t;
@@ -1160,7 +1145,7 @@
                 ea = async ({ name: t, eventType: r }) => {
                   if (e.validate) {
                     let a = await e.validate({
-                      formValues: k,
+                      formValues: _,
                       formState: s,
                       name: t,
                       eventType: r,
@@ -1168,14 +1153,14 @@
                     if (l(a))
                       for (let e in a)
                         a[e] &&
-                          eg(`${V}.${e}`, {
-                            message: x(a.message) ? a.message : "",
-                            type: _.validate,
+                          eg(`${F}.${e}`, {
+                            message: S(a.message) ? a.message : "",
+                            type: V.validate,
                           });
                     else
-                      x(a) || !a
-                        ? eg(V, { message: a || "", type: _.validate })
-                        : eb(V);
+                      S(a) || !a
+                        ? eg(F, { message: a || "", type: V.validate })
+                        : eb(F);
                     return a;
                   }
                   return !0;
@@ -1201,29 +1186,29 @@
                       if (t) {
                         let i = A.array.has(t.name),
                           l = o._f && Y(o._f);
-                        l && C.validatingFields && q([t.name], !0);
+                        l && C.validatingFields && $([t.name], !0);
                         let u = await el(
                           o,
                           A.disabled,
-                          k,
-                          I,
+                          _,
+                          B,
                           r.shouldUseNativeValidation && !a,
                           i,
                         );
                         if (
-                          (l && C.validatingFields && q([t.name]),
+                          (l && C.validatingFields && $([t.name]),
                           (u[t.name] && ((n.valid = !1), a)) ||
                             (a ||
-                              (h(u, t.name)
+                              (m(u, t.name)
                                 ? i
                                   ? es(s.errors, u, t.name)
-                                  : v(s.errors, t.name, u[t.name])
-                                : B(s.errors, t.name)),
+                                  : h(s.errors, t.name, u[t.name])
+                                : P(s.errors, t.name)),
                             e.shouldUseNativeValidation && u[t.name]))
                         )
                           break;
                       }
-                      U(u) ||
+                      M(u) ||
                         (await ei({
                           context: n,
                           onlyCheckValid: a,
@@ -1236,23 +1221,23 @@
                   return n.valid;
                 },
                 eo = (e, t) =>
-                  !r.disabled && (e && t && v(k, e, t), !O(ep(), m)),
+                  !r.disabled && (e && t && h(_, e, t), !O(eh(), g)),
                 eu = (e, t, r) =>
                   D(
                     e,
                     A,
-                    { ...(w.mount ? k : c(t) ? m : x(e) ? { [e]: t } : t) },
+                    { ...(k.mount ? _ : f(t) ? g : S(e) ? { [e]: t } : t) },
                     r,
                     t,
                   ),
                 ed = (e, t, r = {}) => {
-                  let s = h(f, e),
+                  let s = m(y, e),
                     a = t;
                   if (s) {
                     let r = s._f;
                     r &&
-                      (r.disabled || v(k, e, W(t, r)),
-                      (a = L(r.ref) && i(t) ? "" : t),
+                      (r.disabled || h(_, e, J(t, r)),
+                      (a = U(r.ref) && i(t) ? "" : t),
                       "select-multiple" === r.ref.type
                         ? [...r.ref.options].forEach(
                             (e) => (e.selected = a.includes(e.value)),
@@ -1272,37 +1257,37 @@
                             ? (r.ref.value = "")
                             : ((r.ref.value = a),
                               r.ref.type ||
-                                R.state.next({ name: e, values: d(k) })));
+                                N.state.next({ name: e, values: d(_) })));
                   }
                   ((r.shouldDirty || r.shouldTouch) &&
-                    J(e, a, r.shouldTouch, r.shouldDirty, !0),
-                    r.shouldValidate && eh(e));
+                    Z(e, a, r.shouldTouch, r.shouldDirty, !0),
+                    r.shouldValidate && ep(e));
                 },
                 ef = (e, t, r) => {
                   for (let s in t) {
                     if (!t.hasOwnProperty(s)) return;
                     let i = t[s],
                       n = e + "." + s,
-                      o = h(f, n);
+                      o = m(y, n);
                     (A.array.has(e) || l(i) || (o && !o._f)) && !a(i)
                       ? ef(n, i, r)
                       : ed(n, i, r);
                   }
                 },
                 ec = (e, t, r = {}) => {
-                  let a = h(f, e),
+                  let a = m(y, e),
                     l = A.array.has(e),
                     n = d(t);
-                  (v(k, e, n),
+                  (h(_, e, n),
                     l
-                      ? (R.array.next({ name: e, values: d(k) }),
+                      ? (N.array.next({ name: e, values: d(_) }),
                         (C.isDirty ||
                           C.dirtyFields ||
-                          N.isDirty ||
-                          N.dirtyFields) &&
+                          j.isDirty ||
+                          j.dirtyFields) &&
                           r.shouldDirty &&
                           (H(e),
-                          R.state.next({
+                          N.state.next({
                             name: e,
                             dirtyFields: s.dirtyFields,
                             isDirty: eo(e, n),
@@ -1311,198 +1296,190 @@
                         ? ed(e, n, r)
                         : ef(e, n, r),
                     ee(e, A)
-                      ? R.state.next({ ...s, name: e, values: d(k) })
-                      : R.state.next({
-                          name: w.mount ? e : void 0,
-                          values: d(k),
+                      ? N.state.next({ ...s, name: e, values: d(_) })
+                      : N.state.next({
+                          name: k.mount ? e : void 0,
+                          values: d(_),
                         }));
                 },
                 ey = async (i) => {
-                  w.mount = !0;
+                  k.mount = !0;
                   let l = i.target,
                     o = l.name,
                     u = !0,
-                    c = h(f, o),
-                    y = (e) => {
+                    f = m(y, o),
+                    c = (e) => {
                       u =
                         Number.isNaN(e) ||
                         (a(e) && isNaN(e.getTime())) ||
-                        O(e, h(k, o, e));
+                        O(e, m(_, o, e));
                     },
-                    m = Q(r.mode),
-                    p = Q(r.reValidateMode);
-                  if (c) {
+                    p = Q(r.mode),
+                    b = Q(r.reValidateMode);
+                  if (f) {
+                    var g, V, F, w, S;
                     let a,
-                      w,
-                      j,
-                      L = l.type ? z(c._f) : n(i),
-                      M = i.type === b.BLUR || i.type === b.FOCUS_OUT,
-                      G =
+                      k,
+                      T,
+                      U = l.type ? G(f._f) : n(i),
+                      L = i.type === v || "focusout" === i.type,
+                      q =
                         (!(
-                          (j = c._f).mount &&
-                          (j.required ||
-                            j.min ||
-                            j.max ||
-                            j.maxLength ||
-                            j.minLength ||
-                            j.pattern ||
-                            j.validate)
+                          (T = f._f).mount &&
+                          (T.required ||
+                            T.min ||
+                            T.max ||
+                            T.maxLength ||
+                            T.minLength ||
+                            T.pattern ||
+                            T.validate)
                         ) &&
                           !e.validate &&
                           !r.resolver &&
-                          !h(s.errors, o) &&
-                          !c._f.deps) ||
-                        ((g = M),
-                        (_ = h(s.touchedFields, o)),
-                        (V = s.isSubmitted),
-                        (F = p),
-                        !(x = m).isOnAll &&
-                          (!V && x.isOnTouch
-                            ? !(_ || g)
-                            : (V ? F.isOnBlur : x.isOnBlur)
+                          !m(s.errors, o) &&
+                          !f._f.deps) ||
+                        ((g = L),
+                        (V = m(s.touchedFields, o)),
+                        (F = s.isSubmitted),
+                        (w = b),
+                        !(S = p).isOnAll &&
+                          (!F && S.isOnTouch
+                            ? !(V || g)
+                            : (F ? w.isOnBlur : S.isOnBlur)
                               ? !g
-                              : (V ? !F.isOnChange : !x.isOnChange) || g)),
-                      H = ee(o, A, M);
-                    (v(k, o, L),
-                      M
+                              : (F ? !w.isOnChange : !S.isOnChange) || g)),
+                      H = ee(o, A, L);
+                    (h(_, o, U),
+                      L
                         ? (l && l.readOnly) ||
-                          (c._f.onBlur && c._f.onBlur(i), t && t(0))
-                        : c._f.onChange && c._f.onChange(i));
-                    let $ = J(o, L, M),
-                      W = !U($) || H;
+                          (f._f.onBlur && f._f.onBlur(i), t && t(0))
+                        : f._f.onChange && f._f.onChange(i));
+                    let W = Z(o, U, L),
+                      J = !M(W) || H;
                     if (
-                      (M ||
-                        R.state.next({ name: o, type: i.type, values: d(k) }),
-                      G)
+                      (L ||
+                        N.state.next({ name: o, type: i.type, values: d(_) }),
+                      q)
                     )
                       return (
-                        (C.isValid || N.isValid) &&
-                          ("onBlur" === r.mode ? M && P() : M || P()),
-                        W && R.state.next({ name: o, ...(H ? {} : $) })
+                        (C.isValid || j.isValid) &&
+                          ("onBlur" === r.mode ? L && I() : L || I()),
+                        J && N.state.next({ name: o, ...(H ? {} : W) })
                       );
                     if (
                       (!r.resolver &&
                         e.validate &&
                         (await ea({ name: o, eventType: i.type })),
-                      !M && H && R.state.next({ ...s }),
+                      !L && H && N.state.next({ ...s }),
                       r.resolver)
                     ) {
-                      let { errors: e } = await Z([o]);
-                      if ((q([o]), y(L), u)) {
-                        let t = er(s.errors, f, o),
-                          r = er(e, f, t.name || o);
-                        ((a = r.error), (o = r.name), (w = U(e)));
+                      let { errors: e } = await z([o]);
+                      if (($([o]), c(U), u)) {
+                        let t = er(s.errors, y, o),
+                          r = er(e, y, t.name || o);
+                        ((a = r.error), (o = r.name), (k = M(e)));
                       }
                     } else
-                      (q([o], !0),
+                      ($([o], !0),
                         (a = (
                           await el(
-                            c,
+                            f,
                             A.disabled,
-                            k,
-                            I,
+                            _,
+                            B,
                             r.shouldUseNativeValidation,
                           )
                         )[o]),
-                        q([o]),
-                        y(L),
+                        $([o]),
+                        c(U),
                         u &&
                           (a
-                            ? (w = !1)
-                            : (C.isValid || N.isValid) &&
-                              (w = await ei({
-                                fields: f,
+                            ? (k = !1)
+                            : (C.isValid || j.isValid) &&
+                              (k = await ei({
+                                fields: y,
                                 onlyCheckValid: !0,
                                 name: o,
                                 eventType: i.type,
                               }))));
                     if (u) {
-                      c._f.deps &&
-                        (!Array.isArray(c._f.deps) || c._f.deps.length > 0) &&
-                        eh(c._f.deps);
-                      var g,
-                        _,
-                        V,
-                        F,
-                        x,
-                        D = o,
-                        E = w,
-                        T = a;
-                      let e = h(s.errors, D),
+                      f._f.deps &&
+                        (!Array.isArray(f._f.deps) || f._f.deps.length > 0) &&
+                        ep(f._f.deps);
+                      var D = o,
+                        E = k,
+                        R = a;
+                      let e = m(s.errors, D),
                         i =
-                          (C.isValid || N.isValid) &&
+                          (C.isValid || j.isValid) &&
                           "boolean" == typeof E &&
                           s.isValid !== E;
-                      if (r.delayError && T) {
+                      if (r.delayError && R) {
                         let e;
                         ((e = () => {
-                          (v(s.errors, D, T),
-                            R.state.next({ errors: s.errors }));
+                          (h(s.errors, D, R),
+                            N.state.next({ errors: s.errors }));
                         }),
                           (t = (t) => {
-                            (clearTimeout(S), (S = setTimeout(e, t)));
+                            (clearTimeout(x), (x = setTimeout(e, t)));
                           })(r.delayError));
                       } else
-                        (clearTimeout(S),
+                        (clearTimeout(x),
                           (t = null),
-                          T ? v(s.errors, D, T) : B(s.errors, D));
-                      if ((T ? !O(e, T) : e) || !U($) || i) {
+                          R ? h(s.errors, D, R) : P(s.errors, D));
+                      if ((R ? !O(e, R) : e) || !M(W) || i) {
                         let e = {
-                          ...$,
+                          ...W,
                           ...(i && "boolean" == typeof E ? { isValid: E } : {}),
                           errors: s.errors,
                           name: D,
                         };
-                        ((s = { ...s, ...e }), R.state.next(e));
+                        ((s = { ...s, ...e }), N.state.next(e));
                       }
                     }
                   }
                 },
                 em = (e, t) => {
-                  if (h(s.errors, t) && e.focus) return (e.focus(), 1);
+                  if (m(s.errors, t) && e.focus) return (e.focus(), 1);
                 },
-                eh = async (e, t = {}) => {
+                ep = async (e, t = {}) => {
                   let a,
                     i,
-                    l = T(e);
+                    l = R(e);
                   if (r.resolver) {
-                    let t = await X(c(e) ? e : l);
-                    ((a = U(t)), (i = e ? !l.some((e) => h(t, e)) : a));
+                    let t = await X(f(e) ? e : l);
+                    ((a = M(t)), (i = e ? !l.some((e) => m(t, e)) : a));
                   } else
                     e
                       ? ((i = (
                           await Promise.all(
                             l.map(async (e) => {
-                              let t = h(f, e);
+                              let t = m(y, e);
                               return await ei({
                                 fields: t && t._f ? { [e]: t } : t,
-                                eventType: b.TRIGGER,
+                                eventType: b,
                               });
                             }),
                           )
                         ).every(Boolean)) ||
                           s.isValid) &&
-                        P()
+                        I()
                       : (i = a =
-                          await ei({
-                            fields: f,
-                            name: e,
-                            eventType: b.TRIGGER,
-                          }));
+                          await ei({ fields: y, name: e, eventType: b }));
                   return (
-                    R.state.next({
-                      ...(!x(e) || ((C.isValid || N.isValid) && a !== s.isValid)
+                    N.state.next({
+                      ...(!S(e) || ((C.isValid || j.isValid) && a !== s.isValid)
                         ? {}
                         : { name: e }),
                       ...(r.resolver || !e ? { isValid: a } : {}),
                       errors: s.errors,
                     }),
-                    t.shouldFocus && !i && et(f, em, e ? l : A.mount),
+                    t.shouldFocus && !i && et(y, em, e ? l : A.mount),
                     i
                   );
                 },
-                ep = (e, t) => {
-                  let r = { ...(w.mount ? k : m) };
+                eh = (e, t) => {
+                  let r = { ...(k.mount ? _ : g) };
                   return (
                     t &&
                       (r = (function e(t, r) {
@@ -1518,39 +1495,39 @@
                           }
                         return s;
                       })(t.dirtyFields ? s.dirtyFields : s.touchedFields, r)),
-                    c(e) ? r : x(e) ? h(r, e) : e.map((e) => h(r, e))
+                    f(e) ? r : S(e) ? m(r, e) : e.map((e) => m(r, e))
                   );
                 },
                 ev = (e, t) => ({
-                  invalid: !!h((t || s).errors, e),
-                  isDirty: !!h((t || s).dirtyFields, e),
-                  error: h((t || s).errors, e),
-                  isValidating: !!h(s.validatingFields, e),
-                  isTouched: !!h((t || s).touchedFields, e),
+                  invalid: !!m((t || s).errors, e),
+                  isDirty: !!m((t || s).dirtyFields, e),
+                  error: m((t || s).errors, e),
+                  isValidating: !!m(s.validatingFields, e),
+                  isTouched: !!m((t || s).touchedFields, e),
                 }),
                 eb = (e) => {
-                  let t = e ? T(e) : void 0;
-                  (null == t || t.forEach((e) => B(s.errors, e)),
+                  let t = e ? R(e) : void 0;
+                  (null == t || t.forEach((e) => P(s.errors, e)),
                     t
                       ? t.forEach((e) => {
-                          R.state.next({ name: e, errors: s.errors });
+                          N.state.next({ name: e, errors: s.errors });
                         })
-                      : R.state.next({ errors: {} }));
+                      : N.state.next({ errors: {} }));
                 },
                 eg = (e, t, r) => {
-                  let a = (h(f, e, { _f: {} })._f || {}).ref,
+                  let a = (m(y, e, { _f: {} })._f || {}).ref,
                     {
                       ref: i,
                       message: l,
                       type: n,
                       ...o
-                    } = h(s.errors, e) || {};
-                  (v(s.errors, e, { ...o, ...t, ref: a }),
-                    R.state.next({ name: e, errors: s.errors, isValid: !1 }),
+                    } = m(s.errors, e) || {};
+                  (h(s.errors, e, { ...o, ...t, ref: a }),
+                    N.state.next({ name: e, errors: s.errors, isValid: !1 }),
                     r && r.shouldFocus && a && a.focus && a.focus());
                 },
                 e_ = (e) =>
-                  R.state.subscribe({
+                  N.state.subscribe({
                     next: (t) => {
                       let r, a, i;
                       ((r = e.name),
@@ -1559,7 +1536,7 @@
                         (!r ||
                           !a ||
                           r === a ||
-                          T(r).some(
+                          R(r).some(
                             (e) =>
                               e &&
                               (i
@@ -1570,55 +1547,55 @@
                             r(e);
                             let { name: a, ...i } = e;
                             return (
-                              U(i) ||
+                              M(i) ||
                               Object.keys(i).length >= Object.keys(t).length ||
-                              Object.keys(i).find((e) => t[e] === (!s || g.all))
+                              Object.keys(i).find((e) => t[e] === (!s || "all"))
                             );
                           })(t, e.formState || C, eD, e.reRenderRoot) &&
                           e.callback({
-                            values: { ...k },
+                            values: { ..._ },
                             ...s,
                             ...t,
-                            defaultValues: m,
+                            defaultValues: g,
                           }));
                     },
                   }).unsubscribe,
                 eV = (e, t = {}) => {
-                  for (let a of e ? T(e) : A.mount)
+                  for (let a of e ? R(e) : A.mount)
                     (A.mount.delete(a),
                       A.array.delete(a),
-                      t.keepValue || (B(f, a), B(k, a)),
-                      t.keepError || B(s.errors, a),
-                      t.keepDirty || B(s.dirtyFields, a),
-                      t.keepTouched || B(s.touchedFields, a),
-                      t.keepIsValidating || B(s.validatingFields, a),
-                      r.shouldUnregister || t.keepDefaultValue || B(m, a));
-                  (R.state.next({ values: d(k) }),
-                    R.state.next({
+                      t.keepValue || (P(y, a), P(_, a)),
+                      t.keepError || P(s.errors, a),
+                      t.keepDirty || P(s.dirtyFields, a),
+                      t.keepTouched || P(s.touchedFields, a),
+                      t.keepIsValidating || P(s.validatingFields, a),
+                      r.shouldUnregister || t.keepDefaultValue || P(g, a));
+                  (N.state.next({ values: d(_) }),
+                    N.state.next({
                       ...s,
                       ...(!t.keepDirty ? {} : { isDirty: eo() }),
                     }),
-                    t.keepIsValid || P());
+                    t.keepIsValid || I());
                 },
                 eF = ({ disabled: e, name: t }) => {
                   if (
-                    ("boolean" == typeof e && w.mount) ||
+                    ("boolean" == typeof e && k.mount) ||
                     e ||
                     A.disabled.has(t)
                   ) {
                     let r = A.disabled.has(t);
                     (e ? A.disabled.add(t) : A.disabled.delete(t),
-                      !!e !== r && w.mount && !w.action && P());
+                      !!e !== r && k.mount && !k.action && I());
                   }
                 },
-                ek = (e, t = {}) => {
-                  let s = h(f, e),
+                ew = (e, t = {}) => {
+                  let s = m(y, e),
                     a =
                       "boolean" == typeof t.disabled ||
                       "boolean" == typeof r.disabled,
                     i = !A.registerName.has(e) && s && !s._f.mount;
                   return (
-                    (v(f, e, {
+                    (h(y, e, {
                       ...(s || {}),
                       _f: {
                         ...(s && s._f ? s._f : { ref: { name: e } }),
@@ -1636,7 +1613,7 @@
                               : r.disabled,
                           name: e,
                         })
-                      : $(e, !0, t.value),
+                      : W(e, !0, t.value),
                     {
                       ...(a ? { disabled: t.disabled || r.disabled } : {}),
                       ...(r.progressive
@@ -1656,11 +1633,11 @@
                         if (a) {
                           let r;
                           (A.registerName.add(e),
-                            ek(e, t),
+                            ew(e, t),
                             A.registerName.delete(e),
-                            (s = h(f, e)));
+                            (s = m(y, e)));
                           let i =
-                              (c(a.value) &&
+                              (f(a.value) &&
                                 a.querySelectorAll &&
                                 a.querySelectorAll(
                                   "input,select,textarea",
@@ -1670,57 +1647,57 @@
                               "radio" === (r = i).type || "checkbox" === r.type,
                             n = s._f.refs || [];
                           (l ? n.find((e) => e === i) : i === s._f.ref) ||
-                            (v(f, e, {
+                            (h(y, e, {
                               _f: {
                                 ...s._f,
                                 ...(l
                                   ? {
                                       refs: [
-                                        ...n.filter(M),
+                                        ...n.filter(L),
                                         i,
-                                        ...(Array.isArray(h(m, e)) ? [{}] : []),
+                                        ...(Array.isArray(m(g, e)) ? [{}] : []),
                                       ],
                                       ref: { type: i.type, name: e },
                                     }
                                   : { ref: i }),
                               },
                             }),
-                            $(e, !1, void 0, i));
+                            W(e, !1, void 0, i));
                         } else
-                          ((s = h(f, e, {}))._f && (s._f.mount = !1),
+                          ((s = m(y, e, {}))._f && (s._f.mount = !1),
                             (r.shouldUnregister || t.shouldUnregister) &&
-                              !(o(A.array, e) && w.action) &&
+                              !(o(A.array, e) && k.action) &&
                               A.unMount.add(e));
                       },
                     }
                   );
                 },
-                ew = () => r.shouldFocusError && et(f, em, A.mount),
+                ek = () => r.shouldFocusError && et(y, em, A.mount),
                 eA = (e, t) => async (a) => {
                   let i;
                   a &&
                     (a.preventDefault && a.preventDefault(),
                     a.persist && a.persist());
-                  let l = d(k);
-                  if ((R.state.next({ isSubmitting: !0 }), r.resolver)) {
-                    let { errors: e, values: t } = await Z();
-                    (q(), (s.errors = e), (l = d(t)));
-                  } else await ei({ fields: f, eventType: b.SUBMIT });
-                  if (A.disabled.size) for (let e of A.disabled) B(l, e);
-                  if ((B(s.errors, F), U(s.errors))) {
-                    R.state.next({ errors: {} });
+                  let l = d(_);
+                  if ((N.state.next({ isSubmitting: !0 }), r.resolver)) {
+                    let { errors: e, values: t } = await z();
+                    ($(), (s.errors = e), (l = d(t)));
+                  } else await ei({ fields: y, eventType: "submit" });
+                  if (A.disabled.size) for (let e of A.disabled) P(l, e);
+                  if ((P(s.errors, w), M(s.errors))) {
+                    N.state.next({ errors: {} });
                     try {
                       await e(l, a);
                     } catch (e) {
                       i = e;
                     }
                   } else
-                    (t && (await t({ ...s.errors }, a)), ew(), setTimeout(ew));
+                    (t && (await t({ ...s.errors }, a)), ek(), setTimeout(ek));
                   if (
-                    (R.state.next({
+                    (N.state.next({
                       isSubmitted: !0,
                       isSubmitting: !1,
-                      isSubmitSuccessful: U(s.errors) && !i,
+                      isSubmitSuccessful: M(s.errors) && !i,
                       submitCount: s.submitCount + 1,
                       errors: s.errors,
                     }),
@@ -1728,30 +1705,30 @@
                   )
                     throw i;
                 },
-                eS = (e, t = {}) => {
-                  let a = e ? d(e) : m,
+                ex = (e, t = {}) => {
+                  let a = e ? d(e) : g,
                     i = d(a),
-                    l = U(e),
-                    n = l ? m : i;
-                  if ((t.keepDefaultValues || (m = a), !t.keepValues)) {
+                    l = M(e),
+                    n = l ? g : i;
+                  if ((t.keepDefaultValues || (g = a), !t.keepValues)) {
                     if (t.keepDirtyValues)
                       for (let e of Array.from(
-                        new Set([...A.mount, ...Object.keys(G(m, k))]),
+                        new Set([...A.mount, ...Object.keys(q(g, _))]),
                       )) {
-                        let t = h(s.dirtyFields, e),
-                          r = h(k, e),
-                          a = h(n, e);
-                        t && !c(r) ? v(n, e, r) : t || c(a) || ec(e, a);
+                        let t = m(s.dirtyFields, e),
+                          r = m(_, e),
+                          a = m(n, e);
+                        t && !f(r) ? h(n, e, r) : t || f(a) || ec(e, a);
                       }
                     else {
-                      if (u && c(e))
+                      if (u && f(e))
                         for (let e of A.mount) {
-                          let t = h(f, e);
+                          let t = m(y, e);
                           if (t && t._f) {
                             let e = Array.isArray(t._f.refs)
                               ? t._f.refs[0]
                               : t._f.ref;
-                            if (L(e)) {
+                            if (U(e)) {
                               let t = e.closest("form");
                               if (t) {
                                 t.reset();
@@ -1761,16 +1738,16 @@
                           }
                         }
                       if (t.keepFieldsRef)
-                        for (let e of A.mount) ec(e, h(n, e));
-                      else f = {};
+                        for (let e of A.mount) ec(e, m(n, e));
+                      else y = {};
                     }
-                    ((k = r.shouldUnregister
+                    ((_ = r.shouldUnregister
                       ? t.keepDefaultValues
-                        ? d(m)
+                        ? d(g)
                         : {}
                       : d(n)),
-                      R.array.next({ values: { ...n } }),
-                      R.state.next({ values: { ...n } }));
+                      N.array.next({ values: { ...n } }),
+                      N.state.next({ values: { ...n } }));
                   }
                   ((A = {
                     mount: t.keepDirtyValues ? A.mount : new Set(),
@@ -1782,31 +1759,31 @@
                     watchAll: !1,
                     focus: "",
                   }),
-                    (w.mount =
+                    (k.mount =
                       !C.isValid ||
                       !!t.keepIsValid ||
                       !!t.keepDirtyValues ||
-                      (!r.shouldUnregister && !U(n))),
-                    (w.watch = !!r.shouldUnregister),
-                    (w.keepIsValid = !!t.keepIsValid),
-                    (w.action = !1),
+                      (!r.shouldUnregister && !M(n))),
+                    (k.watch = !!r.shouldUnregister),
+                    (k.keepIsValid = !!t.keepIsValid),
+                    (k.action = !1),
                     t.keepErrors || (s.errors = {}),
-                    R.state.next({
+                    N.state.next({
                       submitCount: t.keepSubmitCount ? s.submitCount : 0,
                       isDirty:
                         !l &&
                         (t.keepDirty
                           ? s.isDirty
-                          : !!(t.keepDefaultValues && !O(e, m))),
+                          : !!(t.keepDefaultValues && !O(e, g))),
                       isSubmitted: !!t.keepIsSubmitted && s.isSubmitted,
                       dirtyFields: l
                         ? {}
                         : t.keepDirtyValues
-                          ? t.keepDefaultValues && k
-                            ? G(m, k)
+                          ? t.keepDefaultValues && _
+                            ? q(g, _)
                             : s.dirtyFields
                           : t.keepDefaultValues && e
-                            ? G(m, e)
+                            ? q(g, e)
                             : t.keepDirty
                               ? s.dirtyFields
                               : {},
@@ -1815,95 +1792,95 @@
                       isSubmitSuccessful:
                         !!t.keepIsSubmitSuccessful && s.isSubmitSuccessful,
                       isSubmitting: !1,
-                      defaultValues: m,
+                      defaultValues: g,
                     }));
                 },
-                ex = (e, t) => eS(p(e) ? e(k) : e, { ...r.resetOptions, ...t }),
+                eS = (e, t) => ex(p(e) ? e(_) : e, { ...r.resetOptions, ...t }),
                 eD = (e) => {
                   s = { ...s, ...e };
                 },
                 eE = {
                   control: {
-                    register: ek,
+                    register: ew,
                     unregister: eV,
                     getFieldState: ev,
                     handleSubmit: eA,
                     setError: eg,
                     _subscribe: e_,
-                    _runSchema: Z,
-                    _updateIsValidating: q,
-                    _focusError: ew,
+                    _runSchema: z,
+                    _updateIsValidating: $,
+                    _focusError: ek,
                     _getWatch: eu,
                     _getDirty: eo,
-                    _setValid: P,
+                    _setValid: I,
                     _setFieldArray: (e, t = [], a, i, l = !0, n = !0) => {
                       if (i && a && !r.disabled) {
-                        if (((w.action = !0), n && Array.isArray(h(f, e)))) {
-                          let t = a(h(f, e), i.argA, i.argB);
-                          l && v(f, e, t);
+                        if (((k.action = !0), n && Array.isArray(m(y, e)))) {
+                          let t = a(m(y, e), i.argA, i.argB);
+                          l && h(y, e, t);
                         }
-                        if (n && Array.isArray(h(s.errors, e))) {
+                        if (n && Array.isArray(m(s.errors, e))) {
                           let t,
-                            r = a(h(s.errors, e), i.argA, i.argB);
-                          (l && v(s.errors, e, r),
-                            y(h((t = s.errors), e)).length || B(t, e));
+                            r = a(m(s.errors, e), i.argA, i.argB);
+                          (l && h(s.errors, e, r),
+                            c(m((t = s.errors), e)).length || P(t, e));
                         }
                         if (
-                          (C.touchedFields || N.touchedFields) &&
+                          (C.touchedFields || j.touchedFields) &&
                           n &&
-                          Array.isArray(h(s.touchedFields, e))
+                          Array.isArray(m(s.touchedFields, e))
                         ) {
-                          let t = a(h(s.touchedFields, e), i.argA, i.argB);
-                          l && v(s.touchedFields, e, t);
+                          let t = a(m(s.touchedFields, e), i.argA, i.argB);
+                          l && h(s.touchedFields, e, t);
                         }
-                        ((C.dirtyFields || N.dirtyFields) && H(e),
-                          R.state.next({
+                        ((C.dirtyFields || j.dirtyFields) && H(e),
+                          N.state.next({
                             name: e,
                             isDirty: eo(e, t),
                             dirtyFields: s.dirtyFields,
                             errors: s.errors,
                             isValid: s.isValid,
                           }));
-                      } else v(k, e, t);
+                      } else h(_, e, t);
                     },
                     _setDisabledField: eF,
                     _setErrors: (e) => {
                       ((s.errors = e),
-                        R.state.next({ errors: s.errors, isValid: !1 }));
+                        N.state.next({ errors: s.errors, isValid: !1 }));
                     },
                     _getFieldArray: (e) =>
-                      y(
-                        h(
-                          w.mount ? k : m,
+                      c(
+                        m(
+                          k.mount ? _ : g,
                           e,
-                          r.shouldUnregister ? h(m, e, []) : [],
+                          r.shouldUnregister ? m(g, e, []) : [],
                         ),
                       ),
-                    _reset: eS,
+                    _reset: ex,
                     _resetDefaultValues: () =>
                       p(r.defaultValues) &&
                       r.defaultValues().then((e) => {
-                        (ex(e, r.resetOptions),
-                          R.state.next({ isLoading: !1 }));
+                        (eS(e, r.resetOptions),
+                          N.state.next({ isLoading: !1 }));
                       }),
                     _removeUnmounted: () => {
                       for (let e of A.unMount) {
-                        let t = h(f, e);
+                        let t = m(y, e);
                         t &&
                           (t._f.refs
-                            ? t._f.refs.every((e) => !M(e))
-                            : !M(t._f.ref)) &&
+                            ? t._f.refs.every((e) => !L(e))
+                            : !L(t._f.ref)) &&
                           eV(e);
                       }
                       A.unMount = new Set();
                     },
                     _disableForm: (e) => {
                       "boolean" == typeof e &&
-                        (R.state.next({ disabled: e }),
+                        (N.state.next({ disabled: e }),
                         et(
-                          f,
+                          y,
                           (t, r) => {
-                            let s = h(f, r);
+                            let s = m(y, r);
                             s &&
                               ((t.disabled = s._f.disabled || e),
                               Array.isArray(s._f.refs) &&
@@ -1915,28 +1892,28 @@
                           !1,
                         ));
                     },
-                    _subjects: R,
+                    _subjects: N,
                     _proxyFormState: C,
                     get _fields() {
-                      return f;
+                      return y;
                     },
                     get _formValues() {
-                      return k;
+                      return _;
                     },
                     get _state() {
-                      return w;
+                      return k;
                     },
-                    set _state(value) {
-                      w = value;
+                    set _state(e) {
+                      k = e;
                     },
                     get _defaultValues() {
-                      return m;
+                      return g;
                     },
                     get _names() {
                       return A;
                     },
-                    set _names(value) {
-                      A = value;
+                    set _names(e) {
+                      A = e;
                     },
                     get _formState() {
                       return s;
@@ -1944,46 +1921,46 @@
                     get _options() {
                       return r;
                     },
-                    set _options(value) {
-                      r = { ...r, ...value };
+                    set _options(e) {
+                      r = { ...r, ...e };
                     },
                   },
                   subscribe: (e) => (
-                    (w.mount = !0),
-                    (N = { ...N, ...e.formState }),
+                    (k.mount = !0),
+                    (j = { ...j, ...e.formState }),
                     e_({ ...e, formState: { ...E, ...e.formState } })
                   ),
-                  trigger: eh,
-                  register: ek,
+                  trigger: ep,
+                  register: ew,
                   handleSubmit: eA,
                   watch: (e, t) =>
                     p(e)
-                      ? R.state.subscribe({
+                      ? N.state.subscribe({
                           next: (r) => "values" in r && e(eu(void 0, t), r),
                         })
                       : eu(e, t, !0),
                   setValue: ec,
-                  getValues: ep,
-                  reset: ex,
+                  getValues: eh,
+                  reset: eS,
                   resetField: (e, t = {}) => {
-                    h(f, e) &&
-                      (c(t.defaultValue)
-                        ? ec(e, d(h(m, e)))
-                        : (ec(e, t.defaultValue), v(m, e, d(t.defaultValue))),
-                      t.keepTouched || B(s.touchedFields, e),
+                    m(y, e) &&
+                      (f(t.defaultValue)
+                        ? ec(e, d(m(g, e)))
+                        : (ec(e, t.defaultValue), h(g, e, d(t.defaultValue))),
+                      t.keepTouched || P(s.touchedFields, e),
                       t.keepDirty ||
-                        (B(s.dirtyFields, e),
+                        (P(s.dirtyFields, e),
                         (s.isDirty = t.defaultValue
-                          ? eo(e, d(h(m, e)))
+                          ? eo(e, d(m(g, e)))
                           : eo())),
-                      !t.keepError && (B(s.errors, e), C.isValid && P()),
-                      R.state.next({ ...s }));
+                      !t.keepError && (P(s.errors, e), C.isValid && I()),
+                      N.state.next({ ...s }));
                   },
                   clearErrors: eb,
                   unregister: eV,
                   setError: eg,
                   setFocus: (e, t = {}) => {
-                    let r = h(f, e),
+                    let r = m(y, e),
                       s = r && r._f;
                     if (s) {
                       let e = s.refs ? s.refs[0] : s.ref;
@@ -1998,64 +1975,64 @@
                 };
               return { ...eE, formControl: eE };
             })(e);
-            t.current = { ...s, formState: f };
+            t.current = { ...s, formState: y };
           }
-        let k = t.current.control;
+        let _ = t.current.control;
         return (
-          (k._options = e),
-          S(() => {
-            let e = k._subscribe({
-              formState: k._proxyFormState,
-              callback: () => m({ ...k._formState }),
+          (_._options = e),
+          x(() => {
+            let e = _._subscribe({
+              formState: _._proxyFormState,
+              callback: () => g({ ..._._formState }),
               reRenderRoot: !0,
             });
             return (
-              m((e) => ({ ...e, isReady: !0 })),
-              (k._formState.isReady = !0),
+              g((e) => ({ ...e, isReady: !0 })),
+              (_._formState.isReady = !0),
               e
             );
-          }, [k]),
-          s.useEffect(() => k._disableForm(e.disabled), [k, e.disabled]),
+          }, [_]),
+          s.useEffect(() => _._disableForm(e.disabled), [_, e.disabled]),
           s.useEffect(() => {
-            (e.mode && (k._options.mode = e.mode),
+            (e.mode && (_._options.mode = e.mode),
               e.reValidateMode &&
-                (k._options.reValidateMode = e.reValidateMode));
-          }, [k, e.mode, e.reValidateMode]),
+                (_._options.reValidateMode = e.reValidateMode));
+          }, [_, e.mode, e.reValidateMode]),
           s.useEffect(() => {
-            e.errors && (k._setErrors(e.errors), k._focusError());
-          }, [k, e.errors]),
+            e.errors && (_._setErrors(e.errors), _._focusError());
+          }, [_, e.errors]),
           s.useEffect(() => {
             e.shouldUnregister &&
-              k._subjects.state.next({ values: k._getWatch() });
-          }, [k, e.shouldUnregister]),
+              _._subjects.state.next({ values: _._getWatch() });
+          }, [_, e.shouldUnregister]),
           s.useEffect(() => {
-            if (k._proxyFormState.isDirty) {
-              let e = k._getDirty();
-              e !== f.isDirty && k._subjects.state.next({ isDirty: e });
+            if (_._proxyFormState.isDirty) {
+              let e = _._getDirty();
+              e !== y.isDirty && _._subjects.state.next({ isDirty: e });
             }
-          }, [k, f.isDirty]),
+          }, [_, y.isDirty]),
           s.useEffect(() => {
             var t;
             e.values && !O(e.values, r.current)
-              ? (k._reset(e.values, {
+              ? (_._reset(e.values, {
                   keepFieldsRef: !0,
-                  ...k._options.resetOptions,
+                  ..._._options.resetOptions,
                 }),
-                (null == (t = k._options.resetOptions)
+                (null == (t = _._options.resetOptions)
                   ? void 0
-                  : t.keepIsValid) || k._setValid(),
+                  : t.keepIsValid) || _._setValid(),
                 (r.current = e.values),
-                m((e) => ({ ...e })))
-              : k._resetDefaultValues();
-          }, [k, e.values]),
+                g((e) => ({ ...e })))
+              : _._resetDefaultValues();
+          }, [_, e.values]),
           s.useEffect(() => {
-            (k._state.mount || (k._setValid(), (k._state.mount = !0)),
-              k._state.watch &&
-                ((k._state.watch = !1),
-                k._subjects.state.next({ ...k._formState })),
-              k._removeUnmounted());
+            (_._state.mount || (_._setValid(), (_._state.mount = !0)),
+              _._state.watch &&
+                ((_._state.watch = !1),
+                _._subjects.state.next({ ..._._formState })),
+              _._removeUnmounted());
           }),
-          (t.current.formState = s.useMemo(() => A(f, k), [k, f])),
+          (t.current.formState = s.useMemo(() => A(y, _), [_, y])),
           t.current
         );
       }

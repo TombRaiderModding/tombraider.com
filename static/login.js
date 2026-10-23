@@ -1,458 +1,38 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [8295],
   {
-    32802: (e, r, a) => {
-      (window.__NEXT_P = window.__NEXT_P || []).push([
-        "/login",
-        function () {
-          return a(85263);
-        },
-      ]);
-    },
-    75460: (e, r, a) => {
-      "use strict";
-      a.a(e, async (e, o) => {
-        try {
-          a.d(r, { A: () => v });
-          var l = a(2183),
-            s = a(36439),
-            t = a(80777),
-            n = a(73357),
-            i = a(39334),
-            c = a(99435),
-            d = a(55109),
-            u = a(75109),
-            g = a(95344),
-            m = a(92092),
-            h = a(18652),
-            f = a(45593),
-            w = a(57524),
-            p = e([i, c, d, u]);
-          [i, c, d, u] = p.then ? (await p)() : p;
-          let x =
-              "We couldn't find an account for that email. Please sign up first.",
-            v = (e) => {
-              var r, a;
-              let { websiteSingleton: o, navItems: p, registrationPage: v } = e,
-                {
-                  handleSubmit: y,
-                  control: b,
-                  setError: j,
-                  clearErrors: k,
-                  formState: { errors: C },
-                } = (0, t.mN)({
-                  resolver: (0, n.u)(u.NXz),
-                  defaultValues: { email: "", password: "" },
-                }),
-                {
-                  setUserData: N,
-                  fetchUserInfo: _,
-                  requiresIdentitySetup: P,
-                } = (0, c.u)(),
-                S = (0, h.useRouter)(),
-                [F, E] = (0, s.useState)(!1),
-                [R, A] = (0, s.useState)(!1),
-                [G, L] = (0, s.useState)(!1),
-                [I, T] = (0, s.useState)(!1),
-                [M, V] = (0, s.useState)(!1),
-                H = ((r = "1881486789441765"), void 0 !== r) ? r : "",
-                z = ((a =
-                  "913283481016-rge7l6npr5tpnce5gd5fb28kmf2v33tu.apps.googleusercontent.com"),
-                void 0 !== a)
-                  ? a
-                  : "",
-                B = (0, s.useRef)(null),
-                J = (0, s.useRef)(null),
-                O = (0, s.useRef)(!1),
-                U = (0, s.useRef)(null),
-                W = (0, s.useRef)(!1),
-                X = (0, s.useRef)(null),
-                Z = (0, s.useCallback)(() => {
-                  U.current &&
-                    (window.removeEventListener("focus", U.current),
-                    (U.current = null));
-                }, []),
-                q = (0, s.useCallback)(() => {
-                  Z();
-                  let e = () => {
-                    O.current &&
-                      ((O.current = !1),
-                      T(!1),
-                      j("root", {
-                        message:
-                          "Google login was cancelled. Please try again.",
-                      }));
-                  };
-                  ((U.current = e),
-                    window.addEventListener("focus", e, { once: !0 }));
-                }, [Z, j]),
-                D = (0, s.useCallback)(() => {
-                  X.current &&
-                    (window.removeEventListener("focus", X.current),
-                    (X.current = null));
-                }, []),
-                K = (0, s.useCallback)(() => {
-                  D();
-                  let e = () => {
-                    W.current &&
-                      ((W.current = !1),
-                      A(!1),
-                      j("root", {
-                        message:
-                          "Facebook login was cancelled. Please try again.",
-                      }));
-                  };
-                  ((X.current = e),
-                    window.addEventListener("focus", e, { once: !0 }));
-                }, [D, j]),
-                Q = async (e) => {
-                  E(!0);
-                  try {
-                    let o = await d.Jv(e);
-                    if (o.data) {
-                      var r, a;
-                      let e = await d.Gf();
-                      (N(e.data || null),
-                        (0, g.sendGTMEvent)({
-                          event: "login",
-                          value:
-                            null == (a = e.data) || null == (r = a.accountInfo)
-                              ? void 0
-                              : r.playFabId,
-                        }),
-                        await _());
-                    } else if (o.error)
-                      switch (o.error.error) {
-                        case "InvalidEmailOrPassword":
-                          (j("email", { message: " " }),
-                            j("password", { message: " " }),
-                            j("root", { message: o.error.errorMessage }));
-                          break;
-                        case "AccountNotFound":
-                          (j("email", { message: x }),
-                            j("root", { message: x }));
-                          break;
-                        default:
-                          j("root", { message: o.error.errorMessage });
-                      }
-                  } catch (e) {
-                    j("root", { message: "An unknown error has occured." });
-                  }
-                  E(!1);
-                },
-                Y = (0, s.useCallback)(
-                  async (e) => {
-                    if (((O.current = !1), Z(), e.error || !e.code)) {
-                      (T(!1),
-                        j("root", {
-                          message:
-                            e.error_description ||
-                            e.error ||
-                            "Google login was cancelled. Please try again.",
-                        }));
-                      return;
-                    }
-                    try {
-                      var r, a, o, l;
-                      let s = await d.Fd({ ServerAuthCode: e.code });
-                      if (s.data) {
-                        let e = await d.Gf();
-                        (N(e.data || null),
-                          (0, g.sendGTMEvent)({
-                            event: "login",
-                            value:
-                              null == (l = e.data) ||
-                              null == (o = l.accountInfo)
-                                ? void 0
-                                : o.playFabId,
-                          }),
-                          await _(),
-                          T(!1));
-                        return;
-                      }
-                      if (
-                        (null == (r = s.error) ? void 0 : r.error) ===
-                        "AccountNotFound"
-                      ) {
-                        (j("root", { message: x }), T(!1));
-                        return;
-                      }
-                      let t =
-                        (null == (a = s.error) ? void 0 : a.errorMessage) ||
-                        "Unable to log in with Google. Please try again.";
-                      j("root", { message: t });
-                    } catch (e) {
-                      (console.error(e),
-                        j("root", {
-                          message: "Google login failed. Please try again.",
-                        }));
-                    }
-                    T(!1);
-                  },
-                  [_, j, N],
-                ),
-                $ = (0, s.useCallback)(
-                  async (e) => {
-                    var r, a, o, l, s;
-                    if (
-                      ((W.current = !1),
-                      D(),
-                      !(null == (r = e.authResponse) ? void 0 : r.accessToken))
-                    ) {
-                      (A(!1),
-                        j("root", {
-                          message:
-                            "Facebook login was cancelled. Please try again.",
-                        }));
-                      return;
-                    }
-                    let t = e.authResponse.accessToken;
-                    try {
-                      let e = await d.zo({ AccessToken: t });
-                      if (e.data) {
-                        let e = await d.Gf();
-                        (N(e.data || null),
-                          (0, g.sendGTMEvent)({
-                            event: "login",
-                            value:
-                              null == (s = e.data) ||
-                              null == (l = s.accountInfo)
-                                ? void 0
-                                : l.playFabId,
-                          }),
-                          await _(),
-                          A(!1));
-                        return;
-                      }
-                      if (
-                        (null == (a = e.error) ? void 0 : a.error) ===
-                        "AccountNotFound"
-                      ) {
-                        (j("root", { message: x }), A(!1));
-                        return;
-                      }
-                      let r =
-                        (null == (o = e.error) ? void 0 : o.errorMessage) ||
-                        "Unable to log in with Facebook. Please try again.";
-                      j("root", { message: r });
-                    } catch (e) {
-                      (console.error(e),
-                        j("root", {
-                          message: "Facebook login failed. Please try again.",
-                        }));
-                    }
-                    A(!1);
-                  },
-                  [D, _, j, N],
-                );
-              (0, s.useEffect)(() => {
-                if (!H) return void L(!1);
-                let e = !1;
-                return (
-                  (0, f.FJ)(H)
-                    .then((r) => {
-                      r && !e && L(!0);
-                    })
-                    .catch((r) => {
-                      e || (console.error(r), L(!1));
-                    }),
-                  () => {
-                    e = !0;
-                  }
-                );
-              }, [H]);
-              let ee = (0, s.useCallback)(() => {
-                if (!z) return void V(!1);
-                let e = !1;
-                return (
-                  (0, w.S_)()
-                    .then((r) => {
-                      r &&
-                        !e &&
-                        ((B.current = r),
-                        (J.current = (0, w.gS)(r, {
-                          client_id: z,
-                          scope: "openid email profile",
-                          ux_mode: "popup",
-                          callback: (e) => {
-                            Y(e);
-                          },
-                        })),
-                        V(!0));
-                    })
-                    .catch((r) => {
-                      e || (console.error(r), V(!1));
-                    }),
-                  () => {
-                    e = !0;
-                  }
-                );
-              }, [z, Y]);
-              return (
-                (0, s.useEffect)(() => ee(), [ee]),
-                (0, s.useEffect)(() => {
-                  P &&
-                    S.replace({
-                      pathname: "/registration",
-                      query: { resume: "identity" },
-                    });
-                }, [P, S]),
-                (0, s.useEffect)(
-                  () => () => {
-                    (Z(), D());
-                  },
-                  [D, Z],
-                ),
-                (0, l.jsx)(i.A, {
-                  navItems: p,
-                  children: (0, l.jsx)("form", {
-                    className: "account_form",
-                    onSubmit: y(Q),
-                    autoComplete: "on",
-                    children: (0, l.jsx)(m.y, {
-                      onGoogleLogin: () => {
-                        if ((k(), !z))
-                          return void j("root", {
-                            message:
-                              "Google login is unavailable. Please try again later or use your email and password.",
-                          });
-                        let e = J.current;
-                        if (!e)
-                          return void j("root", {
-                            message:
-                              "Google login is still initializing. Please try again in a moment.",
-                          });
-                        (T(!0), (O.current = !0), q(), (e.callback = Y));
-                        try {
-                          (0, w.mU)(e);
-                        } catch (e) {
-                          (console.error(e),
-                            (O.current = !1),
-                            Z(),
-                            T(!1),
-                            j("root", {
-                              message: "Google login failed. Please try again.",
-                            }));
-                        }
-                      },
-                      onFacebookLogin: () => {
-                        if (!H)
-                          return void j("root", {
-                            message:
-                              "Facebook login is unavailable. Please try again later or use your email and password.",
-                          });
-                        if (!window.FB)
-                          return void j("root", {
-                            message:
-                              "Facebook login is still initializing. Please try again in a moment.",
-                          });
-                        (k(), A(!0));
-                        let e = (e) => {
-                          if (
-                            (null == e ? void 0 : e.status) === "connected" &&
-                            e.authResponse
-                          )
-                            return void $({
-                              authResponse: {
-                                accessToken: e.authResponse.accessToken,
-                              },
-                            }).catch((e) => {
-                              (console.error(e),
-                                j("root", {
-                                  message:
-                                    "Facebook login failed. Please try again.",
-                                }),
-                                A(!1));
-                            });
-                          try {
-                            var r;
-                            ((W.current = !0),
-                              K(),
-                              null == (r = window.FB) ||
-                                r.login(
-                                  (e) => {
-                                    ((W.current = !1),
-                                      D(),
-                                      $(e).catch((e) => {
-                                        (console.error(e),
-                                          j("root", {
-                                            message:
-                                              "Facebook login failed. Please try again.",
-                                          }),
-                                          A(!1));
-                                      }));
-                                  },
-                                  { scope: "email", return_scopes: !0 },
-                                ));
-                          } catch (e) {
-                            (console.error(e),
-                              (W.current = !1),
-                              D(),
-                              A(!1),
-                              j("root", {
-                                message:
-                                  "Facebook login failed. Please try again.",
-                              }));
-                          }
-                        };
-                        (0, f.u7)()
-                          .then((r) => {
-                            e(r);
-                          })
-                          .catch((r) => {
-                            (console.error(r), e());
-                          });
-                      },
-                      control: b,
-                      errors: C,
-                      loginLoading: F,
-                      facebookLoginLoading: R,
-                      facebookSdkReady: G,
-                      googleLoginLoading: I,
-                      googleSdkReady: M,
-                      raiderFeatureSlides: v.raiderFeatureSlides
-                        .filter((e) => void 0 !== e)
-                        .map((e) => e.fields),
-                    }),
-                  }),
-                })
-              );
-            };
-          o();
-        } catch (e) {
-          o(e);
-        }
-      });
-    },
-    85263: (e, r, a) => {
+    16219: (e, r, a) => {
       "use strict";
       a.a(e, async (e, o) => {
         try {
           (a.r(r), a.d(r, { __N_SSG: () => c, default: () => d }));
-          var l = a(2183),
-            s = a(75460),
-            t = a(91134),
-            n = a(12268),
-            i = e([s, n]);
-          [s, n] = i.then ? (await i)() : i;
+          var s = a(2183),
+            t = a(32712),
+            l = a(74474),
+            n = a(87200),
+            i = e([t, n]);
+          [t, n] = i.then ? (await i)() : i;
           var c = !0;
-          function d(e) {
-            let { websiteSingleton: r, navItems: a, registrationPage: o } = e;
-            return (0, l.jsxs)(l.Fragment, {
+          function d({
+            websiteSingleton: e,
+            navItems: r,
+            registrationPage: a,
+          }) {
+            return (0, s.jsxs)(s.Fragment, {
               children: [
-                (0, l.jsx)(t.A, {
+                (0, s.jsx)(l.A, {
                   description:
                     "Log in to your Tomb Raider account to access exclusive rewards, monthly newsletters, and all your Society of Raiders member benefits from Crystal Dynamics.",
                 }),
-                (0, l.jsx)("h1", {
+                (0, s.jsx)("h1", {
                   className: "hidden",
                   children: "Tomb Raider - Login",
                 }),
-                (0, l.jsx)(n.A, {
-                  children: (0, l.jsx)(s.A, {
-                    websiteSingleton: r,
-                    navItems: a,
-                    registrationPage: o,
+                (0, s.jsx)(n.A, {
+                  children: (0, s.jsx)(t.A, {
+                    websiteSingleton: e,
+                    navItems: r,
+                    registrationPage: a,
                   }),
                 }),
               ],
@@ -464,35 +44,33 @@
         }
       });
     },
-    92092: (e, r, a) => {
+    2e4: (e, r, a) => {
       "use strict";
       a.d(r, { y: () => g });
       var o = a(2183),
-        l = a(36439),
-        s = a(75309),
-        t = a(88256),
-        n = a(40502),
+        s = a(36439),
+        t = a(13297),
+        l = a(17268),
+        n = a(25514),
         i = a(80777),
-        c = a(43042),
-        d = a(26974),
-        u = a(67895);
-      function g(e) {
-        var r, a;
-        let {
-            raiderFeatureSlides: g,
-            onGoogleLogin: m,
-            onFacebookLogin: h,
-            control: f,
-            errors: w,
-            loginLoading: p,
-            facebookLoginLoading: x,
-            facebookSdkReady: v,
-            googleLoginLoading: y,
-            googleSdkReady: b,
-          } = e,
-          [j, k] = (0, l.useState)(0),
-          [C, N] = (0, l.useState)(null),
-          [_, P] = (0, l.useState)(null);
+        c = a(72990),
+        d = a(97698),
+        u = a(27811);
+      function g({
+        raiderFeatureSlides: e,
+        onGoogleLogin: r,
+        onFacebookLogin: a,
+        control: m,
+        errors: h,
+        loginLoading: f,
+        facebookLoginLoading: w,
+        facebookSdkReady: p,
+        googleLoginLoading: x,
+        googleSdkReady: y,
+      }) {
+        let [b, v] = (0, s.useState)(0),
+          [j, k] = (0, s.useState)(null),
+          [C, N] = (0, s.useState)(null);
         return (0, o.jsxs)("div", {
           className:
             "flex w-full flex-col gap-8 lg:flex-row lg:items-center lg:gap-24 xl:gap-32",
@@ -508,16 +86,16 @@
                     playAnimation: !0,
                   }),
                 }),
-                (0, o.jsx)(s.J, {
-                  features: g,
-                  currentIndex: j,
-                  onSwiper: N,
+                (0, o.jsx)(t.J, {
+                  features: e,
+                  currentIndex: b,
+                  onSwiper: k,
                   onSlideChange: (e) => {
-                    k(e.realIndex);
+                    v(e.realIndex);
                   },
-                  controlledSwiper: _,
+                  controlledSwiper: C,
                   onSlideClick: (e) => {
-                    (null == C || C.slideTo(e), null == _ || _.slideTo(e));
+                    (j?.slideTo(e), C?.slideTo(e));
                   },
                 }),
               ],
@@ -526,58 +104,52 @@
               className:
                 "mx-auto flex w-full max-w-md flex-1 flex-col justify-center gap-10",
               children: [
-                (0, o.jsx)(t.G, {
-                  features: g,
-                  onSwiper: P,
-                  controlledSwiper: C,
+                (0, o.jsx)(l.G, {
+                  features: e,
+                  onSwiper: N,
+                  controlledSwiper: j,
                 }),
                 (0, o.jsxs)("div", {
                   className: "flex flex-col gap-2",
                   children: [
                     (0, o.jsx)(i.xI, {
                       name: "email",
-                      control: f,
-                      render: (e) => {
-                        let { field: r } = e;
-                        return (0, o.jsx)(n.A, {
+                      control: m,
+                      render: ({ field: e }) =>
+                        (0, o.jsx)(n.A, {
                           label: "Email",
                           placeholder: "Email",
                           type: "email",
                           autoComplete: "email",
-                          error: w.email,
-                          ...r,
-                        });
-                      },
+                          error: h.email,
+                          ...e,
+                        }),
                     }),
                     (0, o.jsx)(i.xI, {
                       name: "password",
-                      control: f,
-                      render: (e) => {
-                        let { field: r } = e;
-                        return (0, o.jsx)(n.A, {
+                      control: m,
+                      render: ({ field: e }) =>
+                        (0, o.jsx)(n.A, {
                           label: "Password",
                           placeholder: "Password",
                           type: "password",
                           autoComplete: "current-password",
-                          error: w.password,
-                          ...r,
-                        });
-                      },
+                          error: h.password,
+                          ...e,
+                        }),
                     }),
-                    (null == (r = w.root) ? void 0 : r.message) &&
+                    h.root?.message &&
                       (0, o.jsx)("div", {
                         className: "text-red-error",
-                        children: (0, o.jsx)(u.A, {
-                          error: null == (a = w.root) ? void 0 : a.message,
-                        }),
+                        children: (0, o.jsx)(u.A, { error: h.root?.message }),
                       }),
                     (0, o.jsxs)("button", {
                       type: "submit",
-                      disabled: p,
+                      disabled: f,
                       className:
                         "mt-2 flex items-center justify-center gap-2 rounded-lg border border-yellow-500 bg-yellow-500 py-2 text-black hover:bg-yellow-300 disabled:cursor-not-allowed disabled:opacity-50",
                       children: [
-                        p &&
+                        f &&
                           (0, o.jsxs)("svg", {
                             className: "h-5 w-5 animate-spin",
                             xmlns: "http://www.w3.org/2000/svg",
@@ -599,7 +171,7 @@
                               }),
                             ],
                           }),
-                        p ? "Logging in..." : "Log In",
+                        f ? "Logging in..." : "Log In",
                       ],
                     }),
                     (0, o.jsx)("a", {
@@ -627,13 +199,13 @@
                       className: "flex gap-3",
                       children: [
                         (0, o.jsxs)("button", {
-                          onClick: m,
+                          onClick: r,
                           type: "button",
-                          disabled: !b || y,
+                          disabled: !y || x,
                           className:
                             "flex flex-1 justify-center rounded-lg border border-gray-600 p-2 hover:border-yellow-300 disabled:cursor-not-allowed disabled:opacity-50",
                           children: [
-                            y
+                            x
                               ? (0, o.jsx)(d.A, {})
                               : (0, o.jsxs)("svg", {
                                   xmlns: "http://www.w3.org/2000/svg",
@@ -669,13 +241,13 @@
                           ],
                         }),
                         (0, o.jsxs)("button", {
-                          onClick: h,
+                          onClick: a,
                           type: "button",
-                          disabled: !v || x,
+                          disabled: !p || w,
                           className:
                             "hidden flex-1 justify-center rounded-lg border border-gray-600 p-2 hover:border-yellow-300 disabled:cursor-not-allowed disabled:opacity-50",
                           children: [
-                            x
+                            w
                               ? (0, o.jsxs)("svg", {
                                   className: "h-5 w-5 animate-spin text-white",
                                   xmlns: "http://www.w3.org/2000/svg",
@@ -742,12 +314,401 @@
         });
       }
     },
+    32712: (e, r, a) => {
+      "use strict";
+      a.a(e, async (e, o) => {
+        try {
+          a.d(r, { A: () => y });
+          var s = a(2183),
+            t = a(36439),
+            l = a(80777),
+            n = a(73357),
+            i = a(18074),
+            c = a(9751),
+            d = a(83737),
+            u = a(75109),
+            g = a(26330),
+            m = a(2e4),
+            h = a(31153),
+            f = a(87053),
+            w = a(16456),
+            p = e([i, c, d, u]);
+          [i, c, d, u] = p.then ? (await p)() : p;
+          let x =
+              "We couldn't find an account for that email. Please sign up first.",
+            y = ({ websiteSingleton: e, navItems: r, registrationPage: a }) => {
+              let {
+                  handleSubmit: o,
+                  control: p,
+                  setError: y,
+                  clearErrors: b,
+                  formState: { errors: v },
+                } = (0, l.mN)({
+                  resolver: (0, n.u)(u.NXz),
+                  defaultValues: { email: "", password: "" },
+                }),
+                {
+                  setUserData: j,
+                  fetchUserInfo: k,
+                  requiresIdentitySetup: C,
+                } = (0, c.u)(),
+                N = (0, h.useRouter)(),
+                [_, P] = (0, t.useState)(!1),
+                [S, F] = (0, t.useState)(!1),
+                [E, R] = (0, t.useState)(!1),
+                [A, G] = (0, t.useState)(!1),
+                [L, I] = (0, t.useState)(!1),
+                T = "1881486789441765",
+                M =
+                  "913283481016-rge7l6npr5tpnce5gd5fb28kmf2v33tu.apps.googleusercontent.com",
+                V = (0, t.useRef)(null),
+                H = (0, t.useRef)(null),
+                z = (0, t.useRef)(!1),
+                B = (0, t.useRef)(null),
+                J = (0, t.useRef)(!1),
+                O = (0, t.useRef)(null),
+                U = (0, t.useCallback)(() => {
+                  B.current &&
+                    (window.removeEventListener("focus", B.current),
+                    (B.current = null));
+                }, []),
+                W = (0, t.useCallback)(() => {
+                  U();
+                  let e = () => {
+                    z.current &&
+                      ((z.current = !1),
+                      G(!1),
+                      y("root", {
+                        message:
+                          "Google login was cancelled. Please try again.",
+                      }));
+                  };
+                  ((B.current = e),
+                    window.addEventListener("focus", e, { once: !0 }));
+                }, [U, y]),
+                X = (0, t.useCallback)(() => {
+                  O.current &&
+                    (window.removeEventListener("focus", O.current),
+                    (O.current = null));
+                }, []),
+                Z = (0, t.useCallback)(() => {
+                  X();
+                  let e = () => {
+                    J.current &&
+                      ((J.current = !1),
+                      F(!1),
+                      y("root", {
+                        message:
+                          "Facebook login was cancelled. Please try again.",
+                      }));
+                  };
+                  ((O.current = e),
+                    window.addEventListener("focus", e, { once: !0 }));
+                }, [X, y]),
+                q = async (e) => {
+                  P(!0);
+                  try {
+                    let r = await d.Jv(e);
+                    if (r.data) {
+                      let e = await d.Gf();
+                      (j(e.data || null),
+                        (0, g.sendGTMEvent)({
+                          event: "login",
+                          value: e.data?.accountInfo?.playFabId,
+                        }),
+                        await k());
+                    } else if (r.error)
+                      switch (r.error.error) {
+                        case "InvalidEmailOrPassword":
+                          (y("email", { message: " " }),
+                            y("password", { message: " " }),
+                            y("root", { message: r.error.errorMessage }));
+                          break;
+                        case "AccountNotFound":
+                          (y("email", { message: x }),
+                            y("root", { message: x }));
+                          break;
+                        default:
+                          y("root", { message: r.error.errorMessage });
+                      }
+                  } catch {
+                    y("root", { message: "An unknown error has occured." });
+                  }
+                  P(!1);
+                },
+                D = (0, t.useCallback)(
+                  async (e) => {
+                    if (((z.current = !1), U(), e.error || !e.code)) {
+                      (G(!1),
+                        y("root", {
+                          message:
+                            e.error_description ||
+                            e.error ||
+                            "Google login was cancelled. Please try again.",
+                        }));
+                      return;
+                    }
+                    try {
+                      let r = await d.Fd({ ServerAuthCode: e.code });
+                      if (r.data) {
+                        let e = await d.Gf();
+                        (j(e.data || null),
+                          (0, g.sendGTMEvent)({
+                            event: "login",
+                            value: e.data?.accountInfo?.playFabId,
+                          }),
+                          await k(),
+                          G(!1));
+                        return;
+                      }
+                      if (r.error?.error === "AccountNotFound") {
+                        (y("root", { message: x }), G(!1));
+                        return;
+                      }
+                      let a =
+                        r.error?.errorMessage ||
+                        "Unable to log in with Google. Please try again.";
+                      y("root", { message: a });
+                    } catch (e) {
+                      (console.error(e),
+                        y("root", {
+                          message: "Google login failed. Please try again.",
+                        }));
+                    }
+                    G(!1);
+                  },
+                  [k, y, j],
+                ),
+                K = (0, t.useCallback)(
+                  async (e) => {
+                    if (((J.current = !1), X(), !e.authResponse?.accessToken)) {
+                      (F(!1),
+                        y("root", {
+                          message:
+                            "Facebook login was cancelled. Please try again.",
+                        }));
+                      return;
+                    }
+                    let r = e.authResponse.accessToken;
+                    try {
+                      let e = await d.zo({ AccessToken: r });
+                      if (e.data) {
+                        let e = await d.Gf();
+                        (j(e.data || null),
+                          (0, g.sendGTMEvent)({
+                            event: "login",
+                            value: e.data?.accountInfo?.playFabId,
+                          }),
+                          await k(),
+                          F(!1));
+                        return;
+                      }
+                      if (e.error?.error === "AccountNotFound") {
+                        (y("root", { message: x }), F(!1));
+                        return;
+                      }
+                      let a =
+                        e.error?.errorMessage ||
+                        "Unable to log in with Facebook. Please try again.";
+                      y("root", { message: a });
+                    } catch (e) {
+                      (console.error(e),
+                        y("root", {
+                          message: "Facebook login failed. Please try again.",
+                        }));
+                    }
+                    F(!1);
+                  },
+                  [X, k, y, j],
+                );
+              (0, t.useEffect)(() => {
+                if (!T) return void R(!1);
+                let e = !1;
+                return (
+                  (0, f.FJ)(T)
+                    .then((r) => {
+                      r && !e && R(!0);
+                    })
+                    .catch((r) => {
+                      e || (console.error(r), R(!1));
+                    }),
+                  () => {
+                    e = !0;
+                  }
+                );
+              }, [T]);
+              let Q = (0, t.useCallback)(() => {
+                if (!M) return void I(!1);
+                let e = !1;
+                return (
+                  (0, w.S_)()
+                    .then((r) => {
+                      r &&
+                        !e &&
+                        ((V.current = r),
+                        (H.current = (0, w.gS)(r, {
+                          client_id: M,
+                          scope: "openid email profile",
+                          ux_mode: "popup",
+                          callback: (e) => {
+                            D(e);
+                          },
+                        })),
+                        I(!0));
+                    })
+                    .catch((r) => {
+                      e || (console.error(r), I(!1));
+                    }),
+                  () => {
+                    e = !0;
+                  }
+                );
+              }, [M, D]);
+              return (
+                (0, t.useEffect)(() => Q(), [Q]),
+                (0, t.useEffect)(() => {
+                  C &&
+                    N.replace({
+                      pathname: "/registration",
+                      query: { resume: "identity" },
+                    });
+                }, [C, N]),
+                (0, t.useEffect)(
+                  () => () => {
+                    (U(), X());
+                  },
+                  [X, U],
+                ),
+                (0, s.jsx)(i.A, {
+                  navItems: r,
+                  children: (0, s.jsx)("form", {
+                    className: "account_form",
+                    onSubmit: o(q),
+                    autoComplete: "on",
+                    children: (0, s.jsx)(m.y, {
+                      onGoogleLogin: () => {
+                        if ((b(), !M))
+                          return void y("root", {
+                            message:
+                              "Google login is unavailable. Please try again later or use your email and password.",
+                          });
+                        let e = H.current;
+                        if (!e)
+                          return void y("root", {
+                            message:
+                              "Google login is still initializing. Please try again in a moment.",
+                          });
+                        (G(!0), (z.current = !0), W(), (e.callback = D));
+                        try {
+                          (0, w.mU)(e);
+                        } catch (e) {
+                          (console.error(e),
+                            (z.current = !1),
+                            U(),
+                            G(!1),
+                            y("root", {
+                              message: "Google login failed. Please try again.",
+                            }));
+                        }
+                      },
+                      onFacebookLogin: () => {
+                        if (!T)
+                          return void y("root", {
+                            message:
+                              "Facebook login is unavailable. Please try again later or use your email and password.",
+                          });
+                        if (!window.FB)
+                          return void y("root", {
+                            message:
+                              "Facebook login is still initializing. Please try again in a moment.",
+                          });
+                        (b(), F(!0));
+                        let e = (e) => {
+                          if (e?.status === "connected" && e.authResponse)
+                            return void K({
+                              authResponse: {
+                                accessToken: e.authResponse.accessToken,
+                              },
+                            }).catch((e) => {
+                              (console.error(e),
+                                y("root", {
+                                  message:
+                                    "Facebook login failed. Please try again.",
+                                }),
+                                F(!1));
+                            });
+                          try {
+                            ((J.current = !0),
+                              Z(),
+                              window.FB?.login(
+                                (e) => {
+                                  ((J.current = !1),
+                                    X(),
+                                    K(e).catch((e) => {
+                                      (console.error(e),
+                                        y("root", {
+                                          message:
+                                            "Facebook login failed. Please try again.",
+                                        }),
+                                        F(!1));
+                                    }));
+                                },
+                                { scope: "email", return_scopes: !0 },
+                              ));
+                          } catch (e) {
+                            (console.error(e),
+                              (J.current = !1),
+                              X(),
+                              F(!1),
+                              y("root", {
+                                message:
+                                  "Facebook login failed. Please try again.",
+                              }));
+                          }
+                        };
+                        (0, f.u7)()
+                          .then((r) => {
+                            e(r);
+                          })
+                          .catch((r) => {
+                            (console.error(r), e());
+                          });
+                      },
+                      control: p,
+                      errors: v,
+                      loginLoading: _,
+                      facebookLoginLoading: S,
+                      facebookSdkReady: E,
+                      googleLoginLoading: A,
+                      googleSdkReady: L,
+                      raiderFeatureSlides: a.raiderFeatureSlides
+                        .filter((e) => void 0 !== e)
+                        .map((e) => e.fields),
+                    }),
+                  }),
+                })
+              );
+            };
+          o();
+        } catch (e) {
+          o(e);
+        }
+      });
+    },
+    63015: (e, r, a) => {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        "/login",
+        function () {
+          return a(16219);
+        },
+      ]);
+    },
   },
   (e) => {
     (e.O(
       0,
-      [9950, 6006, 1433, 1329, 3357, 7531, 5216, 7083, 636, 6593, 8792],
-      () => e((e.s = 32802)),
+      [9950, 5013, 2696, 1329, 3357, 3214, 9980, 7699, 636, 6593, 8792],
+      () => e((e.s = 63015)),
     ),
       (_N_E = e.O()));
   },

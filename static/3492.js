@@ -25,170 +25,1196 @@
       }
     },
     30597: (e, r, o) => {
-      o.d(r, { QP: () => ep });
-      let t = (e = new Map(), r = null, o) => ({
+      var t;
+      let l, s, a, n, i;
+      o.d(r, { QP: () => ek });
+      let d = (e = new Map(), r = null, o) => ({
           nextPart: e,
           validators: r,
           classGroupId: o,
         }),
-        l = [],
-        s = (e, r, o) => {
+        c = [],
+        m = (e, r, o) => {
           if (0 == e.length - r) return o.classGroupId;
           let t = e[r],
             l = o.nextPart.get(t);
           if (l) {
-            let o = s(e, r + 1, l);
+            let o = m(e, r + 1, l);
             if (o) return o;
           }
-          let n = o.validators;
-          if (null === n) return;
+          let s = o.validators;
+          if (null === s) return;
           let a = 0 === r ? e.join("-") : e.slice(r).join("-"),
-            i = n.length;
-          for (let e = 0; e < i; e++) {
-            let r = n[e];
+            n = s.length;
+          for (let e = 0; e < n; e++) {
+            let r = s[e];
             if (r.validator(a)) return r.classGroupId;
           }
         },
-        n = (e, r) => {
-          let o = t();
-          for (let t in e) a(e[t], o, t, r);
+        p = (e, r) => {
+          let o = d();
+          for (let t in e) b(e[t], o, t, r);
           return o;
         },
-        a = (e, r, o, t) => {
+        b = (e, r, o, t) => {
           let l = e.length;
-          for (let s = 0; s < l; s++) i(e[s], r, o, t);
+          for (let s = 0; s < l; s++) u(e[s], r, o, t);
         },
-        i = (e, r, o, t) =>
+        u = (e, r, o, t) => {
           "string" == typeof e
-            ? void d(e, r, o)
+            ? f(e, r, o)
             : "function" == typeof e
-              ? void c(e, r, o, t)
-              : void m(e, r, o, t),
-        d = (e, r, o) => {
-          ("" === e ? r : p(r, e)).classGroupId = o;
+              ? g(e, r, o, t)
+              : h(e, r, o, t);
         },
-        c = (e, r, o, t) => {
-          if (b(e)) return void a(e(t), r, o, t);
-          (null === r.validators && (r.validators = []),
-            r.validators.push({ classGroupId: o, validator: e }));
+        f = (e, r, o) => {
+          ("" === e ? r : k(r, e)).classGroupId = o;
         },
-        m = (e, r, o, t) => {
+        g = (e, r, o, t) => {
+          w(e)
+            ? b(e(t), r, o, t)
+            : (null === r.validators && (r.validators = []),
+              r.validators.push({ classGroupId: o, validator: e }));
+        },
+        h = (e, r, o, t) => {
           let l = Object.entries(e),
             s = l.length;
           for (let e = 0; e < s; e++) {
-            let [s, n] = l[e];
-            a(n, p(r, s), o, t);
+            let [s, a] = l[e];
+            b(a, k(r, s), o, t);
           }
         },
-        p = (e, r) => {
+        k = (e, r) => {
           let o = e,
-            l = r.split("-"),
-            s = l.length;
-          for (let e = 0; e < s; e++) {
-            let r = l[e],
-              s = o.nextPart.get(r);
-            (s || ((s = t()), o.nextPart.set(r, s)), (o = s));
+            t = r.split("-"),
+            l = t.length;
+          for (let e = 0; e < l; e++) {
+            let r = t[e],
+              l = o.nextPart.get(r);
+            (l || ((l = d()), o.nextPart.set(r, l)), (o = l));
           }
           return o;
         },
-        b = (e) => "isThemeGetter" in e && !0 === e.isThemeGetter,
-        u = [],
-        f = (e, r, o, t, l) => ({
+        w = (e) => "isThemeGetter" in e && !0 === e.isThemeGetter,
+        x = [],
+        v = (e, r, o, t, l) => ({
           modifiers: e,
           hasImportantModifier: r,
           baseClassName: o,
           maybePostfixModifierPosition: t,
           isExternal: l,
         }),
-        g = /\s+/,
-        h = (e) => {
+        y = /\s+/,
+        z = (e) => {
           let r;
           if ("string" == typeof e) return e;
           let o = "";
           for (let t = 0; t < e.length; t++)
-            e[t] && (r = h(e[t])) && (o && (o += " "), (o += r));
+            e[t] && (r = z(e[t])) && (o && (o += " "), (o += r));
           return o;
         },
-        k = [],
-        w = (e) => {
-          let r = (r) => r[e] || k;
+        j = [],
+        G = (e) => {
+          let r = (r) => r[e] || j;
           return ((r.isThemeGetter = !0), r);
         },
-        x = /^\[(?:(\w[\w-]*):)?(.+)\]$/i,
-        v = /^\((?:(\w[\w-]*):)?(.+)\)$/i,
-        y = /^\d+(?:\.\d+)?\/\d+(?:\.\d+)?$/,
-        z = /^(\d+(\.\d+)?)?(xs|sm|md|lg|xl)$/,
-        j =
+        N = /^\[(?:(\w[\w-]*):)?(.+)\]$/i,
+        C = /^\((?:(\w[\w-]*):)?(.+)\)$/i,
+        $ = /^\d+(?:\.\d+)?\/\d+(?:\.\d+)?$/,
+        I = /^(\d+(\.\d+)?)?(xs|sm|md|lg|xl)$/,
+        O =
           /\d+(%|px|r?em|[sdl]?v([hwib]|min|max)|pt|pc|in|cm|mm|cap|ch|ex|r?lh|cq(w|h|i|b|min|max))|\b(calc|min|max|clamp)\(.+\)|^0$/,
-        G = /^(rgba?|hsla?|hwb|(ok)?(lab|lch)|color-mix)\(.+\)$/,
-        N = /^(inset_)?-?((\d+)?\.?(\d+)[a-z]+|0)_-?((\d+)?\.?(\d+)[a-z]+|0)/,
-        C =
+        M = /^(rgba?|hsla?|hwb|(ok)?(lab|lch)|color-mix)\(.+\)$/,
+        W = /^(inset_)?-?((\d+)?\.?(\d+)[a-z]+|0)_-?((\d+)?\.?(\d+)[a-z]+|0)/,
+        _ =
           /^(url|image|image-set|cross-fade|element|(repeating-)?(linear|radial|conic)-gradient)\(.+\)$/,
-        $ = (e) => y.test(e),
-        I = (e) => !!e && !Number.isNaN(Number(e)),
-        O = (e) => !!e && Number.isInteger(Number(e)),
-        M = (e) => e.endsWith("%") && I(e.slice(0, -1)),
-        S = (e) => z.test(e),
-        W = () => !0,
-        _ = (e) => j.test(e) && !G.test(e),
-        P = () => !1,
-        T = (e) => N.test(e),
-        A = (e) => C.test(e),
-        E = (e) => !Q(e) && !R(e),
-        q = (e) => eo(e, en, P),
-        Q = (e) => x.test(e),
-        B = (e) => eo(e, ea, _),
-        D = (e) => eo(e, ei, I),
-        F = (e) => eo(e, ec, W),
-        H = (e) => eo(e, ed, P),
-        J = (e) => eo(e, el, P),
-        K = (e) => eo(e, es, A),
-        L = (e) => eo(e, em, T),
-        R = (e) => v.test(e),
-        U = (e) => et(e, ea),
-        V = (e) => et(e, ed),
-        X = (e) => et(e, el),
-        Y = (e) => et(e, en),
-        Z = (e) => et(e, es),
-        ee = (e) => et(e, em, !0),
-        er = (e) => et(e, ec, !0),
-        eo = (e, r, o) => {
-          let t = x.exec(e);
+        P = (e) => $.test(e),
+        S = (e) => !!e && !Number.isNaN(Number(e)),
+        A = (e) => !!e && Number.isInteger(Number(e)),
+        E = (e) => e.endsWith("%") && S(e.slice(0, -1)),
+        T = (e) => I.test(e),
+        q = () => !0,
+        Q = (e) => O.test(e) && !M.test(e),
+        B = () => !1,
+        D = (e) => W.test(e),
+        F = (e) => _.test(e),
+        H = (e) => !K(e) && !ee(e),
+        J = (e) => ei(e, ep, B),
+        K = (e) => N.test(e),
+        L = (e) => ei(e, eb, Q),
+        R = (e) => ei(e, eu, S),
+        U = (e) => ei(e, eg, q),
+        V = (e) => ei(e, ef, B),
+        X = (e) => ei(e, ec, B),
+        Y = (e) => ei(e, em, F),
+        Z = (e) => ei(e, eh, D),
+        ee = (e) => C.test(e),
+        er = (e) => ed(e, eb),
+        eo = (e) => ed(e, ef),
+        et = (e) => ed(e, ec),
+        el = (e) => ed(e, ep),
+        es = (e) => ed(e, em),
+        ea = (e) => ed(e, eh, !0),
+        en = (e) => ed(e, eg, !0),
+        ei = (e, r, o) => {
+          let t = N.exec(e);
           return !!t && (t[1] ? r(t[1]) : o(t[2]));
         },
-        et = (e, r, o = !1) => {
-          let t = v.exec(e);
+        ed = (e, r, o = !1) => {
+          let t = C.exec(e);
           return !!t && (t[1] ? r(t[1]) : o);
         },
-        el = (e) => "position" === e || "percentage" === e,
-        es = (e) => "image" === e || "url" === e,
-        en = (e) => "length" === e || "size" === e || "bg-size" === e,
-        ea = (e) => "length" === e,
-        ei = (e) => "number" === e,
-        ed = (e) => "family-name" === e,
-        ec = (e) => "number" === e || "weight" === e,
-        em = (e) => "shadow" === e;
-      Symbol.toStringTag;
-      let ep = ((e, ...r) => {
-        let o,
-          t,
-          a,
-          i,
-          d = (e) => {
-            let r = t(e);
+        ec = (e) => "position" === e || "percentage" === e,
+        em = (e) => "image" === e || "url" === e,
+        ep = (e) => "length" === e || "size" === e || "bg-size" === e,
+        eb = (e) => "length" === e,
+        eu = (e) => "number" === e,
+        ef = (e) => "family-name" === e,
+        eg = (e) => "number" === e || "weight" === e,
+        eh = (e) => "shadow" === e,
+        ek =
+          ((t = () => {
+            let e = G("color"),
+              r = G("font"),
+              o = G("text"),
+              t = G("font-weight"),
+              l = G("tracking"),
+              s = G("leading"),
+              a = G("breakpoint"),
+              n = G("container"),
+              i = G("spacing"),
+              d = G("radius"),
+              c = G("shadow"),
+              m = G("inset-shadow"),
+              p = G("text-shadow"),
+              b = G("drop-shadow"),
+              u = G("blur"),
+              f = G("perspective"),
+              g = G("aspect"),
+              h = G("ease"),
+              k = G("animate"),
+              w = () => [
+                "auto",
+                "avoid",
+                "all",
+                "avoid-page",
+                "page",
+                "left",
+                "right",
+                "column",
+              ],
+              x = () => [
+                "center",
+                "top",
+                "bottom",
+                "left",
+                "right",
+                "top-left",
+                "left-top",
+                "top-right",
+                "right-top",
+                "bottom-right",
+                "right-bottom",
+                "bottom-left",
+                "left-bottom",
+              ],
+              v = () => [...x(), ee, K],
+              y = () => ["auto", "hidden", "clip", "visible", "scroll"],
+              z = () => ["auto", "contain", "none"],
+              j = () => [ee, K, i],
+              N = () => [P, "full", "auto", ...j()],
+              C = () => [A, "none", "subgrid", ee, K],
+              $ = () => ["auto", { span: ["full", A, ee, K] }, A, ee, K],
+              I = () => [A, "auto", ee, K],
+              O = () => ["auto", "min", "max", "fr", ee, K],
+              M = () => [
+                "start",
+                "end",
+                "center",
+                "between",
+                "around",
+                "evenly",
+                "stretch",
+                "baseline",
+                "center-safe",
+                "end-safe",
+              ],
+              W = () => [
+                "start",
+                "end",
+                "center",
+                "stretch",
+                "center-safe",
+                "end-safe",
+              ],
+              _ = () => ["auto", ...j()],
+              Q = () => [
+                P,
+                "auto",
+                "full",
+                "dvw",
+                "dvh",
+                "lvw",
+                "lvh",
+                "svw",
+                "svh",
+                "min",
+                "max",
+                "fit",
+                ...j(),
+              ],
+              B = () => [
+                P,
+                "screen",
+                "full",
+                "dvw",
+                "lvw",
+                "svw",
+                "min",
+                "max",
+                "fit",
+                ...j(),
+              ],
+              D = () => [
+                P,
+                "screen",
+                "full",
+                "lh",
+                "dvh",
+                "lvh",
+                "svh",
+                "min",
+                "max",
+                "fit",
+                ...j(),
+              ],
+              F = () => [e, ee, K],
+              ei = () => [...x(), et, X, { position: [ee, K] }],
+              ed = () => [
+                "no-repeat",
+                { repeat: ["", "x", "y", "space", "round"] },
+              ],
+              ec = () => ["auto", "cover", "contain", el, J, { size: [ee, K] }],
+              em = () => [E, er, L],
+              ep = () => ["", "none", "full", d, ee, K],
+              eb = () => ["", S, er, L],
+              eu = () => ["solid", "dashed", "dotted", "double"],
+              ef = () => [
+                "normal",
+                "multiply",
+                "screen",
+                "overlay",
+                "darken",
+                "lighten",
+                "color-dodge",
+                "color-burn",
+                "hard-light",
+                "soft-light",
+                "difference",
+                "exclusion",
+                "hue",
+                "saturation",
+                "color",
+                "luminosity",
+              ],
+              eg = () => [S, E, et, X],
+              eh = () => ["", "none", u, ee, K],
+              ek = () => ["none", S, ee, K],
+              ew = () => ["none", S, ee, K],
+              ex = () => [S, ee, K],
+              ev = () => [P, "full", ...j()];
+            return {
+              cacheSize: 500,
+              theme: {
+                animate: ["spin", "ping", "pulse", "bounce"],
+                aspect: ["video"],
+                blur: [T],
+                breakpoint: [T],
+                color: [q],
+                container: [T],
+                "drop-shadow": [T],
+                ease: ["in", "out", "in-out"],
+                font: [H],
+                "font-weight": [
+                  "thin",
+                  "extralight",
+                  "light",
+                  "normal",
+                  "medium",
+                  "semibold",
+                  "bold",
+                  "extrabold",
+                  "black",
+                ],
+                "inset-shadow": [T],
+                leading: [
+                  "none",
+                  "tight",
+                  "snug",
+                  "normal",
+                  "relaxed",
+                  "loose",
+                ],
+                perspective: [
+                  "dramatic",
+                  "near",
+                  "normal",
+                  "midrange",
+                  "distant",
+                  "none",
+                ],
+                radius: [T],
+                shadow: [T],
+                spacing: ["px", S],
+                text: [T],
+                "text-shadow": [T],
+                tracking: [
+                  "tighter",
+                  "tight",
+                  "normal",
+                  "wide",
+                  "wider",
+                  "widest",
+                ],
+              },
+              classGroups: {
+                aspect: [{ aspect: ["auto", "square", P, K, ee, g] }],
+                container: ["container"],
+                columns: [{ columns: [S, K, ee, n] }],
+                "break-after": [{ "break-after": w() }],
+                "break-before": [{ "break-before": w() }],
+                "break-inside": [
+                  {
+                    "break-inside": [
+                      "auto",
+                      "avoid",
+                      "avoid-page",
+                      "avoid-column",
+                    ],
+                  },
+                ],
+                "box-decoration": [{ "box-decoration": ["slice", "clone"] }],
+                box: [{ box: ["border", "content"] }],
+                display: [
+                  "block",
+                  "inline-block",
+                  "inline",
+                  "flex",
+                  "inline-flex",
+                  "table",
+                  "inline-table",
+                  "table-caption",
+                  "table-cell",
+                  "table-column",
+                  "table-column-group",
+                  "table-footer-group",
+                  "table-header-group",
+                  "table-row-group",
+                  "table-row",
+                  "flow-root",
+                  "grid",
+                  "inline-grid",
+                  "contents",
+                  "list-item",
+                  "hidden",
+                ],
+                sr: ["sr-only", "not-sr-only"],
+                float: [{ float: ["right", "left", "none", "start", "end"] }],
+                clear: [
+                  { clear: ["left", "right", "both", "none", "start", "end"] },
+                ],
+                isolation: ["isolate", "isolation-auto"],
+                "object-fit": [
+                  {
+                    object: ["contain", "cover", "fill", "none", "scale-down"],
+                  },
+                ],
+                "object-position": [{ object: v() }],
+                overflow: [{ overflow: y() }],
+                "overflow-x": [{ "overflow-x": y() }],
+                "overflow-y": [{ "overflow-y": y() }],
+                overscroll: [{ overscroll: z() }],
+                "overscroll-x": [{ "overscroll-x": z() }],
+                "overscroll-y": [{ "overscroll-y": z() }],
+                position: ["static", "fixed", "absolute", "relative", "sticky"],
+                inset: [{ inset: N() }],
+                "inset-x": [{ "inset-x": N() }],
+                "inset-y": [{ "inset-y": N() }],
+                start: [{ "inset-s": N(), start: N() }],
+                end: [{ "inset-e": N(), end: N() }],
+                "inset-bs": [{ "inset-bs": N() }],
+                "inset-be": [{ "inset-be": N() }],
+                top: [{ top: N() }],
+                right: [{ right: N() }],
+                bottom: [{ bottom: N() }],
+                left: [{ left: N() }],
+                visibility: ["visible", "invisible", "collapse"],
+                z: [{ z: [A, "auto", ee, K] }],
+                basis: [{ basis: [P, "full", "auto", n, ...j()] }],
+                "flex-direction": [
+                  { flex: ["row", "row-reverse", "col", "col-reverse"] },
+                ],
+                "flex-wrap": [{ flex: ["nowrap", "wrap", "wrap-reverse"] }],
+                flex: [{ flex: [S, P, "auto", "initial", "none", K] }],
+                grow: [{ grow: ["", S, ee, K] }],
+                shrink: [{ shrink: ["", S, ee, K] }],
+                order: [{ order: [A, "first", "last", "none", ee, K] }],
+                "grid-cols": [{ "grid-cols": C() }],
+                "col-start-end": [{ col: $() }],
+                "col-start": [{ "col-start": I() }],
+                "col-end": [{ "col-end": I() }],
+                "grid-rows": [{ "grid-rows": C() }],
+                "row-start-end": [{ row: $() }],
+                "row-start": [{ "row-start": I() }],
+                "row-end": [{ "row-end": I() }],
+                "grid-flow": [
+                  {
+                    "grid-flow": [
+                      "row",
+                      "col",
+                      "dense",
+                      "row-dense",
+                      "col-dense",
+                    ],
+                  },
+                ],
+                "auto-cols": [{ "auto-cols": O() }],
+                "auto-rows": [{ "auto-rows": O() }],
+                gap: [{ gap: j() }],
+                "gap-x": [{ "gap-x": j() }],
+                "gap-y": [{ "gap-y": j() }],
+                "justify-content": [{ justify: [...M(), "normal"] }],
+                "justify-items": [{ "justify-items": [...W(), "normal"] }],
+                "justify-self": [{ "justify-self": ["auto", ...W()] }],
+                "align-content": [{ content: ["normal", ...M()] }],
+                "align-items": [
+                  { items: [...W(), { baseline: ["", "last"] }] },
+                ],
+                "align-self": [
+                  { self: ["auto", ...W(), { baseline: ["", "last"] }] },
+                ],
+                "place-content": [{ "place-content": M() }],
+                "place-items": [{ "place-items": [...W(), "baseline"] }],
+                "place-self": [{ "place-self": ["auto", ...W()] }],
+                p: [{ p: j() }],
+                px: [{ px: j() }],
+                py: [{ py: j() }],
+                ps: [{ ps: j() }],
+                pe: [{ pe: j() }],
+                pbs: [{ pbs: j() }],
+                pbe: [{ pbe: j() }],
+                pt: [{ pt: j() }],
+                pr: [{ pr: j() }],
+                pb: [{ pb: j() }],
+                pl: [{ pl: j() }],
+                m: [{ m: _() }],
+                mx: [{ mx: _() }],
+                my: [{ my: _() }],
+                ms: [{ ms: _() }],
+                me: [{ me: _() }],
+                mbs: [{ mbs: _() }],
+                mbe: [{ mbe: _() }],
+                mt: [{ mt: _() }],
+                mr: [{ mr: _() }],
+                mb: [{ mb: _() }],
+                ml: [{ ml: _() }],
+                "space-x": [{ "space-x": j() }],
+                "space-x-reverse": ["space-x-reverse"],
+                "space-y": [{ "space-y": j() }],
+                "space-y-reverse": ["space-y-reverse"],
+                size: [{ size: Q() }],
+                "inline-size": [{ inline: ["auto", ...B()] }],
+                "min-inline-size": [{ "min-inline": ["auto", ...B()] }],
+                "max-inline-size": [{ "max-inline": ["none", ...B()] }],
+                "block-size": [{ block: ["auto", ...D()] }],
+                "min-block-size": [{ "min-block": ["auto", ...D()] }],
+                "max-block-size": [{ "max-block": ["none", ...D()] }],
+                w: [{ w: [n, "screen", ...Q()] }],
+                "min-w": [{ "min-w": [n, "screen", "none", ...Q()] }],
+                "max-w": [
+                  {
+                    "max-w": [
+                      n,
+                      "screen",
+                      "none",
+                      "prose",
+                      { screen: [a] },
+                      ...Q(),
+                    ],
+                  },
+                ],
+                h: [{ h: ["screen", "lh", ...Q()] }],
+                "min-h": [{ "min-h": ["screen", "lh", "none", ...Q()] }],
+                "max-h": [{ "max-h": ["screen", "lh", ...Q()] }],
+                "font-size": [{ text: ["base", o, er, L] }],
+                "font-smoothing": ["antialiased", "subpixel-antialiased"],
+                "font-style": ["italic", "not-italic"],
+                "font-weight": [{ font: [t, en, U] }],
+                "font-stretch": [
+                  {
+                    "font-stretch": [
+                      "ultra-condensed",
+                      "extra-condensed",
+                      "condensed",
+                      "semi-condensed",
+                      "normal",
+                      "semi-expanded",
+                      "expanded",
+                      "extra-expanded",
+                      "ultra-expanded",
+                      E,
+                      K,
+                    ],
+                  },
+                ],
+                "font-family": [{ font: [eo, V, r] }],
+                "font-features": [{ "font-features": [K] }],
+                "fvn-normal": ["normal-nums"],
+                "fvn-ordinal": ["ordinal"],
+                "fvn-slashed-zero": ["slashed-zero"],
+                "fvn-figure": ["lining-nums", "oldstyle-nums"],
+                "fvn-spacing": ["proportional-nums", "tabular-nums"],
+                "fvn-fraction": ["diagonal-fractions", "stacked-fractions"],
+                tracking: [{ tracking: [l, ee, K] }],
+                "line-clamp": [{ "line-clamp": [S, "none", ee, R] }],
+                leading: [{ leading: [s, ...j()] }],
+                "list-image": [{ "list-image": ["none", ee, K] }],
+                "list-style-position": [{ list: ["inside", "outside"] }],
+                "list-style-type": [
+                  { list: ["disc", "decimal", "none", ee, K] },
+                ],
+                "text-alignment": [
+                  {
+                    text: [
+                      "left",
+                      "center",
+                      "right",
+                      "justify",
+                      "start",
+                      "end",
+                    ],
+                  },
+                ],
+                "placeholder-color": [{ placeholder: F() }],
+                "text-color": [{ text: F() }],
+                "text-decoration": [
+                  "underline",
+                  "overline",
+                  "line-through",
+                  "no-underline",
+                ],
+                "text-decoration-style": [{ decoration: [...eu(), "wavy"] }],
+                "text-decoration-thickness": [
+                  { decoration: [S, "from-font", "auto", ee, L] },
+                ],
+                "text-decoration-color": [{ decoration: F() }],
+                "underline-offset": [
+                  { "underline-offset": [S, "auto", ee, K] },
+                ],
+                "text-transform": [
+                  "uppercase",
+                  "lowercase",
+                  "capitalize",
+                  "normal-case",
+                ],
+                "text-overflow": ["truncate", "text-ellipsis", "text-clip"],
+                "text-wrap": [
+                  { text: ["wrap", "nowrap", "balance", "pretty"] },
+                ],
+                indent: [{ indent: j() }],
+                "vertical-align": [
+                  {
+                    align: [
+                      "baseline",
+                      "top",
+                      "middle",
+                      "bottom",
+                      "text-top",
+                      "text-bottom",
+                      "sub",
+                      "super",
+                      ee,
+                      K,
+                    ],
+                  },
+                ],
+                whitespace: [
+                  {
+                    whitespace: [
+                      "normal",
+                      "nowrap",
+                      "pre",
+                      "pre-line",
+                      "pre-wrap",
+                      "break-spaces",
+                    ],
+                  },
+                ],
+                break: [{ break: ["normal", "words", "all", "keep"] }],
+                wrap: [{ wrap: ["break-word", "anywhere", "normal"] }],
+                hyphens: [{ hyphens: ["none", "manual", "auto"] }],
+                content: [{ content: ["none", ee, K] }],
+                "bg-attachment": [{ bg: ["fixed", "local", "scroll"] }],
+                "bg-clip": [
+                  { "bg-clip": ["border", "padding", "content", "text"] },
+                ],
+                "bg-origin": [
+                  { "bg-origin": ["border", "padding", "content"] },
+                ],
+                "bg-position": [{ bg: ei() }],
+                "bg-repeat": [{ bg: ed() }],
+                "bg-size": [{ bg: ec() }],
+                "bg-image": [
+                  {
+                    bg: [
+                      "none",
+                      {
+                        linear: [
+                          { to: ["t", "tr", "r", "br", "b", "bl", "l", "tl"] },
+                          A,
+                          ee,
+                          K,
+                        ],
+                        radial: ["", ee, K],
+                        conic: [A, ee, K],
+                      },
+                      es,
+                      Y,
+                    ],
+                  },
+                ],
+                "bg-color": [{ bg: F() }],
+                "gradient-from-pos": [{ from: em() }],
+                "gradient-via-pos": [{ via: em() }],
+                "gradient-to-pos": [{ to: em() }],
+                "gradient-from": [{ from: F() }],
+                "gradient-via": [{ via: F() }],
+                "gradient-to": [{ to: F() }],
+                rounded: [{ rounded: ep() }],
+                "rounded-s": [{ "rounded-s": ep() }],
+                "rounded-e": [{ "rounded-e": ep() }],
+                "rounded-t": [{ "rounded-t": ep() }],
+                "rounded-r": [{ "rounded-r": ep() }],
+                "rounded-b": [{ "rounded-b": ep() }],
+                "rounded-l": [{ "rounded-l": ep() }],
+                "rounded-ss": [{ "rounded-ss": ep() }],
+                "rounded-se": [{ "rounded-se": ep() }],
+                "rounded-ee": [{ "rounded-ee": ep() }],
+                "rounded-es": [{ "rounded-es": ep() }],
+                "rounded-tl": [{ "rounded-tl": ep() }],
+                "rounded-tr": [{ "rounded-tr": ep() }],
+                "rounded-br": [{ "rounded-br": ep() }],
+                "rounded-bl": [{ "rounded-bl": ep() }],
+                "border-w": [{ border: eb() }],
+                "border-w-x": [{ "border-x": eb() }],
+                "border-w-y": [{ "border-y": eb() }],
+                "border-w-s": [{ "border-s": eb() }],
+                "border-w-e": [{ "border-e": eb() }],
+                "border-w-bs": [{ "border-bs": eb() }],
+                "border-w-be": [{ "border-be": eb() }],
+                "border-w-t": [{ "border-t": eb() }],
+                "border-w-r": [{ "border-r": eb() }],
+                "border-w-b": [{ "border-b": eb() }],
+                "border-w-l": [{ "border-l": eb() }],
+                "divide-x": [{ "divide-x": eb() }],
+                "divide-x-reverse": ["divide-x-reverse"],
+                "divide-y": [{ "divide-y": eb() }],
+                "divide-y-reverse": ["divide-y-reverse"],
+                "border-style": [{ border: [...eu(), "hidden", "none"] }],
+                "divide-style": [{ divide: [...eu(), "hidden", "none"] }],
+                "border-color": [{ border: F() }],
+                "border-color-x": [{ "border-x": F() }],
+                "border-color-y": [{ "border-y": F() }],
+                "border-color-s": [{ "border-s": F() }],
+                "border-color-e": [{ "border-e": F() }],
+                "border-color-bs": [{ "border-bs": F() }],
+                "border-color-be": [{ "border-be": F() }],
+                "border-color-t": [{ "border-t": F() }],
+                "border-color-r": [{ "border-r": F() }],
+                "border-color-b": [{ "border-b": F() }],
+                "border-color-l": [{ "border-l": F() }],
+                "divide-color": [{ divide: F() }],
+                "outline-style": [{ outline: [...eu(), "none", "hidden"] }],
+                "outline-offset": [{ "outline-offset": [S, ee, K] }],
+                "outline-w": [{ outline: ["", S, er, L] }],
+                "outline-color": [{ outline: F() }],
+                shadow: [{ shadow: ["", "none", c, ea, Z] }],
+                "shadow-color": [{ shadow: F() }],
+                "inset-shadow": [{ "inset-shadow": ["none", m, ea, Z] }],
+                "inset-shadow-color": [{ "inset-shadow": F() }],
+                "ring-w": [{ ring: eb() }],
+                "ring-w-inset": ["ring-inset"],
+                "ring-color": [{ ring: F() }],
+                "ring-offset-w": [{ "ring-offset": [S, L] }],
+                "ring-offset-color": [{ "ring-offset": F() }],
+                "inset-ring-w": [{ "inset-ring": eb() }],
+                "inset-ring-color": [{ "inset-ring": F() }],
+                "text-shadow": [{ "text-shadow": ["none", p, ea, Z] }],
+                "text-shadow-color": [{ "text-shadow": F() }],
+                opacity: [{ opacity: [S, ee, K] }],
+                "mix-blend": [
+                  { "mix-blend": [...ef(), "plus-darker", "plus-lighter"] },
+                ],
+                "bg-blend": [{ "bg-blend": ef() }],
+                "mask-clip": [
+                  {
+                    "mask-clip": [
+                      "border",
+                      "padding",
+                      "content",
+                      "fill",
+                      "stroke",
+                      "view",
+                    ],
+                  },
+                  "mask-no-clip",
+                ],
+                "mask-composite": [
+                  { mask: ["add", "subtract", "intersect", "exclude"] },
+                ],
+                "mask-image-linear-pos": [{ "mask-linear": [S] }],
+                "mask-image-linear-from-pos": [{ "mask-linear-from": eg() }],
+                "mask-image-linear-to-pos": [{ "mask-linear-to": eg() }],
+                "mask-image-linear-from-color": [{ "mask-linear-from": F() }],
+                "mask-image-linear-to-color": [{ "mask-linear-to": F() }],
+                "mask-image-t-from-pos": [{ "mask-t-from": eg() }],
+                "mask-image-t-to-pos": [{ "mask-t-to": eg() }],
+                "mask-image-t-from-color": [{ "mask-t-from": F() }],
+                "mask-image-t-to-color": [{ "mask-t-to": F() }],
+                "mask-image-r-from-pos": [{ "mask-r-from": eg() }],
+                "mask-image-r-to-pos": [{ "mask-r-to": eg() }],
+                "mask-image-r-from-color": [{ "mask-r-from": F() }],
+                "mask-image-r-to-color": [{ "mask-r-to": F() }],
+                "mask-image-b-from-pos": [{ "mask-b-from": eg() }],
+                "mask-image-b-to-pos": [{ "mask-b-to": eg() }],
+                "mask-image-b-from-color": [{ "mask-b-from": F() }],
+                "mask-image-b-to-color": [{ "mask-b-to": F() }],
+                "mask-image-l-from-pos": [{ "mask-l-from": eg() }],
+                "mask-image-l-to-pos": [{ "mask-l-to": eg() }],
+                "mask-image-l-from-color": [{ "mask-l-from": F() }],
+                "mask-image-l-to-color": [{ "mask-l-to": F() }],
+                "mask-image-x-from-pos": [{ "mask-x-from": eg() }],
+                "mask-image-x-to-pos": [{ "mask-x-to": eg() }],
+                "mask-image-x-from-color": [{ "mask-x-from": F() }],
+                "mask-image-x-to-color": [{ "mask-x-to": F() }],
+                "mask-image-y-from-pos": [{ "mask-y-from": eg() }],
+                "mask-image-y-to-pos": [{ "mask-y-to": eg() }],
+                "mask-image-y-from-color": [{ "mask-y-from": F() }],
+                "mask-image-y-to-color": [{ "mask-y-to": F() }],
+                "mask-image-radial": [{ "mask-radial": [ee, K] }],
+                "mask-image-radial-from-pos": [{ "mask-radial-from": eg() }],
+                "mask-image-radial-to-pos": [{ "mask-radial-to": eg() }],
+                "mask-image-radial-from-color": [{ "mask-radial-from": F() }],
+                "mask-image-radial-to-color": [{ "mask-radial-to": F() }],
+                "mask-image-radial-shape": [
+                  { "mask-radial": ["circle", "ellipse"] },
+                ],
+                "mask-image-radial-size": [
+                  {
+                    "mask-radial": [
+                      {
+                        closest: ["side", "corner"],
+                        farthest: ["side", "corner"],
+                      },
+                    ],
+                  },
+                ],
+                "mask-image-radial-pos": [{ "mask-radial-at": x() }],
+                "mask-image-conic-pos": [{ "mask-conic": [S] }],
+                "mask-image-conic-from-pos": [{ "mask-conic-from": eg() }],
+                "mask-image-conic-to-pos": [{ "mask-conic-to": eg() }],
+                "mask-image-conic-from-color": [{ "mask-conic-from": F() }],
+                "mask-image-conic-to-color": [{ "mask-conic-to": F() }],
+                "mask-mode": [{ mask: ["alpha", "luminance", "match"] }],
+                "mask-origin": [
+                  {
+                    "mask-origin": [
+                      "border",
+                      "padding",
+                      "content",
+                      "fill",
+                      "stroke",
+                      "view",
+                    ],
+                  },
+                ],
+                "mask-position": [{ mask: ei() }],
+                "mask-repeat": [{ mask: ed() }],
+                "mask-size": [{ mask: ec() }],
+                "mask-type": [{ "mask-type": ["alpha", "luminance"] }],
+                "mask-image": [{ mask: ["none", ee, K] }],
+                filter: [{ filter: ["", "none", ee, K] }],
+                blur: [{ blur: eh() }],
+                brightness: [{ brightness: [S, ee, K] }],
+                contrast: [{ contrast: [S, ee, K] }],
+                "drop-shadow": [{ "drop-shadow": ["", "none", b, ea, Z] }],
+                "drop-shadow-color": [{ "drop-shadow": F() }],
+                grayscale: [{ grayscale: ["", S, ee, K] }],
+                "hue-rotate": [{ "hue-rotate": [S, ee, K] }],
+                invert: [{ invert: ["", S, ee, K] }],
+                saturate: [{ saturate: [S, ee, K] }],
+                sepia: [{ sepia: ["", S, ee, K] }],
+                "backdrop-filter": [{ "backdrop-filter": ["", "none", ee, K] }],
+                "backdrop-blur": [{ "backdrop-blur": eh() }],
+                "backdrop-brightness": [{ "backdrop-brightness": [S, ee, K] }],
+                "backdrop-contrast": [{ "backdrop-contrast": [S, ee, K] }],
+                "backdrop-grayscale": [
+                  { "backdrop-grayscale": ["", S, ee, K] },
+                ],
+                "backdrop-hue-rotate": [{ "backdrop-hue-rotate": [S, ee, K] }],
+                "backdrop-invert": [{ "backdrop-invert": ["", S, ee, K] }],
+                "backdrop-opacity": [{ "backdrop-opacity": [S, ee, K] }],
+                "backdrop-saturate": [{ "backdrop-saturate": [S, ee, K] }],
+                "backdrop-sepia": [{ "backdrop-sepia": ["", S, ee, K] }],
+                "border-collapse": [{ border: ["collapse", "separate"] }],
+                "border-spacing": [{ "border-spacing": j() }],
+                "border-spacing-x": [{ "border-spacing-x": j() }],
+                "border-spacing-y": [{ "border-spacing-y": j() }],
+                "table-layout": [{ table: ["auto", "fixed"] }],
+                caption: [{ caption: ["top", "bottom"] }],
+                transition: [
+                  {
+                    transition: [
+                      "",
+                      "all",
+                      "colors",
+                      "opacity",
+                      "shadow",
+                      "transform",
+                      "none",
+                      ee,
+                      K,
+                    ],
+                  },
+                ],
+                "transition-behavior": [{ transition: ["normal", "discrete"] }],
+                duration: [{ duration: [S, "initial", ee, K] }],
+                ease: [{ ease: ["linear", "initial", h, ee, K] }],
+                delay: [{ delay: [S, ee, K] }],
+                animate: [{ animate: ["none", k, ee, K] }],
+                backface: [{ backface: ["hidden", "visible"] }],
+                perspective: [{ perspective: [f, ee, K] }],
+                "perspective-origin": [{ "perspective-origin": v() }],
+                rotate: [{ rotate: ek() }],
+                "rotate-x": [{ "rotate-x": ek() }],
+                "rotate-y": [{ "rotate-y": ek() }],
+                "rotate-z": [{ "rotate-z": ek() }],
+                scale: [{ scale: ew() }],
+                "scale-x": [{ "scale-x": ew() }],
+                "scale-y": [{ "scale-y": ew() }],
+                "scale-z": [{ "scale-z": ew() }],
+                "scale-3d": ["scale-3d"],
+                skew: [{ skew: ex() }],
+                "skew-x": [{ "skew-x": ex() }],
+                "skew-y": [{ "skew-y": ex() }],
+                transform: [{ transform: [ee, K, "", "none", "gpu", "cpu"] }],
+                "transform-origin": [{ origin: v() }],
+                "transform-style": [{ transform: ["3d", "flat"] }],
+                translate: [{ translate: ev() }],
+                "translate-x": [{ "translate-x": ev() }],
+                "translate-y": [{ "translate-y": ev() }],
+                "translate-z": [{ "translate-z": ev() }],
+                "translate-none": ["translate-none"],
+                accent: [{ accent: F() }],
+                appearance: [{ appearance: ["none", "auto"] }],
+                "caret-color": [{ caret: F() }],
+                "color-scheme": [
+                  {
+                    scheme: [
+                      "normal",
+                      "dark",
+                      "light",
+                      "light-dark",
+                      "only-dark",
+                      "only-light",
+                    ],
+                  },
+                ],
+                cursor: [
+                  {
+                    cursor: [
+                      "auto",
+                      "default",
+                      "pointer",
+                      "wait",
+                      "text",
+                      "move",
+                      "help",
+                      "not-allowed",
+                      "none",
+                      "context-menu",
+                      "progress",
+                      "cell",
+                      "crosshair",
+                      "vertical-text",
+                      "alias",
+                      "copy",
+                      "no-drop",
+                      "grab",
+                      "grabbing",
+                      "all-scroll",
+                      "col-resize",
+                      "row-resize",
+                      "n-resize",
+                      "e-resize",
+                      "s-resize",
+                      "w-resize",
+                      "ne-resize",
+                      "nw-resize",
+                      "se-resize",
+                      "sw-resize",
+                      "ew-resize",
+                      "ns-resize",
+                      "nesw-resize",
+                      "nwse-resize",
+                      "zoom-in",
+                      "zoom-out",
+                      ee,
+                      K,
+                    ],
+                  },
+                ],
+                "field-sizing": [{ "field-sizing": ["fixed", "content"] }],
+                "pointer-events": [{ "pointer-events": ["auto", "none"] }],
+                resize: [{ resize: ["none", "", "y", "x"] }],
+                "scroll-behavior": [{ scroll: ["auto", "smooth"] }],
+                "scroll-m": [{ "scroll-m": j() }],
+                "scroll-mx": [{ "scroll-mx": j() }],
+                "scroll-my": [{ "scroll-my": j() }],
+                "scroll-ms": [{ "scroll-ms": j() }],
+                "scroll-me": [{ "scroll-me": j() }],
+                "scroll-mbs": [{ "scroll-mbs": j() }],
+                "scroll-mbe": [{ "scroll-mbe": j() }],
+                "scroll-mt": [{ "scroll-mt": j() }],
+                "scroll-mr": [{ "scroll-mr": j() }],
+                "scroll-mb": [{ "scroll-mb": j() }],
+                "scroll-ml": [{ "scroll-ml": j() }],
+                "scroll-p": [{ "scroll-p": j() }],
+                "scroll-px": [{ "scroll-px": j() }],
+                "scroll-py": [{ "scroll-py": j() }],
+                "scroll-ps": [{ "scroll-ps": j() }],
+                "scroll-pe": [{ "scroll-pe": j() }],
+                "scroll-pbs": [{ "scroll-pbs": j() }],
+                "scroll-pbe": [{ "scroll-pbe": j() }],
+                "scroll-pt": [{ "scroll-pt": j() }],
+                "scroll-pr": [{ "scroll-pr": j() }],
+                "scroll-pb": [{ "scroll-pb": j() }],
+                "scroll-pl": [{ "scroll-pl": j() }],
+                "snap-align": [
+                  { snap: ["start", "end", "center", "align-none"] },
+                ],
+                "snap-stop": [{ snap: ["normal", "always"] }],
+                "snap-type": [{ snap: ["none", "x", "y", "both"] }],
+                "snap-strictness": [{ snap: ["mandatory", "proximity"] }],
+                touch: [{ touch: ["auto", "none", "manipulation"] }],
+                "touch-x": [{ "touch-pan": ["x", "left", "right"] }],
+                "touch-y": [{ "touch-pan": ["y", "up", "down"] }],
+                "touch-pz": ["touch-pinch-zoom"],
+                select: [{ select: ["none", "text", "all", "auto"] }],
+                "will-change": [
+                  {
+                    "will-change": [
+                      "auto",
+                      "scroll",
+                      "contents",
+                      "transform",
+                      ee,
+                      K,
+                    ],
+                  },
+                ],
+                fill: [{ fill: ["none", ...F()] }],
+                "stroke-w": [{ stroke: [S, er, L, R] }],
+                stroke: [{ stroke: ["none", ...F()] }],
+                "forced-color-adjust": [
+                  { "forced-color-adjust": ["auto", "none"] },
+                ],
+              },
+              conflictingClassGroups: {
+                overflow: ["overflow-x", "overflow-y"],
+                overscroll: ["overscroll-x", "overscroll-y"],
+                inset: [
+                  "inset-x",
+                  "inset-y",
+                  "inset-bs",
+                  "inset-be",
+                  "start",
+                  "end",
+                  "top",
+                  "right",
+                  "bottom",
+                  "left",
+                ],
+                "inset-x": ["right", "left"],
+                "inset-y": ["top", "bottom"],
+                flex: ["basis", "grow", "shrink"],
+                gap: ["gap-x", "gap-y"],
+                p: [
+                  "px",
+                  "py",
+                  "ps",
+                  "pe",
+                  "pbs",
+                  "pbe",
+                  "pt",
+                  "pr",
+                  "pb",
+                  "pl",
+                ],
+                px: ["pr", "pl"],
+                py: ["pt", "pb"],
+                m: [
+                  "mx",
+                  "my",
+                  "ms",
+                  "me",
+                  "mbs",
+                  "mbe",
+                  "mt",
+                  "mr",
+                  "mb",
+                  "ml",
+                ],
+                mx: ["mr", "ml"],
+                my: ["mt", "mb"],
+                size: ["w", "h"],
+                "font-size": ["leading"],
+                "fvn-normal": [
+                  "fvn-ordinal",
+                  "fvn-slashed-zero",
+                  "fvn-figure",
+                  "fvn-spacing",
+                  "fvn-fraction",
+                ],
+                "fvn-ordinal": ["fvn-normal"],
+                "fvn-slashed-zero": ["fvn-normal"],
+                "fvn-figure": ["fvn-normal"],
+                "fvn-spacing": ["fvn-normal"],
+                "fvn-fraction": ["fvn-normal"],
+                "line-clamp": ["display", "overflow"],
+                rounded: [
+                  "rounded-s",
+                  "rounded-e",
+                  "rounded-t",
+                  "rounded-r",
+                  "rounded-b",
+                  "rounded-l",
+                  "rounded-ss",
+                  "rounded-se",
+                  "rounded-ee",
+                  "rounded-es",
+                  "rounded-tl",
+                  "rounded-tr",
+                  "rounded-br",
+                  "rounded-bl",
+                ],
+                "rounded-s": ["rounded-ss", "rounded-es"],
+                "rounded-e": ["rounded-se", "rounded-ee"],
+                "rounded-t": ["rounded-tl", "rounded-tr"],
+                "rounded-r": ["rounded-tr", "rounded-br"],
+                "rounded-b": ["rounded-br", "rounded-bl"],
+                "rounded-l": ["rounded-tl", "rounded-bl"],
+                "border-spacing": ["border-spacing-x", "border-spacing-y"],
+                "border-w": [
+                  "border-w-x",
+                  "border-w-y",
+                  "border-w-s",
+                  "border-w-e",
+                  "border-w-bs",
+                  "border-w-be",
+                  "border-w-t",
+                  "border-w-r",
+                  "border-w-b",
+                  "border-w-l",
+                ],
+                "border-w-x": ["border-w-r", "border-w-l"],
+                "border-w-y": ["border-w-t", "border-w-b"],
+                "border-color": [
+                  "border-color-x",
+                  "border-color-y",
+                  "border-color-s",
+                  "border-color-e",
+                  "border-color-bs",
+                  "border-color-be",
+                  "border-color-t",
+                  "border-color-r",
+                  "border-color-b",
+                  "border-color-l",
+                ],
+                "border-color-x": ["border-color-r", "border-color-l"],
+                "border-color-y": ["border-color-t", "border-color-b"],
+                translate: ["translate-x", "translate-y", "translate-none"],
+                "translate-none": [
+                  "translate",
+                  "translate-x",
+                  "translate-y",
+                  "translate-z",
+                ],
+                "scroll-m": [
+                  "scroll-mx",
+                  "scroll-my",
+                  "scroll-ms",
+                  "scroll-me",
+                  "scroll-mbs",
+                  "scroll-mbe",
+                  "scroll-mt",
+                  "scroll-mr",
+                  "scroll-mb",
+                  "scroll-ml",
+                ],
+                "scroll-mx": ["scroll-mr", "scroll-ml"],
+                "scroll-my": ["scroll-mt", "scroll-mb"],
+                "scroll-p": [
+                  "scroll-px",
+                  "scroll-py",
+                  "scroll-ps",
+                  "scroll-pe",
+                  "scroll-pbs",
+                  "scroll-pbe",
+                  "scroll-pt",
+                  "scroll-pr",
+                  "scroll-pb",
+                  "scroll-pl",
+                ],
+                "scroll-px": ["scroll-pr", "scroll-pl"],
+                "scroll-py": ["scroll-pt", "scroll-pb"],
+                touch: ["touch-x", "touch-y", "touch-pz"],
+                "touch-x": ["touch"],
+                "touch-y": ["touch"],
+                "touch-pz": ["touch"],
+              },
+              conflictingClassGroupModifiers: { "font-size": ["leading"] },
+              orderSensitiveModifiers: [
+                "*",
+                "**",
+                "after",
+                "backdrop",
+                "before",
+                "details-content",
+                "file",
+                "first-letter",
+                "first-line",
+                "marker",
+                "placeholder",
+                "selection",
+              ],
+            };
+          }),
+          (i = (e) => {
+            let r = s(e);
             if (r) return r;
-            let l = ((e, r) => {
+            let o = ((e, r) => {
               let {
                   parseClassName: o,
                   getClassGroupId: t,
                   getConflictingClassGroupIds: l,
                   sortModifiers: s,
                 } = r,
-                n = [],
-                a = e.trim().split(g),
+                a = [],
+                n = e.trim().split(y),
                 i = "";
-              for (let e = a.length - 1; e >= 0; e -= 1) {
-                let r = a[e],
+              for (let e = n.length - 1; e >= 0; e -= 1) {
+                let r = n[e],
                   {
                     isExternal: d,
                     modifiers: c,
@@ -217,1135 +1243,181 @@
                         : s(c).join(":"),
                   h = m ? g + "!" : g,
                   k = h + f;
-                if (n.indexOf(k) > -1) continue;
-                n.push(k);
+                if (a.indexOf(k) > -1) continue;
+                a.push(k);
                 let w = l(f, u);
                 for (let e = 0; e < w.length; ++e) {
                   let r = w[e];
-                  n.push(h + r);
+                  a.push(h + r);
                 }
                 i = r + (i.length > 0 ? " " + i : i);
               }
               return i;
-            })(e, o);
-            return (a(e, l), l);
-          };
-        return (
-          (i = (c) => (
-            (t = (o = ((e) => ({
-              cache: ((e) => {
-                if (e < 1) return { get: () => void 0, set: () => {} };
-                let r = 0,
-                  o = Object.create(null),
-                  t = Object.create(null),
-                  l = (l, s) => {
-                    ((o[l] = s),
-                      ++r > e && ((r = 0), (t = o), (o = Object.create(null))));
+            })(e, l);
+            return (a(e, o), o);
+          }),
+          (n = (e) => {
+            var r;
+            let o;
+            return (
+              (s = (l = {
+                cache: ((e) => {
+                  if (e < 1) return { get: () => void 0, set: () => {} };
+                  let r = 0,
+                    o = Object.create(null),
+                    t = Object.create(null),
+                    l = (l, s) => {
+                      ((o[l] = s),
+                        ++r > e &&
+                          ((r = 0), (t = o), (o = Object.create(null))));
+                    };
+                  return {
+                    get(e) {
+                      let r = o[e];
+                      return void 0 !== r
+                        ? r
+                        : void 0 !== (r = t[e])
+                          ? (l(e, r), r)
+                          : void 0;
+                    },
+                    set(e, r) {
+                      e in o ? (o[e] = r) : l(e, r);
+                    },
                   };
-                return {
-                  get(e) {
-                    let r = o[e];
-                    return void 0 !== r
-                      ? r
-                      : void 0 !== (r = t[e])
-                        ? (l(e, r), r)
-                        : void 0;
-                  },
-                  set(e, r) {
-                    e in o ? (o[e] = r) : l(e, r);
-                  },
-                };
-              })(e.cacheSize),
-              parseClassName: ((e) => {
-                let { prefix: r, experimentalParseClassName: o } = e,
-                  t = (e) => {
-                    let r,
-                      o = [],
-                      t = 0,
-                      l = 0,
-                      s = 0,
-                      n = e.length;
-                    for (let a = 0; a < n; a++) {
-                      let n = e[a];
-                      if (0 === t && 0 === l) {
-                        if (":" === n) {
-                          (o.push(e.slice(s, a)), (s = a + 1));
-                          continue;
+                })((r = [].reduce((e, r) => r(e), t())).cacheSize),
+                parseClassName: ((e) => {
+                  let { prefix: r, experimentalParseClassName: o } = e,
+                    t = (e) => {
+                      let r,
+                        o = [],
+                        t = 0,
+                        l = 0,
+                        s = 0,
+                        a = e.length;
+                      for (let n = 0; n < a; n++) {
+                        let a = e[n];
+                        if (0 === t && 0 === l) {
+                          if (":" === a) {
+                            (o.push(e.slice(s, n)), (s = n + 1));
+                            continue;
+                          }
+                          if ("/" === a) {
+                            r = n;
+                            continue;
+                          }
                         }
-                        if ("/" === n) {
-                          r = a;
-                          continue;
-                        }
+                        "[" === a
+                          ? t++
+                          : "]" === a
+                            ? t--
+                            : "(" === a
+                              ? l++
+                              : ")" === a && l--;
                       }
-                      "[" === n
-                        ? t++
-                        : "]" === n
-                          ? t--
-                          : "(" === n
-                            ? l++
-                            : ")" === n && l--;
-                    }
-                    let a = 0 === o.length ? e : e.slice(s),
-                      i = a,
-                      d = !1;
-                    return (
-                      a.endsWith("!")
-                        ? ((i = a.slice(0, -1)), (d = !0))
-                        : a.startsWith("!") && ((i = a.slice(1)), (d = !0)),
-                      f(o, d, i, r && r > s ? r - s : void 0)
-                    );
-                  };
-                if (r) {
-                  let e = r + ":",
-                    o = t;
-                  t = (r) =>
-                    r.startsWith(e)
-                      ? o(r.slice(e.length))
-                      : f(u, !1, r, void 0, !0);
-                }
-                if (o) {
-                  let e = t;
-                  t = (r) => o({ className: r, parseClassName: e });
-                }
-                return t;
-              })(e),
-              sortModifiers: ((e) => {
-                let r = new Map();
-                return (
-                  e.orderSensitiveModifiers.forEach((e, o) => {
-                    r.set(e, 1e6 + o);
+                      let n = 0 === o.length ? e : e.slice(s),
+                        i = n,
+                        d = !1;
+                      return (
+                        n.endsWith("!")
+                          ? ((i = n.slice(0, -1)), (d = !0))
+                          : n.startsWith("!") && ((i = n.slice(1)), (d = !0)),
+                        v(o, d, i, r && r > s ? r - s : void 0)
+                      );
+                    };
+                  if (r) {
+                    let e = r + ":",
+                      o = t;
+                    t = (r) =>
+                      r.startsWith(e)
+                        ? o(r.slice(e.length))
+                        : v(x, !1, r, void 0, !0);
+                  }
+                  if (o) {
+                    let e = t;
+                    t = (r) => o({ className: r, parseClassName: e });
+                  }
+                  return t;
+                })(r),
+                sortModifiers:
+                  ((o = new Map()),
+                  r.orderSensitiveModifiers.forEach((e, r) => {
+                    o.set(e, 1e6 + r);
                   }),
                   (e) => {
-                    let o = [],
+                    let r = [],
                       t = [];
                     for (let l = 0; l < e.length; l++) {
                       let s = e[l],
-                        n = "[" === s[0],
-                        a = r.has(s);
-                      n || a
-                        ? (t.length > 0 && (t.sort(), o.push(...t), (t = [])),
-                          o.push(s))
+                        a = "[" === s[0],
+                        n = o.has(s);
+                      a || n
+                        ? (t.length > 0 && (t.sort(), r.push(...t), (t = [])),
+                          r.push(s))
                         : t.push(s);
                     }
-                    return (t.length > 0 && (t.sort(), o.push(...t)), o);
-                  }
-                );
-              })(e),
-              ...((e) => {
-                let r = ((e) => {
-                    let { theme: r, classGroups: o } = e;
-                    return n(o, r);
-                  })(e),
-                  {
-                    conflictingClassGroups: o,
-                    conflictingClassGroupModifiers: t,
-                  } = e;
-                return {
-                  getClassGroupId: (e) => {
-                    if (e.startsWith("[") && e.endsWith("]"))
-                      return ((e) =>
-                        -1 === e.slice(1, -1).indexOf(":")
+                    return (t.length > 0 && (t.sort(), r.push(...t)), r);
+                  }),
+                ...((e) => {
+                  let r = ((e) => {
+                      let { theme: r, classGroups: o } = e;
+                      return p(o, r);
+                    })(e),
+                    {
+                      conflictingClassGroups: o,
+                      conflictingClassGroupModifiers: t,
+                    } = e;
+                  return {
+                    getClassGroupId: (e) => {
+                      if (e.startsWith("[") && e.endsWith("]")) {
+                        var o;
+                        let r, t, l;
+                        return -1 === (o = e).slice(1, -1).indexOf(":")
                           ? void 0
-                          : (() => {
-                              let r = e.slice(1, -1),
-                                o = r.indexOf(":"),
-                                t = r.slice(0, o);
-                              return t ? "arbitrary.." + t : void 0;
-                            })())(e);
-                    let o = e.split("-"),
-                      t = +("" === o[0] && o.length > 1);
-                    return s(o, t, r);
-                  },
-                  getConflictingClassGroupIds: (e, r) => {
-                    if (r) {
-                      let r = t[e],
-                        s = o[e];
-                      return r
-                        ? s
-                          ? ((e, r) => {
-                              let o = Array(e.length + r.length);
-                              for (let r = 0; r < e.length; r++) o[r] = e[r];
-                              for (let t = 0; t < r.length; t++)
-                                o[e.length + t] = r[t];
-                              return o;
-                            })(s, r)
-                          : r
-                        : s || l;
-                    }
-                    return o[e] || l;
-                  },
-                };
-              })(e),
-            }))(r.reduce((e, r) => r(e), e()))).cache.get),
-            (a = o.cache.set),
-            (i = d),
-            d(c)
-          )),
+                          : ((t = (r = o.slice(1, -1)).indexOf(":")),
+                            (l = r.slice(0, t)) ? "arbitrary.." + l : void 0);
+                      }
+                      let t = e.split("-"),
+                        l = +("" === t[0] && t.length > 1);
+                      return m(t, l, r);
+                    },
+                    getConflictingClassGroupIds: (e, r) => {
+                      if (r) {
+                        let r = t[e],
+                          l = o[e];
+                        if (r) {
+                          if (l) {
+                            let e = Array(l.length + r.length);
+                            for (let r = 0; r < l.length; r++) e[r] = l[r];
+                            for (let o = 0; o < r.length; o++)
+                              e[l.length + o] = r[o];
+                            return e;
+                          }
+                          return r;
+                        }
+                        return l || c;
+                      }
+                      return o[e] || c;
+                    },
+                  };
+                })(r),
+              }).cache.get),
+              (a = l.cache.set),
+              (n = i),
+              i(e)
+            );
+          }),
           (...e) =>
-            i(
+            n(
               ((...e) => {
                 let r,
                   o,
                   t = 0,
                   l = "";
                 for (; t < e.length; )
-                  (r = e[t++]) && (o = h(r)) && (l && (l += " "), (l += o));
+                  (r = e[t++]) && (o = z(r)) && (l && (l += " "), (l += o));
                 return l;
               })(...e),
-            )
-        );
-      })(() => {
-        let e = w("color"),
-          r = w("font"),
-          o = w("text"),
-          t = w("font-weight"),
-          l = w("tracking"),
-          s = w("leading"),
-          n = w("breakpoint"),
-          a = w("container"),
-          i = w("spacing"),
-          d = w("radius"),
-          c = w("shadow"),
-          m = w("inset-shadow"),
-          p = w("text-shadow"),
-          b = w("drop-shadow"),
-          u = w("blur"),
-          f = w("perspective"),
-          g = w("aspect"),
-          h = w("ease"),
-          k = w("animate"),
-          x = () => [
-            "auto",
-            "avoid",
-            "all",
-            "avoid-page",
-            "page",
-            "left",
-            "right",
-            "column",
-          ],
-          v = () => [
-            "center",
-            "top",
-            "bottom",
-            "left",
-            "right",
-            "top-left",
-            "left-top",
-            "top-right",
-            "right-top",
-            "bottom-right",
-            "right-bottom",
-            "bottom-left",
-            "left-bottom",
-          ],
-          y = () => [...v(), R, Q],
-          z = () => ["auto", "hidden", "clip", "visible", "scroll"],
-          j = () => ["auto", "contain", "none"],
-          G = () => [R, Q, i],
-          N = () => [$, "full", "auto", ...G()],
-          C = () => [O, "none", "subgrid", R, Q],
-          _ = () => ["auto", { span: ["full", O, R, Q] }, O, R, Q],
-          P = () => [O, "auto", R, Q],
-          T = () => ["auto", "min", "max", "fr", R, Q],
-          A = () => [
-            "start",
-            "end",
-            "center",
-            "between",
-            "around",
-            "evenly",
-            "stretch",
-            "baseline",
-            "center-safe",
-            "end-safe",
-          ],
-          eo = () => [
-            "start",
-            "end",
-            "center",
-            "stretch",
-            "center-safe",
-            "end-safe",
-          ],
-          et = () => ["auto", ...G()],
-          el = () => [
-            $,
-            "auto",
-            "full",
-            "dvw",
-            "dvh",
-            "lvw",
-            "lvh",
-            "svw",
-            "svh",
-            "min",
-            "max",
-            "fit",
-            ...G(),
-          ],
-          es = () => [
-            $,
-            "screen",
-            "full",
-            "dvw",
-            "lvw",
-            "svw",
-            "min",
-            "max",
-            "fit",
-            ...G(),
-          ],
-          en = () => [
-            $,
-            "screen",
-            "full",
-            "lh",
-            "dvh",
-            "lvh",
-            "svh",
-            "min",
-            "max",
-            "fit",
-            ...G(),
-          ],
-          ea = () => [e, R, Q],
-          ei = () => [...v(), X, J, { position: [R, Q] }],
-          ed = () => [
-            "no-repeat",
-            { repeat: ["", "x", "y", "space", "round"] },
-          ],
-          ec = () => ["auto", "cover", "contain", Y, q, { size: [R, Q] }],
-          em = () => [M, U, B],
-          ep = () => ["", "none", "full", d, R, Q],
-          eb = () => ["", I, U, B],
-          eu = () => ["solid", "dashed", "dotted", "double"],
-          ef = () => [
-            "normal",
-            "multiply",
-            "screen",
-            "overlay",
-            "darken",
-            "lighten",
-            "color-dodge",
-            "color-burn",
-            "hard-light",
-            "soft-light",
-            "difference",
-            "exclusion",
-            "hue",
-            "saturation",
-            "color",
-            "luminosity",
-          ],
-          eg = () => [I, M, X, J],
-          eh = () => ["", "none", u, R, Q],
-          ek = () => ["none", I, R, Q],
-          ew = () => ["none", I, R, Q],
-          ex = () => [I, R, Q],
-          ev = () => [$, "full", ...G()];
-        return {
-          cacheSize: 500,
-          theme: {
-            animate: ["spin", "ping", "pulse", "bounce"],
-            aspect: ["video"],
-            blur: [S],
-            breakpoint: [S],
-            color: [W],
-            container: [S],
-            "drop-shadow": [S],
-            ease: ["in", "out", "in-out"],
-            font: [E],
-            "font-weight": [
-              "thin",
-              "extralight",
-              "light",
-              "normal",
-              "medium",
-              "semibold",
-              "bold",
-              "extrabold",
-              "black",
-            ],
-            "inset-shadow": [S],
-            leading: ["none", "tight", "snug", "normal", "relaxed", "loose"],
-            perspective: [
-              "dramatic",
-              "near",
-              "normal",
-              "midrange",
-              "distant",
-              "none",
-            ],
-            radius: [S],
-            shadow: [S],
-            spacing: ["px", I],
-            text: [S],
-            "text-shadow": [S],
-            tracking: ["tighter", "tight", "normal", "wide", "wider", "widest"],
-          },
-          classGroups: {
-            aspect: [{ aspect: ["auto", "square", $, Q, R, g] }],
-            container: ["container"],
-            columns: [{ columns: [I, Q, R, a] }],
-            "break-after": [{ "break-after": x() }],
-            "break-before": [{ "break-before": x() }],
-            "break-inside": [
-              {
-                "break-inside": ["auto", "avoid", "avoid-page", "avoid-column"],
-              },
-            ],
-            "box-decoration": [{ "box-decoration": ["slice", "clone"] }],
-            box: [{ box: ["border", "content"] }],
-            display: [
-              "block",
-              "inline-block",
-              "inline",
-              "flex",
-              "inline-flex",
-              "table",
-              "inline-table",
-              "table-caption",
-              "table-cell",
-              "table-column",
-              "table-column-group",
-              "table-footer-group",
-              "table-header-group",
-              "table-row-group",
-              "table-row",
-              "flow-root",
-              "grid",
-              "inline-grid",
-              "contents",
-              "list-item",
-              "hidden",
-            ],
-            sr: ["sr-only", "not-sr-only"],
-            float: [{ float: ["right", "left", "none", "start", "end"] }],
-            clear: [
-              { clear: ["left", "right", "both", "none", "start", "end"] },
-            ],
-            isolation: ["isolate", "isolation-auto"],
-            "object-fit": [
-              { object: ["contain", "cover", "fill", "none", "scale-down"] },
-            ],
-            "object-position": [{ object: y() }],
-            overflow: [{ overflow: z() }],
-            "overflow-x": [{ "overflow-x": z() }],
-            "overflow-y": [{ "overflow-y": z() }],
-            overscroll: [{ overscroll: j() }],
-            "overscroll-x": [{ "overscroll-x": j() }],
-            "overscroll-y": [{ "overscroll-y": j() }],
-            position: ["static", "fixed", "absolute", "relative", "sticky"],
-            inset: [{ inset: N() }],
-            "inset-x": [{ "inset-x": N() }],
-            "inset-y": [{ "inset-y": N() }],
-            start: [{ "inset-s": N(), start: N() }],
-            end: [{ "inset-e": N(), end: N() }],
-            "inset-bs": [{ "inset-bs": N() }],
-            "inset-be": [{ "inset-be": N() }],
-            top: [{ top: N() }],
-            right: [{ right: N() }],
-            bottom: [{ bottom: N() }],
-            left: [{ left: N() }],
-            visibility: ["visible", "invisible", "collapse"],
-            z: [{ z: [O, "auto", R, Q] }],
-            basis: [{ basis: [$, "full", "auto", a, ...G()] }],
-            "flex-direction": [
-              { flex: ["row", "row-reverse", "col", "col-reverse"] },
-            ],
-            "flex-wrap": [{ flex: ["nowrap", "wrap", "wrap-reverse"] }],
-            flex: [{ flex: [I, $, "auto", "initial", "none", Q] }],
-            grow: [{ grow: ["", I, R, Q] }],
-            shrink: [{ shrink: ["", I, R, Q] }],
-            order: [{ order: [O, "first", "last", "none", R, Q] }],
-            "grid-cols": [{ "grid-cols": C() }],
-            "col-start-end": [{ col: _() }],
-            "col-start": [{ "col-start": P() }],
-            "col-end": [{ "col-end": P() }],
-            "grid-rows": [{ "grid-rows": C() }],
-            "row-start-end": [{ row: _() }],
-            "row-start": [{ "row-start": P() }],
-            "row-end": [{ "row-end": P() }],
-            "grid-flow": [
-              {
-                "grid-flow": ["row", "col", "dense", "row-dense", "col-dense"],
-              },
-            ],
-            "auto-cols": [{ "auto-cols": T() }],
-            "auto-rows": [{ "auto-rows": T() }],
-            gap: [{ gap: G() }],
-            "gap-x": [{ "gap-x": G() }],
-            "gap-y": [{ "gap-y": G() }],
-            "justify-content": [{ justify: [...A(), "normal"] }],
-            "justify-items": [{ "justify-items": [...eo(), "normal"] }],
-            "justify-self": [{ "justify-self": ["auto", ...eo()] }],
-            "align-content": [{ content: ["normal", ...A()] }],
-            "align-items": [{ items: [...eo(), { baseline: ["", "last"] }] }],
-            "align-self": [
-              { self: ["auto", ...eo(), { baseline: ["", "last"] }] },
-            ],
-            "place-content": [{ "place-content": A() }],
-            "place-items": [{ "place-items": [...eo(), "baseline"] }],
-            "place-self": [{ "place-self": ["auto", ...eo()] }],
-            p: [{ p: G() }],
-            px: [{ px: G() }],
-            py: [{ py: G() }],
-            ps: [{ ps: G() }],
-            pe: [{ pe: G() }],
-            pbs: [{ pbs: G() }],
-            pbe: [{ pbe: G() }],
-            pt: [{ pt: G() }],
-            pr: [{ pr: G() }],
-            pb: [{ pb: G() }],
-            pl: [{ pl: G() }],
-            m: [{ m: et() }],
-            mx: [{ mx: et() }],
-            my: [{ my: et() }],
-            ms: [{ ms: et() }],
-            me: [{ me: et() }],
-            mbs: [{ mbs: et() }],
-            mbe: [{ mbe: et() }],
-            mt: [{ mt: et() }],
-            mr: [{ mr: et() }],
-            mb: [{ mb: et() }],
-            ml: [{ ml: et() }],
-            "space-x": [{ "space-x": G() }],
-            "space-x-reverse": ["space-x-reverse"],
-            "space-y": [{ "space-y": G() }],
-            "space-y-reverse": ["space-y-reverse"],
-            size: [{ size: el() }],
-            "inline-size": [{ inline: ["auto", ...es()] }],
-            "min-inline-size": [{ "min-inline": ["auto", ...es()] }],
-            "max-inline-size": [{ "max-inline": ["none", ...es()] }],
-            "block-size": [{ block: ["auto", ...en()] }],
-            "min-block-size": [{ "min-block": ["auto", ...en()] }],
-            "max-block-size": [{ "max-block": ["none", ...en()] }],
-            w: [{ w: [a, "screen", ...el()] }],
-            "min-w": [{ "min-w": [a, "screen", "none", ...el()] }],
-            "max-w": [
-              {
-                "max-w": [
-                  a,
-                  "screen",
-                  "none",
-                  "prose",
-                  { screen: [n] },
-                  ...el(),
-                ],
-              },
-            ],
-            h: [{ h: ["screen", "lh", ...el()] }],
-            "min-h": [{ "min-h": ["screen", "lh", "none", ...el()] }],
-            "max-h": [{ "max-h": ["screen", "lh", ...el()] }],
-            "font-size": [{ text: ["base", o, U, B] }],
-            "font-smoothing": ["antialiased", "subpixel-antialiased"],
-            "font-style": ["italic", "not-italic"],
-            "font-weight": [{ font: [t, er, F] }],
-            "font-stretch": [
-              {
-                "font-stretch": [
-                  "ultra-condensed",
-                  "extra-condensed",
-                  "condensed",
-                  "semi-condensed",
-                  "normal",
-                  "semi-expanded",
-                  "expanded",
-                  "extra-expanded",
-                  "ultra-expanded",
-                  M,
-                  Q,
-                ],
-              },
-            ],
-            "font-family": [{ font: [V, H, r] }],
-            "font-features": [{ "font-features": [Q] }],
-            "fvn-normal": ["normal-nums"],
-            "fvn-ordinal": ["ordinal"],
-            "fvn-slashed-zero": ["slashed-zero"],
-            "fvn-figure": ["lining-nums", "oldstyle-nums"],
-            "fvn-spacing": ["proportional-nums", "tabular-nums"],
-            "fvn-fraction": ["diagonal-fractions", "stacked-fractions"],
-            tracking: [{ tracking: [l, R, Q] }],
-            "line-clamp": [{ "line-clamp": [I, "none", R, D] }],
-            leading: [{ leading: [s, ...G()] }],
-            "list-image": [{ "list-image": ["none", R, Q] }],
-            "list-style-position": [{ list: ["inside", "outside"] }],
-            "list-style-type": [{ list: ["disc", "decimal", "none", R, Q] }],
-            "text-alignment": [
-              { text: ["left", "center", "right", "justify", "start", "end"] },
-            ],
-            "placeholder-color": [{ placeholder: ea() }],
-            "text-color": [{ text: ea() }],
-            "text-decoration": [
-              "underline",
-              "overline",
-              "line-through",
-              "no-underline",
-            ],
-            "text-decoration-style": [{ decoration: [...eu(), "wavy"] }],
-            "text-decoration-thickness": [
-              { decoration: [I, "from-font", "auto", R, B] },
-            ],
-            "text-decoration-color": [{ decoration: ea() }],
-            "underline-offset": [{ "underline-offset": [I, "auto", R, Q] }],
-            "text-transform": [
-              "uppercase",
-              "lowercase",
-              "capitalize",
-              "normal-case",
-            ],
-            "text-overflow": ["truncate", "text-ellipsis", "text-clip"],
-            "text-wrap": [{ text: ["wrap", "nowrap", "balance", "pretty"] }],
-            indent: [{ indent: G() }],
-            "vertical-align": [
-              {
-                align: [
-                  "baseline",
-                  "top",
-                  "middle",
-                  "bottom",
-                  "text-top",
-                  "text-bottom",
-                  "sub",
-                  "super",
-                  R,
-                  Q,
-                ],
-              },
-            ],
-            whitespace: [
-              {
-                whitespace: [
-                  "normal",
-                  "nowrap",
-                  "pre",
-                  "pre-line",
-                  "pre-wrap",
-                  "break-spaces",
-                ],
-              },
-            ],
-            break: [{ break: ["normal", "words", "all", "keep"] }],
-            wrap: [{ wrap: ["break-word", "anywhere", "normal"] }],
-            hyphens: [{ hyphens: ["none", "manual", "auto"] }],
-            content: [{ content: ["none", R, Q] }],
-            "bg-attachment": [{ bg: ["fixed", "local", "scroll"] }],
-            "bg-clip": [
-              { "bg-clip": ["border", "padding", "content", "text"] },
-            ],
-            "bg-origin": [{ "bg-origin": ["border", "padding", "content"] }],
-            "bg-position": [{ bg: ei() }],
-            "bg-repeat": [{ bg: ed() }],
-            "bg-size": [{ bg: ec() }],
-            "bg-image": [
-              {
-                bg: [
-                  "none",
-                  {
-                    linear: [
-                      { to: ["t", "tr", "r", "br", "b", "bl", "l", "tl"] },
-                      O,
-                      R,
-                      Q,
-                    ],
-                    radial: ["", R, Q],
-                    conic: [O, R, Q],
-                  },
-                  Z,
-                  K,
-                ],
-              },
-            ],
-            "bg-color": [{ bg: ea() }],
-            "gradient-from-pos": [{ from: em() }],
-            "gradient-via-pos": [{ via: em() }],
-            "gradient-to-pos": [{ to: em() }],
-            "gradient-from": [{ from: ea() }],
-            "gradient-via": [{ via: ea() }],
-            "gradient-to": [{ to: ea() }],
-            rounded: [{ rounded: ep() }],
-            "rounded-s": [{ "rounded-s": ep() }],
-            "rounded-e": [{ "rounded-e": ep() }],
-            "rounded-t": [{ "rounded-t": ep() }],
-            "rounded-r": [{ "rounded-r": ep() }],
-            "rounded-b": [{ "rounded-b": ep() }],
-            "rounded-l": [{ "rounded-l": ep() }],
-            "rounded-ss": [{ "rounded-ss": ep() }],
-            "rounded-se": [{ "rounded-se": ep() }],
-            "rounded-ee": [{ "rounded-ee": ep() }],
-            "rounded-es": [{ "rounded-es": ep() }],
-            "rounded-tl": [{ "rounded-tl": ep() }],
-            "rounded-tr": [{ "rounded-tr": ep() }],
-            "rounded-br": [{ "rounded-br": ep() }],
-            "rounded-bl": [{ "rounded-bl": ep() }],
-            "border-w": [{ border: eb() }],
-            "border-w-x": [{ "border-x": eb() }],
-            "border-w-y": [{ "border-y": eb() }],
-            "border-w-s": [{ "border-s": eb() }],
-            "border-w-e": [{ "border-e": eb() }],
-            "border-w-bs": [{ "border-bs": eb() }],
-            "border-w-be": [{ "border-be": eb() }],
-            "border-w-t": [{ "border-t": eb() }],
-            "border-w-r": [{ "border-r": eb() }],
-            "border-w-b": [{ "border-b": eb() }],
-            "border-w-l": [{ "border-l": eb() }],
-            "divide-x": [{ "divide-x": eb() }],
-            "divide-x-reverse": ["divide-x-reverse"],
-            "divide-y": [{ "divide-y": eb() }],
-            "divide-y-reverse": ["divide-y-reverse"],
-            "border-style": [{ border: [...eu(), "hidden", "none"] }],
-            "divide-style": [{ divide: [...eu(), "hidden", "none"] }],
-            "border-color": [{ border: ea() }],
-            "border-color-x": [{ "border-x": ea() }],
-            "border-color-y": [{ "border-y": ea() }],
-            "border-color-s": [{ "border-s": ea() }],
-            "border-color-e": [{ "border-e": ea() }],
-            "border-color-bs": [{ "border-bs": ea() }],
-            "border-color-be": [{ "border-be": ea() }],
-            "border-color-t": [{ "border-t": ea() }],
-            "border-color-r": [{ "border-r": ea() }],
-            "border-color-b": [{ "border-b": ea() }],
-            "border-color-l": [{ "border-l": ea() }],
-            "divide-color": [{ divide: ea() }],
-            "outline-style": [{ outline: [...eu(), "none", "hidden"] }],
-            "outline-offset": [{ "outline-offset": [I, R, Q] }],
-            "outline-w": [{ outline: ["", I, U, B] }],
-            "outline-color": [{ outline: ea() }],
-            shadow: [{ shadow: ["", "none", c, ee, L] }],
-            "shadow-color": [{ shadow: ea() }],
-            "inset-shadow": [{ "inset-shadow": ["none", m, ee, L] }],
-            "inset-shadow-color": [{ "inset-shadow": ea() }],
-            "ring-w": [{ ring: eb() }],
-            "ring-w-inset": ["ring-inset"],
-            "ring-color": [{ ring: ea() }],
-            "ring-offset-w": [{ "ring-offset": [I, B] }],
-            "ring-offset-color": [{ "ring-offset": ea() }],
-            "inset-ring-w": [{ "inset-ring": eb() }],
-            "inset-ring-color": [{ "inset-ring": ea() }],
-            "text-shadow": [{ "text-shadow": ["none", p, ee, L] }],
-            "text-shadow-color": [{ "text-shadow": ea() }],
-            opacity: [{ opacity: [I, R, Q] }],
-            "mix-blend": [
-              { "mix-blend": [...ef(), "plus-darker", "plus-lighter"] },
-            ],
-            "bg-blend": [{ "bg-blend": ef() }],
-            "mask-clip": [
-              {
-                "mask-clip": [
-                  "border",
-                  "padding",
-                  "content",
-                  "fill",
-                  "stroke",
-                  "view",
-                ],
-              },
-              "mask-no-clip",
-            ],
-            "mask-composite": [
-              { mask: ["add", "subtract", "intersect", "exclude"] },
-            ],
-            "mask-image-linear-pos": [{ "mask-linear": [I] }],
-            "mask-image-linear-from-pos": [{ "mask-linear-from": eg() }],
-            "mask-image-linear-to-pos": [{ "mask-linear-to": eg() }],
-            "mask-image-linear-from-color": [{ "mask-linear-from": ea() }],
-            "mask-image-linear-to-color": [{ "mask-linear-to": ea() }],
-            "mask-image-t-from-pos": [{ "mask-t-from": eg() }],
-            "mask-image-t-to-pos": [{ "mask-t-to": eg() }],
-            "mask-image-t-from-color": [{ "mask-t-from": ea() }],
-            "mask-image-t-to-color": [{ "mask-t-to": ea() }],
-            "mask-image-r-from-pos": [{ "mask-r-from": eg() }],
-            "mask-image-r-to-pos": [{ "mask-r-to": eg() }],
-            "mask-image-r-from-color": [{ "mask-r-from": ea() }],
-            "mask-image-r-to-color": [{ "mask-r-to": ea() }],
-            "mask-image-b-from-pos": [{ "mask-b-from": eg() }],
-            "mask-image-b-to-pos": [{ "mask-b-to": eg() }],
-            "mask-image-b-from-color": [{ "mask-b-from": ea() }],
-            "mask-image-b-to-color": [{ "mask-b-to": ea() }],
-            "mask-image-l-from-pos": [{ "mask-l-from": eg() }],
-            "mask-image-l-to-pos": [{ "mask-l-to": eg() }],
-            "mask-image-l-from-color": [{ "mask-l-from": ea() }],
-            "mask-image-l-to-color": [{ "mask-l-to": ea() }],
-            "mask-image-x-from-pos": [{ "mask-x-from": eg() }],
-            "mask-image-x-to-pos": [{ "mask-x-to": eg() }],
-            "mask-image-x-from-color": [{ "mask-x-from": ea() }],
-            "mask-image-x-to-color": [{ "mask-x-to": ea() }],
-            "mask-image-y-from-pos": [{ "mask-y-from": eg() }],
-            "mask-image-y-to-pos": [{ "mask-y-to": eg() }],
-            "mask-image-y-from-color": [{ "mask-y-from": ea() }],
-            "mask-image-y-to-color": [{ "mask-y-to": ea() }],
-            "mask-image-radial": [{ "mask-radial": [R, Q] }],
-            "mask-image-radial-from-pos": [{ "mask-radial-from": eg() }],
-            "mask-image-radial-to-pos": [{ "mask-radial-to": eg() }],
-            "mask-image-radial-from-color": [{ "mask-radial-from": ea() }],
-            "mask-image-radial-to-color": [{ "mask-radial-to": ea() }],
-            "mask-image-radial-shape": [
-              { "mask-radial": ["circle", "ellipse"] },
-            ],
-            "mask-image-radial-size": [
-              {
-                "mask-radial": [
-                  { closest: ["side", "corner"], farthest: ["side", "corner"] },
-                ],
-              },
-            ],
-            "mask-image-radial-pos": [{ "mask-radial-at": v() }],
-            "mask-image-conic-pos": [{ "mask-conic": [I] }],
-            "mask-image-conic-from-pos": [{ "mask-conic-from": eg() }],
-            "mask-image-conic-to-pos": [{ "mask-conic-to": eg() }],
-            "mask-image-conic-from-color": [{ "mask-conic-from": ea() }],
-            "mask-image-conic-to-color": [{ "mask-conic-to": ea() }],
-            "mask-mode": [{ mask: ["alpha", "luminance", "match"] }],
-            "mask-origin": [
-              {
-                "mask-origin": [
-                  "border",
-                  "padding",
-                  "content",
-                  "fill",
-                  "stroke",
-                  "view",
-                ],
-              },
-            ],
-            "mask-position": [{ mask: ei() }],
-            "mask-repeat": [{ mask: ed() }],
-            "mask-size": [{ mask: ec() }],
-            "mask-type": [{ "mask-type": ["alpha", "luminance"] }],
-            "mask-image": [{ mask: ["none", R, Q] }],
-            filter: [{ filter: ["", "none", R, Q] }],
-            blur: [{ blur: eh() }],
-            brightness: [{ brightness: [I, R, Q] }],
-            contrast: [{ contrast: [I, R, Q] }],
-            "drop-shadow": [{ "drop-shadow": ["", "none", b, ee, L] }],
-            "drop-shadow-color": [{ "drop-shadow": ea() }],
-            grayscale: [{ grayscale: ["", I, R, Q] }],
-            "hue-rotate": [{ "hue-rotate": [I, R, Q] }],
-            invert: [{ invert: ["", I, R, Q] }],
-            saturate: [{ saturate: [I, R, Q] }],
-            sepia: [{ sepia: ["", I, R, Q] }],
-            "backdrop-filter": [{ "backdrop-filter": ["", "none", R, Q] }],
-            "backdrop-blur": [{ "backdrop-blur": eh() }],
-            "backdrop-brightness": [{ "backdrop-brightness": [I, R, Q] }],
-            "backdrop-contrast": [{ "backdrop-contrast": [I, R, Q] }],
-            "backdrop-grayscale": [{ "backdrop-grayscale": ["", I, R, Q] }],
-            "backdrop-hue-rotate": [{ "backdrop-hue-rotate": [I, R, Q] }],
-            "backdrop-invert": [{ "backdrop-invert": ["", I, R, Q] }],
-            "backdrop-opacity": [{ "backdrop-opacity": [I, R, Q] }],
-            "backdrop-saturate": [{ "backdrop-saturate": [I, R, Q] }],
-            "backdrop-sepia": [{ "backdrop-sepia": ["", I, R, Q] }],
-            "border-collapse": [{ border: ["collapse", "separate"] }],
-            "border-spacing": [{ "border-spacing": G() }],
-            "border-spacing-x": [{ "border-spacing-x": G() }],
-            "border-spacing-y": [{ "border-spacing-y": G() }],
-            "table-layout": [{ table: ["auto", "fixed"] }],
-            caption: [{ caption: ["top", "bottom"] }],
-            transition: [
-              {
-                transition: [
-                  "",
-                  "all",
-                  "colors",
-                  "opacity",
-                  "shadow",
-                  "transform",
-                  "none",
-                  R,
-                  Q,
-                ],
-              },
-            ],
-            "transition-behavior": [{ transition: ["normal", "discrete"] }],
-            duration: [{ duration: [I, "initial", R, Q] }],
-            ease: [{ ease: ["linear", "initial", h, R, Q] }],
-            delay: [{ delay: [I, R, Q] }],
-            animate: [{ animate: ["none", k, R, Q] }],
-            backface: [{ backface: ["hidden", "visible"] }],
-            perspective: [{ perspective: [f, R, Q] }],
-            "perspective-origin": [{ "perspective-origin": y() }],
-            rotate: [{ rotate: ek() }],
-            "rotate-x": [{ "rotate-x": ek() }],
-            "rotate-y": [{ "rotate-y": ek() }],
-            "rotate-z": [{ "rotate-z": ek() }],
-            scale: [{ scale: ew() }],
-            "scale-x": [{ "scale-x": ew() }],
-            "scale-y": [{ "scale-y": ew() }],
-            "scale-z": [{ "scale-z": ew() }],
-            "scale-3d": ["scale-3d"],
-            skew: [{ skew: ex() }],
-            "skew-x": [{ "skew-x": ex() }],
-            "skew-y": [{ "skew-y": ex() }],
-            transform: [{ transform: [R, Q, "", "none", "gpu", "cpu"] }],
-            "transform-origin": [{ origin: y() }],
-            "transform-style": [{ transform: ["3d", "flat"] }],
-            translate: [{ translate: ev() }],
-            "translate-x": [{ "translate-x": ev() }],
-            "translate-y": [{ "translate-y": ev() }],
-            "translate-z": [{ "translate-z": ev() }],
-            "translate-none": ["translate-none"],
-            accent: [{ accent: ea() }],
-            appearance: [{ appearance: ["none", "auto"] }],
-            "caret-color": [{ caret: ea() }],
-            "color-scheme": [
-              {
-                scheme: [
-                  "normal",
-                  "dark",
-                  "light",
-                  "light-dark",
-                  "only-dark",
-                  "only-light",
-                ],
-              },
-            ],
-            cursor: [
-              {
-                cursor: [
-                  "auto",
-                  "default",
-                  "pointer",
-                  "wait",
-                  "text",
-                  "move",
-                  "help",
-                  "not-allowed",
-                  "none",
-                  "context-menu",
-                  "progress",
-                  "cell",
-                  "crosshair",
-                  "vertical-text",
-                  "alias",
-                  "copy",
-                  "no-drop",
-                  "grab",
-                  "grabbing",
-                  "all-scroll",
-                  "col-resize",
-                  "row-resize",
-                  "n-resize",
-                  "e-resize",
-                  "s-resize",
-                  "w-resize",
-                  "ne-resize",
-                  "nw-resize",
-                  "se-resize",
-                  "sw-resize",
-                  "ew-resize",
-                  "ns-resize",
-                  "nesw-resize",
-                  "nwse-resize",
-                  "zoom-in",
-                  "zoom-out",
-                  R,
-                  Q,
-                ],
-              },
-            ],
-            "field-sizing": [{ "field-sizing": ["fixed", "content"] }],
-            "pointer-events": [{ "pointer-events": ["auto", "none"] }],
-            resize: [{ resize: ["none", "", "y", "x"] }],
-            "scroll-behavior": [{ scroll: ["auto", "smooth"] }],
-            "scroll-m": [{ "scroll-m": G() }],
-            "scroll-mx": [{ "scroll-mx": G() }],
-            "scroll-my": [{ "scroll-my": G() }],
-            "scroll-ms": [{ "scroll-ms": G() }],
-            "scroll-me": [{ "scroll-me": G() }],
-            "scroll-mbs": [{ "scroll-mbs": G() }],
-            "scroll-mbe": [{ "scroll-mbe": G() }],
-            "scroll-mt": [{ "scroll-mt": G() }],
-            "scroll-mr": [{ "scroll-mr": G() }],
-            "scroll-mb": [{ "scroll-mb": G() }],
-            "scroll-ml": [{ "scroll-ml": G() }],
-            "scroll-p": [{ "scroll-p": G() }],
-            "scroll-px": [{ "scroll-px": G() }],
-            "scroll-py": [{ "scroll-py": G() }],
-            "scroll-ps": [{ "scroll-ps": G() }],
-            "scroll-pe": [{ "scroll-pe": G() }],
-            "scroll-pbs": [{ "scroll-pbs": G() }],
-            "scroll-pbe": [{ "scroll-pbe": G() }],
-            "scroll-pt": [{ "scroll-pt": G() }],
-            "scroll-pr": [{ "scroll-pr": G() }],
-            "scroll-pb": [{ "scroll-pb": G() }],
-            "scroll-pl": [{ "scroll-pl": G() }],
-            "snap-align": [{ snap: ["start", "end", "center", "align-none"] }],
-            "snap-stop": [{ snap: ["normal", "always"] }],
-            "snap-type": [{ snap: ["none", "x", "y", "both"] }],
-            "snap-strictness": [{ snap: ["mandatory", "proximity"] }],
-            touch: [{ touch: ["auto", "none", "manipulation"] }],
-            "touch-x": [{ "touch-pan": ["x", "left", "right"] }],
-            "touch-y": [{ "touch-pan": ["y", "up", "down"] }],
-            "touch-pz": ["touch-pinch-zoom"],
-            select: [{ select: ["none", "text", "all", "auto"] }],
-            "will-change": [
-              {
-                "will-change": [
-                  "auto",
-                  "scroll",
-                  "contents",
-                  "transform",
-                  R,
-                  Q,
-                ],
-              },
-            ],
-            fill: [{ fill: ["none", ...ea()] }],
-            "stroke-w": [{ stroke: [I, U, B, D] }],
-            stroke: [{ stroke: ["none", ...ea()] }],
-            "forced-color-adjust": [
-              { "forced-color-adjust": ["auto", "none"] },
-            ],
-          },
-          conflictingClassGroups: {
-            overflow: ["overflow-x", "overflow-y"],
-            overscroll: ["overscroll-x", "overscroll-y"],
-            inset: [
-              "inset-x",
-              "inset-y",
-              "inset-bs",
-              "inset-be",
-              "start",
-              "end",
-              "top",
-              "right",
-              "bottom",
-              "left",
-            ],
-            "inset-x": ["right", "left"],
-            "inset-y": ["top", "bottom"],
-            flex: ["basis", "grow", "shrink"],
-            gap: ["gap-x", "gap-y"],
-            p: ["px", "py", "ps", "pe", "pbs", "pbe", "pt", "pr", "pb", "pl"],
-            px: ["pr", "pl"],
-            py: ["pt", "pb"],
-            m: ["mx", "my", "ms", "me", "mbs", "mbe", "mt", "mr", "mb", "ml"],
-            mx: ["mr", "ml"],
-            my: ["mt", "mb"],
-            size: ["w", "h"],
-            "font-size": ["leading"],
-            "fvn-normal": [
-              "fvn-ordinal",
-              "fvn-slashed-zero",
-              "fvn-figure",
-              "fvn-spacing",
-              "fvn-fraction",
-            ],
-            "fvn-ordinal": ["fvn-normal"],
-            "fvn-slashed-zero": ["fvn-normal"],
-            "fvn-figure": ["fvn-normal"],
-            "fvn-spacing": ["fvn-normal"],
-            "fvn-fraction": ["fvn-normal"],
-            "line-clamp": ["display", "overflow"],
-            rounded: [
-              "rounded-s",
-              "rounded-e",
-              "rounded-t",
-              "rounded-r",
-              "rounded-b",
-              "rounded-l",
-              "rounded-ss",
-              "rounded-se",
-              "rounded-ee",
-              "rounded-es",
-              "rounded-tl",
-              "rounded-tr",
-              "rounded-br",
-              "rounded-bl",
-            ],
-            "rounded-s": ["rounded-ss", "rounded-es"],
-            "rounded-e": ["rounded-se", "rounded-ee"],
-            "rounded-t": ["rounded-tl", "rounded-tr"],
-            "rounded-r": ["rounded-tr", "rounded-br"],
-            "rounded-b": ["rounded-br", "rounded-bl"],
-            "rounded-l": ["rounded-tl", "rounded-bl"],
-            "border-spacing": ["border-spacing-x", "border-spacing-y"],
-            "border-w": [
-              "border-w-x",
-              "border-w-y",
-              "border-w-s",
-              "border-w-e",
-              "border-w-bs",
-              "border-w-be",
-              "border-w-t",
-              "border-w-r",
-              "border-w-b",
-              "border-w-l",
-            ],
-            "border-w-x": ["border-w-r", "border-w-l"],
-            "border-w-y": ["border-w-t", "border-w-b"],
-            "border-color": [
-              "border-color-x",
-              "border-color-y",
-              "border-color-s",
-              "border-color-e",
-              "border-color-bs",
-              "border-color-be",
-              "border-color-t",
-              "border-color-r",
-              "border-color-b",
-              "border-color-l",
-            ],
-            "border-color-x": ["border-color-r", "border-color-l"],
-            "border-color-y": ["border-color-t", "border-color-b"],
-            translate: ["translate-x", "translate-y", "translate-none"],
-            "translate-none": [
-              "translate",
-              "translate-x",
-              "translate-y",
-              "translate-z",
-            ],
-            "scroll-m": [
-              "scroll-mx",
-              "scroll-my",
-              "scroll-ms",
-              "scroll-me",
-              "scroll-mbs",
-              "scroll-mbe",
-              "scroll-mt",
-              "scroll-mr",
-              "scroll-mb",
-              "scroll-ml",
-            ],
-            "scroll-mx": ["scroll-mr", "scroll-ml"],
-            "scroll-my": ["scroll-mt", "scroll-mb"],
-            "scroll-p": [
-              "scroll-px",
-              "scroll-py",
-              "scroll-ps",
-              "scroll-pe",
-              "scroll-pbs",
-              "scroll-pbe",
-              "scroll-pt",
-              "scroll-pr",
-              "scroll-pb",
-              "scroll-pl",
-            ],
-            "scroll-px": ["scroll-pr", "scroll-pl"],
-            "scroll-py": ["scroll-pt", "scroll-pb"],
-            touch: ["touch-x", "touch-y", "touch-pz"],
-            "touch-x": ["touch"],
-            "touch-y": ["touch"],
-            "touch-pz": ["touch"],
-          },
-          conflictingClassGroupModifiers: { "font-size": ["leading"] },
-          orderSensitiveModifiers: [
-            "*",
-            "**",
-            "after",
-            "backdrop",
-            "before",
-            "details-content",
-            "file",
-            "first-letter",
-            "first-line",
-            "marker",
-            "placeholder",
-            "selection",
-          ],
-        };
-      });
+            ));
     },
   },
 ]);

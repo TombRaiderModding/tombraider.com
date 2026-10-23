@@ -1,176 +1,187 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [8019],
   {
-    4243: (e, s, t) => {
+    12317: (e, s, t) => {
+      "use strict";
+      t.d(s, { A: () => a });
+      var o = t(2183),
+        i = t(46728),
+        r = t.n(i);
+      let a = ({ href: e, children: s, className: t, ...i }) =>
+        "string" == typeof e && e.startsWith("http")
+          ? (0, o.jsx)("a", {
+              href: e,
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: t,
+              ...i,
+              children: s,
+            })
+          : (0, o.jsx)(r(), { className: t, href: e, ...i, children: s });
+    },
+    20162: (e, s, t) => {
       "use strict";
       t.a(e, async (e, o) => {
         try {
-          t.d(s, { OU: () => l, Om: () => h, Q0: () => d, _8: () => c });
-          var i = t(92446),
-            r = t(2371),
-            a = e([i]);
-          i = (a.then ? (await a)() : a)[0];
-          let u = "".concat(r.W, "/#organization"),
-            p = "".concat(r.W, "/#website"),
-            m = "Tomb Raider",
-            f = "https://en.wikipedia.org/wiki/Tomb_Raider";
-          function n(e) {
-            var s, t;
-            let o = (0, i._c)(
-              null == (t = e.footerLogo) || null == (s = t.fields.file)
-                ? void 0
-                : s.url,
-            );
-            return o ? { logo: { "@type": "ImageObject", url: o } } : {};
-          }
-          function c(e, s) {
-            return {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "@id": u,
-              name: m,
-              url: r.W,
-              ...n(e),
-              sameAs: [
-                ...s.map((e) => e.link),
-                f,
-                "https://www.wikidata.org/wiki/Q270503",
-              ],
-            };
-          }
-          function l() {
-            return {
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "@id": p,
-              name: m,
-              url: r.W,
-              publisher: { "@id": u },
-            };
-          }
-          function d(e, s) {
-            var t, o, a, c;
-            let l = ""
-                .concat(r.W, "/news/")
-                .concat(null == (t = e.category) ? void 0 : t.fields.slug, "/")
-                .concat(e.slug),
-              d = (0, i._c)(
-                null == (a = e.headerImage) || null == (o = a.fields.file)
-                  ? void 0
-                  : o.url,
+          t.d(s, { A: () => f });
+          var i = t(2183),
+            r = t(15013),
+            a = t.n(r),
+            n = t(46728),
+            c = t.n(n),
+            l = t(9751),
+            d = t(12317),
+            h = t(61065),
+            u = t(92642),
+            p = t(95783),
+            m = e([l, u, p]);
+          function f({
+            websiteSingleton: e,
+            navItems: s,
+            footerSocialLinks: t,
+          }) {
+            let { isLoggedIn: o, shopifyUrl: r } = (0, l.u)(),
+              n = s.filter(
+                (e) => e.showInFooter && !(o && e.hideForLoggedInUsers),
               ),
-              h = { "@type": "Organization", "@id": u, name: m, ...n(s) };
-            return {
-              "@context": "https://schema.org",
-              "@type": "NewsArticle",
-              headline: e.title,
-              description: e.excerpt || e.socialMediaShareDescription,
-              ...(d ? { image: [d] } : {}),
-              datePublished: e.publishDate,
-              dateModified: null != (c = e.sysUpdatedAt) ? c : e.publishDate,
-              url: l,
-              mainEntityOfPage: { "@type": "WebPage", "@id": l },
-              author: h,
-              publisher: h,
-            };
-          }
-          function h(e) {
-            var s, t, o, a, n, c, l, d;
-            let h = ""
-                .concat(r.W, "/products/")
-                .concat(null == (s = e.category) ? void 0 : s.fields.slug, "/")
-                .concat(e.slug),
-              u = (0, i._c)(
-                null !=
-                  (d =
-                    null == (o = e.titleLogo) || null == (t = o.fields.file)
-                      ? void 0
-                      : t.url)
-                  ? d
-                  : null == (l = e.galleryEntries) ||
-                      null == (c = l[0]) ||
-                      null == (n = c.fields.image) ||
-                      null == (a = n.fields.file)
-                    ? void 0
-                    : a.url,
+              m = s.filter(
+                (e) => e.showInSubFooter && !(o && e.hideForLoggedInUsers),
               );
-            return {
-              "@context": "https://schema.org",
-              "@type": "VideoGame",
-              name: e.title,
-              url: h,
-              ...(e.shortDescription
-                ? { description: e.shortDescription }
-                : {}),
-              ...(u ? { image: u } : {}),
-              ...(e.releaseDate ? { datePublished: e.releaseDate } : {}),
-              ...(e.publisher
-                ? { publisher: { "@type": "Organization", name: e.publisher } }
-                : {}),
-              ...(e.esrbRating
-                ? { contentRating: "ESRB ".concat(e.esrbRating) }
-                : {}),
-              isPartOf: {
-                "@type": "VideoGameSeries",
-                name: "Tomb Raider",
-                sameAs: f,
-              },
-            };
+            return (0, i.jsxs)("footer", {
+              className: "relative w-full bg-black px-8 text-white lg:px-32",
+              children: [
+                (0, i.jsx)(h.A, { data: (0, p._8)(e, t) }),
+                (0, i.jsx)(h.A, { data: (0, p.OU)() }),
+                (0, i.jsxs)("div", {
+                  className:
+                    "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
+                  children: [
+                    (0, i.jsx)("div", {
+                      children: (0, i.jsx)(a(), {
+                        src: (0, u._c)(e.footerLogo?.fields.file?.url),
+                        width: 248,
+                        height: 248,
+                        alt: (0, u._c)(e.footerLogo?.fields.description),
+                        className: "w-40",
+                      }),
+                    }),
+                    (0, i.jsxs)("nav", {
+                      "aria-label": "Footer",
+                      className:
+                        "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
+                      children: [
+                        n.map((e) => {
+                          let s = e.link;
+                          return (
+                            e.shouldReplaceWithGeneratedShopLink &&
+                              r &&
+                              (s = r),
+                            (0, i.jsx)(
+                              c(),
+                              { href: s, children: e.name },
+                              e.link + e.name,
+                            )
+                          );
+                        }),
+                        (0, i.jsx)("span", {
+                          id: "accessibilityWidget",
+                          className: "cursor-pointer",
+                          children: "Accessibility",
+                        }),
+                        (0, i.jsx)("a", {
+                          href: "#",
+                          className: "cursor-pointer",
+                          onClick: (e) => {
+                            (e.preventDefault(),
+                              window.__ucCmp?.showSecondLayer());
+                          },
+                          children:
+                            "Do Not Sell or Share My Personal Information",
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+                (0, i.jsxs)("div", {
+                  className:
+                    "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
+                  children: [
+                    (0, i.jsx)("div", {
+                      className: "text-darkgray-500 text-center",
+                      children: e.footerCopyright,
+                    }),
+                    (0, i.jsx)("div", {
+                      className: "flex items-center space-x-4 text-white",
+                      children: t.map((e) =>
+                        (0, i.jsx)(
+                          d.A,
+                          {
+                            href: e.link,
+                            children: (0, i.jsx)(a(), {
+                              src: (0, u._c)(e.icon?.fields.file?.url),
+                              alt: e.icon?.fields.description ?? "",
+                              width: 20,
+                              height: 20,
+                            }),
+                          },
+                          e.link,
+                        ),
+                      ),
+                    }),
+                  ],
+                }),
+                (0, i.jsx)("div", { className: "h-px bg-gray-500" }),
+                (0, i.jsxs)("div", {
+                  className:
+                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row",
+                  children: [
+                    (0, i.jsx)("p", {
+                      className:
+                        "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
+                      children: e.footerLegalNotice,
+                    }),
+                    (0, i.jsx)("nav", {
+                      "aria-label": "Legal",
+                      className:
+                        "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
+                      children: m.map((e) =>
+                        (0, i.jsx)(
+                          "a",
+                          { href: e.link, children: e.name },
+                          e.link + e.name,
+                        ),
+                      ),
+                    }),
+                  ],
+                }),
+              ],
+            });
           }
-          o();
+          (([l, u, p] = m.then ? (await m)() : m), o());
         } catch (e) {
           o(e);
         }
       });
     },
-    7226: (e, s, t) => {
-      (window.__NEXT_P = window.__NEXT_P || []).push([
-        "/legal/cookies",
-        function () {
-          return t(71411);
-        },
-      ]);
-    },
-    7345: (e, s, t) => {
-      "use strict";
-      t.d(s, { A: () => a });
-      var o = t(2183),
-        i = t(11677),
-        r = t.n(i);
-      let a = (e) => {
-        let { href: s, children: t, className: i, ...a } = e;
-        return "string" == typeof s && s.startsWith("http")
-          ? (0, o.jsx)("a", {
-              href: s,
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: i,
-              ...a,
-              children: t,
-            })
-          : (0, o.jsx)(r(), { className: i, href: s, ...a, children: t });
-      };
-    },
-    71411: (e, s, t) => {
+    26447: (e, s, t) => {
       "use strict";
       t.a(e, async (e, o) => {
         try {
           (t.r(s), t.d(s, { __N_SSG: () => l, default: () => d }));
           var i = t(2183),
-            r = t(75894),
-            a = t(95216),
-            n = t(91134),
+            r = t(20162),
+            a = t(49980),
+            n = t(74474),
             c = e([r, a]);
           [r, a] = c.then ? (await c)() : c;
           var l = !0;
-          function d(e) {
-            let {
-              websiteSingleton: s,
-              navItems: t,
-              footerSocialLinks: o,
-              surveys: c,
-              signUpBanner: l,
-            } = e;
+          function d({
+            websiteSingleton: e,
+            navItems: s,
+            footerSocialLinks: t,
+            surveys: o,
+            signUpBanner: c,
+          }) {
             return (0, i.jsxs)("main", {
               className: "flex w-full flex-col items-center",
               children: [
@@ -178,7 +189,7 @@
                   description:
                     "Learn how the official Tomb Raider website uses cookies to enhance your browsing experience. Review our full cookie policy and manage your preferences here.",
                 }),
-                (0, i.jsx)(a.Ay, { surveys: c, navItems: t, signUpBanner: l }),
+                (0, i.jsx)(a.Ay, { surveys: o, navItems: s, signUpBanner: c }),
                 (0, i.jsxs)("div", {
                   className:
                     "mx-auto flex w-full grow flex-col gap-y-6 py-32 lg:mx-0 lg:max-w-xl 2xl:max-w-4xl",
@@ -356,10 +367,8 @@
                       children: (0, i.jsx)("button", {
                         type: "button",
                         onClick: (e) => {
-                          var s;
                           (e.preventDefault(),
-                            null == (s = window.__ucCmp) ||
-                              s.showSecondLayer());
+                            window.__ucCmp?.showSecondLayer());
                         },
                         children: "Cookie Settings",
                       }),
@@ -461,9 +470,9 @@
                   ],
                 }),
                 (0, i.jsx)(r.A, {
-                  websiteSingleton: s,
-                  navItems: t,
-                  footerSocialLinks: o,
+                  websiteSingleton: e,
+                  navItems: s,
+                  footerSocialLinks: t,
                 }),
               ],
             });
@@ -474,221 +483,156 @@
         }
       });
     },
-    71429: (e, s, t) => {
+    61065: (e, s, t) => {
       "use strict";
       t.d(s, { A: () => a });
       var o = t(2183),
-        i = t(14623),
+        i = t(46402),
         r = t.n(i);
-      function a(e) {
-        let { data: s } = e;
+      function a({ data: e }) {
         return (0, o.jsx)(r(), {
           children: (0, o.jsx)("script", {
             type: "application/ld+json",
-            dangerouslySetInnerHTML: { __html: JSON.stringify(s) },
+            dangerouslySetInnerHTML: { __html: JSON.stringify(e) },
           }),
         });
       }
     },
-    75894: (e, s, t) => {
-      "use strict";
-      t.a(e, async (e, o) => {
-        try {
-          t.d(s, { A: () => f });
-          var i = t(2183),
-            r = t(96006),
-            a = t.n(r),
-            n = t(11677),
-            c = t.n(n),
-            l = t(99435),
-            d = t(7345),
-            h = t(71429),
-            u = t(92446),
-            p = t(4243),
-            m = e([l, u, p]);
-          function f(e) {
-            var s, t, o;
-            let { websiteSingleton: r, navItems: n, footerSocialLinks: m } = e,
-              { isLoggedIn: f, shopifyUrl: g } = (0, l.u)(),
-              y = n.filter(
-                (e) => e.showInFooter && !(f && e.hideForLoggedInUsers),
-              ),
-              w = n.filter(
-                (e) => e.showInSubFooter && !(f && e.hideForLoggedInUsers),
-              );
-            return (0, i.jsxs)("footer", {
-              className: "relative w-full bg-black px-8 text-white lg:px-32",
-              children: [
-                (0, i.jsx)(h.A, { data: (0, p._8)(r, m) }),
-                (0, i.jsx)(h.A, { data: (0, p.OU)() }),
-                (0, i.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center justify-center space-y-16 pt-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0 lg:pt-32",
-                  children: [
-                    (0, i.jsx)("div", {
-                      children: (0, i.jsx)(a(), {
-                        src: (0, u._c)(
-                          null == (t = r.footerLogo) ||
-                            null == (s = t.fields.file)
-                            ? void 0
-                            : s.url,
-                        ),
-                        width: 248,
-                        height: 248,
-                        alt: (0, u._c)(
-                          null == (o = r.footerLogo)
-                            ? void 0
-                            : o.fields.description,
-                        ),
-                        className: "w-40",
-                      }),
-                    }),
-                    (0, i.jsxs)("nav", {
-                      "aria-label": "Footer",
-                      className:
-                        "text-darkgray-500 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 text-lg",
-                      children: [
-                        y.map((e) => {
-                          let s = e.link;
-                          return (
-                            e.shouldReplaceWithGeneratedShopLink &&
-                              g &&
-                              (s = g),
-                            (0, i.jsx)(
-                              c(),
-                              { href: s, children: e.name },
-                              e.link + e.name,
-                            )
-                          );
-                        }),
-                        (0, i.jsx)("span", {
-                          id: "accessibilityWidget",
-                          className: "cursor-pointer",
-                          children: "Accessibility",
-                        }),
-                        (0, i.jsx)("a", {
-                          href: "#",
-                          className: "cursor-pointer",
-                          onClick: (e) => {
-                            var s;
-                            (e.preventDefault(),
-                              null == (s = window.__ucCmp) ||
-                                s.showSecondLayer());
-                          },
-                          children:
-                            "Do Not Sell or Share My Personal Information",
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-                (0, i.jsxs)("div", {
-                  className:
-                    "flex flex-col items-center justify-center space-y-16 pb-16 lg:flex-row lg:items-stretch lg:justify-between lg:space-y-0",
-                  children: [
-                    (0, i.jsx)("div", {
-                      className: "text-darkgray-500 text-center",
-                      children: r.footerCopyright,
-                    }),
-                    (0, i.jsx)("div", {
-                      className: "flex items-center space-x-4 text-white",
-                      children: m.map((e) => {
-                        var s, t, o, r;
-                        return (0, i.jsx)(
-                          d.A,
-                          {
-                            href: e.link,
-                            children: (0, i.jsx)(a(), {
-                              src: (0, u._c)(
-                                null == (t = e.icon) ||
-                                  null == (s = t.fields.file)
-                                  ? void 0
-                                  : s.url,
-                              ),
-                              alt:
-                                null !=
-                                (r =
-                                  null == (o = e.icon)
-                                    ? void 0
-                                    : o.fields.description)
-                                  ? r
-                                  : "",
-                              width: 20,
-                              height: 20,
-                            }),
-                          },
-                          e.link,
-                        );
-                      }),
-                    }),
-                  ],
-                }),
-                (0, i.jsx)("div", { className: "h-px bg-gray-500" }),
-                (0, i.jsxs)("div", {
-                  className:
-                    "flew-col flex flex-col items-start justify-start gap-x-10 gap-y-10 py-12 text-gray-300 md:justify-between 2xl:flex-row",
-                  children: [
-                    (0, i.jsx)("p", {
-                      className:
-                        "text-darkgray-300 max-w-250 text-center text-sm lg:text-left",
-                      children: r.footerLegalNotice,
-                    }),
-                    (0, i.jsx)("nav", {
-                      "aria-label": "Legal",
-                      className:
-                        "text-darkgray-500 flex w-full flex-wrap items-center justify-center gap-x-10 gap-y-2 md:flex-row md:gap-x-10 md:gap-y-0 lg:w-auto lg:justify-start",
-                      children: w.map((e) =>
-                        (0, i.jsx)(
-                          "a",
-                          { href: e.link, children: e.name },
-                          e.link + e.name,
-                        ),
-                      ),
-                    }),
-                  ],
-                }),
-              ],
-            });
-          }
-          (([l, u, p] = m.then ? (await m)() : m), o());
-        } catch (e) {
-          o(e);
-        }
-      });
-    },
-    91134: (e, s, t) => {
+    74474: (e, s, t) => {
       "use strict";
       t.d(s, { A: () => a });
       var o = t(2183),
-        i = t(14623),
+        i = t(46402),
         r = t.n(i);
-      function a(e) {
-        let { description: s } = e;
+      function a({ description: e }) {
         return (0, o.jsxs)(r(), {
           children: [
             (0, o.jsx)(
               "meta",
-              { name: "description", content: s },
+              { name: "description", content: e },
               "description",
             ),
             (0, o.jsx)(
               "meta",
-              { property: "og:description", content: s },
+              { property: "og:description", content: e },
               "og:description",
             ),
             (0, o.jsx)(
               "meta",
-              { name: "twitter:description", content: s },
+              { name: "twitter:description", content: e },
               "twitter:description",
             ),
           ],
         });
       }
     },
+    86175: (e, s, t) => {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        "/legal/cookies",
+        function () {
+          return t(26447);
+        },
+      ]);
+    },
+    95783: (e, s, t) => {
+      "use strict";
+      t.a(e, async (e, o) => {
+        try {
+          t.d(s, { OU: () => l, Om: () => h, Q0: () => d, _8: () => c });
+          var i = t(92642),
+            r = t(80935),
+            a = e([i]);
+          i = (a.then ? (await a)() : a)[0];
+          let u = `${r.W}/#organization`,
+            p = `${r.W}/#website`,
+            m = "Tomb Raider",
+            f = "https://en.wikipedia.org/wiki/Tomb_Raider";
+          function n(e) {
+            let s = (0, i._c)(e.footerLogo?.fields.file?.url);
+            return s ? { logo: { "@type": "ImageObject", url: s } } : {};
+          }
+          function c(e, s) {
+            return {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": u,
+              name: m,
+              url: r.W,
+              ...n(e),
+              sameAs: [
+                ...s.map((e) => e.link),
+                f,
+                "https://www.wikidata.org/wiki/Q270503",
+              ],
+            };
+          }
+          function l() {
+            return {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": p,
+              name: m,
+              url: r.W,
+              publisher: { "@id": u },
+            };
+          }
+          function d(e, s) {
+            let t = `${r.W}/news/${e.category?.fields.slug}/${e.slug}`,
+              o = (0, i._c)(e.headerImage?.fields.file?.url),
+              a = { "@type": "Organization", "@id": u, name: m, ...n(s) };
+            return {
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              headline: e.title,
+              description: e.excerpt || e.socialMediaShareDescription,
+              ...(o ? { image: [o] } : {}),
+              datePublished: e.publishDate,
+              dateModified: e.sysUpdatedAt ?? e.publishDate,
+              url: t,
+              mainEntityOfPage: { "@type": "WebPage", "@id": t },
+              author: a,
+              publisher: a,
+            };
+          }
+          function h(e) {
+            let s = `${r.W}/products/${e.category?.fields.slug}/${e.slug}`,
+              t = (0, i._c)(
+                e.titleLogo?.fields.file?.url ??
+                  e.galleryEntries?.[0]?.fields.image?.fields.file?.url,
+              );
+            return {
+              "@context": "https://schema.org",
+              "@type": "VideoGame",
+              name: e.title,
+              url: s,
+              ...(e.shortDescription
+                ? { description: e.shortDescription }
+                : {}),
+              ...(t ? { image: t } : {}),
+              ...(e.releaseDate ? { datePublished: e.releaseDate } : {}),
+              ...(e.publisher
+                ? { publisher: { "@type": "Organization", name: e.publisher } }
+                : {}),
+              ...(e.esrbRating
+                ? { contentRating: `ESRB ${e.esrbRating}` }
+                : {}),
+              isPartOf: {
+                "@type": "VideoGameSeries",
+                name: "Tomb Raider",
+                sameAs: f,
+              },
+            };
+          }
+          o();
+        } catch (e) {
+          o(e);
+        }
+      });
+    },
   },
   (e) => {
-    (e.O(0, [9950, 6006, 1433, 1329, 1089, 5216, 2446, 636, 6593, 8792], () =>
-      e((e.s = 7226)),
+    (e.O(0, [9950, 5013, 2696, 1329, 6342, 9980, 2642, 636, 6593, 8792], () =>
+      e((e.s = 86175)),
     ),
       (_N_E = e.O()));
   },

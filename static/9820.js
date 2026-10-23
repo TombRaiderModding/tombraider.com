@@ -50,22 +50,25 @@
       var n = r(38478),
         i = r(24329),
         s = r(80014),
-        a = 0 / 0,
-        o = /^[-+]0x[0-9a-f]+$/i,
-        u = /^0b[01]+$/i,
-        h = /^0o[0-7]+$/i,
-        l = parseInt;
+        a = /^[-+]0x[0-9a-f]+$/i,
+        o = /^0b[01]+$/i,
+        u = /^0o[0-7]+$/i,
+        h = parseInt;
       e.exports = function (e) {
         if ("number" == typeof e) return e;
-        if (s(e)) return a;
+        if (s(e)) return 0 / 0;
         if (i(e)) {
           var t = "function" == typeof e.valueOf ? e.valueOf() : e;
           e = i(t) ? t + "" : t;
         }
         if ("string" != typeof e) return 0 === e ? e : +e;
         e = n(e);
-        var r = u.test(e);
-        return r || h.test(e) ? l(e.slice(2), r ? 2 : 8) : o.test(e) ? a : +e;
+        var r = o.test(e);
+        return r || u.test(e)
+          ? h(e.slice(2), r ? 2 : 8)
+          : a.test(e)
+            ? 0 / 0
+            : +e;
       };
     },
     24329: (e) => {
@@ -115,9 +118,9 @@
           typeof (r = function e() {
             var t,
               r =
-                "undefined" != typeof self
+                "u" > typeof self
                   ? self
-                  : "undefined" != typeof window
+                  : "u" > typeof window
                     ? window
                     : void 0 !== r
                       ? r
@@ -302,7 +305,7 @@
                 u.call(this, e));
               var t,
                 r,
-                n = "undefined" != typeof FileReader;
+                n = "u" > typeof FileReader;
               ((this.stream = function (e) {
                 ((this._input = e),
                   (r = e.slice || e.webkitSlice || e.mozSlice),
@@ -1250,11 +1253,10 @@
             : r) || (e.exports = n);
     },
     50764: (e, t, r) => {
-      var n = r(23374),
-        i = 1 / 0;
+      var n = r(23374);
       e.exports = function (e) {
         return e
-          ? (e = n(e)) === i || e === -i
+          ? 1 / 0 === (e = n(e)) || -1 / 0 === e
             ? (e < 0 ? -1 : 1) * 17976931348623157e292
             : e == e
               ? e
