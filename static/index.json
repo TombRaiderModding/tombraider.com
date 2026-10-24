@@ -340,102 +340,104 @@
         },
         "socialMediaShareDescription": "Celebrate 30 years of Tomb Raider with a new Lo-Fi collection, 500+ official soundtrack tracks coming to streaming services this November, and exclusive TR30 artwork!",
         "body": {
+          "nodeType": "document",
           "data": {},
           "content": [
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Three decades have passed since Lara Croft first graced our tv screens and left an indelible mark on gaming history. Today, Tomb Raider officially turns 30, and we are celebrating a legacy of innovation, adventure, and discovery that continues to inspire generations of players.  ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "While this anniversary is a moment to celebrate Tomb Raider’s extraordinary history, the future is equally exciting. With ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
+                  "nodeType": "text",
                   "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": " releasing on February 12, 2027, fans can revisit iconic locations reimagined through a new lens, while new players can visit these ancient spaces for the very first time.  ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Tomb Raider 30th Anniversary Lo-Fi Collection",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": " ", "nodeType": "text" }
-              ],
-              "nodeType": "heading-4"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
                   "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Raider 30th Anniversary Lo-Fi Collection",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": " ", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
                   "value": "While we wait for Lara’s next adventure, we have something special to set the mood. As a gift to our community, we’ve partnered with ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
+                  "nodeType": "hyperlink",
                   "data": {
                     "uri": "https://soundcloud.com/hatorskhick2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                   },
                   "content": [
                     {
-                      "data": {},
-                      "marks": [{ "type": "underline" }],
+                      "nodeType": "text",
                       "value": "ThatNorskChick",
-                      "nodeType": "text"
+                      "marks": [{ "type": "underline" }],
+                      "data": {}
                     }
-                  ],
-                  "nodeType": "hyperlink"
+                  ]
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": " to create the ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: 30th Anniversary Lo-Fi Collection",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
                   "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Raider: 30th Anniversary Lo-Fi Collection",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
                   "value": ", a relaxed musical journey through the series.  ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "embedded-asset-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -477,354 +479,385 @@
                   }
                 }
               },
-              "content": [],
-              "nodeType": "embedded-asset-block"
+              "content": []
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "First revealed during the TR30 Tomb Raider Day celebration in Derby, England, the collection takes listeners through three decades of Tomb Raider, following Lara through her journey in the Survivor series, the Classic games, and through the Legend, Anniversary and Underworld trilogy. The collection reimagines and remixes original music from legendary Tomb Raider composers including Nathan McCree, Peter Connelly, Martin Iveson, Troels B. Folmann, Colin O’Malley, Jason Graves, Bobby Tahouri, Brian D’Oliveira, Wilbert Roget, II, and Paul Houseman. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Alix Wilton Regan, Lara Croft lead actor in ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
+                  "nodeType": "text",
                   "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": ", also recorded iconic lines from the franchise to sample throughout the collection. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "\"My goal with this album was to capture the soul and the vibe of each game,\" explains That Norse Chick. \"Stylistically, lo-fi hip hop is the main foundation for this album, but I don't let that stop me from exploring because this is Tomb Raider. We're going to explore stuff. \" ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "\"My process comes from the same techniques that they use to sample music in hip hop,\" she continues. \"I'll start with a track from the game, grab a little segment of it that I think is interesting, chop it up, create a loop, and then I let that loop guide me the rest of the way. What does the track need? What kind of drums is it going to want? What happens if I take the choirs form this game and mix it with the harps from this other game? Sometimes I'll beef up a melody by adding guitar or piano over it.\" After blocking out the composition, she then goes back and samples sound effects, voice clips, and ambient tracks for extra atmosphere.  ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Norsk aims to take the listener on a journey through Lara's life, opening with the Survivor trilogy, venturing through the classic Core Design titles, moving on to ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
+                  "nodeType": "text",
                   "value": "Tomb Raider: Legend ",
-                  "nodeType": "text"
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "and Tomb",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
+                  "nodeType": "text",
                   "value": " Raider: Underworld",
-                  "nodeType": "text"
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": ", followed by a tribute to ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
+                  "nodeType": "text",
                   "value": "Lara Croft and the Temple of Osiris",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ". The album closes with ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
                   "marks": [{ "type": "italic" }],
-                  "value": "Tomb Raider: Anniversary",
-                  "nodeType": "text"
+                  "data": {}
                 },
                 {
-                  "data": {},
+                  "nodeType": "text",
+                  "value": ". The album closes with ",
                   "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Tomb Raider: Anniversary",
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
                   "value": ". \" I feel like it represents Croft Manor. You know, coming back home, it's like a full circle moment\" concludes Norsk. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "To bring the collection to life visually, we also collaborated with talented community member ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
+                  "nodeType": "hyperlink",
                   "data": { "uri": "http://www.tholia.art/" },
                   "content": [
                     {
-                      "data": {},
-                      "marks": [{ "type": "underline" }],
+                      "nodeType": "text",
                       "value": "Tholia",
-                      "nodeType": "text"
+                      "marks": [{ "type": "underline" }],
+                      "data": {}
                     }
-                  ],
-                  "nodeType": "hyperlink"
+                  ]
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": " on two distinct pieces: the album’s Sun-drenched, picturesque cover art and a separate meticulously crafted animation depicting Lara Croft in her study at Croft Manor.  ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "\"This was a dream come true, for sure,\" explained Tholia. \"I’ve been yearning for Lara’s return, and I cannot tell how excited I was to be invited to join such a cool project! I remember how mesmerized I was by Thailand in Underworld, or Ghana in Legend. I remember staring at the environment and the details, and that's precisely what I tried to recreate here. A moment where the viewer would just enjoy the view.\" ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Initially, Tholia wanted to make the landscape the star of the cover but adjusted her approach to ensure that Lara was one with nature. \"Because that was the whole point of the work here: enjoying a moment of calm in between Lara's journeys.\" ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "For the animation Tholia worked in Procreate, starting with a basic sketch to define the composition first.  \"For the animation itself, I recorded many reference videos of myself using a towel as the curtain, writing in my sketchbook... It was a lot of fun! The trickiest part was to stick to a limited number of images per second, as the goal was to create a Lo-Fi style animation loop. I also had a blast at thinking of the easter eggs to hide here and there!\" ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "\"It has been a very time-consuming project of course,\" Tholia concluded, \"but one of the most exciting and addictive I ever worked on too!\" ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "You can enjoy the relaxing beats by heading over to our YouTube channel. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "embedded-entry-block",
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "1mycctr4UAVo0vzzvoyZ6d",
+                    "type": "Entry",
+                    "createdAt": "2026-10-24T17:51:32.394Z",
+                    "updatedAt": "2026-10-24T17:51:32.394Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 3,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "embeddedHtml"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "contentfulName": "Lofi Album Youtube",
+                    "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/dS_he2Cp8FM?si=XXuVOzUqmajdkSBw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+                  }
+                }
+              },
+              "content": []
+            },
+            {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
-                  "value": "[INSERT LINK] ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "How many Easter eggs can you spot in the animation? ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
+                  "nodeType": "text",
                   "value": "Tomb Raider 30th Anniversary Lo-Fi Collection",
-                  "nodeType": "text"
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": " will be coming to other streaming services soon. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Official Tomb Raider Soundtracks coming to streaming services!",
-                  "nodeType": "text"
-                },
-                { "data": {}, "marks": [], "value": " ", "nodeType": "text" }
-              ],
-              "nodeType": "heading-4"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
                   "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Official Tomb Raider Soundtracks coming to streaming services!",
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
+                },
+                { "nodeType": "text", "value": " ", "marks": [], "data": {} }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
                   "value": "As part of the 30th anniversary celebration, we have also partnered with longtime Tomb Raider fan and music expert Harry Hinds, webmaster of ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
+                  "nodeType": "hyperlink",
                   "data": { "uri": "https://www.musicoftombraider.com/" },
                   "content": [
                     {
-                      "data": {},
-                      "marks": [{ "type": "underline" }, { "type": "italic" }],
+                      "nodeType": "text",
                       "value": "Music of Tomb Raider",
-                      "nodeType": "text"
+                      "marks": [{ "type": "underline" }, { "type": "italic" }],
+                      "data": {}
                     }
-                  ],
-                  "nodeType": "hyperlink"
+                  ]
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": ", to curate and prepare the franchise soundtracks for release. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "With Harry’s expertise guiding the project, more than 500 official Tomb Raider soundtrack tracks are expected to arrive on streaming services this November, including newly produced and previously unreleased albums, special compilations, and music being released on streaming platforms for the first time. We can’t wait to share more exciting details soon! ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "heading-4",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
+                  "nodeType": "text",
                   "value": "TR30 Digital Wallpapers",
-                  "nodeType": "text"
+                  "marks": [{ "type": "bold" }],
+                  "data": {}
                 },
-                { "data": {}, "marks": [], "value": " ", "nodeType": "text" }
-              ],
-              "nodeType": "heading-4"
+                { "nodeType": "text", "value": " ", "marks": [], "data": {} }
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Our team members are currently in Derby, UK, the city where it all began, for the annual Tomb Raider event. Stay tuned for the TR30 Derby Recap. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "In the meantime, you can join the celebrations by downloading our TR30 artwork. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "embedded-asset-block",
               "data": {
                 "target": {
                   "metadata": { "tags": [], "concepts": [] },
@@ -866,114 +899,112 @@
                   }
                 }
               },
-              "content": [],
-              "nodeType": "embedded-asset-block"
+              "content": []
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Download the incredible artwork created by Inna Vjuzhanina, the stunning Lo-Fi Collection cover art by Tholia, and wallpapers by ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
+                  "nodeType": "hyperlink",
                   "data": {
                     "uri": "https://www.flickr.com/photos/tombraiderofficialflickr/albums/72177720334986882/"
                   },
                   "content": [
                     {
-                      "data": {},
-                      "marks": [],
+                      "nodeType": "text",
                       "value": "visiting our Flickr account.",
-                      "nodeType": "text"
+                      "marks": [],
+                      "data": {}
                     }
-                  ],
-                  "nodeType": "hyperlink"
+                  ]
                 },
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
+                { "nodeType": "text", "value": "", "marks": [], "data": {} }
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Inna explains that the direction was to create a piece that honours the franchise’s roots by featuring Core Design’s Lara Croft alongside Crystal Dynamics’ present-day Lara from ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
+                  "nodeType": "text",
                   "value": "Tomb Raider: Legacy of Atlantis",
-                  "nodeType": "text"
+                  "marks": [{ "type": "italic" }],
+                  "data": {}
                 },
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": ". The main guideline for the visual treatment was to give both versions equal prominence within a unified composition. Presented in a tarot-card style, the artwork allows fans to display either version according to their preference. ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "“The team chose an environmental concept to go with, to my great excitement as I’ve been most eager to paint those gorgeous landscapes,\" explains Inna. \"The idea was to have two identical scenes on each side so it would really show the long way the franchise has come and the evolution that happened.\" ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "\"I chose Scion to be the uniting element for the two different sides. The corners of the piece were asking for some decorations as well, so I chose something simple, the Peruvian symbols we see at the top of the door that leads to Vilcabamba.\" She continued. \"But we came up with an even better option. What if we had each corner paying homage to each level from the game. We’d have the Croft Manor, Peru, Greece, Egypt and then the Scion as a nod to the Atlantean levels.\"  ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "\"All in all it was a massive project figuring out how to do different styles and how to combine them in a cohesive piece,\" she concludes. \"But completing the whole thing was a massively satisfying feeling.” ",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             },
             {
+              "nodeType": "paragraph",
               "data": {},
               "content": [
                 {
-                  "data": {},
-                  "marks": [],
+                  "nodeType": "text",
                   "value": "Thirty years on, Tomb Raider is just getting started.",
-                  "nodeType": "text"
+                  "marks": [],
+                  "data": {}
                 }
-              ],
-              "nodeType": "paragraph"
+              ]
             }
-          ],
-          "nodeType": "document"
+          ]
         },
         "publishDate": "2026-10-24",
         "hideSocialSharingButtons": false,
-        "sysUpdatedAt": "2026-10-24T15:00:07.688Z"
+        "sysUpdatedAt": "2026-10-24T17:51:55.386Z"
       },
       {
         "title": "Raider Records – Exploring the Tomb Door Puzzle",
