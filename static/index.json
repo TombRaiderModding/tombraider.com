@@ -2,6 +2,980 @@
   "pageProps": {
     "articles": [
       {
+        "title": "Tomb Raider Turns 30! Celebrate with Lo-fi Album & Exclusive Art",
+        "slug": "tomb-raider-turns-30-celebrate-with-lo-fi-album-and-exclusive-art",
+        "isLatestNews": true,
+        "isFeatured": true,
+        "shouldOnlyDisplayInAccount": false,
+        "category": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "5FFz5iSwgZAtZhUE219Cz1",
+            "type": "Entry",
+            "createdAt": "2023-09-15T16:12:37.537Z",
+            "updatedAt": "2024-02-05T17:59:57.282Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 16,
+            "revision": 7,
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "articleCategories"
+              }
+            },
+            "locale": "en-US"
+          },
+          "fields": { "name": "Community", "slug": "community", "order": 45 }
+        },
+        "tags": [
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5rRYmNgBhfv7PB3zQslE7u",
+              "type": "Entry",
+              "createdAt": "2023-09-15T18:04:19.096Z",
+              "updatedAt": "2024-02-14T17:24:50.649Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider (1996)",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "2hiccY1WDxgmeb3ttGf6ik",
+              "type": "Entry",
+              "createdAt": "2023-09-15T19:32:38.378Z",
+              "updatedAt": "2023-09-15T19:32:38.378Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Tomb Raider:  Anniversary",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:14:47.775Z",
+                  "updatedAt": "2024-02-05T18:36:21.395Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 8,
+                  "revision": 4,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Video Games",
+                  "slug": "video-games",
+                  "order": 10
+                }
+              }
+            }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "5Vi3RnBigsSI75NrS9DClO",
+              "type": "Entry",
+              "createdAt": "2026-06-02T21:41:01.648Z",
+              "updatedAt": "2026-06-02T21:46:42.101Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 5,
+              "revision": 2,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": { "name": "Tomb Raider: Legacy of Atlantis" }
+          },
+          {
+            "metadata": { "tags": [], "concepts": [] },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "x77ixfmkpoiv"
+                }
+              },
+              "id": "38mRRP7cDLXzwhJF2dIdCc",
+              "type": "Entry",
+              "createdAt": "2023-09-15T16:13:19.571Z",
+              "updatedAt": "2023-09-15T16:13:19.571Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 3,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "articleTags"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "name": "Community Spotlight",
+              "category": {
+                "metadata": { "tags": [], "concepts": [] },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "x77ixfmkpoiv"
+                    }
+                  },
+                  "id": "5FFz5iSwgZAtZhUE219Cz1",
+                  "type": "Entry",
+                  "createdAt": "2023-09-15T16:12:37.537Z",
+                  "updatedAt": "2024-02-05T17:59:57.282Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 16,
+                  "revision": 7,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "articleCategories"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "Community",
+                  "slug": "community",
+                  "order": 45
+                }
+              }
+            }
+          }
+        ],
+        "headerImage": {
+          "metadata": { "tags": [], "concepts": [] },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "x77ixfmkpoiv"
+              }
+            },
+            "id": "Sb2M1YnMQ7q0tHuNiNKex",
+            "type": "Asset",
+            "createdAt": "2026-10-21T15:20:55.096Z",
+            "updatedAt": "2026-10-21T15:20:55.096Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Tomb Raider Turns 30 thumb",
+            "description": "",
+            "file": {
+              "url": "//images.ctfassets.net/x77ixfmkpoiv/Sb2M1YnMQ7q0tHuNiNKex/5982411ff4a30f9c9e22879a5fb1386a/TR30_thumb.png",
+              "details": {
+                "size": 2273532,
+                "image": { "width": 1440, "height": 960 }
+              },
+              "fileName": "TR30_thumb.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "socialMediaShareDescription": "Celebrate 30 years of Tomb Raider with a new Lo-Fi collection, 500+ official soundtrack tracks coming to streaming services this November, and exclusive TR30 artwork!",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Three decades have passed since Lara Croft first graced our tv screens and left an indelible mark on gaming history. Today, Tomb Raider officially turns 30, and we are celebrating a legacy of innovation, adventure, and discovery that continues to inspire generations of players.  ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "While this anniversary is a moment to celebrate Tomb Raider’s extraordinary history, the future is equally exciting. With ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " releasing on February 12, 2027, fans can revisit iconic locations reimagined through a new lens, while new players can visit these ancient spaces for the very first time.  ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Tomb Raider 30th Anniversary Lo-Fi Collection",
+                  "nodeType": "text"
+                },
+                { "data": {}, "marks": [], "value": " ", "nodeType": "text" }
+              ],
+              "nodeType": "heading-4"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "While we wait for Lara’s next adventure, we have something special to set the mood. As a gift to our community, we’ve partnered with ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://soundcloud.com/hatorskhick2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "underline" }],
+                      "value": "ThatNorskChick",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " to create the ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: 30th Anniversary Lo-Fi Collection",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", a relaxed musical journey through the series.  ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "41fwzB9u6RebWOGDgNhXhi",
+                    "type": "Asset",
+                    "createdAt": "2026-10-21T11:30:47.326Z",
+                    "updatedAt": "2026-10-21T11:34:12.532Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 8,
+                    "revision": 2,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "TR30 Lo-Fi Album Art ",
+                    "description": "Tomb Raider 30th Anniversary Lo-Fi Collection Album Art by Tholia",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/41fwzB9u6RebWOGDgNhXhi/00d2f2d87c3bedd93f6515d7c69ba7af/TombRaider_Lofi_Album_Art_Final_WEB.png",
+                      "details": {
+                        "size": 12006614,
+                        "image": { "width": 2000, "height": 2000 }
+                      },
+                      "fileName": "TombRaider_Lofi_Album_Art_Final_WEB.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "First revealed during the TR30 Tomb Raider Day celebration in Derby, England, the collection takes listeners through three decades of Tomb Raider, following Lara through her journey in the Survivor series, the Classic games, and through the Legend, Anniversary and Underworld trilogy. The collection reimagines and remixes original music from legendary Tomb Raider composers including Nathan McCree, Peter Connelly, Martin Iveson, Troels B. Folmann, Colin O’Malley, Jason Graves, Bobby Tahouri, Brian D’Oliveira, Wilbert Roget, II, and Paul Houseman. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Alix Wilton Regan, Lara Croft lead actor in ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", also recorded iconic lines from the franchise to sample throughout the collection. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\"My goal with this album was to capture the soul and the vibe of each game,\" explains That Norse Chick. \"Stylistically, lo-fi hip hop is the main foundation for this album, but I don't let that stop me from exploring because this is Tomb Raider. We're going to explore stuff. \" ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\"My process comes from the same techniques that they use to sample music in hip hop,\" she continues. \"I'll start with a track from the game, grab a little segment of it that I think is interesting, chop it up, create a loop, and then I let that loop guide me the rest of the way. What does the track need? What kind of drums is it going to want? What happens if I take the choirs form this game and mix it with the harps from this other game? Sometimes I'll beef up a melody by adding guitar or piano over it.\" After blocking out the composition, she then goes back and samples sound effects, voice clips, and ambient tracks for extra atmosphere.  ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Norsk aims to take the listener on a journey through Lara's life, opening with the Survivor trilogy, venturing through the classic Core Design titles, moving on to ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Legend ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "and Tomb",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": " Raider: Underworld",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", followed by a tribute to ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Lara Croft and the Temple of Osiris",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ". The album closes with ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Anniversary",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ". \" I feel like it represents Croft Manor. You know, coming back home, it's like a full circle moment\" concludes Norsk. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "To bring the collection to life visually, we also collaborated with talented community member ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": { "uri": "http://www.tholia.art/" },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "underline" }],
+                      "value": "Tholia",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " on two distinct pieces: the album’s Sun-drenched, picturesque cover art and a separate meticulously crafted animation depicting Lara Croft in her study at Croft Manor.  ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\"This was a dream come true, for sure,\" explained Tholia. \"I’ve been yearning for Lara’s return, and I cannot tell how excited I was to be invited to join such a cool project! I remember how mesmerized I was by Thailand in Underworld, or Ghana in Legend. I remember staring at the environment and the details, and that's precisely what I tried to recreate here. A moment where the viewer would just enjoy the view.\" ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Initially, Tholia wanted to make the landscape the star of the cover but adjusted her approach to ensure that Lara was one with nature. \"Because that was the whole point of the work here: enjoying a moment of calm in between Lara's journeys.\" ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "For the animation Tholia worked in Procreate, starting with a basic sketch to define the composition first.  \"For the animation itself, I recorded many reference videos of myself using a towel as the curtain, writing in my sketchbook... It was a lot of fun! The trickiest part was to stick to a limited number of images per second, as the goal was to create a Lo-Fi style animation loop. I also had a blast at thinking of the easter eggs to hide here and there!\" ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\"It has been a very time-consuming project of course,\" Tholia concluded, \"but one of the most exciting and addictive I ever worked on too!\" ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "You can enjoy the relaxing beats by heading over to our YouTube channel. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "[INSERT LINK] ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "How many Easter eggs can you spot in the animation? ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider 30th Anniversary Lo-Fi Collection",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " will be coming to other streaming services soon. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "Official Tomb Raider Soundtracks coming to streaming services!",
+                  "nodeType": "text"
+                },
+                { "data": {}, "marks": [], "value": " ", "nodeType": "text" }
+              ],
+              "nodeType": "heading-4"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "As part of the 30th anniversary celebration, we have also partnered with longtime Tomb Raider fan and music expert Harry Hinds, webmaster of ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": { "uri": "https://www.musicoftombraider.com/" },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "underline" }, { "type": "italic" }],
+                      "value": "Music of Tomb Raider",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ", to curate and prepare the franchise soundtracks for release. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "With Harry’s expertise guiding the project, more than 500 official Tomb Raider soundtrack tracks are expected to arrive on streaming services this November, including newly produced and previously unreleased albums, special compilations, and music being released on streaming platforms for the first time. We can’t wait to share more exciting details soon! ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [{ "type": "bold" }],
+                  "value": "TR30 Digital Wallpapers",
+                  "nodeType": "text"
+                },
+                { "data": {}, "marks": [], "value": " ", "nodeType": "text" }
+              ],
+              "nodeType": "heading-4"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Our team members are currently in Derby, UK, the city where it all began, for the annual Tomb Raider event. Stay tuned for the TR30 Derby Recap. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "In the meantime, you can join the celebrations by downloading our TR30 artwork. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {
+                "target": {
+                  "metadata": { "tags": [], "concepts": [] },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "x77ixfmkpoiv"
+                      }
+                    },
+                    "id": "n38SqEcwiknRQS3flDVlF",
+                    "type": "Asset",
+                    "createdAt": "2026-10-21T11:34:00.475Z",
+                    "updatedAt": "2026-10-21T11:34:00.475Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 10,
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Inna - TR30 - United",
+                    "description": "TR30 Derby Artwork by Inna Vjuzhanina",
+                    "file": {
+                      "url": "//images.ctfassets.net/x77ixfmkpoiv/n38SqEcwiknRQS3flDVlF/6681b56508cc8c6f3bd6be882f496ab9/Inna_Web.png",
+                      "details": {
+                        "size": 9989604,
+                        "image": { "width": 1920, "height": 1300 }
+                      },
+                      "fileName": "Inna_Web.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              },
+              "content": [],
+              "nodeType": "embedded-asset-block"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Download the incredible artwork created by Inna Vjuzhanina, the stunning Lo-Fi Collection cover art by Tholia, and wallpapers by ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "https://www.flickr.com/photos/tombraiderofficialflickr/albums/72177720334986882/"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "visiting our Flickr account.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Inna explains that the direction was to create a piece that honours the franchise’s roots by featuring Core Design’s Lara Croft alongside Crystal Dynamics’ present-day Lara from ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [{ "type": "italic" }],
+                  "value": "Tomb Raider: Legacy of Atlantis",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": ". The main guideline for the visual treatment was to give both versions equal prominence within a unified composition. Presented in a tarot-card style, the artwork allows fans to display either version according to their preference. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "“The team chose an environmental concept to go with, to my great excitement as I’ve been most eager to paint those gorgeous landscapes,\" explains Inna. \"The idea was to have two identical scenes on each side so it would really show the long way the franchise has come and the evolution that happened.\" ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\"I chose Scion to be the uniting element for the two different sides. The corners of the piece were asking for some decorations as well, so I chose something simple, the Peruvian symbols we see at the top of the door that leads to Vilcabamba.\" She continued. \"But we came up with an even better option. What if we had each corner paying homage to each level from the game. We’d have the Croft Manor, Peru, Greece, Egypt and then the Scion as a nod to the Atlantean levels.\"  ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\"All in all it was a massive project figuring out how to do different styles and how to combine them in a cohesive piece,\" she concludes. \"But completing the whole thing was a massively satisfying feeling.” ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Thirty years on, Tomb Raider is just getting started.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "publishDate": "2026-10-24",
+        "hideSocialSharingButtons": false,
+        "sysUpdatedAt": "2026-10-24T15:00:07.688Z"
+      },
+      {
         "title": "Raider Records – Exploring the Tomb Door Puzzle",
         "slug": "raider-records-exploring-the-tomb-door-puzzle",
         "isLatestNews": true,
@@ -11270,690 +12244,6 @@
         "publishDate": "2026-04-07",
         "hideSocialSharingButtons": false,
         "sysUpdatedAt": "2026-04-07T17:00:11.103Z"
-      },
-      {
-        "title": "Lara Croft and the Temple of Osiris Arrives on GameNight",
-        "slug": "lara-croft-and-the-temple-of-osiris-arrives-on-gamenight",
-        "isLatestNews": true,
-        "isFeatured": false,
-        "shouldOnlyDisplayInAccount": false,
-        "category": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "6KPfjWiWrWki8YH0wFTKoZ",
-            "type": "Entry",
-            "createdAt": "2023-09-15T16:14:47.775Z",
-            "updatedAt": "2024-02-05T18:36:21.395Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 8,
-            "revision": 4,
-            "contentType": {
-              "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "articleCategories"
-              }
-            },
-            "locale": "en-US"
-          },
-          "fields": {
-            "name": "Video Games",
-            "slug": "video-games",
-            "order": 10
-          }
-        },
-        "tags": [
-          {
-            "metadata": { "tags": [], "concepts": [] },
-            "sys": {
-              "space": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "Space",
-                  "id": "x77ixfmkpoiv"
-                }
-              },
-              "id": "7LJ2ImkyXRF1UvXSWji98X",
-              "type": "Entry",
-              "createdAt": "2023-09-15T18:17:37.424Z",
-              "updatedAt": "2023-09-15T18:17:37.424Z",
-              "environment": {
-                "sys": {
-                  "id": "master",
-                  "type": "Link",
-                  "linkType": "Environment"
-                }
-              },
-              "publishedVersion": 3,
-              "revision": 1,
-              "contentType": {
-                "sys": {
-                  "type": "Link",
-                  "linkType": "ContentType",
-                  "id": "articleTags"
-                }
-              },
-              "locale": "en-US"
-            },
-            "fields": {
-              "name": "Lara Croft and Temple of Osiris",
-              "category": {
-                "metadata": { "tags": [], "concepts": [] },
-                "sys": {
-                  "space": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "Space",
-                      "id": "x77ixfmkpoiv"
-                    }
-                  },
-                  "id": "6KPfjWiWrWki8YH0wFTKoZ",
-                  "type": "Entry",
-                  "createdAt": "2023-09-15T16:14:47.775Z",
-                  "updatedAt": "2024-02-05T18:36:21.395Z",
-                  "environment": {
-                    "sys": {
-                      "id": "master",
-                      "type": "Link",
-                      "linkType": "Environment"
-                    }
-                  },
-                  "publishedVersion": 8,
-                  "revision": 4,
-                  "contentType": {
-                    "sys": {
-                      "type": "Link",
-                      "linkType": "ContentType",
-                      "id": "articleCategories"
-                    }
-                  },
-                  "locale": "en-US"
-                },
-                "fields": {
-                  "name": "Video Games",
-                  "slug": "video-games",
-                  "order": 10
-                }
-              }
-            }
-          }
-        ],
-        "headerImage": {
-          "metadata": { "tags": [], "concepts": [] },
-          "sys": {
-            "space": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "x77ixfmkpoiv"
-              }
-            },
-            "id": "2AV8uswVWXjlBmtnpo2RAR",
-            "type": "Asset",
-            "createdAt": "2026-03-13T16:51:03.699Z",
-            "updatedAt": "2026-05-22T21:23:54.335Z",
-            "environment": {
-              "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-              }
-            },
-            "publishedVersion": 5,
-            "revision": 2,
-            "locale": "en-US"
-          },
-          "fields": {
-            "title": "Temple of osiris blog header",
-            "description": "Dramatic Tomb Raider promotional key art featuring four heroes standing together in a battle-ready pose against a dark, smoky, ruins-filled background. At the center is Lara Croft, depicted in her classic look with dark ponytail, teal tank top, brown shorts, and knee pads, dual-wielding pistols with both guns firing. To her left stands a muscular man in a red shirt firing a revolver with a red energy flash. To her right is a warrior dressed in an ancient Egyptian pharaoh's nemes headdress and armor, wielding a large staff. Furthest right is a young woman in Egyptian-style robes raising a glowing blue magical scepter. Looming behind the group is a massive snarling black wolf-like creature with bared fangs, emerging from the darkness. Scorpion claws and twisted dark tree branches frame the edges of the composition, reinforcing the supernatural danger the heroes face.",
-            "file": {
-              "url": "//images.ctfassets.net/x77ixfmkpoiv/2AV8uswVWXjlBmtnpo2RAR/7228974f834d87dba2c2b7661ff55006/Temple_of_osiris_blog_header.jpg",
-              "details": {
-                "size": 932829,
-                "image": { "width": 1440, "height": 960 }
-              },
-              "fileName": "Temple of osiris blog header.jpg",
-              "contentType": "image/jpeg"
-            }
-          }
-        },
-        "socialMediaShareDescription": "Lara Croft and the Temple of Osiris is available now on GameNight!",
-        "body": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Lara Croft has starred in many adventures over the decades, from ancient tombs to shipwrecked islands. While Lara can handle most of her exploits solo, she still needs the occasional helping hand – most notably in ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Lara Croft and the Temple of Osiris",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": ", where Lara joins with up to three companions for fast-paced top-down action and puzzle solving. With ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Temple of Osiris",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " coming to Game Night, we talked with Ryan Meyer, development lead for the Game Night version, about adapting Lara Croft’s cooperative adventure.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Game Night allows players to instantly jump into a game without dedicated hardware, using their phone as the controller. What makes ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }, { "type": "bold" }],
-                  "value": "Lara Croft and the Temple of Osiris",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": " a good fit for the platform?",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " I've been having a lot of fun with ",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }],
-                  "value": "Lara Croft and the Temple of Osiris",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " because of its co-op/competitive gameplay. It's a great fit for people to sit down on a couch together and play through it. You work together to beat the game, but you can also compete on things like gem count and score charts at the end of each level. It's super quick to get in and out of, and it offers a lot of moment-to-moment gameplay that makes everyone laugh, groan or cheer together.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "2oUPSQIhGRKxQ2DKtVb2zA",
-                    "type": "Asset",
-                    "createdAt": "2026-03-13T16:54:39.122Z",
-                    "updatedAt": "2026-05-22T21:16:57.922Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 5,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "LC2 Screenshot Ball Cage",
-                    "description": "A Tomb Raider game screenshot depicting an intense isometric combat scene set in a circular sandy arena at night. The enclosed battlefield is surrounded by wooden spike fences and tall dark barriers, with torches burning along the perimeter. At the center stands a crumbling ancient stone rotunda structure engulfed in fire and debris. Two player characters are visible — one on the upper left highlighted with a red selection ring aiming a weapon, and one on the upper right with a green ring in a combat stance. A third character near the bottom center is surrounded by a blue magical circle. The arena floor is scattered with glowing teal Zia symbol rings, purple gem pickups, a yellow arc marker, and green energy pools near the central structure. Explosions, fire bursts, smoke clouds, flying debris, and white energy beams fill the chaotic scene, suggesting a major battle or boss encounter in progress.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2oUPSQIhGRKxQ2DKtVb2zA/921433f9b6c0d2e3d746fa1b3af8f314/LC2_Screenshot_Ball_Cage.jpg",
-                      "details": {
-                        "size": 1660823,
-                        "image": { "width": 1920, "height": 1080 }
-                      },
-                      "fileName": "LC2 Screenshot_Ball_Cage.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "italic" }, { "type": "bold" }],
-                  "value": "Temple of Osiris",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": " was not originally designed for touch screen controls; how did you approach designing the controller interface for Game Night?",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " This was an interesting challenge because this isn't typical mobile game development. Sure, you're still playing on a mobile device, but you have to consider that the player is not looking at their phone most of the time. So, we needed to make sure the player could easily access every game action intuitively and ergonomically. The first step was mapping every action to a button on the touchscreen, then deciding on the control style and ensuring the buttons were large enough to hit accurately and reliably. Then it came down to playtesting and iteration.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "What were the biggest hurdles you faced in designing and implementing the touch controls",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " When moving to touch control, you really only want to have up to two touch inputs needed at a time. There are several inputs that work well with a gamepad that don't easily translate to touch. For example, to engage the grappling hook you need to move, aim and then hit the trigger. Then you need to hold down the trigger to keep the grappling hook connected. Then when you need to jump with the grappling hook out, that's three inputs at a time. So, we needed to figure out a solution. Do we replace the mobile controller when the grappling hook is out? Do we auto fire the grappling hook? In this case we changed the grappling hook to toggle to release. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "2tUwnB8w4Gf6BFpV6X6Eni",
-                    "type": "Asset",
-                    "createdAt": "2026-03-13T16:56:31.552Z",
-                    "updatedAt": "2026-05-22T21:02:32.149Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 5,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "LC2 Screenshot Puzzle",
-                    "description": "An isometric view of a combat scene inside an ancient Egyptian tomb or temple. The sandy, torchlit environment features stone brick walls, carved pharaoh statues, crumbling columns, and a row of tall metal spikes serving as a barrier across the middle of the scene. Four characters are engaged in battle: one character highlighted with a red danger ring appears to be under attack on the left side of the spikes, while another raises a glowing orb nearby. On the right side, a heavily armored warrior character stands within a teal glowing shield ability circle, and a third enemy holds a red flare. Teal and blue magical energy effects illuminate the ground around the fighters. Wall-mounted torches and small braziers cast warm orange light throughout the dimly lit stone chamber.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/2tUwnB8w4Gf6BFpV6X6Eni/824b687ed18b26e42e14f95c85cc3f4a/LC2_Screenshot_Puzzle.jpg",
-                      "details": {
-                        "size": 1691733,
-                        "image": { "width": 1920, "height": 1080 }
-                      },
-                      "fileName": "LC2 Screenshot_Puzzle.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Then there was the inventory. For the original design, players were all meant to share the screen when changing their inventory selections. That meant if one player wanted to swap a weapon or ring it would pause the game for everyone. With the Game Night version, we can take advantage of each player having their own device. We were able to implement a new game flow that allows players to individually adjust their inventory on their mobile device without pausing gameplay. With this change the gameplay continues smoothly and keeps the action going.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Which character is your favorite to play?",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " Personally I like characters that have the grappling hook, so Lara and Carter. I have to confess that when the whole team is walking across the grappling hook to get to the next platform I've given in to the temptation to pull the grappling hook back. \"Whoops! I slipped! I guess somebody should pick up all these gems, don't worry I'll take care of it.\"",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "5oqfWU4QT8jYACUDt43E9r",
-                    "type": "Asset",
-                    "createdAt": "2026-03-13T16:55:24.393Z",
-                    "updatedAt": "2026-05-22T21:07:28.758Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 5,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "LC2 Screenshot Flood Tomb",
-                    "description": "A Tomb Raider game screenshot showing an isometric combat scene set in a darkened, overgrown ancient ruins courtyard at night. The multi-tiered stone environment is covered in vines and moss, lit by scattered torches and glowing blue crystals on the ground. Four characters are engaged in battle across different levels of the ruins: one character ringed in red is fighting a skeleton enemy in the foreground, another with a green selection ring is firing a weapon in the center, a third is conjuring a teal magical energy beam on the upper right, and a yellow glowing ring marks another position nearby. Swirling smoke, ice crystal effects, and magical blue light trails fill the scene. Stone archways, clay pots, crumbling columns, and overgrown walls decorate the atmospheric background, creating a haunted, ancient temple atmosphere.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5oqfWU4QT8jYACUDt43E9r/2c8ff051f399016a614af0909490ee5c/LC2_Screenshot_Flood_Tomb.jpg",
-                      "details": {
-                        "size": 1729366,
-                        "image": { "width": 1920, "height": 1080 }
-                      },
-                      "fileName": "LC2 Screenshot_Flood_Tomb.jpg",
-                      "contentType": "image/jpeg"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [{ "type": "bold" }],
-                  "value": "Any other stories or thoughts on the development that players would enjoy hearing about?",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " The web controller went through a lot of iteration. First, we had three buttons on each side of the web controller, each near a virtual thumbstick. We started with an “expedition” theme to the background design. Through playtesting we changed the theme to be “Mystical Egyptian,” which was a better fit for all the characters. We also moved the mine button with every iteration of layout design. Here are some of the work in progress images we went through when approaching the final design:",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "5FyWZ4qhqs7hnh4GIktPgI",
-                    "type": "Asset",
-                    "createdAt": "2026-03-13T16:57:15.742Z",
-                    "updatedAt": "2026-05-22T20:28:40.823Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 9,
-                    "revision": 3,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Picture1-740",
-                    "description": "Smartphone mockup displaying a custom touchscreen game controller interface themed around Tomb Raider. The screen features a brown textured background with gold circular control overlays, including a directional pad on the left and a large movement control on the right. Additional icons include a pistol, a flaming torch, and a curved arrow symbol. In the upper-left corner is a portrait of Lara Croft framed by decorative wings.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/5FyWZ4qhqs7hnh4GIktPgI/c26844072d36a296a6b6cde55f5bf1f0/ToO_mobile_controller_concept_1.png",
-                      "details": {
-                        "size": 458863,
-                        "image": { "width": 740, "height": 417 }
-                      },
-                      "fileName": "ToO mobile controller concept 1.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {
-                "target": {
-                  "metadata": { "tags": [], "concepts": [] },
-                  "sys": {
-                    "space": {
-                      "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "x77ixfmkpoiv"
-                      }
-                    },
-                    "id": "3yC2dI3wZ9LXIEgZZIuuvU",
-                    "type": "Asset",
-                    "createdAt": "2026-03-13T16:57:42.712Z",
-                    "updatedAt": "2026-05-22T20:37:22.987Z",
-                    "environment": {
-                      "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                      }
-                    },
-                    "publishedVersion": 6,
-                    "revision": 2,
-                    "locale": "en-US"
-                  },
-                  "fields": {
-                    "title": "Picture3",
-                    "description": "A steampunk-styled UI panel from a Tomb Raider game featuring an Egyptian pharaoh character portrait at the center, framed in gold with laurel leaves. Surrounding the portrait are eight circular teal-glowing icon buttons arranged symmetrically on a bronze/brown textured background with gold trim. Icons include an ankh, a pistol with rotation arrows (weapon swap), an anchor, a compass/wheel, a lasso/rope tool, a hand gesture, a targeting reticle, and a rectangular layout button. A large golden downward-pointing arrow emblem decorates the center background.",
-                    "file": {
-                      "url": "//images.ctfassets.net/x77ixfmkpoiv/3yC2dI3wZ9LXIEgZZIuuvU/c466760f20d5758fbf2f586354d4f348/Picture3.png",
-                      "details": {
-                        "size": 1067766,
-                        "image": { "width": 1082, "height": 486 }
-                      },
-                      "fileName": "Picture3.png",
-                      "contentType": "image/png"
-                    }
-                  }
-                }
-              },
-              "content": [],
-              "nodeType": "embedded-asset-block"
-            },
-            {
-              "data": {},
-              "content": [
-                { "data": {}, "marks": [], "value": "", "nodeType": "text" }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Grab some companions and experience",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {
-                    "uri": "https://luna.amazon.com/game/lara-croft-and-the-temple-of-osiris/B0GFVRPZZN"
-                  },
-                  "content": [
-                    {
-                      "data": {},
-                      "marks": [],
-                      "value": " Lara Croft's co-op adventure on GameNight ",
-                      "nodeType": "text"
-                    }
-                  ],
-                  "nodeType": "hyperlink"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "today!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "publishDate": "2026-03-17",
-        "hideSocialSharingButtons": false,
-        "sysUpdatedAt": "2026-03-17T16:00:05.492Z"
       }
     ],
     "products": [
