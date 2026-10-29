@@ -776,6 +776,14 @@
       );
       let d = a.os;
     },
+    28799: (e, t, r) => {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        "/lara-croft",
+        function () {
+          return r(86215);
+        },
+      ]);
+    },
     30815: (e, t, r) => {
       "use strict";
       r.d(t, { A: () => u });
@@ -1560,14 +1568,6 @@
           return !1;
         }),
         a);
-    },
-    51180: (e, t, r) => {
-      (window.__NEXT_P = window.__NEXT_P || []).push([
-        "/lara-croft",
-        function () {
-          return r(86215);
-        },
-      ]);
     },
     55872: (e, t, r) => {
       "use strict";
@@ -4019,7 +4019,7 @@
         9950, 8762, 5013, 2696, 1329, 6342, 3492, 4971, 9980, 2642, 636, 6593,
         8792,
       ],
-      () => e((e.s = 51180)),
+      () => e((e.s = 28799)),
     ),
       (_N_E = e.O()));
   },

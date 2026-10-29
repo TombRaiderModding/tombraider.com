@@ -510,59 +510,6 @@
         });
       }
     },
-    28799: (e, t, s) => {
-      "use strict";
-      s.a(e, async (e, r) => {
-        try {
-          (s.r(t), s.d(t, { __N_SSG: () => o, default: () => c }));
-          var l = s(2183),
-            a = s(74474),
-            i = s(56646),
-            n = e([i]);
-          i = (n.then ? (await n)() : n)[0];
-          let d = {
-            featured:
-              "Browse featured Tomb Raider products from Crystal Dynamics. Discover the latest games, collectibles, and official merchandise starring Lara Croft today.",
-            games:
-              "Explore the full Tomb Raider games catalog. From classic remasters to the Survivor Trilogy, discover every Lara Croft adventure available to play now.",
-            "tv-and-film":
-              "Discover all Tomb Raider TV and film titles, including the Netflix animated series The Legend of Lara Croft and the classic Lara Croft live-action movies.",
-          };
-          var o = !0;
-          function c({
-            categories: e,
-            categorySlug: t,
-            featuredProducts: s,
-            subcategories: r,
-            websiteSingleton: n,
-            navItems: o,
-            footerSocialLinks: u,
-            surveys: h,
-            signUpBanner: p,
-          }) {
-            let x = d[t];
-            return (0, l.jsxs)(l.Fragment, {
-              children: [
-                x && (0, l.jsx)(a.A, { description: x }),
-                (0, l.jsx)(i.A, {
-                  categories: e,
-                  galleryProducts: s,
-                  productLists: r,
-                  websiteSingleton: n,
-                  navItems: o,
-                  footerSocialLinks: u,
-                  surveys: h,
-                  signUpBanner: p,
-                }),
-              ],
-            });
-          }
-          r();
-        } catch (e) {
-          r(e);
-        }
-      });
-    },
     28872: (e, t, s) => {
       "use strict";
       e.exports = s(94528);
@@ -993,6 +940,59 @@
             });
           }
           (([a, f] = b.then ? (await b)() : b), r());
+        } catch (e) {
+          r(e);
+        }
+      });
+    },
+    51180: (e, t, s) => {
+      "use strict";
+      s.a(e, async (e, r) => {
+        try {
+          (s.r(t), s.d(t, { __N_SSG: () => o, default: () => c }));
+          var l = s(2183),
+            a = s(74474),
+            i = s(56646),
+            n = e([i]);
+          i = (n.then ? (await n)() : n)[0];
+          let d = {
+            featured:
+              "Browse featured Tomb Raider products from Crystal Dynamics. Discover the latest games, collectibles, and official merchandise starring Lara Croft today.",
+            games:
+              "Explore the full Tomb Raider games catalog. From classic remasters to the Survivor Trilogy, discover every Lara Croft adventure available to play now.",
+            "tv-and-film":
+              "Discover all Tomb Raider TV and film titles, including the Netflix animated series The Legend of Lara Croft and the classic Lara Croft live-action movies.",
+          };
+          var o = !0;
+          function c({
+            categories: e,
+            categorySlug: t,
+            featuredProducts: s,
+            subcategories: r,
+            websiteSingleton: n,
+            navItems: o,
+            footerSocialLinks: u,
+            surveys: h,
+            signUpBanner: p,
+          }) {
+            let x = d[t];
+            return (0, l.jsxs)(l.Fragment, {
+              children: [
+                x && (0, l.jsx)(a.A, { description: x }),
+                (0, l.jsx)(i.A, {
+                  categories: e,
+                  galleryProducts: s,
+                  productLists: r,
+                  websiteSingleton: n,
+                  navItems: o,
+                  footerSocialLinks: u,
+                  surveys: h,
+                  signUpBanner: p,
+                }),
+              ],
+            });
+          }
+          r();
         } catch (e) {
           r(e);
         }
@@ -1468,7 +1468,7 @@
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/products/[category]",
         function () {
-          return s(28799);
+          return s(51180);
         },
       ]);
     },

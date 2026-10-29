@@ -152,7 +152,7 @@
       f,
       e,
       n,
-      "static/chunks/pages/lara-croft-871035ea17b4ad95.js",
+      "static/chunks/pages/lara-croft-9fd4596acb149753.js",
     ],
     "/legal/cookies": [
       c,
@@ -213,7 +213,7 @@
       i,
       e,
       n,
-      "static/chunks/pages/products/[category]-25c9bf47412521ad.js",
+      "static/chunks/pages/products/[category]-56ec9571e732b237.js",
     ],
     "/products/[category]/[title]": [
       c,
