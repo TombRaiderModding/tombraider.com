@@ -485,7 +485,7 @@
         return (0, l.jsxs)("aside", {
           "aria-label": "Society of Raiders sign-up call to action",
           className:
-            "relative flex aspect-video w-screen flex-col justify-center bg-black pb-8 lg:px-24 lg:py-16",
+            "relative flex aspect-video w-full flex-col justify-center bg-black pb-8 lg:px-24 lg:py-16",
           children: [
             (0, l.jsxs)("div", {
               className:

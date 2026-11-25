@@ -5,7 +5,7 @@
       "use strict";
       s.a(e, async (e, r) => {
         try {
-          s.d(t, { A: () => f });
+          s.d(t, { A: () => g });
           var l = s(2183),
             a = s(75109),
             i = s(36439),
@@ -17,8 +17,8 @@
             h = s(64171),
             p = s(92642),
             x = s(94536),
-            g = e([a, p]);
-          function f(e) {
+            f = e([a, p]);
+          function g(e) {
             let { products: t, title: s, description: r, isHome: a } = e,
               [n, c] = (0, i.useState)(null);
             return (0, l.jsxs)("div", {
@@ -236,7 +236,7 @@
               }),
             });
           }
-          (([a, p] = g.then ? (await g)() : g), r());
+          (([a, p] = f.then ? (await f)() : f), r());
         } catch (e) {
           r(e);
         }
@@ -264,7 +264,7 @@
       "use strict";
       s.a(e, async (e, r) => {
         try {
-          s.d(t, { A: () => g });
+          s.d(t, { A: () => f });
           var l = s(2183),
             a = s(15013),
             i = s.n(a),
@@ -276,7 +276,7 @@
             h = s(92642),
             p = s(95783),
             x = e([c, h, p]);
-          function g({
+          function f({
             websiteSingleton: e,
             navItems: t,
             footerSocialLinks: s,
@@ -425,7 +425,7 @@
             rounded: p = !1,
           } = e,
           x = (e) => (e ? ("string" == typeof e ? e : e.name) : ""),
-          g = (e) => {
+          f = (e) => {
             o("string" == typeof e ? e : e.value);
           };
         return (0, r.jsxs)(a.Menu, {
@@ -488,13 +488,13 @@
                             ? (0, r.jsx)(c(), {
                                 scroll: !1,
                                 href: s,
-                                onClick: () => g(e),
+                                onClick: () => f(e),
                                 className: l,
                                 children: x(e),
                               })
                             : (0, r.jsx)("button", {
                                 type: "button",
-                                onClick: () => g(e),
+                                onClick: () => f(e),
                                 className: `w-full text-left ${l}`,
                                 children: x(e),
                               });
@@ -509,6 +509,59 @@
           ],
         });
       }
+    },
+    28799: (e, t, s) => {
+      "use strict";
+      s.a(e, async (e, r) => {
+        try {
+          (s.r(t), s.d(t, { __N_SSG: () => o, default: () => c }));
+          var l = s(2183),
+            a = s(74474),
+            i = s(56646),
+            n = e([i]);
+          i = (n.then ? (await n)() : n)[0];
+          let d = {
+            featured:
+              "Browse featured Tomb Raider products from Crystal Dynamics. Discover the latest games, collectibles, and official merchandise starring Lara Croft today.",
+            games:
+              "Explore the full Tomb Raider games catalog. From classic remasters to the Survivor Trilogy, discover every Lara Croft adventure available to play now.",
+            "tv-and-film":
+              "Discover all Tomb Raider TV and film titles, including the Netflix animated series The Legend of Lara Croft and the classic Lara Croft live-action movies.",
+          };
+          var o = !0;
+          function c({
+            categories: e,
+            categorySlug: t,
+            featuredProducts: s,
+            subcategories: r,
+            websiteSingleton: n,
+            navItems: o,
+            footerSocialLinks: u,
+            surveys: h,
+            signUpBanner: p,
+          }) {
+            let x = d[t];
+            return (0, l.jsxs)(l.Fragment, {
+              children: [
+                x && (0, l.jsx)(a.A, { description: x }),
+                (0, l.jsx)(i.A, {
+                  categories: e,
+                  galleryProducts: s,
+                  productLists: r,
+                  websiteSingleton: n,
+                  navItems: o,
+                  footerSocialLinks: u,
+                  surveys: h,
+                  signUpBanner: p,
+                }),
+              ],
+            });
+          }
+          r();
+        } catch (e) {
+          r(e);
+        }
+      });
     },
     28872: (e, t, s) => {
       "use strict";
@@ -611,12 +664,12 @@
             h = s(31153),
             p = s(61932),
             x = s(28564),
-            g = s(57560),
-            f = s(92642),
+            f = s(57560),
+            g = s(92642),
             m = s(80707),
             v = s.n(m),
             w = s(72538),
-            b = e([a, f]);
+            b = e([a, g]);
           function j({ categories: e, products: t }) {
             let [s, r] = (0, u.useState)(0),
               [a, i] = (0, u.useState)(v().nth(t, s));
@@ -682,7 +735,7 @@
                                   e === s ? "opacity-100" : "opacity-0",
                                 ),
                                 alt: r?.fields.image?.fields.description ?? "",
-                                src: (0, f._c)(
+                                src: (0, g._c)(
                                   r?.fields.image?.fields.file?.url,
                                 ),
                               },
@@ -777,7 +830,7 @@
                                   t === s ? "opacity-100" : "opacity-0",
                                 ),
                                 alt: e.titleLogo.fields.description ?? "",
-                                src: (0, f._c)(e.titleLogo.fields.file?.url),
+                                src: (0, g._c)(e.titleLogo.fields.file?.url),
                               },
                               e.slug ?? s,
                             ),
@@ -842,8 +895,8 @@
                   }),
                 }),
                 (0, l.jsx)(_, { tabs: e }),
-                (0, l.jsx)(g.A, {
-                  images: t.map(a.r5H).map((e, t) => (0, f.pO)(e, t, !0)),
+                (0, l.jsx)(f.A, {
+                  images: t.map(a.r5H).map((e, t) => (0, g.pO)(e, t, !0)),
                   selectedImageIndex: s,
                   setSelectedImageIndex: r,
                 }),
@@ -939,60 +992,7 @@
               ],
             });
           }
-          (([a, f] = b.then ? (await b)() : b), r());
-        } catch (e) {
-          r(e);
-        }
-      });
-    },
-    51180: (e, t, s) => {
-      "use strict";
-      s.a(e, async (e, r) => {
-        try {
-          (s.r(t), s.d(t, { __N_SSG: () => o, default: () => c }));
-          var l = s(2183),
-            a = s(74474),
-            i = s(56646),
-            n = e([i]);
-          i = (n.then ? (await n)() : n)[0];
-          let d = {
-            featured:
-              "Browse featured Tomb Raider products from Crystal Dynamics. Discover the latest games, collectibles, and official merchandise starring Lara Croft today.",
-            games:
-              "Explore the full Tomb Raider games catalog. From classic remasters to the Survivor Trilogy, discover every Lara Croft adventure available to play now.",
-            "tv-and-film":
-              "Discover all Tomb Raider TV and film titles, including the Netflix animated series The Legend of Lara Croft and the classic Lara Croft live-action movies.",
-          };
-          var o = !0;
-          function c({
-            categories: e,
-            categorySlug: t,
-            featuredProducts: s,
-            subcategories: r,
-            websiteSingleton: n,
-            navItems: o,
-            footerSocialLinks: u,
-            surveys: h,
-            signUpBanner: p,
-          }) {
-            let x = d[t];
-            return (0, l.jsxs)(l.Fragment, {
-              children: [
-                x && (0, l.jsx)(a.A, { description: x }),
-                (0, l.jsx)(i.A, {
-                  categories: e,
-                  galleryProducts: s,
-                  productLists: r,
-                  websiteSingleton: n,
-                  navItems: o,
-                  footerSocialLinks: u,
-                  surveys: h,
-                  signUpBanner: p,
-                }),
-              ],
-            });
-          }
-          r();
+          (([a, g] = b.then ? (await b)() : b), r());
         } catch (e) {
           r(e);
         }
@@ -1020,12 +1020,12 @@
             navItems: u,
             footerSocialLinks: p,
             surveys: x,
-            signUpBanner: g,
+            signUpBanner: f,
           }) {
             return (0, l.jsxs)("div", {
               className: "",
               children: [
-                (0, l.jsx)(a.Ay, { surveys: x, navItems: u, signUpBanner: g }),
+                (0, l.jsx)(a.Ay, { surveys: x, navItems: u, signUpBanner: f }),
                 (0, l.jsx)(i.A, { categories: e, products: t }),
                 (0, l.jsxs)(d.A, {
                   children: [
@@ -1105,17 +1105,17 @@
         disableSwipe: p = !1,
       }) {
         let x = o(),
-          [g, f] = (0, n.useState)(null),
+          [f, g] = (0, n.useState)(null),
           m = (t) => {
             let r = t;
             (r >= e.length && (r = e.length - 1),
               r < 0 && (r = 0),
               s(r),
-              g?.slideTo(r));
+              f?.slideTo(r));
           };
         return (
           (0, n.useEffect)(() => {
-            g?.activeIndex != t && g?.slideTo(t);
+            f?.activeIndex != t && f?.slideTo(t);
           }, [t]),
           (0, r.jsxs)("div", {
             className: "relative w-full",
@@ -1127,7 +1127,7 @@
                   autoHeight: !0,
                   slidesPerView: "auto",
                   className: "swiper-show-overflow relative flex ",
-                  onSwiper: (e) => f(e),
+                  onSwiper: (e) => g(e),
                   onSlideChange: (e) => m(e.activeIndex),
                   children: [
                     (0, r.jsx)(c, { disableSwipe: p, selectedImageIndex: t }),
@@ -1434,7 +1434,7 @@
         return (0, r.jsxs)("aside", {
           "aria-label": "Society of Raiders sign-up call to action",
           className:
-            "relative flex aspect-video w-screen flex-col justify-center bg-black pb-8 lg:px-24 lg:py-16",
+            "relative flex aspect-video w-full flex-col justify-center bg-black pb-8 lg:px-24 lg:py-16",
           children: [
             (0, r.jsxs)("div", {
               className:
@@ -1468,7 +1468,7 @@
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/products/[category]",
         function () {
-          return s(51180);
+          return s(28799);
         },
       ]);
     },
@@ -1557,7 +1557,7 @@
           let h = `${a.W}/#organization`,
             p = `${a.W}/#website`,
             x = "Tomb Raider",
-            g = "https://en.wikipedia.org/wiki/Tomb_Raider";
+            f = "https://en.wikipedia.org/wiki/Tomb_Raider";
           function n(e) {
             let t = (0, l._c)(e.footerLogo?.fields.file?.url);
             return t ? { logo: { "@type": "ImageObject", url: t } } : {};
@@ -1572,7 +1572,7 @@
               ...n(e),
               sameAs: [
                 ...t.map((e) => e.link),
-                g,
+                f,
                 "https://www.wikidata.org/wiki/Q270503",
               ],
             };
@@ -1630,7 +1630,7 @@
               isPartOf: {
                 "@type": "VideoGameSeries",
                 name: "Tomb Raider",
-                sameAs: g,
+                sameAs: f,
               },
             };
           }
